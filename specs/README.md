@@ -9,7 +9,8 @@ principles, anti-goals) → the numbered specs below → [`06-agents-and-memory.
 (who does the work and what they remember) → [`07-indicators.md`](07-indicators.md) (how
 we know it's working).
 
-**Build sequence: 01 → 02 → 03 → 04 → 05.** 06 and 07 are cross-cutting — every other
+**Build sequence: 01 → 02 → 03 → 04 → 05 (the generation pipeline), then 08 → 09 (the
+running app the generated prototypes are a design contract for).** 06 and 07 are cross-cutting — every other
 spec assumes the agents and memory types defined in 06, and every stage emits the
 indicators defined in 07. Validation (04) is not a final step bolted on at the end; its
 gates run inline after 01, after 02, and after 03 (see 04 §1 "when gates run").
@@ -23,6 +24,8 @@ gates run inline after 01, after 02, and after 03 (see 04 §1 "when gates run").
 | 5 | [Iteration](05-iteration.md) | Free-text feedback → scoped deltas → scoped regeneration | Feedback parsed into deltas; only affected sections regenerate; traceability + security gates always re-run in full, never scoped down; every round is versioned and diffable |
 | 6 | [Agents and memory](06-agents-and-memory.md) | 6 agents, 6 memory types, who writes/reads what | One agent per pipeline stage plus a feedback-integrator and an indicator-reporter; each agent is the primary writer of one memory type |
 | 7 | [Indicators](07-indicators.md) | Leading (pre-review) and lagging (post-review) metrics | Leading indicators predict rework risk before a human looks; lagging indicators report what happened after; security/traceability lapses are severity-1 incidents, not just metrics |
+| 8 | [App architecture](08-app-architecture.md) | The customer-facing runtime the prototypes are a design contract for | BFF-only topology (browser never touches core systems or SWIFT); mockable-by-contract adapters; per-view latency budgets and freshness model; the one write path (held-wire Confirm/Reject) architecturally separated with step-up auth, idempotency, audit-before-ack; degradation designed as reviewed UI states |
+| 9 | [Standards](09-standards.md) | Security, privacy, operational standards for the running app | Every standard testable yes/no; tipping-off suppression is a data-layer control (raw codes never transmitted, not just never displayed); fail closed always; privacy by contract/schema, not discipline; degraded states have automated tests; audit completeness continuously reconciled |
 
 ## Cross-spec contracts (change these only with a spec edit)
 
