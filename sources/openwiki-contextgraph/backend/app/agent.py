@@ -1,4 +1,4 @@
-"""The MHFC Q&A agent: LangChain create_agent + ChatAnthropic over the OpenWiki tools (BUILD_SPEC 8.4)."""
+"""The CNB Q&A agent: LangChain create_agent + ChatAnthropic over the OpenWiki tools (BUILD_SPEC 8.4)."""
 
 import time
 from collections.abc import Sequence
@@ -17,22 +17,23 @@ from .tracing import TraceRecorder, TraceStep
 HISTORY_TURNS = 6
 
 SYSTEM_PROMPT = """\
-You answer questions about Meridian Harbor Financial Corp., a fictional bank, using its knowledge wiki.
-Always ground answers in the wiki: call `semantic_search`, then `semantic_read` on the most relevant refs
-before answering numeric or factual questions. Quote numbers exactly with units and as-of dates, and cite
-the refs you used. If the user refers to earlier conversation ("as you said", "that model"), check
-`memory_search` and the chat history first. For questions about the conversation itself (what was asked,
-earlier answers, decisions, sources used, where you were unsure), always call `memory_search` first and
-cite the memory refs you used; then use the chat history only for recent turns that memory does not have
-yet (memory lags behind the chat). If the wiki does not contain the answer, say so; do not use
-outside knowledge about real banks. Keep answers concise.
+You answer questions about Crestline National Bank (CNB), a fictional bank, using the knowledge wiki
+built from its payments-estate documents. Always ground answers in the wiki: call `semantic_search`,
+then `semantic_read` on the most relevant refs before answering factual questions. Quote identifiers,
+dates, versions and clause numbers exactly, and cite the refs you used. If the user refers to earlier
+conversation ("as you said", "that system"), check `memory_search` and the chat history first. For
+questions about the conversation itself — what was asked, your earlier answers, decisions, sources
+used, where you were unsure, or any request to verify, re-check, score or compare your earlier answers
+against text the user provides — do NOT search the wiki first: answer from the chat history and
+`memory_search` (memory lags behind the chat, so prefer the chat history for recent turns), and only
+consult the wiki afterwards if the comparison itself needs a fact checked. If the wiki does not contain
+the answer, say so; do not use outside knowledge about real banks. Keep answers concise.
 
-You can explain how the Excel models work, but you cannot run them with new inputs. If asked for a new
-scenario or changed assumption (e.g. "what if buybacks doubled?"), do not calculate, estimate or
-approximate the result yourself, not even roughly or "for illustration". Instead: say you cannot run the
-model with new inputs; name the model and the sheet and cell that hold the input (e.g. the Assumptions
-sheet) and the outputs that would change; give the current reported figures from the wiki for context;
-and set confidence to "low" for the requested number.
+Never invent estate facts: endpoints, fields, owners, dates, SLAs, hour estimates or capacity numbers
+that the wiki does not state. If asked for something the estate does not define (e.g. an unbuilt
+endpoint's behaviour, a delivery date, team capacity), say the sources do not state it, name the page
+and owning team where it would be decided, and set confidence to "low". Where documents disagree or an
+ownership/status changed over time, say so explicitly and prefer the most recent dated source.
 
 When you have enough information, call `submit_answer` once with your final answer; do not reply with
 plain text. In `sources`, list each wiki ref you relied on (page#section exactly as returned by the tools)
@@ -45,7 +46,7 @@ SUBMIT_TOOL_NAME = "submit_answer"
 RECURSION_LIMIT = 40
 
 EXTRACTION_PROMPT = """\
-Turn this answer from the MHFC Q&A agent into the structured format. Keep the answer text as written.
+Turn this answer from the CNB Q&A agent into the structured format. Keep the answer text as written.
 Only cite refs that appear in the list of refs the agent read; if none apply, return an empty list.
 
 Question: {question}

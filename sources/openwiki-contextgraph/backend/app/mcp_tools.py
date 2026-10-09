@@ -154,7 +154,7 @@ class OpenWikiTools:
             StructuredTool.from_function(
                 coroutine=self.semantic_search,
                 name="semantic_search",
-                description="Search the MHFC knowledge wiki (reports, models, APIs, metrics). "
+                description="Search the CNB knowledge wiki (systems, interfaces, teams, policies, decisions, incidents, datasets). "
                 "Returns ranked sections with refs like openwiki/models/x.md#section.",
                 args_schema=SearchArgs,
             ),

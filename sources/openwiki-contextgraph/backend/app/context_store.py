@@ -196,8 +196,8 @@ class ContextStore:
         return [_parse_turn(f.read_text(encoding="utf-8")) for f in files]
 
 README = (
-    "# MHFC Q&A agent trace log\n\n"
-    "Trace log of the MHFC Q&A agent: one Markdown file per conversation turn under `sessions/`. "
+    "# CNB Q&A agent trace log\n\n"
+    "Trace log of the CNB Q&A agent: one Markdown file per conversation turn under `sessions/`. "
     "See openwiki/INSTRUCTIONS.md.\n"
 )
 # Marker the memory sync writes after its first successful init; never part of the corpus.

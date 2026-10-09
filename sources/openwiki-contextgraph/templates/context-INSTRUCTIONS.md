@@ -6,7 +6,7 @@
 ## What this repository is
 
 This repository is NOT a software codebase. It is the running log of a question-answering agent that
-answers questions about a fictional bank (Meridian Harbor Financial Corp.). The agent answers using a
+answers questions about a fictional bank (Crestline National Bank (CNB)). The agent answers using a
 separate **semantic wiki** (the bank's documents) and writes one Markdown trace file per conversation turn:
 
 - `sessions/<session-id>/session.md` - session metadata and a running list of turns.
