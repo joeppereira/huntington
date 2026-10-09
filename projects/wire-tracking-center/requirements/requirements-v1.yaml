@@ -1,0 +1,231 @@
+# Requirements Document v1 — Wire Tracking Center
+# Extracted per specs/01-ingestion.md from inputs/wire-tracking-center-prd.docx
+# Stage: 01-ingestion | Extractor: requirements-extractor | Schema: schemas/requirements.schema.json
+
+source_document: "Wire Tracking Center - Product Requirements Document.docx"
+requirements:
+
+  - req_id: REQ-DB-01
+    title: Aggregate Metrics Display
+    description: >
+      Dashboard displays total transaction count and aggregated dollar value for:
+      Outgoing Wires, Incoming Wires Today, Pending Review, International in Transit.
+    source: {section: "3.1 Dashboard and Executive Summary"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: false
+
+  - req_id: REQ-DB-02
+    title: Wire Insights Engine
+    description: >
+      Display contextual operational intelligence from historical/system data, e.g.
+      "Beneficiary typically moves funds within 4 hours", "92% of [Currency] wires
+      typically complete same day."
+    source: {section: "3.1 Dashboard and Executive Summary"}
+    audience: customer
+    ambiguous: true
+    ambiguity_notes: >
+      No defined trigger, placement, or data source for insights. PROPOSAL (not fact):
+      render as an insights strip on the dashboard and inline insight lines in wire
+      detail, using example copy from the PRD as placeholder.
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-SF-01
+    title: Multi-Parametric Search
+    description: >
+      Search wires by Wire ID, Confirmation Number, Beneficiary Name, Amount,
+      Originator, Account Number, or SWIFT Reference.
+    source: {section: "3.2 Search, Filtration, and Transaction Details"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: false
+
+  - req_id: REQ-SF-02
+    title: Dynamic Filtering
+    description: Filter by Date/Date Range, Wire Type (Domestic/International), Execution Status (Settled/Pending/Held).
+    source: {section: "3.2 Search, Filtration, and Transaction Details"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: false
+
+  - req_id: REQ-SF-03
+    title: Comprehensive Record View
+    description: >
+      Wire detail shows Status, Direction, Amount, Beneficiary Details, Account
+      Details, SWIFT Reference, Submitted Time, Last Updated Time.
+    source: {section: "3.2 Search, Filtration, and Transaction Details"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: false
+
+  - req_id: REQ-SF-04
+    title: Detailed Fee Breakdown
+    description: Detail view delineates Originating Bank Fee, Intermediary Bank Fee(s), Beneficiary Bank Fee.
+    source: {section: "3.2 Search, Filtration, and Transaction Details"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: false
+
+  - req_id: REQ-JT-01
+    title: FedEx-Style Progress Bar
+    description: >
+      Domestic wires show milestone timeline: Wire Submitted → Wire Approved → Bank
+      Received → Confirmation Number Generated → Settled. PRD note: backend work
+      required to surface "Settled".
+    source: {section: "3.3 Journey Tracking & SWIFT gpi Integration"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-JT-02
+    title: SWIFT gpi Route Visualization
+    description: >
+      International wires embed SWIFT gpi route: Originated → SWIFT Sent →
+      Intermediary Node(s) → Beneficiary Bank → Delivered.
+    source: {section: "3.3 Journey Tracking & SWIFT gpi Integration"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-JT-03
+    title: Global Route Insights
+    description: >
+      International view shows intermediary bank count, currency-specific completion
+      rates, historical recipient-side fees.
+    source: {section: "3.3 Journey Tracking & SWIFT gpi Integration"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-EX-01
+    title: Held Wire Review
+    description: >
+      Dedicated view for wires requiring client review, displaying hold reasons.
+      CRITICAL: sensitive trigger reasons (potential fraud, compromised credentials)
+      must be suppressed; client-facing copy must be vetted.
+    source: {section: "3.4 Exception Management"}
+    audience: customer
+    ambiguous: false
+    risk_flags: [security-sensitive]
+    depends_on_backend: true
+
+  - req_id: REQ-EX-02
+    title: Held Wire Client Action
+    description: Clients securely Confirm (authorize release) or Reject held wires from the UI.
+    source: {section: "3.4 Exception Management"}
+    audience: customer
+    ambiguous: false
+    risk_flags: [security-sensitive]
+    depends_on_backend: true
+
+  - req_id: REQ-EX-03
+    title: Risk & Release Insights
+    description: On Confirm/Reject, display predictive insight on time-to-completion or cancellation next steps.
+    source: {section: "3.4 Exception Management"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-EX-04
+    title: Returned Wire Details
+    description: >
+      Dedicated returned-wires view with full tracking fidelity plus return reasons,
+      root-cause insights, recommended resolution steps.
+    source: {section: "3.4 Exception Management"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-SS-01
+    title: Contextual Explain Delays
+    description: Clickable feature surfacing contextual FAQs based on current delayed status/stage.
+    source: {section: "3.5 Self-Service, Support, and Subscriptions"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: false
+
+  - req_id: REQ-SS-02
+    title: Contact Support Escalation
+    description: Persistent Contact Support button linked to relationship manager / treasury support desk.
+    source: {section: "3.5 Self-Service, Support, and Subscriptions"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: false
+
+  - req_id: REQ-SS-03
+    title: Report Export & Status Sharing
+    description: One-click tracking-report download (incl. SWIFT gpi reports) and secure live-status sharing with counterparty.
+    source: {section: "3.5 Self-Service, Support, and Subscriptions"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-SS-04
+    title: Item-Specific Subscriptions
+    description: Subscribe to a specific wire for notifications ("Notify me when released/settled").
+    source: {section: "3.5 Self-Service, Support, and Subscriptions"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-SS-05
+    title: Global Alerts & Notifications Engine
+    description: >
+      Category-level alert subscriptions: Outgoing (Released, Receipt Confirmed,
+      Settled, Returned), Incoming, International.
+    source: {section: "3.5 Self-Service, Support, and Subscriptions"}
+    audience: customer
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  # --- audience: internal — extracted for traceability, NEVER rendered (specs/context.md) ---
+
+  - req_id: REQ-TECH-01
+    title: Settlement Status Backend Integration
+    description: Backend integration required to surface final "Settled" status (not currently available in underlying systems).
+    source: {section: "4. Technical and Backend Considerations"}
+    audience: internal
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-TECH-02
+    title: SWIFT gpi API Integration
+    description: Real-time SWIFT gpi API integration for route visualization and international timelines.
+    source: {section: "4. Technical and Backend Considerations"}
+    audience: internal
+    ambiguous: false
+    risk_flags: []
+    depends_on_backend: true
+
+  - req_id: REQ-TECH-03
+    title: Fraud Rule Mapping Protocol
+    description: Strict mapping between internal fraud/risk hold codes and external client-safe hold reasons.
+    source: {section: "4. Technical and Backend Considerations"}
+    audience: internal
+    ambiguous: false
+    risk_flags: [security-sensitive]
+    depends_on_backend: true
+
+summary:
+  total: 21
+  customer: 18
+  internal: 3
+  ambiguous: [REQ-DB-02]
+  security_sensitive: [REQ-EX-01, REQ-EX-02, REQ-TECH-03]

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wire Tracking Center</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-thumb { background:#cbd5e1; border-radius:4px; }
+</style>
+</head>
+<body class="bg-gray-50 text-gray-900 h-screen overflow-hidden flex flex-col md:flex-row">
+
+<!-- component: app-shell-sidebar -->
+<aside data-component="app-shell-sidebar" class="w-full md:w-64 bg-slate-900 flex-shrink-0 flex flex-col h-auto md:h-full z-10 text-slate-300">
+  <div class="p-6 border-b border-slate-800 flex items-center space-x-3">
+    <div class="w-8 h-8 bg-emerald-600 text-white rounded flex items-center justify-center font-bold text-lg" aria-hidden="true">H</div>
+    <span class="text-xl font-bold tracking-tight text-white">HUNTINGTON</span>
+  </div>
+  <nav class="flex-1 px-4 py-6 space-y-1 overflow-y-auto hidden md:block" aria-label="Treasury channel">
+    <a href="#" class="block px-3 py-2.5 text-sm font-medium rounded-lg hover:bg-slate-800 hover:text-white">Balances</a>
+    <a href="#" class="block px-3 py-2.5 text-sm font-medium rounded-lg hover:bg-slate-800 hover:text-white">Payments &amp; Transfers</a>
+    <a href="#" class="block px-3 py-2.5 text-sm font-medium rounded-lg hover:bg-slate-800 hover:text-white">FX Global</a>
+    <a href="#" aria-current="page" class="block px-3 py-2.5 text-sm font-semibold rounded-lg bg-emerald-600 text-white">Wire Tracking Center</a>
+    <a href="#" class="block px-3 py-2.5 text-sm font-medium rounded-lg hover:bg-slate-800 hover:text-white">Reporting &amp; Analytics</a>
+    <a href="#" class="block px-3 py-2.5 text-sm font-medium rounded-lg hover:bg-slate-800 hover:text-white">Security &amp; Administration</a>
+  </nav>
+  <div class="hidden md:block p-4 border-t border-slate-800 text-xs text-slate-500">Demo data — illustrative only</div>
+</aside>
+
+<main class="flex-1 overflow-y-auto">
+<div class="max-w-[1600px] mx-auto p-6 space-y-6">
+
+  <!-- component: header-support · satisfies: REQ-SS-02 -->
+  <header data-component="header-support" data-satisfies="REQ-SS-02" class="flex items-start justify-between gap-4">
+    <div>
+      <nav class="text-sm text-gray-500" aria-label="Breadcrumb">Treasury / Payments / <span class="text-gray-900 font-medium">Wire Tracking Center</span></nav>
+      <h1 class="text-2xl font-bold mt-1">Wire Tracking Center</h1>
+    </div>
+    <button class="shrink-0 inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 text-white text-sm font-semibold rounded-lg hover:bg-emerald-700" aria-label="Contact your treasury support desk">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.3a1 1 0 01.95.68l1.5 4.5a1 1 0 01-.5 1.21l-2.26 1.13a11 11 0 005.52 5.52l1.13-2.26a1 1 0 011.2-.5l4.5 1.5a1 1 0 01.69.95V19a2 2 0 01-2 2h-1C9.72 21 3 14.28 3 6V5z"/></svg>
+      Contact Support
+    </button>
+  </header>
+
+  <!-- component: nav-tabs · satisfies: REQ-SF-02 -->
+  <div data-component="nav-tabs" data-satisfies="REQ-SF-02" class="border-b border-gray-200">
+    <nav class="flex gap-6 -mb-px overflow-x-auto" aria-label="Wire views">
+      <button data-tab="all" class="tab py-3 text-sm font-semibold text-emerald-600 border-b-2 border-emerald-600 whitespace-nowrap">All Wires</button>
+      <button data-tab="outgoing" class="tab py-3 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 whitespace-nowrap">Outgoing</button>
+      <button data-tab="incoming" class="tab py-3 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 whitespace-nowrap">Incoming</button>
+      <button data-tab="international" class="tab py-3 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 whitespace-nowrap">International</button>
+      <button data-tab="held" class="tab py-3 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 whitespace-nowrap">Held for Review</button>
+      <button data-tab="returned" class="tab py-3 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 whitespace-nowrap">Returned</button>
+      <button data-tab="alerts" class="tab py-3 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 whitespace-nowrap">Alerts &amp; Notifications</button>
+    </nav>
+  </div>
+
+  <!-- component: metrics-tiles · satisfies: REQ-DB-01 -->
+  <section data-component="metrics-tiles" data-satisfies="REQ-DB-01" aria-label="Today's wire activity" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+    <div class="bg-white rounded-xl border border-gray-200 p-5">
+      <p class="text-sm font-medium text-gray-500">Outgoing Wires</p>
+      <p class="text-2xl font-bold mt-1">24</p>
+      <p class="text-sm font-semibold text-emerald-600">$4,218,500.00</p>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 p-5">
+      <p class="text-sm font-medium text-gray-500">Incoming Wires Today</p>
+      <p class="text-2xl font-bold mt-1">11</p>
+      <p class="text-sm font-semibold text-emerald-600">$1,902,340.00</p>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 p-5">
+      <p class="text-sm font-medium text-gray-500">Pending Review</p>
+      <p class="text-2xl font-bold mt-1 text-amber-800">2</p>
+      <p class="text-sm font-semibold text-amber-800">$510,000.00</p>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 p-5">
+      <p class="text-sm font-medium text-gray-500">International in Transit</p>
+      <p class="text-2xl font-bold mt-1 text-blue-600">6</p>
+      <p class="text-sm font-semibold text-blue-600">$2,340,800.00</p>
+    </div>
+  </section>
+
+  <!-- component: insights-strip · satisfies: REQ-DB-02 (PROPOSAL — requirement is ambiguous) -->
+  <section data-component="insights-strip" data-satisfies="REQ-DB-02" class="bg-emerald-100 border border-emerald-600/20 rounded-xl p-4 flex flex-col sm:flex-row gap-3 sm:items-center">
+    <span class="text-xs font-bold uppercase tracking-wide text-emerald-600 shrink-0">Wire insights</span>
+    <p class="text-sm text-gray-900">Beneficiary <span class="font-semibold">Acme Manufacturing</span> typically moves funds within 4 hours &nbsp;·&nbsp; 92% of EUR wires typically complete the same day</p>
+  </section>
+
+  <!-- ALL-WIRES VIEW -->
+  <div data-view="wires" class="space-y-6">
+
+    <!-- components: search-bar (REQ-SF-01) + filter-row (REQ-SF-02) -->
+    <section class="bg-white rounded-xl border border-gray-200 p-4 space-y-3">
+      <div data-component="search-bar" data-satisfies="REQ-SF-01">
+        <label for="wire-search" class="sr-only">Search wires</label>
+        <input id="wire-search" type="search" placeholder="Search by Wire ID, Confirmation #, Beneficiary, Amount, Originator, Account, or SWIFT Reference"
+               class="w-full px-4 py-2.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-600">
+      </div>
+      <div data-component="filter-row" data-satisfies="REQ-SF-02" class="flex flex-wrap gap-3">
+        <label class="text-sm text-gray-500">Date range
+          <select class="ml-2 px-3 py-1.5 rounded-lg border border-gray-200 text-sm text-gray-900"><option>Today</option><option>Last 7 days</option><option>Last 30 days</option><option>Custom…</option></select>
+        </label>
+        <label class="text-sm text-gray-500">Wire type
+          <select class="ml-2 px-3 py-1.5 rounded-lg border border-gray-200 text-sm text-gray-900"><option>All</option><option>Domestic</option><option>International</option></select>
+        </label>
+        <label class="text-sm text-gray-500">Status
+          <select class="ml-2 px-3 py-1.5 rounded-lg border border-gray-200 text-sm text-gray-900"><option>All</option><option>Settled</option><option>Pending</option><option>Held</option></select>
+        </label>
+      </div>
+    </section>
+
+    <!-- component: wire-table · satisfies: REQ-SF-01, REQ-SF-02 -->
+    <section data-component="wire-table" data-satisfies="REQ-SF-01 REQ-SF-02" class="bg-white rounded-xl border border-gray-200 overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead class="text-left text-gray-500 border-b border-gray-200">
+          <tr><th class="px-4 py-3 font-medium">Wire ID</th><th class="px-4 py-3 font-medium">Beneficiary</th><th class="px-4 py-3 font-medium">Type</th><th class="px-4 py-3 font-medium">Amount</th><th class="px-4 py-3 font-medium">Status</th><th class="px-4 py-3 font-medium">Last updated</th></tr>
+        </thead>
+        <tbody>
+          <tr data-wire="dom" class="border-b border-gray-100 hover:bg-gray-50 cursor-pointer" tabindex="0">
+            <td class="px-4 py-3 font-semibold">WT-2026-10482</td><td class="px-4 py-3">Acme Manufacturing Corp</td><td class="px-4 py-3">Domestic</td><td class="px-4 py-3 font-semibold">$250,000.00</td>
+            <td class="px-4 py-3"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-600">In&nbsp;Transit</span></td><td class="px-4 py-3 text-gray-500">10:42 AM</td>
+          </tr>
+          <tr data-wire="intl" class="border-b border-gray-100 hover:bg-gray-50 cursor-pointer" tabindex="0">
+            <td class="px-4 py-3 font-semibold">WT-2026-10477</td><td class="px-4 py-3">Globex GmbH (EUR)</td><td class="px-4 py-3">International</td><td class="px-4 py-3 font-semibold">$480,000.00</td>
+            <td class="px-4 py-3"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-600">In&nbsp;Transit</span></td><td class="px-4 py-3 text-gray-500">9:58 AM</td>
+          </tr>
+          <tr class="border-b border-gray-100">
+            <td class="px-4 py-3 font-semibold">WT-2026-10471</td><td class="px-4 py-3">Initech LLC</td><td class="px-4 py-3">Domestic</td><td class="px-4 py-3 font-semibold">$82,500.00</td>
+            <td class="px-4 py-3"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-600">Settled</span></td><td class="px-4 py-3 text-gray-500">8:15 AM</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3 font-semibold">WT-2026-10465</td><td class="px-4 py-3">Umbrella Logistics</td><td class="px-4 py-3">Domestic</td><td class="px-4 py-3 font-semibold">$310,000.00</td>
+            <td class="px-4 py-3"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">Pending</span></td><td class="px-4 py-3 text-gray-500">Yesterday</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- DETAIL: domestic wire -->
+    <section id="detail-dom" class="grid grid-cols-1 xl:grid-cols-3 gap-6">
+      <!-- component: wire-detail · satisfies: REQ-SF-03 -->
+      <div data-component="wire-detail" data-satisfies="REQ-SF-03" class="bg-white rounded-xl border border-gray-200 p-5">
+        <h2 class="font-bold mb-4">Wire WT-2026-10482</h2>
+        <dl class="space-y-2.5 text-sm">
+          <div class="flex justify-between"><dt class="text-gray-500">Status</dt><dd><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-600">In Transit</span></dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Direction</dt><dd class="font-medium">Outgoing</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Amount</dt><dd class="font-semibold">$250,000.00 USD</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Beneficiary</dt><dd class="font-medium text-right">Acme Manufacturing Corp<br><span class="text-gray-500 font-normal">First Demo Bank, Columbus OH</span></dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">From account</dt><dd class="font-medium">Operating ••••4821</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">SWIFT reference</dt><dd class="font-mono text-xs">DEMOUS33XXX-0482</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Submitted</dt><dd>Oct 8, 2026 · 8:02 AM</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Last updated</dt><dd>Oct 8, 2026 · 10:42 AM</dd></div>
+        </dl>
+        <!-- component: fee-breakdown · satisfies: REQ-SF-04 -->
+        <div data-component="fee-breakdown" data-satisfies="REQ-SF-04" class="mt-5 pt-4 border-t border-gray-200">
+          <h3 class="text-sm font-semibold mb-2">Fee breakdown</h3>
+          <dl class="space-y-1.5 text-sm">
+            <div class="flex justify-between"><dt class="text-gray-500">Originating bank fee</dt><dd>$25.00</dd></div>
+            <div class="flex justify-between"><dt class="text-gray-500">Intermediary bank fee(s)</dt><dd>$0.00</dd></div>
+            <div class="flex justify-between"><dt class="text-gray-500">Beneficiary bank fee</dt><dd>$15.00</dd></div>
+            <div class="flex justify-between font-semibold pt-1 border-t border-gray-100"><dt>Total fees</dt><dd>$40.00</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <!-- component: journey-timeline · satisfies: REQ-JT-01 -->
+      <div data-component="journey-timeline" data-satisfies="REQ-JT-01" class="bg-white rounded-xl border border-gray-200 p-5 xl:col-span-2">
+        <h2 class="font-bold mb-6">Wire journey</h2>
+        <ol class="relative flex justify-between" aria-label="Wire milestones">
+          <div class="absolute top-4 left-8 right-8 h-0.5 bg-gray-200" aria-hidden="true"></div>
+          <li class="relative flex flex-col items-center text-center w-1/5">
+            <span class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center z-10" aria-label="complete">✓</span>
+            <span class="mt-2 text-xs font-semibold">Wire Submitted</span><span class="text-xs text-gray-500">8:02 AM</span>
+          </li>
+          <li class="relative flex flex-col items-center text-center w-1/5">
+            <span class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center z-10" aria-label="complete">✓</span>
+            <span class="mt-2 text-xs font-semibold">Wire Approved</span><span class="text-xs text-gray-500">8:15 AM</span>
+          </li>
+          <li class="relative flex flex-col items-center text-center w-1/5">
+            <span class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center z-10" aria-label="complete">✓</span>
+            <span class="mt-2 text-xs font-semibold">Bank Received</span><span class="text-xs text-gray-500">9:20 AM</span>
+          </li>
+          <li class="relative flex flex-col items-center text-center w-1/5">
+            <span class="w-8 h-8 rounded-full bg-white ring-2 ring-blue-600 flex items-center justify-center z-10" aria-label="current step"><span class="w-2.5 h-2.5 rounded-full bg-blue-600"></span></span>
+            <span class="mt-2 text-xs font-semibold text-blue-600">Confirmation # Generated</span><span class="text-xs text-gray-500">10:42 AM</span>
+          </li>
+          <li class="relative flex flex-col items-center text-center w-1/5">
+            <span class="w-8 h-8 rounded-full bg-gray-50 border-2 border-dashed border-gray-200 flex items-center justify-center z-10 text-gray-500 text-xs" aria-label="upcoming">•</span>
+            <span class="mt-2 text-xs font-semibold text-gray-500">Settled</span><span class="text-xs text-gray-500">—</span>
+          </li>
+        </ol>
+        <p class="mt-6 text-xs text-gray-500">Final settlement status availability is being expanded; until then this stage may update later than others.</p>
+
+        <!-- component: detail-actions · satisfies: REQ-SS-01 REQ-SS-03 REQ-SS-04 -->
+        <div data-component="detail-actions" data-satisfies="REQ-SS-01 REQ-SS-03 REQ-SS-04" class="mt-6 pt-4 border-t border-gray-200 flex flex-wrap items-center gap-3">
+          <a href="#" class="text-sm font-semibold text-blue-600 hover:underline">Why might this be delayed? →</a>
+          <span class="flex-1"></span>
+          <button class="px-3 py-1.5 text-sm font-medium rounded-lg border border-gray-200 hover:border-emerald-600">Download tracking report</button>
+          <button class="px-3 py-1.5 text-sm font-medium rounded-lg border border-gray-200 hover:border-emerald-600">Share status securely</button>
+          <label class="inline-flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="accent-emerald-600 w-4 h-4"> Notify me when settled</label>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAIL: international wire (hidden until its row is clicked) -->
+    <section id="detail-intl" class="hidden grid grid-cols-1 xl:grid-cols-3 gap-6">
+      <div data-component="wire-detail" data-satisfies="REQ-SF-03" class="bg-white rounded-xl border border-gray-200 p-5">
+        <h2 class="font-bold mb-4">Wire WT-2026-10477</h2>
+        <dl class="space-y-2.5 text-sm">
+          <div class="flex justify-between"><dt class="text-gray-500">Status</dt><dd><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-600">In Transit</span></dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Direction</dt><dd class="font-medium">Outgoing · International</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Amount</dt><dd class="font-semibold">$480,000.00 → €441,600.00</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Beneficiary</dt><dd class="font-medium text-right">Globex GmbH<br><span class="text-gray-500 font-normal">Demo Bank AG, Frankfurt</span></dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">From account</dt><dd class="font-medium">Operating ••••4821</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">SWIFT reference</dt><dd class="font-mono text-xs">DEMODE5FXXX-0477</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Submitted</dt><dd>Oct 8, 2026 · 7:30 AM</dd></div>
+          <div class="flex justify-between"><dt class="text-gray-500">Last updated</dt><dd>Oct 8, 2026 · 9:58 AM</dd></div>
+        </dl>
+        <div data-component="fee-breakdown" data-satisfies="REQ-SF-04" class="mt-5 pt-4 border-t border-gray-200">
+          <h3 class="text-sm font-semibold mb-2">Fee breakdown</h3>
+          <dl class="space-y-1.5 text-sm">
+            <div class="flex justify-between"><dt class="text-gray-500">Originating bank fee</dt><dd>$45.00</dd></div>
+            <div class="flex justify-between"><dt class="text-gray-500">Intermediary bank fee(s)</dt><dd>$30.00</dd></div>
+            <div class="flex justify-between"><dt class="text-gray-500">Beneficiary bank fee</dt><dd>€12.00</dd></div>
+            <div class="flex justify-between font-semibold pt-1 border-t border-gray-100"><dt>Total fees (est.)</dt><dd>$88.10</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="xl:col-span-2 space-y-6">
+        <!-- component: gpi-route · satisfies: REQ-JT-02 -->
+        <div data-component="gpi-route" data-satisfies="REQ-JT-02" class="bg-white rounded-xl border border-gray-200 p-5">
+          <div class="flex items-center justify-between mb-6">
+            <h2 class="font-bold">SWIFT gpi tracking</h2>
+            <span class="text-xs text-gray-500">as of 9:58 AM</span>
+          </div>
+          <ol class="relative flex justify-between" aria-label="International route">
+            <div class="absolute top-4 left-8 right-8 h-0.5 bg-gray-200" aria-hidden="true"></div>
+            <li class="relative flex flex-col items-center text-center w-1/5"><span class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center z-10" aria-label="complete">✓</span><span class="mt-2 text-xs font-semibold">Originated</span><span class="text-xs text-gray-500">7:30 AM</span></li>
+            <li class="relative flex flex-col items-center text-center w-1/5"><span class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center z-10" aria-label="complete">✓</span><span class="mt-2 text-xs font-semibold">SWIFT Sent</span><span class="text-xs text-gray-500">7:41 AM</span></li>
+            <li class="relative flex flex-col items-center text-center w-1/5"><span class="w-8 h-8 rounded-full bg-white ring-2 ring-blue-600 flex items-center justify-center z-10" aria-label="current step"><span class="w-2.5 h-2.5 rounded-full bg-blue-600"></span></span><span class="mt-2 text-xs font-semibold text-blue-600">Intermediary<br>Demo Clearing NY</span><span class="text-xs text-gray-500">9:58 AM</span></li>
+            <li class="relative flex flex-col items-center text-center w-1/5"><span class="w-8 h-8 rounded-full bg-gray-50 border-2 border-dashed border-gray-200 flex items-center justify-center z-10 text-gray-500 text-xs" aria-label="upcoming">•</span><span class="mt-2 text-xs font-semibold text-gray-500">Beneficiary Bank</span><span class="text-xs text-gray-500">—</span></li>
+            <li class="relative flex flex-col items-center text-center w-1/5"><span class="w-8 h-8 rounded-full bg-gray-50 border-2 border-dashed border-gray-200 flex items-center justify-center z-10 text-gray-500 text-xs" aria-label="upcoming">•</span><span class="mt-2 text-xs font-semibold text-gray-500">Delivered</span><span class="text-xs text-gray-500">—</span></li>
+          </ol>
+          <div data-component="detail-actions" data-satisfies="REQ-SS-01 REQ-SS-03 REQ-SS-04" class="mt-6 pt-4 border-t border-gray-200 flex flex-wrap items-center gap-3">
+            <a href="#" class="text-sm font-semibold text-blue-600 hover:underline">Why might this be delayed? →</a>
+            <span class="flex-1"></span>
+            <button class="px-3 py-1.5 text-sm font-medium rounded-lg border border-gray-200 hover:border-emerald-600">Download gpi report</button>
+            <button class="px-3 py-1.5 text-sm font-medium rounded-lg border border-gray-200 hover:border-emerald-600">Share status securely</button>
+            <label class="inline-flex items-center gap-2 text-sm font-medium"><input type="checkbox" class="accent-emerald-600 w-4 h-4"> Notify me when delivered</label>
+          </div>
+        </div>
+        <!-- component: route-insights · satisfies: REQ-JT-03 -->
+        <div data-component="route-insights" data-satisfies="REQ-JT-03" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div class="bg-blue-100 rounded-xl p-4"><p class="text-xs font-medium text-blue-600 uppercase">Intermediaries</p><p class="text-xl font-bold mt-1">1 bank</p><p class="text-xs text-gray-500">on this route</p></div>
+          <div class="bg-emerald-100 rounded-xl p-4"><p class="text-xs font-medium text-emerald-600 uppercase">EUR completion</p><p class="text-xl font-bold mt-1">92%</p><p class="text-xs text-gray-500">same-day, last 90 days</p></div>
+          <div class="bg-amber-100 rounded-xl p-4"><p class="text-xs font-medium text-amber-800 uppercase">Typical recipient fees</p><p class="text-xl font-bold mt-1">€10–€15</p><p class="text-xs text-gray-500">historical, this corridor</p></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- HELD FOR REVIEW VIEW -->
+  <div data-view="held" class="hidden space-y-4">
+    <!-- component: held-wires-panel · satisfies: REQ-EX-01 REQ-EX-02 -->
+    <section data-component="held-wires-panel" data-satisfies="REQ-EX-01 REQ-EX-02" class="space-y-4">
+      <h2 class="font-bold text-lg">Wires requiring your review</h2>
+      <div class="bg-white rounded-xl border-l-4 border-amber-800 border border-gray-200 p-5 flex flex-col lg:flex-row lg:items-center gap-4">
+        <div class="flex-1">
+          <p class="font-semibold">WT-2026-10465 · Umbrella Logistics · $310,000.00</p>
+          <p class="text-sm text-gray-500 mt-1">Additional verification is required before this wire can be released. Please confirm you authorize this payment.</p>
+        </div>
+        <div class="flex gap-3 shrink-0">
+          <button data-action="confirm" class="px-4 py-2 bg-emerald-600 text-white text-sm font-semibold rounded-lg hover:bg-emerald-700">Confirm release</button>
+          <button data-action="reject" class="px-4 py-2 border border-rose-600 text-rose-600 text-sm font-semibold rounded-lg hover:bg-rose-100">Reject wire</button>
+        </div>
+      </div>
+      <!-- component: release-insight · satisfies: REQ-EX-03 -->
+      <div data-component="release-insight" data-satisfies="REQ-EX-03" id="release-insight" class="hidden bg-emerald-100 border border-emerald-600/20 rounded-xl p-4 text-sm" role="status">
+        <span class="font-semibold text-emerald-600">Action received.</span> <span id="release-insight-text"></span>
+      </div>
+      <div class="bg-white rounded-xl border-l-4 border-amber-800 border border-gray-200 p-5 flex flex-col lg:flex-row lg:items-center gap-4">
+        <div class="flex-1">
+          <p class="font-semibold">WT-2026-10460 · Stark Industrial Supply · $200,000.00</p>
+          <p class="text-sm text-gray-500 mt-1">This wire is pending a routine review. No action is needed from the beneficiary.</p>
+        </div>
+        <div class="flex gap-3 shrink-0">
+          <button data-action="confirm" class="px-4 py-2 bg-emerald-600 text-white text-sm font-semibold rounded-lg hover:bg-emerald-700">Confirm release</button>
+          <button data-action="reject" class="px-4 py-2 border border-rose-600 text-rose-600 text-sm font-semibold rounded-lg hover:bg-rose-100">Reject wire</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- RETURNED VIEW -->
+  <div data-view="returned" class="hidden">
+    <!-- component: returned-wires-panel · satisfies: REQ-EX-04 -->
+    <section data-component="returned-wires-panel" data-satisfies="REQ-EX-04" class="space-y-4">
+      <h2 class="font-bold text-lg">Returned wires</h2>
+      <div class="bg-white rounded-xl border-l-4 border-rose-600 border border-gray-200 p-5 space-y-4">
+        <div class="flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-4">
+          <p class="font-semibold flex-1">WT-2026-10401 · Wayne Fabrication · $64,200.00</p>
+          <span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-rose-100 text-rose-600 w-fit">Returned</span>
+        </div>
+        <dl class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+          <div><dt class="text-gray-500 font-medium">Return reason</dt><dd class="mt-1">Beneficiary account closed at receiving bank.</dd></div>
+          <div><dt class="text-gray-500 font-medium">Root-cause insight</dt><dd class="mt-1">3 prior wires to this beneficiary used a different account. The account on this wire was last used in 2024.</dd></div>
+          <div><dt class="text-gray-500 font-medium">Recommended resolution</dt><dd class="mt-1">Verify current account details with the beneficiary, then re-initiate. Funds were credited back to Operating ••••4821.</dd></div>
+        </dl>
+        <ol class="relative flex justify-between pt-2" aria-label="Returned wire journey">
+          <div class="absolute top-6 left-8 right-8 h-0.5 bg-gray-200" aria-hidden="true"></div>
+          <li class="relative flex flex-col items-center text-center w-1/4"><span class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center z-10" aria-label="complete">✓</span><span class="mt-2 text-xs font-semibold">Submitted</span><span class="text-xs text-gray-500">Oct 2</span></li>
+          <li class="relative flex flex-col items-center text-center w-1/4"><span class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center z-10" aria-label="complete">✓</span><span class="mt-2 text-xs font-semibold">Bank Received</span><span class="text-xs text-gray-500">Oct 2</span></li>
+          <li class="relative flex flex-col items-center text-center w-1/4"><span class="w-8 h-8 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center z-10" aria-label="failed">✕</span><span class="mt-2 text-xs font-semibold text-rose-600">Returned</span><span class="text-xs text-rose-600">Oct 3</span></li>
+          <li class="relative flex flex-col items-center text-center w-1/4"><span class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center z-10" aria-label="complete">✓</span><span class="mt-2 text-xs font-semibold">Funds Credited Back</span><span class="text-xs text-gray-500">Oct 3</span></li>
+        </ol>
+      </div>
+    </section>
+  </div>
+
+  <!-- ALERTS VIEW -->
+  <div data-view="alerts" class="hidden">
+    <!-- component: alerts-panel · satisfies: REQ-SS-05 -->
+    <section data-component="alerts-panel" data-satisfies="REQ-SS-05" class="bg-white rounded-xl border border-gray-200 p-5 max-w-2xl space-y-5">
+      <h2 class="font-bold text-lg">Alerts &amp; notifications</h2>
+      <fieldset>
+        <legend class="text-sm font-semibold mb-2">Outgoing wires</legend>
+        <div class="grid grid-cols-2 gap-2 text-sm">
+          <label class="inline-flex items-center gap-2"><input type="checkbox" checked class="accent-emerald-600 w-4 h-4"> Released</label>
+          <label class="inline-flex items-center gap-2"><input type="checkbox" class="accent-emerald-600 w-4 h-4"> Receipt confirmed</label>
+          <label class="inline-flex items-center gap-2"><input type="checkbox" checked class="accent-emerald-600 w-4 h-4"> Settled</label>
+          <label class="inline-flex items-center gap-2"><input type="checkbox" checked class="accent-emerald-600 w-4 h-4"> Returned</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="text-sm font-semibold mb-2">Incoming wires</legend>
+        <label class="inline-flex items-center gap-2 text-sm"><input type="checkbox" checked class="accent-emerald-600 w-4 h-4"> Notify on receipt</label>
+      </fieldset>
+      <fieldset>
+        <legend class="text-sm font-semibold mb-2">International wires</legend>
+        <label class="inline-flex items-center gap-2 text-sm"><input type="checkbox" class="accent-emerald-600 w-4 h-4"> Notify on each gpi milestone</label>
+      </fieldset>
+      <button class="px-4 py-2 bg-emerald-600 text-white text-sm font-semibold rounded-lg hover:bg-emerald-700">Save preferences</button>
+    </section>
+  </div>
+
+</div>
+</main>
+
+<script>
+  // Tab switching: wires-related tabs show the wires view; held/returned/alerts show their own.
+  const views = { all:'wires', outgoing:'wires', incoming:'wires', international:'wires', held:'held', returned:'returned', alerts:'alerts' };
+  document.querySelectorAll('.tab').forEach(tab => tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.className = 'tab py-3 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 whitespace-nowrap');
+    tab.className = 'tab py-3 text-sm font-semibold text-emerald-600 border-b-2 border-emerald-600 whitespace-nowrap';
+    const target = views[tab.dataset.tab];
+    document.querySelectorAll('[data-view]').forEach(v => v.classList.toggle('hidden', v.dataset.view !== target));
+  }));
+  // Row click: switch between domestic and international detail.
+  document.querySelectorAll('tr[data-wire]').forEach(row => row.addEventListener('click', () => {
+    document.getElementById('detail-dom').classList.toggle('hidden', row.dataset.wire !== 'dom');
+    document.getElementById('detail-intl').classList.toggle('hidden', row.dataset.wire !== 'intl');
+  }));
+  // Held-wire actions: show the post-action insight (REQ-EX-03). Demo only — no real action occurs.
+  document.querySelectorAll('[data-action]').forEach(btn => btn.addEventListener('click', () => {
+    const box = document.getElementById('release-insight');
+    document.getElementById('release-insight-text').textContent = btn.dataset.action === 'confirm'
+      ? 'Wires released after confirmation typically settle within 2 hours.'
+      : 'Rejected wires are cancelled and funds are credited back to your account, typically by end of day.';
+    box.classList.remove('hidden');
+  }));
+</script>
+</body>
+</html>
