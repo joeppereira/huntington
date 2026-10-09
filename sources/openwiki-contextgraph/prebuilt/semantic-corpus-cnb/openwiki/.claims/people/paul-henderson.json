@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:606b4d459422c26ac0f99a45fd09c56083f9cfad5569e0b98f8f507c987ffca4",
+  "claims": [
+    {
+      "id": "claim_fb544e4e672d41019f282f3d42795b5b",
+      "statement": "Paul Henderson owns the 'ENS Event Onboarding' ServiceNow catalog item, which is the required first step for a producer team to onboard a new event type with the Enterprise Notification Service.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L35-L37",
+          "version": "repo-lines-v1:sha256:774865d3b8f9d3ab7e66c9e5327670617d9088d00aca4ee64b8e44d6bf86a14d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzlkNTVmNTM1MDY0OTZhOGY2Y2VmMzA4ZWFlMmYxMDdmYjQ4MmVkODRlN2ZiNTc5MWM0OGE3ZGJkNmQyMGU1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc0NjMzYmFhMWNkZjdmMjhlODk1NTMxMDdjZTI3ZDFhNzc0NmZiZDE4ZGI3YTU3YzNlZjNkMmM5NjdkZThiMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2RmMDg4Nzc2ZGNkZmRiZThhMWNiNmI2MjQwMTdlY2U0MTYyMTg5Mjg5YTU5MmExNTkwNGUxNGM3YWRhNzVmZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGZlMGQ3MzdiOTZhNmI1MDY2OTA1Mjk1OGVjMmYzNWNkZWRlNTc5OGJiNzY3M2E2NzY2MjQ2OGM3N2Y0ZjgwNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_249de6a70b7c46e8af92e001d8db9b29",
+      "statement": "The ENS event-onboarding process initiated by the 'ENS Event Onboarding' catalog item has five steps: catalog submission, payload/recipient schema definition, channel template drafting with DRC (Disclosure Review Committee) review, ENS engineering configuration and testing (~12 engineering hours per event type), and producer UAT integration testing followed by production enablement, with an overall SLA of 6 weeks from complete submission to production.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ba50d9789bac47aeb78c8b0be58c5016a66c7b51eeb9632461c33cf56926fe22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZDU1ZjUzNTA2NDk2YThmNmNlZjMwOGVhZTJmMTA3ZmI0ODJlZDg0ZTdmYjU3OTFjNDhhN2RiZDZkMjBlNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiZDlkYzQyMjI3MWQ0YjI3M2MxNGU0NGUwZTk1Y2ExYWI2MzBjZDc4NzFlMTc3NDliMWQ4NzNlODg3N2UxNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZjA4ODc3NmRjZGZkYmU4YTFjYjZiNjI0MDE3ZWNlNDE2MjE4OTI4OWE1OTJhMTU5MDRlMTRjN2FkYTc1ZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlMTlkMTE5YjVkMDQwZmVlZTk1YTRlMzVhYWI0ZmM1MmJmZWY2MzBkODQ5MWFkMDNhMWQyODBhOTRhOWIyY2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_24476e59f58c41629640ca05ddff50a5",
+      "statement": "ENS event-type onboarding requests submitted after 2026-11-20 are scheduled after the year-end change freeze, and templates for financial-crimes-related states must use FCC-approved copy per POL-FCC-014 Appendix B.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L47-L47",
+          "version": "repo-lines-v1:sha256:0bd9dc422271d4b273c14e44e0e95ca1ab630cd7871e17749b1d873e8877e162:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJkOWRjNDIyMjcxZDRiMjczYzE0ZTQ0ZTBlOTVjYTFhYjYzMGNkNzg3MWUxNzc0OWIxZDg3M2U4ODc3ZTE2MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJkOWRjNDIyMjcxZDRiMjczYzE0ZTQ0ZTBlOTVjYTFhYjYzMGNkNzg3MWUxNzc0OWIxZDg3M2U4ODc3ZTE2MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTc0MGQxZWFkYmQ4MmZlNWEyMzNmYjNhN2Q1ZDU1MWZiYjEzZjQyODM2ODkxOTFmZmRiMGRkYWVhMDhkMTY5NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGUxOWQxMTliNWQwNDBmZWVlOTVhNGUzNWFhYjRmYzUyYmZlZjYzMGQ4NDkxYWQwM2ExZDI4MGE5NGE5YjJjYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L85-L89",
+          "version": "repo-lines-v1:sha256:a8cac452b5f8245d1840603b5f35519e92e100dc0f67cbc4bb65c79bb47975a5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzAxM2E4NmY2ZWNlYmNkZDJiZTdiY2ZmNmNkZWI5YTgyNzU2ZDU3ZTA3MGNkOTFlMmJmOWRmMmI5YWYwMzQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFhOGE2YzcyMWU4ODViY2ZjZjgzZTk1ODI2NDViYmYzZWE2MGZkODNiNjhhODNmYjdmOGJiMjVhN2JkMjUxYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGVjYWQ5ZWEyZjgzNTFjM2NjMzhjNGU2YjFhOWJkYzE4NmQ0MzNhMzRiMTU0NDFjM2ZhYWNiZTQyN2Y2NDllMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzA4YzYyOGNiMjgwNzJlYWZjNjY5NGE1NGY0MjhiOWIzNDcwMGY5NmQ3YmMwMTFiODJkNTFkNzAxZjYxMWI2MSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

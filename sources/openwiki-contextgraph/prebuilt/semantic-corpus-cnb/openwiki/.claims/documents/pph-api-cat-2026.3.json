@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:01ae458cd678d7c515efe1ab65ea0601908a0804235eac0e6ae9587e244e187a",
+  "claims": [
+    {
+      "id": "claim_99e63550f53c4fd9bcf1bc83cf2f0a69",
+      "statement": "PPH-API-CAT-2026.3 sets a hard sunset for PPH v1 APIs of 2027-03-31 with no extensions, confirmed by ARB on 2026-09-08, because the v1 adapter is not supported on Volaris 9.6 (upgrade April 2027); all consumers must migrate to v2, and status use cases specifically to the pay.wire.lifecycle.v2 Kafka topic.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L24-L28",
+          "version": "repo-lines-v1:sha256:26e53d2210e9d9c01e1fc52dfe03447bc64e37adbd43258cf1bd1665b1330e48:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRmZjRiNTQ2YmNlYjg2ZDAyM2IxZjBmM2EwMGQ1MDFmMDQ5Y2FjZjFhYTI1MDNlNzEyM2ExNGIxMTc3YWQ1ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2YTRlOTc0Y2MxYTAwZGVjZWNjYmY5ODMyMDVlYWI1NTYyOTI4NzM3YWU0NDEwNGMxZDlkZGNhOTYyMGMxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2JjZGZhMWFhMDM4NjM1YzM1NjA3YzRkZDllZDZlYWIxZjQ1NmM3NjE5MTM2YmYxYjgyNTA2OWU5M2YzMDliMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDJiYWVmZjYyZTEyMzdkN2QxMDFhNTJmMmQ4YmRkMzEwYzk3NDM0NGVmOWIyYzQzNDI1NmI3ZmJmYzdmODBmMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4de6119878444f158503f28eaff4e7e2",
+      "statement": "v1 consumer migration (tracked under PPH-2190) is uneven: IVR wire status migrated 2026-05 and Wire Room console migrated to IWB in 2025, Service Center CRM is in progress targeting 2026-12, while cbo-wire-bff (Wire Center) has not started and is tracked as unscheduled ticket CBO-4471.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L30-L35",
+          "version": "repo-lines-v1:sha256:43575f7ebe092fb99c0662be6e47d78cabed44958ee2afc42d2a856a2f02ab84:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTgzNTkxOWRlZDE3N2NlZmMyYTI0N2M1MTE1NzI0MjJkYTM4MTQzNDkxMDIxMzUzYTVmMDEwMjAxOWYzOGUzMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBmODUyNzIwN2EzMTVlZjA2N2M3NmJlOGE4NWUxZmI2NTk0MjY1YmI3NjY3OTFiNjVjMDdlZjMzZjQxMTZmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDE2MDUwYWE4NzRhMTMyOGI5N2NjNDIyM2FkNTVlZDg3NWE5NzcyN2RlZjAwNzczNTg1Y2RmMGY0YWY0OGIwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTBhYTNlNTUwNTY1NGQ0OTgzNzhjYjAyMDA1MzU4MzA2NDAwMGY4NmRkMzUzNWIyYTE3YWM3ZjNhMzMwOGVkNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ee5a89f3561c431cbe58467269e33ed2",
+      "statement": "v1 endpoint EP-PPH-01 (GET /pph/v1/wires/{wireRef}/status) returns a coarse status enum where PROCESSED aggregates RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED and COMPLETED, exposes a legacy free-text holdReasonDesc synced from HMS since 2019 (dropped in v2 per ADR-PAY-021), and returns fedRef as IMAD only with no OMAD or UETR.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L39-L65",
+          "version": "repo-lines-v1:sha256:11a2c168ae3824b34a7d20a32112ee46558a045f182b99b8b6918cf44f42be48:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczZjlmZjQyMTg1NzFjNzJlMmI4NzM5YjY0YmYyMjA4MGUzOTljMjc1N2YzMDBlYzZmNDgwYzgxMGMwMWIzZWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxNjUzNzFiM2RlOTc1MTU3MjA5NTYwZGM1ZDBhMDM5ODcyNTAxNTVhMjg0ZmQ3ODk0MTBlMzA5YTU0ZTdkZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEwYWEzZTU1MDU2NTRkNDk4Mzc4Y2IwMjAwNTM1ODMwNjQwMDBmODZkZDM1MzViMmExN2FjN2YzYTMzMDhlZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhNjAxMzZjOTA4MzYwNzgyZmFkZmVjMDYzNDJiNzM0NzdlZjc0ZWQzNWVlMDI0ZGE1NWFiMDNjOGMwNDFkOGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d0de7baf6ffe4d279c81540915811cce",
+      "statement": "The v2 payment detail endpoint EP-PPH-04 (GET /pph/v2/payments/{paymentId}) replaces the v1 status string with lifecycleState plus structured identifiers (cboRef, imad, omad, uetr, endToEndId), network, hold, charges and return objects, but v2 has no settlement object; rail-specific settlement status and Fed acceptance timestamp are proposed separately under backlog item PPH-2207 (no product sponsor), and intermediary/beneficiary bank charges are unknown to PPH in both versions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L77-L104",
+          "version": "repo-lines-v1:sha256:e863fdede7c9c8bd20227def730ee17c2f368e752aa03e1e6c797742c2e1ff98:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3ZGJjN2ZmMWI4ODExN2RjZmQ3ZWJmNjFjNmU2ZGU1ZDNkMDAyMDRkM2EyMDI2MWYyMzQwNWM2NDJiZDE5ZDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2NDkwNTEwNDk5NTZhZmYyYWY0MjI5ZGYzOGNmYWJmNjRmZTg5ZTNjMDcyNDc2N2NiN2M4MWRmODZmMDMzNWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlODhjM2M0YjBiMjZlNjE0NmQ4Y2QzYjVkZTY0NzI3Zjc4MDc5OTZmZDYwNGM1MWJhNjE1MmFmMDQ5NmU1ZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2MDQ2Y2RhZGRjZDUyYmQwMDc0YmM3M2Q3ZTViYzgxZTdlNWQ0OWY0NTk3MzA1NGQwOTg5MmVlMWQzZTk2MWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_710d1a3f28fb44768f080fc6a9237315",
+      "statement": "The v2 search endpoint EP-PPH-05 filters only by clientId (not account) and has no beneficiary-name filter, tracked as backlog item PPH-2251; EP-PPH-07 (POST /pph/v2/payments) requires an Idempotency-Key header.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L79-L82",
+          "version": "repo-lines-v1:sha256:6a571ddf3d77236876934853d2db4ec0ab6fa884a5fc7fef7963b7d90e4c1583:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzFlMDE4ZWU3NDIwMTk5YjU4MDIwMWM5MmYzNWY2MjA4MjRjODJkYzYyZDliNTc4MTA5NjFlZjQyNDAyYmM0OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDY3YWQ4YmEwOGJjYmE2ZmZlMzRiMmMzZWE5MjQ4OTllYjMyNWEyZWY0ZDg1ZWM4N2VhZjczZTVmMGI1MDNmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQ5OGJiNmRmZTY5MTZhYWJjZWVkZmFjNGY1NWQwOGJmNDRhYjc1MTFmNWM1ODExMGIyZDhmMGFlZGQzOGZiNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTM4NDJhMmQ1NmQwNGU1MTRjYjE0YTZjYjBjN2U5YzI4NGQ2ODllYWIyYzQ1ZWRhMzdmNDY2NWM4Nzc3MDMzNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_16723886693542789ead27eedd163ccd",
+      "statement": "The pay.wire.lifecycle.v2 Kafka topic (EV-PPH-01) carries WireLifecycleEvent v2.3 Avro events with 7-day retention, is classified Confidential - Client requiring consumer ACL via PPH Jira (~3 weeks including schema registry access), and has published ISO pacs.004 return reason codes (e.g. AC04, AC01, RR05) only since 2026-08 per PPH-2266; hold reasons are never published on PPH topics.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L108-L115",
+          "version": "repo-lines-v1:sha256:c8a14bafd2da3ada292a47f3d0098c2a87de4b66905a4e3913160fca9ae140d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNmMDgzMmIxY2ZlNmRjNGVmYzE1YmRiNTk2MzgyNTJkOTIxZjU2YjUyNDdmYTZlMmYzNjBjMDgwZGUzMjVmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY0NmEzYjY2MTUwMTIxNDc1ZmE1ZjM4YWM4OWE4ODI4ZmMwYjkwMzk0ZmFkZmI0MTk3ZDdiNjQyMTk4Y2RmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDYwNDZjZGFkZGNkNTJiZDAwNzRiYzczZDdlNWJjODFlN2U1ZDQ5ZjQ1OTczMDU0ZDA5ODkyZWUxZDNlOTYxYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDFiMGQxMjhjY2Q3NjU2YTk2ZDY4ZTQwNzdhZDg2ZTUzMTY3Y2E1MTUwNTBiNTA5OTU0MjdlYmJjODdiMGI3YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bb5c579e2ff14af1ba3c45725625cdbc",
+      "statement": "Service levels differ by interface: v1 REST offers 99.9% availability / 350ms p95 latency with best-effort support until sunset, while v2 REST (99.95% / 180ms) and pay.wire.lifecycle.v2 (99.95% / event lag <2s) both carry T1 support.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L117-L123",
+          "version": "repo-lines-v1:sha256:b1db6dd3b655b4f961fd3865480dea607e58a56213ecb7920687aaeb7db772c6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUwOTY4ZTg2ODFlYmNjNmI0MWU0YTgzZWM1NGMzYWE3MzkyYTZmYzBmMWE0NmE0Yjk3MDk2MzhmMThhZjliZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTA0OWZlMmJhYTMyODgyMDgyYzhiMjQzNDQ2NmQyODUyNjBmNDJjYTZiZTNlNjNmYTJhMjIyNzI0OTIxNjQzMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmZhNDNkMTBmNjA1YTViMDMyZmJhYmYyYTc0NWJjNjg0NTY1NjZiNTk2MjMyYjVmZDY0NWU1OWZhMDNlMDgwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTdlMDg4ODM2MDExYTAxM2ZkMDFjNWQxMjMyYzlhMDNiMjRiOTg5MTk1YWUwMmYyYTRjM2U4YWM5MDcxNDhhMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

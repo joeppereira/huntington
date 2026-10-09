@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:acb79c1287a42992c2053dd5b642302c20e21cbaf90e8bee0db1ab30934f1e62",
+  "claims": [
+    {
+      "id": "claim_72eebb8eaa49462e9e00e688bfec6bfd",
+      "statement": "Daniel Kowalski is the Tech Lead for the Hold Management Service (HMS), the accountable technical owner of system SYS-PRSP-HMS alongside EM Grace Mensah, within Financial Crimes Technology under Director Victor Petrov.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L50-L50",
+          "version": "repo-lines-v1:sha256:192e25d4f5b45ea4665adeda7d1aabdb49a6ff2be34b3e3d4cf2c0175be30729:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkyZTI1ZDRmNWI0NWVhNDY2NWFkZWRhN2QxYWFiZGI0OWE2ZmYyYmUzNGIzZTNkNGNmMmMwMTc1YmUzMDcyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkyZTI1ZDRmNWI0NWVhNDY2NWFkZWRhN2QxYWFiZGI0OWE2ZmYyYmUzNGIzZTNkNGNmMmMwMTc1YmUzMDcyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTljMTUwNjlhOTM5M2NlOTI2NWIzNTRiYzYzZjExMjg2ZmUzZTY5ZDNlMjY4N2NlYTZiNmNiNTFhZTNiNTEwMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L90-L90",
+          "version": "repo-lines-v1:sha256:2b7f0bf7f2e1208634386b9ff72f37845fe297d7e04ca4d15785ddfd25a84bd2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3ZjBiZjdmMmUxMjA4NjM0Mzg2YjlmZjcyZjM3ODQ1ZmUyOTdkN2UwNGNhNGQxNTc4NWRkZmQyNWE4NGJkMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3ZjBiZjdmMmUxMjA4NjM0Mzg2YjlmZjcyZjM3ODQ1ZmUyOTdkN2UwNGNhNGQxNTc4NWRkZmQyNWE4NGJkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMmQ5MjczMWI4NzI3MzRjYzNlMzNiMzk4YWRjMThmNTgwZjc5ZTI5ZDg3NGRiNjZhYjNhODM0NDdjYzhmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1f47ac235ac74d409a230813d94b73f4",
+      "statement": "Daniel Kowalski is co-owner (with Grace Mensah) of document PRSP-HMS-3.4, the Hold Management Service design and hold reason taxonomy document, approved by Victor Petrov and reviewed by Jordan Ellis, last reviewed 2026-06-24.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L15-L22",
+          "version": "repo-lines-v1:sha256:6069ed8a3ceee635b2e43e4e1c367d6f0705313644281a802811986ae5b88d3d:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTdjOGQ3OWMxOGE5OTZmOGQ2OTczNTRiMjE5YTU2OGRiZWU2OTk3MWZjOTcwMmVkYTk4MTc0YTkxYWYxN2FiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc2NjYyODczYzY3MTFmYmVjNzQxN2QwMDc1ZTQ4NWEwYTZiMzgyNjczMTBiMzg3YWNjYWY4ZTFlMzkzMjZlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d633f9c7c1214114a575e55de2d7b73e",
+      "statement": "Daniel Kowalski raised and owns open risk FCT-2004, which documents that PPH v1's holdReasonDesc field is populated from the HMS hold description via a legacy sync that predates ADR-PAY-021 and remains active only for v1 backward compatibility until the v1 API sunset, potentially exposing restricted HRC mnemonics and analyst notes to channel consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L167-L167",
+          "version": "repo-lines-v1:sha256:dc49fad44eb6bb895376e7477dd1f55acc0e4f62c37662aa4ff67e91169caffc:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTRiMzcxZTNmZTBkZDY3MmJlYjY0N2RhZWU5OTI3ODZiZjJjNzdmY2Q0NzZjNmJiNDlkNWMyNTBhNWIwMTI5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L63-L63",
+          "version": "repo-lines-v1:sha256:67d6a57937689dd583209404ef088c1bf3567cbb87070e53d86295c20d6dc608:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmM0MzYwYzlmZTM3ZDY4Y2NlZWYyNTAwYzk2MWU0NGI0M2RkYjRkMzE2MDJmN2RhNzU1ZWRmZmI2ZDlkOGU2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L76-L76",
+          "version": "repo-lines-v1:sha256:c938c8fe35a3ca6f713c3e03c5efd918dbf0e0cb28118343660ad89013f8cb8e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkzOGM4ZmUzNWEzY2E2ZjcxM2MzZTAzYzVlZmQ5MThkYmYwZTBjYjI4MTE4MzQzNjYwYWQ4OTAxM2Y4Y2I4ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkzOGM4ZmUzNWEzY2E2ZjcxM2MzZTAzYzVlZmQ5MThkYmYwZTBjYjI4MTE4MzQzNjYwYWQ4OTAxM2Y4Y2I4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzEyZTEwYWQxNTBlN2I0NzUyNmJmNTMxY2NiMzg0YzE3ZDQ3OGE4MjczM2FmZjcxNTFjMTMwNzU3NmQwZWJlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjVhZmE0NTcxOTFhODBkYWUwMWQ0Y2QxZjFiZWE0MGNhMGEzMDlkZGQ0ZjlkNmU4OWE5NzI0YTM4ZGJlZjAxMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_505461bdf1924512bf5d28adf1d96723",
+      "statement": "Daniel Kowalski's FCT-2004 writeup proposes two remediations (stop the HMS-to-PPH sync, or redact holdReasonDesc at the API gateway) and records that he escalated the issue to PPH (Sunita Rao) and CBO Wire Center (Tom Becker), with the decision still pending as of 2026-05-27.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L167-L167",
+          "version": "repo-lines-v1:sha256:dc49fad44eb6bb895376e7477dd1f55acc0e4f62c37662aa4ff67e91169caffc:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTRiMzcxZTNmZTBkZDY3MmJlYjY0N2RhZWU5OTI3ODZiZjJjNzdmY2Q0NzZjNmJiNDlkNWMyNTBhNWIwMTI5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_613df96eb5204496a719433264102df6",
+      "statement": "The Wire Center story CBO-4388 implements a client-facing hold reason tooltip sourced directly from PPH v1 holdReasonDesc, with UAT samples exposing restricted-tier HRC content (e.g. FRAUD_MODEL_HIGH, SANCTIONS_REVIEW details), shipping behind flag WC_HOLD_TOOLTIP (default on) ahead of any FCT-2004 remediation.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L71-L79",
+          "version": "repo-lines-v1:sha256:d0cbfaa57a9a08aa1111bde780a105a704ba1fb74642b1f966e939910568765b:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTU4NTIyMTU5MWFiZmVmNDRlYjA1ZmFjOGM5MGFjZThiMjg4MGViODQ1YzcyZmRkMGU4ZmUyMjA4M2YwNTExYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY3NzUzMGM5NjFiYjY4NzI5MzI4NzAyYjY2Yjg2ZjYwMGVjOGI0ODlmMDcxYTA4MTdmZTQ4NDc2NzYxZmY2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGU1MWJlYjQ0NGI0ZmJlYTJhM2VhNTY2NWFhODhjOTNlZDJjNDQzZjBhNTdkYmRjNDIwODAxNzMzZjllYmVkYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_41149a2bf67a40709b4b82f0956fc0ce",
+      "statement": "Daniel Kowalski is the assignee of FCT-1893, a 21-point story to add a client-safe HMS endpoint (GET /prsp/hms/v1/holds/{holdId}/client-view) returning only disclosure tier, approved copy key, and permitted client actions (never HRC code or analyst notes); it was deprioritized in 2025-Q3 by Grace Mensah because no channel consumer had committed, and no client-facing HMS interface or attestation endpoint currently exists.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L143-L157",
+          "version": "repo-lines-v1:sha256:e8a6d63076fc11a9e4bd00e83736be541e05a667aa0ea1f20f1a9daa71884644:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlOTM5ZTM1YzVhOWY0YmM5MzgxYTZjNGUxNjA3OThkMmY2MDEyNzA1MzRiM2UwMDA5ZDAxNmM5ZTVkY2EwMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjOWRkMjlkOGIzODg5NzMzNjExYjg4NzgxOTMzMWM0Y2NmMGMwMjJjNmYzYTk3MDc0NzdlNTI1MjNmZDJiNzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4NjkyMTE2YzBiYjZiMzRkNGMzNmRmNjk2MTM1NjgwZDRkOTY0ZWNhZWMzYWExMTczMTY0MTQ0OTJmMjBiNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgxMjUyNTFjYTAzZTI5YTMwNTE1OGQ4ZTY4NzBlZWNkMzkyMTA5YmI0MThhNGNhZjRiMzFhYzFjZWY0OTRjMzkifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L61-L61",
+          "version": "repo-lines-v1:sha256:1130b678a244016097340b49c7531585d6f1eb7f203ec07285630dca071c824d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzMGI2NzhhMjQ0MDE2MDk3MzQwYjQ5Yzc1MzE1ODVkNmYxZWI3ZjIwM2VjMDcyODU2MzBkY2EwNzFjODI0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzMGI2NzhhMjQ0MDE2MDk3MzQwYjQ5Yzc1MzE1ODVkNmYxZWI3ZjIwM2VjMDcyODU2MzBkY2EwNzFjODI0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTUzZGU1OThhM2QwMTgwYmM2MGFiZjJkYjhkMzI0ZTczM2I3NzgyNTBlYzMyMmFmZWQ4OGVmM2UxYjI5OGI3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGUxZmJhNzRkNjE1NmY0YjdmMzczNjA0NmYxNzRhMzRjNzdhOTE2ZmEwODZlZWEwZjQxOGFhNzhhYTA0YTYwNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L88-L88",
+          "version": "repo-lines-v1:sha256:8209034d719079e3260217a5fd2548b0e374119969d2b5296fe9452d00cf91fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDE3ZmM0MzQ1N2Q1MWZhYTIwNGZiZmMyZjllOThjNzIyMzRhNzI3ZWFlY2FmMzEyNzJiMmE2MWUwNDY2ODJmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRlZmE4YjdhMDVlYWQwNzFhNTc4ZTBlMmU0YmQxZGUzZjRmNTcxZmRjMmQ0NDM1OWM5NDczMDkzMjAxYWI4YyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

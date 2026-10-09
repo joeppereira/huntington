@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:76f055c04ed03c9d0e5ccb0e53a7ddb1901b9a4bc7b6faf3fe7d6f9966a409be",
+  "claims": [
+    {
+      "id": "claim_7ecc86e0adea4310955b1f2c03fd4809",
+      "statement": "API-06 Card Management API (v2.6, base path /cards/v2, Card Services domain, owned by Card Technology) manages card lifecycle using tokenized cardToken references; PAN data is tokenized and raw card numbers are never returned. Data classification is Restricted - PCI.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L1-L17",
+          "version": "repo-lines-v1:sha256:7e2ad7a391e4dfac598633be40c5366d48bf8f3471326497cf709a82071d85ab:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYzYxM2Q5ZDBhZTE3NzcwY2Y0ZjcwZmUwZmZmMGY1M2RjZWI5NzYzZDEyMGYyZDgyNTMzMDE0MGQ0ZmIyNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b9644475f80e4b109b2797dbd7ff0a13",
+      "statement": "API-06 documents four endpoints: GET /cards/{cardToken}, POST /cards/{cardToken}/lock, PUT /cards/{cardToken}/controls and POST /cards/{cardToken}/wallet-provisioning. Issuance, activation, unlock and replacement are described in the overview but have no documented endpoint.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L4-L26",
+          "version": "repo-lines-v1:sha256:021c778aaba1adb5bd5424c27cf7259f1e6b8ad4eb00334d70f4675913979683:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkZDgxZDBiM2ExNjAxYTAzNzBhZWEzNjQzNTQyMDcxM2MyODBlMTcyYWE4YzE0MGE0OGIwNjA5MTA5M2ZmZDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhZjgyOTUzZjczMGQ4MWVjNDE1ODE4ZDk5YzFlMGMyNDllZTQwOWVlZjhiNDllMmJmN2Y3Y2NmMzQ1MmY1OGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmMDVhNmUzNGM4Y2NiNjI2ZjM2MDQwZjcwMzhiMmMwMTE1MTY1NjNhYzIwZmFlMWQ3MTRjOGFhNmM2NWNhZDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9de8f00a104340e280fa84945abc764f",
+      "statement": "API-06 uses OAuth scopes cards:read, cards:write and cards.controls:write, a rate limit of 800 requests/minute per client, and an SLO of 99.97% availability with p95 latency of 220 ms. The source does not map scopes to endpoints.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L15-L26",
+          "version": "repo-lines-v1:sha256:b4e94e4b0dbe565d5666a0dd0bee5ffac42118e329813e5f741cb23e2833836c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4NDE3MWMyYWEzM2ZmNTU1NjY3NzY5MDk3MjZlMmU4MWQ2NmUxNmM4MWI0MGYxMjliMzBkY2EwNTRjYWY4OTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhZjgyOTUzZjczMGQ4MWVjNDE1ODE4ZDk5YzFlMGMyNDllZTQwOWVlZjhiNDllMmJmN2Y3Y2NmMzQ1MmY1OGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhNTA1NDgzYTc0ODhjNmY5MzljYjM3NGRjZjQ5NWY5MzVlM2RjNDZlZGY4MDY3NGRjNGE2OTI0YmFmYjRhOGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a92bab9b47b34c579ed29d9c40259719",
+      "statement": "Spend controls cover merchant category (blockedCategories), amount (dailyLimit) and geography (allowedCountries); the response returns cardToken, controlsVersion and status. Geography controls arrived in v2.6 (2026-04) and co-brand partner scopes in v2.5 (2025-08).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L25-L79",
+          "version": "repo-lines-v1:sha256:8ebe3ccf3823bff704ca2df7655081a2eb1d5a188ed62a5912d8e3b91c8621e4:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0Yzk3Njk2NGI2ZDFlMTc1OTg0YTBmZTQ4NTIyNzliNmRhNTc0MDExOWJkOGJjZDZjZTI5ZmNlYTYzZGU5MjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzliNWMyMGUzMGJjYjFiZTQxMGE0ZmNhYTFiMWE2MmQ4NDk1ZTIyM2RhMTgzNGExMmNkYmEzMWYwYTEwNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZlMWI5OWM4NDRlNTc1Mzc4NmZkYWQxMmEzMTc4ODNjMTJkMGQzY2Y0ZGE2NWM3MWE3YjBkYjIzMjQ4ODBhYTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_39bed7d77ed340a88a7c0fab19d3c3d6",
+      "statement": "The source's example request labelled POST /cards/v2/cards/{cardToken}/lock carries a controls body and a controlsVersion response, which matches the controls operation rather than lock, so the example appears mislabelled.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L24-L68",
+          "version": "repo-lines-v1:sha256:67760c1be52af6adc7affdb72d9f566a306585d79b81bbd65fb3ac5833cf8e99:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmZGE3M2E2Yjk3MmMxOWIxOWQzYjEyMzBiMjE2NGIyNzNmZjFjMmIxNjljMDJkYmY2NjY3YTRlNjZmMmIxMGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk5YjM3NjBjZjRkOGIwMmVkOGNiZDg3MzQwMTc4MzI0MjdmM2VkZjNlYzIzOGUzNzQ4ZGQ4NmRhODQ2YjM4YzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_df7e0a4ec24945778de0ada8b7c7ea53",
+      "statement": "API-06 data lineage: upstream are the card processing platform and the Customer Identity & KYC API (API-07); downstream are the card authorization system, digital wallets and the Webhooks & Event Notifications API (API-18). API-07 and API-18 each list API-06 on their side of the relationship.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L70-L74",
+          "version": "repo-lines-v1:sha256:9b5aa77259030dbdbe29292d388782ab651a11d554e1db2a48c75aeb242b3911:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzdlYzQ0MzcwYWVjZDI4ZDNmOWEwYTdjNTlmMTNjMjY2Y2Q5ZWE3YjEwYTc0NDE3MWQ2YzM5MjkwNjhjNmQxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L71-L71",
+          "version": "repo-lines-v1:sha256:b95f9485e29420987709e911e3b9782dfedd64ae745ef8add166576e2a781ede:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1Zjk0ODVlMjk0MjA5ODc3MDllOTExZTNiOTc4MmRmZWRkNjRhZTc0NWVmOGFkZDE2NjU3NmUyYTc4MWVkZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1Zjk0ODVlMjk0MjA5ODc3MDllOTExZTNiOTc4MmRmZWRkNjRhZTc0NWVmOGFkZDE2NjU3NmUyYTc4MWVkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-18-webhooks-event-notifications-api.md#L63-L63",
+          "version": "repo-lines-v1:sha256:3450acec9aae824105fda2914765d95ae508c584bc580cace5c2faec113ee7a2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ1MGFjZWM5YWFlODI0MTA1ZmRhMjkxNDc2NWQ5NWFlNTA4YzU4NGJjNTgwY2FjZTVjMmZhZWMxMTNlZTdhMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ1MGFjZWM5YWFlODI0MTA1ZmRhMjkxNDc2NWQ5NWFlNTA4YzU4NGJjNTgwY2FjZTVjMmZhZWMxMTNlZTdhMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_235d342e16ce40c1a063243396577039",
+      "statement": "Platform-wide rules apply to API-06: OAuth 2.0 with 15-minute JWT access tokens, POST operations requiring a 24-hour Idempotency-Key (409 on payload mismatch), 429 rate limiting with Retry-After, and a standard error object with code, message and requestId.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L31-L75",
+          "version": "repo-lines-v1:sha256:56174b20d02bc0fd50b5ce6239d7a536172232f1d0140c3b591e2e2f6a853ed2:eyJzZWxlY3RlZExpbmVDb3VudCI6NDUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIwMTg3ZjAzZjY5MTJlNWRiZmMxM2FiMDU5ODc5YWY1YTMwNjkxMGM5Nzk0MWVhZmM1NThjOTM1NDRiYTEzOGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjAxZmQxOTQwZGI4MWMzODI4NzMzMDkxNzlmZWY4N2Y1MDk0YzY5ZmZjMTY0ODYwN2VjNjA5OTgwZDljMDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVlZTlmMjUzOTYzNzhhYjBiYmMzMWM1NjNhZTczMTE1NjYyOGZkMWQ0MWM4ZjFhMjQwNmFhY2YyZWZmZTBiYWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_298dc277e1454b6e8bc073349d843127",
+      "statement": "The Q2 2026 earnings supplement reports API-06 at about 260 million calls per month, up 15% year on year, with 99.97% availability, consumed by the mobile app and fintech partners.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L420-L420",
+          "version": "repo-lines-v1:sha256:3ef18278bfd8f0c84168658b500c296e434979613638a51e2dbc3475eac2a1a4:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2VmMTgyNzhiZmQ4ZjBjODQxNjg2NThiNTAwYzI5NmU0MzQ5Nzk2MTM2MzhhNTFlMmRiYzM0NzVlYWMyYTFhNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2VmMTgyNzhiZmQ4ZjBjODQxNjg2NThiNTAwYzI5NmU0MzQ5Nzk2MTM2MzhhNTFlMmRiYzM0NzVlYWMyYTFhNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmU2MjYxMzFjOTk4ZTY0NmVkYjc4NGYwMDU2MjIwYTdlOTRmNDQ3OTRmZDFiMGQyMmJhNDcyOGYzMGE5NDI5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2VlYzk5NzQ0NGM2NWZkNmVmNmFiNTNhZDkxNTljMTFmNjIyNGExZjAyMzM5ZTY4ZjhkOTYwMmFjNjE1NDdkYiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

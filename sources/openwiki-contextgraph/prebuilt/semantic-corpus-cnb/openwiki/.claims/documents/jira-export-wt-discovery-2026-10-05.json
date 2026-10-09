@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d66649bab4458efff7ae0813f2f4654a7dc239b11653470bd85043990da95586",
+  "claims": [
+    {
+      "id": "claim_fba3bc7563b34661804c0965b9a4fb79",
+      "statement": "JIRA-EXP-2026-10-05 is a point-in-time Jira Cloud export of the saved filter \"WT-discovery\", scoping wire-related issues updated since 2024-01-01 across the CBO, PPH, PNG, GTSI, FCT, ENS, and TDA Jira projects, exported by Marcus Chen (Product Owner, CBO Wire Center) at 2026-10-05 08:14 ET and classified INTERNAL - CONFIDENTIAL.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L11-L22",
+          "version": "repo-lines-v1:sha256:2fe49963f95ce62d46658f4dd451100c4da405310b1c9ae83d0a4a0190fea870:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmMjdiNzg0YmFmNmZhOTUyMzFjZWY2MTU3YmJiMmViOGI0ZjhlMGMwMDBmMTc3YjA1NzRjNDNiMjEyNjI2ZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3N2ViMzYzMWQyZjFlY2JiODg3ZWZiYzc4ZTQyYTZlYTNmZGViMjZmZGM0OTMzMzE0MDkxMWNiNjRjODYyMmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlODhjM2M0YjBiMjZlNjE0NmQ4Y2QzYjVkZTY0NzI3Zjc4MDc5OTZmZDYwNGM1MWJhNjE1MmFmMDQ5NmU1ZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjYjgzNmY4Y2VlY2NlMWMxMGI0NDczNzkyZjI3MWFhODgzNTg1NjIzNThkNDdjODA1YTE1OWM5ODE3ZWI2ZDYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b39b1a5f5ae5434c85a46cae56c3099e",
+      "statement": "PPH-2190 (PPH v1 API sunset epic) tracks migration of IVR (migrated), CRM (in progress), and cbo-wire-bff (not started) off the PPH v1 API ahead of a 2027-03-31 sunset, driven by the v1 adapter lacking support on the Volaris 9.6 upgrade, with the Architecture Review Board denying any extension on 2026-09-08.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L137-L141",
+          "version": "repo-lines-v1:sha256:04068018a39909221bd96b517609deb4cee9d42a30b8ab9ebbc7b70e7a2c47aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiZmRmMjY2NmY2NGMyMjcyZDJlZmIzNzkyNTU1N2U0ZGRlZTk4NTBkYWFlZjUzNTllMTkyYzdjNTVlMDI4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNDVhYjczOWJhNDk4NWM3NTBjZmFhMDYxYjAyZTdhZTljOTkzNzU2M2Q5MjRkODVmNGZhYjAzOWVmMjI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWNkMTk4YmI0MzFiYjBkMGM5MzNjYTUyZDIyZTUwNDE2ZGRkZGE4ZGFmMTMxM2FhNzIzZGViYTljYjI2NjdiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQzYjljMWU1NjQwOTU5YmNlY2Y1ZDJlMTQzMzUzZmEwM2Q5ODg4NTVjMzFkY2RmZDc4NjE5NzA0NTU4MmRhMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L53-L53",
+          "version": "repo-lines-v1:sha256:dd395d3b126a7050225f00c66eb903cd80b78adfdb426f59153ceb0a925b19d6:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQzOTVkM2IxMjZhNzA1MDIyNWYwMGM2NmViOTAzY2Q4MGI3OGFkZmRiNDI2ZjU5MTUzY2ViMGE5MjViMTlkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQzOTVkM2IxMjZhNzA1MDIyNWYwMGM2NmViOTAzY2Q4MGI3OGFkZmRiNDI2ZjU5MTUzY2ViMGE5MjViMTlkNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjZlY2RlYTA0MmQxMzAzZGU1N2IxZmExMmE4MGNhMTU2N2Y1YjA0MjM5NmFkYWJjNmJlYzU4ZGNlYzAxZDU2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzdmN2U4ZjZkYmIyOWNmNGUzN2M1YTgwNTRjMWVlMzJhNTNkZWZiYTBjMWVlZjRkMTQyZTZhYjNlOGUwZWRhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f00d719de5ad4d6ab23faab32e5ce8af",
+      "statement": "CBO-4471 (Migrate Wire Center from PPH v1 to PPH v2 APIs, 34 points, Backlog/unscheduled) depends on CBO-4473 (CES account-filter mapping for PPH v2 search) and was not yet placed into PI 26.4 or the PI 27.1 draft as of the 2026-10-05 export.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L107-L113",
+          "version": "repo-lines-v1:sha256:3368cafdb0b6b5cbfa1b9a67247e306826af7835c147b7c32d283efbadc11fdf:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwM2ExZDQ2NDI3NzQxYmQ0NjA1ZWYzZWQ4YjY2MGYyMjk5NDZlNjJmNTcwZGRkZWVlOTczMzlhYjhlOWM0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0YzMwNDhkMTdmNTdhNjAyMzliZDJlMzFjOTQ1ZGEyY2I1YjljNDBmMjE0NTgxNGY3M2U3NjVmNTMyZmQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjRjNDI4OTgxYTcwZjYxYTY5OWVjNTZiM2JhOTVmOGUwMTM2YjdlOThkM2YyZjE1NmEzNTJjMGM0Njc4MjcxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYwM2Y0YTI2OTg0MjI4YmZjMDgzMzY2NGIxODIwOGIzYjkyODJjYzI5MWVkZDNiN2M4YTczMmNkMDY0YzU1NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_971e3138e74344079faaf8722ccb7338",
+      "statement": "CBO-4402 renamed the client-facing label for PPH v1 status PROCESSED from \"Processed\" to \"Completed\"; CBO-4419 reports a client complaint (Pega case CMP-2026-1189) where a wire shown as \"Completed\" was later rejected by the beneficiary bank with ISO reason code AC04 after the client had already released goods.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L186-L187",
+          "version": "repo-lines-v1:sha256:8261c68fc6011b8ae851a4721422292dec6f6e3b3e87e9985920a0744b5eb164:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODMxZmUzYzA0ZGY3YTk2MzY3MDQ4OTdhYjhhNzZjYzU5Zjc3M2MzNGJmYTY4NjBmMmEyYzAyZTYwYTAzMzgzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTFlZDhmN2ZhMDc5YjcwZGUzZDMzZWIwMzYxZGQ4YmVkMjQyZDJjOGE2MGZiYTc2MzYwZjgwM2M4M2U0YWEwYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTIyYmIzMmI4ZWM4MzBlOWYxYWM4NDMxNDFkNjA2OTAzNDQzOTI1NTJjYmU5N2E0MGU4MmJkODZlOTE3Y2U5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmI3ZDdkYmViZWMwYTJlZDU5ZWNlNDI3YTNlZWJkNTYzZGNlNzczOTE4YTA0N2I3NTAyMmY1ZDkwMmNmOTczOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L83-L105",
+          "version": "repo-lines-v1:sha256:1b499802765fa8f9311cb50e8c02258fa627ab1912e18dc19eb08ee1a966f1b3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5ZDZmODkwMGNhYjY1NDRhNjBlZDRmMWYxNGJhNjUxZTM2M2ZlZTFlODg1OWU2MjcwNDY1NjZmMzFjY2E4NmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyMjQ0NThhMGQyNjliYjEyYTYxMjAzMTUwMWJmZGZjZjg3NjgyNGEzOGVkZjM1YjIzMzlkNzk2Y2Y1ZmFhN2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNTFiZWI0NDRiNGZiZWEyYTNlYTU2NjVhYTg4YzkzZWQyYzQ0M2YwYTU3ZGJkYzQyMDgwMTczM2Y5ZWJlZGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU2NTFiYmE1MzhiM2E2ZGMxNDExMzAwMTFjMDVlOTcwYWVhYTEzZDhjZjhiYWZiMTA4MTRjNzNhYzM1MTMwM2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6ab9eb7f226640bebcd94070b783d6e2",
+      "statement": "PPH-2207 proposes adding a rail-specific settlement object (fedSettlementTs from pacs.002/OMAD, settlementStatus) to the PPH v2 API because the existing stateHistory NETWORK_ACCEPTED timestamp reflects PPH processing time rather than confirmed Fed settlement time; the story is in Backlog with no sponsor and no consuming product identified yet.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L131-L135",
+          "version": "repo-lines-v1:sha256:9535704a0377bd5dd4a2083ee63fba3bc7a2a73a31f6ad6ba758326bd7f42455:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZjZTBjYjk2OTQ0YTc3MDQyMWY2NTZkNGI1NTlmMmIyOWY5MjA2NDVhN2NhMDJkZThiMjhmNTA1MmM1Yjg0MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDFkNWFlMjNmZjBlNzdmODc3YjhkY2UyZDEyZDcxMTYxZGI3NjQ5ZTZlNmEyZGRhZDQxZmNiODgzMTUyMTRiYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTA1Nzc1NWJkNTZiZDc4YWZkYjBlN2Y4YjY4ZDk0ZmM2NDk4YzNkZTE4ZmM4ZTc4NjU5MzA3NDI4NDczMzliYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTc5ZTc3MTNhODIxN2RkMzkzYThjNzE1OGU3NTQwMDBlMDllNjlmOTFiOTRkNmRjYWJlODEwMDg2OTg3YWI5MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_101935389f2b439cbc2501f49fcc9f12",
+      "statement": "CBO-4388 adds a client-facing hold-reason tooltip sourced from PPH v1 holdReasonDesc (truncated at 120 characters) behind feature flag WC_HOLD_TOOLTIP, merged to release/26.21 for production on 2026-10-22; FCT-2004 flags that the same holdReasonDesc field may expose HMS Hold Reason Code values and analyst free-text to channel consumers, with remediation (stop sync vs. gateway redaction) still undecided as of the export.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L165-L167",
+          "version": "repo-lines-v1:sha256:1ff89d090b6bf4bd2e01243a3aa2c555b9140197e509aa8cbcaeff95c70bafb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA2OGMwYTFlNzM4MjQ2MjZjN2RmYWU2MDk0MDIwY2JmYzhjOWIzMjNkNDQyOGU5MDM2NjY5MmUxNjBiNGJjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZjZWMxOWUxOWQ5ZjAxNTJlNGYyOGYxYTZkZTBhNDMwYjI4Yzk3YTczMzU5MGYzMzkzZmFjOTUzZGJlYzM5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L71-L81",
+          "version": "repo-lines-v1:sha256:70c4341bbdde104ef9c4247a8051a24184b60ccba67076eee251e0bfa26cd0dc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1ODUyMjE1OTFhYmZlZjQ0ZWIwNWZhYzhjOTBhY2U4YjI4ODBlYjg0NWM3MmZkZDBlOGZlMjIwODNmMDUxMWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRjOTRmODY2OTM3OGQ0NDZiOGU0MGQ0NmM0N2JiYzU3NDRiZTg4MTdmNjczMGFmN2Y5NTc0ZTJjYmY2NTQ1OGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY3YjFjYzMxYWQwY2IwZGIxYmRjZWQ5NzJiYThmMmEyZjU5ZWU4NTQ0NjIyZWMwZmJmNGFhNmMwMTAyMzk5NTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmN2Q3Y2IyZjBhZjVjYWM1YWQxOTQ4YTM0NDBhMDNhYzc1MjU4NjRjYmIwNDI5NmE5ZjBkZmJjZDY5NzkzZmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6cdb2cbf17f841d290ed1e2a46d171c0",
+      "statement": "FCT-1893 proposes a separate client-safe hold-status facade endpoint (GET /holds/{id}/client-view) that would return only an approved disclosure tier and copy key and never raw HRC or analyst notes; it is deprioritized in Backlog since 2025-Q3 pending a funded channel consumer.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L143-L157",
+          "version": "repo-lines-v1:sha256:e8a6d63076fc11a9e4bd00e83736be541e05a667aa0ea1f20f1a9daa71884644:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlOTM5ZTM1YzVhOWY0YmM5MzgxYTZjNGUxNjA3OThkMmY2MDEyNzA1MzRiM2UwMDA5ZDAxNmM5ZTVkY2EwMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjOWRkMjlkOGIzODg5NzMzNjExYjg4NzgxOTMzMWM0Y2NmMGMwMjJjNmYzYTk3MDc0NzdlNTI1MjNmZDJiNzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4NjkyMTE2YzBiYjZiMzRkNGMzNmRmNjk2MTM1NjgwZDRkOTY0ZWNhZWMzYWExMTczMTY0MTQ0OTJmMjBiNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgxMjUyNTFjYTAzZTI5YTMwNTE1OGQ4ZTY4NzBlZWNkMzkyMTA5YmI0MThhNGNhZjRiMzFhYzFjZWY0OTRjMzkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c775e9a902f94f1f93cbd29eb8f1aaff",
+      "statement": "International (gpi) wire status is visible only to Operations via the internal IWB tool and not to CBO clients (CBO-4480 spike); longer-term visibility is being pursued via GTSI-0107, a planned change-feed-based gpi Tracker real-time API (discovery 2027-Q2, build 2027-Q3/Q4, unfunded for 2026) that supersedes the PNG-1544 proposal to increase gpi Tracker polling frequency.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L115-L121",
+          "version": "repo-lines-v1:sha256:ab847116cb49c064f08f68a61c928705dc2d382c0edeb51ac8f3a21d0da8a52f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2VlYjJmOWY5ODk5ZGFjOGQyY2JkMzg4MjE2YmM1MmNlMzEzNzdkZjU0NGQ5ZTllZTBmZmI1NmVmZjBkYjE2NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY4ZmIwYTBkMmFkODk3Yzk1ZWU0OWM5NWQyMTdkZDczYjRjNzY5ODAxZDM0ZTVjYjg5MWMxN2FjZTczYzgyYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzg0YmQ0Y2ZhYmFiMDEzZTE1M2ExODA0OTQ5MzNiZjY4MjBjZmVmZWQ4YmMwZDJhMjc3MTg3Y2E2YzQ2YThhMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzMyNWMyMGZlOThiMzRiMmVjZjc2NmExZGY3NTFmODdkNzk5NjMwZWY2MjI0NjgyM2YyOTFkMTU2NTU4YTU3NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L169-L175",
+          "version": "repo-lines-v1:sha256:a24467decb1c3caafe20ac2ecec4afa3c1b608f126e8faa2831fd11ea43acbd4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2YxYjcxMjAyYTBmNGRjYTgxNTFhOWQ4MTZiZGE3YjdlZjQzZTJlYmNiNTM1Mzk4ZGUwYjJhOTQ5NGNiNTY1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJhYzUzMTcwMDY3MjYwMWIzZTQ3MDVkMmZlMjAwMDE4YmJkZTQ5MjQxNGQ4OTA1NjgzMjcwMWYwNzViNzdlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWUyZjUwZTNhOTdjYjViMDM0OGJhMjQ4YWU2NmExZDRhNmRmNTlmMjRhZmU4YWVlOTJlNDJhMzgxM2JlNjcxOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzZlMjRhNmNhNDkwMzQyYTRjMjJiYzc5NDVjMDA0ZmYwYjkwNjgyZmYwY2E4ZDZmNmRkMGU1ZWExN2U4Y2I1MiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L39-L39",
+          "version": "repo-lines-v1:sha256:3f5d44f811a1263aaa431073c3423e70ee902e4b2f62aa16c77497f68869ec18:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDdhODY5OTBiOTc5ZGMzMjlmMzI4YTcyYmNjZWEyMjNjYTAxZmFlZWNmNGE1ZmUxY2YxYWU4ZDMxZjRlNjNjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMxNmUwYjcwNjMyMmU4MWVlNjEwZTVhMmVlMzk2YjM1YzExZTcyODA2ZmFlM2YzOTkwYWI5M2IwOTI0YmJmMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L57-L58",
+          "version": "repo-lines-v1:sha256:bf33be4b1454ae4edfba9b07afdf0485f7bdec1efc7a500b0a9d16dac343addb:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzllZTI4OTVmNjJkYzFiNmM3NWMyNjY2YmI2ODQyNTE3MzMyNTI2ZWEzMGEyZWVjYTk5NDdmZGQ2MDI2ZWZjNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ODg3ZDAyM2MxY2IzNjFmODc1MmU2ZDBjMTI4ZmQzMjc1MmQ5YzMwMmE2NTIzN2JkM2ZmMzkxYzhlOWRlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzdmN2U4ZjZkYmIyOWNmNGUzN2M1YTgwNTRjMWVlMzJhNTNkZWZiYTBjMWVlZjRkMTQyZTZhYjNlOGUwZWRhMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTg1YWFlZmNhZTIwNTllODAyMDg5NzVlMWU5OWFkMDc2OTg5NGMyZmM4MDZjOTE5Y2JjYzAyNmIwMTY0NDAyOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_191ae9e4b1a94d408092f92c27f5e9e0",
+      "statement": "The Status Projection Service (SPS), delivered under CBO-3815 as a Kafka-consumer-backed Postgres read model exposed via /cbo/sps/v1, is designed to be extended to new payment types via a topic subscription plus a per-type mapping module; extending it to wires would require an ACL on pay.wire.lifecycle.v2 and a mapping from v2 lifecycle state to client-facing milestones.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L123-L129",
+          "version": "repo-lines-v1:sha256:b98a4269ebd7df79bd67e4f14df8ca99146ecfcf518700069a8a6c3d8d399810:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYxMDgxYmI3MzlmOTM1NjY0OWE5NzY2YWRlM2QyNDg1YmYwNmIwZGZkNTNmM2I3MjdkYzVlOTdhYjAwNzBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1M2NlNDkyZTNhOTA2ODZhZDkwOTNiZGRlNTMwNjk3OGFlODUyN2QyYmZlZTY3N2RlOGYyYjA2OTFjNTdiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmMzk5NjE2OTQwMzVhZDk4Y2ZhMzEwN2IxNzBiMmI1ZWU5MzE2MzA1MDVlM2M0YzU0NzIwNzU2NGFjZjkyNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d191993cc2f94843bf38e55e6ab4104c",
+      "statement": "CBO-3120 (\"Wire Status Lite\" auto-refreshing wire status pilot) was closed as Won't Do because it caused incident INC-2024-1182 (PPH v1 thread-pool exhaustion from status polling during month-end, per post-incident review PIR-2024-07), establishing the no-polling constraint that led to event-driven alternatives such as the Status Projection Service.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L186-L188",
+          "version": "repo-lines-v1:sha256:a023860014dc8e31fd2078895e9a78bcfa4e53068b3040e4c8ccbf0fd26c737c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODMxZmUzYzA0ZGY3YTk2MzY3MDQ4OTdhYjhhNzZjYzU5Zjc3M2MzNGJmYTY4NjBmMmEyYzAyZTYwYTAzMzgzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTIyYmIzMmI4ZWM4MzBlOWYxYWM4NDMxNDFkNjA2OTAzNDQzOTI1NTJjYmU5N2E0MGU4MmJkODZlOTE3Y2U5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDU4ZTkxMTdkYmJiMDYzZDMzMDhjYzI5NmNmMjA0ZDY0NmEwNDFjYTgwMTViMGE2YjJmYWI1ZmNmNGZiOWZiNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L28-L28",
+          "version": "repo-lines-v1:sha256:3038fc9c1647d6ba6f0daf761aa168ceff1c5e8b34bdbecfdaccdb0a74d759f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjZlY2RlYTA0MmQxMzAzZGU1N2IxZmExMmE4MGNhMTU2N2Y1YjA0MjM5NmFkYWJjNmJlYzU4ZGNlYzAxZDU2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUyOGI1ZTZkMTJjYjNiNTcwZTFkYzdkY2JhN2M4NzczYzlmODEwMWYwMjNmMzZjZDZkZmQxNWJjNjYyZTBlMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

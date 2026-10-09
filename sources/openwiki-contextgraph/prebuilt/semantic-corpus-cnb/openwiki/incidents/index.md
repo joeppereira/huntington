@@ -1,0 +1,5 @@
+# Files
+
+- [CMP-2026-1189: 'Completed' Status Client Complaint](cmp-2026-1189.md) - Open regulatory complaint in which an EUR 412,600 international wire for Halvorsen Industrial Supply was shown "Completed" in Crestline Business Online at release, then rejected by the beneficiary bank (RJCT AC04) the next day after the client had already shipped goods in reliance on that status.
+- [INC-2024-1182: PPH v1 Thread-Pool Exhaustion](inc-2024-1182.md) - Month-end incident on 2024-05-31 where Wire Status Lite pilot polling combined with production wire-release refreshes exhausted the PPH v1 API thread pool, delaying wire release by 47 minutes and becoming the root cause cited by ADR-PAY-019.
+- [PIR-2024-07: Wire Status Lite Pilot Post-Implementation Review](pir-2024-07.md) - Full lessons-learned review of the Wire Status Lite pilot (CBO-3120) and INC-2024-1182, covering quantified business impact, client misunderstanding of the "Processed" status, root causes, and the still-open action to validate client-facing status terminology with FCC and Legal before any future tracking feature.

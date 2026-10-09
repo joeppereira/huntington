@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:412e675523085387e883ec375389603fc166e36f93c8f864c82d2896617275ae",
+  "claims": [
+    {
+      "id": "claim_3f1d59b31b3d467db8a4755aa659574d",
+      "statement": "Treasury Data & Analytics (TDA/TDIP team) is an engineering team within Crestline National Bank's Payments & Treasury Technology (PTT) organization, led by Wei Zhang (Director), with Carlos Mendes (EM, Data Engineering) and Dr. Aisha Rahman (Lead Data Scientist) as named key contacts, tracked under Jira project TDA and Slack channel #tdip-help.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L60-L64",
+          "version": "repo-lines-v1:sha256:6f06c85c5b175415d4998dfbf79615768177e9441a09730b6c8b31eef22b2d2d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVkYjg1ZjQyMzk4YjFiZThmMzFjMjgyOGZhZGI0YzQwMWI0NGE0MWExNDQ1ODdkODY4ZDI0ZTI4ZGE5ZGE0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjI3YzY3ZWUyMTliZmExMGYxNjk5M2U2ZWYyODU0ZDI1OGQ2NWQwZmEwYzRiOTE2MDUyODcxMmE1YjRiMmQxZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_adc5f921b43746e69576fdf7f8885b3c",
+      "statement": "The TDIP team owns system SYS-TDIP (Treasury Data & Insights Platform), with Carlos Mendes as technical owner, Laura Kim as business owner for payment data, and a T2 (business hours plus on-call) support tier.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L94-L96",
+          "version": "repo-lines-v1:sha256:c474b14fcea505c835f21dd8fd4e6e2b35ee91e48cf861867dc96fdfbda4e247:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWNjZTE0MTAzZWUyZWM4Nzk3ZjIyYmU1ZjkyNTUyMTNhMzk4MzY1MjFiYTBlZmFhMzU2ZGQ3Y2UzNDI5N2Y0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjExNjEwZDRjN2RmYWI3MjQwOWE5NmI2YWE2OTdiYmYxYWQ1YTc0ZjJlOTE5MDliMTEzMGUxOGYyZGNiYzg5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2ZhMmQ5MjczMWI4NzI3MzRjYzNlMzNiMzk4YWRjMThmNTgwZjc5ZTI5ZDg3NGRiNjZhYjNhODM0NDdjYzhmNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjU4MDJiMDlkYzg5OTA0YTYzNzEwMDdjYmI1NTdlZmQ4YWY0YmI5OTdkYjQ1ZGNlZWVhNmI0NDJlYTQ2NjM1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_54c3d29bfd5c4671a4f5d81c3d4cbee8",
+      "statement": "TDIP's planning factor in the PTT engagement directory is 1 story point ≈ 6 engineering hours, intake is via Jira project TDA plus a Collibra Data Access Request (DAR) with an additional 15 business days for Restricted-classified data, and the team was ~75% committed capacity-wise for PI 27.1 as of the 2026.2 refresh.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L133-L133",
+          "version": "repo-lines-v1:sha256:d44089a8902aab11ccc999afe3228c0820b7d66eb1c2a6ecc76b46daebfe4068:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQ0MDg5YTg5MDJhYWIxMWNjYzk5OWFmZTMyMjhjMDgyMGI3ZDY2ZWIxYzJhNmVjYzc2YjQ2ZGFlYmZlNDA2OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQ0MDg5YTg5MDJhYWIxMWNjYzk5OWFmZTMyMjhjMDgyMGI3ZDY2ZWIxYzJhNmVjYzc2YjQ2ZGFlYmZlNDA2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmQ0MjE2Y2NjNDE3NDZlOTE2YTM3MzU2MDc3ZmIxNjkzNzYxMDU2NjhjNTg4MzM1MTI4Y2Y1NzVmMTAxNGIxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk1YmQ2MDQ2Y2M3NzUxMGM3NTRlOTdmMTcwZDU1MDllM2U3YzM2MzlhZTA4NzIwZTJhOTk4MDYyMDhhOWQ0ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a034de89e8f8461d8b48879366c39ee6",
+      "statement": "TDIP's data catalog states that dataset access is governed in Collibra and that any dataset classified Restricted requires Privacy Office approval under a 15-business-day SLA, matching the +15 business day DAR figure in the PTT planning-factor table.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L24-L26",
+          "version": "repo-lines-v1:sha256:7da4ef09857d42d661a8423664c4eba22ed197cd925d9e12582890f733e3ad87:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1MjAwZjAyM2RkOGY0NjZjYWZlYWFkODQ1MDIxOTAxZmNhMDg5N2U2NjQxYjNhOTdjYTExYzM1ZGQxM2VjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdmNTNkYmVlMWI2OTM4Yzg3YWI4NzEyNmZkYjBkYzhiZmZjNjkyOWNmYTg1MGYyNzZlODU0MGJjYzA2MTg4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_50dc7a9e2bca4055ad481cb7ff65aabd",
+      "statement": "The only Restricted-classified source dataset in TDIP's 2026.2 payments-domain catalog is dda_txn_history (Restricted - Client Confidential, daily from Core Deposit Platform, 7-year history, owned by Mark Sullivan/Deposits Data Engineering); the beneficiary_behavior_profile feature table is also Restricted - Client Confidential, with permitted purpose limited to FCT fraud/mule-detection and feeding model M-FCT-0034.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L30-L46",
+          "version": "repo-lines-v1:sha256:2386aa72d359e89fe2331c513370344730f4aacbb962a3f2f1c0f8a3292dcd9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRkMzc5ZDAwYWNhNDYyZGFkY2E2NjhjYmZlODhlMTk3YTg5NTM3M2Y5MDk3ZGRlNTA4MDBmZDNiY2IxOGIxMzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmM2RhZjlkN2NhYmY3NTYwMjM4MjcyNDJkYTM3ZWQ2ZjQxN2VmMDljNTg4Y2MxNTE0YTMyNWRlMjRiNmMzMTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM2MmE2NTUzZGYwMWVjYTAwMzRiNmEzNzcwZWU5MDg2ODJlN2MzYjI5NmEyODlmNWY1ZmE3MDQ0N2ZlZDA4MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVjMTc0NzRiYzdjNjAzNGYyYzM5NjdmNmFkOTE0NjE2MjU1MTkwNjVjYTRkYWRjYjM0MGFjNGZkOWU0NWVmNDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_95df110818dd47e08ba8f35791bf9255",
+      "statement": "Onboarding a new Insights API analytical output requires, in order: MRM inventory registration per MRM-POL-02, data access approval per DUS-07 (where Restricted-dataset DAR lead time applies), serving-endpoint build (~13-21 points typical), and DRC approval of client-facing wording and disclaimers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L80-L80",
+          "version": "repo-lines-v1:sha256:a8e6adad988dc571ad903be21a8e008015faa8deba0e7214b8154065589d6517:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzNjNjIzMjFmZTkwYjVlYTU2MmU5YjQxY2RmMDczNjM4M2Q4MTI5MDQ3MGMzZGQwOThhNDM3OTRiMmU0ZGMwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_47b6a0c8e57144189732520eeafa12f2",
+      "statement": "Dependency conflicts involving TDIP that cannot be resolved between engineering managers escalate to Director Wei Zhang, then to the weekly PTT Leadership Team; compliance or policy-interpretation questions instead route to FCC Policy & Advisory or the Privacy Office and are not decided by engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L150-L150",
+          "version": "repo-lines-v1:sha256:2b213d7676f80d3f21baf51358f6e8c709fb7b17bac5143917544cbd6cc3c0d0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUxNDQ5ZGNiZDkyOTFjZDYzZjUyMjdjYjAxM2E0ZjAxODcxZWUzMDMwZmYwNjM4YTllN2EwYjE0MjAxYjY5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

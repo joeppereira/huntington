@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e7736baa8f10b191df178fcfdfdb476d3099d9e372c139f1de2cd6b57fb66226",
+  "claims": [
+    {
+      "id": "claim_9b41da671c524610a929931fb4789771",
+      "statement": "As of this workflow's authoring, the sessions/ directory contains no session folders or trace files (only a placeholder .gitkeep file), so the build-context-graph workflow documents the intended ingestion process rather than reflecting any already-produced Session/Turn/Decision pages.",
+      "evidence": [
+        {
+          "resource": "repo://sessions/.gitkeep",
+          "version": "repo-file-v1:sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T20:59:04.422Z"
+  }
+}

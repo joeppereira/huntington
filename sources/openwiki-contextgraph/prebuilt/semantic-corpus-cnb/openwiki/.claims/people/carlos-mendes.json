@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:868c1403387b065f17eff8b731719f691cdf0fb458cc6a1be4207c1a9b0806f3",
+  "claims": [
+    {
+      "id": "claim_faf7f24f9d694887b9912d1d29212532",
+      "statement": "Carlos Mendes is Engineering Manager for Data Engineering on TDIP and co-owns the published TDIP data catalog document (TDIP-CAT-2026.2) together with Dr. Aisha Rahman (Lead Data Scientist), approved by Wei Zhang and Ethan Brooks.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ba7ff2eb1885278e0711f4cf6fce36662df1eb6b2108a4d280e0a3578d76a938:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmRiNTI5ZDcxMjNmYjZkYTNjZjRmNjE4NDg4MzdiNmM2YzZjOGJiZTdlYThjOTY5NGIwOTAyYmY0N2ZlZjc1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzk2N2E0ZTdkNGE1YjI5ODNiNTg2MTlkMDM0MTQxZGRjM2I1NDVjOGMyM2I0MDAxMjM2ZjgyODc1NGQxYWUxZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBiOTE3YWJmZWM4NjYyMzAwM2VlNzNhMGJkZjE1ZDliOTUzMjRhMmNhMDI5YjBiMTFhYWUwNGY4YWQwZTM2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_de80964bc62143d994861c31583a15e1",
+      "statement": "Carlos Mendes is listed as data owner/steward (jointly with Laura Kim) for the pay_wire_txn_hist and gpi_tracker_events datasets, and jointly with Marcus Chen for the client_hierarchy dataset in the TDIP catalog.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L30-L37",
+          "version": "repo-lines-v1:sha256:c29b0003b1875e70a7266a0bb4945ba91bd8e4ace0aae110041f76afd6acc31d:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQzNzlkMDBhY2E0NjJkYWRjYTY2OGNiZmU4OGUxOTdhODk1MzczZjkwOTdkZGU1MDgwMGZkM2JjYjE4YjEzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M3Y2VlYWQ2MTBiNDNlMjQwNjc1ZGU0ZTU3M2M3YzM3NGVlZjlhMzEzN2RkZWMyMWJlNTk0OGQ2Mjk1ZjUzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_134d87fa3d524cefb70478e48a845a62",
+      "statement": "Carlos Mendes owns Jira story TDA-2188, which moves gpi_tracker_events load from nightly (05:00 ET) to hourly, is In Progress, targeted for 2026-11, and is identified in the TDIP catalog's known gaps as the reason gpi data remains nightly until it completes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L66-L66",
+          "version": "repo-lines-v1:sha256:43e0d23480a7a037c6446d486b93422b4d0021b7ac9a3f8e50035cca4b1991a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDNlMGQyMzQ4MGE3YTAzN2M2NDQ2ZDQ4NmI5MzQyMmI0ZDAwMjFiN2FjOWEzZjhlNTAwMzVjY2E0YjE5OTFhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDNlMGQyMzQ4MGE3YTAzN2M2NDQ2ZDQ4NmI5MzQyMmI0ZDAwMjFiN2FjOWEzZjhlNTAwMzVjY2E0YjE5OTFhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRkZDVlODdiOTk5YjRiNDMzMmE1NDU4MDk3MTZiMmJmYjYzZTUwYjJmNDEwYmIxMzY0NjljM2RiMzRmYmFiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGNiODI0NGJiM2ZhNDVjNzAzZWIyMzIzNmY2NDNkMGIzYWRlM2NkMDg3YTcwNGI5OGYzOTEzYWU1YmFmZGJlOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L33-L33",
+          "version": "repo-lines-v1:sha256:ff78e7f0c7915ace0115ed558044347ba0b1b0c8c1fa5ab611eec36360e98449:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmY3OGU3ZjBjNzkxNWFjZTAxMTVlZDU1ODA0NDM0N2JhMGIxYjBjOGMxZmE1YWI2MTFlZWMzNjM2MGU5ODQ0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmY3OGU3ZjBjNzkxNWFjZTAxMTVlZDU1ODA0NDM0N2JhMGIxYjBjOGMxZmE1YWI2MTFlZWMzNjM2MGU5ODQ0OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjhhZGU4NzdkOTE0MjYyZGY3MjgyODEyYjk5ZWY0NmE4OWYyNzA4NWUwMWY4YWIwNzU4NzBkZDVhNjhjMmIwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzMGZlOTU5ZjZlOTczNThjOGYyMjE4MmFjZDYxY2IyY2I3ZmE3ODg0NTYwMTIxYjk1MTllNmUzMTY3M2YyNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L84-L88",
+          "version": "repo-lines-v1:sha256:999485a475e402e757fceaa79a814b6f5e1a664bc6e2c81781a09c0adbdf62e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU4YTZhNDAxY2VkYmFlOTA5YmY2MGJiYjA4ZmZhMTFlMjUzYmM2YWVjNGNiYmEyMWI3M2IyNTU4OTNmMDczZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmY2Y4Y2E2MmE1Yjg5MWE2OTEyMzBmOTM1MzZkZWRjM2E1MTgyNDE0MWZhYzYyMmZlOWU5YzgxNzI5ZWM0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQ1NmUwNWRkNTFjYWQxZDYzMjk3ZDIzOGJiMWY2NjJiMGU3YTUyNGMyZWM5MmMxOWQ0NmJiMGU0YzU2NDVlYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_caf1d323c20c4c55815c957c24000bfc",
+      "statement": "Carlos Mendes owns Jira story TDA-2210 to ingest net.fedwire.ack.v1 (Fed acceptance/OMAD) into TDIP as fed_ack_events; the story is in the Backlog, blocked on a Kafka ACL from Payment Networks Engineering (PNE), and had no business sponsor as of 2026-04-18.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L177-L181",
+          "version": "repo-lines-v1:sha256:750847b5a86a94169f0e794681866ae9a594a7a8e5aa84e6c6a921ff31a24693:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzExNjZiOTVlM2E2NTE0M2E5NWMxMTkyMTg4ZmQwNWQyMjAzODBlMGJmMDhjYzdiZmFiYThlOTc2MWY1NzcxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjdlZmNiZWY0OGNjZDRkZDQzNTA4NjYxMmM1MmU1ZTA3MDE4NGVmMGQxODlhNWQ0ZDlhYTBmNmEyYjM1ZGY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWZmYzMyZTc5MWRmM2Q4ZWYwZWU4ODA3OGNhNjY4ZDQ4NTY4MmY1NjExYjczZTI0ZTBjMmUzNTFhZjZiZDVhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjliM2JlNWNlZDQzNzllYzg2MTJiNDczMzk2MGYyYTkzYWJhNzI4M2NmOWE3MWNhZTE2MmNiZmYzNGY0MzEwYiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L67-L67",
+          "version": "repo-lines-v1:sha256:b21220c272e172a3ffa54adc481d6ac5bcb89b70eb058627bf65f0a011dc58e2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_58ae6707d0d9404e8fb91fd6a14ca164",
+      "statement": "The fed_ack_events dataset is not yet ingested into TDIP, and this gap blocks accurate settlement-time analytics for domestic wires because pay_wire_txn_hist lifecycle timestamps alone only approximate Fed settlement time.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L131-L135",
+          "version": "repo-lines-v1:sha256:9535704a0377bd5dd4a2083ee63fba3bc7a2a73a31f6ad6ba758326bd7f42455:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZjZTBjYjk2OTQ0YTc3MDQyMWY2NTZkNGI1NTlmMmIyOWY5MjA2NDVhN2NhMDJkZThiMjhmNTA1MmM1Yjg0MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDFkNWFlMjNmZjBlNzdmODc3YjhkY2UyZDEyZDcxMTYxZGI3NjQ5ZTZlNmEyZGRhZDQxZmNiODgzMTUyMTRiYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTA1Nzc1NWJkNTZiZDc4YWZkYjBlN2Y4YjY4ZDk0ZmM2NDk4YzNkZTE4ZmM4ZTc4NjU5MzA3NDI4NDczMzliYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTc5ZTc3MTNhODIxN2RkMzkzYThjNzE1OGU3NTQwMDBlMDllNjlmOTFiOTRkNmRjYWJlODEwMDg2OTg3YWI5MSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L34-L39",
+          "version": "repo-lines-v1:sha256:aa2b5832231d7fea5344e6757567035ce6f855d629651fb0cdd005c2741dcb4a:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWYwZmIyZGQ0NDJhNjdjZWMwZmNjYzM1NmQ0NWJjYTJmNjc5NGQxYTNhNTgwMGQzNjRjNGJlN2RlNDIyYTA2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE1MDhmNGUxYTJhMWI0ZTVlNjdhZDI0MjdjMmM0ZTJjNTg4YzY0MmEyZmQ1MjcxOTM2MjFlMjYzN2VkMmNiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2NiNTYyODE0NGVkNzhiZDI0ZmE1ODRiMmE0MTc5YTE3MzkwZjM4MGFhN2U0ZTY0NDFjNjUzNjBlMGZkZWNhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

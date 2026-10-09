@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a2273c474b9fc919eb20b665d5dd6150437a382069058bfe70efb273a8024d31",
+  "claims": [
+    {
+      "id": "claim_757803ceb64e4d1ba90ebac9076af7df",
+      "statement": "API-14 (v1.6, base path /scenarios/v1) is an internal-only, Restricted-Internal service owned by Risk Analytics Engineering that distributes approved macroeconomic scenario sets (unemployment, GDP, house prices, CRE prices, rates, spreads) and probability weights, using scopes scenarios:read and scenarios:approve with a 30 requests/minute limit.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L17",
+          "version": "repo-lines-v1:sha256:c2052b12082d36a9c344182fea608fe92b85a525ca5ca22774fb20ec45a3b146:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzZGUwODAzNGJlZTdkNWMyYWMwNTBmNWE2MDJkNzIyYTQ0N2M3M2ViNTUwZTMwMWRkYzhiOTRmZjJmNWI3MGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxYzVkNDNlMzJmYjBjZDI5OWVmZjkwYzJjNzkyNmViMTc5OTZkZjIwMWEzNmY2YmU1MmYwYzBmYWE2NjIxYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZjBkZjQxZjlkZTVlN2M1M2M4NzllNjFkOTFhMGQyOWI2OTBlNWUwYzdmZTgyNWZmN2U0MWI0ZGQ5OGI1NDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d91e8a5b412c451fac798f1711513fd3",
+      "statement": "The documented API surface is three read-only GET endpoints: list scenario sets, get a set's scenarios/weights/approval metadata, and get the quarterly path of a variable in each scenario of a set.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L19-L25",
+          "version": "repo-lines-v1:sha256:f60dc4ccff390b397ce8a4dfe372c3f6c2270a599b421bb4500f12c5e962fc0c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FkMTA3MzllOTJhNDgxY2Y1MGNhYjUyNmMzNjFlZWI3MjBhOWY2NzRhNjkzNmMwNTUyYjg2ZGViNjc2NDgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjAzMjk5MmU4YzhiYThmMTc5ZjNkOTc5M2Y1NmJjMTUzOWM1ODYxYmNmOGJmNDMyYmZiMzBiZjNlY2EyMWJmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2FmNjg2ZjFjNjFmMjA4OTk4NjBmZjBjMjU4ODExOTQ4YTc3ZjlkYzcxYjFlMDI3NDIxYmQyMGNhOTg3ZTdiNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e864bcf4c572424895cbbb4677586344",
+      "statement": "Scenario sets are versioned and locked after Scenario Committee approval, and the SLO is 99.9% availability with a new set published within 1 business day of approval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L17",
+          "version": "repo-lines-v1:sha256:c2052b12082d36a9c344182fea608fe92b85a525ca5ca22774fb20ec45a3b146:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzZGUwODAzNGJlZTdkNWMyYWMwNTBmNWE2MDJkNzIyYTQ0N2M3M2ViNTUwZTMwMWRkYzhiOTRmZjJmNWI3MGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxYzVkNDNlMzJmYjBjZDI5OWVmZjkwYzJjNzkyNmViMTc5OTZkZjIwMWEzNmY2YmU1MmYwYzBmYWE2NjIxYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZjBkZjQxZjlkZTVlN2M1M2M4NzllNjFkOTFhMGQyOWI2OTBlNWUwYzdmZTgyNWZmN2U0MWI0ZGQ5OGI1NDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a5ce4ce9f53449eba18d1b82dd3a2358",
+      "statement": "The MSC-2025Q4 set, approved 2025-12-15, has Upside (weight 0.2), Baseline (0.5) and Downside (0.3) scenarios, each summarised by peakUnemployment, realGdp2026, hpiChange and creChange.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L27-L91",
+          "version": "repo-lines-v1:sha256:9f494a58d791451b20ab132aa81706d6eaeb6fe70fc807fa78f8ebd503a74f4d:eyJzZWxlY3RlZExpbmVDb3VudCI6NjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzMzBiZjgwZGU1MjZmZTNiMTcxZDMyNGRjOTczYWQ5ZGE4OWRjMDExNjBhZWUzZDlhMjQ2YjkyMWMyZTA3YzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8dedcf84b87345ad837dbed631d5f783",
+      "statement": "Data lineage: API-14 draws on economics research, Federal Reserve supervisory scenarios and Scenario Committee approvals, and feeds the CECL model MDL-CR-007 (weights, unemployment, HPI, CRE), the Capital Planning & Stress Projection Model MDL-CAP-003, and the Credit Risk Scoring API (API-10).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L93-L97",
+          "version": "repo-lines-v1:sha256:05abf793dc8718429bc629ce8a226564cdf697d5e5de8f8238d4594f1e0de58f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDY3YmE5NTFiMTFlNWM2NGE5MjdjNzQzYzZiZDkwNDgwZGM1ODhiYzUyYjkxMzhjZDk2NDQxNTI0YTA0ODRkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_09b6063f05cb4aa1ad3168dbf27d5c58",
+      "statement": "The CECL model's Scenarios sheet takes its paths and weights from API-14 set MSC-2025Q4 and enforces that weights sum to 100% with a check cell that flags WEIGHTS MUST SUM TO 100% when the sum deviates from 1 by 0.0001 or more.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L166-L171",
+          "version": "repo-lines-v1:sha256:fb01423de24d1e066230096daa04d1fe6352ff621c6d8973acec37f41bd9056a:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTY3ZmM4NGFiMDY3YTg0YjFjYzg4NTU2ZmExNjJlYzhmZTU3YjNhNjNhZTJhYWZhZjUyYmZiNmZmOWRhOTgxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjc4YjY1OWI1ZjNiYTIwMzFmNjQxYTFlNzBlMjY2MTk1NDhjMzI4NDA1NDg4YjIwMjIwMTJmMTJhYjY5OGM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L180-L201",
+          "version": "repo-lines-v1:sha256:cacb7eb6b7191c2bfed306c6f8f7216da0ddfd633619f73a88380636f6161f45:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4NWE1MzYzNGMxMDE0M2ExODAyYzQwZWU5NmVkYjJhOTA2ZDdlMzdlMmE4NzliYmMzYTJiMjNiMGQyYzIzZmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2MDhkNjQ1MmMyMzlhYzYxMjhhNWJmYmUzN2FlZDFiMTI3ZDAyZjhhNWNhNWI3Y2RkOGNkOTY3NzhiMGYyNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwZjk0ZjlmNTc1NmY3MjIwOTJjMmJjNTc2OWJmMzBhNGM4OTJlZTRhMjg1YmJmMmY5NGIyNmVkNTBkY2Q1YjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2NmMwNWM1ZTcxMDM4YTNiMTY4YjhmN2E2ZjNmMDI3MjgzM2FkMzU0OGNiY2QwOTE2OWMzMTVmMTNiNmVkYTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_615ebea5f5634647a6acf7922c10dad7",
+      "statement": "The v1.6 release (2026-05) migrated the service to the strategic data platform, reducing load time from six hours to under forty minutes; v1.5 (2025-10) added an internal severely adverse set.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:63de08034bee7d5c2ac050f5a602d722a447c73eb550e301ddc8b94ff2f5b70f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkZTA4MDM0YmVlN2Q1YzJhYzA1MGY1YTYwMmQ3MjJhNDQ3YzczZWI1NTBlMzAxZGRjOGI5NGZmMmY1YjcwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkZTA4MDM0YmVlN2Q1YzJhYzA1MGY1YTYwMmQ3MjJhNDQ3YzczZWI1NTBlMzAxZGRjOGI5NGZmMmY1YjcwZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDlmMGRmNDFmOWRlNWU3YzUzYzg3OWU2MWQ5MWEwZDI5YjY5MGU1ZTBjN2ZlODI1ZmY3ZTQxYjRkZDk4YjU0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L99-L102",
+          "version": "repo-lines-v1:sha256:99d4baf8dae998db1936b366a4fcd6c614bbbcf07f63a18070441b4a98252dae:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhMmE2MjE3YmMxNjE0MDBmZGMyYjg1ZDJmZTRlNTk5MzM2YTJmY2NmNzJlNmE3MGEwZTc1NDBjZjUyMjEyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWM4OTdkZTZlNGY3MjI2Y2VjMzc5OGJlMTUwMTRkMGY3ODViOTg3M2E4ZjM5N2Q4NjU5YTFmNTgzNDNhODQ1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

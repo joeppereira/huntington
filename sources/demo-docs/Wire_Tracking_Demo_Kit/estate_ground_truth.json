@@ -1,0 +1,1597 @@
+{
+  "as_of": "2026-10-05",
+  "note": "Ground truth for scoring agent output. Do not ingest into the graph.",
+  "documents": [
+    {
+      "doc_id": "CNB-ORG-PTT-2026-06",
+      "file": "CNB-ORG-PTT-2026-06_PTT_Organization_System_Ownership_Engagement_Directory.pdf"
+    },
+    {
+      "doc_id": "CNB-MEMO-2026-09",
+      "file": "CNB-MEMO-2026-09_Realignment_of_Cross-Border_Network_Integration.pdf"
+    },
+    {
+      "doc_id": "CBO-ARCH-WC-4.1",
+      "file": "CBO-ARCH-WC-4.1_Wire_Center_Current-State_Architecture.pdf"
+    },
+    {
+      "doc_id": "PPH-SYS-OVW-9.2",
+      "file": "PPH-SYS-OVW-9.2_PRISM_Payments_Hub_System_Overview_and_Lifecycle_State_Model.pdf"
+    },
+    {
+      "doc_id": "PPH-API-CAT-2026.3",
+      "file": "PPH-API-CAT-2026.3_PRISM_Payments_Hub_API_and_Event_Catalog.pdf"
+    },
+    {
+      "doc_id": "PNG-TDD-6.0",
+      "file": "PNG-TDD-6.0_Payment_Network_Gateway_Fedwire_and_gpi_Technical_Design.pdf"
+    },
+    {
+      "doc_id": "PRSP-HMS-3.4",
+      "file": "PRSP-HMS-3.4_Hold_Management_Service_Design_and_Reason_Taxonomy_RESTRICTED.pdf"
+    },
+    {
+      "doc_id": "ENS-INT-3.2",
+      "file": "ENS-INT-3.2_Enterprise_Notification_Service_Integration_Guide.pdf"
+    },
+    {
+      "doc_id": "TDIP-CAT-2026.2",
+      "file": "TDIP-CAT-2026.2_Treasury_Data_and_Insights_Platform_Data_Catalog_Extract.pdf"
+    },
+    {
+      "doc_id": "POL-FCC-014",
+      "file": "POL-FCC-014_v3.2_Customer_Communication_of_Payment_Status_Holds_and_Exceptions_Standard.pdf"
+    },
+    {
+      "doc_id": "DUS-07",
+      "file": "DUS-07_v2.1_Data_Use_and_Client_Confidentiality_Standard.pdf"
+    },
+    {
+      "doc_id": "MRM-POL-02",
+      "file": "MRM-POL-02_v7.0_Model_Risk_Management_Policy_Extract.pdf"
+    },
+    {
+      "doc_id": "JIRA-EXP-2026-10-05",
+      "file": "Jira_Export_WT-discovery_2026-10-05.pdf"
+    },
+    {
+      "doc_id": "ARB-PAY-REG-2026Q3",
+      "file": "ARB-PAY-REG-2026Q3_Payments_ARB_ADR_Register_and_Minutes.pdf"
+    },
+    {
+      "doc_id": "PIR-2024-07",
+      "file": "PIR-2024-07_Wire_Status_Lite_Pilot_INC-2024-1182_Post-Implementation_Review.pdf"
+    }
+  ],
+  "people": [
+    {
+      "id": "P-GHALL",
+      "name": "Gregory Hall",
+      "title": "Managing Director, CIO Payments & Treasury Technology",
+      "team": "EXEC"
+    },
+    {
+      "id": "P-DOKAFOR",
+      "name": "Danielle Okafor",
+      "title": "EVP, Head of Treasury Management Products",
+      "team": "BIZ-TM"
+    },
+    {
+      "id": "P-MCHEN",
+      "name": "Marcus Chen",
+      "title": "Director, Digital Treasury Product (Product Owner - CBO Wire Center)",
+      "team": "BIZ-TM"
+    },
+    {
+      "id": "P-SWHIT",
+      "name": "Sarah Whitfield",
+      "title": "Senior Product Manager, Wire Tracking (new initiative)",
+      "team": "BIZ-TM"
+    },
+    {
+      "id": "P-LKIM",
+      "name": "Laura Kim",
+      "title": "Director, Payments Platform Product (PPH Product Owner; Business Data Owner - payment datasets)",
+      "team": "BIZ-PAY"
+    },
+    {
+      "id": "P-ADESH",
+      "name": "Anjali Deshpande",
+      "title": "Director, Digital Treasury Channels Engineering",
+      "team": "TEAM-CBO-WC"
+    },
+    {
+      "id": "P-TBECK",
+      "name": "Tom Becker",
+      "title": "Engineering Manager, CBO Wire Center squad",
+      "team": "TEAM-CBO-WC"
+    },
+    {
+      "id": "P-LFERR",
+      "name": "Lucas Ferreira",
+      "title": "Tech Lead, CBO Wire Center",
+      "team": "TEAM-CBO-WC"
+    },
+    {
+      "id": "P-JPARK",
+      "name": "Jason Park",
+      "title": "Software Engineer II, CBO Wire Center",
+      "team": "TEAM-CBO-WC"
+    },
+    {
+      "id": "P-MTANA",
+      "name": "Mei Tanaka",
+      "title": "QA Lead, CBO Wire Center",
+      "team": "TEAM-CBO-WC"
+    },
+    {
+      "id": "P-NHADD",
+      "name": "Nadia Haddad",
+      "title": "Engineering Manager, CBO Platform & Entitlements",
+      "team": "TEAM-CBO-PLT"
+    },
+    {
+      "id": "P-AMEHT",
+      "name": "Arjun Mehta",
+      "title": "Tech Lead, CBO Platform (Status Projection Service, CES)",
+      "team": "TEAM-CBO-PLT"
+    },
+    {
+      "id": "P-RORTIZ",
+      "name": "Raymond Ortiz",
+      "title": "Director, Payments Hub Engineering",
+      "team": "TEAM-PPH"
+    },
+    {
+      "id": "P-KOBRI",
+      "name": "Kevin O'Brien",
+      "title": "Engineering Manager, PRISM Payments Hub",
+      "team": "TEAM-PPH"
+    },
+    {
+      "id": "P-SRAO",
+      "name": "Sunita Rao",
+      "title": "Principal Engineer / Tech Lead, PRISM Payments Hub APIs",
+      "team": "TEAM-PPH"
+    },
+    {
+      "id": "P-RMALH",
+      "name": "Raj Malhotra",
+      "title": "Director, Payment Networks Engineering",
+      "team": "TEAM-PNE"
+    },
+    {
+      "id": "P-BWALSH",
+      "name": "Brian Walsh",
+      "title": "Engineering Manager, Fedwire Funds Connector",
+      "team": "TEAM-PNE"
+    },
+    {
+      "id": "P-CWEI",
+      "name": "Chen Wei",
+      "title": "Tech Lead, Fedwire Funds Connector",
+      "team": "TEAM-PNE"
+    },
+    {
+      "id": "P-EVASQ",
+      "name": "Elena Vasquez",
+      "title": "Director, Global Transaction Services Integration",
+      "team": "TEAM-GTSI"
+    },
+    {
+      "id": "P-OSIDD",
+      "name": "Omar Siddiqui",
+      "title": "Engineering Manager, Cross-Border & gpi Integration",
+      "team": "TEAM-GTSI"
+    },
+    {
+      "id": "P-HLIND",
+      "name": "Hannah Lindqvist",
+      "title": "Tech Lead, gpi Connector / Swift API Gateway",
+      "team": "TEAM-GTSI"
+    },
+    {
+      "id": "P-TNOWAK",
+      "name": "Tomasz Nowak",
+      "title": "Senior Engineer, gpi Connector (transferred from PNE)",
+      "team": "TEAM-GTSI"
+    },
+    {
+      "id": "P-VPETR",
+      "name": "Victor Petrov",
+      "title": "Director, Financial Crimes Technology",
+      "team": "TEAM-FCT"
+    },
+    {
+      "id": "P-GMENS",
+      "name": "Grace Mensah",
+      "title": "Engineering Manager, Payment Risk & Screening Platform",
+      "team": "TEAM-FCT"
+    },
+    {
+      "id": "P-DKOWA",
+      "name": "Daniel Kowalski",
+      "title": "Tech Lead, Hold Management Service",
+      "team": "TEAM-FCT"
+    },
+    {
+      "id": "P-CDOYLE",
+      "name": "Catherine Doyle",
+      "title": "EVP, Chief BSA/AML Officer",
+      "team": "TEAM-FCC"
+    },
+    {
+      "id": "P-MTRAN",
+      "name": "Michael Tran",
+      "title": "SVP, OFAC / Sanctions Officer",
+      "team": "TEAM-FCC"
+    },
+    {
+      "id": "P-RSTONE",
+      "name": "Rebecca Stone",
+      "title": "SVP, Head of Financial Intelligence Unit (FIU)",
+      "team": "TEAM-FCC"
+    },
+    {
+      "id": "P-JELLIS",
+      "name": "Jordan Ellis",
+      "title": "VP, FCC Policy & Advisory (channel reviews)",
+      "team": "TEAM-FCC"
+    },
+    {
+      "id": "P-SIYER",
+      "name": "Sanjay Iyer",
+      "title": "Director, Enterprise Notification Platform",
+      "team": "TEAM-ENS"
+    },
+    {
+      "id": "P-MGRANT",
+      "name": "Melissa Grant",
+      "title": "Engineering Manager, Enterprise Notification Service",
+      "team": "TEAM-ENS"
+    },
+    {
+      "id": "P-PHEND",
+      "name": "Paul Henderson",
+      "title": "ENS Onboarding Coordinator",
+      "team": "TEAM-ENS"
+    },
+    {
+      "id": "P-WZHANG",
+      "name": "Wei Zhang",
+      "title": "Director, Treasury Data & Analytics",
+      "team": "TEAM-TDIP"
+    },
+    {
+      "id": "P-CMEND",
+      "name": "Carlos Mendes",
+      "title": "Engineering Manager, Treasury Data Platform",
+      "team": "TEAM-TDIP"
+    },
+    {
+      "id": "P-ARAHM",
+      "name": "Dr. Aisha Rahman",
+      "title": "Lead Data Scientist, Treasury Insights",
+      "team": "TEAM-TDIP"
+    },
+    {
+      "id": "P-MSULL",
+      "name": "Mark Sullivan",
+      "title": "Director, Deposits Data Owner (Core Deposit Platform datasets)",
+      "team": "BIZ-DEP"
+    },
+    {
+      "id": "P-JPRICE",
+      "name": "Jonathan Price",
+      "title": "Head of Model Risk Management",
+      "team": "TEAM-MRM"
+    },
+    {
+      "id": "P-SLAUR",
+      "name": "Sophie Laurent",
+      "title": "Validation Lead, Treasury & Operations Models",
+      "team": "TEAM-MRM"
+    },
+    {
+      "id": "P-DCART",
+      "name": "Denise Carter",
+      "title": "SVP, Head of Payment Operations",
+      "team": "TEAM-OPS"
+    },
+    {
+      "id": "P-LRAMI",
+      "name": "Luis Ramirez",
+      "title": "Manager, Wire Investigations",
+      "team": "TEAM-OPS"
+    },
+    {
+      "id": "P-TBROOK",
+      "name": "Tanya Brooks",
+      "title": "Manager, Wire Room (Release & Repair)",
+      "team": "TEAM-OPS"
+    },
+    {
+      "id": "P-KNGUY",
+      "name": "Kim Nguyen",
+      "title": "Director, Commercial Service Center (Treasury Support)",
+      "team": "TEAM-TSC"
+    },
+    {
+      "id": "P-AFELD",
+      "name": "Andrew Feldman",
+      "title": "SVP, Associate General Counsel - Treasury & Payments",
+      "team": "TEAM-LEGAL"
+    },
+    {
+      "id": "P-PMOORE",
+      "name": "Patricia Moore",
+      "title": "Chair, Disclosure Review Committee (DRC)",
+      "team": "TEAM-LEGAL"
+    },
+    {
+      "id": "P-NBOSE",
+      "name": "Nikhil Bose",
+      "title": "Chief Architect, Payments & Treasury (ARB Chair)",
+      "team": "TEAM-EA"
+    },
+    {
+      "id": "P-JROSS",
+      "name": "Jenna Ross",
+      "title": "ARB Secretariat",
+      "team": "TEAM-EA"
+    },
+    {
+      "id": "P-FALI",
+      "name": "Farah Ali",
+      "title": "Principal Security Architect, Digital Channels",
+      "team": "TEAM-INFOSEC"
+    },
+    {
+      "id": "P-RGOLD",
+      "name": "Rachel Goldberg",
+      "title": "Chief Privacy Officer",
+      "team": "TEAM-PRIV"
+    },
+    {
+      "id": "P-EBROOK",
+      "name": "Ethan Brooks",
+      "title": "Data Governance Lead, Commercial Bank",
+      "team": "TEAM-PRIV"
+    }
+  ],
+  "teams": [
+    {
+      "id": "TEAM-CBO-WC",
+      "name": "Digital Treasury Channels - CBO Wire Center squad",
+      "leader": "P-ADESH",
+      "contacts": [
+        "P-TBECK",
+        "P-LFERR",
+        "P-MCHEN"
+      ],
+      "jira": "CBO",
+      "slack": "#cbo-wire-center",
+      "planning_factor": "1 pt ~ 6.5 eng hrs; velocity ~42 pts / 2-wk sprint",
+      "intake": "Jira CBO; Product Owner prioritization (Marcus Chen)",
+      "capacity": "Q4-2026 85% committed"
+    },
+    {
+      "id": "TEAM-CBO-PLT",
+      "name": "CBO Platform & Entitlements",
+      "leader": "P-NHADD",
+      "contacts": [
+        "P-AMEHT"
+      ],
+      "jira": "CBO (component: Platform)",
+      "slack": "#cbo-platform",
+      "planning_factor": "1 pt ~ 6.5 eng hrs; velocity ~30 pts / sprint",
+      "intake": "Jira CBO, component Platform; 2-week triage",
+      "capacity": "PI 27.1 ~70% committed"
+    },
+    {
+      "id": "TEAM-PPH",
+      "name": "Payments Hub Engineering (PRISM Payments Hub)",
+      "leader": "P-RORTIZ",
+      "contacts": [
+        "P-KOBRI",
+        "P-SRAO",
+        "P-LKIM"
+      ],
+      "jira": "PPH",
+      "slack": "#pph-support",
+      "planning_factor": "1 pt ~ 8 eng hrs (vendor platform + regression suite)",
+      "intake": "Payments Platform Demand Board, monthly (next 2026-10-21); ~6-8 wk to schedule",
+      "capacity": "PI 27.1 ~90% committed (Nov-2026 structured address enforcement; FedNow outbound expansion)"
+    },
+    {
+      "id": "TEAM-PNE",
+      "name": "Payment Networks Engineering",
+      "leader": "P-RMALH",
+      "contacts": [
+        "P-BWALSH",
+        "P-CWEI"
+      ],
+      "jira": "PNG",
+      "slack": "#payment-networks",
+      "planning_factor": "1 pt ~ 8 eng hrs",
+      "intake": "Jira PNG; network change windows Sat 22:00-02:00 ET",
+      "capacity": "Owns Fedwire Funds Connector; gpi Connector transferred to GTSI eff. 2026-10-01"
+    },
+    {
+      "id": "TEAM-GTSI",
+      "name": "Global Transaction Services Integration",
+      "leader": "P-EVASQ",
+      "contacts": [
+        "P-OSIDD",
+        "P-HLIND",
+        "P-TNOWAK"
+      ],
+      "jira": "GTSI",
+      "slack": "#gtsi-crossborder",
+      "planning_factor": "1 pt ~ 7 eng hrs (new team, calibrating)",
+      "intake": "Jira GTSI; quarterly roadmap intake",
+      "capacity": "Knowledge transfer from PNE until 2026-12-15 (GTSI-0112)"
+    },
+    {
+      "id": "TEAM-FCT",
+      "name": "Financial Crimes Technology - Payment Risk & Screening Platform",
+      "leader": "P-VPETR",
+      "contacts": [
+        "P-GMENS",
+        "P-DKOWA"
+      ],
+      "jira": "FCT",
+      "slack": "#fct-prsp",
+      "planning_factor": "1 pt ~ 8 eng hrs + 20% independent compliance testing (FCC Testing)",
+      "intake": "FCT Change Advisory, bi-weekly; FCC sign-off required; year-end freeze Dec-15 to Jan-05",
+      "capacity": "PI 27.1 ~80% committed"
+    },
+    {
+      "id": "TEAM-FCC",
+      "name": "Financial Crimes Compliance (2nd line)",
+      "leader": "P-CDOYLE",
+      "contacts": [
+        "P-JELLIS",
+        "P-MTRAN",
+        "P-RSTONE"
+      ],
+      "jira": "n/a",
+      "slack": "#fcc-advisory",
+      "planning_factor": "Advisory review ~10 business days per submission",
+      "intake": "FCC Advisory intake form (ServiceNow)",
+      "capacity": "Policy owner of POL-FCC-014"
+    },
+    {
+      "id": "TEAM-ENS",
+      "name": "Enterprise Notification Platform",
+      "leader": "P-SIYER",
+      "contacts": [
+        "P-MGRANT",
+        "P-PHEND"
+      ],
+      "jira": "ENS",
+      "slack": "#ens-onboarding",
+      "planning_factor": "~12 ENS eng hrs per new event type + template review",
+      "intake": "ServiceNow 'ENS Event Onboarding' catalog item; SLA 6 weeks incl. DRC template review",
+      "capacity": "Per-entity subscriptions (ENS-1120) planned 2027-H1"
+    },
+    {
+      "id": "TEAM-TDIP",
+      "name": "Treasury Data & Analytics (TDIP)",
+      "leader": "P-WZHANG",
+      "contacts": [
+        "P-CMEND",
+        "P-ARAHM"
+      ],
+      "jira": "TDA",
+      "slack": "#tdip-help",
+      "planning_factor": "1 pt ~ 6 eng hrs",
+      "intake": "Jira TDA; Data Access Requests via Collibra (Restricted data: Privacy sign-off, 15 business days)",
+      "capacity": "PI 27.1 ~75% committed"
+    },
+    {
+      "id": "TEAM-MRM",
+      "name": "Model Risk Management (2nd line)",
+      "leader": "P-JPRICE",
+      "contacts": [
+        "P-SLAUR"
+      ],
+      "jira": "n/a (Archer MRM inventory)",
+      "slack": "#mrm-intake",
+      "planning_factor": "Tier 2 validation 160-240 validator hrs; EUA registration ~16 hrs",
+      "intake": "Archer inventory request; Tier 2 validation 10-14 weeks + current queue ~6 weeks",
+      "capacity": "Q4-2026 validation queue ~6 weeks"
+    },
+    {
+      "id": "TEAM-OPS",
+      "name": "Payment Operations",
+      "leader": "P-DCART",
+      "contacts": [
+        "P-LRAMI",
+        "P-TBROOK"
+      ],
+      "jira": "OPSREQ",
+      "slack": "#payment-ops",
+      "planning_factor": "SOP change ~40 hrs per new client-facing workflow",
+      "intake": "Ops Readiness Review, 4 weeks before go-live",
+      "capacity": "-"
+    },
+    {
+      "id": "TEAM-TSC",
+      "name": "Commercial Service Center (Treasury Support)",
+      "leader": "P-KNGUY",
+      "contacts": [],
+      "jira": "n/a",
+      "slack": "#treasury-support",
+      "planning_factor": "Script/training update ~24 hrs",
+      "intake": "Readiness checklist 3 weeks before go-live",
+      "capacity": "-"
+    },
+    {
+      "id": "TEAM-LEGAL",
+      "name": "Legal - Treasury & Payments / Disclosure Review Committee",
+      "leader": "P-AFELD",
+      "contacts": [
+        "P-PMOORE"
+      ],
+      "jira": "n/a",
+      "slack": "-",
+      "planning_factor": "DRC: bi-weekly Thursdays; submit 5 business days prior",
+      "intake": "Legal intake (ServiceNow)",
+      "capacity": "-"
+    },
+    {
+      "id": "TEAM-EA",
+      "name": "Enterprise Architecture - Payments ARB",
+      "leader": "P-NBOSE",
+      "contacts": [
+        "P-JROSS"
+      ],
+      "jira": "ARB",
+      "slack": "#payments-arb",
+      "planning_factor": "Monthly ARB (2nd Tuesday); submit 10 business days prior; next 2026-11-10, 2026-12-08",
+      "intake": "ARB intake form",
+      "capacity": "-"
+    },
+    {
+      "id": "TEAM-INFOSEC",
+      "name": "Information Security - Digital Channels",
+      "leader": "P-FALI",
+      "contacts": [],
+      "jira": "SECREV",
+      "slack": "#appsec-digital",
+      "planning_factor": "Design review SLA 3 weeks",
+      "intake": "SECREV ticket",
+      "capacity": "-"
+    },
+    {
+      "id": "TEAM-PRIV",
+      "name": "Privacy Office & Data Governance",
+      "leader": "P-RGOLD",
+      "contacts": [
+        "P-EBROOK"
+      ],
+      "jira": "n/a",
+      "slack": "#privacy-office",
+      "planning_factor": "Privacy Impact Assessment ~4 weeks",
+      "intake": "PIA intake (OneTrust)",
+      "capacity": "-"
+    }
+  ],
+  "systems": [
+    {
+      "id": "SYS-CBO",
+      "name": "Crestline Business Online (CBO)",
+      "description": "Commercial digital banking portal; modules incl. Wire Center",
+      "owner_team_current": "TEAM-CBO-WC"
+    },
+    {
+      "id": "SYS-CBO-SPS",
+      "name": "CBO Status Projection Service (SPS)",
+      "description": "Event-driven status read model built for ACH Payment Tracker (2025)",
+      "owner_team_current": "TEAM-CBO-PLT"
+    },
+    {
+      "id": "SYS-CES",
+      "name": "Commercial Entitlements Service (CES)",
+      "description": "User -> account -> service entitlements for CBO",
+      "owner_team_current": "TEAM-CBO-PLT"
+    },
+    {
+      "id": "SYS-PPH",
+      "name": "PRISM Payments Hub (PPH)",
+      "description": "Wire orchestration on Volaris Payment Platform 9.4 (vendor)",
+      "owner_team_current": "TEAM-PPH"
+    },
+    {
+      "id": "SYS-PNG-FFC",
+      "name": "Payment Network Gateway - Fedwire Funds Connector (FFC)",
+      "description": "FedLine Direct, ISO 20022 since 2025-07-14",
+      "owner_team_current": "TEAM-PNE"
+    },
+    {
+      "id": "SYS-PNG-GPI",
+      "name": "Payment Network Gateway - Swift Alliance & gpi Connector (GPI-C)",
+      "description": "CBPR+ pacs.008, gpi Tracker batch integration",
+      "owner_team_current": "TEAM-GTSI"
+    },
+    {
+      "id": "SYS-PRSP-HMS",
+      "name": "Payment Risk & Screening Platform - Hold Management Service (HMS)",
+      "description": "Hold lifecycle, reason taxonomy, dispositions",
+      "owner_team_current": "TEAM-FCT"
+    },
+    {
+      "id": "SYS-PRSP-SEN",
+      "name": "Payment Risk & Screening Platform - Sentinel Fraud Scoring",
+      "description": "Vendor fraud model M-FCT-0021",
+      "owner_team_current": "TEAM-FCT"
+    },
+    {
+      "id": "SYS-PRSP-SSC",
+      "name": "Payment Risk & Screening Platform - SanctionScreen",
+      "description": "OFAC / sanctions filtering",
+      "owner_team_current": "TEAM-FCT"
+    },
+    {
+      "id": "SYS-ENS",
+      "name": "Enterprise Notification Service (ENS)",
+      "description": "Email / SMS / push / in-app inbox",
+      "owner_team_current": "TEAM-ENS"
+    },
+    {
+      "id": "SYS-TDIP",
+      "name": "Treasury Data & Insights Platform (TDIP)",
+      "description": "Snowflake + dbt + feature store + Insights API",
+      "owner_team_current": "TEAM-TDIP"
+    },
+    {
+      "id": "SYS-CDP",
+      "name": "Core Deposit Platform (CDP)",
+      "description": "DDA system of record (mainframe)",
+      "owner_team_current": "BIZ-DEP"
+    },
+    {
+      "id": "SYS-IWB",
+      "name": "Investigations Workbench (IWB)",
+      "description": "Payment Ops case tool; displays gpi snapshot & hold queues",
+      "owner_team_current": "TEAM-OPS"
+    }
+  ],
+  "ownership_changes": [
+    {
+      "system": "SYS-PNG-GPI",
+      "from_team": "TEAM-PNE",
+      "to_team": "TEAM-GTSI",
+      "effective": "2026-10-01",
+      "source": "CNB-MEMO-2026-09"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "EP-PPH-01",
+      "system": "SYS-PPH",
+      "interface": "GET /pph/v1/wires/{wireRef}/status",
+      "status": "Deprecated (sunset 2027-03-31)",
+      "purpose": "Coarse wire status (7 values)",
+      "notes": "Returns status, statusTs, holdFlag, holdReasonDesc (legacy free text), fedRef (IMAD). No UETR/OMAD. Rate limit 20 TPS shared."
+    },
+    {
+      "id": "EP-PPH-02",
+      "system": "SYS-PPH",
+      "interface": "GET /pph/v1/wires?clientId&fromDate&toDate",
+      "status": "Deprecated (sunset 2027-03-31)",
+      "purpose": "List wires",
+      "notes": "Max 500 rows; no cursor."
+    },
+    {
+      "id": "EP-PPH-03",
+      "system": "SYS-PPH",
+      "interface": "POST /pph/v1/wires",
+      "status": "Deprecated (sunset 2027-03-31)",
+      "purpose": "Submit approved wire",
+      "notes": "Returns pphId."
+    },
+    {
+      "id": "EP-PPH-04",
+      "system": "SYS-PPH",
+      "interface": "GET /pph/v2/payments/{paymentId}",
+      "status": "GA (2025-10)",
+      "purpose": "Payment detail + lifecycleState",
+      "notes": "identifiers{pphId,cboRef,imad,omad,uetr,endToEndId}; hold{isHeld,holdId} only (ADR-PAY-021); no settlement object (PPH-2207)."
+    },
+    {
+      "id": "EP-PPH-05",
+      "system": "SYS-PPH",
+      "interface": "GET /pph/v2/payments?clientId&rail&state&from&to&cursor",
+      "status": "GA (2025-10)",
+      "purpose": "Search",
+      "notes": "No beneficiary-name filter (PPH-2251). 150 TPS."
+    },
+    {
+      "id": "EP-PPH-06",
+      "system": "SYS-PPH",
+      "interface": "GET /pph/v2/payments/{paymentId}/history",
+      "status": "GA (2025-10)",
+      "purpose": "State history",
+      "notes": "Timestamps = PPH processing time."
+    },
+    {
+      "id": "EP-PPH-07",
+      "system": "SYS-PPH",
+      "interface": "POST /pph/v2/payments",
+      "status": "GA (2025-10)",
+      "purpose": "Submit payment",
+      "notes": "-"
+    },
+    {
+      "id": "EV-PPH-01",
+      "system": "SYS-PPH",
+      "interface": "Kafka: pay.wire.lifecycle.v2",
+      "status": "GA",
+      "purpose": "Wire state transitions",
+      "notes": "Avro WireLifecycleEvent v2.3; 7-day retention; consumer ACL via PPH (~3 weeks)."
+    },
+    {
+      "id": "EV-PPH-02",
+      "system": "SYS-PPH",
+      "interface": "Kafka: pay.ach.lifecycle.v1",
+      "status": "GA",
+      "purpose": "ACH state transitions",
+      "notes": "Consumed by SPS (ACH Tracker)."
+    },
+    {
+      "id": "EV-PNG-01",
+      "system": "SYS-PNG-FFC",
+      "interface": "Kafka: net.fedwire.ack.v1",
+      "status": "GA",
+      "purpose": "Fed pacs.002 positive acks (OMAD, Fed creation timestamp) and admi.002 errors",
+      "notes": "Consumers: PPH only. ACL owner: PNE."
+    },
+    {
+      "id": "EV-PNG-02",
+      "system": "SYS-PNG-FFC",
+      "interface": "Kafka: net.fedwire.inbound.v1",
+      "status": "GA",
+      "purpose": "Incoming pacs.008 / pacs.004",
+      "notes": "Consumers: PPH."
+    },
+    {
+      "id": "BT-PNG-01",
+      "system": "SYS-PNG-GPI",
+      "interface": "Batch: gpi Tracker pull (every 4h) -> GPI_TRACKER_SNAPSHOT (Oracle)",
+      "status": "Production",
+      "purpose": "gpi status snapshot",
+      "notes": "Runs 00/04/08/12/16/20 ET; outbound UETRs last 30 days; consumers: IWB, TDIP nightly load. No API."
+    },
+    {
+      "id": "EP-PNG-X1",
+      "system": "SYS-PNG-GPI",
+      "interface": "GET /png/gpi/v1/payments/{uetr}/tracker",
+      "status": "DOES NOT EXIST",
+      "purpose": "Internal gpi status API",
+      "notes": "Proposed under GTSI-0107 (GTRS), discovery 2027-Q2."
+    },
+    {
+      "id": "EP-HMS-01",
+      "system": "SYS-PRSP-HMS",
+      "interface": "GET /prsp/hms/v1/holds?paymentId=",
+      "status": "Production (internal, Restricted)",
+      "purpose": "Hold detail",
+      "notes": "Returns hrcCode, category, description, analystNotes, slaDueTs. Callers: IWB, PPH (legacy description sync)."
+    },
+    {
+      "id": "EP-HMS-02",
+      "system": "SYS-PRSP-HMS",
+      "interface": "POST /prsp/hms/v1/holds/{holdId}/disposition",
+      "status": "Production (internal)",
+      "purpose": "Release / reject hold",
+      "notes": "Role HOLD_RELEASER; maker-checker (CTRL-PAY-012). Callers: IWB only."
+    },
+    {
+      "id": "EP-HMS-X1",
+      "system": "SYS-PRSP-HMS",
+      "interface": "GET /prsp/hms/v1/holds/{holdId}/client-view",
+      "status": "DOES NOT EXIST",
+      "purpose": "Client-safe hold status",
+      "notes": "Proposed FCT-1893 (21 pts)."
+    },
+    {
+      "id": "EP-HMS-X2",
+      "system": "SYS-PRSP-HMS",
+      "interface": "POST /prsp/hms/v1/holds/{holdId}/client-attestation",
+      "status": "DOES NOT EXIST",
+      "purpose": "Client attestation (HRC-01)",
+      "notes": "Required by CTRL-PAY-031 digital path."
+    },
+    {
+      "id": "EV-HMS-01",
+      "system": "SYS-PRSP-HMS",
+      "interface": "Kafka: risk.hold.events.v1",
+      "status": "Production (Restricted)",
+      "purpose": "Hold lifecycle events",
+      "notes": "Consumers restricted to FCT/Ops tooling; channel consumption prohibited."
+    },
+    {
+      "id": "EP-ENS-01",
+      "system": "SYS-ENS",
+      "interface": "POST /ens/v3/notifications",
+      "status": "GA",
+      "purpose": "Send notification for a registered eventType",
+      "notes": "Template must be DRC-approved."
+    },
+    {
+      "id": "EP-ENS-02",
+      "system": "SYS-ENS",
+      "interface": "POST /ens/v3/subscriptions",
+      "status": "GA",
+      "purpose": "User subscription by eventType + accountId filter",
+      "notes": "No entity-level (paymentId) filter until ENS-1120."
+    },
+    {
+      "id": "EP-ENS-03",
+      "system": "SYS-ENS",
+      "interface": "GET /ens/v3/event-types?domain=TRS",
+      "status": "GA",
+      "purpose": "Event catalog",
+      "notes": "-"
+    },
+    {
+      "id": "EP-TDIP-01",
+      "system": "SYS-TDIP",
+      "interface": "GET /tdip/insights/v1/cash-forecast/{clientId}",
+      "status": "GA (2025-09)",
+      "purpose": "Cash forecast (model M-TRS-0142)",
+      "notes": "Precomputed scores; p95 120 ms."
+    },
+    {
+      "id": "EP-TDIP-X1",
+      "system": "SYS-TDIP",
+      "interface": "GET /tdip/insights/v1/wire-history/{clientId}?beneficiaryKey=&rail=&currency=",
+      "status": "DOES NOT EXIST",
+      "purpose": "Client's own similar-wire history stats",
+      "notes": "Needed for Wire Insights."
+    },
+    {
+      "id": "EP-TDIP-X2",
+      "system": "SYS-TDIP",
+      "interface": "GET /tdip/insights/v1/corridor-stats?currency=&country=",
+      "status": "DOES NOT EXIST",
+      "purpose": "Cohort completion stats w/ DUS-07 suppression",
+      "notes": "Feature table exists (TDA-2140) without threshold flag."
+    },
+    {
+      "id": "EP-CES-01",
+      "system": "SYS-CES",
+      "interface": "GET /ces/v2/users/{userId}/entitlements",
+      "status": "GA",
+      "purpose": "Entitlements lookup",
+      "notes": "Entitlement types incl. WIRE_VIEW, WIRE_INITIATE, WIRE_APPROVE, WIRE_RELEASE."
+    },
+    {
+      "id": "EP-CES-02",
+      "system": "SYS-CES",
+      "interface": "POST /ces/v2/entitlement-types",
+      "status": "GA (admin)",
+      "purpose": "Register entitlement type",
+      "notes": "Requires InfoSec review for client-admin-grantable types."
+    },
+    {
+      "id": "EP-SPS-01",
+      "system": "SYS-CBO-SPS",
+      "interface": "GET /cbo/sps/v1/payments/{type}/{id}/timeline",
+      "status": "GA (ACH only)",
+      "purpose": "Timeline read model",
+      "notes": "Wire type not configured."
+    },
+    {
+      "id": "EP-CBO-01",
+      "system": "SYS-CBO",
+      "interface": "GET /cbo/wire-bff/v1/wires",
+      "status": "GA",
+      "purpose": "Wire activity list (calls EP-PPH-02)",
+      "notes": "-"
+    },
+    {
+      "id": "EP-CBO-02",
+      "system": "SYS-CBO",
+      "interface": "GET /cbo/wire-bff/v1/wires/{cboRef}",
+      "status": "GA",
+      "purpose": "Wire detail (calls EP-PPH-01)",
+      "notes": "-"
+    },
+    {
+      "id": "EP-CBO-03",
+      "system": "SYS-CBO",
+      "interface": "POST /cbo/wire-bff/v1/wires/{cboRef}/refresh-status",
+      "status": "GA",
+      "purpose": "User-initiated refresh",
+      "notes": "Throttled 1/60s per wire (ADR-PAY-019)."
+    },
+    {
+      "id": "EP-AUTH-01",
+      "system": "SYS-CBO",
+      "interface": "POST /cbo/auth/v2/step-up",
+      "status": "GA",
+      "purpose": "Step-up authentication (push / OTP)",
+      "notes": "Used for wire release; reusable."
+    }
+  ],
+  "jira": [
+    {
+      "key": "CBO-3120",
+      "type": "Epic",
+      "summary": "Wire Status Lite pilot - auto-refreshing wire status",
+      "status": "Closed (Won't Do)",
+      "target": "2024-Q2",
+      "points": 55,
+      "owner": "P-TBECK",
+      "labels": "wire-center; pilot",
+      "links": "is caused by INC-2024-1182; documented in PIR-2024-07",
+      "updated": "2024-07-19",
+      "description": "Pilot (60 clients) auto-refreshed wire status every 30s from PPH v1. Closed after INC-2024-1182; see PIR-2024-07."
+    },
+    {
+      "key": "CBO-3790",
+      "type": "Epic",
+      "summary": "ACH Payment Tracker (timeline + status notifications)",
+      "status": "Done",
+      "target": "R25.4 (2025-11)",
+      "points": 89,
+      "owner": "P-MCHEN",
+      "labels": "ach; tracker",
+      "links": "relates to CBO-3802, CBO-3815; ENS event TRS.ACH.STATUS_CHANGED",
+      "updated": "2025-11-21",
+      "description": "Delivered ACH journey timeline, event-driven status via SPS consuming pay.ach.lifecycle.v1, and ENS notifications."
+    },
+    {
+      "key": "CBO-3802",
+      "type": "Story",
+      "summary": "Aurora DS: reusable <cbo-journey-timeline> component",
+      "status": "Done",
+      "target": "R25.3",
+      "points": 13,
+      "owner": "P-LFERR",
+      "labels": "design-system; reusable",
+      "links": "child of CBO-3790",
+      "updated": "2025-09-12",
+      "description": "Generic milestone timeline (states, timestamps, error/terminal styling). Rail-agnostic; documented in Aurora DS v4."
+    },
+    {
+      "key": "CBO-3815",
+      "type": "Story",
+      "summary": "Status Projection Service (SPS) - ACH lifecycle consumer",
+      "status": "Done",
+      "target": "R25.3",
+      "points": 21,
+      "owner": "P-AMEHT",
+      "labels": "platform; kafka",
+      "links": "child of CBO-3790; implements ADR-PAY-019",
+      "updated": "2025-10-03",
+      "description": "Kafka consumer -> Postgres read model -> /cbo/sps/v1 API. Designed to add new payment types via config + mapping module."
+    },
+    {
+      "key": "CBO-4302",
+      "type": "Story",
+      "summary": "Wire activity list - filters by rail, status, date range",
+      "status": "Done",
+      "target": "R26.3",
+      "points": 8,
+      "owner": "P-JPARK",
+      "labels": "wire-center",
+      "links": "-",
+      "updated": "2026-06-12",
+      "description": "Client-side filters over PPH v1 list results (max 500 rows)."
+    },
+    {
+      "key": "CBO-4355",
+      "type": "Story",
+      "summary": "Wire detail - display Fed reference (IMAD)",
+      "status": "Done",
+      "target": "R26.4",
+      "points": 3,
+      "owner": "P-JPARK",
+      "labels": "wire-center",
+      "links": "-",
+      "updated": "2026-07-17",
+      "description": "Shows IMAD from PPH v1 fedRef field. OMAD and UETR not available in v1."
+    },
+    {
+      "key": "CBO-4388",
+      "type": "Story",
+      "summary": "Show hold reason tooltip on 'Pending Review' wires",
+      "status": "In Progress",
+      "target": "Sprint 26.20 (ends 2026-10-16)",
+      "points": 5,
+      "owner": "P-JPARK",
+      "labels": "wire-center; ux-quickwin",
+      "links": "requested via TSC feedback (call deflection)",
+      "updated": "2026-10-02",
+      "description": "Populate tooltip from PPH v1 field holdReasonDesc so clients understand why a wire is pending. AC: tooltip text = holdReasonDesc (truncate at 120 chars); fallback 'Under review'."
+    },
+    {
+      "key": "CBO-4402",
+      "type": "Story",
+      "summary": "Map PPH v1 status PROCESSED to client label 'Completed'",
+      "status": "Done",
+      "target": "R26.1 (2026-02)",
+      "points": 2,
+      "owner": "P-JPARK",
+      "labels": "wire-center; labels",
+      "links": "-",
+      "updated": "2026-02-06",
+      "description": "Replace legacy label 'Processed' with 'Completed' per client feedback that 'Processed' was unclear."
+    },
+    {
+      "key": "CBO-4419",
+      "type": "Bug",
+      "summary": "Client complaint: wire showed 'Completed' then returned/rejected",
+      "status": "Open",
+      "target": "Backlog",
+      "points": null,
+      "owner": "P-TBECK",
+      "labels": "wire-center; complaint",
+      "links": "relates to CMP-2026-1189",
+      "updated": "2026-09-29",
+      "description": "International wire showed 'Completed' at release; beneficiary bank rejected (RJCT AC04) next day. Client shipped goods. Root cause TBD."
+    },
+    {
+      "key": "CBO-4471",
+      "type": "Epic",
+      "summary": "Migrate Wire Center from PPH v1 to PPH v2 APIs",
+      "status": "Backlog (unscheduled)",
+      "target": "Must complete before 2027-03-31 v1 sunset",
+      "points": 34,
+      "owner": "P-TBECK",
+      "labels": "wire-center; tech-debt",
+      "links": "blocks nothing; depends on CES account-filter mapping (CBO-4473); tracked in PPH-2190",
+      "updated": "2026-08-30",
+      "description": "Replace /pph/v1 calls in cbo-wire-bff with /pph/v2. Est. 34 pts. Not yet prioritized against feature work."
+    },
+    {
+      "key": "CBO-4473",
+      "type": "Story",
+      "summary": "CES: account-filter mapping for PPH v2 search (clientId + entitled accounts)",
+      "status": "Backlog",
+      "target": "-",
+      "points": 8,
+      "owner": "P-AMEHT",
+      "labels": "platform; entitlements",
+      "links": "blocks CBO-4471",
+      "updated": "2026-08-30",
+      "description": "v2 search filters by clientId; CBO must post-filter to entitled accounts."
+    },
+    {
+      "key": "CBO-4480",
+      "type": "Spike",
+      "summary": "International wire status visibility (gpi) for clients",
+      "status": "To Do",
+      "target": "Backlog",
+      "points": 3,
+      "owner": "P-LFERR",
+      "labels": "wire-center; gpi",
+      "links": "-",
+      "updated": "2026-05-14",
+      "description": "gpi status today only visible to Ops in IWB. Contact: Payment Networks Engineering (Raj Malhotra) for API options."
+    },
+    {
+      "key": "CBO-4495",
+      "type": "Story",
+      "summary": "Incoming wire notification - include remitter name",
+      "status": "Backlog",
+      "target": "-",
+      "points": 5,
+      "owner": "P-JPARK",
+      "labels": "wire-center; ens",
+      "links": "-",
+      "updated": "2026-07-02",
+      "description": "-"
+    },
+    {
+      "key": "CBO-4522",
+      "type": "Story",
+      "summary": "Wire Center WCAG 2.1 AA remediation",
+      "status": "In Progress",
+      "target": "Sprint 26.20",
+      "points": 8,
+      "owner": "P-MTANA",
+      "labels": "a11y",
+      "links": "-",
+      "updated": "2026-10-01",
+      "description": "-"
+    },
+    {
+      "key": "PPH-2190",
+      "type": "Epic",
+      "summary": "PPH v1 API sunset - consumer migration tracking",
+      "status": "In Progress",
+      "target": "Sunset 2027-03-31",
+      "points": null,
+      "owner": "P-KOBRI",
+      "labels": "api-lifecycle",
+      "links": "consumers: IVR (migrated), CRM (in progress), cbo-wire-bff (NOT started)",
+      "updated": "2026-09-22",
+      "description": "v1 adapter is not supported on Volaris 9.6 (upgrade April 2027). No extensions (ARB 2026-09-08)."
+    },
+    {
+      "key": "PPH-2207",
+      "type": "Story",
+      "summary": "v2: add rail-specific settlement object (fedSettlementTs from pacs.002/OMAD; settlementStatus)",
+      "status": "Backlog (no sponsor)",
+      "target": "-",
+      "points": 8,
+      "owner": "P-SRAO",
+      "labels": "api-v2",
+      "links": "consumes net.fedwire.ack.v1",
+      "updated": "2026-04-11",
+      "description": "v2 stateHistory NETWORK_ACCEPTED timestamp is PPH processing time, not Fed receipt time. Add settlement{status, fedSettlementTs, omad}. Needs product sponsor."
+    },
+    {
+      "key": "PPH-2251",
+      "type": "Story",
+      "summary": "v2 search: index beneficiary name (contains / prefix)",
+      "status": "Backlog",
+      "target": "-",
+      "points": 13,
+      "owner": "P-SRAO",
+      "labels": "api-v2; performance",
+      "links": "-",
+      "updated": "2026-06-03",
+      "description": "-"
+    },
+    {
+      "key": "PPH-2266",
+      "type": "Story",
+      "summary": "Publish ISO return reason (pacs.004) on pay.wire.lifecycle.v2",
+      "status": "Done",
+      "target": "2026-08",
+      "points": 5,
+      "owner": "P-SRAO",
+      "labels": "events",
+      "links": "-",
+      "updated": "2026-08-21",
+      "description": "-"
+    },
+    {
+      "key": "PNG-1544",
+      "type": "Story",
+      "summary": "Increase gpi Tracker batch frequency 4h -> 2h",
+      "status": "Won't Do",
+      "target": "-",
+      "points": 5,
+      "owner": "P-RMALH",
+      "labels": "gpi",
+      "links": "quota; superseded by GTSI-0107",
+      "updated": "2026-03-03",
+      "description": "Rejected: projected Tracker API usage would exceed contracted 250k calls/month."
+    },
+    {
+      "key": "GTSI-0107",
+      "type": "Initiative",
+      "summary": "gpi Tracker Real-Time Service (GTRS) - change-feed based internal API",
+      "status": "Planned",
+      "target": "Discovery 2027-Q2; build 2027-Q3/Q4",
+      "points": null,
+      "owner": "P-EVASQ",
+      "labels": "gpi; roadmap",
+      "links": "-",
+      "updated": "2026-09-15",
+      "description": "Internal REST + event API over Swift gpi Tracker change feed. Not funded for 2026."
+    },
+    {
+      "key": "GTSI-0112",
+      "type": "Epic",
+      "summary": "Knowledge transfer: gpi Connector & Swift API gateway from PNE to GTSI",
+      "status": "In Progress",
+      "target": "Target 2026-12-15",
+      "points": null,
+      "owner": "P-OSIDD",
+      "labels": "re-org",
+      "links": "per CNB-MEMO-2026-09",
+      "updated": "2026-09-30",
+      "description": "-"
+    },
+    {
+      "key": "GTSI-0115",
+      "type": "Story",
+      "summary": "Swift gpi Tracker API contract renewal (quota 250k calls/month; renewal 2027-01-31)",
+      "status": "To Do",
+      "target": "-",
+      "points": null,
+      "owner": "P-OSIDD",
+      "labels": "vendor",
+      "links": "-",
+      "updated": "2026-09-30",
+      "description": "-"
+    },
+    {
+      "key": "FCT-1893",
+      "type": "Story",
+      "summary": "Client-Safe Hold Status Facade (GET /holds/{id}/client-view)",
+      "status": "Backlog (deprioritized 2025-Q3)",
+      "target": "-",
+      "points": 21,
+      "owner": "P-DKOWA",
+      "labels": "hms; channels",
+      "links": "-",
+      "updated": "2025-08-19",
+      "description": "Return disclosure tier + approved copy key per POL-FCC-014 Appendix A; never return HRC or analyst notes."
+    },
+    {
+      "key": "FCT-1951",
+      "type": "Epic",
+      "summary": "Duplicate-suspect client attestation pilot (via Service Center phone)",
+      "status": "Done",
+      "target": "2026-04",
+      "points": 18,
+      "owner": "P-GMENS",
+      "labels": "hms; pilot",
+      "links": "updated CTRL-PAY-031",
+      "updated": "2026-06-10",
+      "description": "82% of HRC-01 holds resolved within 30 min with client confirmation. FCT Risk approved digital attestation for HRC-01 only, subject to step-up auth."
+    },
+    {
+      "key": "FCT-2004",
+      "type": "Risk",
+      "summary": "PPH v1 holdReasonDesc exposes HMS free-text to channel consumers",
+      "status": "Open",
+      "target": "-",
+      "points": null,
+      "owner": "P-DKOWA",
+      "labels": "security-review; data-leakage",
+      "links": "identified in FCT security review 2026-05",
+      "updated": "2026-05-27",
+      "description": "v1 holdReasonDesc is populated from HMS hold description (may include HRC and analyst notes). Consumers must not display. Remediation: remove in v1 or block at gateway."
+    },
+    {
+      "key": "ENS-1120",
+      "type": "Initiative",
+      "summary": "Entity-level subscriptions (subscribe to a specific paymentId / caseId)",
+      "status": "Planned",
+      "target": "2027-H1",
+      "points": null,
+      "owner": "P-MGRANT",
+      "labels": "subscriptions",
+      "links": "-",
+      "updated": "2026-07-30",
+      "description": "-"
+    },
+    {
+      "key": "TDA-2140",
+      "type": "Story",
+      "summary": "Feature table wire_corridor_stats_daily (currency/country completion stats)",
+      "status": "Done",
+      "target": "2026-05",
+      "points": 8,
+      "owner": "P-ARAHM",
+      "labels": "features",
+      "links": "used by Ops dashboards",
+      "updated": "2026-05-22",
+      "description": "-"
+    },
+    {
+      "key": "TDA-2188",
+      "type": "Story",
+      "summary": "gpi_tracker_events: move load from nightly to hourly",
+      "status": "In Progress",
+      "target": "Target 2026-11",
+      "points": 5,
+      "owner": "P-CMEND",
+      "labels": "gpi; latency",
+      "links": "-",
+      "updated": "2026-09-25",
+      "description": "-"
+    },
+    {
+      "key": "TDA-2210",
+      "type": "Story",
+      "summary": "Ingest net.fedwire.ack.v1 (Fed acceptance / OMAD) into TDIP",
+      "status": "Backlog",
+      "target": "-",
+      "points": 8,
+      "owner": "P-CMEND",
+      "labels": "fedwire",
+      "links": "needs Kafka ACL from PNE",
+      "updated": "2026-04-18",
+      "description": "Required for settlement-time analytics on domestic wires. Not scheduled."
+    }
+  ],
+  "hold_reason_codes": [
+    {
+      "code": "HRC-01",
+      "mnemonic": "DUP_SUSPECT",
+      "description": "Possible duplicate of a recent wire (same beneficiary/amount/date window)",
+      "tier": "C",
+      "copy_key": "COPY-HOLD-DUP-01",
+      "client_action": "Yes - digital attestation (confirm / cancel) with step-up auth (CTRL-PAY-031)",
+      "share": "22%"
+    },
+    {
+      "code": "HRC-02",
+      "mnemonic": "CALLBACK_REQUIRED",
+      "description": "Out-of-band callback verification for new/changed beneficiary above threshold",
+      "tier": "C",
+      "copy_key": "COPY-HOLD-CB-01",
+      "client_action": "No in-channel confirmation. Client may request callback; verification only via callback to contact on file (CTRL-PAY-018)",
+      "share": "18%"
+    },
+    {
+      "code": "HRC-03",
+      "mnemonic": "LIMIT_EXCEEDED",
+      "description": "Client daily / per-transaction limit exceeded",
+      "tier": "C",
+      "copy_key": "COPY-HOLD-LIM-01",
+      "client_action": "Client admin secondary approval or RM limit request",
+      "share": "9%"
+    },
+    {
+      "code": "HRC-04",
+      "mnemonic": "CUTOFF_WAREHOUSED",
+      "description": "Received after Fedwire customer cutoff (6:00 p.m. ET) or future-dated",
+      "tier": "P",
+      "copy_key": "COPY-STAT-WH-01",
+      "client_action": "None needed (informational)",
+      "share": "6%"
+    },
+    {
+      "code": "HRC-05",
+      "mnemonic": "FUNDS_PENDING",
+      "description": "Insufficient available balance at funds control",
+      "tier": "C",
+      "copy_key": "COPY-HOLD-FUND-01",
+      "client_action": "Fund account; auto-retry until 5:30 p.m. ET",
+      "share": "14%"
+    },
+    {
+      "code": "HRC-06",
+      "mnemonic": "REPAIR_REQUIRED",
+      "description": "Message repair (e.g., structured postal address, invalid routing/BIC)",
+      "tier": "C",
+      "copy_key": "COPY-HOLD-RPR-01",
+      "client_action": "Cancel and resubmit with corrected beneficiary data (no in-place edit)",
+      "share": "11% (forecast ~16% after Nov-2026 address enforcement)"
+    },
+    {
+      "code": "HRC-07",
+      "mnemonic": "FRAUD_MODEL_HIGH",
+      "description": "Sentinel fraud score above threshold",
+      "tier": "R",
+      "copy_key": "COPY-HOLD-GEN-01",
+      "client_action": "None",
+      "share": "8%"
+    },
+    {
+      "code": "HRC-08",
+      "mnemonic": "ATO_SUSPECT",
+      "description": "Session / device anomalies indicating possible account takeover",
+      "tier": "R",
+      "copy_key": "COPY-HOLD-GEN-01",
+      "client_action": "None",
+      "share": "1%"
+    },
+    {
+      "code": "HRC-09",
+      "mnemonic": "SANCTIONS_REVIEW",
+      "description": "SanctionScreen potential match pending L1/L2 review",
+      "tier": "R",
+      "copy_key": "COPY-HOLD-GEN-01",
+      "client_action": "None",
+      "share": "7%"
+    },
+    {
+      "code": "HRC-10",
+      "mnemonic": "AML_REVIEW",
+      "description": "Unusual activity review by FIU",
+      "tier": "R",
+      "copy_key": "COPY-HOLD-GEN-01",
+      "client_action": "None",
+      "share": "2%"
+    },
+    {
+      "code": "HRC-11",
+      "mnemonic": "LEGAL_HOLD",
+      "description": "Legal process / law enforcement request",
+      "tier": "R",
+      "copy_key": "COPY-HOLD-GEN-01",
+      "client_action": "None",
+      "share": "<0.5%"
+    },
+    {
+      "code": "HRC-12",
+      "mnemonic": "OPS_MANUAL_REVIEW",
+      "description": "Large-value or exception manual review by Wire Room",
+      "tier": "G",
+      "copy_key": "COPY-HOLD-GEN-01",
+      "client_action": "None",
+      "share": "1.5%"
+    }
+  ],
+  "seeded_findings": [
+    {
+      "id": "F1",
+      "finding": "CBO-4388 will expose Restricted HMS text via PPH v1 holdReasonDesc (release 2026-10-22)",
+      "docs": [
+        "JIRA-EXP-2026-10-05",
+        "PPH-API-CAT-2026.3",
+        "PPH-SYS-OVW-9.2",
+        "PRSP-HMS-3.4",
+        "POL-FCC-014",
+        "ARB-PAY-REG-2026Q3"
+      ],
+      "hops": 6,
+      "severity": "Critical"
+    },
+    {
+      "id": "F2",
+      "finding": "'Completed' shown at release; ENS TPL-WIRE-REL-02 'Wire completed'; complaint CMP-2026-1189",
+      "docs": [
+        "CBO-ARCH-WC-4.1",
+        "PPH-SYS-OVW-9.2",
+        "PPH-API-CAT-2026.3",
+        "ENS-INT-3.2",
+        "POL-FCC-014",
+        "JIRA-EXP-2026-10-05",
+        "PIR-2024-07"
+      ],
+      "hops": 7,
+      "severity": "High"
+    },
+    {
+      "id": "F3",
+      "finding": "True 'Settled' needs v2, rail-aware mapping, PPH-2207 (no sponsor)",
+      "docs": [
+        "CBO-ARCH-WC-4.1",
+        "PPH-SYS-OVW-9.2",
+        "PPH-API-CAT-2026.3",
+        "PNG-TDD-6.0",
+        "POL-FCC-014",
+        "JIRA-EXP-2026-10-05"
+      ],
+      "hops": 6,
+      "severity": "High"
+    },
+    {
+      "id": "F4",
+      "finding": "PPH v1 sunset 2027-03-31 (no extension) vs unscheduled CBO-4471",
+      "docs": [
+        "PPH-API-CAT-2026.3",
+        "JIRA-EXP-2026-10-05",
+        "ARB-PAY-REG-2026Q3",
+        "CNB-ORG-PTT-2026-06"
+      ],
+      "hops": 4,
+      "severity": "High"
+    },
+    {
+      "id": "F5",
+      "finding": "No gpi API; 4-hourly batch; quota ~7x; ARB forbids direct exposure; GTRS 2027",
+      "docs": [
+        "PNG-TDD-6.0",
+        "ARB-PAY-REG-2026Q3",
+        "JIRA-EXP-2026-10-05",
+        "CNB-MEMO-2026-09"
+      ],
+      "hops": 4,
+      "severity": "High"
+    },
+    {
+      "id": "F6",
+      "finding": "gpi ownership moved PNE -> GTSI effective 2026-10-01; concept and CBO-4480 stale",
+      "docs": [
+        "CNB-ORG-PTT-2026-06",
+        "CNB-MEMO-2026-09",
+        "PNG-TDD-6.0",
+        "JIRA-EXP-2026-10-05"
+      ],
+      "hops": 4,
+      "severity": "Medium"
+    },
+    {
+      "id": "F7",
+      "finding": "8% of wires end at ACSP/G001; universal 'Expected delivery' not allowed",
+      "docs": [
+        "PNG-TDD-6.0",
+        "POL-FCC-014"
+      ],
+      "hops": 2,
+      "severity": "Medium"
+    },
+    {
+      "id": "F8",
+      "finding": "TDA-2188 hourly load cannot beat 4-hour source freshness",
+      "docs": [
+        "TDIP-CAT-2026.2",
+        "PNG-TDD-6.0"
+      ],
+      "hops": 2,
+      "severity": "Low"
+    },
+    {
+      "id": "F9",
+      "finding": "Exact hold reasons + Confirm/Reject on all holds violate POL-FCC-014 / CTRL-PAY-018/031/040",
+      "docs": [
+        "PRSP-HMS-3.4",
+        "POL-FCC-014",
+        "ARB-PAY-REG-2026Q3",
+        "JIRA-EXP-2026-10-05"
+      ],
+      "hops": 4,
+      "severity": "Critical"
+    },
+    {
+      "id": "F10",
+      "finding": "Beneficiary outflow insight = cross-client + purpose limitation + Tier-1 model use",
+      "docs": [
+        "TDIP-CAT-2026.2",
+        "DUS-07",
+        "MRM-POL-02"
+      ],
+      "hops": 3,
+      "severity": "Critical"
+    },
+    {
+      "id": "F11",
+      "finding": "Corridor stats need DUS-07 suppression (MXN/MX, NGN/NG fail)",
+      "docs": [
+        "TDIP-CAT-2026.2",
+        "DUS-07"
+      ],
+      "hops": 2,
+      "severity": "Medium"
+    },
+    {
+      "id": "F12",
+      "finding": "Predicted delivery = Tier 2 model; ~16-20 weeks incl. queue",
+      "docs": [
+        "MRM-POL-02",
+        "TDIP-CAT-2026.2",
+        "ARB-PAY-REG-2026Q3"
+      ],
+      "hops": 3,
+      "severity": "High"
+    },
+    {
+      "id": "F13",
+      "finding": "Domestic insight history blocked by TDA-2210 (Fed acks not ingested)",
+      "docs": [
+        "TDIP-CAT-2026.2",
+        "PNG-TDD-6.0",
+        "JIRA-EXP-2026-10-05"
+      ],
+      "hops": 3,
+      "severity": "Medium"
+    },
+    {
+      "id": "F14",
+      "finding": "Per-wire notifications unsupported until ENS-1120; 6-week onboarding; freeze",
+      "docs": [
+        "ENS-INT-3.2",
+        "JIRA-EXP-2026-10-05",
+        "CNB-ORG-PTT-2026-06"
+      ],
+      "hops": 3,
+      "severity": "Medium"
+    },
+    {
+      "id": "F15",
+      "finding": "Share-with-recipient link restrictions (no accounts/fees, <=7 days, SEC-STD-22 + PIA)",
+      "docs": [
+        "POL-FCC-014",
+        "CBO-ARCH-WC-4.1"
+      ],
+      "hops": 2,
+      "severity": "Medium"
+    },
+    {
+      "id": "F16",
+      "finding": "Planning constraints: PPH 90% committed, FCT freeze, GTSI KT, PI dates",
+      "docs": [
+        "CNB-ORG-PTT-2026-06",
+        "CNB-MEMO-2026-09",
+        "JIRA-EXP-2026-10-05"
+      ],
+      "hops": 3,
+      "severity": "Planning"
+    }
+  ]
+}

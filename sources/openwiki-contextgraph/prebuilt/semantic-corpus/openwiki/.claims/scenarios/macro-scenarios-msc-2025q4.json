@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9fae2cd2bff3c149253d683cdb40cf8db93f970eee97d254df96a46be63d124b",
+  "claims": [
+    {
+      "id": "claim_ef465cdc25bd487a99e529174ac0b7df",
+      "statement": "MSC-2025Q4 is an approved (2025-12-15) set of three scenarios with weights Upside 0.20, Baseline 0.50, Downside 0.30 and variables peak unemployment (3.8%/4.4%/6.8%), real GDP 2026 (2.6%/1.7%/-1.2%), HPI change (+4.5%/+2.2%/-8.5%) and CRE change (+3.0%/-1.0%/-14.0%); the API-14 example response and the CECL workbook Scenarios sheet carry identical values.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L33-L91",
+          "version": "repo-lines-v1:sha256:a3a29d49c7b2353429914a4e79b3746daad979ac1ca135e11dfac057c6ca056c:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzZWFlN2U2YTRkM2M3MWJjYzk2MzI4YzUxOWZiYTI5NDFlZTQ4Njk2OGE2ZDYzMjJmYjA4Y2ViNDRlM2VmZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjYmQyNDBjYmM2OGEyZDZiNzE2MDdlMDFjNzI5NWMyNTcyM2ZkZDM4Y2NlOTM5MmFmNjNkOGNhMzFmNzY0NDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L180-L193",
+          "version": "repo-lines-v1:sha256:f31b53a6eca38fdd993398866327b20ae5bc199a310183ca82833df1c530ec50:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4NWE1MzYzNGMxMDE0M2ExODAyYzQwZWU5NmVkYjJhOTA2ZDdlMzdlMmE4NzliYmMzYTJiMjNiMGQyYzIzZmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkZTJjZjQzMjU2ZDIzZWQ4NmY3ZGZjZThjODYyNGUwZGFlMmE2NTk4ZmJkNGUzYTk2NDZmMzFlZTM0YjFlMzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwZjk0ZjlmNTc1NmY3MjIwOTJjMmJjNTc2OWJmMzBhNGM4OTJlZTRhMjg1YmJmMmY5NGIyNmVkNTBkY2Q1YjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMxMmMxNzFhNTg0OWQ5MTNkNmRiODcxNTBlZWVjMGU4Nzg0MzU2ZDY2OTJlYmQ2Y2E1NmMwZGZmNjU1NjMzNWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c4fadfa5906f4bbb96bb11f8724a9f68",
+      "statement": "API-14 distributes scenario sets that are versioned and locked after Scenario Committee approval, with separate scenarios:read and scenarios:approve scopes, a 1-business-day publication SLO after approval, internal consumers (CECL, capital planning, stress testing, ALM), and downstream lineage to MDL-CR-007, MDL-CAP-003 and API-10.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L17",
+          "version": "repo-lines-v1:sha256:c2052b12082d36a9c344182fea608fe92b85a525ca5ca22774fb20ec45a3b146:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzZGUwODAzNGJlZTdkNWMyYWMwNTBmNWE2MDJkNzIyYTQ0N2M3M2ViNTUwZTMwMWRkYzhiOTRmZjJmNWI3MGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxYzVkNDNlMzJmYjBjZDI5OWVmZjkwYzJjNzkyNmViMTc5OTZkZjIwMWEzNmY2YmU1MmYwYzBmYWE2NjIxYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZjBkZjQxZjlkZTVlN2M1M2M4NzllNjFkOTFhMGQyOWI2OTBlNWUwYzdmZTgyNWZmN2U0MWI0ZGQ5OGI1NDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L93-L102",
+          "version": "repo-lines-v1:sha256:dc4a5293320279121e1800ba01effc72f2e0b4c5edefabf4b8ee3d4ace44fecc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhNzI3ZTkxOTc3Njc4MDc5YjFmMzE3NDVkOWRmMDE3NjhlOWZlMmRkOGUyN2VmNzdmNDM1M2FkYzQwMDMxZGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQyYTJhNjIxN2JjMTYxNDAwZmRjMmI4NWQyZmU0ZTU5OTMzNmEyZmNjZjcyZTZhNzBhMGU3NTQwY2Y1MjIxMjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5MWFjMzdiNjZiMTJiOTczODZiM2FiYzU0Y2JiZWJjNWM2NjVlYjVjZjc4ZDE2NjI0Y2FhYmViZGUwNmMxN2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5c0335b381e2429ea7e404a122652144",
+      "statement": "In the CECL model, scenario PD is base PD scaled by elasticity times the scenario's peak unemployment minus the Baseline anchor (Scenarios!B11 = C7) times 100, floored at 0; lifetime PD is 1-(1-PD)^remaining life; scenario LGD adjusts base LGD by the HPI change (mortgages) or CRE change (CRE) and is capped between 0 and 1; scenario ECL = EAD x lifetime PD x LGD.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L146-L152",
+          "version": "repo-lines-v1:sha256:85cef9d216827426eb3c470e36f29e8bba78c10a83831cfdca275053a18128ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FjNmZlNWVlZDZkYjU3OGIwNzNkMGIwOTMxZjBlMjMxOWRhNDEyMjRmYTI1OThiMGUxNWQ2MjAwMmJmMmU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU5MDQ1YTM5MmZhNzEwN2U0MTQxMzU3MWMxNTk0MTI5ZGQ3YWM1NjU0NjM3N2JlMmUwMjYxYzdmYWVjYWY2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2YxZGY3YzY0YzdkOGUzNmY4ZjRiZmU4Yjg1MWI4M2NjMTkyNGI2MDJlNzFiMGE1M2RmNmYzM2JhODE4OGMyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L195-L201",
+          "version": "repo-lines-v1:sha256:5f021b025eb3538eece28da557cd92fe519a70e3d591e6bb13bb338b437a794f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmNmNjI1ODFhMjI0ZWU0YmE0NDdhNDEyZDkwODEyMDdlYjA3YTk5YWM2YzFmMzJjNjcyNzQ0N2E4ZDhkMmI5ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYwOGQ2NDUyYzIzOWFjNjEyOGE1YmZiZTM3YWVkMWIxMjdkMDJmOGE1Y2E1YjdjZGQ4Y2Q5Njc3OGIwZjI0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWQ3MmE4OTU0YjFjYTg2Y2FkNjIyMzc0ZDYwNjYyZDFlODZkODk5NTY4NGZhZjcyMGZkNTNmNGZiYTc4ZmE1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDY2YzA1YzVlNzEwMzhhM2IxNjhiOGY3YTZmM2YwMjcyODMzYWQzNTQ4Y2JjZDA5MTY5YzMxNWYxM2I2ZWRhNCJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L275-L283",
+          "version": "repo-lines-v1:sha256:bdd045982c1702277ca8841be5efcbc7af43cf25caac6c70b7606b99bede9e5f:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI0MDY5NWZkMDEyNTFjMjU2N2Y3ODkwMTgxMDNjZWNhNzFlOTZiNzY2MTVkMjk2MTdhNTY0NGI5ZjcxOTZkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTAxYTQwZGFhOTY3ZDc5NWQ3YzhiNTE0ZGJkNDJkMjcxMWFkNTE4NTJkOGU4ZWI2MWQxZjVmYmZlNGY3MDYyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2M3NjAzNjhkN2Q2Zjc5MjkyYTZiZTM2MGIzZTRlNTIxMTI2ZTAxZTRlMTIyNGRlZjFjN2I1MGRmOTMyOWY2MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFjNDg3MDQyYzZjZGEyNWRiMzY5YTY0NTJhMGQ4OGVlOTk0MGY5YzY4MTdjMmNmYjcyNzA4MWQwZjZhZDY1ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5e598d4fc6104b4b88cbafb9417ca21c",
+      "statement": "The modeled allowance per segment is the weighted sum of scenario ECLs using Scenarios!B6:B8 (0.2/0.5/0.3); scenario totals are Upside 12,434.76, Baseline 13,817.04, Downside 19,478.13, weighted modeled 15,238.91 $mm, plus a 681.09 overlay giving a total allowance of 15,920 that equals the reported allowance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L12-L22",
+          "version": "repo-lines-v1:sha256:c04ea1ea35bb52cce8d702c315bbb970f3e944763e990f534c3f2b902488753c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlNzdhZWY4ZmQ3ZTQwODExNjc2ZGJiYTQzN2I3ZjM3Y2QwNDFkYTFjODA5NWJiYjIzZjM2NGFiNTQwMDM5ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNTU1ZGU5YjlkNzFlMTY0ZjRkMzdkZDNmYjgwYmQ4MWFlOTI2M2Y0YjkxOWYzOGNjMmZlMzMyYWExMmY1ZjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNkZWJjMjE1ZTliNGYzYzRjYTY5ZjI4NTcyZjU1YzkxNzEwYThlMDZmZDUzZDNiYTFkODkxOWRmODgzMGEwODQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0ZTQyNjllZjJhOTU4YjNjN2YxYTg3Y2Q2YzNjYjNhMGYwNTAzNjUyOGNkNjJiYmM2MDZhZjg1ZjhlNjdjMjAifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L94-L104",
+          "version": "repo-lines-v1:sha256:857df539113a746cf9e3e06d49bcf054a17147d5be1cf6f7070a59d314a251ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxMmUxMWQ2MWUxYjQ0ODg5MjE3MDhjNzU0NGIyMjJkZGEyMTQ5MzZkNDZkMzYzNjIwOWM2ZDA2Y2VlMmU0ZGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1OTVlOGFlYzlhN2FlNzY5YzBhZmVlNjUxMDA0ZTY4NWIzNjA5ODRkNDU1NDIxOWFkZGJjMmM2N2M1NTcxOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmNGM1OThjNzRlYTM3MzcyYWExYzE3YjQyYzBkMTVjZmU3ZGM3NjM0ODI5MzQxMzYzOWZmOWZiN2JiY2QwNTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmYTY3YTU4MGI0YTgxMzJjZjdiM2JkYjE0N2ZhNTE3N2VjNGNkMGRhZTVlYzQzNzQ1OTNhNmI2NThkYzQ0MzIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9f26269dc8f4495ea3313c79b7956fa6",
+      "statement": "The Sensitivity sheet shows the allowance (modeled ECL plus the same overlay) under 100% single-scenario weighting versus reported 15,920: Upside 13,115.85 (-17.6%), Baseline 14,498.13 (-8.9%), Downside 20,159.22 (+26.6%).",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L413-L440",
+          "version": "repo-lines-v1:sha256:1ebf9bd731742ba38f3e05138c5113d3c73a2421ad22d7bf6fb4d8786fbce44d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1ZDllMDVhM2JlNTE5MTM1ZjE5MTE1MTk0ZTM4MGY3NTEzYTU3NTM5ZTNkNjAzZTA5YzkzOWM0ZTFhYjk4NTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExYjMwMmUxMmFiZTUwZGQ1NDYzZjc0MmVkYTgzOGQwYjliM2QyNmQxYmNkNmFiMDVkMzkzOTNhYjdkNGMzMDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMxYjFmMWNkZTljMjkxYjQ1ZGVjNjE4ZjJiNGYzZWE5NDY2YTQ3MjU3ODc5YTU3YjliNmVhNWM4NWVjOTQ3MGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2ca59515ca0c46299f4dd52acf2d46bd",
+      "statement": "The CECL workbook enforces that scenario weights sum to 100% via a sheet check (Scenarios!B9/C9 returns 'WEIGHTS MUST SUM TO 100%' if off by 0.0001 or more) and flags qualitative overlays exceeding 15% of the modeled allowance per segment (Allowance_Summary!F14); both are flags, not blocks on calculation.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L105-L105",
+          "version": "repo-lines-v1:sha256:25080d98935df07e6d79923e57793a8fc8b0c091d8c69bf4c5a0664f3133a68b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUwODBkOTg5MzVkZjA3ZTZkNzk5MjNlNTc3OTNhOGZjOGIwYzA5MWQ4YzY5YmY0YzVhMDY2NGYzMTMzYTY4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUwODBkOTg5MzVkZjA3ZTZkNzk5MjNlNTc3OTNhOGZjOGIwYzA5MWQ4YzY5YmY0YzVhMDY2NGYzMTMzYTY4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWY0YjUwYWUwYTUxYjRlNzFhNWRmZGY4OTNkN2Q1NzNjN2Y0ZjYwYTk4ZDNmODE4NWM4YzhhMTY3NjIwNDcwMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTEwMjZlNGU4NjUxMzM1MWMzNzlmMzgzODA5M2U5ZWJiZmM1OWUzMjdjOTJjZDg3Yzk2MTI4ZDMwOGJlOGI5ZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L166-L172",
+          "version": "repo-lines-v1:sha256:3de00cc13a8bd7f44ae43360608c7c245ed7036fed46d7d402453b7929f45117:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2ViNzAyNTc1OTNkYTA2ZjY4MmEzZGRkYTU0YTlkMjYwZDRmYzUxNGY2NDUyMzdmNWNhNzRiMDhmOGRhNjFhNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjc4YjY1OWI1ZjNiYTIwMzFmNjQxYTFlNzBlMjY2MTk1NDhjMzI4NDA1NDg4YjIwMjIwMTJmMTJhYjY5OGM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmY0OThmNDM3ODYxNjQ3YTAwYTBjMTk0MzEyZmYzNDdiNTMzNTcyMTAzMDU3MjExZGYwMzA3OWJiMjRhODlhYSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L195-L201",
+          "version": "repo-lines-v1:sha256:5f021b025eb3538eece28da557cd92fe519a70e3d591e6bb13bb338b437a794f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmNmNjI1ODFhMjI0ZWU0YmE0NDdhNDEyZDkwODEyMDdlYjA3YTk5YWM2YzFmMzJjNjcyNzQ0N2E4ZDhkMmI5ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYwOGQ2NDUyYzIzOWFjNjEyOGE1YmZiZTM3YWVkMWIxMjdkMDJmOGE1Y2E1YjdjZGQ4Y2Q5Njc3OGIwZjI0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWQ3MmE4OTU0YjFjYTg2Y2FkNjIyMzc0ZDYwNjYyZDFlODZkODk5NTY4NGZhZjcyMGZkNTNmNGZiYTc4ZmE1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDY2YzA1YzVlNzEwMzhhM2IxNjhiOGY3YTZmM2YwMjcyODMzYWQzNTQ4Y2JjZDA5MTY5YzMxNWYxM2I2ZWRhNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6d1682a3d1824af5bf45f0571c34a3da",
+      "statement": "API-14 v1.6 (2026-05) migrated to the strategic data platform, cutting load time from six hours to under forty minutes; v1.5 (2025-10) added an internal severely adverse set.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:63de08034bee7d5c2ac050f5a602d722a447c73eb550e301ddc8b94ff2f5b70f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkZTA4MDM0YmVlN2Q1YzJhYzA1MGY1YTYwMmQ3MjJhNDQ3YzczZWI1NTBlMzAxZGRjOGI5NGZmMmY1YjcwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkZTA4MDM0YmVlN2Q1YzJhYzA1MGY1YTYwMmQ3MjJhNDQ3YzczZWI1NTBlMzAxZGRjOGI5NGZmMmY1YjcwZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDlmMGRmNDFmOWRlNWU3YzUzYzg3OWU2MWQ5MWEwZDI5YjY5MGU1ZTBjN2ZlODI1ZmY3ZTQxYjRkZDk4YjU0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L99-L102",
+          "version": "repo-lines-v1:sha256:99d4baf8dae998db1936b366a4fcd6c614bbbcf07f63a18070441b4a98252dae:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhMmE2MjE3YmMxNjE0MDBmZGMyYjg1ZDJmZTRlNTk5MzM2YTJmY2NmNzJlNmE3MGEwZTc1NDBjZjUyMjEyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWM4OTdkZTZlNGY3MjI2Y2VjMzc5OGJlMTUwMTRkMGY3ODViOTg3M2E4ZjM5N2Q4NjU5YTFmNTgzNDNhODQ1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_853e37c6b32f47d4833a2c7db23f773e",
+      "statement": "The Q2 2026 earnings supplement reports that MSC-2025Q4 scenario weights were unchanged from year end (Upside 20%, Baseline 50%, Downside 30%), with the later baseline view of unemployment peaking at 4.5% in Q1 2027 versus the 4.4% year-end value in Scenarios!C7.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L189-L191",
+          "version": "repo-lines-v1:sha256:6fb4487f641546521dd962dc4dfb288fd8a20c748e930d368bd4674f9d9450ed:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlhZjIzYWZjMDE0ZWY0MGI1YjQzYmYzMmY4YjY4MGU5M2IwMzMyNzE1OGFkYmVmZDliMzgwMmZjMGExZDk3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjk3YTUyYjE5ODIzNzdjN2Q3Zjc5YThlODE0YmQ2OWI5YjQxOTczZmE5Mzc3ODAyM2YxYjkxYTMyOTM5MDNjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWNiZGRmMzAzNGMwM2QzNmY4ZjE1ZmJhOGNkZmY4ZTZkNzgwOTBkMTlhZWYzZjhmM2MzNDBjZjA3MjUwYjRjNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWQ3MmE4OTU0YjFjYTg2Y2FkNjIyMzc0ZDYwNjYyZDFlODZkODk5NTY4NGZhZjcyMGZkNTNmNGZiYTc4ZmE1NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L270-L270",
+          "version": "repo-lines-v1:sha256:c45f6aa16f214df956086e0db17e3337addaa1291e909f9dcfcfdc19a98d7d2e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ1ZjZhYTE2ZjIxNGRmOTU2MDg2ZTBkYjE3ZTMzMzdhZGRhYTEyOTFlOTA5ZjlkY2ZjZmRjMTlhOThkN2QyZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ1ZjZhYTE2ZjIxNGRmOTU2MDg2ZTBkYjE3ZTMzMzdhZGRhYTEyOTFlOTA5ZjlkY2ZjZmRjMTlhOThkN2QyZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIwNGQ2MjFhOWMxZDhkODI3NzA4YjIyNDIxNmViNzdjMTg1OThhNWMxMjg4NDZiMGZkMGI5ZjdjMDUyZjNkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGRjOGJkYjEyYjk1NjI0NzEyM2M0ZmM3OWMwMTU1NGYyYzcwZGQ1MTNhYzNmYmE5NWQ3M2E1Y2ZhYzBhY2E1MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b52f16547a7a43f78108df67584688db",
+      "statement": "The Annual Report scenario table and sensitivity text match the workbook (20/50/30 weights; 100% Downside about $20.2bn, $4.2bn higher; 100% Baseline about $1.4bn lower, holding the overlay constant) and attribute part of the 2025 reserve build to a modest increase in the Downside weight.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L146-L146",
+          "version": "repo-lines-v1:sha256:90e678d46130dfce641186f97b921c10a3c51684d5847f505333943b0d79f186:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTBlNjc4ZDQ2MTMwZGZjZTY0MTE4NmY5N2I5MjFjMTBhM2M1MTY4NGQ1ODQ3ZjUwNTMzMzk0M2IwZDc5ZjE4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTBlNjc4ZDQ2MTMwZGZjZTY0MTE4NmY5N2I5MjFjMTBhM2M1MTY4NGQ1ODQ3ZjUwNTMzMzk0M2IwZDc5ZjE4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWY4YjAyZmQwN2U4ZGFhOGJhNGY3ZTQ4ZDRhNmZiZDdmMmE4ZjUyOTc1ZTJlMGE0Mzc1NGZhMjQxNmNmMzM0YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTEwNTdjOWViYWMyNzI2MGNjY2Y5NWYxNmU5ZjI5MGY1Zjc2MjlmMGFjZWNkM2ExNWM0Yjc3ZGFjYWM2ODMwYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L369-L389",
+          "version": "repo-lines-v1:sha256:d43fbac233b577b3486972ba89f4b371a3f9f480c8286249c947e72bfe17d10b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ODYxMjk2ZGRjMDM4NGU3MTg2MGVmNGQzMWEzNWVhNmVlOGQ4YWI2ZmI4YzUzZDUwYzlkNjRlMDkwNDgwZmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI2ZjZjNmQwYzFhZjY2YmNhYjY2OTU4ZmI5MjNmYTZlN2U5MGYyNjkzMmE0YWJlYTQxMWQ5YzI5MjFhOGU0MWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJhMGI3NjljYWI4OTMxNTNmMDg3NGIzNWQ3OTI0MjdhYzZiOTliMWU5OWQwZTY5OTQ5NjgwMmMzMDQ0ZmNhOTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJlNDgzYzFiMDk2ZWMwNjkzODQ4ZjJlMDNiY2I0YmFiNDNjOTA1YWY0YWM5MmUzNDlkY2M5NWVmNDEzNzJmOTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_307a4122746b4013aa6966ccdec1712d",
+      "statement": "Every scenario's PD is anchored to the Baseline peak unemployment via Scenarios!B11 (=C7), and scenario-dependent LGD uses column E (HPI) for Residential Mortgage and column F (CRE index) for Commercial Real Estate, with no price driver for the other segments; scenario weights are referenced by fixed cell addresses Scenarios!$B$6:$B$8 in Allowance_Summary.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L193-L201",
+          "version": "repo-lines-v1:sha256:ca36e2a02702fcbcd6ef2a8dc547be5d06dd26d82d4f7933e083c1f1fbff5262:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRlMmNmNDMyNTZkMjNlZDg2ZjdkZmNlOGM4NjI0ZTBkYWUyYTY1OThmYmQ0ZTNhOTY0NmYzMWVlMzRiMWUzNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYwOGQ2NDUyYzIzOWFjNjEyOGE1YmZiZTM3YWVkMWIxMjdkMDJmOGE1Y2E1YjdjZGQ4Y2Q5Njc3OGIwZjI0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWNiOTkxNzBiZmM1OWI1ZTNiZWM4Nzk4M2VkZDkyMzEzMDQ2Nzg4MzU0ZGQ0MWE3N2Q0NmYyNzEwYzc3MDVmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDY2YzA1YzVlNzEwMzhhM2IxNjhiOGY3YTZmM2YwMjcyODMzYWQzNTQ4Y2JjZDA5MTY5YzMxNWYxM2I2ZWRhNCJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L212-L217",
+          "version": "repo-lines-v1:sha256:d54b7a000577494eb36baa2cac24748dc0324c91a4e9d8ade3457202f90ff632:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E1YWRlMGNjOTcwMTdlNDU4NWY4MzRhZTBhYWFiMTRhNTI2YWIxMDE0MmE2MTRlYzY1NzNhYjc2YjZiZjcwYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRhMGE0MDljMGRhNzk2MTgxYjEyZTRkZjJlYjM1MmY4ZmM2Y2E2MTU3ZGE0OTczMDBkYTUxOTg3ZDlmNWQ3MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjkzZWFjNmZkNmRlNGY2YWI5NjA5MjFjM2EwMDlmNDVkOTdhYmY0YmZiMTYyNzA0OGU1N2ZhNjAxNDQ2ZGU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2ZkZDc1MWM5ODMyZTkxZTVhMmZkMmZjN2I4MGJmYTAyODNjMTZkMjI5MjhjYjc1YTk2NjBkMDhlNmY2MTU5MyJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L278-L283",
+          "version": "repo-lines-v1:sha256:bae9cb2752e78d49937e68c9b6cc17a4adc85f178c225ffa09dc9f8fb499c62d:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWVlNzdlY2ZjNjNlYzRmZGJlMGJkM2E5NmFlMzIyMzZiYjliNjYxMDQ5ZWU5ZTgzNDc0ZWY5ZjA3MWUzYzZmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTAxYTQwZGFhOTY3ZDc5NWQ3YzhiNTE0ZGJkNDJkMjcxMWFkNTE4NTJkOGU4ZWI2MWQxZjVmYmZlNGY3MDYyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOThkMDg4NDY3YjVjNWQ1MmFjZjdkMDA0MGJlMWNiODA0ZmNhNGI4MmQwMjY1M2M2ZjAwNGQxMDlmNzdhYTk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFjNDg3MDQyYzZjZGEyNWRiMzY5YTY0NTJhMGQ4OGVlOTk0MGY5YzY4MTdjMmNmYjcyNzA4MWQwZjZhZDY1ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_45335c7a33d14836a332cfc2a9a4b0cf",
+      "statement": "The Pillar 3 disclosures list the Allowance Committee as approving scenario weights, CECL model outputs and qualitative overlays each quarter, alongside the Scenario Committee approval of sets served by API-14; Pillar 3 cites SA-2025-INT paths as distributed to the CECL and capital planning models.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L460-L460",
+          "version": "repo-lines-v1:sha256:55b1829f66e4dd59a1d808c660c07c25318162f4b4dfd61aa3936a47f3b11bf1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTViMTgyOWY2NmU0ZGQ1OWExZDgwOGM2NjBjMDdjMjUzMTgxNjJmNGI0ZGZkNjFhYTM5MzZhNDdmM2IxMWJmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTViMTgyOWY2NmU0ZGQ1OWExZDgwOGM2NjBjMDdjMjUzMTgxNjJmNGI0ZGZkNjFhYTM5MzZhNDdmM2IxMWJmMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTdlYjEyZmM0MWVkNzQyYmYwODQ3NzBhZTcxNmJhM2I5MDZjMGM2NmY4NWUyMjI0MTVhYTMwMjZlODRkY2NjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDQyOTUxYTMyMzM2ZjdlN2FhODU4ZTVlMTcwNzYzMGFiZGRlMzkyZjJiZTlkZWRjZTZhM2NkM2EwNWFkMDk0YiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L87-L87",
+          "version": "repo-lines-v1:sha256:0baee64b120112c3e4d1824b09515c6d2d1e135a89dc53fc0088a813aef078a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJhZWU2NGIxMjAxMTJjM2U0ZDE4MjRiMDk1MTVjNmQyZDFlMTM1YTg5ZGM1M2ZjMDA4OGE4MTNhZWYwNzhhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJhZWU2NGIxMjAxMTJjM2U0ZDE4MjRiMDk1MTVjNmQyZDFlMTM1YTg5ZGM1M2ZjMDA4OGE4MTNhZWYwNzhhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGM0OWExZWZmNGE1MzIyY2RjMjA3NDAyZTIwYzM5MjBmMjk3ZTE1YTY1YjcwOTlmMDAyOWVmM2M3M2YyMmYyOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2IxY2YzNGJiZjcyMTZmNzM1YTdkMzlkYzExM2NmZmVjYmNiOWY0NzMyNDkzZDNkYWM2MWRmZTljNGQ5YWVlMiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T02:29:31.666Z"
+  }
+}

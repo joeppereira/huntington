@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:b74ef6a253b5c8e3ecf10c4c8d57d9bbaf024be534d9e71113d6261fc9944444",
+  "claims": [
+    {
+      "id": "claim_7ffaee9086aa40c09cdd14a2f9931829",
+      "statement": "Sentinel Fraud Scoring is a vendor-supplied payment fraud-scoring model, one of three constituent systems of the Payment Risk & Screening Platform (PRSP) alongside the Hold Management Service (HMS) and SanctionScreen, operated by Financial Crimes Technology.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L24-L26",
+          "version": "repo-lines-v1:sha256:f6fb690120df161b152daf802cd9a5d75abcf329a7d1f3edc5375f7506369281:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZiOWRiZmI5ZWE1NDM4ZjgxODQxMjU3MzI1ODg1NTg5MzViNzdlY2IwNzkzYWQ5NzQ2MmJlNThhYzM0OWRiYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDExNzM4NWI2ZjM1NGNjMDk3M2YyZWQ2Y2JjYTIzMGQxMzRmZWViZDhiZTA1MWVmZTc0MTM0MDBiNzcwMjA3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODljZjZmNGYzOGVkMjhhYjdmYjJiMTM3NTk4MGNjZDEzNjBlMTk2MTNmZGVkYjljMThmYTE5M2UxM2U3ZDI4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2ff9f47f27164674a20badaef36c8771",
+      "statement": "An above-threshold Sentinel fraud score drives HMS's HRC-07 FRAUD_MODEL_HIGH hold reason code, classified disclosure tier R (restricted), accounting for roughly 8% of all holds with a median time-to-disposition of about 1 hour 35 minutes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L44-L52",
+          "version": "repo-lines-v1:sha256:29e27f10fe1417be77498316639cbd923a54ea9831354d84fa2526256a3ebfd8:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGFlMGZlMDY2ZTdlNTZiYTA1Njk0ZjU4YmI3OGJlMThkYWRmNzNkMmFlNWQ1NDczOTc5ZmUyYjYzY2ZmNTBhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmI2ZDNlNmMwMDViOTQ5YTc2ZDAzNGQ0ZDVhNDQ0M2MyNjEyMDViZDgzMzY5YTg5MTIyM2IzOTNhNzAwNGNlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQwMjAzZjVjN2NmYjExNzY5Yjg4YjIxMmZjNGNjYzIxYmY2Y2Q5MzhmOGU0M2YwZTQ5NGI5Yjk3MGFiMzY5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTEwN2MzOGZhZWMzMTUzYWRjYTU2OTk1NGYxZTdmMzU1Njk5YWNjOWQ5MGMzM2RmMjRmMTU4MjIyMzU3ZGZjOSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L70-L70",
+          "version": "repo-lines-v1:sha256:47b065ca889c7e8d8ae3d05a08852b2cc3efd2ea7d7f5925d53c5793979716de:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDVjMTEwMmI4ODAzYzM5YjRiMThlMTI1MzExZDQ0OWMxNzc5MjNhYTgzMmUwMjc4MjcxOGFmODRlZGVjNjU5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDU5MmZmODM5ODk2NjhlYTNmMzRkNzAyNDM0MTEzMTlmNTZjNzM1MmRiMTNkODhjOGMzNjhlY2IxNTc0Nzc3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_310e1c68bc5842269a371e8edeb15370",
+      "statement": "HMS's free-text hold description field is templated to embed the raw Sentinel score for Fraud Ops casework (e.g. \"FRAUD_MODEL_HIGH sc=9xx L1 queue\"); this and analystNotes are classified Restricted and are consumed only by Investigations Workbench analysts, never a client-facing system.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L72-L78",
+          "version": "repo-lines-v1:sha256:417834ca8b8dea07e395042dee88b5845b075b2b18891a5ae4c83821b5f2d613:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjczZWU4Y2NjYjA4NjM4YmJmYTNhNDVkMTQ2NjljZTcwZjI5MjdlNmViZGJlYmI4YzkyMmJjNmM0OTUxNjdhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkyZTFlMTg1NjNhY2Y5ZWU4NjQ1NDA3YTNmMmQ5YzA3ZGE0MTQ4ODk3N2FiMDk1MzA2MDhjYjM4YWFkNzY5NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzI4ODUwYWVjNjM2ZmZiNTc2ZDNiMGMyYTQxNzJlOGU2NzVjMjYzMjhmMTc5MDkxN2Y0YzkzMmEwZWE5MWMxZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2I2NWVmMTNmNDVkY2VjMzI0NGI3OTQ5MTNlZDZlZmYwNjBmMDE3ZjRmNzFiOTMxNzA2MTg5ZTkxZWQzN2Y2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a12f9ce416be4631bbed9b6931701e79",
+      "statement": "Sentinel is registered in the Model Risk Management inventory as M-FCT-0021 (\"Sentinel payment fraud score (vendor)\"), Tier 1, owned by Victor Petrov, validated 2025-12.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L63",
+          "version": "repo-lines-v1:sha256:cd2647047f1f4bd85f90327d1e50b0787b7b83be1fc2df72b5585c8b1c3c00d6:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ1ZmZkMjc0NWJmNzQ4ODM2MGFiN2FiMDAwN2NhNGYyYWZlNjc5MGE1NjMyNzI2NWM0MjA3M2E2NTMwNWJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDVlZTVlNDdkYzcyMGI1ZWRkZDIxOGQzYmNkNDJiMTQwMjRiYzE1ODMyZDQxY2I1MTZiNzczOTJjN2FhNjMyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzhkZTIyMTVmOTI4MzM4NzQxOWQxZDA4MDJiODRiODEzNjc5NjgzNDdiZGVjN2Y5MGI1YmQxOGU4MzQxMTA4ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6b45067f1cb04af4892074a06c53362a",
+      "statement": "As a Tier 1 model, Sentinel requires full independent validation before use and annual review thereafter under MRM-POL-02's four-tier scheme (Tier 1/2/3/EUA).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L36-L40",
+          "version": "repo-lines-v1:sha256:7498cbf4491482dbd8a3e421e61ac127279695267372f5f5b4e0779999373ffb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU3YzQxZGQyZWM4ODg3YmIwNmU5ZjhmNjdjYmVjNWU3MzQwYzE4NWU5YWU1MWFlMjQ2MzZiMjI3YzFlODYyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzM1OGU3N2VkZDE1YmU2M2E3Njk5YTBmOWNhMGQ2ZjAzOTA3ODZlYWZmZjZjZTA1ZDg1OTRhMTk5ZTJmMmJiZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjgzNWVkOGVjNTY5N2E0NjRkNzE0MWMyYWZjYTVjOTQyYjUzZjA5MmM3MWE4ZGFkMzExYmJmYTE1NDM4M2I1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmI1OTc4NTA0OGYwYmUyMWRjNTUxNmYzMmM5NDFiMWY4MTg0MTM1NWMxYWU2NjkwYjhhZDRlNjRiNjU3MGVlYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5b39ec6f9de44ac78f306d2caec3d654",
+      "statement": "MRM-POL-02 imposes an absolute prohibition on using Tier 1 financial-crimes model outputs for product, marketing, or client-facing purposes, explicitly naming Sentinel fraud scores (M-FCT-0021); the prohibition is not conditioned on consent, anonymization, or aggregation and extends to the model's registered inputs/features as well as its raw outputs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L44-L46",
+          "version": "repo-lines-v1:sha256:6ce9599a1cd638bbb34e2a193d6e81342e2e1e6ed7adbaa5306e1c01cb4f7998:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzMzNDZiZjUxZDUzYzQ0NTIyMTRjODJjYWNmMzBkNGIzMTU0ZjZkZGFkOWNkOGRmZjFiODlkNjI1YzM2NzU3MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFiMTk2YmU3Y2FkZjIzMmM2NjAyY2Q2YThjZTM5MmNmYTI0ZjQzMDIwZjM5MzFhOGM1NDI2YmMyYjY3MWU0ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmI1OTc4NTA0OGYwYmUyMWRjNTUxNmYzMmM5NDFiMWY4MTg0MTM1NWMxYWU2NjkwYjhhZDRlNjRiNjU3MGVlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzQyMGI2MWM5OGExNGNkMWVhYzA5ZjNjNzAwZTE2YjRkYmE0MzVjMTVhNDI0ZGFmNGIzMmQzNWNmOTJjOWQ0MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_465e945926a24bb0ae8b97577ded8385",
+      "statement": "Because Sentinel is a vendor model, MRM-POL-02's vendor-model provision applies: where the vendor cannot provide sufficient information about internals, compensating controls and outcome monitoring are required as a substitute for full-transparency validation evidence.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L48-L48",
+          "version": "repo-lines-v1:sha256:26ffe97c8f08bffcbd859cc4b18e1371a1f3249e26286a7e1fb6f8223a0b9b89:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZmZmU5N2M4ZjA4YmZmY2JkODU5Y2M0YjE4ZTEzNzFhMWYzMjQ5ZTI2Mjg2YTdlMWZiNmY4MjIzYTBiOWI4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZmZmU5N2M4ZjA4YmZmY2JkODU5Y2M0YjE4ZTEzNzFhMWYzMjQ5ZTI2Mjg2YTdlMWZiNmY4MjIzYTBiOWI4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFmN2ZhYWVkY2QxOTI1NTlkOTg3Nzg4ZjBjZDFhY2NiYzYxZWJhZTJhMjYwN2ZlMTNlNGFiYmMyMjY3NDk0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcyYTRjYjMyNWUxNzE1NGI3ODQ5YTU5Y2Q5NzljODU2NzY5MTg2YWQyOGRhMjE4ZTc5YWNhMDdmODRlODg2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_928c3811b6db49639a92b5056352a23c",
+      "statement": "No client-facing interface exposes Sentinel's score or HRC-07 hold detail; HMS's data handling, interfaces (EP-HMS-01/02, EV-HMS-01) and the deprioritized FCT-1893 client-view facade proposal are the only documented access paths, none of which are channel-authorized.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L80-L88",
+          "version": "repo-lines-v1:sha256:2106f98fbd574b8cd510cc5d07e5757a1f9796e1bc661d226e4ad0ba71f20559:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjkyNTU1YWNiOTIzNzMzMGNlMDMxZmRhYjE2YmEyNjBkMjgyYzE3NjQyOWQxNWU0Y2NhOGQ4NzRjOWM3MWNlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZmE0NTcxOTFhODBkYWUwMWQ0Y2QxZjFiZWE0MGNhMGEzMDlkZGQ0ZjlkNmU4OWE5NzI0YTM4ZGJlZjAxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRlZmE4YjdhMDVlYWQwNzFhNTc4ZTBlMmU0YmQxZGUzZjRmNTcxZmRjMmQ0NDM1OWM5NDczMDkzMjAxYWI4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c703a8722fe74ff1bb6c8f85f36e5caa",
+      "statement": "The legacy HMS-to-PPH v1 holdReasonDesc sync, which predates ADR-PAY-021 and remains active until the PPH v1 sunset, is the one documented path by which Sentinel-derived score text embedded in HMS hold descriptions could reach a downstream PPH v1 consumer; it is tracked as open risk FCT-2004.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L76-L76",
+          "version": "repo-lines-v1:sha256:c938c8fe35a3ca6f713c3e03c5efd918dbf0e0cb28118343660ad89013f8cb8e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkzOGM4ZmUzNWEzY2E2ZjcxM2MzZTAzYzVlZmQ5MThkYmYwZTBjYjI4MTE4MzQzNjYwYWQ4OTAxM2Y4Y2I4ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkzOGM4ZmUzNWEzY2E2ZjcxM2MzZTAzYzVlZmQ5MThkYmYwZTBjYjI4MTE4MzQzNjYwYWQ4OTAxM2Y4Y2I4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzEyZTEwYWQxNTBlN2I0NzUyNmJmNTMxY2NiMzg0YzE3ZDQ3OGE4MjczM2FmZjcxNTFjMTMwNzU3NmQwZWJlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjVhZmE0NTcxOTFhODBkYWUwMWQ0Y2QxZjFiZWE0MGNhMGEzMDlkZGQ0ZjlkNmU4OWE5NzI0YTM4ZGJlZjAxMCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

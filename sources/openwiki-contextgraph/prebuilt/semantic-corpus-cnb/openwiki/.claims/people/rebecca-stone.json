@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f76d158c7993e3fa6eefd54b144b1936ae3fcc6f1da8797638be556b3f2eb926",
+  "claims": [
+    {
+      "id": "claim_d7bb972ad03748f48c1256fe6caf2fe8",
+      "statement": "Rebecca Stone is the Financial Intelligence Unit (FIU) contact within Financial Crimes Compliance (FCC), listed under Catherine Doyle's second-line function in the PTT organization directory's partner-functions table, alongside Jordan Ellis (FCC Policy & Advisory) and Michael Tran (OFAC).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L69-L69",
+          "version": "repo-lines-v1:sha256:d91967ec6c453f04576b1e06cacaef9c326e320a9a413ddffe6868d4c4860998:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkxOTY3ZWM2YzQ1M2YwNDU3NmIxZTA2Y2FjYWVmOWMzMjZlMzIwYTlhNDEzZGRmZmU2ODY4ZDRjNDg2MDk5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkxOTY3ZWM2YzQ1M2YwNDU3NmIxZTA2Y2FjYWVmOWMzMjZlMzIwYTlhNDEzZGRmZmU2ODY4ZDRjNDg2MDk5OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGE1MmIyN2Y3Njg5ZWUyYWUwODA4ZjY2YmZmNWZhZjFiZGIwNzBhOTk0MmI2ZGZhYWNlOWU5ZDBhZDg2NjBjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjg2MjI0YjllMThiNjY4NWY1ZTQ3OTE4NWJjMDkzYzQ4YmE4YzEwMjc2YmJlNjZiZGM5N2IzMTc5ZjYwNmFjNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_35aa0cb8c1424f149f7277ef6cd22c41",
+      "statement": "Rebecca Stone (FIU) is the named business owner of SYS-PRSP-HMS (PRSP - Hold Management Service), a Tier-1 system whose technical owners are Grace Mensah (EM) and Daniel Kowalski (Tech Lead), Financial Crimes Technology.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L90-L90",
+          "version": "repo-lines-v1:sha256:2b7f0bf7f2e1208634386b9ff72f37845fe297d7e04ca4d15785ddfd25a84bd2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3ZjBiZjdmMmUxMjA4NjM0Mzg2YjlmZjcyZjM3ODQ1ZmUyOTdkN2UwNGNhNGQxNTc4NWRkZmQyNWE4NGJkMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3ZjBiZjdmMmUxMjA4NjM0Mzg2YjlmZjcyZjM3ODQ1ZmUyOTdkN2UwNGNhNGQxNTc4NWRkZmQyNWE4NGJkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZhMmQ5MjczMWI4NzI3MzRjYzNlMzNiMzk4YWRjMThmNTgwZjc5ZTI5ZDg3NGRiNjZhYjNhODM0NDdjYzhmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2f04cd94e8264e12b139748a8f3546da",
+      "statement": "The Hold Management Service (HMS) is the system of record for holds on outbound payments from screening, fraud, funds-control and operational controls, sits within PRSP alongside Sentinel Fraud Scoring and SanctionScreen, and surfaces work queues to Payment Operations and the FIU via the Investigations Workbench (IWB).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L26-L26",
+          "version": "repo-lines-v1:sha256:7f8d80372a218ed37d3e097adbd937ee73e34624aba6df265042f434b91c23b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODljZjZmNGYzOGVkMjhhYjdmYjJiMTM3NTk4MGNjZDEzNjBlMTk2MTNmZGVkYjljMThmYTE5M2UxM2U3ZDI4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8d082fcc44ec4d83bc05999e20158c81",
+      "statement": "Hold reason code HRC-10 (AML_REVIEW), 'Unusual activity review by FIU', is tier R (restricted), represents about 2% of HMS holds by volume, and has a median time to disposition of 1-5 business days, the longest of the HRC taxonomy.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L55-L55",
+          "version": "repo-lines-v1:sha256:7049dfa21f3c693dfabd78c4e3d3b958d82df4fd41be4fbca7d17bea6539ceca:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA0OWRmYTIxZjNjNjkzZGZhYmQ3OGM0ZTNkM2I5NThkODJkZjRmZDQxYmU0ZmJjYTdkMTdiZWE2NTM5Y2VjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA0OWRmYTIxZjNjNjkzZGZhYmQ3OGM0ZTNkM2I5NThkODJkZjRmZDQxYmU0ZmJjYTdkMTdiZWE2NTM5Y2VjYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2Q3OTJmYjAyOTAwMDI0NTk2MDc5NzE1MmJiNTFkNmVlN2Y4MGJjMGE0YzU4MTRhOTY1ZDc0ZDMyOTNmNWY3OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWFhMDEwMTRmMDAzY2E0ZDZkMjM1YTNhMjJiYTZjZDJmMjg0ZGFmMzM0ZGU5MjVjNWRiZGUzYmVmOGM1OTg1NiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L70-L70",
+          "version": "repo-lines-v1:sha256:47b065ca889c7e8d8ae3d05a08852b2cc3efd2ea7d7f5925d53c5793979716de:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDVjMTEwMmI4ODAzYzM5YjRiMThlMTI1MzExZDQ0OWMxNzc5MjNhYTgzMmUwMjc4MjcxOGFmODRlZGVjNjU5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDU5MmZmODM5ODk2NjhlYTNmMzRkNzAyNDM0MTEzMTlmNTZjNzM1MmRiMTNkODhjOGMzNjhlY2IxNTc0Nzc3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e308276f02e44a8786da57fd98757702",
+      "statement": "Under POL-FCC-014, tier-R holds (including HRC-10 AML_REVIEW) must be presented to clients identically to generic tier-G reviews with no hold code, score, analyst notes, or release timing disclosed, consistent with SAR-confidentiality requirements under 31 U.S.C. 5318(g)(2) and 31 CFR 1020.320(e).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L126-L130",
+          "version": "repo-lines-v1:sha256:ca778ae198a902e66f03ee9dbcc1ab3f6f5ba68e46d55872038659ed405fdfde:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTRmMmMxOTI3Y2FhNDlkNWU4ODczMmNlZjg1NDI0MDY1MjNlMWRkZDhkNjc0NWMxZmFlZDk4M2Q5ZmFkOGY5ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTYwOTE0ZjQ0YTc4NDg1ZWEwMzFjNWQ5YmI0OTNkZGEyODBjNDZjZDkyNTdlYmQ0NmY5OGQwMzQzNDc5Y2VkNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmZjOGE5NzJiMTA2ZWZkZDNjNTdiYzM4Zjk3NTBiODNkMWM1YTYyNDFjYWYzODViODI4ZWY2OTE5MDc5YjE5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTJjNWI3NmJmMDU0MzQzYjczOWI5ZDg3ZjdhMWU0NGE5YzYwNTM1MmQxNWE4MTgzNGM0N2RmNTNlOTU4NDliMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L37-L37",
+          "version": "repo-lines-v1:sha256:997b75023c6ad0bc925c5ea900b434c16dc0b6220180ac50fe56bbb02a5cde8a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTk3Yjc1MDIzYzZhZDBiYzkyNWM1ZWE5MDBiNDM0YzE2ZGMwYjYyMjAxODBhYzUwZmU1NmJiYjAyYTVjZGU4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTk3Yjc1MDIzYzZhZDBiYzkyNWM1ZWE5MDBiNDM0YzE2ZGMwYjYyMjAxODBhYzUwZmU1NmJiYjAyYTVjZGU4YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNhNmFjNDE3Y2EwZWJkMmNkMzg0YzhmM2MyM2EwMWMxMmQ0YmMyYmIwY2UwMWUxZmU2ODBiMmI3MWI5YjQ4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ5M2NkZWRiYjNjN2EzMmYzODRlMGY2NWFlY2NiZmMwNzIzODU1MmQzNzRiNzg5NWRlMGU4NDk4ODg4ODRlZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L51-L51",
+          "version": "repo-lines-v1:sha256:d61410ac8bf463f5a94f0ed51d4e2afb90c8547abe4695fdb8e747d6bbb482d9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDYxNDEwYWM4YmY0NjNmNWE5NGYwZWQ1MWQ0ZTJhZmI5MGM4NTQ3YWJlNDY5NWZkYjhlNzQ3ZDZiYmI0ODJkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDYxNDEwYWM4YmY0NjNmNWE5NGYwZWQ1MWQ0ZTJhZmI5MGM4NTQ3YWJlNDY5NWZkYjhlNzQ3ZDZiYmI0ODJkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTc4NGQ5MTdlY2Q1NzU0NGU5NjVmODljMzQyM2M4NDBkZGNlZTBiN2Q5MzMzYmVkYWUzYWYxZGY2MjE4ZTk3MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODZkYjNjYTc1NDg1NTM5NDUyYzNiZDZkYmJiMGVmOWI3ZTBjZjFlZDA4MTMxZWQ4MDdmOTIwMDE0NmEyYTJiOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2c302a50c42548cb9b839155ddc3aec6",
+      "statement": "HMS currently has no client-facing interface; the proposed Client-Safe Hold Status Facade (FCT-1893) was deprioritized in 2025-Q3, and a legacy HMS-to-PPH v1 description sync (open risk FCT-2004) remains active for backward compatibility, posing a risk of leaking restricted hold context including AML-review details to downstream consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L74-L88",
+          "version": "repo-lines-v1:sha256:8f341e08fa34b078f4561c90467d3eeafeb28267f860e64b54db081d69fd3673:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIzY2NmYjkyNWZiMGU3NzczMGJhODYzNTI3MTEyZTMyNTYwNGJhYzBmMDc0NzMzODkwN2FiY2ZhOWFlOWQ1Y2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyMDkwMzRkNzE5MDc5ZTMyNjAyMTdhNWZkMjU0OGIwZTM3NDExOTk2OWQyYjUyOTZmZTk0NTJkMDBjZjkxZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA1OTJmZjgzOTg5NjY4ZWEzZjM0ZDcwMjQzNDExMzE5ZjU2YzczNTJkYjEzZDg4YzhjMzY4ZWNiMTU3NDc3N2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJkZWZhOGI3YTA1ZWFkMDcxYTU3OGUwZTJlNGJkMWRlM2Y0ZjU3MWZkYzJkNDQzNTljOTQ3MzA5MzIwMWFiOGMifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

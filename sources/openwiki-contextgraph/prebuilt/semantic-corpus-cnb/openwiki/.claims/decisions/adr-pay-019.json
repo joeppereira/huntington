@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9e951146c1111db0b6c8510dc99bf411ea614278b8b31b602f4dced3df8f3632",
+  "claims": [
+    {
+      "id": "claim_96624f3713f14c5b862a6b27c22579a8",
+      "statement": "ADR-PAY-019, accepted 2024-06-11 and applying to all channels, requires channel status integrations to consume PPH lifecycle events into a channel-owned read model rather than poll PPH, limiting synchronous status calls to throttled, user-initiated refresh.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L29-L36",
+          "version": "repo-lines-v1:sha256:3551290f3a269787c6ecf9cd6da2fe28930ff3e96bfb50aac76d37bd197548d0:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ5ODkwMTNkNDRkOTE4YWJkYmUzNjI5M2FjYmFmMjgwNjAzYTgwNTgxZTUxZWRlYTA5OGZhOTI2YTc3MDUzOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM1YThmYzFiZGI1OTJlN2Y3OGE3MjIwZTY0ZmE3ZGVhMWFhNDA5MGJlODE0MzYyNmUwZDk5MWYxOTVjOTBlZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVhYjM5NzFiN2UzNDhiY2Y0OWFhZTM0NDUzNmQ3NTBmOWU3OTUxOGI4YTBjM2JjMjhhMGE1M2JhODhlNGViYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWUyYjk1ZmY4N2Q5ZjczN2NlZWNlNjI0Zjk1MzViYjE5MmQ3NDNjY2IyODg3NDliMGRlMTNkN2UxZDk1YWUxNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ed5e14eee7a407aa2df9e0e5955249d",
+      "statement": "ADR-PAY-019 arose from INC-2024-1182, in which the Wire Status Lite pilot's 30-second browser auto-refresh against the PPH v1 synchronous status API drove ~85 TPS at month-end on 2024-05-31, exhausting PPH's API thread pool and delaying wire release for 47 minutes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L24-L26",
+          "version": "repo-lines-v1:sha256:47c1705db6ff961019a77cb29b6253eeb8c9aac385661d336843d74208a8cabd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVmNjY2ZTU0NDk5MjM5NjNkODg4ODUzN2I2ODk4ZDA4MWU4ZjYwMTU3ZjE1ZDNmYmY0MTlkMmNjNjJlYWQwNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjE0YzJjN2UwZmJlZjA3ZGYyZGRlMDdiN2U1M2VjYmM1MGY3MzFkZTlkNmJhZGJlZWRlODRlYmY0NGZmOTNkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjExOWIxZDgxY2Y3YzQ2YjkwMTNjOWUyYzZkYjg4ZDg0MDU1ZjY4M2ZmOGVjYjFkNDZjMGI0NjY3NWE2NmI5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ad69881166e8448286ed456a7ae5ec18",
+      "statement": "PIR-2024-07 documents the impact of INC-2024-1182 as 1,240 wires delayed, 312 wires released after the 6:00 p.m. ET Fedwire cutoff, and 14 clients compensated $41,800 in interest claims, with no regulatory notification required.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L28-L35",
+          "version": "repo-lines-v1:sha256:fe074407839fd331189b7b2809338c4ee513b6e599547aa968351919c79a00a8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQyZjAyMzY5YzFhMDBkYTNkZmUzODNiNzIzYzcwNzRlZjU3MjkxNjE2NjY2YTY0MTlmOWI1ODM3YzdkODI1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNmYzQwOTRjMGY4NzIyNmEzOGE2MmM3NjM0MDIyMTI0MTliNzE5Yjk1Mzg4M2ViOTBiNzk4YzIyMjVkNDgwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDliZmFjMzBiNmY5NTVlNTA0N2Y4YTQ2MTNiMWE5OTdjMzQ1ZDBkN2QzNGFmOTg3MjFlMzA1NDJiZTdkNjcwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY4ZjU2Yzg3ZDAxMzQ2NTQ5OGYxNDg2YjVhOGNmM2Q4ZjA3ZDkxMTllNzUwMTk4ZWI5ZTg4Zjc2YTExMGI2MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_69aea00e313049c1bf4660c3ce7178bb",
+      "statement": "PIR-2024-07 identifies root causes of INC-2024-1182 as a polling architecture against a shared synchronous API with no client-side backoff, lack of capacity testing at month-end volumes, and unvalidated status semantics with Compliance/Legal, and lists adoption of the event-driven status pattern (ADR-PAY-019) and a PPH v1 rate limit of 20 TPS as resulting actions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L45-L60",
+          "version": "repo-lines-v1:sha256:eb4f718fec856756ba31dd034d3bdd076b87dad948c9b782b03ab1cae92ca773:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxY2Y1ZjBiMDZkYzIzNDBkZTE2MjdlNWVlZDZkMDNlMGYzNzc0OTBmMGZkMjUxN2RkYTFiYmQ0ZGQyNWQ0NTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc2ZWYxNjFiYjA0MjkxNjM5YmZmYjRlMTMxNTU3ZjRjMmIwNjJiNWZlMmMwMzJmOGQ0M2VhZDQ0MDAzZDhjYjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBlZjdiMDRmZmIwYjlhOWM2MmY5YzcxZWNhMmM2YTE4MzY1YjRhZmIyODkzZWFiNmM2NGQ5MjdhNmJjMmI0YjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM4MzQ5YWJkNDMxMDQxMWJkNjZjMmRjODJjMDRkZjdlNDM0ZDY4MjU5NGVjOGY3YjZhNGUyYTgxNDA5YTAxZDEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1962122cf521426a88dd327afaeb95e1",
+      "statement": "CBO-ARCH-WC-4.1 section 7 codifies ADR-PAY-019 as a current constraint: Wire Center must not poll PPH for status, only throttled user-initiated refresh (1 per 60s per wire) is permitted, and new status capabilities must be event-driven.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L125-L129",
+          "version": "repo-lines-v1:sha256:8ec6de8500175bc3faf2163322a52f5f186b2d117a23df6b9bfe6c3bea033ad2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGMxNDBiZGVlYzY2NjNkNTVkYjAzMDUzZTU0Y2I4YjgwODYyMzQ4Y2EwYzMxNjEyNTg1YzU0ZGUxOTg4ODQwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2U4ZmZmMmE4MWIwMGIxMGVjZDNiZjJhNTVhYjY2Y2QyZmYxMGNjMTBlOGNhMDBlY2RkYzJiZGIxOWIzOWQ4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNThlZGMzZTA1MzEwYWJhODg0NzgzNDhkNDY0MWEzZmNkZGZjYmRjMDZjNDkzYzU5NmZkMmI1OWUyNjZmYzAyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWFmY2UwMTlhM2Q5NGFmYzEwMTI3MzIxZTc5ZTc1NTMzOTc5M2E1Y2FjMjczYmEzOTg0NDkwMjAzNWMyNTU4NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_337cd781d9814904b7c5e9ee7e5e0fec",
+      "statement": "Despite ADR-PAY-019, Wire Center as of CBO-ARCH-WC-4.1 (reviewed 2026-08-20) still uses synchronous PPH v1 calls for status rather than the event-driven Status Projection Service pattern, and SPS is configured for ACH only, with wire support requiring a new mapping module and consumer ACL on pay.wire.lifecycle.v2.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L143-L151",
+          "version": "repo-lines-v1:sha256:175a5a7f5ae962183eac5d947a29bf7d7576fcf8fe58fa93e42f03daa7fed7ff:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQzNmQxYTVhY2IxYjUwMGQ3MGMzMTVmM2VmYWE5YmVhNDc0NzhhY2Q4ZGY0Njk2NDQ2MDdhOGE5ZmUxMWJjNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODE5Yjg2NDg5NjA1ZGJjZWJlMjhmYTAzYTFmOWE3MjNkYWZjYzM0NTAxNTQ0NzJkOWFkYzNlMzE5OGY1OGU2OSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L53-L56",
+          "version": "repo-lines-v1:sha256:c6f08921b32fb9c914b873940a5da97b2ee3ce25808a7979c780e594492a3149:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVhOTMyOTdjZjdiYjliZmE5NmE1M2FlZGRjMmY0OTU1YzY4OGFiODQzYzU5ZDBlZmJjYTIyYzVjNzNjNmI4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjQ3ZThhYjc0OThmZDQ3YTgzYzI4MjFhZGYyN2YzN2FhNjU5OTM3NmRjZTk1YzZmMzcyZmY1MDM2MDFlZmUyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4b234b26a64340369ee083e7b5bbeddc",
+      "statement": "The 2026-09-08 Payments ARB minutes reaffirmed the CBO Status Projection Service as the reference pattern for client-facing status of any payment type, and declined to approve direct interim exposure of a GPI_TRACKER_SNAPSHOT to channels, noting any such read-only quota-isolated service would require ARB review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L65-L68",
+          "version": "repo-lines-v1:sha256:4520b92d88beeee9669255447905cd78d0eeb44509dd41a24c00e01cb7bd3bc3:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJiZmQ0YTk0YWM1NGUzZmFlYmE0M2ZlNTdiN2UzYmNjYWY2NDk0YzE4YzBkYjQ5Njk3ZWM1OThjNWI5N2EyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgyNWYwZmNmN2ViZjljNWM4YWRjZTcxYzk4N2Y5NWRkZDJhNzQ5MzliNTJjZGE0ZTFkZWU2ZDM0YTJmZDE1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E4OTBhODI2ZTA1OTQ2NWU5ZTZjOTk0ZjMwMWQwODkyNGQxYzQzZGQ1MGU5ZjQxODgyZWIwNzIwZTJhMmM1NiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

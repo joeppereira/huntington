@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:cba403162169d873cb5a4e68ad517f657c801aa3ed79fa3e560c395da21908d9",
+  "claims": [
+    {
+      "id": "claim_8763d07344ae40d99fe1a94cbb9fdbf5",
+      "statement": "Market Data Services, in the Markets & Treasury domain, is the owning team for exactly two platform APIs: API-12 Market Data API (v5.1, /market-data/v5) and API-13 FX Rates API (v2.4, /fx/v2).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-12-market-data-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:db0d7c77ba6d6941bd9bd0a276b1cef9e9c2a1b7fafbcf6932a66fabb5eca17b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4NWZmY2IzMjI0ODRmYWI2OTExZDkwNTc0ZTc3MTllZjBmZWI2MDQyNzA5NTc1NjQ4ODllYjliODkyODg4MDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhZGNlMmY4NjdkNzYwYjYxNmFiOWJjZDM3ZDliODczZTIwYjg0MzgzMWRmMDE0MmY0ZjI1Mzg3YmQ5YzlkZTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:528dcc9ca7f8815e02b1cd8799fc9ae33f27cf37ee664a43d68f7e48166726f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkMjMyZmI5M2I2ZjZjZmRmMTI5NGUwMWVkZGMzNTZhMzRhZjYwNzU2MmI3NzZkMzAwOGU1MDMzZjBjZGJkZmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE2MTcxZDk0ZTk0YTNlMmM0YmI1NDhkODIwNDg0NmM4ZTgwMjExN2JlMDI2MDI3NWJhYmVhOWU5Yzg0OGQ2YTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L92-L93",
+          "version": "repo-lines-v1:sha256:6cf6139b9129fc13e9f5efbdc08a3abcd460badfc4e0ca15f8816a7281968d8e:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTZiZGIwYTU4MmE4YTdlNTEwN2ZkZGUzYTdhOWVhMDYzYWVmZjE1MTAwNTg4MWE4ODZlOTk4NDE4NWM5YWQ4OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjM0NTJmMmMxZWNkM2YzMjFlYWYzM2E3MDU5MjQ4YzgyYzlmNzBhODVmY2VhN2IyM2QyNDRjNjgyZDI5MzU1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGRkMzU0MjIwY2Q3Yjk0MGNiZTFiMDcwMzBmMDgyMDljMjg2NzA3NmI4ODE4YzBiYzQzMGM1MTk1YmY5ZDJjNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmJlYjhhNDkyZDIyOGE4MjViYjk4MGJmYmNmMGNmMTkyYzk0MGQ2YjM1ZGIwM2NkY2UxMzU2YmM5YzA2MDczYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c720596c65b54a3daea79262dfde75d8",
+      "statement": "API-12 sources data from licensed vendors and internal trader marks (validated by Valuation Control) and is the golden source for VaR, fair value and the ALM policy rate; API-13 sources from the FX trading desk pricing engine and licensed vendors. Both are classified Internal - Licensed Data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-12-market-data-api.md#L4-L50",
+          "version": "repo-lines-v1:sha256:35e2ad442c8811e35247bd7c6804d52ad889d899a4a5d0f3214e245f58268676:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4OGQwNDU4Zjc3YmZkYjk4YWM2YjRjNjU0YzZhZjAwY2MyY2YwZDRjODgzODY0NThlYjBjMzlkZTBmMWUxM2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRkOTQ0ZTJiZmVkNzRlN2UxYzZhYjI1ODc0MTFkOWYyNjVlZjlkYTg3NWYzZWQ3MDllNjY0OTAwOGMwMTk4M2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEwYWM3NTMzNmY5OGRjZTQwNWNhZWU3YjFkNDUzM2EyMDgxYjgwYWQ1NjY1MmU3MTQzYmZmYjQwMDUyNjQzYmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhMmYyNTkxYWNlYWUzNjY2YzI1NzIwOTYyN2VjMzkwN2I0NjU5N2QxMTg2YzUzMmUxMmU5ODkwYzNiMWRmNzcifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L4-L51",
+          "version": "repo-lines-v1:sha256:842fc44900cbc1205f9703fd8b4946a3c0c3f504e6fab6e9b4e49e5ce2a61e81:eyJzZWxlY3RlZExpbmVDb3VudCI6NDgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1ODc0NzE2MDkxYzNlNzFmYzY3MTYzNGFmMjRiODA5Y2E5YWJjODQwMDk2M2U0Yzc2NmFmOTFiOWQwZGRmYTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0NjUwOGVkZGM2NDFmNzY2NGJhOTBiNWFhNDY1MDZmZDUxYmI4MTIwMGYzNjY0OTNiYTZiNzczZmZiMDI0ODEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhkOTMzMjRlY2Q5YzE3MzA4Y2YyNjNjMmUxMjMyNjMyMmQwNjZkODU4MTcwYmFjMTc3ZjUxYzQ1YzY0NTQ0OWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhMmYyNTkxYWNlYWUzNjY2YzI1NzIwOTYyN2VjMzkwN2I0NjU5N2QxMTg2YzUzMmUxMmU5ODkwYzNiMWRmNzcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d4a277b8403e4a708458921bcc8c1def",
+      "statement": "Both APIs commit to 99.99% availability; API-12 additionally commits to an EOD snapshot by 19:00 ET, while API-13 commits to a 60-second quote validity and documents no EOD publication time. Rate limits are 5,000 requests/minute for API-12 and 3,000 for API-13.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-12-market-data-api.md#L16-L17",
+          "version": "repo-lines-v1:sha256:63009bfa7512d4b1e5961a0c2c8c100da30a41dc62d3b479c93a4ad294958328:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDAzY2UwNDEzZTI3ZTNmNWNhNWE1MTYzZWU5NDViZWMxZjdmMTI0MGFmNTBkNDk5MDllMmM4NGRkNDdjYWE2OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzg1ZmZjYjMyMjQ4NGZhYjY5MTFkOTA1NzRlNzcxOWVmMGZlYjYwNDI3MDk1NzU2NDg4OWViOWI4OTI4ODgwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzkxM2I3NGJhZDRhZTcxMzI5NmIxNDQ0ZWMxYzQ0NzhjNmQwNGY4YWMzMDEzMjQ0NDZhMjU3MDdlY2MzOGViNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L16-L17",
+          "version": "repo-lines-v1:sha256:d02aa208aff7c0ca1a4f89097845cc08cc3319f767305fbc0422517522a79006:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIzYzU2MmNhZDg2NTc4ZTBmN2ViYmVlMGRjNWJkMjA5OWMzMWFkMTNiYjBlYzk1MDAzNzhmZWQ5MmViZWMzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWQyMzJmYjkzYjZmNmNmZGYxMjk0ZTAxZWRkYzM1NmEzNGFmNjA3NTYyYjc3NmQzMDA4ZTUwMzNmMGNkYmRmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTY1ZjY5NzY4YWJiYTM0MDhlZTY1ZjlkN2JhZDJiYmExMDgwOTgxMTYxMzgxMWEzMTcyNzVkMGQyY2M0YWIyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6341395983b34c7eb0e1bc2c56930941",
+      "statement": "API-12 and API-13 are designated critical data elements under the BCBS 239 program, and Pillar 3 states their inputs are validated independently by the Valuation Control Group.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L397-L397",
+          "version": "repo-lines-v1:sha256:a2ea860e7a7147deacaf5fbc0261442539f6fe1a201ae10406cbae84044522ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2I5ODFjZWQxNTBiM2VlZDhjNmFlOGM1ZmJjYTBlZDBhNGJhNTg2ODY0NmUwN2Q5YWVlODNiNTlkMGI5MWY4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlOWQ4YWI3NDlkMDAzZTU1OTM2NDMxZGNmOWZjZWQyZGQ0M2VjNWIzZGY3ODg4NGVhODA3YzJjN2QxOThkNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L346",
+          "version": "repo-lines-v1:sha256:ece883d5df930fff747b6dd1b69f170c6f9f45a16d06a5fab0ffd6112629d85b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI0YjYyZWFjNWIwMmI2NjY1YmUxYzBhMWQ1NmFlNzE5ZGYxN2JlNTNiZTlhMTExYjkyZjYyOGVhYzYwZGI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkMGFkNWYwYmZmZjVlZTZlMjcxNmI3ZmNjNTY1NDY0MzMxMzZmMmY3NWMwZjQ2ZTFlYzc0ODE5ZDgwZGY5ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_525ae18e2c474b70869dd6c57030c74a",
+      "statement": "The VaR engine consumes both API-12 (prices, curves, volatility surfaces) and API-13 (FX rates); API-13 additionally feeds the Wire Transfer API (API-05) and currency conversion in Regulatory Reporting API (API-16), while API-12 also feeds MDL-ALM-014, fair value and collateral valuation.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-12-market-data-api.md#L46-L50",
+          "version": "repo-lines-v1:sha256:b0bfa7c93a53d30eb90a16e937ac8f3b859b04e120cff1a24262942b407fe6c7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ5NDRlMmJmZWQ3NGU3ZTFjNmFiMjU4NzQxMWQ5ZjI2NWVmOWRhODc1ZjNlZDcwOWU2NjQ5MDA4YzAxOTgzZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L47-L51",
+          "version": "repo-lines-v1:sha256:ad91026ffd8cd0d4368eb2c08062a537cfa385f659155d6fced2d1f72d1b4560:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQ2NTA4ZWRkYzY0MWY3NjY0YmE5MGI1YWE0NjUwNmZkNTFiYjgxMjAwZjM2NjQ5M2JhNmI3NzNmZmIwMjQ4MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L346",
+          "version": "repo-lines-v1:sha256:ece883d5df930fff747b6dd1b69f170c6f9f45a16d06a5fab0ffd6112629d85b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI0YjYyZWFjNWIwMmI2NjY1YmUxYzBhMWQ1NmFlNzE5ZGYxN2JlNTNiZTlhMTExYjkyZjYyOGVhYzYwZGI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkMGFkNWYwYmZmZjVlZTZlMjcxNmI3ZmNjNTY1NDY0MzMxMzZmMmY3NWMwZjQ2ZTFlYzc0ODE5ZDgwZGY5ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e4514b94dbe2490f97c90ecbc3d7ed41",
+      "statement": "Among Tier 1 models, only MDL-ALM-014 (NII Sensitivity Model) lists one of this team's APIs, API-12, as an upstream feed (yield curve and policy rate series POLICY.FEDFUNDS.UB = 0.0375 at 2025-12-31); API-13 is not registered as an upstream feed of any Tier 1 model.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1361-L1391",
+          "version": "repo-lines-v1:sha256:a2125965f458bf51cb119bcbf856b62e3463f3a20210d6340d1f7509926d77ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmZTZkZjBkODk4Y2JhMmJjYjgyMTU3YjgyZDQ1MDZjN2UxNWQ0OWNiMmU1ODE0ZTcwODkxNjI3Njg5Njg0NDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwZTkxM2FlMjE3OGMxOTgzYjVlMTM0MWM1MmE2M2ZiMmExOWJjMThkYzE3MGY4MjNkYTY4NGQ0NzEzN2EyMjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3NWM4Y2Q0Njk0MzRlNmYzNjBmZjY1NzZmODJkZmFjODBhYjkxZTI5ODAzNjM5ODczNzliMmIyZGYzM2M4ZDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJlNTQ2NmZjZTlkNDk1MmE5MzQ5ZWY3MmNlOTk0NDU4OTk1NWNkOThhNDQxMWZhMWJkYWJiMDdkOWQzYzY2NjIifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L146-L146",
+          "version": "repo-lines-v1:sha256:721cb701caed4e5f6aa386781ed0fe00a3a2b5cfc03a65a284f1a5a04fdef948:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzIxY2I3MDFjYWVkNGU1ZjZhYTM4Njc4MWVkMGZlMDBhM2EyYjVjZmMwM2E2NWEyODRmMWE1YTA0ZmRlZjk0OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzIxY2I3MDFjYWVkNGU1ZjZhYTM4Njc4MWVkMGZlMDBhM2EyYjVjZmMwM2E2NWEyODRmMWE1YTA0ZmRlZjk0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjZlZjFkNjNlYTBjZGJiZjg2YTMzOWJiMjNhOGI1YWFjNmVmMWI3ODEyMWUwOTFjMWNkZDQ4MWEzMTYzMjRlMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjQ5Mjg1ZDFkZDA4YzJiYmM0YTE3NjQ3Yjk5Y2M0OGU3MTU0ODhmMDQzMTYyNDk1YWMzY2JkMWU3N2EzZGU2MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_66f92d18a81b43059e175bb08be0589f",
+      "statement": "The platform reference lists API-12 among critical data services escalated to the Data and Technology Risk Committee 24x7 during quarter close; the list (API-10, 11, 12, 14, 15, 16) does not include API-13.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1423-L1423",
+          "version": "repo-lines-v1:sha256:7a5e3c6873ee9aac5238cce281c91b1b6b56911b1b42c86d34f80f3340b682d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmNhNDcwNTY0YTFmZWVmMTdjNjc1NDJhN2M5YTgxYmNjOGYwMTYxMzdhZWRkNDMyNTA2NjFjNTNkNmQyMzY1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2QwZGRmYjE1OWE5MDhjNzc4OTBkOWYxMmZmYmQ3M2UxYjJjZDBlNGM1YWE0ODM4NjcxZTQ1ODk2YjE3MmFkMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2aaea13717014582b81de1de9f865f83",
+      "statement": "The Data and Technology Risk Committee oversees critical data elements, API change management and BCBS 239 compliance, and data-quality exceptions on critical data elements are reported to it monthly.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L537-L537",
+          "version": "repo-lines-v1:sha256:513fc4553b056142c2d5eac6f14e33c3aba04cd807aa4a3be9d92840b8f8a02c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjkyYThlOTM4ZjZhYTI1ODI3OTJhMTQ2ZmEzYjlkMzFhZTYxYWZhYTVlYjMyNTgyZmI5ZDRlN2I2YTc3YzA5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQ0MTcyODI0ZDRhNTcwMWQ0YWQ2NWQ4OGIzYTkwODM5MmJlZGQ1M2M0NjJkMjVmZjIzNDYxNTUyMDFkZGQ1YyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L91-L91",
+          "version": "repo-lines-v1:sha256:e94e4e83daafddf52f84abf3b342a81add3efd78c2a9bd48c9bb4137ae348214:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTk0ZTRlODNkYWFmZGRmNTJmODRhYmYzYjM0MmE4MWFkZDNlZmQ3OGMyYTliZDQ4YzliYjQxMzdhZTM0ODIxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTk0ZTRlODNkYWFmZGRmNTJmODRhYmYzYjM0MmE4MWFkZDNlZmQ3OGMyYTliZDQ4YzliYjQxMzdhZTM0ODIxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2IxY2YzNGJiZjcyMTZmNzM1YTdkMzlkYzExM2NmZmVjYmNiOWY0NzMyNDkzZDNkYWM2MWRmZTljNGQ5YWVlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzU1Nzk1ZGY1MGY1NTM2ZWYxYjNlMjRjNGFhYmQzNjUxNjkyMGMxN2UyMDM4OTQ5NDJjY2E2ZjFmNjgyNmQ3ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_31c1e8db3ee04526b96071d4b96a0ea0",
+      "statement": "Recorded release history: API-12 v5.0 (2025-05) added the SOFR curve family and v5.1 (2026-03) added WebSocket streaming; API-13 v2.4 (2025-11) added the EOD reference endpoint for finance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-12-market-data-api.md#L52-L55",
+          "version": "repo-lines-v1:sha256:51e304c2c0e6fdae5f174d87955583a68b6b6ca6dcde093054c29970b2e75ed0:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNlM2Q3OTg1YzI2YTg2ODRhYWZlMTBhOWNiNWIwMDFhZjc2MjZkZjZiNWUzZTIwZDIxZGNmM2U1MDlhNmJhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmJiN2IzNzg4NjI4NjM3YjNlMmIyNDVjNjYxNDM2MDNjZmM5YTQ0ZGE2YzFmMGI2YjRlNWU2NmM5NTlkMTc3MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L53-L55",
+          "version": "repo-lines-v1:sha256:625e57cd63849c0466df006a2b3076ddc9192fae1fa178609acd10719a72c905:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODU0YjMyZDNmY2RjOTI3NWY1ODg4NWQ4MTJkZjU5MWM1YjkyYTlhOGE0ODEwNTc4NmU1YmY2MmM2NzA3YzkyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDBkMzRmN2ZiZWFlNjdjZWUwZGJlZDk4N2UwMWYxMTZjMjUyYzNjOTAxYWQ2NjhkNDA4NDc2YTUyYTY3Y2Y2ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d137935700414c908808dae0d72cecd2",
+      "statement": "OAuth scopes are marketdata:read and marketdata.curves:read for API-12 and fx:read and fx.quotes:write for API-13.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-12-market-data-api.md#L15-L15",
+          "version": "repo-lines-v1:sha256:cae8a229d372204b3f09dec3b07ab74eb60fb87b5dca006dd34b79cf71cc4806:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2FlOGEyMjlkMzcyMjA0YjNmMDlkZWMzYjA3YWI3NGViNjBmYjg3YjVkY2EwMDZkZDM0Yjc5Y2Y3MWNjNDgwNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2FlOGEyMjlkMzcyMjA0YjNmMDlkZWMzYjA3YWI3NGViNjBmYjg3YjVkY2EwMDZkZDM0Yjc5Y2Y3MWNjNDgwNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmViOTFhNjY1MTVhMThmMzhlZDk0MDg2MWI0NTE1ODg4YTUxZDFhOTc5ZjNmY2I3MDdmZDdjMTkzYWYwZmM5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzc2MzY3ZTU0NmM2OTM5YTA2MjdiN2Q2Nzc3MGVhNDFlN2JlZjE3NGQ0ZWQ2NTg5MmFkYThlYTRiNzUyM2QyNSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L15-L15",
+          "version": "repo-lines-v1:sha256:1c0cc0abc4e70b18e9465cb422b01b2039ec7e1d0e24a451f0eedeef44d89f4c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMwY2MwYWJjNGU3MGIxOGU5NDY1Y2I0MjJiMDFiMjAzOWVjN2UxZDBlMjRhNDUxZjBlZWRlZWY0NGQ4OWY0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMwY2MwYWJjNGU3MGIxOGU5NDY1Y2I0MjJiMDFiMjAzOWVjN2UxZDBlMjRhNDUxZjBlZWRlZWY0NGQ4OWY0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDZhZGMzMWRjODRlMGExNzMzZGJiZDQ3N2M5ODUwZWI1MWIzZjI1M2IzNjA4YmUxMmNkOTM4ZDFmNWY2YzQwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjYyZmY5Yjk1MzkxNDUyZWQ2MWQ0YzY2ZjEyMmRjYzYyZTQzZDllZmJkYzhkODg3OTIwMGQzYjdiNjhjNmMwMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3beaa7c5f3d243799af7e4031d548118",
+      "statement": "The Q2 2026 earnings supplement reports API-12 at about 310 million calls per month, up 11% year over year, at 99.99% availability, with trading, the NII model and fair value as key consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L423-L423",
+          "version": "repo-lines-v1:sha256:3fca8d8370c4bbf6818b0e28753c26f480e4a7c6a6531db05ab1e7fcb3e61858:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZjYThkODM3MGM0YmJmNjgxOGIwZTI4NzUzYzI2ZjQ4MGU0YTdjNmE2NTMxZGIwNWFiMWU3ZmNiM2U2MTg1OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZjYThkODM3MGM0YmJmNjgxOGIwZTI4NzUzYzI2ZjQ4MGU0YTdjNmE2NTMxZGIwNWFiMWU3ZmNiM2U2MTg1OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWYxYjkzMDZlZWJiNTc5NmEwNjUxN2FjZjM3YWFkODU0YzJlY2JmZjc2ODcyYzViZGU5Y2JhNGYyZDQ1NzE0ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNThiZjY1MDk3MjI3OTQ1OGY5OGU0MjNkYWRlZDc1MjRhMTc1NmIxNWY0OGE5YTViNzQ3ZDQ5NTQ5OGVjOWQyYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ee2be340b4474618b7dc78f2f1d96a3e",
+      "statement": "API-13's overview describes forward rates, but its v2.4 endpoint list contains only /rates/spot, /rates/eod/{date} and POST /quotes, so no forward endpoint is exposed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L4-L25",
+          "version": "repo-lines-v1:sha256:a982c6b474a1fc54d84ac65043883316b22c2b2f279254f35069a1601da448e7:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1ODc0NzE2MDkxYzNlNzFmYzY3MTYzNGFmMjRiODA5Y2E5YWJjODQwMDk2M2U0Yzc2NmFmOTFiOWQwZGRmYTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjMmYzYTQxODMwNzc4Yzk3MmY1NTU3NGVjZWI4NTc0YTQ5MWE0ZWVjMDI4YzE0YmI4ODNmY2Y3MWZiZDhjNjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhkOTMzMjRlY2Q5YzE3MzA4Y2YyNjNjMmUxMjMyNjMyMmQwNjZkODU4MTcwYmFjMTc3ZjUxYzQ1YzY0NTQ0OWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

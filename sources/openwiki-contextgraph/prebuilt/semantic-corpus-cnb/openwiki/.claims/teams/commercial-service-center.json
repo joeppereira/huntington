@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1d789665a3d5b2e98941f4eaf95773b44500a347bd6c7ab45143acbfb7dd8b42",
+  "claims": [
+    {
+      "id": "claim_b05948dda3344647980b678f33a8e8b9",
+      "statement": "The Commercial Service Center is a first-line partner function in the PTT organization directory, accountable to Kim Nguyen, with 'Treasury Support scripts and training' as its stated contact area; it does not appear in the PTT engineering team directory (Section 3) or system ownership register (Section 4) and owns no system of record.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L77",
+          "version": "repo-lines-v1:sha256:c7fe64a4a6d6da01855db29c521dadfd9a0a292acb5a311c64f12ee702279fff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyOTQ3M2U0MjkwNmViOTg1NzUwYTBmYjFjOTA1MTdhZGIwNzNmNmVhNDViYmUzMzkyYWJiN2M5M2M3ZWE1NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7282dde0a39d483297cf8138a3147b7a",
+      "statement": "Engagement with the Commercial Service Center for a new client-facing workflow uses a readiness checklist due three weeks before go-live, with a planning factor of approximately 24 hours of scripts/training work, distinct from Payment Operations' four-week Ops Readiness Review at ~40 hours per workflow.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L137-L138",
+          "version": "repo-lines-v1:sha256:42d4e1f13a1bf2a84e26cc5408983ee76a963ba3cfcedb896d49d681fd42b738:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzE0MTNkMjAxNWFhM2YzODg5YjdiNDFlZTk2NWVhM2RlZWU2ODc4NjM3NWIyMGJkMTgwYjExYzg1OTkxNDQ3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDJmZTlhZmJmY2VhMTViZGU2NDIyZWZlM2M5ZmM5YzU2OTA3ZDQ4MmI3NGQwZjg5ZDNiMDQzYjgxYzA1Mjg4MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjk1YmQ2MDQ2Y2M3NzUxMGM3NTRlOTdmMTcwZDU1MDllM2U3YzM2MzlhZTA4NzIwZTJhOTk4MDYyMDhhOWQ0ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjc4OTQ5ZWYxNGYxYzkwNzIyYjc3ZTA1MjI0Y2JlMDg5YTNkMjI2NjkzODlhNWFiN2QwZmNmMTk2ZTNiMDI2NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f14f2c59732d40799b2f5a064c151206",
+      "statement": "CBO-4388 ('Show hold reason tooltip on Pending Review wires') was requested via Commercial Service Center (TSC) feedback as a call-deflection measure, and Kim Nguyen commented that the shipped tooltip should reduce 'why is my wire pending' calls, directly linking the engineering change to Commercial Service Center call volume.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L34-L34",
+          "version": "repo-lines-v1:sha256:5a63460cc3a47bd028e8254ffe4886cb595ff6d38e4a3a0798915b82eecfaeca:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWE2MzQ2MGNjM2E0N2JkMDI4ZTgyNTRmZmU0ODg2Y2I1OTVmZjZkMzhlNGEzYTA3OTg5MTViODJlZWNmYWVjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWE2MzQ2MGNjM2E0N2JkMDI4ZTgyNTRmZmU0ODg2Y2I1OTVmZjZkMzhlNGEzYTA3OTg5MTViODJlZWNmYWVjYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDBlNjQ2ZDFiYzY4Y2U4YjEzNTc2ZWRjMjcwYjUyZDYyYmZhNjAwZTUxMTZiZjViMzU1ZjBjYTRiZWIxZWZmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjlmNjIzNzIwNTMwYTNhMDA5MWJkYzlmN2NmN2Q3Yjc1ZGJjNmY4ZmFlOTdkZWFiNDA1ODU0N2MyMTQzYmM4YSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L71-L81",
+          "version": "repo-lines-v1:sha256:70c4341bbdde104ef9c4247a8051a24184b60ccba67076eee251e0bfa26cd0dc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1ODUyMjE1OTFhYmZlZjQ0ZWIwNWZhYzhjOTBhY2U4YjI4ODBlYjg0NWM3MmZkZDBlOGZlMjIwODNmMDUxMWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRjOTRmODY2OTM3OGQ0NDZiOGU0MGQ0NmM0N2JiYzU3NDRiZTg4MTdmNjczMGFmN2Y5NTc0ZTJjYmY2NTQ1OGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY3YjFjYzMxYWQwY2IwZGIxYmRjZWQ5NzJiYThmMmEyZjU5ZWU4NTQ0NjIyZWMwZmJmNGFhNmMwMTAyMzk5NTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmN2Q3Y2IyZjBhZjVjYWM1YWQxOTQ4YTM0NDBhMDNhYzc1MjU4NjRjYmIwNDI5NmE5ZjBkZmJjZDY5NzkzZmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_fbbc1c4cf3f34d0e9a34fd1f4a3c77c1",
+      "statement": "Kim Nguyen (Commercial Service Center) supplied the operational detail behind open bug CBO-4419, linking it to regulatory complaint CMP-2026-1189, where an international wire displayed as 'Completed' before being rejected and returned, after the client had released goods in reliance on the status.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L105",
+          "version": "repo-lines-v1:sha256:53c8e075e2a2238436ddd729cfbb94c76ca723bb718379669e7c0fd55e25e75c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIyNDQ1OGEwZDI2OWJiMTJhNjEyMDMxNTAxYmZkZmNmODc2ODI0YTM4ZWRmMzViMjMzOWQ3OTZjZjVmYWE3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MWJiYTUzOGIzYTZkYzE0MTEzMDAxMWMwNWU5NzBhZWFhMTNkOGNmOGJhZmIxMDgxNGM3M2FjMzUxMzAzYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d8f177bf5bb14accb5f2dcff34c74658",
+      "statement": "PIR-2024-07 found that the Commercial Service Center (Treasury Support) could not explain held wires to clients without FCC guidance, leaving open an action to validate client-facing status terminology with FCC and Legal before any future tracking feature; CMP-2026-1189 is a later recurrence of this unresolved gap.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L43-L43",
+          "version": "repo-lines-v1:sha256:ac0a4b659346844fc3196db04a202e8770c33d9c2aeaa17b154b9e4ffcde5f33:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwYTRiNjU5MzQ2ODQ0ZmMzMTk2ZGIwNGEyMDJlODc3MGMzM2Q5YzJhZWFhMTdiMTU0YjllNGZmY2RlNWYzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwYTRiNjU5MzQ2ODQ0ZmMzMTk2ZGIwNGEyMDJlODc3MGMzM2Q5YzJhZWFhMTdiMTU0YjllNGZmY2RlNWYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjFjYTQyYThmMjc0Njg2YTZiNzkzMDgyNmZhMWNiYmJhNDQ3YzJlYjlhYTI4Yjc1YjU0ODE4ODJkMTQ1ZGJkYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkNjk4OTVkMzlhMWRjYTliNmU5ZWZjZjJkOTA0YTllODBlMTRjYjAzM2VkMWVlMTIwYmQ3ZmY4M2ZmMmJmNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L60-L60",
+          "version": "repo-lines-v1:sha256:76ef161bb04291639bffb4e131557f4c2b062b5fe2c032f8d43ead44003d8cb5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlZjE2MWJiMDQyOTE2MzliZmZiNGUxMzE1NTdmNGMyYjA2MmI1ZmUyYzAzMmY4ZDQzZWFkNDQwMDNkOGNiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlZjE2MWJiMDQyOTE2MzliZmZiNGUxMzE1NTdmNGMyYjA2MmI1ZmUyYzAzMmY4ZDQzZWFkNDQwMDNkOGNiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQ3YzczMzZlOTNiNzg5MWZkYzIwNzc1ODY3ZDAzYWY5ZGY4NjNlMzc5Y2FiNGE1ZjEwZDE3YjRmM2FkOWE0ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzgzNDlhYmQ0MzEwNDExYmQ2NmMyZGM4MmMwNGRmN2U0MzRkNjgyNTk0ZWM4ZjdiNmE0ZTJhODE0MDlhMDFkMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_05e8ab5f9093417a8f5bf6258b272f94",
+      "statement": "FCT-1951 piloted having Commercial Service Center phone agents obtain client attestation to resolve suspected-duplicate payment holds (HRC-01), resolving 82% of such holds within 30 minutes; FCT Risk approved digital attestation for HRC-01 only with step-up authentication (updating control CTRL-PAY-031), while wires over $5M still require Wire Room release and no non-phone digital attestation path exists yet.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L159-L163",
+          "version": "repo-lines-v1:sha256:287ffb3ab43bf6c7a3651d048d8c9b5ba3b739fb9f68bcb1809b6e4d8feb3188:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDAyNzQ1YTA1M2Y1ODU4MGVhN2YxMGE2N2JlODgwMGIwZGVmYmRlMzhkMzljZjI5YmEwZDMzMWI1MmU5NjQwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI3MmU1NGExYTkwMTNhZTc2MDIwZjczMDk5MWEzMzQ4OWZkMThjOTI2NTZjOTRmYjQ0ODFjOTk5ZGVjNmJmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAzNTY4MjBmNzFhZjdkOGQzMGMwMmJmN2I5YTQ1MDczOTkxZjIwMDcwY2NkMjYyMjM2ODQ5MmY1MmIxMzEyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRiMzcxZTNmZTBkZDY3MmJlYjY0N2RhZWU5OTI3ODZiZjJjNzdmY2Q0NzZjNmJiNDlkNWMyNTBhNWIwMTI5OCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L62-L62",
+          "version": "repo-lines-v1:sha256:1f28b33a97641aa128e082f84a2b408dfde8373b6d699fa778bd989658fecd86:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWYyOGIzM2E5NzY0MWFhMTI4ZTA4MmY4NGEyYjQwOGRmZGU4MzczYjZkNjk5ZmE3NzhiZDk4OTY1OGZlY2Q4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWYyOGIzM2E5NzY0MWFhMTI4ZTA4MmY4NGEyYjQwOGRmZGU4MzczYjZkNjk5ZmE3NzhiZDk4OTY1OGZlY2Q4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTg1YWFlZmNhZTIwNTllODAyMDg5NzVlMWU5OWFkMDc2OTg5NGMyZmM4MDZjOTE5Y2JjYzAyNmIwMTY0NDAyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWRkZDVlODdiOTk5YjRiNDMzMmE1NDU4MDk3MTZiMmJmYjYzZTUwYjJmNDEwYmIxMzY0NjljM2RiMzRmYmFiOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_47e5697ebb294a34a42ab1557a6eea1c",
+      "statement": "The Disclosure Review Committee (DRC) approves client-facing copy, disclaimers, and notification templates on a bi-weekly cadence with a 5-business-day submission lead time, acting as a compliance gate parallel to the Commercial Service Center's readiness checklist for any client-facing wording.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L114-L119",
+          "version": "repo-lines-v1:sha256:2aae0bc32463ddc9e18e37f8fa14cb40bb1d1292eaf0c48fe7ee388c90595385:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzU0MTQyYTA3YmE5N2I3YjlmOWNmZmVhYjUzNjA0NzZjZmQ1MWNiNmU3MGEwMDA4MDlhZTQzMDg2Y2FkNjQ4YyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

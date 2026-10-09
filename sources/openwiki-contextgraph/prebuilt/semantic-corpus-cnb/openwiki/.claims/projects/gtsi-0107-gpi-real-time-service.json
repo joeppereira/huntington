@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e99ca2102b03a34b020379a185fb52fe13bde4135011b799169e782aa66bd662",
+  "claims": [
+    {
+      "id": "claim_605c96455c134e568e452db975c4bbdf",
+      "statement": "GTSI-0107 (gpi Tracker Real-Time Service, GTRS) is a Jira Initiative owned by Elena Vasquez with status Planned, scoped as an internal REST + event API over the Swift gpi Tracker change feed; it is not funded for 2026, with discovery targeted 2027-Q2 and build 2027-Q3/Q4.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L169-L175",
+          "version": "repo-lines-v1:sha256:a24467decb1c3caafe20ac2ecec4afa3c1b608f126e8faa2831fd11ea43acbd4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2YxYjcxMjAyYTBmNGRjYTgxNTFhOWQ4MTZiZGE3YjdlZjQzZTJlYmNiNTM1Mzk4ZGUwYjJhOTQ5NGNiNTY1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJhYzUzMTcwMDY3MjYwMWIzZTQ3MDVkMmZlMjAwMDE4YmJkZTQ5MjQxNGQ4OTA1NjgzMjcwMWYwNzViNzdlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWUyZjUwZTNhOTdjYjViMDM0OGJhMjQ4YWU2NmExZDRhNmRmNTlmMjRhZmU4YWVlOTJlNDJhMzgxM2JlNjcxOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzZlMjRhNmNhNDkwMzQyYTRjMjJiYzc5NDVjMDA0ZmYwYjkwNjgyZmYwY2E4ZDZmNmRkMGU1ZWExN2U4Y2I1MiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L58-L58",
+          "version": "repo-lines-v1:sha256:c96887d023c1cb361f8752e6d0c128fd32752d9c302a65237bd3ff391c8e9de8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ODg3ZDAyM2MxY2IzNjFmODc1MmU2ZDBjMTI4ZmQzMjc1MmQ5YzMwMmE2NTIzN2JkM2ZmMzkxYzhlOWRlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ODg3ZDAyM2MxY2IzNjFmODc1MmU2ZDBjMTI4ZmQzMjc1MmQ5YzMwMmE2NTIzN2JkM2ZmMzkxYzhlOWRlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDQ5ZjEyNmYzNmNjMDA1YzZlOTBiYTBkYmVkMzJjZjhkZGM4MWQ1NDJjODdmZmY0NGE5ZjUxZDBmNGY5YmJkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTg1YWFlZmNhZTIwNTllODAyMDg5NzVlMWU5OWFkMDc2OTg5NGMyZmM4MDZjOTE5Y2JjYzAyNmIwMTY0NDAyOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fee571a445b14fec8fbe03a72b88e36d",
+      "statement": "GTSI-0107 originated as the carried-forward recommendation from the PNG-1544 decision addendum, which concluded that a change-feed-based internal service with internal fan-out was needed instead of increasing Swift gpi Tracker batch polling frequency.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L57-L58",
+          "version": "repo-lines-v1:sha256:bf33be4b1454ae4edfba9b07afdf0485f7bdec1efc7a500b0a9d16dac343addb:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzllZTI4OTVmNjJkYzFiNmM3NWMyNjY2YmI2ODQyNTE3MzMyNTI2ZWEzMGEyZWVjYTk5NDdmZGQ2MDI2ZWZjNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ODg3ZDAyM2MxY2IzNjFmODc1MmU2ZDBjMTI4ZmQzMjc1MmQ5YzMwMmE2NTIzN2JkM2ZmMzkxYzhlOWRlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzdmN2U4ZjZkYmIyOWNmNGUzN2M1YTgwNTRjMWVlMzJhNTNkZWZiYTBjMWVlZjRkMTQyZTZhYjNlOGUwZWRhMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTg1YWFlZmNhZTIwNTllODAyMDg5NzVlMWU5OWFkMDc2OTg5NGMyZmM4MDZjOTE5Y2JjYzAyNmIwMTY0NDAyOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_304a0cb51f51420eba999357b546743d",
+      "statement": "GTSI-0107 is blocked by lack of funding and absence of a 2026 sponsor; the 2026-09 cross-border network realignment memo states the initiative is not funded for 2026 and discovery is only planned for 2027-Q2 subject to the 2027 portfolio review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L54-L56",
+          "version": "repo-lines-v1:sha256:11e00a12917a45d0c2a3e0c9838d29fd8117f72c4d0c28698e247ce0cfe13d0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QyYTg3ODQ3M2UxM2Q4MDE2MTQyYzM3ZjVhZDVkNGM0OGE2NmYyNzYyYTNjNzBkNGI2M2M0ODY4ZThkNjRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3NWZlOTRlYmQzZjE1ZTQ1YjNlNTBhZmI2NDAwNDBlYzYwMTg1N2FjN2E5NjI1MjAzMDNiN2JlOWFhYTRjYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjljMTAwNjVhNGY2YTI4MDJiOWMzNzM0MmM2YTEwY2JkMmM3MjZiMjUxNWZiMmQ3ZjE1OWQ1NDBmODI2ZjBjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWQ3YjczNjBjOTljODk5NjMyZmRhODE2MjNiODQ0Yjg0ZWZhZjc2OTY2OTkwYzkyZmFkY2E1OTYyYTYxNDI5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_61b656568c1f491b9a02f57ef156d22c",
+      "statement": "The Payments Architecture Review Board (ARB), at its 2026-09-08 session, discussed GTSI-0107, noted client demand, recommended GTSI engage channel teams early, and explicitly did not approve interim direct exposure of GPI_TRACKER_SNAPSHOT to channels, further noting that even a read-only quota-isolated service for that purpose would require its own ARB review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L65-L71",
+          "version": "repo-lines-v1:sha256:d0c596995fff72e6cac75a2f2c1be891813c4dea5801bb9147309d49e1ad3319:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJiZmQ0YTk0YWM1NGUzZmFlYmE0M2ZlNTdiN2UzYmNjYWY2NDk0YzE4YzBkYjQ5Njk3ZWM1OThjNWI5N2EyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc5ZDM5YTJjMmQ1ZDU5ZDk5MzAxZTc2YjU2OGE1YWQ4ZGU1OTY3NDM1Y2U0MGRhZWUxOGUzYzNiOWQ0YzE1OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZkODcxMGJmNGUwYjA4ZmYxMGM4MDgxZjQwZDQyZDkwZjBiMDcxNjY3OGZkY2E5YThmODI3ODAyYWI0ZjAyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_664c7f3ff17847698feedf1bdd00a512",
+      "statement": "The Payments ARB reaffirmed the Status Projection Service (SPS) pattern as the reference architecture for client-facing status of any payment type, which GTSI-0107's change-feed design for gpi is expected to follow.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L68-L68",
+          "version": "repo-lines-v1:sha256:b825f0fcf7ebf9c5c8adce71c987f95ddd2a74939b52cda4e1dee6d34a2fd15a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgyNWYwZmNmN2ViZjljNWM4YWRjZTcxYzk4N2Y5NWRkZDJhNzQ5MzliNTJjZGE0ZTFkZWU2ZDM0YTJmZDE1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgyNWYwZmNmN2ViZjljNWM4YWRjZTcxYzk4N2Y5NWRkZDJhNzQ5MzliNTJjZGE0ZTFkZWU2ZDM0YTJmZDE1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWM0N2I4ZTQ0OTBmOWViMjAxNzE2YWY0NDUzNjhhYjIyY2M3MDlkOGExZTgwZDZlMDA4MmI2ODZiYjlkNGIyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E4OTBhODI2ZTA1OTQ2NWU5ZTZjOTk0ZjMwMWQwODkyNGQxYzQzZGQ1MGU5ZjQxODgyZWIwNzIwZTJhMmM1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4afaa135a6804687823cf3119604c6a5",
+      "statement": "Ownership of GTSI-0107, the broader international wire tracking roadmap, and any client-facing gpi capability moved from Payment Networks Engineering to Global Transaction Services Integration (GTSI, led by Elena Vasquez with business sponsor Laura Kim) effective 2026-10-01 under the cross-border network integration realignment; GTSI also owns the related GTSI-0115 Swift gpi Tracker API contract renewal.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L56",
+          "version": "repo-lines-v1:sha256:dbb124c852e9337d84c24f5a161bd96069045bf79d5fccfabfba7b9fe74f9d58:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MDU5MjE1ZjBlOWZiYWMwODBlMTEzZjg2MDEwNjE1MGQ5YmRiOTQ0ZTE1ZDU3MWE0MGM1ZGI3ODRkYWM0MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1NzVmZTk0ZWJkM2YxNWU0NWIzZTUwYWZiNjQwMDQwZWM2MDE4NTdhYzdhOTYyNTIwMzAzYjdiZTlhYWE0Y2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkMDFhODViOGNjMmUzYjJlZWJjNTllZmY5M2QzMjU1MjU1ZjNlMGM2NzBmMGZkMjE3ZjYwMTRhZDVjYzkxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFkN2I3MzYwYzk5Yzg5OTYzMmZkYTgxNjIzYjg0NGI4NGVmYWY3Njk2Njk5MGM5MmZhZGNhNTk2MmE2MTQyOWYifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L60-L60",
+          "version": "repo-lines-v1:sha256:8a91c4cfb8597ea4a37dec30edba09c6d7de8528c49e3946dc0fdf9a0b0c35dd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGE5MWM0Y2ZiODU5N2VhNGEzN2RlYzMwZWRiYTA5YzZkN2RlODUyOGM0OWUzOTQ2ZGMwZmRmOWEwYjBjMzVkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGE5MWM0Y2ZiODU5N2VhNGEzN2RlYzMwZWRiYTA5YzZkN2RlODUyOGM0OWUzOTQ2ZGMwZmRmOWEwYjBjMzVkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODMwODc4Y2M5MGUwYTI3ZTY2YThiOWU5M2U3NjVlZjdhZDY0NDZlZjg3NDEyMjYxYzRiNmZhN2EyNDMzOWM1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTdmOWYzZGI0OWNiYTIyMWExMzgxNDZiNjFkNWZjYmQzZTZkZGRmMzhmN2Y4YzBkMmEyOTk3NDIyNmEwMzgxZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_084c3e284c274f7ea9dc2d50cf3a1055",
+      "statement": "GTSI-0107 is intended to resolve unmet client-facing gpi visibility needs tracked in the CBO backlog, including CBO-4480 (international wire status visibility spike, To Do/backlog) and is informed by CBO-4419, a client complaint where an international wire displayed 'Completed' in CBO before being rejected by the beneficiary bank (RJCT AC04).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L36-L36",
+          "version": "repo-lines-v1:sha256:66fa16158f30910f618d8f4aa88b9406d6dd7fb535cb1d535d9c6e9fb99d1324:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjZmYTE2MTU4ZjMwOTEwZjYxOGQ4ZjRhYTg4Yjk0MDZkNmRkN2ZiNTM1Y2IxZDUzNWQ5YzZlOWZiOTlkMTMyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjZmYTE2MTU4ZjMwOTEwZjYxOGQ4ZjRhYTg4Yjk0MDZkNmRkN2ZiNTM1Y2IxZDUzNWQ5YzZlOWZiOTlkMTMyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWFhMjlhNTY4NDU1ZjczZDZlYzdkMGRlNzg1OTdiNmM4M2JiNTY5NWI3NDNkZDg5N2ZjYTBlZmFhYTc3MDk0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjRiZTJjMjk0NjA3OGI5MjFiM2FmODMzZjc3NDcyYzEzNGUyODA4OTI4YzVhNzU0NjFhMjAyYmQxOTIzN2YwZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L39-L39",
+          "version": "repo-lines-v1:sha256:3f5d44f811a1263aaa431073c3423e70ee902e4b2f62aa16c77497f68869ec18:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDdhODY5OTBiOTc5ZGMzMjlmMzI4YTcyYmNjZWEyMjNjYTAxZmFlZWNmNGE1ZmUxY2YxYWU4ZDMxZjRlNjNjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMxNmUwYjcwNjMyMmU4MWVlNjEwZTVhMmVlMzk2YjM1YzExZTcyODA2ZmFlM2YzOTkwYWI5M2IwOTI0YmJmMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L105",
+          "version": "repo-lines-v1:sha256:53c8e075e2a2238436ddd729cfbb94c76ca723bb718379669e7c0fd55e25e75c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIyNDQ1OGEwZDI2OWJiMTJhNjEyMDMxNTAxYmZkZmNmODc2ODI0YTM4ZWRmMzViMjMzOWQ3OTZjZjVmYWE3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MWJiYTUzOGIzYTZkYzE0MTEzMDAxMWMwNWU5NzBhZWFhMTNkOGNmOGJhZmIxMDgxNGM3M2FjMzUxMzAzYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cb62a294fec745fd96462b964c9a8732",
+      "statement": "New gpi-related requests, including those relevant to GTSI-0107, should be raised in Jira project GTSI rather than PNG, per the 2026-09 realignment memo; PNE retains only secondary on-call support for SYS-PNG-GPI until knowledge transfer (GTSI-0112) completes around 2026-12-15.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L44-L52",
+          "version": "repo-lines-v1:sha256:22818c55fd09ddaed38a12723e2a2d21c62918d084fc04436f7f695b4425ca69:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM4NGVjNjM2ZjJiZjZlNWEzYmZhMjM4YzU0ZWM4ZGQzYzZmMGY4MzU4NTBhMmFkNDdlNTkwNDdiYWI5YjU2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY1ZDEyOGY1ZWJhMDY0Y2ZhZTg3MDMwNGZlYzg4YjZhM2I0ZWU5MzZiZjY2YjdmOTY2YTkzNmZiNzg1Y2M5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRlOWNiODg5NDc5Njc2NTU0MGY0YTUwOWZiZmVkM2JjNmU0OWEyZmQwODlkMTFlZDk1Yjc5ZjVmYjA0ZTg1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGExZTgxMDRkNTkwNTcyYmIxZTgwMjZmZDc1NTE4NzFhNmNlM2E3ZmU1OTUzYTk4OTRmNzYxOTFlMGJjZjI4ZCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

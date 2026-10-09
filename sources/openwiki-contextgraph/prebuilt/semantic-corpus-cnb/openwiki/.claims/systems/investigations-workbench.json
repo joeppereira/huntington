@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6c944789cd137086cf1653a91cfb58918a75a4bed016a8656f13de03366f85bf",
+  "claims": [
+    {
+      "id": "claim_1f4355fe23754fe2b1aced04d3639c58",
+      "statement": "The Investigations Workbench (IWB, SYS-IWB) is owned by Payment Operations Tech with business owner Luis Ramirez (Wire Investigations) and T2 support tier, and is used by Payment Operations and the FIU; it replaced the legacy Wire Room console in 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L96",
+          "version": "repo-lines-v1:sha256:d03514dbf4821c5cd5650e3e318255cc3a941b18af48a11ee712ce5d5c5b842f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L30-L35",
+          "version": "repo-lines-v1:sha256:43575f7ebe092fb99c0662be6e47d78cabed44958ee2afc42d2a856a2f02ab84:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTgzNTkxOWRlZDE3N2NlZmMyYTI0N2M1MTE1NzI0MjJkYTM4MTQzNDkxMDIxMzUzYTVmMDEwMjAxOWYzOGUzMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBmODUyNzIwN2EzMTVlZjA2N2M3NmJlOGE4NWUxZmI2NTk0MjY1YmI3NjY3OTFiNjVjMDdlZjMzZjQxMTZmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDE2MDUwYWE4NzRhMTMyOGI5N2NjNDIyM2FkNTVlZDg3NWE5NzcyN2RlZjAwNzczNTg1Y2RmMGY0YWY0OGIwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTBhYTNlNTUwNTY1NGQ0OTgzNzhjYjAyMDA1MzU4MzA2NDAwMGY4NmRkMzUzNWIyYTE3YWM3ZjNhMzMwOGVkNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a65c573a18794802a008ebf890b9f85a",
+      "statement": "IWB surfaces Hold Management Service (HMS) hold queues to Payment Operations and the FIU, and is the system through which analysts call EP-HMS-01 (GET /prsp/hms/v1/holds?paymentId=) for hold detail and EP-HMS-02 (POST /prsp/hms/v1/holds/{holdId}/disposition) to record release/reject dispositions, which requires the HOLD_RELEASER role and maker-checker control (CTRL-PAY-012).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L24-L26",
+          "version": "repo-lines-v1:sha256:f6fb690120df161b152daf802cd9a5d75abcf329a7d1f3edc5375f7506369281:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZiOWRiZmI5ZWE1NDM4ZjgxODQxMjU3MzI1ODg1NTg5MzViNzdlY2IwNzkzYWQ5NzQ2MmJlNThhYzM0OWRiYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDExNzM4NWI2ZjM1NGNjMDk3M2YyZWQ2Y2JjYTIzMGQxMzRmZWViZDhiZTA1MWVmZTc0MTM0MDBiNzcwMjA3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODljZjZmNGYzOGVkMjhhYjdmYjJiMTM3NTk4MGNjZDEzNjBlMTk2MTNmZGVkYjljMThmYTE5M2UxM2U3ZDI4NiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L80-L96",
+          "version": "repo-lines-v1:sha256:8a5c84777b49538d59782b2a896b587b01ccf62125c2b7b2b3276a62652ddb34:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5MjU1NWFjYjkyMzczMzBjZTAzMWZkYWIxNmJhMjYwZDI4MmMxNzY0MjlkMTVlNGNjYThkODc0YzljNzFjZWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxZDM2NDhlYjI5ZjEwNTUxMTAwMDViNGZhZGQ2MDViNDEwNjljZTg0MTcyMWEwYjBjZTFhMzc5NjU1Njk2YTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1YWZhNDU3MTkxYTgwZGFlMDFkNGNkMWYxYmVhNDBjYTBhMzA5ZGRkNGY5ZDZlODlhOTcyNGEzOGRiZWYwMTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU2ZjM3M2NhNzllZjRlNzk2YmE4MGM2MzJjMTljNjI0MzEyYjBhYzhkZmY0MzE2OTk3YzA3NmZhZWZlNDlkM2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_38e4a79211e3436f8d7a20c144c4bf4f",
+      "statement": "The risk.hold.events.v1 topic published by HMS is restricted to FCT and Payment Operations tooling such as IWB; channel applications are not authorized consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L78-L86",
+          "version": "repo-lines-v1:sha256:d7c7f43f97699e29e8ab708c3e37557f748c4707e547d8263a36e9da73cd633f:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkyZTFlMTg1NjNhY2Y5ZWU4NjQ1NDA3YTNmMmQ5YzA3ZGE0MTQ4ODk3N2FiMDk1MzA2MDhjYjM4YWFkNzY5NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGIyZTkyOWIzMGQwOWVkNmEzMzY5YzM3ZmUyMDBlZTdmM2U1MWNjYTdiMTAxMWFkYzgwOGYzMjZlMDU2MTQ4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTFiNjIyYzZiMTU2OThlN2MwMzc5ZmRhODZiMWJmNWI0M2E1YWU1ODU3YWRjYTRhYmNlNTQ2OTgzMDk5NTNmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTRmNDIzNDA4MmY0NDY5NmY4OThmYzkyZjA3N2MzYTQxMjRiYmNmZjNlOTYzYjExZDQzMzgxMjUwZmQxNTIwMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_eacc1b2029bd4282bf0fbd00d5a68dda",
+      "statement": "IWB sees the full, unredacted HMS hold reason taxonomy (HRC-01 through HRC-12) including Restricted-tier reasons and free-text description/analystNotes fields, which POL-FCC-014 prohibits from ever being shown in a client-facing channel; a Client-Safe Hold Status Facade (FCT-1893) that would have exposed only disclosure tier and approved copy key remains deprioritized and unbuilt.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L44-L51",
+          "version": "repo-lines-v1:sha256:de2e7d7895beb0c76c9802ac5bb4352c754a6f20c1ab7ecb7e0e495f64ead307:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzlmZDA3NDY2NTRiYjk1NDVhYjdjNzhkOTIzMjkyMTgwZjI4ODIwOTdiZGUwNTk3ZmUwNWZjOWEzM2IyZDczYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDYxNDEwYWM4YmY0NjNmNWE5NGYwZWQ1MWQ0ZTJhZmI5MGM4NTQ3YWJlNDY5NWZkYjhlNzQ3ZDZiYmI0ODJkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ0OWJkODAxNjcyNjhmZTFjODAyYWZhNTFlMmEyNmQ5ODBmMzljODEwYjU4NGFhYzk5MDU3ZWFkN2IwNmJiMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODZkYjNjYTc1NDg1NTM5NDUyYzNiZDZkYmJiMGVmOWI3ZTBjZjFlZDA4MTMxZWQ4MDdmOTIwMDE0NmEyYTJiOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L40-L56",
+          "version": "repo-lines-v1:sha256:8ced1cf701cd15ac4f63a4ed5a3717f239087530fad1bd3ca3f5e30caf67556c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzZGZlMWE0MWQ4YTQ5MzNkMzFlOTJmOGYxYjVlNTdiMjRkNDUwZjU1ZTdjMTA3YzdjMjNiOTNmOWExNThmZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY1YTEwNDg2MzNlZjA5ODk1MTZmN2VjNDJmZWRjZjgzNDY3ZDEwOWNlMWZiMTVjN2JkMjRiNDI4YjAzODY3OTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwMjZmM2UwYjU0MmE2NTc1YmRmM2NmYzRkZDU5OGYxNGQxODNhZDYyNzI2OWUxNzBkNzZkZDYyZjVhZjNlMmIifQ"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L72-L76",
+          "version": "repo-lines-v1:sha256:df12130ae27f875e7d06fe992c517f8a1ab615d1c1b3aab8eb6865247ee6c241:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjczZWU4Y2NjYjA4NjM4YmJmYTNhNDVkMTQ2NjljZTcwZjI5MjdlNmViZGJlYmI4YzkyMmJjNmM0OTUxNjdhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkzOGM4ZmUzNWEzY2E2ZjcxM2MzZTAzYzVlZmQ5MThkYmYwZTBjYjI4MTE4MzQzNjYwYWQ4OTAxM2Y4Y2I4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzI4ODUwYWVjNjM2ZmZiNTc2ZDNiMGMyYTQxNzJlOGU2NzVjMjYzMjhmMTc5MDkxN2Y0YzkzMmEwZWE5MWMxZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjVhZmE0NTcxOTFhODBkYWUwMWQ0Y2QxZjFiZWE0MGNhMGEzMDlkZGQ0ZjlkNmU4OWE5NzI0YTM4ZGJlZjAxMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L88-L88",
+          "version": "repo-lines-v1:sha256:8209034d719079e3260217a5fd2548b0e374119969d2b5296fe9452d00cf91fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDE3ZmM0MzQ1N2Q1MWZhYTIwNGZiZmMyZjllOThjNzIyMzRhNzI3ZWFlY2FmMzEyNzJiMmE2MWUwNDY2ODJmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRlZmE4YjdhMDVlYWQwNzFhNTc4ZTBlMmU0YmQxZGUzZjRmNTcxZmRjMmQ0NDM1OWM5NDczMDkzMjAxYWI4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_eed37ea898af424a9d54e2786431bbe3",
+      "statement": "IWB is one of exactly two consumers (alongside the TDIP nightly gpi_tracker_events load) of the GPI_TRACKER_SNAPSHOT Oracle table populated by the Swift gpi Connector (GPI-C) via a 4-hour batch pull from the Swift Tracker API; there is no internal API for gpi status and the snapshot table must not be exposed directly to channels.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L75-L89",
+          "version": "repo-lines-v1:sha256:a92aeabe5cb4f06f589fd8100fa90e08231f361e001bc9c68a6bdef1db1bc968:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMDZhZmE0OTU1ZTc4ZDdjMDE3NWRjYjJkMjg0ZjAxM2JiNGU3ZmM3NTI2NmQ2ZmJiYmE3MTUxNDRjNzM4M2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhOWY0MWJhNTgyZDA1NzJjYzQ4MmIxYTlkYjkwOWUwN2E4MDQwNDY3YzU2Yjg5ZjA0MmI3ZDgzMmYyNWYyMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQxOGZiNzAxYzExM2IzNGFmODMzYWQxZjIwN2EyZjM3YTM3ZDc1YTE0ZThmMjE2MGJjNmRkYWU4NjQzYmRmNDkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c5cd19cca924ac99adc46f5dd11dd2b",
+      "statement": "IWB's gpi view is limited by the 4-hour batch cadence of GPI-C's Swift Tracker pulls, and a 2026-03 request to shorten this to 2 hours (PNG-1544) was declined because the resulting call volume would threaten the contracted 250,000-calls/month Swift Tracker API quota; a future change-feed-based real-time service (GTSI-0107) is unfunded for 2026.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L54-L56",
+          "version": "repo-lines-v1:sha256:11e00a12917a45d0c2a3e0c9838d29fd8117f72c4d0c28698e247ce0cfe13d0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QyYTg3ODQ3M2UxM2Q4MDE2MTQyYzM3ZjVhZDVkNGM0OGE2NmYyNzYyYTNjNzBkNGI2M2M0ODY4ZThkNjRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3NWZlOTRlYmQzZjE1ZTQ1YjNlNTBhZmI2NDAwNDBlYzYwMTg1N2FjN2E5NjI1MjAzMDNiN2JlOWFhYTRjYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjljMTAwNjVhNGY2YTI4MDJiOWMzNzM0MmM2YTEwY2JkMmM3MjZiMjUxNWZiMmQ3ZjE1OWQ1NDBmODI2ZjBjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWQ3YjczNjBjOTljODk5NjMyZmRhODE2MjNiODQ0Yjg0ZWZhZjc2OTY2OTkwYzkyZmFkY2E1OTYyYTYxNDI5ZiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L90-L135",
+          "version": "repo-lines-v1:sha256:e1f2dc17cde76bd70f4c21cb56b36458da3c6312361815d22124baea40aa8c9c:eyJzZWxlY3RlZExpbmVDb3VudCI6NDYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlmYTI5ZDU2MmZlZGZkOWRkMDQxYTk2MjQyYWU0ZmFhMmYxNTYyZGU2OGYwYjNhYTc1OGMxNWU5MzJlYTE5ZmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NmYyMzljYzdmM2I3MjJkN2VjNTY0YTdlZGI4MzZjMmVhNzczYWJkNTRiOTNkNDVmMWY0NDhiNTNkMmI2ZTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZlNWMxNzVmZjBkMDFiZWYyZmJiMjQ3ZmZjYTM5ZWI2NWMyMmMyYjEyMjlkY2U1NTRkNWFkZmYxZGQyYjlkNzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQyNDJmNTBjZTc2NDk4ZTQyZWJmZTE5OGYxNzkyY2NhNWJjODk3NWNlODk3ZGQzMjg0MjAyZjg3MGFmY2NmMjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_36ae2e26928543b6b8ab6ad894e3ed15",
+      "statement": "Effective 2026-10-01, ownership of the Swift Alliance & gpi Connector (SYS-PNG-GPI), gpi Tracker integration, and the international wire tracking roadmap moved from Payment Networks Engineering to Global Transaction Services Integration (GTSI), affecting who IWB-adjacent teams must engage for gpi data or API requests.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L52",
+          "version": "repo-lines-v1:sha256:122aa7fd533803971288fbfa4dcff21c04f0d1ea0d7be0d4ffb3ae18e621e7df:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MDU5MjE1ZjBlOWZiYWMwODBlMTEzZjg2MDEwNjE1MGQ5YmRiOTQ0ZTE1ZDU3MWE0MGM1ZGI3ODRkYWM0MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2NWQxMjhmNWViYTA2NGNmYWU4NzAzMDRmZWM4OGI2YTNiNGVlOTM2YmY2NmI3Zjk2NmE5MzZmYjc4NWNjOWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkMDFhODViOGNjMmUzYjJlZWJjNTllZmY5M2QzMjU1MjU1ZjNlMGM2NzBmMGZkMjE3ZjYwMTRhZDVjYzkxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRhMWU4MTA0ZDU5MDU3MmJiMWU4MDI2ZmQ3NTUxODcxYTZjZTNhN2ZlNTk1M2E5ODk0Zjc2MTkxZTBiY2YyOGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e0b0299981e048469c5462e6e3d2b14d",
+      "statement": "No client-facing channel, including CBO Wire Center, displays gpi/international wire status or hold reasons today; gpi status is visible only to Payment Operations in IWB, a gap documented by discovery spike CBO-4480 which remains in backlog (To Do) status as of 2026-10.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L139-L139",
+          "version": "repo-lines-v1:sha256:01bb1daf51eabc17efc9fbb5ad3fbb7b5b526200953fcf793f69e265cb6cca30:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYjFkYWY1MWVhYmMxN2VmYzlmYmI1YWQzZmJiN2I1YjUyNjIwMDk1M2ZjZjc5M2Y2OWUyNjVjYjZjY2EzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYjFkYWY1MWVhYmMxN2VmYzlmYmI1YWQzZmJiN2I1YjUyNjIwMDk1M2ZjZjc5M2Y2OWUyNjVjYjZjY2EzMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjkwOGVkZWExMmU5ZDlkMWEwZTRlZmFlMTgwNmFhZWFiZWI4ZDUyZGU2ZDMyMTZiMWYwODE5NGU1NTEwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L115-L121",
+          "version": "repo-lines-v1:sha256:ab847116cb49c064f08f68a61c928705dc2d382c0edeb51ac8f3a21d0da8a52f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2VlYjJmOWY5ODk5ZGFjOGQyY2JkMzg4MjE2YmM1MmNlMzEzNzdkZjU0NGQ5ZTllZTBmZmI1NmVmZjBkYjE2NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY4ZmIwYTBkMmFkODk3Yzk1ZWU0OWM5NWQyMTdkZDczYjRjNzY5ODAxZDM0ZTVjYjg5MWMxN2FjZTczYzgyYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzg0YmQ0Y2ZhYmFiMDEzZTE1M2ExODA0OTQ5MzNiZjY4MjBjZmVmZWQ4YmMwZDJhMjc3MTg3Y2E2YzQ2YThhMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzMyNWMyMGZlOThiMzRiMmVjZjc2NmExZGY3NTFmODdkNzk5NjMwZWY2MjI0NjgyM2YyOTFkMTU2NTU4YTU3NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L39-L39",
+          "version": "repo-lines-v1:sha256:3f5d44f811a1263aaa431073c3423e70ee902e4b2f62aa16c77497f68869ec18:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDdhODY5OTBiOTc5ZGMzMjlmMzI4YTcyYmNjZWEyMjNjYTAxZmFlZWNmNGE1ZmUxY2YxYWU4ZDMxZjRlNjNjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMxNmUwYjcwNjMyMmU4MWVlNjEwZTVhMmVlMzk2YjM1YzExZTcyODA2ZmFlM2YzOTkwYWI5M2IwOTI0YmJmMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_04906e69fa44477395a3e1f7be840ffe",
+      "statement": "PPH v1, which CBO Wire Center still uses, does not expose OMAD or UETR (only IMAD); PPH v2 carries uetr, but Wire Center's migration to v2 (CBO-4471) is unscheduled ahead of the v1 sunset on 2027-03-31, which is part of why gpi tracking data cannot reach client channels without new integration work.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L137-L137",
+          "version": "repo-lines-v1:sha256:46fb1f963ae502640173a488a548fbb8625c109986c40f20803804dd4a3f9cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZmYjFmOTYzYWU1MDI2NDAxNzNhNDg4YTU0OGZiYjg2MjVjMTA5OTg2YzQwZjIwODAzODA0ZGQ0YTNmOWNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZmYjFmOTYzYWU1MDI2NDAxNzNhNDg4YTU0OGZiYjg2MjVjMTA5OTg2YzQwZjIwODAzODA0ZGQ0YTNmOWNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBkMTJjMWMzYmNiYWMwNjQ1ZjY2ZDAxYmVlNDUwMDRlZmI2ZTdiYzM5NGZmODM1YTc4NjAwZThjNWMyYTE2MSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L97-L106",
+          "version": "repo-lines-v1:sha256:6420fb0ce56b2ae672f80667d72792b80e17961d6afcc9ebca4b02f962358835:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzMTY3OWExYTlmYTYwMmRiNzA0MzdkZGQ1NDk3ZDRjYzk5OWE5M2QwZmM0NDU5ZDFjMTI0YjYxZmI1N2JjYzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlMjkwMWE0YjhjMmI0MjBjMjJiODM2YzUyOTVkYzVmNmI1YmVhZTAwNjQ1ZDUzOWM4NTFiY2ZkZmUxNmJiNTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNhMGQ3MDcyYjhhZDZhZjZmMDk3MTE3NWM0ZTJlMmZkMTNhYzg3NzYzYzM0YmJjYTNkZjgyMzc0Zjk2MGQyNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_cd0145d0aed146e88ffd2d2dc0673322",
+      "statement": "POL-FCC-014 requires Restricted (R) and Generic (G) tier holds to be presented identically to clients as a single generic review message with no timing estimate, and prohibits terms like fraud, sanctions, AML, or investigation in client-facing copy, which is why only the internal IWB/HMS view can show real hold reasons and analyst notes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L145-L147",
+          "version": "repo-lines-v1:sha256:87df57cc6e319fd41609710b032e4544d299eccc5d31422d5a2dd63255e77665:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRiZDQ2ZGJkNzFjYTZkZjJhNDQzNmQ3YzZkZWZmMmQzMWRhYzY4NzQ0MTM2MWY2YzBiN2M0ZTc5NzdkZmM2NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQwNmYxZDQ4MjRmODMxZGZiYjZhNjgyMGU3ZTczNTU0YTBmNDU4MTVmY2MzNGM4MjZiMzVjOWYyNWI4NjRmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmJiNThmOGZiNDUxNDczOWZlNTQwZTBkYTNjZWM3Yzk0ZThjMjBmMDgzZDQxZTA5NTgwNGE5YzYzYjc1ZTUyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGJkMDU5YTBmODI5NGI3ODBkYzg5ZTk5NWJkZTI4Y2ExMzBkZTlmMjMzMzY3MTcwOWI0MjEyZGVmZGI1ZTYwZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L63-L75",
+          "version": "repo-lines-v1:sha256:9696a0832d08702f2b972f4628bcc8103f5bcd96f3847b5e9e415cf4c1bd7487:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyMWNhNGNkYWI4MGZjODU5Yzc5M2U0YzlhYjE2ODUzNzhhMjFkZTdkYzMzZTI2ZDg3OWE4NGVmOTdiMDBmZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwYTRmNzM3MDdlZTMzZmQ2OTMxYmNkOWJkNmUwZGQ5YWFhNjBkNzI3ZDA4MDFkNTA5ZDU2ZDA0NWMxOTg0OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlODhjM2M0YjBiMjZlNjE0NmQ4Y2QzYjVkZTY0NzI3Zjc4MDc5OTZmZDYwNGM1MWJhNjE1MmFmMDQ5NmU1ZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc3NjNhNDQzNjllYzU4OGM3MGY1N2UwNzJlYzZmMTM3YmFhN2Q0YTljYzkyMzY2NWE4NDJlZWEyMjQ3N2Q1YmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_678e834b2f4f41b8bba39d001709b134",
+      "statement": "The 2024 Wire Status Lite pilot (CBO-3120), which polled PPH v1 wire status every 30 seconds from the browser, was terminated after driving ~85 TPS against the shared PPH v1 API and delaying wire releases 47 minutes (INC-2024-1182); the resulting ADR-PAY-019 requires new status capabilities to be event-driven rather than polled, raising the bar for any future alternative to IWB for client-facing international status.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L125-L129",
+          "version": "repo-lines-v1:sha256:8ec6de8500175bc3faf2163322a52f5f186b2d117a23df6b9bfe6c3bea033ad2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGMxNDBiZGVlYzY2NjNkNTVkYjAzMDUzZTU0Y2I4YjgwODYyMzQ4Y2EwYzMxNjEyNTg1YzU0ZGUxOTg4ODQwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2U4ZmZmMmE4MWIwMGIxMGVjZDNiZjJhNTVhYjY2Y2QyZmYxMGNjMTBlOGNhMDBlY2RkYzJiZGIxOWIzOWQ4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNThlZGMzZTA1MzEwYWJhODg0NzgzNDhkNDY0MWEzZmNkZGZjYmRjMDZjNDkzYzU5NmZkMmI1OWUyNjZmYzAyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWFmY2UwMTlhM2Q5NGFmYzEwMTI3MzIxZTc5ZTc1NTMzOTc5M2E1Y2FjMjczYmEzOTg0NDkwMjAzNWMyNTU4NCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L24-L26",
+          "version": "repo-lines-v1:sha256:47c1705db6ff961019a77cb29b6253eeb8c9aac385661d336843d74208a8cabd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVmNjY2ZTU0NDk5MjM5NjNkODg4ODUzN2I2ODk4ZDA4MWU4ZjYwMTU3ZjE1ZDNmYmY0MTlkMmNjNjJlYWQwNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjE0YzJjN2UwZmJlZjA3ZGYyZGRlMDdiN2U1M2VjYmM1MGY3MzFkZTlkNmJhZGJlZWRlODRlYmY0NGZmOTNkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjExOWIxZDgxY2Y3YzQ2YjkwMTNjOWUyYzZkYjg4ZDg0MDU1ZjY4M2ZmOGVjYjFkNDZjMGI0NjY3NWE2NmI5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f0bf91e80bed46dda35551c592312284",
+      "statement": "CBO Wire Center's in-progress story CBO-4388 surfaces the legacy PPH v1 holdReasonDesc field (synced from HMS) directly in a client-facing tooltip truncated at 120 characters, which is flagged as an open data-leakage risk (FCT-2004) because holdReasonDesc content is not curated for external display, unlike the tier-based disclosure model used by IWB/HMS.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L34-L34",
+          "version": "repo-lines-v1:sha256:5a63460cc3a47bd028e8254ffe4886cb595ff6d38e4a3a0798915b82eecfaeca:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWE2MzQ2MGNjM2E0N2JkMDI4ZTgyNTRmZmU0ODg2Y2I1OTVmZjZkMzhlNGEzYTA3OTg5MTViODJlZWNmYWVjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWE2MzQ2MGNjM2E0N2JkMDI4ZTgyNTRmZmU0ODg2Y2I1OTVmZjZkMzhlNGEzYTA3OTg5MTViODJlZWNmYWVjYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDBlNjQ2ZDFiYzY4Y2U4YjEzNTc2ZWRjMjcwYjUyZDYyYmZhNjAwZTUxMTZiZjViMzU1ZjBjYTRiZWIxZWZmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjlmNjIzNzIwNTMwYTNhMDA5MWJkYzlmN2NmN2Q3Yjc1ZGJjNmY4ZmFlOTdkZWFiNDA1ODU0N2MyMTQzYmM4YSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L63-L63",
+          "version": "repo-lines-v1:sha256:67d6a57937689dd583209404ef088c1bf3567cbb87070e53d86295c20d6dc608:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmM0MzYwYzlmZTM3ZDY4Y2NlZWYyNTAwYzk2MWU0NGI0M2RkYjRkMzE2MDJmN2RhNzU1ZWRmZmI2ZDlkOGU2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L71-L79",
+          "version": "repo-lines-v1:sha256:d0cbfaa57a9a08aa1111bde780a105a704ba1fb74642b1f966e939910568765b:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTU4NTIyMTU5MWFiZmVmNDRlYjA1ZmFjOGM5MGFjZThiMjg4MGViODQ1YzcyZmRkMGU4ZmUyMjA4M2YwNTExYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY3NzUzMGM5NjFiYjY4NzI5MzI4NzAyYjY2Yjg2ZjYwMGVjOGI0ODlmMDcxYTA4MTdmZTQ4NDc2NzYxZmY2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGU1MWJlYjQ0NGI0ZmJlYTJhM2VhNTY2NWFhODhjOTNlZDJjNDQzZjBhNTdkYmRjNDIwODAxNzMzZjllYmVkYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L61-L65",
+          "version": "repo-lines-v1:sha256:d4501b71b5b2ea48a7d8ba67b23dba2212f30b0cee810786d5ee39e203037bb5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E5NTZiMGZjODg5NzFkMjBmZmQ3NzQ4MTU5NzgyZWMwZGRjNzQzMmJkNzY3YWRhNzgyOTU3ZjMyYjU4ZGQ5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWJhNDVmNTczNDRiMDIyYmVmOTg3Zjk3YzBiYTQ4MGI0MWU5NTE2YjliMmRiNzgwMzY4MzVjNjgyZWE4NDQ0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ee4fa0b18e764f20b13fa34fc3920322",
+      "statement": "gpi tracking inherently stops at the last gpi-participating agent: when a payment is forwarded to a non-gpi agent (ACSP/G001), no further updates follow, so IWB's view of a wire's route beyond that point is unavailable just as it is for every other consumer of gpi data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L96-L104",
+          "version": "repo-lines-v1:sha256:f157232312c2e845608f3dc49dc3786e62d72390e42bfcc5083c6d2573576710:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDZlNDM5MTFkMzM3Y2ZhYThlOTU4N2RiMTdlNzliZDFhNGZiMTNlYzhjNjI0ODIwNjk0NjUyMWYyNzk1NjI2MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRjMzE5MjNjOWM0Y2ZkYjcxMmE1NDA3NTZjMTk2OGNlYWMzOTAxMTdjOTg1ZThiY2ZmY2NjMjE3YjMzYzIwMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTM0NmMyZTYwNDQwZjI3MDQ5ZjgwYmYzNjhiNjg2ZWNkZTI2OGIzOGMzNmM4MzcxYWUxNTJhYjA2MDgzZjUzZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWI2NGY3NzIxYWY3MjA0ZWUyYzJjZDk4YzNlYmViMjg1NWU3MjMzZjY2YzhhNTQ5YmYwNThiNTFjZmNmMDY2ZCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

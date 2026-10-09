@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:dc9a28a377922bb89860f4b4e90e71cc8c01d0cdd37768f2f5ad94945f918375",
+  "claims": [
+    {
+      "id": "claim_d4e2e3e08e7a48be997115907b02de89",
+      "statement": "PRISM Payments Hub (PPH) tracks each wire through thirteen canonical v2 lifecycle states - RECEIVED, VALIDATING, SCREENING, HELD, REPAIR, FUNDS_CONTROL, WAREHOUSED, RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED, NETWORK_REJECTED, COMPLETED, CANCELLED, and RETURNED - exposed via the v2 payment-detail API and the pay.wire.lifecycle.v2 Kafka topic.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L54-L83",
+          "version": "repo-lines-v1:sha256:fe959f59a4c9193850c9329f96b0e9b0dee89db60bf681e8209d7555f9c5042c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNDBhODBmYTk2M2E2NWQ3ZjViZTU2MTIzMjA0M2ZhNjQzMzUyMDIyZDA3NTQ5ODM4NTE3N2I1OWY0NmFiNWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2MjhjYWMyOGIwNGY1OGY1YzdiM2ExNWMzYzUyMDA1N2JlMjhmNzYzMDY1ODc5NDBjMWZhMGQ0ZDA3MDE0NDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIxNzM4ZDMwMzcxNzJjM2JhNjgxNmU3N2FiZjU5MWM2MTUyZWU2YWUxZTdhYjQ4OGE3YzFlMzgyZTlkMDNmMjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9503554d7ac34448aa4e079591710b78",
+      "statement": "The legacy v1 wire status API (GET /pph/v1/wires/{wireRef}/status) exposes only seven coarse status values (RECEIVED, PENDING, HELD, PROCESSED, REJECTED, CANCELLED, RETURNED) and collapses the v2 states RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED, and COMPLETED into the single value PROCESSED, so v1 consumers cannot distinguish a wire that has merely been released from one acknowledged by the network or closed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L45-L65",
+          "version": "repo-lines-v1:sha256:287cfab04f755c79e9f79c9e8e4faf37a02d4a030b1ec484e0470c61a14a2c12:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiNDgzYjBhODc5YmZiODE1OWVkNzcyMTk4ODNjZmIxZTJjM2VmMzliOWYyZTg2N2E5ZjYxN2Q4ZDNhZDAwM2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxNjUzNzFiM2RlOTc1MTU3MjA5NTYwZGM1ZDBhMDM5ODcyNTAxNTVhMjg0ZmQ3ODk0MTBlMzA5YTU0ZTdkZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzMzgxZjZiNzQ1MGE1ZmY5NWU3ZTJjYTJlYzQ1Yjk2M2FjNGZlNjBlMjkxOGEwZTdhNzc1OWI2NTM2YjdjMGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhNjAxMzZjOTA4MzYwNzgyZmFkZmVjMDYzNDJiNzM0NzdlZjc0ZWQzNWVlMDI0ZGE1NWFiMDNjOGMwNDFkOGMifQ"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L84-L86",
+          "version": "repo-lines-v1:sha256:21738d3037172c3ba6816e77abf591c6152ee6ae1e7ab488a7c1e382e9d03f23:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjk2Y2VmNTZiNWUxOWRkYmI5NmM0MTkzYzljNmVlNDU1YzU2OGM5YjIyNzBmMTZmZTQ2MDQ2NTQzYWZmMjhmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGUwNGY2MmQyMDJjMjY3YzM1MmQwMDkyMDM3ZjNlMzBiZGRjYjJkMTQzMjM1ZTg3ZmIyMTZjNzNjMGYyOWQ4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGZjNDU0MjVmNWU0NjQxZTY4M2UyMjQyZTcyMmI0YTYyODhhNmFjMjk2Njc5ZTEzMThmNWMyOGNhYzNhN2Q0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTI3Mzk4NTNlOGJiN2Q2ZmQ2YjBhM2VhZTliNjU5ZGVjMGM5YzRmNWFmYTY4NDQ1OTI5YjQwOTg5MGIwNTk5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_edaa031f118843c7abb852cbd12ee1ef",
+      "statement": "NETWORK_ACCEPTED has rail-specific business meaning: on Fedwire Funds it reflects a Federal Reserve pacs.002 positive acknowledgment carrying OMAD representing final, irrevocable interbank settlement (but not beneficiary credit), while on Swift CBPR+ it reflects only a SwiftNet delivery ACK with no settlement implication, with beneficiary credit knowable only via a Swift gpi ACCC status if available. The v2 stateHistory timestamp for NETWORK_ACCEPTED is PPH's processing time, not the Federal Reserve's pacs.002 creation timestamp.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L88-L95",
+          "version": "repo-lines-v1:sha256:0e075ddaf74fe14ef25d7654439b547f620a93a40fb689563c40fbfb4f7605d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1NGRmYTQ4ZDE4ZGNhMDE0NTc1MDliOWMwMTdlMDQ1OWU5YzAxNmEzYTNhMjI5ODk2OWJmYjI2Y2U1MTc5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQxMjgwOTViYTdiZDI4MTljYWU2NTQ1OWI3ODg4Y2U0ZTBlZDA3NWI4ZDYxYjM4NTg3MDUzYzI4YjZmMGRiZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGU1MDI3ZTBhMGY5ODRjMzUxNjRmNGE3NzE1ODQ5NmVhMDRlZDJlNWFhNmUzMDM1NzIwN2MxNTJhYjAyNWZjMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_adc259323f624671a6506b09152390d0",
+      "statement": "A production client complaint (CMP-2026-1189) arose because a EUR 412,600 international wire showed v1 status PROCESSED (displayed to the client as 'Completed') on 2026-09-16, was then rejected by the beneficiary bank (pacs.002 RJCT, reason AC04) on 2026-09-17, and funds were returned on 2026-09-21; the client had already released goods based on the 'Completed' label.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L101-L105",
+          "version": "repo-lines-v1:sha256:f5ed62ff0a6bb02c125cfdd5f85afddbf088d43fecf00f00f5e7301e2ecf9406:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjhlY2VhYzJjM2JhYTY4ZTE2NzVmZDFhMWIwMGYyNDlkMTFhMDM1Yjg5NWI4MDhmZjY3ZGUzNmQ2Y2NmMDM1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIyNDQ1OGEwZDI2OWJiMTJhNjEyMDMxNTAxYmZkZmNmODc2ODI0YTM4ZWRmMzViMjMzOWQ3OTZjZjVmYWE3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVkMjYyZjY5NmQwOTFkYTg1N2I1Y2Y0MWU3ZTI1NDI3NTY1ZjgwODhmZDgyZGIzYWNlYmE3MTQ3OWU3YzUzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MWJiYTUzOGIzYTZkYzE0MTEzMDAxMWMwNWU5NzBhZWFhMTNkOGNmOGJhZmIxMDgxNGM3M2FjMzUxMzAzYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L187-L187",
+          "version": "repo-lines-v1:sha256:91ed8f7fa079b70de3d33eb0361dd8bed242d2c8a60fba76360f803c83e4aa0c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTFlZDhmN2ZhMDc5YjcwZGUzZDMzZWIwMzYxZGQ4YmVkMjQyZDJjOGE2MGZiYTc2MzYwZjgwM2M4M2U0YWEwYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTFlZDhmN2ZhMDc5YjcwZGUzZDMzZWIwMzYxZGQ4YmVkMjQyZDJjOGE2MGZiYTc2MzYwZjgwM2M4M2U0YWEwYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2Y0ZmU3ODBhY2MzZWU2YWY3NGRjZTg0ZTdhZGRlYjMxYmUxYjFhNzVjNTgyZDFmNDk4OTBhNDBkM2FkNTg1OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmI3ZDdkYmViZWMwYTJlZDU5ZWNlNDI3YTNlZWJkNTYzZGNlNzczOTE4YTA0N2I3NTAyMmY1ZDkwMmNmOTczOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L36-L36",
+          "version": "repo-lines-v1:sha256:66fa16158f30910f618d8f4aa88b9406d6dd7fb535cb1d535d9c6e9fb99d1324:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjZmYTE2MTU4ZjMwOTEwZjYxOGQ4ZjRhYTg4Yjk0MDZkNmRkN2ZiNTM1Y2IxZDUzNWQ5YzZlOWZiOTlkMTMyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjZmYTE2MTU4ZjMwOTEwZjYxOGQ4ZjRhYTg4Yjk0MDZkNmRkN2ZiNTM1Y2IxZDUzNWQ5YzZlOWZiOTlkMTMyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWFhMjlhNTY4NDU1ZjczZDZlYzdkMGRlNzg1OTdiNmM4M2JiNTY5NWI3NDNkZDg5N2ZjYTBlZmFhYTc3MDk0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjRiZTJjMjk0NjA3OGI5MjFiM2FmODMzZjc3NDcyYzEzNGUyODA4OTI4YzVhNzU0NjFhMjAyYmQxOTIzN2YwZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_79522de4d84241359e6603f0de472f38",
+      "statement": "The 2024 Wire Status Lite pilot (PIR-2024-07, INC-2024-1182) found that 37% of surveyed pilot users believed the v1 'Processed' status meant the beneficiary had already received the funds, and the pilot's 30-second polling of the v1 status API drove ~85 TPS that exhausted PPH's API thread pool at month-end, delaying release of 1,240 wires by 47 minutes and causing 312 wires to miss the Fedwire cutoff; the v1 status API was subsequently rate-limited to 20 TPS shared across all consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L24-L58",
+          "version": "repo-lines-v1:sha256:056800b306805720e84936c3fc3297ad7b26acaa3265204fb60d04e4a39d631f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1ZjY2NmU1NDQ5OTIzOTYzZDg4ODg1MzdiNjg5OGQwODFlOGY2MDE1N2YxNWQzZmJmNDE5ZDJjYzYyZWFkMDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYTU2YzhkNWEwNWZhY2I1OWM2MWY3ZTYwZmUwYjQ0MmIxNzQyZmI2ZTg4N2JlMjI5YWVhMzE5OTcxZmJkYjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxNGMyYzdlMGZiZWYwN2RmMmRkZTA3YjdlNTNlY2JjNTBmNzMxZGU5ZDZiYWRiZWVkZTg0ZWJmNDRmZjkzZDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMyNzM0YjFkY2ZmZmY3MjBiMGU1YTg0NGYwMTU0Njg0ZTliYzQ0Y2E1MjlhZTg3NmMyYjkwZDRiNzFlNDM2ZmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a9d2c484b1454643829b3df9dbb500d9",
+      "statement": "The v1 status API's holdReasonDesc field carries a free-text HMS hold description synchronized for backward compatibility with the Wire Room console (not curated for external display) and is absent from v2, which instead exposes only hold.isHeld and hold.holdId; the v1 fedRef field carries only the IMAD, with OMAD and UETR never exposed in v1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L61-L65",
+          "version": "repo-lines-v1:sha256:d4501b71b5b2ea48a7d8ba67b23dba2212f30b0cee810786d5ee39e203037bb5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E5NTZiMGZjODg5NzFkMjBmZmQ3NzQ4MTU5NzgyZWMwZGRjNzQzMmJkNzY3YWRhNzgyOTU3ZjMyYjU4ZGQ5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWJhNDVmNTczNDRiMDIyYmVmOTg3Zjk3YzBiYTQ4MGI0MWU5NTE2YjliMmRiNzgwMzY4MzVjNjgyZWE4NDQ0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L108-L110",
+          "version": "repo-lines-v1:sha256:fa0c1a110c0ec2463fb4a9a90e31befc095af4f57c313f725a2fbcc597d1b9f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIwMDk2YmQ4MWZiYWFhNjIwMGI2M2IxZmFiYTliYzIzYjJhNTZlMjA1MjY0ZmMzZGE0NzJhYWM4NzdkZWM3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQxMDYwZmUwYjRmMTZmYmY5NDA4MWNmZmU0MmVhNmM4MzM0OTAwMTY5NTUyNTFkYmNmNmUwMDM0NjJhZTIxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzZiMzMyMzViNmUwYjdlODBmZTU4ODJlYmQ2MTZjNzNjNjcxMjg4M2M2Yzk0OGUzZGZmNWU4NTIxNzFiNjYwOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdiODQzZDAxNjhkOTJkNzUwMTU3MmY0MjE3MzJiMTAyNmI3OGI2ZDA5OGFjNDYzNzM5YzUwZGEyOTFiODYzMyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

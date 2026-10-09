@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:963696599ab91c62e8d3493c5b9b154b4b152590a2f7ba6c6218133a46e69004",
+  "claims": [
+    {
+      "id": "claim_5abf2871330943aabe99bbabcb4a3f26",
+      "statement": "Lending Platforms Engineering is the owning team of API-11 Loan Servicing API (v2.8, base path /loans/v2) in the Lending Operations domain, and the catalog lists it as owning that API.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-11-loan-servicing-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:2e3646453b0ef67b813d21d7fa79fa875d66859f254e1e6d2fb31c896e123ba1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkNDFjMTE4MGYxODJkZTI0YTZkYTBmODJmMzc0NmFkOWU5NTRkNmNlOTI0ZjBkNjkxMWE5N2EwNWE4NGZhOTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk0ODEzZWQyNjIzNzZjNThlNWRjZmIyYjkyM2ViYWFmZjM0YjJlN2E1MGMxZWM0ZWU1YmI3NzQyMmM2OGZiYmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L91-L91",
+          "version": "repo-lines-v1:sha256:37fb721e1493fe802e637094b13b59c015c6effefd5930ece54ddf641f122953:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzdmYjcyMWUxNDkzZmU4MDJlNjM3MDk0YjEzYjU5YzAxNWM2ZWZmZWZkNTkzMGVjZTU0ZGRmNjQxZjEyMjk1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzdmYjcyMWUxNDkzZmU4MDJlNjM3MDk0YjEzYjU5YzAxNWM2ZWZmZWZkNTkzMGVjZTU0ZGRmNjQxZjEyMjk1MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmEzMTljMzQ5NjU5YzU3NDk4ZDA2NGExZGY1YTM0NjRhZjRhMGJkMThlNTUwYTZlMzFiNzBjMjUyZGY2YjA0NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2M4MDJjOTkwZDc3NGQyNmRkNDY2ZTRiNmU1YzEzMDdmZDZiMjU5OGUzZWMwZjRiOTU4ZTEwY2IyOGViMDgyMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_671d4adf07854e8a83a92c77ea672a33",
+      "statement": "API-11 exposes four endpoints: GET /loans/{loanId}, GET /loans/{loanId}/schedule, GET /portfolio/snapshots/{asOf} (month-end snapshot by segment and repricing bucket 0-3m, 3-12m, 1-5y, >5y) and POST /loans/{loanId}/payoff-quotes; payment posting is described in the overview and scopes (loans.payments:write) but has no dedicated endpoint in the table.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-11-loan-servicing-api.md#L4-L26",
+          "version": "repo-lines-v1:sha256:bf7cced6ec98dc769260bc2d6ef35d79446357f68d4af767eae759ced8d2b190:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwMGUzNWQzYzY0MDUwNmFlMmE3MmE1OWE2NDgwOTgyYzJlOTE2MjI1OTdmMWVlZDJjMjU0ZDQ1N2FkOTYxMTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3ZTQxZDIzOTYyYmIzMmJlNDMzYjE0NzUwN2U2NjczNDFmOGM1ZmFhN2FkNzEyYTFjZmZkNTRlNjFlOWY0Y2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk4OGEwNjk5ZTUxMjk5N2M4NTZiNmNjMDkyNTFmMzVhNGQwZWVlYzgwZDcxYWJjMWNkMTdlY2IxOTk4MTkwMGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_17dc8725ec4449c8b12ce0ca6e03700f",
+      "statement": "API-11 commitments: Confidential - Client Data classification, scopes loans:read, loans.payments:write and loans.portfolio:read, 900 requests/minute with portfolio snapshots via async extract, and a 99.95% availability SLO.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-11-loan-servicing-api.md#L13-L17",
+          "version": "repo-lines-v1:sha256:646c79d87b410e59087eb4eac5ce13862a9d7bd3e4b5df0b558701af80d61398:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDgzODI5NWUyNjJjNWNiMzEwZTEzZGFiNzA4ZDExMTUyZjY3Y2FjNjFjNjQ2ZmUwMmE5ODhlNzZiNDE2MzVkYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Q0MWMxMTgwZjE4MmRlMjRhNmRhMGY4MmYzNzQ2YWQ5ZTk1NGQ2Y2U5MjRmMGQ2OTExYTk3YTA1YTg0ZmE5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTYwYTU2NWU0MGUyOTZjNjUyNjdmNjg3MWFkMDNlMDVmYTc0MGMyNjI0MTQ2YjdjYTY4ZTZmMmMxNmZiYzEwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c09ddfcb70a34cf8a9ee10cc622923d9",
+      "statement": "API-11's upstream sources are the loan servicing systems (mortgage, auto, card, commercial) and Credit Decisioning API (API-09) bookings; downstream consumers are the CECL model MDL-CR-007 (EAD, remaining life), the NII Sensitivity Model MDL-ALM-014 (repricing profile), API-10 and API-01.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-11-loan-servicing-api.md#L58-L62",
+          "version": "repo-lines-v1:sha256:7d4889a252d3021aaba0dcdb971da9248aec939cfd749860b23d86eb6698fda6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGI5OTA5NjM3NjQ1ZjljNTkzMWUwZjk5NDNmMWU4ZjA3NGFjODY3YTc0ZmY3MzRiM2JjMGNhNGZlOWZiZjZjZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L769-L769",
+          "version": "repo-lines-v1:sha256:19c2cc1d174fca02d90f5e133ae3030b838d72df66457d2c27b77e1a18548654:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTljMmNjMWQxNzRmY2EwMmQ5MGY1ZTEzM2FlMzAzMGI4MzhkNzJkZjY2NDU3ZDJjMjdiNzdlMWExODU0ODY1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTljMmNjMWQxNzRmY2EwMmQ5MGY1ZTEzM2FlMzAzMGI4MzhkNzJkZjY2NDU3ZDJjMjdiNzdlMWExODU0ODY1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_792c52aeeac84771b8da1cf4e467a645",
+      "statement": "API-11 is marked as an upstream feed for both MDL-ALM-014 (NII sensitivity) and MDL-CR-007 (CECL) in the API-to-model lineage matrix, and is listed among the upstream APIs of both models.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1373-L1373",
+          "version": "repo-lines-v1:sha256:5fe146d74cbf714ab7355c27d146ae4a56be77d444ee68cdf68d8dfda95d60c1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWZlMTQ2ZDc0Y2JmNzE0YWI3MzU1YzI3ZDE0NmFlNGE1NmJlNzdkNDQ0ZWU2OGNkZjY4ZDhkZmRhOTVkNjBjMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWZlMTQ2ZDc0Y2JmNzE0YWI3MzU1YzI3ZDE0NmFlNGE1NmJlNzdkNDQ0ZWU2OGNkZjY4ZDhkZmRhOTVkNjBjMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTRhYzM0ZWNlMjc0MDFkZjhjY2FjYWE5ZWQxZDk5NGVlOWY3NGUxZWYyMGMxYWU2NzM3MzM3Y2JmODUyNTYwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2M3ZjgzNDA0MTk0YmI2MDk0NjUzMDAxMzExYzRkZDllNmVjNGUyNmJmMTFhNjVmYTAwNjMyYmI5ZGU5YzMwOCJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1391-L1391",
+          "version": "repo-lines-v1:sha256:60e913ae2178c1983b5e1341c52a63fb2a19bc18dc170f823da684d47137a229:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjBlOTEzYWUyMTc4YzE5ODNiNWUxMzQxYzUyYTYzZmIyYTE5YmMxOGRjMTcwZjgyM2RhNjg0ZDQ3MTM3YTIyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjBlOTEzYWUyMTc4YzE5ODNiNWUxMzQxYzUyYTYzZmIyYTE5YmMxOGRjMTcwZjgyM2RhNjg0ZDQ3MTM3YTIyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNjNDUyMjkyYzgyOWU5MDliNDZjNzljNzZmNTJmOWVkMTM2YzJkYzQ5ZGVjZWNjOWEyYWU2YmU3ODY1MzU3NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmU1NDY2ZmNlOWQ0OTUyYTkzNDllZjcyY2U5OTQ0NTg5OTU1Y2Q5OGE0NDExZmExYmRhYmIwN2Q5ZDNjNjY2MiJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1402-L1402",
+          "version": "repo-lines-v1:sha256:65ef6cd882fec169d35aff11b7ff09f6e60b5dd110ca213e5746f6ce75a19b9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjVlZjZjZDg4MmZlYzE2OWQzNWFmZjExYjdmZjA5ZjZlNjBiNWRkMTEwY2EyMTNlNTc0NmY2Y2U3NWExOWI5YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjVlZjZjZDg4MmZlYzE2OWQzNWFmZjExYjdmZjA5ZjZlNjBiNWRkMTEwY2EyMTNlNTc0NmY2Y2U3NWExOWI5YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODQ3MjI4ZGFkOTkwZTg0NzdiOWE5NDM0ZmM1MjU0MjdhOGM1NGY3YTc1OTYwNjMzNzY5MWVmZTdlMzRjOWMzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTU1ZGU0NDE3NzhiNmJlYTc3ZThkOGVhNzRhMmJlNTE0MjQ4MDdiYmE5ZWI4MzVjMjNkMzI2YmM1NzNhMjZiYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e333e6c58a0c4d78a74cf099b3f5cd8b",
+      "statement": "The team's recent releases were model-driven: v2.6 (2025-06) added a remaining-life field for CECL and v2.8 (2026-02) added the repricing-bucket snapshot for ALM.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-11-loan-servicing-api.md#L64-L67",
+          "version": "repo-lines-v1:sha256:7d8414db8a29146beec764dfba7cfbb175d68cc7cec8f80454f12f0e44ffb93e:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzY1MWVkM2FjNDU5Y2ZmYTFkNWY0MGZjMzczN2ExNWViNjkxZmI1Mzk0YTc0NWQzOWU5M2FjMjdmMTI2NTRhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTRlOThmN2NiOGU2NTg3OTIxY2I5OWVlMTBlZWM5ZWEyMjZmMjJhN2QxMmFjZjEwMmE0NGQ3NTE2OTc4YzY0NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_90605c51d0024c6fb14ea733450f2ddb",
+      "statement": "API-11 is one of the critical data services (API-10, 11, 12, 14, 15, 16) escalated via the Data and Technology Risk Committee, 24x7 during quarter close.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1423-L1423",
+          "version": "repo-lines-v1:sha256:7a5e3c6873ee9aac5238cce281c91b1b6b56911b1b42c86d34f80f3340b682d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmNhNDcwNTY0YTFmZWVmMTdjNjc1NDJhN2M5YTgxYmNjOGYwMTYxMzdhZWRkNDMyNTA2NjFjNTNkNmQyMzY1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2QwZGRmYjE1OWE5MDhjNzc4OTBkOWYxMmZmYmQ3M2UxYjJjZDBlNGM1YWE0ODM4NjcxZTQ1ODk2YjE3MmFkMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4a47ec481085458c8a76776e553dbc7b",
+      "statement": "The portfolio snapshot response states its own units and reports repricing as shares of balance by bucket; the example segment balance of 172500 USD millions with delinquency30Plus is returned for Commercial & Industrial.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-11-loan-servicing-api.md#L28-L56",
+          "version": "repo-lines-v1:sha256:532bf9406d8cead0c1234bc132cd806ab6700aa7ce0a4141d7bc5af4369dee78:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYxMTU4Y2Q2ZjY0M2U2ZTQ2YWQyYWIzZmRkNGZmNDIwMmJiNWQ3NzUzMDE4M2M1OTgyZjhlOTIyZDg3NzVhMDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

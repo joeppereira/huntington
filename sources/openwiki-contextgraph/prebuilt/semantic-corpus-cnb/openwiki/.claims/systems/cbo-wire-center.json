@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:0b009781897fd5c363210e4b1b738ca2ef642adffe198f1a05029613424c425a",
+  "claims": [
+    {
+      "id": "claim_481e470c08814d0caff41f52005bd52f",
+      "statement": "Wire Center is the wire-transfer module of Crestline Business Online (CBO), CNB's commercial digital banking portal, providing domestic (Fedwire) and international (Swift) wire initiation, templates, dual approval, release with step-up authentication, an activity list, wire detail, CSV export, and confirmation PDF download.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L24-L26",
+          "version": "repo-lines-v1:sha256:6eb4e1fbf4a28ebb51b329886e3dba84d73bfd15ce56217f8416810cbee7689e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzNTA2NGQ4OTU5ZDZhMGUzYTg4MWVlM2EyZGQ5NzJjZTg2YTU4NmEwZGMxNjM0Y2I2NWQ3ZThlZjQxN2ZiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhOTVlZGMzNWQ5NGU3NzBjZDdhYjMzZDljNTI4NWJiNTZhMDAwYTMyNzA0Mjg1OTlmOGNmNDRmM2IzYmNmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjY0MmQ5NjY2ZDg2NWI0ZWZmY2RmZWJjMTAwNjllNTBkNTM2NzdkNDhlNDllYWUxNjBmODJkMDc4MmMyYmQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzhmZjY0YmYyYmVlODY2Y2U3ZjI0NDU2ZDM1MjdjZGUwMzEyYjkzYzg1YjllNzU3MDUxZDcwYTljNDY4MTM0MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f059aa0922f047ef9dbe10009ee9d4ea",
+      "statement": "Wire Center does not currently provide milestone tracking, Swift gpi international status, hold explanations, or client actions on held wires; gpi status is visible only to Payment Operations via the Investigations Workbench per spike CBO-4480.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L139-L139",
+          "version": "repo-lines-v1:sha256:01bb1daf51eabc17efc9fbb5ad3fbb7b5b526200953fcf793f69e265cb6cca30:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYjFkYWY1MWVhYmMxN2VmYzlmYmI1YWQzZmJiN2I1YjUyNjIwMDk1M2ZjZjc5M2Y2OWUyNjVjYjZjY2EzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYjFkYWY1MWVhYmMxN2VmYzlmYmI1YWQzZmJiN2I1YjUyNjIwMDk1M2ZjZjc5M2Y2OWUyNjVjYjZjY2EzMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjkwOGVkZWExMmU5ZDlkMWEwZTRlZmFlMTgwNmFhZWFiZWI4ZDUyZGU2ZDMyMTZiMWYwODE5NGU1NTEwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L24-L26",
+          "version": "repo-lines-v1:sha256:6eb4e1fbf4a28ebb51b329886e3dba84d73bfd15ce56217f8416810cbee7689e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzNTA2NGQ4OTU5ZDZhMGUzYTg4MWVlM2EyZGQ5NzJjZTg2YTU4NmEwZGMxNjM0Y2I2NWQ3ZThlZjQxN2ZiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhOTVlZGMzNWQ5NGU3NzBjZDdhYjMzZDljNTI4NWJiNTZhMDAwYTMyNzA0Mjg1OTlmOGNmNDRmM2IzYmNmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjY0MmQ5NjY2ZDg2NWI0ZWZmY2RmZWJjMTAwNjllNTBkNTM2NzdkNDhlNDllYWUxNjBmODJkMDc4MmMyYmQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzhmZjY0YmYyYmVlODY2Y2U3ZjI0NDU2ZDM1MjdjZGUwMzEyYjkzYzg1YjllNzU3MDUxZDcwYTljNDY4MTM0MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a8a3dbbc9dda438a9a335a578c3d415e",
+      "statement": "Wire Center's logical architecture is a single React 18 / Aurora DS v4 MFE calling the cbo-wire-bff (Java 21 / Spring Boot 3 on OpenShift) over HTTPS with an OAuth2 session, with the BFF making synchronous REST calls to CES (entitlements), CBO Auth (step-up), PPH v1 (wire submission/list/status), and ENS (notifications).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L39-L56",
+          "version": "repo-lines-v1:sha256:0ed39e07f6b48af7291442569c962064b7e091e9ce3598a928ff7ec23c00a01a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMmFmNzY4OWUxNjlmZWE3MjBhZDFhOWMzOGU5MzYwYTVhYzZmNjg1YTc1OTFiNWU0MjczNzRiNGM0MTg4NjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNmQ4ZDJmMjMwODRiZDNiYzZkN2I4NjY3YjdiYmIyYmVmNzlmOTkwMTI1NDE3ZGIxMmFkM2Y4OTcxNzgxMmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI0N2U4YWI3NDk4ZmQ0N2E4M2MyODIxYWRmMjdmMzdhYTY1OTkzNzZkY2U5NWM2ZjM3MmZmNTAzNjAxZWZlMjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a1da38e0d8d14514896c9d633783c7b9",
+      "statement": "Wire Center does not today use the CBO Status Projection Service (SPS, ACH only), the pay.wire.lifecycle.v2 event topic, PPH v2 APIs, gpi data, HMS APIs, or the TDIP Insights API.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L53-L56",
+          "version": "repo-lines-v1:sha256:c6f08921b32fb9c914b873940a5da97b2ee3ce25808a7979c780e594492a3149:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVhOTMyOTdjZjdiYjliZmE5NmE1M2FlZGRjMmY0OTU1YzY4OGFiODQzYzU5ZDBlZmJjYTIyYzVjNzNjNmI4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjQ3ZThhYjc0OThmZDQ3YTgzYzI4MjFhZGYyN2YzN2FhNjU5OTM3NmRjZTk1YzZmMzcyZmY1MDM2MDFlZmUyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e2ea2f09cc924dc880dca16b370bd4f5",
+      "statement": "cbo-wire-bff's integration inventory comprises six calls: POST /pph/v1/wires (EP-PPH-03, submit, returns pphId stored with cboRef), GET /pph/v1/wires?clientId (EP-PPH-02, activity list, max 500 rows, client-side filtering per CBO-4302), GET /pph/v1/wires/{ref}/status (EP-PPH-01, wire detail status, cached 60s, throttled 1/60s per wire), GET /ces/v2/users/{id}/entitlements (EP-CES-01, authorization with account-level filtering), POST /cbo/auth/v2/step-up (EP-AUTH-01, step-up on release), and POST /ens/v3/notifications (EP-ENS-01, producing TRS.WIRE.* events).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L58-L68",
+          "version": "repo-lines-v1:sha256:378b0397163114c7c5f188e3d53db7a7de7c61c602204ec2fb75cf64b4eac69e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExM2E0NzM1Nzc0NTAyODhlOGIzZjJkZmEyZjJkZDc0YWIwZjc3MjI5N2JkZmI0ZTBkNmRkNjcxZjI4NjM2OWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNlOGZmZjJhODFiMDBiMTBlY2QzYmYyYTU1YWI2NmNkMmZmMTBjYzEwZThjYTAwZWNkZGMyYmRiMTliMzlkODciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRhMjQzZjU2NzY3MmE3Yjg2Y2NmN2E0ZTU2MTk2NWM5MmEwNzVlYjA4NjIxYzllNzViY2M3M2JiMjU3NzIxNGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA3MjM2YjUyODgzZTU3ZjhjNTU5MzE4ZDQyMGUyNDA3YjI5ZjgyMTJjOThlYmY5N2Y5NmMxYjQ4ZmEyNGZjOTYifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L76-L79",
+          "version": "repo-lines-v1:sha256:773e2ced1d440002e88c4ce074e8c912a7b351d5e5b4347be2f44af2f9893a2d:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTM5NTFkNDYxYjVjY2JjYzFhZTdhODhjMjc1NWNjYmU2YjJkOWMyNWYwZjdjMGUyOTgwMGRkNjU3NTAyMDVmNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjYwNTExYWIxM2Q4ZjNkODY5YWNhMzFmNDBjMjM3NWQ1NzViNmQ0MmYyNTI5YzNjODA1NDI0YjMwY2IwNzQzYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b892d87673c74568ad056a7f60ce31fd",
+      "statement": "Wire Center derives its displayed client-facing status from the PPH v1 status field via a fixed mapping table (pre-submission CBO states Draft/Pending Approval/Approved; RECEIVED->Submitted; PENDING->In Process; HELD->Pending Review; PROCESSED->Completed; REJECTED->Rejected; CANCELLED->Cancelled; RETURNED->Returned), and the PROCESSED label was renamed from 'Processed' to 'Completed' in release R26.1 (CBO-4402) after client feedback that 'Processed' was unclear.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L80-L95",
+          "version": "repo-lines-v1:sha256:0404441262518543b59a77e054e8aefe0f39ba9f0898b26f9c760960aa1d64cc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3YzI1YTI4YTczMWI1MjRlMzNhNmM0YjAxMDMxOTc0Yzk3N2IzZmViZDUyNGM4M2Q5ZjFhNWQwMzk2OTQxZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljOTU3MmI2MGRhNzZhNzNjYTdjOTYzNzNkMWU2NmY3YzY0MzMzMzc5N2E1OGJjNWY0MjEwNDI1Y2YzNjBkNGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjNjI1NmJiYzIyZTg5MmU5Njk4NmNlOTY5ZjBjNWFmOGQ5MDFjYjgzM2M1NjY4ZTVkZTM3MjdkZmU2NGZmMTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MGVlNmVkN2VlYTQwY2Q2NDgxMjQ0MjFlZjEyMmU5ZjQ3OGM3MGNhMGMwM2UxY2U3Y2E0NjFkOTllMWU2NGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5f498e832e9043baa1b3eb0869546ff3",
+      "statement": "Held wires in Wire Center always display the generic label 'Pending Review' with fixed text 'This wire is being reviewed'; PPH v1 hold reasons (holdReasonDesc) are not shown to clients.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L95-L95",
+          "version": "repo-lines-v1:sha256:9c9572b60da76a73ca7c96373d1e66f7c643333797a58bc5f4210425cf360d4e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5NTcyYjYwZGE3NmE3M2NhN2M5NjM3M2QxZTY2ZjdjNjQzMzMzNzk3YTU4YmM1ZjQyMTA0MjVjZjM2MGQ0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5NTcyYjYwZGE3NmE3M2NhN2M5NjM3M2QxZTY2ZjdjNjQzMzMzNzk3YTU4YmM1ZjQyMTA0MjVjZjM2MGQ0ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWVlZWYwODczNWNlZjMwMDE0ZjFiMmIyZWI0M2I5ZDNlYzU3ZDVlMGZkOWIwNjczOGYxYzA2Y2JiNjk2NzY3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTgwZWU2ZWQ3ZWVhNDBjZDY0ODEyNDQyMWVmMTIyZTlmNDc4YzcwY2EwYzAzZTFjZTdjYTQ2MWQ5OWUxZTY0ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_17b911700c8249dbae900a1edd0a90c3",
+      "statement": "Wire Center stores cboRef (its own primary key) and pphId (returned from the PPH v1 submission response) persistently, displays the Fedwire IMAD (from PPH v1 fedRef, per CBO-4355) without persisting it, and does not store or have access to OMAD or UETR because neither is available in PPH v1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L97-L106",
+          "version": "repo-lines-v1:sha256:6420fb0ce56b2ae672f80667d72792b80e17961d6afcc9ebca4b02f962358835:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzMTY3OWExYTlmYTYwMmRiNzA0MzdkZGQ1NDk3ZDRjYzk5OWE5M2QwZmM0NDU5ZDFjMTI0YjYxZmI1N2JjYzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlMjkwMWE0YjhjMmI0MjBjMjJiODM2YzUyOTVkYzVmNmI1YmVhZTAwNjQ1ZDUzOWM4NTFiY2ZkZmUxNmJiNTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNhMGQ3MDcyYjhhZDZhZjZmMDk3MTE3NWM0ZTJlMmZkMTNhYzg3NzYzYzM0YmJjYTNkZjgyMzc0Zjk2MGQyNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_92cb4501ab8a4bd6ab817abfbfc9bb5f",
+      "statement": "Wire Center produces three notification event types via ENS (EP-ENS-01): TRS.WIRE.APPROVAL_REQUIRED (template TPL-WIRE-APR-01; email/push/in-app) when a wire awaits approval, TRS.WIRE.RELEASED (template TPL-WIRE-REL-02; email/push/in-app/SMS opt-in) when PPH v1 status transitions to PROCESSED, and TRS.WIRE.REJECTED (template TPL-WIRE-REJ-01; email/push/in-app) on PPH v1 status REJECTED.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L107-L113",
+          "version": "repo-lines-v1:sha256:94cc22eab336aa0ae3d0741801269d37e1ff13ccd00cd112fc9aab6ee6139fdc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYzYWI5YjQzZjI4MGMyOTU4MzZlZTNmZjcyMzkxMzliNDhjMDQzMDZlMjAwM2MwZTUyYTQ0Yzg3ODcwMWRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzA4ZWExYWVkMDdjNDAyZjkxOTZjNGY5MzUzMmQ0ZDkxMjJjZDliOGM2OGZjNjNiNzI1MDkxYTAyMzgxMGIzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTBkMjRkZWI1NDk4OWEwMWJlMGY3ODY0YzM1NDZiZmRmNDU1ZjYzZGVkNDY0ZWRjNjBjZmE1M2ZhMDBhMjM2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGFkMWY1MjU3YzE5M2NmMGFlYWJkZDRmNTk1MTUwMTg0MjgzZmJlMzA5NDJkOGFhMmE5MDc2Mjc4NmU5ODVmMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_669cfe3b8f864b14a787a2adb32d4d69",
+      "statement": "Wire Center uses CES entitlement types WIRE_VIEW, WIRE_INITIATE, WIRE_APPROVE, WIRE_RELEASE, and WIRE_TEMPLATE_ADMIN; release requires step-up authentication (EP-AUTH-01) plus client-configured dual approval above client thresholds; external sharing of client transaction data is not supported without an InfoSec design review under SEC-STD-22 and a Privacy Impact Assessment; and search results are filtered to the user's entitled accounts inside the BFF.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L115-L123",
+          "version": "repo-lines-v1:sha256:9314e8a362dc5d298025d85bb0b858e81bff657b8e1c0af7aab9166ab91bca85:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZkNDU4MDAzNmYxMzhlMTQyMTcyNjE0MmYyZDhhMGEyMzUwOTAzMGJiMTk4NmZmZmMzMmM0NWMzNzc4MjQ3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFkNjk5YzExYmQyYzc3ZDI1MjE5MWRjZGNlNjI4OWM3ODU2NzkzMmVkMDljYjQ3OTE1ZmVjZGI5YjRhOTg4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBmZjEwMDJmMjM1MWZmNTQ1ZTM1NTUxZjdkMGE2NDQ4MjI2MzFmN2I4MWM2MTExODE1YjRkMTFhMWM2MWM1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E5Yzc3NjdiMDQwNzhmMmJmZjA4YWJjMDc1NjA5NGUzYjVhMWJkODFhYmI0ODAzZTM5NmEzNzgwZjZlYzRkNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b8804457e2f64575ac9c074202eeaae2",
+      "statement": "Wire Center's five documented current-state constraints are: (1) no status polling permitted per ADR-PAY-019 following INC-2024-1182, only throttled user-initiated refresh (1/60s per wire), with new status capability required to be event-driven; (2) PPH v1 sunsets 2027-03-31 with migration tracked as CBO-4471 (34 points, unscheduled) depending on CBO-4473; (3) no international/gpi tracking, visible only to Payment Operations via Investigations Workbench; (4) the PPH v1 activity list caps at 500 rows with no cursor and no server-side beneficiary-name search; (5) the Status Projection Service (CBO-3815) is configured for ACH only, and wire support would require a new mapping module and a consumer ACL on pay.wire.lifecycle.v2.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L125-L143",
+          "version": "repo-lines-v1:sha256:bc8e08d74cf1cc7957404831e55fd9e8e9f81c95d738a991d00e9409b8a28490:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjMTQwYmRlZWM2NjYzZDU1ZGIwMzA1M2U1NGNiOGI4MDg2MjM0OGNhMGMzMTYxMjU4NWM1NGRlMTk4ODg0MDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0OWMyNDg3NmZlNjIzNTM3ZWIzMTg2N2ZkYTkyNjVmZGZkYTQ1ZWEzNDlkZTZlYzk2YzRlNmRmNjc1MTNmNDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU4ZWRjM2UwNTMxMGFiYTg4NDc4MzQ4ZDQ2NDFhM2ZjZGRmY2JkYzA2YzQ5M2M1OTZmZDJiNTllMjY2ZmMwMjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA4NzI0MDZhMzA4Mzk2ZjgzZTFmYmRiNTc1NzYxNzc3YTNiODE5NjAwNWVlMmZiMmMwZmYwMjM5NjIzZDk2YmEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4fef9f85be49418eb20c812a20717580",
+      "statement": "Four reusable assets are identified as candidates for extending Wire Center rather than things it currently uses: the <cbo-journey-timeline> Aurora DS v4 component (origin CBO-3802, ACH Payment Tracker; rail-agnostic milestone timeline with terminal/error styling), the Status Projection Service (CBO-3815; Kafka consumer -> Postgres read model -> /cbo/sps/v1, extensible by config plus a mapping module), step-up authentication (CBO Auth v2, already used for wire release and reusable for other high-risk actions), and the ENS producer library (cbo-commons 3.x, templated sends with masking helpers).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L145-L154",
+          "version": "repo-lines-v1:sha256:6bae2df62938fe01d5a003589fb3d772a205add7087cc2989e126a3bf79d9156:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2ZTc1ZDViZTA5MDI2N2U0YTI4YWViMDgzYjE4MWExNjA5MzhiODkyNTI4MTJiZjhiMmUxOWYxZTRiMTMxNTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNiYzcyNzlmNzNiOGFiY2MxODhhOTAzYmZlZjUyYmRjZTMwMDk1ZTQ2OTUzZGIzYjNiNjE5OTJiOGQ4YzNkMDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoxLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0ZGY2NmI3ZmQzOWQ3NWEwNzk1YWQwZDVmM2Y4OTliMGRjNGE2YjRkODFiYzdlYzk0MzAyMGRmNzQ0NjExNzgifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

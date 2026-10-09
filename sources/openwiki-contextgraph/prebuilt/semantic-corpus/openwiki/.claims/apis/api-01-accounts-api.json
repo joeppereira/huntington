@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f9c87c5d4d4e7aae1d1149fb13b317a950eb54a230bfdc782c8616d8cdccac64",
+  "claims": [
+    {
+      "id": "claim_195c6c31b0d2424b8aebda0020c50954",
+      "statement": "API-01 Accounts API (v3.4, base path /accounts/v3) returns deposit, card and loan account details, balances and holders for an authenticated customer or corporate client, and is the source of truth for balances in the mobile app and online banking; owned by Digital Platforms Engineering in the Retail & Commercial Banking domain.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L2-L17",
+          "version": "repo-lines-v1:sha256:4cf035a62f660dabd2766c5a3a89d81b025f4ab8ef5d3a6c0fa88d9a75e08cf2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4OWVlNDJjZTU1ODI3ZmI3YzUxZDQ4MWIwY2JiNjU1OTJhZGY1NDZmMzg5ZmI0MzBjZTk5ZGQyZTMzN2RlMzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1YzM2NGU2Y2Y5N2U3ZTQ5OTY5ODk2ZTdhMjQ0YjU1MWE0NmM3ZmI1YTdmYmJlNTRlZmI1MWFlNjE4MzUzZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoxLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d801693949144b14ae43dcf2b2a5d9cc",
+      "statement": "The API exposes four read-only GET endpoints: /accounts (paginated list limited to entitled accounts), /accounts/{accountId}, /accounts/{accountId}/balances (current, available, ledger with as-of timestamp) and /accounts/{accountId}/holders (masked PII).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L19-L26",
+          "version": "repo-lines-v1:sha256:a2776690be89ac644eb858863bff9a23fc2f101aefa4c10a1577c0bed8a5cc0c:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FkMTA3MzllOTJhNDgxY2Y1MGNhYjUyNmMzNjFlZWI3MjBhOWY2NzRhNjkzNmMwNTUyYjg2ZGViNjc2NDgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTVjZGRmZDBmODg2ZDY0NzEzMDI5YWUyZDM2NmZhOWZlNzVkZTE0MWI2MmMxODA2NDEzYWUxYTVjNjI3MzI4NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjIyNmE0ZDM4MGI4MGFiM2U1MTZlOTZiZTNkM2YyMDFjY2NkMDU3Zjk3YzRmNWVjNDBlZGUwOWY1ZTdjZjFlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b0e86358d5ac4265af69bbbcebd26aca",
+      "statement": "Access uses OAuth bearer tokens with scopes accounts:read, accounts.balances:read and accounts.holders:read; data is classified Confidential - Client Data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L14-L15",
+          "version": "repo-lines-v1:sha256:a1637883cfa7bf2706e8dbcd392557f99065f74022cd997671e571ddbb16668a:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzMwOTNiNzJkYjdlN2M2ZjdlYTMwN2JmNTUyYjMwY2E4ZmQ2MjNlMjAxYjBjMDlmZjQzMTE0Zjk4N2NlNjcxZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzA1ZTNlN2NjODQzM2YxMmQ2ZDIzZjBmZjMzYWZmNDNmYzEwMmU5YjhmNmQ1MDMzYTI3ZTg4NDgxNDMxMGEyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjQ0ZTYyN2VmNTMwMjFkYzRjNmIyYTcyMzY3YzFhZGY2MDE1ZDVhOTI1N2QxNGY2MzUxZmE3M2Y0ZDdiZjQxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjIyNmE0ZDM4MGI4MGFiM2U1MTZlOTZiZTNkM2YyMDFjY2NkMDU3Zjk3YzRmNWVjNDBlZGUwOWY1ZTdjZjFlOCJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L28-L32",
+          "version": "repo-lines-v1:sha256:abb73b942bd0e70931f5ae3c961e6729246cdbd50f6a3310fc80ec55facf71a7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiYTZiMzRkYzMwMzRhYzY2YjE5NjEyYWNkNjIzYTc5MTFmZGM1MzRlNjlkZjE4ZjMwMDhmNTFmNWNkMzY4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FkN2YzYTVhMzc0ODhiY2Y1ZTFmZDkzYjhmNGI4ZjA3NDU0ZmU5OWRkZDUyYzMzNzBhZTEwN2YxZDlkMmU4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjk2Y2UxMDhlNmYyNTUwNWM1OTcyMjBhYjNhNzBmMjQwNmY1N2QxNGE0ODZlY2JmOGNhZTk5ZWRmODRmMjYyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWNiZDI0MGNiYzY4YTJkNmI3MTYwN2UwMWM3Mjk1YzI1NzIzZmRkMzhjY2U5MzkyYWY2M2Q4Y2EzMWY3NjQ0NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_df48956c1ee5484696280b3479ba6a0b",
+      "statement": "Operational limits: 1,200 requests/minute per client with 200/second burst; SLO of 99.95% monthly availability and p95 latency of 180 ms.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L16-L17",
+          "version": "repo-lines-v1:sha256:377f043db15980ddbfb4b43b7ede798d062f80342ca9321624500b971c15683e:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2RkOTgzMTdhMmM0ZjY1YThmMGUwNGYwMmYwZDliY2I0ODg5ODQ0NDYxZGY2OWVkY2U2NWUxNzc4ZTcxZmMyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDVjMzY0ZTZjZjk3ZTdlNDk5Njk4OTZlN2EyNDRiNTUxYTQ2YzdmYjVhN2ZiYmU1NGVmYjUxYWU2MTgzNTNkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWNhYWUzMWY2MmZiMGQ1MzBmMDhmZmFkZTVjZWMyYWE4NjE4NGMwNGZjNDhlNTQ5NjdiMzQwYTk1NzQ4NzlhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1a29558370e74818a56e0665a5d84ade",
+      "statement": "Data lineage: upstream sources are the core deposit system (DDA), the card processing platform and the Loan Servicing API (API-11); downstream consumers are the mobile app and online banking, the Statements & Documents API (API-17) and data aggregators.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L58-L62",
+          "version": "repo-lines-v1:sha256:f91776fdafe6b6e3e97b69f7e5e0acb4a92f1a112c2bd92b86e0cd31547c63c5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTE0NjdlZDhkZWZhNjc1YjFiNzZhYTNmNWMzMDEwOWJjZTkwMjY1ZGNmZWJhZDZmOWYyZTA2ZTVhYzFjNDhjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ef4aacca53824a7a9d2cbc9da0c01557",
+      "statement": "Changelog: v3.4 (2026-03) added a holds field to the balances response; v3.2 (2025-07) introduced cursor-based pagination; v2 was sunset on 2025-12-31.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L34-L56",
+          "version": "repo-lines-v1:sha256:0328eb133a80a7fbcf0c9fcde31af41390571c1661bf6a4d92431725c4a16688:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1OTRmMjg5ZDQwMDVjYzM5NWZlMzBmNGM1YzRkZTFiZTJiZjNlYzFmMTdmYTUyMDgzMWYyNDdkOGExNjNiMjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzZTQ4MjE1OTI2ODQ2NTEyYmE4ZGIxMTJiMWY1NTliODdjY2VjNzQ3MTU1MDAwMjRiYjdiNzhkNzI2MjZiM2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L64-L68",
+          "version": "repo-lines-v1:sha256:627d352f2c1286ac26164b21437db66b5e4c952c8a0aac07d16f6cb3625a41b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIwMWQ1ZWZkYTc0MzE0MDM1MGNmZTlkYTk5ODE2NDcyNThmMWJhZTJiZjZlMGY4NmYyZGVkNGZkMmQ3MzBjZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdhYjNlZTg0MThkMGQxOTYxNjM0ODc5YjI5NWY1YzEwZTBmMmIzODIyNzIwMTVmNTE0OGMyMWU5MGExMTdmYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

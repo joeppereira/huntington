@@ -1,0 +1,29 @@
+# Pinned versions tested on Windows 11 with Python 3.13 (2026-10-04).
+
+# Corpus converter (tools/convert_corpus.py)
+pymupdf4llm==1.28.2
+pymupdf==1.28.2
+openpyxl==3.1.5
+markitdown[docx]==0.1.8
+
+# Backend
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+pydantic-settings==2.15.0
+python-dotenv==1.2.4
+pyyaml==6.0.3
+psutil==7.2.2
+
+# Agent
+langchain==1.4.3
+langchain-core==1.6.6
+langchain-anthropic==1.7.5
+langchain-mcp-adapters==0.3.2
+mcp==1.30.0
+anthropic==1.11.0
+
+# Tests
+pytest==9.1.1
+httpx==0.28.1
+pytest-cov==7.1.0
+pytest-asyncio==1.4.0

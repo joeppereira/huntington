@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:5c55db82569d8a34babe5b9ab891d86cee4cb65ab11ec231d9097c14e3e89e36",
+  "claims": [
+    {
+      "id": "claim_86b37fee8f344c68ba6387aee555852a",
+      "statement": "Ethan Brooks is the Data Governance Lead, Commercial Bank, and the named contact for product/design reviews for the Privacy Office & Data Governance partner function (accountable leader: Rachel Goldberg) in the PTT organization directory.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L76",
+          "version": "repo-lines-v1:sha256:29a82c4ca27a76ecf2eb7738d8713a0123db25932946ca8cf354860648692b07:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1ZWU0NDJmZjljZWJhNTU3NWMwNzE0ZDY5OTM3Njg0MTQ5ZjJlODYyYzY0NDk1MjQyZTNmMDk1MmEzMWU1OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9297c47e68af4d239b9b3c8f956227fa",
+      "statement": "The PTT organization directory routes compliance or policy-interpretation questions that cannot be decided by engineering teams to the Privacy Office (Ethan Brooks) or, for financial-crimes questions, to FCC Policy & Advisory (Jordan Ellis), bypassing the normal engineering-manager to director to PTT Leadership Team escalation path.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_12d8ac6125ee426a85761e7357f80ce5",
+      "statement": "Ethan Brooks (Data Governance) is a named approver of TDIP-CAT-2026.2, the published TDIP payments-domain data catalog extract, alongside Wei Zhang (Director, Treasury Data & Analytics), separate from the document's owners Carlos Mendes and Dr. Aisha Rahman.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ba7ff2eb1885278e0711f4cf6fce36662df1eb6b2108a4d280e0a3578d76a938:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmRiNTI5ZDcxMjNmYjZkYTNjZjRmNjE4NDg4MzdiNmM2YzZjOGJiZTdlYThjOTY5NGIwOTAyYmY0N2ZlZjc1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzk2N2E0ZTdkNGE1YjI5ODNiNTg2MTlkMDM0MTQxZGRjM2I1NDVjOGMyM2I0MDAxMjM2ZjgyODc1NGQxYWUxZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBiOTE3YWJmZWM4NjYyMzAwM2VlNzNhMGJkZjE1ZDliOTUzMjRhMmNhMDI5YjBiMTFhYWUwNGY4YWQwZTM2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_30b05ab3faf9407293f2798de41a28cb",
+      "statement": "TDIP classifies datasets' access governance through Collibra, and Restricted datasets require Privacy Office approval with a 15-business-day SLA, which is the approval path Ethan Brooks's Data Governance function administers for Restricted payments-domain datasets.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L24-L26",
+          "version": "repo-lines-v1:sha256:7da4ef09857d42d661a8423664c4eba22ed197cd925d9e12582890f733e3ad87:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1MjAwZjAyM2RkOGY0NjZjYWZlYWFkODQ1MDIxOTAxZmNhMDg5N2U2NjQxYjNhOTdjYTExYzM1ZGQxM2VjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdmNTNkYmVlMWI2OTM4Yzg3YWI4NzEyNmZkYjBkYzhiZmZjNjkyOWNmYTg1MGYyNzZlODU0MGJjYzA2MTg4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c6f3b318dc194a9fbe7a679b759f5e3a",
+      "statement": "Ethan Brooks, Data Governance Lead for the Commercial Bank, is named the standard contact for DUS-07 v2.1 (Data Use and Client Confidentiality Standard), which is owned by Chief Privacy Officer Rachel Goldberg and was approved by the Data Governance Council on 2026-01-08.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L15-L23",
+          "version": "repo-lines-v1:sha256:a4763ef406e3345c394a4dd678c4bffbafdc818f279daa0effbe895e2c1fe77c:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM4M2Y0NzM1OWI3YzQzZjg0Y2Q4MmZhMTIzZGFiZmRmY2FkY2Y5NmQ0OWQ1MzZmYWU2MTZhODI2YWZhNDU1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNkNWE5NjBiZDFhMTFhYmVkYjA5ODYzYzUwNmY1YjQ2NDUwOGIxNTIwZmMyZmFlY2FlNWIyZWQ3MzJkMzVmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDgzZTNhYzk4ZmQ3YzFjMWE2ZjA2ZmYzNWRlYjAzNWZmNGNkMDA4MDMxYzYwYzNmNzlkZjQyOWQ4ZDZmZGYyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0bb026f635174cf7ba7d0ccb88dbccf9",
+      "statement": "DUS-07, for which Ethan Brooks is standard contact, requires Privacy Office approval (with data owner sign-off, via Collibra DAR, 15 business days) for access to Restricted datasets, a Privacy Impact Assessment (~4 weeks) for new client-facing uses of client data, and generally does not approve use of financial-crimes data outside FCC purposes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L74-L80",
+          "version": "repo-lines-v1:sha256:bf2909299dec8002797551475360bb4461013ce2f3a66193984de7d2aa999107:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjdlZGI4NTRmNjg2NTVjMDg5NGM2MzBiNGExMDViMjVkYjQzNzliOWMzZTE1ODc5NTkxZmZhMDA3YWI3NjlhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjJmYmUwOTUyMzJkMDcwMjgxNDRkYzA4M2MzNjBkMTY2MjdiN2EzMjZkMTAyYzE5NzRiZGExY2IwMTg2NTExMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDFlNDZkNmY1NTI2OTYyMGI3ZTU3YmE5ZjkzNDk0NzQ2NmI1YzE4Zjg3MTg4ZTU5MWYwZDAxOTQ3ZDcwNGI0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDRkMDk4YmZjZTRkMGMyY2ZkNWVjMDdmOWJiY2FmZjM1NmU5Y2FmMDcyZDNlYmFkMDViYTFiZDkwNzM0Y2JkNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8a37e26f865a496a9de36a4cae9d8450",
+      "statement": "DUS-07 imposes purpose limitation (feature tables inherit the most restrictive permitted purpose of their inputs), a cross-client confidentiality prohibition on using one client's behavior to generate content for another client, and a five-condition aggregation test (>=500 transactions, >=20 distinct originating clients, no client over 15% of volume, at least monthly refresh, DRC-approved wording) that cohorts must pass or be suppressed before being shown to clients.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L38-L60",
+          "version": "repo-lines-v1:sha256:550f69407f0fb2dec5505d98785a9af47d6ab39405c355036482c216ac00a6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMxNzA4ODY5YzM2ZTdmMjg1NWViOGM5NzQ4Mjc5MjA1YzE2NzgzNmJiMjhkYWY4NWIyMGE1ZTY2NTlmYzcwN2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZTc3MTExZDQ0ZTA4YWU5MWJhZTcxMTQyZTE0MmI0MzM0MjBmZmNlYjczMjJmODkzZGMwZjU2ZGI0NGE4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQzMjNiNWQ0ZWQ2MzVjY2Y4OWNkZGI2YTg1ODZhOGVmMTQ1NzI0YzU4ODEzOTg5N2MzYzcwMGE1ZmE2YzkzMmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ODQ1ZWJlZTQ2MWY4ZDgwOWM4MzNiNDBjZjE0MDhhODFkYTVmMTVkNThmNGRlNDlkZGJlNGNiNGNkNWU3MGQifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d79ce1c0c570a2d262fb2cd074254aa2ac4817b3b6558f17a00161b4b1a359d2",
+  "claims": [
+    {
+      "id": "claim_7cc90f6099934dbfb40c28a0e2007473",
+      "statement": "The Commercial Entitlements Service (CES, SYS-CES) is the authorization and entitlements system of record for commercial banking users, tracking which users/clients are entitled to which accounts and entitlement types, and is rated Tier 1 (24x7 critical) in the PTT system ownership register.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L86",
+          "version": "repo-lines-v1:sha256:4de8e26db7bc18cbdff9eb7884fdc219b73642235b8a429f78efeb29826b23b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODYwNjFjZmQ3YmE2ODFhZDkyYWY4NjA4YTI2Y2M3ZjYxODI5NTQyYmYxZGQ3ZmU4NGJjMjE3YWQwMGY1ODZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2MTBhYmUzOTJhNTcxMGZiYjY3NmEyMWM5ZWQ3NTFhNDdlMDFlMzY0YjM0MmQ2YjY1ZDliNjc2MTk3NTgzZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2NzEwOTA3MzI2NTUzNjJhNjM1MTBlMGY1OTNlNDI1ODc1N2I1MjljMTAyZWJmMTM3ZWY0M2Q5YWViOWZiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f5b950f1c45943e294b49e0edb502270",
+      "statement": "CES is owned by the CBO Platform team, with Nadia Haddad as technical owner, Arjun Mehta as tech lead (also leading the CBO Status Projection Service, SPS), and Marcus Chen as business owner; CBO Platform & Entitlements' planning factor is roughly 1 point = 6.5 hours, ~30 points/sprint, intake via Jira CBO (Platform) with 2-week triage, and was ~70% committed as of PI 27.1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L127",
+          "version": "repo-lines-v1:sha256:8f2c485b181f098580cd38f43a01cba57090cd50015e534ba1ad5a0b6856fbd0:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0NTBkMGJkYWE5ZTI0NTkwNzFhZTljOGEwYjc3ZDU2NjA0ZjYzNmZjZTU3YTVmOTQ1YjdiMGU2ODI3MTE0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgzZTZjZTZlNmFhYmI4OTBmNDNlNjkzZjNhOWYzNGNjYWYyNTJiNGRhMzg3NTFjNTM1NGYzMzUzNzcyN2E5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWZhMjFkNWUzZTNjYzk3NTBiNTU4MTE2ZWU5NWQ3NmNlOTY0ZGYyYWFhMmZlYWY5YTllMjBjNGViMGZhNTc5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDIwNWJhMmIxMjFlOWE0ZDQ1NDQ5OGNkNDRmYTJiNzE0MzQ3Y2VkMDgzYmI1MDBhMGE3YjQ4YzIzZTY3ZDJmOSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L46-L46",
+          "version": "repo-lines-v1:sha256:064db8ca1a7f13d9ec536601f8847790800a0676c00b3d7545d0a59eb69f1a75:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY0ZGI4Y2ExYTdmMTNkOWVjNTM2NjAxZjg4NDc3OTA4MDBhMDY3NmMwMGIzZDc1NDVkMGE1OWViNjlmMWE3NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY0ZGI4Y2ExYTdmMTNkOWVjNTM2NjAxZjg4NDc3OTA4MDBhMDY3NmMwMGIzZDc1NDVkMGE1OWViNjlmMWE3NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGYzY2ZjY2IyZWU4ZDc3NmFiOTZlM2Q0OTEzZGI2NGE2MTVkNzBlODk0ODgzYjg3N2EwMmM3NDM5Zjc0NzlhOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTljMTUwNjlhOTM5M2NlOTI2NWIzNTRiYzYzZjExMjg2ZmUzZTY5ZDNlMjY4N2NlYTZiNmNiNTFhZTNiNTEwMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L86",
+          "version": "repo-lines-v1:sha256:4de8e26db7bc18cbdff9eb7884fdc219b73642235b8a429f78efeb29826b23b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODYwNjFjZmQ3YmE2ODFhZDkyYWY4NjA4YTI2Y2M3ZjYxODI5NTQyYmYxZGQ3ZmU4NGJjMjE3YWQwMGY1ODZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2MTBhYmUzOTJhNTcxMGZiYjY3NmEyMWM5ZWQ3NTFhNDdlMDFlMzY0YjM0MmQ2YjY1ZDliNjc2MTk3NTgzZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2NzEwOTA3MzI2NTUzNjJhNjM1MTBlMGY1OTNlNDI1ODc1N2I1MjljMTAyZWJmMTM3ZWY0M2Q5YWViOWZiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d9f8b397e5b949c1860a599ba7501df2",
+      "statement": "cbo-wire-bff calls CES synchronously at request time via GET /ces/v2/users/{id}/entitlements (EP-CES-01) for authorization and account-level filtering, alongside its other per-request dependencies: PPH v1 wire APIs, POST /cbo/auth/v2/step-up, and POST /ens/v3/notifications.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L39-L66",
+          "version": "repo-lines-v1:sha256:2fe963bd5eb347c33c20710163f464c0051eb92e5c869283da2baac323ee81f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMmFmNzY4OWUxNjlmZWE3MjBhZDFhOWMzOGU5MzYwYTVhYzZmNjg1YTc1OTFiNWU0MjczNzRiNGM0MTg4NjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU2MWExZmE0NmMzZjc0ZDJlYWUwMzBlZjQ4MjlhODAwYzI1MTRhNTY3MmZmNGYyMjBmNWZmNDYxZjRhNzJjMzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNmQ4ZDJmMjMwODRiZDNiYzZkN2I4NjY3YjdiYmIyYmVmNzlmOTkwMTI1NDE3ZGIxMmFkM2Y4OTcxNzgxMmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNiOGIyOWM1OWVlMjIzZmI4NTRhNDA0ZjMxYWJiMzllNzJmOGViODdmOGI4OGNjNzQyMzcwN2U1NGU2OGE3MTAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8c7477739a8d496ab7d2fa759b42f7db",
+      "statement": "cbo-wire-bff authorizes Wire Center actions against five CES entitlement types (WIRE_VIEW, WIRE_INITIATE, WIRE_APPROVE, WIRE_RELEASE, WIRE_TEMPLATE_ADMIN), and wire release additionally and independently requires step-up authentication plus client-configured dual approval above client thresholds.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L115-L123",
+          "version": "repo-lines-v1:sha256:9314e8a362dc5d298025d85bb0b858e81bff657b8e1c0af7aab9166ab91bca85:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZkNDU4MDAzNmYxMzhlMTQyMTcyNjE0MmYyZDhhMGEyMzUwOTAzMGJiMTk4NmZmZmMzMmM0NWMzNzc4MjQ3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFkNjk5YzExYmQyYzc3ZDI1MjE5MWRjZGNlNjI4OWM3ODU2NzkzMmVkMDljYjQ3OTE1ZmVjZGI5YjRhOTg4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBmZjEwMDJmMjM1MWZmNTQ1ZTM1NTUxZjdkMGE2NDQ4MjI2MzFmN2I4MWM2MTExODE1YjRkMTFhMWM2MWM1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E5Yzc3NjdiMDQwNzhmMmJmZjA4YWJjMDc1NjA5NGUzYjVhMWJkODFhYmI0ODAzZTM5NmEzNzgwZjZlYzRkNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7d5ed30dde264d70a5b0ccc3b2759b3a",
+      "statement": "Account-level filtering of Wire Center search/activity results to a user's entitled accounts is performed by cbo-wire-bff using CES entitlement data, not by the upstream PPH wire-list API; this combines with a PPH v1 limitation where the activity-list endpoint returns up to 500 rows per client with no server-side account filter, requiring client-side filtering (delivered as CBO-4302, R26.3).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L123-L123",
+          "version": "repo-lines-v1:sha256:5ad699c11bd2c77d252191dcdce6289c78567932ed09cb47915fecdb9b4a9888:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFkNjk5YzExYmQyYzc3ZDI1MjE5MWRjZGNlNjI4OWM3ODU2NzkzMmVkMDljYjQ3OTE1ZmVjZGI5YjRhOTg4OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFkNjk5YzExYmQyYzc3ZDI1MjE5MWRjZGNlNjI4OWM3ODU2NzkzMmVkMDljYjQ3OTE1ZmVjZGI5YjRhOTg4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWMxZGM0MWZiY2MzZDUxZmMyZmJlYWZkNDNlYzc2NzAyZDIwMTMxZGM1MzY5ZmRmZmU0NzI1N2YyZjVhZjJmNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E5Yzc3NjdiMDQwNzhmMmJmZjA4YWJjMDc1NjA5NGUzYjVhMWJkODFhYmI0ODAzZTM5NmEzNzgwZjZlYzRkNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L140-L142",
+          "version": "repo-lines-v1:sha256:5a9b184671a9ac35a34f8efe1049fcf8922dd49999b64df60c74e745e21cd989:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDNlNWMyMmY5NzE3NmJjNzBkMjdmNDRkNGE2MmRmYjRmYzFkYTYzYjYxOTc1YmNkYWEyNjQ4M2YyMDQwYmI5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2E0NDEwZDZmOGUzNmVjNzBhNDY2OWYwN2M3ZGI1MmQxOGZjM2Q4MGMzZDYwYjJiNmRkMDBjN2Q4MzkxMTBlMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L32-L32",
+          "version": "repo-lines-v1:sha256:9a1cd728e3bf373ebc36492a50a14dac2426f8be58f08f1370d93a5d66492b0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWExY2Q3MjhlM2JmMzczZWJjMzY0OTJhNTBhMTRkYWMyNDI2ZjhiZTU4ZjA4ZjEzNzBkOTNhNWQ2NjQ5MmIwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWExY2Q3MjhlM2JmMzczZWJjMzY0OTJhNTBhMTRkYWMyNDI2ZjhiZTU4ZjA4ZjEzNzBkOTNhNWQ2NjQ5MmIwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjUyOGI1ZTZkMTJjYjNiNTcwZTFkYzdkY2JhN2M4NzczYzlmODEwMWYwMjNmMzZjZDZkZmQxNWJjNjYyZTBlMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWFhMjlhNTY4NDU1ZjczZDZlYzdkMGRlNzg1OTdiNmM4M2JiNTY5NWI3NDNkZDg5N2ZjYTBlZmFhYTc3MDk0MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_63a2df4d13a443fda9b91e364184a7dc",
+      "statement": "CES, together with the Client Information File (CIF), feeds the TDIP client_hierarchy dataset (Confidential - Client, owned by Marcus Chen / Carlos Mendes) on a daily batch refresh cadence, distinct from CES's synchronous per-request role in Wire Center.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L36-L36",
+          "version": "repo-lines-v1:sha256:38a2924a95803536403af2ac9e2b348e53a443d3d1baff891dae90d252a7ed85:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhMjkyNGE5NTgwMzUzNjQwM2FmMmFjOWUyYjM0OGU1M2E0NDNkM2QxYmFmZjg5MWRhZTkwZDI1MmE3ZWQ4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhMjkyNGE5NTgwMzUzNjQwM2FmMmFjOWUyYjM0OGU1M2E0NDNkM2QxYmFmZjg5MWRhZTkwZDI1MmE3ZWQ4NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmYxNTQyZDgzYTFlNDNjNTVmODEwM2IzZTBjYTQ2NmY2ZTc1M2M5NmY4NGRlNTIxNmU1ZmJlNzIyMGUwZTUxZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmIxN2VkNGJjZDc0MjJkYzYzNjliZDg4Y2E0YzQzY2VmMTg0MTNkOTBlNzE3MGIzNDdiZjllMWY3ODM0YWI4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_aeaacc72db2c4f02a94bbe73b1fe7880",
+      "statement": "CES's account-filter mapping for PPH v2 search is the specific blocking dependency (tracked as story CBO-4473, 8 points, Backlog, owner Arjun Mehta) for the CBO-4471 Wire Center PPH v1-to-v2 migration epic (34 points, Backlog/unscheduled, owner Tom Becker), which must complete before the 2027-03-31 PPH v1 sunset confirmed by the ARB on 2026-09-08 with no extensions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L136-L138",
+          "version": "repo-lines-v1:sha256:6908edea12e9d9d1a0e4efae1806aaeabeb8d52de6d3216b1f08194e5510a680:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiZGQ0MjdmNDQ0NTkwMjE2NGIwNDBjMWExN2IzMGQ2NWNlMGRkZTA4YzZmNzA4ZDVkYjAzOGU2MWI3NjYxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDc3YjVkY2MzYmZiMDVhMTYwYmI3YzY5Y2Q1OWQyYjY3NzVkZmI0YjU1MWVhMjhlMTg3OThmNzUxNjI5OWQ3ZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_807ad5e81d3f446ca69d7b86e7f8eee1",
+      "statement": "The dependency arises because PPH v1 list (EP-PPH-02) has no server-side account filter and PPH v2 search (EP-PPH-05) filters only by clientId, not by account, so CBO-4473 must define how CES's per-user per-account entitlement data maps onto clientId-scoped v2 search for filtering to continue working after migration; as of the 2026-10-05 export both CBO-4473 and CBO-4471 remain unscheduled Backlog items, and PPH-2190 flags cbo-wire-bff as the only major PPH v1 consumer not yet started on migration.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L53-L53",
+          "version": "repo-lines-v1:sha256:dd395d3b126a7050225f00c66eb903cd80b78adfdb426f59153ceb0a925b19d6:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQzOTVkM2IxMjZhNzA1MDIyNWYwMGM2NmViOTAzY2Q4MGI3OGFkZmRiNDI2ZjU5MTUzY2ViMGE5MjViMTlkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQzOTVkM2IxMjZhNzA1MDIyNWYwMGM2NmViOTAzY2Q4MGI3OGFkZmRiNDI2ZjU5MTUzY2ViMGE5MjViMTlkNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjZlY2RlYTA0MmQxMzAzZGU1N2IxZmExMmE4MGNhMTU2N2Y1YjA0MjM5NmFkYWJjNmJlYzU4ZGNlYzAxZDU2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzdmN2U4ZjZkYmIyOWNmNGUzN2M1YTgwNTRjMWVlMzJhNTNkZWZiYTBjMWVlZjRkMTQyZTZhYjNlOGUwZWRhMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

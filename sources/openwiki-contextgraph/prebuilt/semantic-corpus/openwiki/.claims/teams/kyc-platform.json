@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:289424c7091d56c9a88b46bd5ec5bb621b8b6c8680cd61ac9105dd1f7d061ee7",
+  "claims": [
+    {
+      "id": "claim_69b372f9bc944ee987603bccbe8e119f",
+      "statement": "The Know-Your-Customer Platform team owns API-07, the Customer Identity & KYC API (v1.9, base path /kyc/v1), in the Client Onboarding business domain; it is the only API the catalog attributes to the team.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:ff39569c25939caf4f5adb91ca521f33655f0a54ee75a7bc999460c90b5ad96f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE0OGQxMmY5MmNmYjQ4YTJiMDQyYzY5NGQ2ZGEyYzRjZDY4ODczOWZhNTA1ZWU0ODExMDJjOTIyZjZmYjRjMDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjllNTI5MGUxZTk2NTkyOGU3NjI1Yjk4ZTVjMjdhNWY4Mzc5NzY5Y2FlMTczNTExODczZWFiYmI0NmQxMDBlZTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L79-L98",
+          "version": "repo-lines-v1:sha256:653461ee219e8c047f9d470d5b22a00fe7154f170b9fa4f482a18f7aa1d6a9b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzZjVhOTk1MGRhZmIxZmI3MTM4ZTIwOGQ1ZmZlOWM4ZDViZWMyMTc0YjQ3YjgwMjBhYTFhMGFjZjI4OTI2NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3ZTY0MmY0YzFiMTVjNmNkZWQyMTBjZTkwYzRiYmFjMjg4MTNiNmU3OWY5MTkzZDUyMzQ1MjZmMjJmZjgyOTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0YTE0ZDRlMThhOGI1NjIxMWFiODE3ZmQzM2YzZTllYjE4ZjlmYjc4ZGVkZTgzMTBkMjM1MmI1OTQwYTA2YWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f627917316e04f8eb3827d7d7884d9f7",
+      "statement": "API-07 performs identity verification, customer due diligence and beneficial-ownership checks and returns a KYC status and AML risk rating used to gate account opening and payment limits.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:fa15f0e172fae9f476f5d17424578ba25d981e3d7cbd32b7a8f5c84e323cd62d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmExNWYwZTE3MmZhZTlmNDc2ZjVkMTc0MjQ1NzhiYTI1ZDk4MWUzZDdjYmQzMmI3YThmNWM4NGUzMjNjZDYyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmExNWYwZTE3MmZhZTlmNDc2ZjVkMTc0MjQ1NzhiYTI1ZDk4MWUzZDdjYmQzMmI3YThmNWM4NGUzMjNjZDYyZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzIyYjBjOGVhZDcxYmViZTgxOWU5ODA1N2Y0NGVmMWFhZmQxMGM5ZWFlZjI0ZjgxODk5MDAzZDlhM2E1ZGM3NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5e723368925e47418c8115c75e6ca754",
+      "statement": "API-07 documents three endpoints: POST /verifications to start an individual or entity verification, GET /verifications/{id} returning verified, review or rejected with reason codes, and GET /customers/{customerId}/risk-rating returning low, medium or high.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L19-L25",
+          "version": "repo-lines-v1:sha256:42c854aacb3a636f98ee217f1035596976c7e561957b2c6970e625771a2e4a7e:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FkMTA3MzllOTJhNDgxY2Y1MGNhYjUyNmMzNjFlZWI3MjBhOWY2NzRhNjkzNmMwNTUyYjg2ZGViNjc2NDgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2ZjZTJiM2Q0MDkyMmY1MjBkZjYyNmEzZTQ4ZTk5ZjQwOWE5M2Q1Mzc1YjgxZGM1Y2M3N2IxYzM3MmU1YzQxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZmMmU5ZmNjMWE4OGIwNWNmNTE4M2I1NjM5Zjc3YTJmYjBkMjk5NGY0MWVlZTljM2JmZGZmZmNkZGNhMjYwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e40894ad659649669a97b0c77ff49824",
+      "statement": "The team's operating commitments for API-07 are Restricted - PII classification, OAuth scopes kyc:verify and kyc:read, a rate limit of 200 requests/minute per client, and an SLO of 99.9% availability with p95 verification latency of 1.2 s.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L14-L17",
+          "version": "repo-lines-v1:sha256:3812ec49db556d6558b9ec1f7a380d836137fc5582b8c0a4d5df03622f15759e:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2NmZmZhZTFhZDYwNmJkMmY1NjdhYjE4NjdmYjZhNGNjMjM5ZTRkYTZmMGU4ZjFjYzVkODhhNWUzYTMxZTEwOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ4ZDEyZjkyY2ZiNDhhMmIwNDJjNjk0ZDZkYTJjNGNkNjg4NzM5ZmE1MDVlZTQ4MTEwMmM5MjJmNmZiNGMwNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGMzY2I5OWJlZTJmYmY4NDE0ZGM1ODRlOWVlNDhmYmYxMWNkNjJmNTkzMWQxNmU1NWIwYzExMzliMjg4ZTdlMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7c672b59bb2a47288af68701ae219c8a",
+      "statement": "The example verification request sends an Idempotency-Key header and refers to the identity document through an opaque documentToken rather than raw document data; the example response returns id, status, riskRating and the list of checks (id, sanctions, pep).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L27-L65",
+          "version": "repo-lines-v1:sha256:c45a1272844daea43099a886960e1a0cefd2c65f55e6f64a012184df6b02e7fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5MzZkYWQzYWNhYTM1ZDJkNGYwY2VjYmQ5MDEyOGFmOTk0YjgyZjFkMmRlMzg1NGZiMmJkNzc3Zjc3N2IzMTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ce68bfd236ca404e97947f773216ae10",
+      "statement": "API-07's upstream sources are identity verification vendors, sanctions and PEP lists, and corporate registries; its downstream consumers are accounts opening, API-04 limits and API-06 Card Management, and the API-04, API-06 and API-09 lineage tables each list API-07 as an upstream source.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L64-L64",
+          "version": "repo-lines-v1:sha256:055afa45947d03569a97e78c1bde74fe916cb78ad4c27de950c773d4397bf8db:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YWZhNDU5NDdkMDM1NjlhOTdlNzhjMWJkZTc0ZmU5MTZjYjc4YWQ0YzI3ZGU5NTBjNzczZDQzOTdiZjhkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YWZhNDU5NDdkMDM1NjlhOTdlNzhjMWJkZTc0ZmU5MTZjYjc4YWQ0YzI3ZGU5NTBjNzczZDQzOTdiZjhkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L74-L74",
+          "version": "repo-lines-v1:sha256:77ec44370aecd28d3f9a0a7c59f13c266cd9ea7b10a744171d6c3929068c6d14:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzdlYzQ0MzcwYWVjZDI4ZDNmOWEwYTdjNTlmMTNjMjY2Y2Q5ZWE3YjEwYTc0NDE3MWQ2YzM5MjkwNjhjNmQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzdlYzQ0MzcwYWVjZDI4ZDNmOWEwYTdjNTlmMTNjMjY2Y2Q5ZWE3YjEwYTc0NDE3MWQ2YzM5MjkwNjhjNmQxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L67-L71",
+          "version": "repo-lines-v1:sha256:6dc991f713c88f256cbd8e11275c9f4b163c8b377275226cb0afb1bf071e2ba3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1Zjk0ODVlMjk0MjA5ODc3MDllOTExZTNiOTc4MmRmZWRkNjRhZTc0NWVmOGFkZDE2NjU3NmUyYTc4MWVkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L71-L71",
+          "version": "repo-lines-v1:sha256:19c2cc1d174fca02d90f5e133ae3030b838d72df66457d2c27b77e1a18548654:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTljMmNjMWQxNzRmY2EwMmQ5MGY1ZTEzM2FlMzAzMGI4MzhkNzJkZjY2NDU3ZDJjMjdiNzdlMWExODU0ODY1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTljMmNjMWQxNzRmY2EwMmQ5MGY1ZTEzM2FlMzAzMGI4MzhkNzJkZjY2NDU3ZDJjMjdiNzdlMWExODU0ODY1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0220207a63594a80a694b565784b9347",
+      "statement": "The v1.9 release (2026-01) added beneficial-ownership checks for entities, and it is the only changelog entry for API-07.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L73-L75",
+          "version": "repo-lines-v1:sha256:1ee4bb94e6d8b36a7e358b24142ccb1188122a46df126acef4afb38103c9c655:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGUxZWIyYzY5NTViNDNhMTk2Nzg0OWMyZjFjZmMxNGRmMmNhYTU3YWMwYjJkNTk5YTNkNWRlMzE0ZjJlYzFkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM4NzNmNWZjNmViM2YwMTIwYzk0ZDc2ZmU2MzNlODExYTQwODM1MzQ2NjIzNDUzZWUzZDU2MTIyNzFhMTFlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0a9b66712b484837aa15308ea4dc03f3",
+      "statement": "API-07 is not marked as an upstream feed for any Tier 1 model in the API-to-model lineage matrix.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1361-L1380",
+          "version": "repo-lines-v1:sha256:c1fc98d70c30a275deb305025aff36f78beaae8a3e3179022a5fc9a020ce23bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmZTZkZjBkODk4Y2JhMmJjYjgyMTU3YjgyZDQ1MDZjN2UxNWQ0OWNiMmU1ODE0ZTcwODkxNjI3Njg5Njg0NDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNDcxYmY5NjMyYmFlODc2ZDM0YTI4NGY2YzQ5YjhhMzc0OTI0OWRlYzQ3YTBmNTI1MmYxNzk0ZWJmOTIyYWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3NWM4Y2Q0Njk0MzRlNmYzNjBmZjY1NzZmODJkZmFjODBhYjkxZTI5ODAzNjM5ODczNzliMmIyZGYzM2M4ZDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3ZDdjZDk0YTBmNmJkOTQ3MGZjNjhmMWEzMjYzOWIxNzI1ODZmNjEwZWI3YjQ0NDBkNDZiY2M3MDY0ZDU3YWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_cde57d0777eb49db9afff35b74938459",
+      "statement": "Platform-wide rules apply to API-07: OAuth 2.0 with mutual TLS client credentials or PKCE authorization code, Idempotency-Key on POSTs retained 24 hours, 429 on rate limiting, a standard error format, and major versions in the path with additive minor versions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L29-L75",
+          "version": "repo-lines-v1:sha256:3d0b61f5931366eb7ccf2018927644701e6c2a7f5f4e94772add40d8756690eb:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxNDQyMzAyNTg1YzhlYzI0MmVhZjM4YTg1ZDdmMWI3ZDM2NjYyYjYzODNlZmQ1NDViMGJkNDkzZTNiOWJhZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjAxZmQxOTQwZGI4MWMzODI4NzMzMDkxNzlmZWY4N2Y1MDk0YzY5ZmZjMTY0ODYwN2VjNjA5OTgwZDljMDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIyNmZkMDg5MzI4ZTI3MTg2Zjc5MDVkYTU5MDkxMzU2YTNiOTdkYjA5ZmEyZDRkMGRhOWMyOGVlNDk4MzJiMzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

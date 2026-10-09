@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:57d021b6506d93ea320f83d2bfea26efc869b86b2efba4ad05d77800503de7f0",
+  "claims": [
+    {
+      "id": "claim_6fcca9c6dd7a481e988639040185a9b1",
+      "statement": "Dana K. Whitfield is the Chief Risk Officer; she reports to both the CEO and the Board Risk Committee and leads an independent risk management function organized by risk stripe (credit, market, liquidity, model, operational, compliance, reputational).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L58-L58",
+          "version": "repo-lines-v1:sha256:1c19ce1e44a500a3cd85f3849305e392a6297b966364417f6480317fa48b39b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMxOWNlMWU0NGE1MDBhM2NkODVmMzg0OTMwNWUzOTJhNjI5N2I5NjYzNjQ0MTdmNjQ4MDMxN2ZhNDhiMzliMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMxOWNlMWU0NGE1MDBhM2NkODVmMzg0OTMwNWUzOTJhNjI5N2I5NjYzNjQ0MTdmNjQ4MDMxN2ZhNDhiMzliMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODkyN2JhZTZmZWU5MmEwMzllNDg2MzU1OGFjMGI2YWY0NWEzMTU5ZDIwM2U2M2ZlNjY2NjcwY2ZmMTMxOTBhZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWVhZDkzOTA2MDkxYWRjOGZlOWI2N2NmZTcxYWVjNjg2M2UxOWRjNDgxM2M5NTE3ODkyMTM3MWQzNDAxYTY0MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c0568efd5294953b066e3d7a9d69f95",
+      "statement": "MHFC applies a three-lines-of-defense model: lines of business and Treasury/CIO are first line, Independent Risk Management and Compliance are second line (setting appetite, policies, limits and challenging the first line), and Internal Audit is third line reporting to the Audit Committee.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L60-L60",
+          "version": "repo-lines-v1:sha256:13f52fad57234708a9436c28bdcc98070b27724f90cd7136f38482a5f6c08a1b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNmNTJmYWQ1NzIzNDcwOGE5NDM2YzI4YmRjYzk4MDcwYjI3NzI0ZjkwY2Q3MTM2ZjM4NDgyYTVmNmMwOGExYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNmNTJmYWQ1NzIzNDcwOGE5NDM2YzI4YmRjYzk4MDcwYjI3NzI0ZjkwY2Q3MTM2ZjM4NDgyYTVmNmMwOGExYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTEzYWE1Y2MxM2UyNjRkYjBhYzMzNTFkZDk5NTgxYzg3ZjViODg1Y2Q0ZDQ0YjY1ZjdhN2I0NjdlMzMzYWM3ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjM4ZWNkNDg0YjFmZGU3ZmIwZDM1NzA5N2E1OWQ2MGY4NDRlNjc0NmM0YmEyYWNiYjQ4MjdkMDRlZWI1NDM0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_136905963b024954a6ee60848dab426a",
+      "statement": "The Model Risk Governance & Review (MRGR) function reports to the Chief Risk Officer and oversees the Model Risk Policy, which aligns with SR 11-7.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L437-L437",
+          "version": "repo-lines-v1:sha256:7cc957c76dc34ed3b70d019aa480292f26f1edf932e43907829acd27e4a41cf6:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2NjOTU3Yzc2ZGMzNGVkM2I3MGQwMTlhYTQ4MDI5MmYyNmYxZWRmOTMyZTQzOTA3ODI5YWNkMjdlNGE0MWNmNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2NjOTU3Yzc2ZGMzNGVkM2I3MGQwMTlhYTQ4MDI5MmYyNmYxZWRmOTMyZTQzOTA3ODI5YWNkMjdlNGE0MWNmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTY5ODY2YzQ1ZmNkMDE5OTEyYzgzYWY5NGY2NzQ5M2EyMjU4YjZkYWM4NjU1NTYwNGVkNDg0MzA5YmFjYmU4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWRkOWUyYmNkOGY2NGZhYmU3YzU4OWM4OGZmM2MwMGE5NjllZjY2YTc0OWJkYWI5NDg1MTU3MGVmNmQ1NWRjZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_11aa8c3d89574f55b4c86d3bfa682dc2",
+      "statement": "Models are risk-tiered; Tier 1 models require annual independent MRGR validation, quarterly performance monitoring, annual owner attestation and Firmwide Model Risk Committee approval; material model changes need MRGR approval, and a breaking upstream API change automatically opens a model change review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L439-L439",
+          "version": "repo-lines-v1:sha256:d255d849949e9431f4b56456bc4723afb3a85ae796e0da0f6a1be958b4ba9064:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI1NWQ4NDk5NDllOTQzMWY0YjU2NDU2YmM0NzIzYWZiM2E4NWFlNzk2ZTBkYTBmNmExYmU5NThiNGJhOTA2NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI1NWQ4NDk5NDllOTQzMWY0YjU2NDU2YmM0NzIzYWZiM2E4NWFlNzk2ZTBkYTBmNmExYmU5NThiNGJhOTA2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjNhMmYzYzI0NmQ1Njg3N2IyNzhiZmZmY2FjYThjZjRhYzY1ZjFhOTgwNjk2NWRiZWMyNmQwZDljOGM1MzYxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U0YjRmYmU4MTMwNTQ1ZDBlNGU3YzhlY2I3ZjY2MDY3YTk5YzFjNmUyOTMwZTVjYmRlYjk3MjdjNGNhZjRjYiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L472-L474",
+          "version": "repo-lines-v1:sha256:1a8ff1ed0a1f67c82640bb7b56a809cd8b268bc39cca5d95b7d2c6f224e0d283:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDMyODc2ODI4YjA0Zjk0MDFkMzY4M2E1NGVkZTU3YmQ2Y2QwYTBkYTlhZDJhOTMxMzE3NjI5M2Y0NTdjM2NjMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA5ZGIyMjQ0YzA5YmJiNTI3ZGFhMTc5NDg1OTU5MTE1ODY3YWE5MWQ3OWI4MzdjZmFmNzZiM2MwNDc3M2VmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWY1OTY5ZWMxOGQ1OTY5Zjc3Njk5MjAxMGI3YTE2ZGZkOWE0ZWU5ODBhMGNkODBkY2M5Y2RhNjUzN2E0YTE5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWUyZGY2NmVhYzA2MjU0YjIxMzQ4OGY5NWYzNjU4YWM1YmY0ZDA2ODdmMDI3ZTNkNWU2YjVlNDAyODUxYjM1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bf21ef9d9b7b41279fd4928176816445",
+      "statement": "MRGR independently validated the three Tier 1 models driving disclosed figures (MDL-ALM-014 on 2025-09-18, MDL-CR-007 on 2025-11-04, MDL-CAP-003 on 2026-02-27) with findings: medium on constant deposit betas for ALM-014, one medium and one low for CR-007, and none above low for CAP-003.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L476-L517",
+          "version": "repo-lines-v1:sha256:421e60159ed0716743ea882be647cdf3409d69687a13bae2177ebf6a5b029880:eyJzZWxlY3RlZExpbmVDb3VudCI6NDIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyZWY2N2Q2MDBhZjM0ODAwYjYyMTYyM2MxY2UwN2FlZGNiNTE1YmI0MTQ5ODQzNGNjZGE3ZDcwOTc4NWE4ZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJjZTlhZjkxNzYwOTgyYzVjZTU5ZGI3ZDQzNDI5MzdhNjllYmRjNGI1ZGFjZGE1OWM1NmNlYzgzMTNkZDUxZjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJhNjc2M2ZmZmQwY2Q1NmZhYjZjZmQxNmIwZjM4NTU4NjUxOGJkOGQxZjU5YTA1MjVjYjBlZjVmYjk3M2JjZTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI1NjgyZmMyZTMyMzQyZWY0MGFiNmFhOWMzNjIyNjY5ZTdjM2UwYjc5YjUxZjY2OTQxMTM3MzBkM2JjYmE5NjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_76827e62cebb4238b9542b6b3a7aac6a",
+      "statement": "The Firmwide Risk Committee is chaired by the CEO and CRO; other risk committees include the Firmwide Model Risk Committee (approves Tier 1 models), Allowance Committee (approves scenario weights and overlays), Capital Governance Committee, ALCO and Data and Technology Risk Committee.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L79-L91",
+          "version": "repo-lines-v1:sha256:38db94b6a374776f2df2940938859e659eab4ba707d8e80d4eb3268a1048c950:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1YTVjMjNlZjNjNzE1MWY2NzlkN2U1ODNlY2NhM2Q1NTEzZTdhYmU5MzQxNmZkMDM2ZjUzZTg5OWY4YTJjMjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5NGU0ZTgzZGFhZmRkZjUyZjg0YWJmM2IzNDJhODFhZGQzZWZkNzhjMmE5YmQ0OGM5YmI0MTM3YWUzNDgyMTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMjNhYTY5OGVjOTViZGQ1YmRkYTZhNzhmODc1YjkzMzFiMmU3ZTRmY2FkYjdlMGQ2M2RkOTc0ODg1YjlkYmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NTc5NWRmNTBmNTUzNmVmMWIzZTI0YzRhYWJkMzY1MTY5MjBjMTdlMjAzODk0OTQyY2NhNmYxZjY4MjZkN2YifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_27db1c547d6c48b19e789a062edd687e",
+      "statement": "Independent oversight of liquidity risk comes from a Liquidity Risk Oversight function within the Chief Risk Office, credit risk is managed by the independent Chief Risk Office with the lines of business, and Market Risk Management reports to the Board Risk Committee.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L319-L319",
+          "version": "repo-lines-v1:sha256:6b6be6786fa76ffd9357db70f2bcb1be505287fb4c06a587ba864126e5124e0f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI2YmU2Nzg2ZmE3NmZmZDkzNTdkYjcwZjJiY2IxYmU1MDUyODdmYjRjMDZhNTg3YmE4NjQxMjZlNTEyNGUwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI2YmU2Nzg2ZmE3NmZmZDkzNTdkYjcwZjJiY2IxYmU1MDUyODdmYjRjMDZhNTg3YmE4NjQxMjZlNTEyNGUwZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWQ0YzI5ZmI5ZjMyNjA5OGQxNWJlZDg4OGMwMzAzZWNlNDUxMmVlMTk4ZGMyZTQ5ZjFkMjBkYTgwN2VlNWI5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2IzMjQxYTYyOWYxMzc0ZjIxY2Y2MWJmYzgzMjgzOWIyNzE1ZjM1MTI3YmM2N2ZjNTcxYWJkMjVjNDViZmFlZSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L339-L339",
+          "version": "repo-lines-v1:sha256:6f925e123922221263e99a633855743edf6bb9b11fd8c630e22ab4dff6dc3937:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmY5MjVlMTIzOTIyMjIxMjYzZTk5YTYzMzg1NTc0M2VkZjZiYjliMTFmZDhjNjMwZTIyYWI0ZGZmNmRjMzkzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmY5MjVlMTIzOTIyMjIxMjYzZTk5YTYzMzg1NTc0M2VkZjZiYjliMTFmZDhjNjMwZTIyYWI0ZGZmNmRjMzkzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE5OGFkYWM5YTU3YjRiMGEyOGEyMWM5YWNkMGFhNGRmMmE3MmFhMDM4NWY5OGUzYzljYTBlY2I0YTRiZDlhZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmFmZDgyY2E0Mzk0MzNmZjY5ZTczY2RhMTQzMTNiYWIzZmVkMGVhNzJjZmU1OTFiOTA5ZDhkN2M2ZWI4YmQ2MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L395-L395",
+          "version": "repo-lines-v1:sha256:5ed8b00141578d6e442776192c64baa7ae0862fec616c424f1930ec4a1fdbc0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVkOGIwMDE0MTU3OGQ2ZTQ0Mjc3NjE5MmM2NGJhYTdhZTA4NjJmZWM2MTZjNDI0ZjE5MzBlYzRhMWZkYmMwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVkOGIwMDE0MTU3OGQ2ZTQ0Mjc3NjE5MmM2NGJhYTdhZTA4NjJmZWM2MTZjNDI0ZjE5MzBlYzRhMWZkYmMwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBmMmJmZTA3YjIyYjVmMWNjMTQwN2Y5MGQ5YzkyNDA2NDlhZjQ3ZDgxMTIxOTY4ZGE0ZjY4ZjQxZWFhOWY4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmM1ZTU5OWUwNjc0MmY2YTQzYzNmYWRkYzI3MWFlYWQ5NTMzN2MwNzljYzFlYmM3ZmZmZDM1OWQwOTI4ZDljNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a0e9913060c04c05a7d53eb8d9329612",
+      "statement": "The CRO and Chief Compliance Officer provide input on risk and control outcomes for every business and for individual material risk takers to the Compensation & Management Development Committee; in 2025, 1.1% of eligible employees had incentive pay reduced for risk, control or conduct issues.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L543-L545",
+          "version": "repo-lines-v1:sha256:5723bbe094c30bdcd4bd2a4f53fd03cfbd3dbb2c220a6a5412a99bfdd5542241:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDE5OGMxMTE5ZjFiNzAwNDBjMTMyZTgzYWJkYWVlNWM2ZTJmOTBlM2ZkNWI1YWI2ZTMwOTMxNDMzNWQ1MzM3ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZmYmZlZGMzNTM2MzRjMmNjY2UwZTQ5ZjA3ZDk5MTUxYjc5NTEyZDg2ODdiZWFkMzhmYTQyZWE5ODE5MGVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGMzOGFjZDRhOTI3ZmNhYWUwNjVhNjg0NTczYTM5NGEyYmMzZDM5YjVhZGM5M2JiNWVmOTcxZDA4OGE1NTE2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWM3ZTljNzA2YTQ2MWE4ZTc1NDU3N2ZkODQzY2U3MGI3NjMzMjY2N2Q1MjM0MzFiMDg3Mzc3NDBkNGUxMThhYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3b9e41817b3249f5b91f74dbc33f4c95",
+      "statement": "The Board-approved risk appetite metrics were all within limits at December 31, 2025, e.g. CET1 15.08% vs 13.0%, SLR 6.1% vs 5.5%, LCR 116% vs 110%, NII decline under -200bp 6.0% vs 7.0%, Card NCO 3.42% vs 4.5%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L66-L77",
+          "version": "repo-lines-v1:sha256:9c94b3944a60e48ae2c4f31c10d419e9e12c80c47b55a232187ed9a0fb676c55:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhNjUzZmFlNzdmN2E4OTExMjgwYjg1NGU4MjFmZDAzNGRkYzM0MmMzMmMyNjQ0MzNmNjc0OTRkN2E3ZTM4NjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhODZjNWVmODEzNzEwYTI0Mjg5ODVhNDBkYTU1YWQ3ZWYxMDhmMDZkNzlkMDg4NDJhMmMxYjI3MWUwNDQ0YzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViZmMxNWU1YjE4MWJmMDEwZjk4ZDc4ZDk4ZTlmMTUwY2Q3ODFkZTQ5MmZjMDc1MTA3MzFlOWNmM2JmZDllZTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmYWZjZWQxZGEwMGI4ZDM0OTI4MWY1YzI1NDQxZjNhNjgwY2Q0MDE2OGJlMTMzMTI0OGFjM2IyNmZmOGViM2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5a9ffab31f274baea4142275727051fe",
+      "statement": "On the July 14, 2026 earnings call Whitfield said the Card allowance is roughly 6% of loans (almost two years of charge-offs), that a full downside weighting would raise the firmwide allowance by over $4 billion, and that criticized office loans fell for a second quarter with office allowance coverage near 10% and office about 2% of loans.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L389-L389",
+          "version": "repo-lines-v1:sha256:b6f6c6d0c1af66bcab66958fb923fa6e7e90f26932a4abea411d9c2921a8e41b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjZmNmM2ZDBjMWFmNjZiY2FiNjY5NThmYjkyM2ZhNmU3ZTkwZjI2OTMyYTRhYmVhNDExZDljMjkyMWE4ZTQxYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjZmNmM2ZDBjMWFmNjZiY2FiNjY5NThmYjkyM2ZhNmU3ZTkwZjI2OTMyYTRhYmVhNDExZDljMjkyMWE4ZTQxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2ZjY2M0ZDkyYjNhN2YyNjYxNjU2Mjk4MWRhNjMzYzY4MDI5ODBlYzBhNTJhZmJjY2I0NmJkNWYzOGUzMWIzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmU0ODNjMWIwOTZlYzA2OTM4NDhmMmUwM2JjYjRiYWI0M2M5MDVhZjRhYzkyZTM0OWRjYzk1ZWY0MTM3MmY5NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L448-L462",
+          "version": "repo-lines-v1:sha256:f6efb120c2c78f28564c3c6f0220dfe3c06ef9672d5757eee287c387277780cc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiYmY5YjdiMmY5NjFhNjNmNzA4OWNjMmM4MjI1YTA2OTUxNTFhZmQ2NzMyYTgzMjNmYTRkNGU1MGU0YTM4NTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3OWM4Mjk0ZGVlZGNmMmZhNDFkMjlhMGUyYjljN2ZkYmJmMDE1OGZjMzBlZWI1NjllMjhkYmUyYTQ4OTRjYmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRmZTMwZjBkNTljMGY5MjY3MWQyZTllN2Y4OGY4MjI4ZmFlYmRjMzIxOWVlYWI0OGJmYWZjMmEzZDI5NzkzOTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBlYmY5YmJhZTQ1YmM2YzEyN2UxOGM2NWM3ZmMzYmQ5MzcyYzNmNGM3NmU1ZWE5OTliYzZjY2M3NzEzNDE2ZmIifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

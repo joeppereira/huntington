@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:38b1289eb8cc14ed0649ce080317c1683ef386b45ec5fb5ab3eb9f81f1d7e5c0",
+  "claims": [
+    {
+      "id": "claim_82e12b123427483a8c8ba41b7bb7d870",
+      "statement": "CMP-2026-1189 is a regulatory complaint from Halvorsen Industrial Supply concerning an international CBO wire of EUR 412,600 that showed status 'Completed' at 2026-09-16 10:42 ET, was then rejected by the beneficiary bank on 2026-09-17 with ISO return reason RJCT AC04 (account closed), with funds returned to CNB on 2026-09-21; the client had already shipped goods on 2026-09-16 in reliance on the 'Completed' status.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L183-L188",
+          "version": "repo-lines-v1:sha256:ecc285eaf96f70a87269e9fd8bd08794a7428e3e4c02205b208bc0937ec2ee52:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmE3ZmZkNWQ0Mjc2OTlhYzQxMDhkNTgzOTBkOTI4YzJjZGVjMzhlZmRhOTkwODc3MTNlOWI4NmNlZTcxMzI5ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc2MGUwNzkxMjlkYjczMjg1YTk2MjA4MzJjNWE2YmNjNDhjN2ZhYTJiOTYzNWI0NDk3MzhiNTA1MGI5MTFlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDU4ZTkxMTdkYmJiMDYzZDMzMDhjYzI5NmNmMjA0ZDY0NmEwNDFjYTgwMTViMGE2YjJmYWI1ZmNmNGZiOWZiNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L106",
+          "version": "repo-lines-v1:sha256:a9f16681c783df01fad908210e986fddb962c52e09d1827c90035f3787dae453:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmRmNDcyZTFlZWVkZjg5MDI0MjI2NTQ3NzI2MjYwZTg1NzkyMTY2MTdjZjJmODc5ZWQ1ZDYxYjk5NjZlMjIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a2e460579d2c4f418f2248568ca7b814",
+      "statement": "CMP-2026-1189 is tracked in Jira as linked to bug CBO-4419 ('Client complaint: wire showed Completed then returned/rejected'), which was Open with no assigned sprint and root cause recorded as TBD as of the 2026-10-05 export.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L36-L36",
+          "version": "repo-lines-v1:sha256:66fa16158f30910f618d8f4aa88b9406d6dd7fb535cb1d535d9c6e9fb99d1324:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjZmYTE2MTU4ZjMwOTEwZjYxOGQ4ZjRhYTg4Yjk0MDZkNmRkN2ZiNTM1Y2IxZDUzNWQ5YzZlOWZiOTlkMTMyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjZmYTE2MTU4ZjMwOTEwZjYxOGQ4ZjRhYTg4Yjk0MDZkNmRkN2ZiNTM1Y2IxZDUzNWQ5YzZlOWZiOTlkMTMyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWFhMjlhNTY4NDU1ZjczZDZlYzdkMGRlNzg1OTdiNmM4M2JiNTY5NWI3NDNkZDg5N2ZjYTBlZmFhYTc3MDk0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjRiZTJjMjk0NjA3OGI5MjFiM2FmODMzZjc3NDcyYzEzNGUyODA4OTI4YzVhNzU0NjFhMjAyYmQxOTIzN2YwZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L106",
+          "version": "repo-lines-v1:sha256:a9f16681c783df01fad908210e986fddb962c52e09d1827c90035f3787dae453:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmRmNDcyZTFlZWVkZjg5MDI0MjI2NTQ3NzI2MjYwZTg1NzkyMTY2MTdjZjJmODc5ZWQ1ZDYxYjk5NjZlMjIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_afaf4acd6d344b2eae1b4a5bd1ed92a9",
+      "statement": "The 'Completed' label shown for the wire in CMP-2026-1189 originated from CBO-4402 (Done, R26.1, 2026-02), which replaced the legacy 'Processed' label with 'Completed' based on a six-client usability survey, mapping it onto the same v1 PROCESSED signal rather than onto a rail-specific settlement/credit event.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L83-L98",
+          "version": "repo-lines-v1:sha256:5c0ee7a1ed92fbcdc1887de8b3193dc2281bbd7d05b5996790cdab38e9ea5daf:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5ZDZmODkwMGNhYjY1NDRhNjBlZDRmMWYxNGJhNjUxZTM2M2ZlZTFlODg1OWU2MjcwNDY1NjZmMzFjY2E4NmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNTFiZWI0NDRiNGZiZWEyYTNlYTU2NjVhYTg4YzkzZWQyYzQ0M2YwYTU3ZGJkYzQyMDgwMTczM2Y5ZWJlZGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxM2I5YjNmMTVkOWQyZmNmN2U4OTgzOGE1OWY3M2I4Y2Y4MjdlNjQ4OGJkZTkwMTczMDFhNWI0MWY4ZjZhZTIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c888c9b6799c4dd096d9430c904ca898",
+      "statement": "The structural fix for this class of complaint - migrating cbo-wire-bff from PPH v1 to v2 (epic CBO-4471) - is unscheduled, sized at 34 points, blocked on CES account-filter mapping story CBO-4473, and was not yet in PI 26.4 or PI 27.1 draft planning as of the 2026-10-05 export; a client-facing gpi status capability is also unbuilt, tracked only as spike CBO-4480 (status To Do).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L107-L121",
+          "version": "repo-lines-v1:sha256:6054533ffb87e20376656746d13ef0e9ec656e4cde00d0de0bb689548929b5f1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4MDNhMWQ0NjQyNzc0MWJkNDYwNWVmM2VkOGI2NjBmMjI5OTQ2ZTYyZjU3MGRkZGVlZTk3MzM5YWI4ZTljNDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmOGZiMGEwZDJhZDg5N2M5NWVlNDljOTVkMjE3ZGQ3M2I0Yzc2OTgwMWQzNGU1Y2I4OTFjMTdhY2U3M2M4MmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI0YzQyODk4MWE3MGY2MWE2OTllYzU2YjNiYTk1ZjhlMDEzNmI3ZTk4ZDNmMmYxNTZhMzUyYzBjNDY3ODI3MTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMzMjVjMjBmZTk4YjM0YjJlY2Y3NjZhMWRmNzUxZjg3ZDc5OTYzMGVmNjIyNDY4MjNmMjkxZDE1NjU1OGE1NzcifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L39",
+          "version": "repo-lines-v1:sha256:24be2c2946078b921b3af833f77472c134e2808928c5a75461a202bd19237f0e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMxNmUwYjcwNjMyMmU4MWVlNjEwZTVhMmVlMzk2YjM1YzExZTcyODA2ZmFlM2YzOTkwYWI5M2IwOTI0YmJmMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c030322f423543269052d7784d874cb0",
+      "statement": "PPH-2266 (Done, 2026-08) publishes the ISO pacs.004 return reason (e.g., AC04) on the pay.wire.lifecycle.v2 Kafka topic, but this data is only available on the v2 event stream, which CBO's wire channel (still on PPH v1) does not yet consume - meaning the rejection reason behind CMP-2026-1189 is not natively explainable to the client via CBO today.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L107-L113",
+          "version": "repo-lines-v1:sha256:3368cafdb0b6b5cbfa1b9a67247e306826af7835c147b7c32d283efbadc11fdf:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwM2ExZDQ2NDI3NzQxYmQ0NjA1ZWYzZWQ4YjY2MGYyMjk5NDZlNjJmNTcwZGRkZWVlOTczMzlhYjhlOWM0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0YzMwNDhkMTdmNTdhNjAyMzliZDJlMzFjOTQ1ZGEyY2I1YjljNDBmMjE0NTgxNGY3M2U3NjVmNTMyZmQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjRjNDI4OTgxYTcwZjYxYTY5OWVjNTZiM2JhOTVmOGUwMTM2YjdlOThkM2YyZjE1NmEzNTJjMGM0Njc4MjcxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYwM2Y0YTI2OTg0MjI4YmZjMDgzMzY2NGIxODIwOGIzYjkyODJjYzI5MWVkZDNiN2M4YTczMmNkMDY0YzU1NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L56-L56",
+          "version": "repo-lines-v1:sha256:b8ee3c7f2ce8740e0486351cf3c092ce82d961d0fb396da1a225657c6e80b8d1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjhlZTNjN2YyY2U4NzQwZTA0ODYzNTFjZjNjMDkyY2U4MmQ5NjFkMGZiMzk2ZGExYTIyNTY1N2M2ZTgwYjhkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjhlZTNjN2YyY2U4NzQwZTA0ODYzNTFjZjNjMDkyY2U4MmQ5NjFkMGZiMzk2ZGExYTIyNTY1N2M2ZTgwYjhkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWM2YTFmZTFiNDIzN2VlZWNkNTY4Y2YxMmU3Yzk1NWU1ODhmMzk1MDVkYjU2N2MyNWI1NmZhYmEzNTZjNDQ2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODMwODc4Y2M5MGUwYTI3ZTY2YThiOWU5M2U3NjVlZjdhZDY0NDZlZjg3NDEyMjYxYzRiNmZhN2EyNDMzOWM1NiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

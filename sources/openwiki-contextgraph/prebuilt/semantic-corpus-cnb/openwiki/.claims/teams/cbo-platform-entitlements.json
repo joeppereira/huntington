@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:ea68d7a40bd72784b234720df94ed4e4516f2ab7b65b34f95851148f22526a5c",
+  "claims": [
+    {
+      "id": "claim_41bca4ae06c64bd7b734413ff1032a06",
+      "statement": "CBO Platform & Entitlements is one of two engineering teams within Digital Treasury Channels Engineering at CNB (PTT), led by EM Nadia Haddad with Arjun Mehta as Tech Lead, reporting to Director Anjali Deshpande; its sibling team is the CBO Wire Center squad.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L52",
+          "version": "repo-lines-v1:sha256:014997715cf69f9d31017dabae4751dd00860ff2b446bc12560593e75b08f868:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NjAzMjVlZTYxNDVlYjgxM2I3YzEzZjQ0ZmFlN2Q1ZWFlMzMzNmQ4ODFiMGQwYmJmMDlhOTRmMmI5ZjcwYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIwOWZkNGNiMDE1ZmQ1MmYwODY3NjlmYWYyYmEyNTdhMDcwNmVjZGYzY2QwYzY2YThiNTQ5NDQ4OWIyNDljZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZGU1ZmYwMTIzYzQzMjdlYjIxM2RhYzQ0ZDEyZTM5OTE4M2UxNjU3MGNlNTdhMDBiZGY4YTQ1NmEyNjk3N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA3MjM2YjUyODgzZTU3ZjhjNTU5MzE4ZDQyMGUyNDA3YjI5ZjgyMTJjOThlYmY5N2Y5NmMxYjQ4ZmEyNGZjOTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bd7149f62c32478bbcb22aa9dd1e4a3c",
+      "statement": "CBO Platform & Entitlements owns two systems: SYS-CBO-SPS (CBO Status Projection Service, T2, technical owner and delivery Arjun Mehta) and SYS-CES (Commercial Entitlements Service, T1, technical owner Nadia Haddad with hands-on delivery by Arjun Mehta); both have business owner Marcus Chen.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L97",
+          "version": "repo-lines-v1:sha256:3e754189cd6ed7e6bf56a0003483afa983aa49ac9592ceab583db2167e8a0dfc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MTI4YjA3ODdhMjEyNjJmYTk4NGM4M2QyMmI3Mjk0MTJjZGI3MzJkYmIxNDgxZjM1N2VjMjk4MzQ3YzczZjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a088e2e242674cbba62ac8f6f386a575",
+      "statement": "CES is rated Tier 1 (24x7 critical) because an outage can block wire authorization/release bank-wide via its synchronous use by cbo-wire-bff, whereas SPS is rated Tier 2 because, configured for ACH only, an outage degrades a single feature rather than a critical workflow.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L39-L67",
+          "version": "repo-lines-v1:sha256:9f8fba30eb477c5baea0b323039623ce5de1cf872c7378ee39cbc01770febe9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMmFmNzY4OWUxNjlmZWE3MjBhZDFhOWMzOGU5MzYwYTVhYzZmNjg1YTc1OTFiNWU0MjczNzRiNGM0MTg4NjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNmQ4ZDJmMjMwODRiZDNiYzZkN2I4NjY3YjdiYmIyYmVmNzlmOTkwMTI1NDE3ZGIxMmFkM2Y4OTcxNzgxMmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZmY2IzNDUxYmMwNDk2NWQwMWU3YzIwYjk3YTJhOGE2YmE3NmM2ZDM0NjJmYmFhYzNjMDVkZDVlZTIyY2EyMWYifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L97",
+          "version": "repo-lines-v1:sha256:3e754189cd6ed7e6bf56a0003483afa983aa49ac9592ceab583db2167e8a0dfc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MTI4YjA3ODdhMjEyNjJmYTk4NGM4M2QyMmI3Mjk0MTJjZGI3MzJkYmIxNDgxZjM1N2VjMjk4MzQ3YzczZjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_246697595e4a452990cf7ac39a254455",
+      "statement": "CES is the named blocking dependency for CBO-4471 (Wire Center PPH v1-to-v2 migration, due before the 2027-03-31 PPH v1 sunset); CBO-4471 is blocked on CBO-4473, an 8-point story owned by Arjun Mehta mapping CES entitlement data into the PPH v2 search account filter, unscheduled as of the 2026-10-05 Jira export.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L137-L143",
+          "version": "repo-lines-v1:sha256:b24ca1151607cc87eb78792e118e4279b969a2de83f7f18b81279ea3443bc6bf:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZmYjFmOTYzYWU1MDI2NDAxNzNhNDg4YTU0OGZiYjg2MjVjMTA5OTg2YzQwZjIwODAzODA0ZGQ0YTNmOWNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg3MjQwNmEzMDgzOTZmODNlMWZiZGI1NzU3NjE3NzdhM2I4MTk2MDA1ZWUyZmIyYzBmZjAyMzk2MjNkOTZiYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_44af161e412440d3800de266d3eb0a0d",
+      "statement": "SPS is configured for ACH only (consuming pay.ach.lifecycle.v1) with no subscription to pay.wire.lifecycle.v2 and no wire mapping module; Wire Center still derives status from synchronous, throttled calls to the deprecated PPH v1 status API rather than from SPS, and Arjun Mehta is the named owner of the pattern for extending SPS to wires per CBO-3815 history and the 2026-09-08 ARB minutes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L65-L68",
+          "version": "repo-lines-v1:sha256:4520b92d88beeee9669255447905cd78d0eeb44509dd41a24c00e01cb7bd3bc3:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJiZmQ0YTk0YWM1NGUzZmFlYmE0M2ZlNTdiN2UzYmNjYWY2NDk0YzE4YzBkYjQ5Njk3ZWM1OThjNWI5N2EyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgyNWYwZmNmN2ViZjljNWM4YWRjZTcxYzk4N2Y5NWRkZDJhNzQ5MzliNTJjZGE0ZTFkZWU2ZDM0YTJmZDE1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E4OTBhODI2ZTA1OTQ2NWU5ZTZjOTk0ZjMwMWQwODkyNGQxYzQzZGQ1MGU5ZjQxODgyZWIwNzIwZTJhMmM1NiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L123-L130",
+          "version": "repo-lines-v1:sha256:73f651b80f4da2d6097d015e640756527dafaae95dc57ad42e700cfa194f8dac:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYxMDgxYmI3MzlmOTM1NjY0OWE5NzY2YWRlM2QyNDg1YmYwNmIwZGZkNTNmM2I3MjdkYzVlOTdhYjAwNzBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1M2NlNDkyZTNhOTA2ODZhZDkwOTNiZGRlNTMwNjk3OGFlODUyN2QyYmZlZTY3N2RlOGYyYjA2OTFjNTdiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzBlMWI3ZTBlNmYwYjJiOGM5ODY1OWQ3MDYzYTBjNTEzNzg3ZGM0NGNiZmYwODgzZjE0YTZkMDQ1Mjk0N2VlMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_02bdab3e18a44569ab98c557a81b2f22",
+      "statement": "Cross-team work for SPS or CES is raised via Jira project CBO (Platform component) and Slack channel #cbo-platform, with a two-week triage cadence for intake, rather than directly to the EM or Tech Lead.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L52",
+          "version": "repo-lines-v1:sha256:014997715cf69f9d31017dabae4751dd00860ff2b446bc12560593e75b08f868:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NjAzMjVlZTYxNDVlYjgxM2I3YzEzZjQ0ZmFlN2Q1ZWFlMzMzNmQ4ODFiMGQwYmJmMDlhOTRmMmI5ZjcwYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIwOWZkNGNiMDE1ZmQ1MmYwODY3NjlmYWYyYmEyNTdhMDcwNmVjZGYzY2QwYzY2YThiNTQ5NDQ4OWIyNDljZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZGU1ZmYwMTIzYzQzMjdlYjIxM2RhYzQ0ZDEyZTM5OTE4M2UxNjU3MGNlNTdhMDBiZGY4YTQ1NmEyNjk3N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA3MjM2YjUyODgzZTU3ZjhjNTU5MzE4ZDQyMGUyNDA3YjI5ZjgyMTJjOThlYmY5N2Y5NmMxYjQ4ZmEyNGZjOTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4f6208a38aad43bca95f8786e11522a5",
+      "statement": "New client-facing integrations touching SPS or CES require review at the monthly Payments Architecture Review Board (2nd Tuesday, 10 business days submission lead time), which governs new client-facing integrations to payment systems bank-wide.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L104",
+          "version": "repo-lines-v1:sha256:fae4a9556939959d55ed83f0fe4df01097e395d0b7844ebc1ddd2112e9078f06:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWNjNzQ2ZTk2NGI3NmI3ZTZmMDQ1NTVjN2M5ZmRkNThhZjRkOTUyNGU2MzFiMGQ4NTQ3MzEyYmE3YjlkNDZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBjODE5NzAxMjhiMmJjOWIxYmZiOThlNjFiMWZjMWEyMjUyOGRlZDE3MThlZjQ5YWMxODVkY2JlM2Q1ZTg5NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_58952a599b51406e936e23ed87ec0b94",
+      "statement": "As of PI 27.1 planning, CBO Platform & Entitlements' planning factor is roughly 1 story point ≈ 6.5 engineering hours at about 30 points per sprint, intake via Jira CBO (Platform) with 2-week triage, running at roughly 70% committed capacity — lighter loading than the CBO Wire Center squad's ~85% committed for the same period.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L138",
+          "version": "repo-lines-v1:sha256:1e2fed947d50a609157df7385e3543534ad4bc415464e1c1f9efb1d8a6b1723d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c58cf005bbdc4f4f9480aa9a9cd8efe0",
+      "statement": "The PTT engagement directory (CNB-ORG-PTT-2026-06, v2026.2) was published 2026-06-15 with next refresh due 2026-12 (Q4); PI 27.1 runs 2026-12-01 to 2027-03-05 with dependency asks due 2026-11-06 ahead of PI planning on 2026-11-17/18.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L140-L146",
+          "version": "repo-lines-v1:sha256:00fe0106bddb7fcb2a6b7facb8ca6fea83a48621a0efa6a87cded930ebcae0a9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3ZmFkZDFiMDljOWI4NGY1ZmM1MzUwNTk3M2UyMDFlMmM5ZGViN2QzZjM3MWNmYWQzMTM5NjI1Njk2NzkyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTdkMGQzMjA3NDgwYjRmMzI0YjRmNDQzMWZlYzYyNTYxYjMyNjgzM2I3MWY1N2ZkZjI5YzU3YmJmZTljOGVkOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjcwODEyMTFkZGIxM2Y3NzBkYjNiYTlhZjEzYzlmMGQ1MWVjMmQ1MjE1OTkyYTZlY2I2MDc0OTFjNDVmMTAxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGUxNDQ5ZGNiZDkyOTFjZDYzZjUyMjdjYjAxM2E0ZjAxODcxZWUzMDMwZmYwNjM4YTllN2EwYjE0MjAxYjY5OCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L15-L20",
+          "version": "repo-lines-v1:sha256:ceb1cc2b444f5ba620709ed8b476d22b3908cf85ba695e5f85cf668314e0b4e5:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTkzZmY0ZmZkODkxMjNjZDIyMDhhMDdkOGZhNzU3NGI1ZGRhNmE1NWUxYzU1NzhkM2IzYjIyZjY4Mjk1NTcxMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg5MGNkMmUzMjkzMjEwNTc4OTNhYjFiZDgzODJkNjdmNmRkZDUwYzVjNzAyMDdlMjBlNTI1N2ExMDY0ODc5MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2U3ZTFlOWM3ZDhhMjZmZTBkN2Q4Njk4N2M4YmU3ZDU3MjU0ODg2MTIxOTZhMGYzYjllZTZkM2IyNjM2OGJiYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzkzM2I4YzI2NGVlMTkyNDc0YjJlMWE2MzAzMDVhZmU0MGE2NDY1MDcwZDZmNTlkMjJlNjc2OTIxZDkxN2EyOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_56c087db5df648fdadbd61dd7cbcc3f4",
+      "statement": "Dependency conflicts unresolved between Nadia Haddad and a peer EM escalate first to the respective Directors (Anjali Deshpande for CBO Platform & Entitlements), then to the PTT Leadership Team (weekly, Mondays); compliance/policy interpretation questions route instead to FCC Policy & Advisory or the Privacy Office, outside the engineering escalation chain.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

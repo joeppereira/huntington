@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:0bc022179813253e95ce2e868c1aa0d49ae095e24e8400d4f11ea951e08cd042",
+  "claims": [
+    {
+      "id": "claim_2cc19b2378dc4f818a19b0e30d08d392",
+      "statement": "Global Payments Technology is the named owning team of exactly three Payments-domain APIs: API-03 Payments Initiation (v3.2, /payments/v3), API-04 Real-Time Payments (v2.3, /rtp/v2) and API-05 Wire Transfer (v2.0, /wires/v2), all classified Restricted - Financial Transaction.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:99b788ef36ab25d8dcbf41563cbc2b091358cf170480d9e0b70bd64c1e32f6d3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlNzA4NWI0YzRmYjZiZThiNWI1NTk0M2E4ODAxZWMzYWUxMWM4OGE5YmZlOTI5NWJmYjBkNmRiNWMzNzQ1MGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEyODkwZmExYWY2ZWMzOGYxYWIyOGEzYjAxZDBkZjk0M2NiZGFjOGZmNGQ0ZGMyNmM1ZjgyZmU3MTdjN2JkNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:a1cd4bc953e81d1ff5147cd551ebe197382d46908ef9ea3c260e33205c8858e7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE1MTA4OWUxMTFlZmI2MTAzZDQ2ZjQyZTc0ZGY4ODEwNjYyODcwYjc1YzYyNGRhYjQ0NDgxZGQ3NzU2ZTMwYTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkN2E2YjhjZDhiNWVmZjM1ZjZhYzdkNGVlOTQ1NzE5ZmFhMGJhMGRhNDdkZjk2OTkyOGU4YTc3MTlhMmRhMmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:0713b0351c51b0330e05d51e843e1cc29b1769d8183eef5dfb9c59a798104540:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBkM2RhMGI4Zjg5Nzg4Y2U5OGU1NDJmNTJlZWE3ZGQxMDRkOWMzOGEzMWVhNDYyOGMwMTJhNjk1ODllMjM5YzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA2ZjcyMWI5ZWYwYmRhYWI1ZjE1OWE5ZTU0YWYyOWI0MmVhZDM4MGI0NzU0YWFlZjc0YzdlOWExNDgyNjg1MDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_249e817c39254220bad60496f5d594b9",
+      "statement": "API-03 is a staged payment flow: payments move through received, screened, released, settled and returned. Every payment is screened by sanctions and the Fraud Risk Signals API before release, and cancellation via POST /payments/{paymentId}/cancel is only possible before release.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L4-L26",
+          "version": "repo-lines-v1:sha256:7a360f06ac2891302b0448033df30ed5307298a07163d9881f67244d0f978336:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExYjFjOWIzNDU1OTE3YWQyYTA1MjBmNGEyYjBlOTdjYmExMWFlN2Q2YWRjY2UzNjFmMTQxYTk1ODYyMjQ1YzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0NDZmMjVmMGY0YTc1MDZmNmU0MzI1ODBmMmYyMTViYjlhNzNiZGU2NDgwMjM5ODdiYzExZWYwNmQ4MmM4YTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNiZDgxYzM4MDE1YmI1NDNjNTRlNTVjNmVkOWJiNmUxNTI4MjNhYjZkYTNmY2MzMTZiY2NmMWJjZGUzNTQwZTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_43127b89ac14410e88d04cbe76708580",
+      "statement": "API-03 accepts bulk payment files (ISO 20022 pain.001 or CSV) through POST /payment-files under a dedicated payments.bulk:write scope, with files of up to 50,000 items, in addition to single payments created with an Idempotency-Key.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L6-L26",
+          "version": "repo-lines-v1:sha256:3cecf950eb2a659c5a45e8ed8742173d5e2d130d87e07b3600fe31a76f2d94c0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0NDZmMjVmMGY0YTc1MDZmNmU0MzI1ODBmMmYyMTViYjlhNzNiZGU2NDgwMjM5ODdiYzExZWYwNmQ4MmM4YTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEyODkwZmExYWY2ZWMzOGYxYWIyOGEzYjAxZDBkZjk0M2NiZGFjOGZmNGQ0ZGMyNmM1ZjgyZmU3MTdjN2JkNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6f88b10fe260424a804f7799bf3b4ef0",
+      "statement": "API-04 sends instant, irrevocable credit transfers and requests for payment 24x7x365, caps each payment at $1,000,000, reports status as accepted, rejected or pending-review, and offers GET /participants/{routing} to check whether a receiving bank is reachable on the network.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L4-L26",
+          "version": "repo-lines-v1:sha256:0613116b72bb54a26c653abfb945e2e0df6ae5aa6d00ae01537282db0b83d356:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkZjg3ZGUwZTBhYTMyMWVkOTlkMWI5ZmRkY2Q4ODJhMTUxZWYyYThhN2ZiMjBkOTJhNGE1NDU5ODJiYjBmODQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiOTIwNzE0ZmVkM2U0NWY5Nzc3NjIxNzZjNThiZGZhNjgyN2IzMzNiOTFmOGM5Mzk3MzQzNGMzMzNlNDk0MjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVlMjg3ODM5ZDM1MDgwZjA0MWUxMzI5YmQwNzA0NDA2OWM2ODkzODhmNTlkZDBjNzc0MjE4OGMxMGM1MTljYjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e46451f5b2b347c2907bc405aebcd61c",
+      "statement": "API-04's 99.99% availability and p95 4 s objective is measured end-to-end, whereas API-03's p95 of 400 ms is a plain latency target and API-05 states no latency target. API-05's 99.99% availability applies only during operating hours.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L16-L17",
+          "version": "repo-lines-v1:sha256:a59af27a2f40db97b63576c3ba950be5286e7564881c327e5587278e8c84ebaf:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTUyMmU1YmJkM2JkOGYyYmI1MjFiYjA3NWZlNjEwMWQzYjdiNGQ2MTlmZjNhZGI5NGViYTg1ZjU0MWRlMzlkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU3MDg1YjRjNGZiNmJlOGI1YjU1OTQzYTg4MDFlYzNhZTExYzg4YTliZmU5Mjk1YmZiMGQ2ZGI1YzM3NDUwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzkxMjcxNmIzNDQ3MzM3OTc1YjI4ZDlhZWIxYmE2ZDIzMmQ3NGI4NmY3MTlkZDNjMWM4ZDhjM2ZkY2M4OTgwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L16-L17",
+          "version": "repo-lines-v1:sha256:6dccef15b60d8d0bf787e7f6c6349b067ac012283e8f5d0d02933dcc9c3bcc6f:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGVlYTUzYzdlZWNjMWFlYzYyYTAzNDNiOWNmY2JhZDRhMWVlMDBlNjU4Yzg3MWY5MTNhYmFmYjY3MmU4MjRmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTUxMDg5ZTExMWVmYjYxMDNkNDZmNDJlNzRkZjg4MTA2NjI4NzBiNzVjNjI0ZGFiNDQ0ODFkZDc3NTZlMzBhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2VkNjMzOTRkMDM2MWY5MGNhY2FhYzVlODdjZjhiOGI0MzdmNTMyMTFmOTQ4OTI0NjY4OTY3MTNlOTNjMjEzZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L16-L17",
+          "version": "repo-lines-v1:sha256:a30659fad0bdd0856ae30dba652cbe736f7ac5ab08d181eeeab3bfe1638f7f8f:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA5ODQyM2E2ZWQ4MWJhZWNjNGUyZjQ1ZTQ4YzkxNzIxNTA5NzE0ZTY2ZWJkZDU5YmQ2MTM3ZDFkMDc1YTZhOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQzZGEwYjhmODk3ODhjZTk4ZTU0MmY1MmVlYTdkZDEwNGQ5YzM4YTMxZWE0NjI4YzAxMmE2OTU4OWUyMzljOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjEzNjQzZDdkZjdlYTg5YmFhYTRhMmUwMzJkYTc4YTViODc5OGE5ZGFlMzg2MTcxOWMyMWNiMzdjNjc0MWMwZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_71e395061e904ef7a819bdc0b50ec426",
+      "statement": "API-05 handles cross-currency wires in two steps: the client calls POST /wires/quotes for an FX quote valid for 60 seconds, then submits the wire with the returned quoteId. The wire starts in a screening status, is tracked by UETR, and goes out over Fedwire (domestic) or SWIFT (MT or ISO 20022 MX).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L4-L65",
+          "version": "repo-lines-v1:sha256:46625ced9213bc18ef8a639958217a3c255182f95f8d593527762a90e16365d3:eyJzZWxlY3RlZExpbmVDb3VudCI6NjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjY2I1MzBiMWUzNzQ1MjIzZjkzZjU0NWM2MGEzMzNlNzk0M2I3Mjk4MmY2NDc5M2U3ZmVhYTFhNWQwNzA3YzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMzNjQ4YWM4NTY0MGRiYzVmNmM3ODc0YWEzZGM2YjZhOTcwYTkyOTFiMGQwY2JhOThhYzUxYmExMzA5MTFkYzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3cf8082f3a5545988396290cd229a55f",
+      "statement": "All three APIs list the Fraud Risk Signals API (API-08) as an upstream source. API-03 and API-04 check funds via the Accounts API (API-01) and API-04 also uses Customer Identity & KYC (API-07). API-05 instead depends on FX Rates (API-13), and API-03 and API-05 also list sanctions screening upstream.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L80-L84",
+          "version": "repo-lines-v1:sha256:bc21930909355ee7b44e59acc4b61f7bedf79bdb19067bd34adebf28041fea4c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg2MGFhZDQ2ZWYxM2Q1OTcwYjg4YzY4ZWY5MTI4MTA2YmFkM2Y1MTYyMzNmZjgxNDQ1NDBlOGZkOTI4MGRhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L60-L64",
+          "version": "repo-lines-v1:sha256:e9dfebacfa7a44e7b7091f5a290f987b8393fd189a13349cdcc6d17bcaa5ce63:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YWZhNDU5NDdkMDM1NjlhOTdlNzhjMWJkZTc0ZmU5MTZjYjc4YWQ0YzI3ZGU5NTBjNzczZDQzOTdiZjhkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L67-L71",
+          "version": "repo-lines-v1:sha256:c9a9e20fafcf6a969806a76c46f297e0d28e2f44d06472f2d8e8afb47b4117b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFkNWU1YjAwNTQ0YjFkOTFmZTIyNGUzNTRmMmMxZjdmMWIxYzU5MDFiNTNlNWFhYmExNGQzNTA0OWY0NDBkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4ba710c683e9421ebbe0899c7c7f7238",
+      "statement": "Downstream, API-03 and API-04 feed the Webhooks & Event Notifications API (API-18), but API-05's lineage does not list API-18. API-04 feeds Treasury Liquidity Positions (API-15) intraday cash and API-05 lists API-15 and the general ledger downstream, along with Fedwire and SWIFT. API-03 lists the ACH operator and general ledger.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L80-L84",
+          "version": "repo-lines-v1:sha256:bc21930909355ee7b44e59acc4b61f7bedf79bdb19067bd34adebf28041fea4c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg2MGFhZDQ2ZWYxM2Q1OTcwYjg4YzY4ZWY5MTI4MTA2YmFkM2Y1MTYyMzNmZjgxNDQ1NDBlOGZkOTI4MGRhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L60-L64",
+          "version": "repo-lines-v1:sha256:e9dfebacfa7a44e7b7091f5a290f987b8393fd189a13349cdcc6d17bcaa5ce63:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YWZhNDU5NDdkMDM1NjlhOTdlNzhjMWJkZTc0ZmU5MTZjYjc4YWQ0YzI3ZGU5NTBjNzczZDQzOTdiZjhkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L67-L71",
+          "version": "repo-lines-v1:sha256:c9a9e20fafcf6a969806a76c46f297e0d28e2f44d06472f2d8e8afb47b4117b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFkNWU1YjAwNTQ0YjFkOTFmZTIyNGUzNTRmMmMxZjdmMWIxYzU5MDFiNTNlNWFhYmExNGQzNTA0OWY0NDBkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fdaec6ccc8334c47ac3e5c6a617857aa",
+      "statement": "The team's APIs have distinct rate limits and separate read and write OAuth scopes: API-03 300 requests/minute per client, API-04 600 requests/minute, API-05 120 requests/minute.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L15-L16",
+          "version": "repo-lines-v1:sha256:599d4d7a5d5a34e226f2218c706c2264106912989787ebc5062e518bfc66d3bf:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGUxYjVlZDI0MDg1NTU4OWM3YmZkMGJmZTY5YTU1NGJkZWRhNzU4ZDlhZTBjYjZiMmM5NWRkMWUzNzUxMjcyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTUyMmU1YmJkM2JkOGYyYmI1MjFiYjA3NWZlNjEwMWQzYjdiNGQ2MTlmZjNhZGI5NGViYTg1ZjU0MWRlMzlkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDA5NTk0OGIxNDU3NTI4OTc4ODI4YzVkMTFjYjEzYTZkYjEwNWJmNDFjMDg2OTIzYjU4MTJlMzY3ODAyNzdlYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjBhZGM2ZmI2MTA2MTkyNzZlY2QzMjNjNGY0NjhhNzZiNzQyZWEyN2M0ZGY4YTA3MmNlZjk1ZGM0MDZjMDEwZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L15-L16",
+          "version": "repo-lines-v1:sha256:a65831908f4b957e712a3ac931e2a485d6801c1201a08405a585f02299613b58:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M2ZDQ4MmE0Y2UzNDczZTdjMzM1OWVkNGE5Nzk4Y2NiNGQ2YTA2ZDM5ZTVhYTFiNTM0YjNiNDk1Yjk0YThlNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGVlYTUzYzdlZWNjMWFlYzYyYTAzNDNiOWNmY2JhZDRhMWVlMDBlNjU4Yzg3MWY5MTNhYmFmYjY3MmU4MjRmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDIzY2EwOGUyZTYzNjZmNWM1MDlhYjhmY2FjMzJhY2FhMTFiOTI4ZTg3ZGU5ODY5Yzc4NWYxNzhlNGUzOWE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGI1MDYwYjM3YzMxZDQyZjdhMzMwZTQ4M2Y3ODljMTA5ZDljMDhhMWM5NzFkYWM4NzYwZDRmNjcxZWI0YWMyYyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L15-L16",
+          "version": "repo-lines-v1:sha256:d53f9b8b5c7a21f602e95f264eaf4d46dc15994c0c9ab2506a3a221545c0350d:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQ0ZDU5NGYzZWI5ZTk3YWEzNjEyMmRmYjY4N2U5ODRmNzQ3NmE2OThlYzdhNDJmNTdhNDA5N2Q4OWU0MzgzNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA5ODQyM2E2ZWQ4MWJhZWNjNGUyZjQ1ZTQ4YzkxNzIxNTA5NzE0ZTY2ZWJkZDU5YmQ2MTM3ZDFkMDc1YTZhOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDY4ODBjODA3MTJkNDg5NDYyN2JmOWNhMzg0ZjEyOTdhODQ5Nzc0YWU3MWQ4OGU5YWU3YmY2OTRkYWRjODQ0OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjMxNTU1Mzg3MTE4MTFjOWRmNDk4OWFiYzcxMzA5Yjg3MDg0NTUzNzMwNjJkYjY0YjBlYTI4NDg5YWE0NTg5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7c6025fed66341bb92e062e8ec2fae54",
+      "statement": "Platform conventions require an Idempotency-Key header (UUID, retained for 24 hours) on POSTs that move money or create resources, and each team API's payment-creating example sends one.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L28-L32",
+          "version": "repo-lines-v1:sha256:f14b12946c294ac5f006ce5fefec607f88ba77567f930294f37caab03a783420:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiYTZiMzRkYzMwMzRhYzY2YjE5NjEyYWNkNjIzYTc5MTFmZGM1MzRlNjlkZjE4ZjMwMDhmNTFmNWNkMzY4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzFjNjI4ZTNmMjBlNzJkNGVlZTQyYzBmMTk0MDczMDQzZDYxNjg2ZTgxN2IyYmM3YzA2Y2EyMTI5ZTU0NDIxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWQxMTk1MjNmNDc4OTNlYWEzZDUxNDEwNzE0ZDg5OGM4MjdhN2YzNjQ1YzFmZWM5ODE5OWQyODEwMzZkNDc4ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjcwMjU2MTYzMDg5MjgxNDZkZmMyYjAwNTYyZGM3MWIwN2FkOTY2ZDA2ZmJlMThlMjgwYzJlNWJhMWJhNGVkMyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L28-L32",
+          "version": "repo-lines-v1:sha256:0b0c4d81256c880e30db312c8302139556d1632d1dc2cdf118eafcb90ab2a09e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiYTZiMzRkYzMwMzRhYzY2YjE5NjEyYWNkNjIzYTc5MTFmZGM1MzRlNjlkZjE4ZjMwMDhmNTFmNWNkMzY4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzFjNjI4ZTNmMjBlNzJkNGVlZTQyYzBmMTk0MDczMDQzZDYxNjg2ZTgxN2IyYmM3YzA2Y2EyMTI5ZTU0NDIxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVlYzEwOWY3NmJmYjJjNTQxODIzZDFmZTg0ZTM2MTE0NWQxNmU5ZjMwMmRlYmZiOWUxMGVmNWRkYTFkZDZhYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjcwMjU2MTYzMDg5MjgxNDZkZmMyYjAwNTYyZGM3MWIwN2FkOTY2ZDA2ZmJlMThlMjgwYzJlNWJhMWJhNGVkMyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L27-L31",
+          "version": "repo-lines-v1:sha256:1db4699b0239d76781d68ad13e1623a06bf6d3110c5db7453594072277fa3a86:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiYTZiMzRkYzMwMzRhYzY2YjE5NjEyYWNkNjIzYTc5MTFmZGM1MzRlNjlkZjE4ZjMwMDhmNTFmNWNkMzY4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzFjNjI4ZTNmMjBlNzJkNGVlZTQyYzBmMTk0MDczMDQzZDYxNjg2ZTgxN2IyYmM3YzA2Y2EyMTI5ZTU0NDIxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZhNDc2Y2NmMzhmYTYwYzUwNDM3OWJlNGVkMTZhYmYzNWE4NTdkMmU2OGEyZDhiNWZiZDMxOTIxMDFhN2E5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjcwMjU2MTYzMDg5MjgxNDZkZmMyYjAwNTYyZGM3MWIwN2FkOTY2ZDA2ZmJlMThlMjgwYzJlNWJhMWJhNGVkMyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L46-L46",
+          "version": "repo-lines-v1:sha256:c8e7dee74794687fe6f1dcff868322564d081dee49db751a1340317761224cdb:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzhlN2RlZTc0Nzk0Njg3ZmU2ZjFkY2ZmODY4MzIyNTY0ZDA4MWRlZTQ5ZGI3NTFhMTM0MDMxNzc2MTIyNGNkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzhlN2RlZTc0Nzk0Njg3ZmU2ZjFkY2ZmODY4MzIyNTY0ZDA4MWRlZTQ5ZGI3NTFhMTM0MDMxNzc2MTIyNGNkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDU4OTg1NTYzMGQ5YmRmYzk4MWY1N2Y4YTJkMmE2NTI2NjdhMjRiMWFjNGIwMWI2NTk0ZThlMjBkNmM0MTUzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGRjM2FhY2JmNWU4OTRmZTU2OWFkNDEwMWExZDAyNjYyMzlmOTNhMzFiZTk2MmRjMzU3NDI4NDQ1ODFjZTk2MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e54a8dfa872b447f9c4b853dc6d6a3d8",
+      "statement": "Breaking changes trigger a Model Risk Governance & Review model change review only for APIs designated critical data services under BCBS 239, which feed Tier 1 models or regulatory disclosures. API-03, 04 and 05 are not among the APIs the reference registers as such feeds.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L80-L84",
+          "version": "repo-lines-v1:sha256:bc21930909355ee7b44e59acc4b61f7bedf79bdb19067bd34adebf28041fea4c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg2MGFhZDQ2ZWYxM2Q1OTcwYjg4YzY4ZWY5MTI4MTA2YmFkM2Y1MTYyMzNmZjgxNDQ1NDBlOGZkOTI4MGRhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L18-L18",
+          "version": "repo-lines-v1:sha256:1911fe2b741a3143411f7afb253d43080ad46591d44c2882658a55dbd0bc0329:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTNjZDcyNGIxNmM2YTI5NmI1N2UxMzJiNmIzNmZmOWE2NjUxMjJlODMxYzQzYjIxNDQ4NzAxMDUzY2ZiNDNiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_83599bd4548c4de392e8117057b69664",
+      "statement": "API-04 request-for-payment became generally available in v2.3 (2026-02), v2.2 (2025-09) opened it to middle-market clients, and the reference reports 64% year-on-year volume growth in 2Q26.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:2df87de0e0aa321ed99d1b9fddcd882a151ef2a8a7fb20d92a4a545982bb0f84:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRmODdkZTBlMGFhMzIxZWQ5OWQxYjlmZGRjZDg4MmExNTFlZjJhOGE3ZmIyMGQ5MmE0YTU0NTk4MmJiMGY4NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRmODdkZTBlMGFhMzIxZWQ5OWQxYjlmZGRjZDg4MmExNTFlZjJhOGE3ZmIyMGQ5MmE0YTU0NTk4MmJiMGY4NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWUyODc4MzlkMzUwODBmMDQxZTEzMjliZDA3MDQ0MDY5YzY4OTM4OGY1OWRkMGM3NzQyMTg4YzEwYzUxOWNiNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L66-L69",
+          "version": "repo-lines-v1:sha256:f414ba6191d39a26622748c2f0dfd723ad42b71e9cd62cb2fa6dc3f201378155:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWU2MThiZDQxNTA4MWQ0MGZhNWFhMTNmNmMwYjZmZjJjN2U5NzFhNDBjZThhYmE0N2Q5YjdkMzAyM2Q3MWZkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWI3YmMzYzQ2OWFlNDJlY2Y4ZTNhZTlmMjA4YWQwMjFlNjEwZjA3NDUxYWQyY2EyYTcwYTVhMjVmMWE5NmRhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1ece71a3daf5b7111df006650c391071f669619b80ecaec7697b14970903e3d2",
+  "claims": [
+    {
+      "id": "claim_ac7cf8b61f46415096df9cce7cce0bed",
+      "statement": "Victor Petrov is Director, Financial Crimes Technology (FCT), leading the PRSP engineering team within Payments & Treasury Technology, reporting to Gregory Hall (MD, CIO, PTT), with Grace Mensah (EM) and Daniel Kowalski (Tech Lead, Hold Management Service) as direct reports.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L17-L22",
+          "version": "repo-lines-v1:sha256:edfe03e23df96dc45bc9cfb4c0067f979c4c69f5b5d071b731a327e18eb5826a:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTNjNTM5ODYzNjAzZTEzMmZhMWRkMjM4NjkyNTRjZWZhNmVlYTRmY2M5YThmNDEwYzU5N2UyMzBiZjlkYWRlNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDg4YzE0NWM1NWM3YWFjZTg2MGVlYzc4MjViNDU0M2Q5MmUzYjlmOGUzMTZhZDA0ZjZjNmFiN2I5OWVmYjc2ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_24415bf82c9646779deb9724a82b4d1d",
+      "statement": "Victor Petrov is named as Approver (Director, FCT) on PRSP-HMS-3.4, the Hold Management Service design and hold reason taxonomy document, which is owned by Daniel Kowalski (Tech Lead) and Grace Mensah (EM) and reviewed by Jordan Ellis (FCC Policy & Advisory).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L15-L22",
+          "version": "repo-lines-v1:sha256:6069ed8a3ceee635b2e43e4e1c367d6f0705313644281a802811986ae5b88d3d:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTdjOGQ3OWMxOGE5OTZmOGQ2OTczNTRiMjE5YTU2OGRiZWU2OTk3MWZjOTcwMmVkYTk4MTc0YTkxYWYxN2FiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc2NjYyODczYzY3MTFmYmVjNzQxN2QwMDc1ZTQ4NWEwYTZiMzgyNjczMTBiMzg3YWNjYWY4ZTFlMzkzMjZlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ebc38f32417b401f8b971140e710c6c2",
+      "statement": "PRSP-HMS-3.4, which Victor Petrov approves, defines a seven-state hold lifecycle (OPEN, IN_REVIEW, ESCALATED, RELEASED, REJECTED, BLOCKED, EXPIRED), a twelve-code hold reason (HRC) taxonomy with POL-FCC-014 disclosure tiers (P/C/G/R), data-handling rules for the Restricted description/analystNotes fields and the legacy HMS-to-PPH v1 holdReasonDesc sync (open risk FCT-2004), and interface/control rules including CTRL-PAY-012 maker-checker and CTRL-PAY-031 HRC-01-only digital attestation.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L28-L101",
+          "version": "repo-lines-v1:sha256:56f4cf2d9f4be1e7d690700d48b35cf3a7d19b4110e58c8de2e3e26b5ae0ab19:eyJzZWxlY3RlZExpbmVDb3VudCI6NzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1OTZjYmIyZGRjZDBhODlhZWE1NDY3MTg1MzBiOGE4OGJjNDEwMWQ2MTc2OTU3Njg5MmE0MGRlYWExOGZjYWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhZjUwYjFmODZlMGM0ZGRiMDM4ZmM4YzA5YzA5NGUyNzBjZmZkZDY2ZDRjNmExZjJhMzVkY2E3N2U4Zjg1NzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjOWQzZmNlYTkyYjZmNjhiZmI4MTIxNDRlMGM0ZjdjMzVmZjA1MGJmZTQ1NjYyYTUzNTI2OTY3YmFiNTExOTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzMzMxYTcxYzY2MzQ3YTllODNmYTM5NWJkMmJiNWM3Y2VhYmVmNzBkODA0NDI3OGJiM2IzZGYyNWQzZmVmNjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1eaa1c06e1d843ad94aa51d4b20b05cc",
+      "statement": "Victor Petrov is named in the MRM-POL-02 v7.0 Treasury & Payments model inventory extract as the owner of two Tier 1 financial-crimes models: M-FCT-0021 (Sentinel payment fraud score, a vendor model, validated 2025-12) and M-FCT-0034 (beneficiary mule-risk features, validated 2026-02).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L66",
+          "version": "repo-lines-v1:sha256:6fbbfb3cfdc09f08cc7e81f61719b2a1c94c6b47eb1488555c6817d62039ead9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ1ZmZkMjc0NWJmNzQ4ODM2MGFiN2FiMDAwN2NhNGYyYWZlNjc5MGE1NjMyNzI2NWM0MjA3M2E2NTMwNWJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThkYzNlNWQyNGVhNjRiOGMwMDliYjdkNzlhNTkzNzRiYjM5ODc2MDliZmExYTkwZDY0MTE3OGZkMzAyN2IxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTQwMWFmNmEwYjkzNmQ1MzQ4ZmVhNTU5ODkxMDJhM2JiMzcxODU4NjdmZGUzMzMyNzRhN2IwZjRlMDJlMjZmMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_74941885976549b18f04ae194b144a52",
+      "statement": "Under MRM-POL-02 Section 4, outputs of Tier 1 financial-crimes models owned by Victor Petrov -- including Sentinel fraud scores (M-FCT-0021) and beneficiary mule-risk features (M-FCT-0034) -- may not be used for product, marketing, or client-facing purposes, and vendor models like M-FCT-0021 require compensating controls and outcome monitoring where the vendor cannot provide sufficient development information.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L44-L48",
+          "version": "repo-lines-v1:sha256:a472ea2965d693b181c9f90bc6afc7a45036833ae8d10c13fc418f17ecf084dd:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzMzNDZiZjUxZDUzYzQ0NTIyMTRjODJjYWNmMzBkNGIzMTU0ZjZkZGFkOWNkOGRmZjFiODlkNjI1YzM2NzU3MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZmZmU5N2M4ZjA4YmZmY2JkODU5Y2M0YjE4ZTEzNzFhMWYzMjQ5ZTI2Mjg2YTdlMWZiNmY4MjIzYTBiOWI4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmI1OTc4NTA0OGYwYmUyMWRjNTUxNmYzMmM5NDFiMWY4MTg0MTM1NWMxYWU2NjkwYjhhZDRlNjRiNjU3MGVlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcyYTRjYjMyNWUxNzE1NGI3ODQ5YTU5Y2Q5NzljODU2NzY5MTg2YWQyOGRhMjE4ZTc5YWNhMDdmODRlODg2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_623379b8252a48ceb1eb2bca2e72e8ff",
+      "statement": "Sentinel's fraud score (M-FCT-0021, owned by Victor Petrov) is the detection mechanism behind hold reason code HRC-07 FRAUD_MODEL_HIGH (Restricted disclosure tier, ~8% of holds) in the Hold Management Service's hold reason taxonomy, directly connecting his model-ownership accountability to the hold-handling behavior approved under PRSP-HMS-3.4.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L46-L46",
+          "version": "repo-lines-v1:sha256:2ab196be7cadf232c6602cd6a8ce392cfa24f43020f3931a8c5426bc2b671e4e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFiMTk2YmU3Y2FkZjIzMmM2NjAyY2Q2YThjZTM5MmNmYTI0ZjQzMDIwZjM5MzFhOGM1NDI2YmMyYjY3MWU0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFiMTk2YmU3Y2FkZjIzMmM2NjAyY2Q2YThjZTM5MmNmYTI0ZjQzMDIwZjM5MzFhOGM1NDI2YmMyYjY3MWU0ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWIzZTcyNWI0NzI1NTQ0ZjgzYjIyOGJmZTNlYmVjNjI0ZmViMWU0YTRhMWI4NzFjM2I1NDhjZjNkZGViOGNmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzQyMGI2MWM5OGExNGNkMWVhYzA5ZjNjNzAwZTE2YjRkYmE0MzVjMTVhNDI0ZGFmNGIzMmQzNWNmOTJjOWQ0MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L44-L56",
+          "version": "repo-lines-v1:sha256:0df0f19dc189aaa2c4ee3f682cf037779d23fe834c936cbde802b571fecd58e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhZTBmZTA2NmU3ZTU2YmEwNTY5NGY1OGJiNzhiZTE4ZGFkZjczZDJhZTVkNTQ3Mzk3OWZlMmI2M2NmZjUwYTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0MDIwM2Y1YzdjZmIxMTc2OWI4OGIyMTJmYzRjY2MyMWJmNmNkOTM4ZjhlNDNmMGU0OTRiOWI5NzBhYjM2OTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwMjZmM2UwYjU0MmE2NTc1YmRmM2NmYzRkZDU5OGYxNGQxODNhZDYyNzI2OWUxNzBkNzZkZDYyZjVhZjNlMmIifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

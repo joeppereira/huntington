@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:afa4c1d9ba27c7b32dfcb92734c023df668a4a53a14d1460d7565af07079fc1c",
+  "claims": [
+    {
+      "id": "claim_f8b868d7e1de42af98f6406cf4c6990d",
+      "statement": "Rachel Goldberg is Crestline National Bank's Chief Privacy Officer and is the named document owner of the DUS-07 Data Use & Client Confidentiality Standard (v2.1, effective 2026-01-15, approved by the Data Governance Council).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L39-L39",
+          "version": "repo-lines-v1:sha256:e1b335e1db73d851ef79d4494d35682af337b6173167ca337d58c0720f62cec1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFiMzM1ZTFkYjczZDg1MWVmNzlkNDQ5NGQzNTY4MmFmMzM3YjYxNzMxNjdjYTMzN2Q1OGMwNzIwZjYyY2VjMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFiMzM1ZTFkYjczZDg1MWVmNzlkNDQ5NGQzNTY4MmFmMzM3YjYxNzMxNjdjYTMzN2Q1OGMwNzIwZjYyY2VjMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2MyZWRjNjgyMjBmMjU1ODJkNmYxMDM1MzM1NmQ4YjY2YTQ0MzRjOGY3ZDE5ZDI2YjhlODg4NWVjNzNhNmM2MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ4MDM4OTc4NmYwMmRlZmE4NzMzM2E3MmNlY2I5ZWFjNDNkZjkyMThmYmE5MzVmMzhlNTZjNTVlZWI5NTUyOSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L15-L23",
+          "version": "repo-lines-v1:sha256:a4763ef406e3345c394a4dd678c4bffbafdc818f279daa0effbe895e2c1fe77c:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM4M2Y0NzM1OWI3YzQzZjg0Y2Q4MmZhMTIzZGFiZmRmY2FkY2Y5NmQ0OWQ1MzZmYWU2MTZhODI2YWZhNDU1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNkNWE5NjBiZDFhMTFhYmVkYjA5ODYzYzUwNmY1YjQ2NDUwOGIxNTIwZmMyZmFlY2FlNWIyZWQ3MzJkMzVmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDgzZTNhYzk4ZmQ3YzFjMWE2ZjA2ZmYzNWRlYjAzNWZmNGNkMDA4MDMxYzYwYzNmNzlkZjQyOWQ4ZDZmZGYyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d00610d5e0f24a278b7a17f75c8d8f15",
+      "statement": "Rachel Goldberg also appears in the PTT organization directory as the accountable leader of the 'Privacy Office & Data Governance' partner function, with Ethan Brooks (Data Governance Lead, Commercial Bank) as the designated contact for product/design reviews and as DUS-07's standard contact.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L75-L75",
+          "version": "repo-lines-v1:sha256:2046230cd0e0510d1bd62a38b1e55a4836c17d4da0c9692f960b84a0222b743e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjA0NjIzMGNkMGUwNTEwZDFiZDYyYTM4YjFlNTVhNDgzNmMxN2Q0ZGEwYzk2OTJmOTYwYjg0YTAyMjJiNzQzZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjA0NjIzMGNkMGUwNTEwZDFiZDYyYTM4YjFlNTVhNDgzNmMxN2Q0ZGEwYzk2OTJmOTYwYjg0YTAyMjJiNzQzZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmI1M2Y2YjY3NDNhNDViZWIwN2ExMmUyZDJkZjI0YzZiYmUwNDQ1NDUxYjljOThmMjJkZTkyOTJhZjM2MTgzZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjNhZWJlYzAyNDI5YWVlOTM0ZDM3NGU3Mjc3MjFmNzhjOGVmNWNjNGU1ZGIwMjhhNmIwNjhiNWM4MDhmODViNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L22-L22",
+          "version": "repo-lines-v1:sha256:d039a30563ee09e37c79df026f325fcbd275c64bf68076873c7f854281fee08a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAzOWEzMDU2M2VlMDllMzdjNzlkZjAyNmYzMjVmY2JkMjc1YzY0YmY2ODA3Njg3M2M3Zjg1NDI4MWZlZTA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAzOWEzMDU2M2VlMDllMzdjNzlkZjAyNmYzMjVmY2JkMjc1YzY0YmY2ODA3Njg3M2M3Zjg1NDI4MWZlZTA4YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTVlYjBhOWRkMDJmYmUzOWZhNmFlMmIzMjIzOTVhZTcxNmMxYTFjNWYxMzA3NjRiZDE5MzRkZDQ1ZGM2NDI4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzAyNjJkYmYzMDQ0MDk2OWUxYjgyOGUzODkyMWVlMzIwMDA4NWRlYjg5YTQ5ZjlhNGJiYWNkYzFjNWQ5YTRmMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b2f5a54912b348aea6ce4ed1b98f6c13",
+      "statement": "DUS-07 requires that data collected or derived for one purpose (e.g. fraud detection, AML, credit) not be reused for another purpose such as product features without Privacy Office approval (and FCC approval for financial-crimes data), with feature tables inheriting the most restrictive permitted purpose of their inputs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L38-L40",
+          "version": "repo-lines-v1:sha256:3aaddc7c397555a338a34b6ce226481dfe6f1ec0617e50f9b12bd7338bf99880:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3MDg4NjljMzZlN2YyODU1ZWI4Yzk3NDgyNzkyMDVjMTY3ODM2YmIyOGRhZjg1YjIwYTVlNjY1OWZjNzA3YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzMzOWM2NWE4YjlkZWFjOTk5YjZhZTY0ZWJhYjIzZmVmMDFiNGFlMjcwYTBjNTMwOTQyMzQxMDA4MWM0NzY1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDMyM2I1ZDRlZDYzNWNjZjg5Y2RkYjZhODU4NmE4ZWYxNDU3MjRjNTg4MTM5ODk3YzNjNzAwYTVmYTZjOTMyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjM1ZmVmOWI3YzdlZmZmNTI1Y2Q5Njk5N2ZhMWM5NzEwZWI5ZWJmMjZhN2EwMjE5ODhhMmVhNGYzYTExNmFmZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e673610a43a2491d8a5c205258bd1919",
+      "statement": "DUS-07 prohibits using information about one client, including its behavior as a counterparty, to generate content shown to another client, even if presented as an anonymized pattern or typical value.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L42-L44",
+          "version": "repo-lines-v1:sha256:44f7824b941688d5f85ce2d547a0511eba13b594fd82035be0155bafc25e0643:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM3NDc4M2MyMjViZjNmMjdjY2FhMWY4YzFlZDI1NjRlNmE0M2VjYzdkZWI1MWIwYjQwMzM0MmZlNGUwZTI3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU2ZTU3MGI5NGUzNWRiMzkyZGRlNzYxODkzYzljNDRjMjJjMjMwNmFkMTY2MGRmYWZmMjBhMWRhNWEwYTE0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzNhNDYzZDczYjQ4NmFhMDYwN2E2ZjRhZjNiMTMzMTdmYWU4ZTg0YmUzNzJhMDYyZjBjZjAxZDI0ZjdlZWUwYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBlOTAzY2ZmMjE1ZGZiYTNkMjAzNTYyNDEyZDM1YmViMjcxMzE5MzhlOWUyMTYxZjRlNmViYjY4YmIzYWE3MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9297291454284ab1a7282efb56955ab8",
+      "statement": "DUS-07 permits client-facing aggregated cohort statistics only when the cohort has at least 500 transactions, at least 20 distinct originating clients, no client over 15% of cohort volume, monthly refresh, and Disclosure Review Committee-approved wording; failing cohorts must be suppressed rather than approximated.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L46-L60",
+          "version": "repo-lines-v1:sha256:b947da52469af808271803afaf573c53290020b53d6fda6fc78b9d28d4dc089f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxOTA0YjliNmRlYTJiOTZmMGQwZTcwMmExYWNmZjBlYjI3M2FiMzdiYjZlODY5NjcyMzUxZmZiMzNhMjJkMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZTc3MTExZDQ0ZTA4YWU5MWJhZTcxMTQyZTE0MmI0MzM0MjBmZmNlYjczMjJmODkzZGMwZjU2ZGI0NGE4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkYzM0OGY0NjliYjljYmQ0ZGY0NWMxODY0M2QyYzllZTNhZjY2N2Q3N2JmMjQ0NGJkOWU0ZTc2MmE0MzQwYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ODQ1ZWJlZTQ2MWY4ZDgwOWM4MzNiNDBjZjE0MDhhODFkYTVmMTVkNThmNGRlNDlkZGJlNGNiNGNkNWU3MGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f371ec219e9447eea36c7f9c0f77a013",
+      "statement": "DUS-07 allows a client's own historical transactions to be used for insights shown back to that client only if based on at least 5 comparable transactions and discloses the basis (count and period).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L62-L72",
+          "version": "repo-lines-v1:sha256:3f6f35e288f0265e4076102e458c82e4c3c78c0b01048f4ebe9bf2fbd55c1519:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmNDhmMWU4OTljZWM2M2Y5NGViNTMzMGQ1ZDBkZjI4Y2MxNTRmNTFiNTI2Nzc4MzM5MGFiYjE3YzJhNjJiZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU2YzVkYmQzN2EyZWIwMGIzOTlkMDQwZWQ4ZWYyNDRhMDcwMmI1MTc4MTJkYjgyYWNhNTkwMzRiOTM5YjQ4NzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY3Yjk3YWYyZGM4MjQyM2U2NTEzN2NjMzRjY2Q5MWVhOTNkMzI5N2M1NWNmM2MwYjc0NTM3M2E4ZGJmZjljNTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNiZTQ0MWYxMWMyZGY1OTExZTQxZjg2NGQ4MDYxZmM5NTE2OTdkNjhiY2QxMDcwNDI1OTAyMjAzMTNlNzcxNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8e6c0d6dd09c4cdda258f7d55a7331a1",
+      "statement": "DUS-07 approvals require: data-owner plus Privacy Office sign-off via Collibra DAR (~15 business days) for Restricted dataset access; a Privacy Impact Assessment (~4 weeks) for new client-facing uses of client data; and joint Privacy Office + FCC approval (generally not granted) for using financial-crimes data outside FCC purposes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L74-L80",
+          "version": "repo-lines-v1:sha256:bf2909299dec8002797551475360bb4461013ce2f3a66193984de7d2aa999107:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjdlZGI4NTRmNjg2NTVjMDg5NGM2MzBiNGExMDViMjVkYjQzNzliOWMzZTE1ODc5NTkxZmZhMDA3YWI3NjlhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjJmYmUwOTUyMzJkMDcwMjgxNDRkYzA4M2MzNjBkMTY2MjdiN2EzMjZkMTAyYzE5NzRiZGExY2IwMTg2NTExMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDFlNDZkNmY1NTI2OTYyMGI3ZTU3YmE5ZjkzNDk0NzQ2NmI1YzE4Zjg3MTg4ZTU5MWYwZDAxOTQ3ZDcwNGI0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDRkMDk4YmZjZTRkMGMyY2ZkNWVjMDdmOWJiY2FmZjM1NmU5Y2FmMDcyZDNlYmFkMDViYTFiZDkwNzM0Y2JkNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_035cc4e6ed9542a6a043d19d98e2e0d8",
+      "statement": "Compliance or policy interpretation questions from PTT engineering teams are escalated to either FCC Policy & Advisory (Jordan Ellis) or the Privacy Office (Ethan Brooks), and are not decided by engineering teams themselves.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

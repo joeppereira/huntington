@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:3919349099ae700b25030001f8cc9a1e6ad2448faf0d4978386f09f586d4012d",
+  "claims": [
+    {
+      "id": "claim_d6edccf476654d169951673e2f461e32",
+      "statement": "ADR-PAY-017, accepted 2023-11-07, establishes Kafka (Confluent) as the integration backbone for payment lifecycle events, applicable to all payment systems.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L26-L28",
+          "version": "repo-lines-v1:sha256:feab3971b7e348bcf49aae344536d750f9e79518b8a0c3bc28a0a53ba88e4ebb:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjZjMDA2NmU1MDY4YmZjODU3YTUzZTkxOTBmMzQ2NDI1ZmQ3NTkzMGRjMDZiNjZhYjMwMGU5NTQ3YTI4ZDMwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjhkZDBjMjczMjcyNjdiOTdkNDhlOWM5NDBkZmRlM2JlYTNiZmRkMzU3ZTkwNzQ0NWNjMGU3Yzk0MTVjZGI1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDQzYmRiOWFlMDA0MDUyYjgyZThhY2I0MGM0YTA0YjdjM2Y0NGQ5NTNjYzMyOGU1YWNjMTExYThhYTJhODcwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODkyMTcyODhkYjUwMGE5YjU4MGQ4ZWE0YzZlNmE0MGU3NmQxODhmMzhlODc2MGFlOWMxMzc5NzQwMTY0NjY5YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cdec51bc809b48e88bf9efb3eaae9620",
+      "statement": "ADR-PAY-017 was approved by the Payments Architecture Review Board and recorded in its ADR register alongside ADR-PAY-019, ADR-PAY-021, ADR-PAY-023, and ADR-PAY-026.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L24-L32",
+          "version": "repo-lines-v1:sha256:b3e7cb23a2ce34d96a5a02f6f94d348018cb378f123a634a1be023d2ca99a410:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZhNTQwNmJkZWVmZjEyOGZlMjU4OTMwMzAwYjc4YmVmNjZmYzU2ZDcwY2E2MTk1YjcyMDU2ODI2YTEyNjQ2YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM3OTRhYWZlNGNhNWJkOTk3MDcwNjE2ZDIzOTk4NjU1YWJkOTUzOThjNDhiZjdjOWE4M2Y0OGY4NjBlZmY3NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjQxNGI5Y2QwMmVjZDBjNmQwMjExZmJiYWNjMTI1Y2FiNDVjNDQ3N2FjZmU2NDU0OTE3NDA3ZGQyZWNlYzU3MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTBkM2M4NWI4ZmI3ZTc5NTNiMjgwYjg5M2VhOGExMTNjZjM0NWYzODk5OTgwNjFjMjNjZTRmYTNkMGY4M2UwNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_22ea060859f04dbf86534ae7e21c50b6",
+      "statement": "PRISM Payments Hub (PPH) implements the Kafka integration backbone by publishing payment lifecycle events on Confluent Kafka topics, including pay.wire.lifecycle.v2 (WireLifecycleEvent v2.3, Avro, 7-day retention) and pay.ach.lifecycle.v1 (ACH lifecycle events, 7-day retention), rather than requiring consumers to poll PPH's status APIs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L106-L115",
+          "version": "repo-lines-v1:sha256:af80132e90803c86c77f75d5b8602dc1909e9c680bc61de738886db890e17c08:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNTkyNzYwZjA4MWUxYzUyNGQ5ZDg0NDE2ZTExY2U5OTRjNzMwZTU4ZDNlZDI2MzI3NzViMmQ1ZTUwNmYxZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNDZhM2I2NjE1MDEyMTQ3NWZhNWYzOGFjODlhODgyOGZjMGI5MDM5NGZhZGZiNDE5N2Q3YjY0MjE5OGNkZjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlZjI3YTg5NjAyNDk3MDgwYThmNWYxMzk1Y2YxNDk5YTBiYThjMzU0ZTI1NjFkYmJlMGM0ZWYwMDVmZDJmYjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxYjBkMTI4Y2NkNzY1NmE5NmQ2OGU0MDc3YWQ4NmU1MzE2N2NhNTE1MDUwYjUwOTk1NDI3ZWJiYzg3YjBiN2IifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d3038c7ff5bc49fa984d9fed0249ecf9",
+      "statement": "Onboarding a new consumer to a PPH payment-lifecycle Kafka topic requires a consumer ACL requested via PPH Jira and, for Avro-schema topics, schema-registry access, with a lead time of roughly three weeks.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L108-L112",
+          "version": "repo-lines-v1:sha256:56ec65593dbcdbed593b05b9557bb3952551b4d3a0a8b6b87ea6d7723d29047c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNmMDgzMmIxY2ZlNmRjNGVmYzE1YmRiNTk2MzgyNTJkOTIxZjU2YjUyNDdmYTZlMmYzNjBjMDgwZGUzMjVmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTg4ZTljMjczYTQ3NmMxY2M3YjJjN2VkYWMxMjg3YzRhMjVhMGRjYzEwMGU3ODNjMjFiYmVmMzdiNGFiMjMzZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDYwNDZjZGFkZGNkNTJiZDAwNzRiYzczZDdlNWJjODFlN2U1ZDQ5ZjQ1OTczMDU0ZDA5ODkyZWUxZDNlOTYxYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBiNzk4ZTE5NDdkOTRkMDA1ZWFiNzQ0ZmY5YzRlZjA1NjkwOGIyNjkxOTg1MWY5NWM2ZjA5NjJjNDk0YTlkOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_27b068ccd9f34bf0b4b1c97dd4673a21",
+      "statement": "Hold reason codes, descriptions, scores, and analyst notes are deliberately excluded from PPH payment lifecycle events and v2 APIs to preserve the financial-crimes trust boundary established by ADR-PAY-021, while ISO pacs.004 return-reason codes were added to pay.wire.lifecycle.v2 in 2026-08.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L38-L40",
+          "version": "repo-lines-v1:sha256:c8d677a33290573aa826e7fd4b7df5371c019bfddffe7c6cd8118863c079d690:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWIxNjA0ZDQ5ODAyODkzZGRlNDlkMWYwZjYwOGE1M2VmM2JlMzcwNGIzOTA2NmE0ZjgxYjRlNjQwNTY3YmM4YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTBmNDllZTBkZjRmZGZmOGRhNmQ1OTgwODQ5ZmVlNTgwNDBmNjY3MzkxMGJjNWU4NjBjNzI2YWU5ZjlhOTQzNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjdiNjU5ZjE5ZDg5NTQzZDY5MTYyYjY3ZmI1MGUxNGI4MTVlOWRhMjY1ODU0NTJiYzY0MGU1YjlhYmNmMjQzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGYyNDQ1NzIxNzFhZTcxNTdjZDUzY2UyM2E0ZmNiY2FiNDFkMGZjMTcwY2UxYmU3ZDIxZWU3YjFjNTlhNzI4NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L115-L115",
+          "version": "repo-lines-v1:sha256:0f46a3b66150121475fa5f38ac89a8828fc0b90394fadfb4197d7b642198cdf3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY0NmEzYjY2MTUwMTIxNDc1ZmE1ZjM4YWM4OWE4ODI4ZmMwYjkwMzk0ZmFkZmI0MTk3ZDdiNjQyMTk4Y2RmMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY0NmEzYjY2MTUwMTIxNDc1ZmE1ZjM4YWM4OWE4ODI4ZmMwYjkwMzk0ZmFkZmI0MTk3ZDdiNjQyMTk4Y2RmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGJjNTkzZTQ5MzNhNDUwNzc3YWY5ODJhZGRkYzk2MzU0YzRkNjg1MmQyZjE0OGJhMzQ5MGU2OWI5OGI1ZjlhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDFiMGQxMjhjY2Q3NjU2YTk2ZDY4ZTQwNzdhZDg2ZTUzMTY3Y2E1MTUwNTBiNTA5OTU0MjdlYmJjODdiMGI3YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1a238e0e6a2e436b8cb332949885db51",
+      "statement": "ADR-PAY-019 (2024-06-11) builds on the Kafka backbone established by ADR-PAY-017 by requiring channel status integrations to consume payment lifecycle events into a channel-owned read model instead of polling PPH, following INC-2024-1182.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L29-L36",
+          "version": "repo-lines-v1:sha256:3551290f3a269787c6ecf9cd6da2fe28930ff3e96bfb50aac76d37bd197548d0:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ5ODkwMTNkNDRkOTE4YWJkYmUzNjI5M2FjYmFmMjgwNjAzYTgwNTgxZTUxZWRlYTA5OGZhOTI2YTc3MDUzOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM1YThmYzFiZGI1OTJlN2Y3OGE3MjIwZTY0ZmE3ZGVhMWFhNDA5MGJlODE0MzYyNmUwZDk5MWYxOTVjOTBlZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVhYjM5NzFiN2UzNDhiY2Y0OWFhZTM0NDUzNmQ3NTBmOWU3OTUxOGI4YTBjM2JjMjhhMGE1M2JhODhlNGViYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWUyYjk1ZmY4N2Q5ZjczN2NlZWNlNjI0Zjk1MzViYjE5MmQ3NDNjY2IyODg3NDliMGRlMTNkN2UxZDk1YWUxNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L127-L127",
+          "version": "repo-lines-v1:sha256:4ca758e2941b0d69619354e421c40c2a235be8df0bc06e8807020e2588198c87:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNhNzU4ZTI5NDFiMGQ2OTYxOTM1NGU0MjFjNDBjMmEyMzViZThkZjBiYzA2ZTg4MDcwMjBlMjU4ODE5OGM4NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNhNzU4ZTI5NDFiMGQ2OTYxOTM1NGU0MjFjNDBjMmEyMzViZThkZjBiYzA2ZTg4MDcwMjBlMjU4ODE5OGM4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2E5Yzc3NjdiMDQwNzhmMmJmZjA4YWJjMDc1NjA5NGUzYjVhMWJkODFhYmI0ODAzZTM5NmEzNzgwZjZlYzRkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2I4YjI5YzU5ZWUyMjNmYjg1NGE0MDRmMzFhYmIzOWU3MmY4ZWI4N2Y4Yjg4Y2M3NDIzNzA3ZTU0ZTY4YTcxMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9dd8216c3339423b9e3480cc134c80b8",
+      "statement": "The Status Projection Service (SPS) is the reference pattern for consuming payment lifecycle events off the Kafka backbone: a Kafka consumer populates a Postgres read model exposed via a REST API, with new payment types added by configuration and a mapping module; the ARB reaffirmed SPS as the reference pattern for client-facing status of any payment type.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L67-L68",
+          "version": "repo-lines-v1:sha256:61f7a979d08d6bd958f4b7f1d012a2800359e20cf9db0476474a3c6c1de2e046:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgyNWYwZmNmN2ViZjljNWM4YWRjZTcxYzk4N2Y5NWRkZDJhNzQ5MzliNTJjZGE0ZTFkZWU2ZDM0YTJmZDE1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZTRmMmVkNGQ1ZTJmYWI4NTc0NmU0MDE4Mzg2OTllMGY0YmE1NmVmOWFmNjk1YzZmMzE4ODQ5OWQ1MDNkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E4OTBhODI2ZTA1OTQ2NWU5ZTZjOTk0ZjMwMWQwODkyNGQxYzQzZGQ1MGU5ZjQxODgyZWIwNzIwZTJhMmM1NiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L143-L151",
+          "version": "repo-lines-v1:sha256:175a5a7f5ae962183eac5d947a29bf7d7576fcf8fe58fa93e42f03daa7fed7ff:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQzNmQxYTVhY2IxYjUwMGQ3MGMzMTVmM2VmYWE5YmVhNDc0NzhhY2Q4ZGY0Njk2NDQ2MDdhOGE5ZmUxMWJjNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODE5Yjg2NDg5NjA1ZGJjZWJlMjhmYTAzYTFmOWE3MjNkYWZjYzM0NTAxNTQ0NzJkOWFkYzNlMzE5OGY1OGU2OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_adb75328fa134db4b408bfdcb453273c",
+      "statement": "As of the current estate, SPS/Kafka-backed status consumption from the ADR-PAY-017 backbone is configured for ACH lifecycle events in production, while wire lifecycle event consumption for client-facing channel status (pay.wire.lifecycle.v2) requires a new mapping module and consumer ACL and is not yet built.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L143-L143",
+          "version": "repo-lines-v1:sha256:649c24876fe623537eb31867fda9265fdfda45ea349de6ec96c4e6df67513f40:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg3MjQwNmEzMDgzOTZmODNlMWZiZGI1NzU3NjE3NzdhM2I4MTk2MDA1ZWUyZmIyYzBmZjAyMzk2MjNkOTZiYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_06a14c4dc715487e837094814b54ad0a",
+      "statement": "Ingestion of Fedwire network acceptance/OMAD data (net.fedwire.ack.v1) into TDIP via Kafka is unscheduled backlog work, blocked on a Kafka ACL grant from the platform networking/engineering (PNE) team and lacking a business sponsor.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L179-L181",
+          "version": "repo-lines-v1:sha256:2a0276f8f4392d8eb771f9bb44a6da9d41394a0552e16ca9f2152c885735e07a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTRmMDkwOTJjOWY0NjIzOGQ5NWU3YWE3NGM1OTFjMGFjYjVlMjgxZTY1ZmQzZDZiM2Y0MjRkY2I4NDJiYjQzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjdlZmNiZWY0OGNjZDRkZDQzNTA4NjYxMmM1MmU1ZTA3MDE4NGVmMGQxODlhNWQ0ZDlhYTBmNmEyYjM1ZGY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzZlMjRhNmNhNDkwMzQyYTRjMjJiYzc5NDVjMDA0ZmYwYjkwNjgyZmYwY2E4ZDZmNmRkMGU1ZWExN2U4Y2I1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjliM2JlNWNlZDQzNzllYzg2MTJiNDczMzk2MGYyYTkzYWJhNzI4M2NmOWE3MWNhZTE2MmNiZmYzNGY0MzEwYiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L67-L67",
+          "version": "repo-lines-v1:sha256:b21220c272e172a3ffa54adc481d6ac5bcb89b70eb058627bf65f0a011dc58e2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_955c49f3eea04ab8bfdd8043c10cf691",
+      "statement": "The Payments ARB's 2026-09-08 minutes declined to approve interim direct exposure of the GPI_TRACKER_SNAPSHOT real-time gpi data to channels, requiring instead that any such exposure go through a reviewed, quota-isolated read-only service, showing that backbone status under ADR-PAY-017 does not imply unrestricted publication of every payment data source.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L67-L67",
+          "version": "repo-lines-v1:sha256:7b4ee1c1bb428270053402672d151d7f4f96fec43435048a230113900301c655:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZTRmMmVkNGQ1ZTJmYWI4NTc0NmU0MDE4Mzg2OTllMGY0YmE1NmVmOWFmNjk1YzZmMzE4ODQ5OWQ1MDNkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmJkNzg2ZGVmZjdkYmQyZWNlYjA0NDU5ZWE0NzE1MDFkMGZlNmFmOWVlNjgyZjZlYWIzNDMwN2IzOTA0YzE0MCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

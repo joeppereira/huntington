@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c479977bb4959c926cd723149d0daf311819bfff1f2f0909367661e409011ae2",
+  "claims": [
+    {
+      "id": "claim_cd02e26dd58344adad6b6e8aa4881330",
+      "statement": "Payment Operations is a first-line (and for some queues second-line) partner function in the PTT directory, accountable to Denise Carter, distinct from PTT engineering teams, with Luis Ramirez (Wire Investigations) and Tanya Brooks (Wire Room) named as the contacts for product and design reviews.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L77",
+          "version": "repo-lines-v1:sha256:c7fe64a4a6d6da01855db29c521dadfd9a0a292acb5a311c64f12ee702279fff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyOTQ3M2U0MjkwNmViOTg1NzUwYTBmYjFjOTA1MTdhZGIwNzNmNmVhNDViYmUzMzkyYWJiN2M5M2M3ZWE1NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5138090823744a0893413614837e1d46",
+      "statement": "The Investigations Workbench (SYS-IWB) is owned technically by Payment Operations Tech (unnamed technical owner) and has Luis Ramirez as its named business owner, with a Tier 2 (business hours plus on-call) support rating.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L97",
+          "version": "repo-lines-v1:sha256:93b4c4e0c0c87506e9976fe72c26e8357b6cbe1c955f88adc0971dfab8015820:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkMmI5MDJiNTRjZDUwZWZkMWYwODNhMDI4NWJkM2M3OTI4ZjFkOGI1ZWQxMWI1ZmMzN2Y3OTE2ZTgyZDgzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNjdmM2ZiOWNlMWFhYjVhNjNhNDg3YjhhNDM1NTdhYjM0Mjc0M2YwN2U0ZTNiZGJmMGJjNmYxYThhNzZlNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MTI4YjA3ODdhMjEyNjJmYTk4NGM4M2QyMmI3Mjk0MTJjZGI3MzJkYmIxNDgxZjM1N2VjMjk4MzQ3YzczZjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2ee6e49490af47f58d6771e095709131",
+      "statement": "Payment Operations is engaged through the Ops Readiness Review, required four weeks before go-live for new client-facing workflows, with a planning factor of roughly 40 engineering/ops hours per workflow for SOP development, rather than a Jira/Slack intake route used by PTT engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L138",
+          "version": "repo-lines-v1:sha256:1e2fed947d50a609157df7385e3543534ad4bc415464e1c1f9efb1d8a6b1723d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8b6078ed40da4d0f8129a19cc3793568",
+      "statement": "Compliance or hold-policy interpretation questions are not decided by Payment Operations or engineering directly; they escalate to FCC Policy & Advisory (Jordan Ellis), and changes to hold/screening behavior underlying Payment Operations' queues go through bi-weekly FCT Change Advisory (5 business days' lead time) with mandatory FCC sign-off and a December 15-January 5 year-end freeze.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L119",
+          "version": "repo-lines-v1:sha256:c499f6cc0a8f64fefbd72820dc9df6b1c06eda8469c28ab90119fec081074d17:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzc0NmU5NjRiNzZiN2U2ZjA0NTU1YzdjOWZkZDU4YWY0ZDk1MjRlNjMxYjBkODU0NzMxMmJhN2I5ZDQ2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzgxOTcwMTI4YjJiYzliMWJmYjk4ZTYxYjFmYzFhMjI1MjhkZWQxNzE4ZWY0OWFjMTg1ZGNiZTNkNWU4OTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM1NDE0MmEwN2JhOTdiN2I5ZjljZmZlYWI1MzYwNDc2Y2ZkNTFjYjZlNzBhMDAwODA5YWU0MzA4NmNhZDY0OGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_41835dd3f0474af0b9eb860c157c5433",
+      "statement": "Payment Operations analysts (Wire Room, Fraud Ops, Sanctions L1/L2, FIU) work HMS's twelve-code hold reason taxonomy (HRC-01 through HRC-12), each tagged with a POL-FCC-014 disclosure tier (P/C/G/R) governing what can ever be told to a client, at a volume of roughly 410 holds per business day with median time-to-disposition ranging from about 47 minutes (HRC-01) to 1-5 business days (HRC-10 AML review).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L40-L70",
+          "version": "repo-lines-v1:sha256:2435d22f12d7f8f110f3b51d97e0f99f6711a890af6c8e06f670364d3fb49414:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzZGZlMWE0MWQ4YTQ5MzNkMzFlOTJmOGYxYjVlNTdiMjRkNDUwZjU1ZTdjMTA3YzdjMjNiOTNmOWExNThmZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YjA2NWNhODg5YzdlOGQ4YWUzZDA1YTA4ODUyYjJjYzNlZmQyZWE3ZDdmNTkyNWQ1M2M1NzkzOTc5NzE2ZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY1YTEwNDg2MzNlZjA5ODk1MTZmN2VjNDJmZWRjZjgzNDY3ZDEwOWNlMWZiMTVjN2JkMjRiNDI4YjAzODY3OTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1OTJmZjgzOTg5NjY4ZWEzZjM0ZDcwMjQzNDExMzE5ZjU2YzczNTJkYjEzZDg4YzhjMzY4ZWNiMTU3NDc3N2UifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_32933d7854c34d768993441ea967bcb9",
+      "statement": "Payment Operations analysts operate under controls CTRL-PAY-012 (maker-checker release/reject via HOLD_RELEASER role), CTRL-PAY-018 (independent out-of-band callback verification for HRC-02 holds), CTRL-PAY-031 (client self-attestation permitted only for HRC-01 holds under $5,000,000, with Wire Room release required above that threshold), and CTRL-PAY-040 (no client-facing release-time estimates for tier G/R holds); sanctions-specific blocks/rejects additionally trigger written client notification and OFAC reporting under 31 CFR 501.603/501.604.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L90-L101",
+          "version": "repo-lines-v1:sha256:0168db56ef14830c5e60caa4baa9d43c24b9292220ebc323e2c255e5ac789508:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjliN2YyMWQ4NGM1Y2FkYmRjY2FmMTJmNDQ4Y2YxNjUyNmFjNzY2OWQ0OTQ1NWQzNzYzN2Y5ZGE5N2E2M2YxMTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhZjUwYjFmODZlMGM0ZGRiMDM4ZmM4YzA5YzA5NGUyNzBjZmZkZDY2ZDRjNmExZjJhMzVkY2E3N2U4Zjg1NzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk0ZjQyMzQwODJmNDQ2OTZmODk4ZmM5MmYwNzdjM2E0MTI0YmJjZmYzZTk2M2IxMWQ0MzM4MTI1MGZkMTUyMDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzMzMxYTcxYzY2MzQ3YTllODNmYTM5NWJkMmJiNWM3Y2VhYmVmNzBkODA0NDI3OGJiM2IzZGYyNWQzZmVmNjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e3fc64bc24604582828fe9394f304f2b",
+      "statement": "The Investigations Workbench is the sole authorized caller of HMS's hold-lookup and disposition endpoints and one of only two consumers of the Swift gpi Tracker snapshot, making Payment Operations the only path to resolve client questions about held or in-flight international wires in the absence of the deprioritized FCT-1893 Client-Safe Hold Status Facade and the unbuilt CBO-4480 client gpi visibility spike.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L80-L89",
+          "version": "repo-lines-v1:sha256:8b372e79bdce27bc8b5ee6461d39033a74d104552abf586c53cddfb059bb9042:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5MjU1NWFjYjkyMzczMzBjZTAzMWZkYWIxNmJhMjYwZDI4MmMxNzY0MjlkMTVlNGNjYThkODc0YzljNzFjZWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1YWZhNDU3MTkxYTgwZGFlMDFkNGNkMWYxYmVhNDBjYTBhMzA5ZGRkNGY5ZDZlODlhOTcyNGEzOGRiZWYwMTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlMjQ5YmUyMDM3YTBhODA0NDRmZTI2NjhkMmNlOGZiZjlhNWQzYzMxOTBiYThiMjMwYmZkMTJhNTc0NGMxNzEifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

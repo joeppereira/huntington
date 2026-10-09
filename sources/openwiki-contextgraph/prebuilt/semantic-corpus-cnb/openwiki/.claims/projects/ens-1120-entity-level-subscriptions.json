@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:3c3d0ee6738000b3216813f1225cf385299185607c641bea0f1a7252391442c9",
+  "claims": [
+    {
+      "id": "claim_d20daec2e25a42e49db458940d074565",
+      "statement": "ENS-1120 is a Planned initiative on the Enterprise Notification Service roadmap, targeted for 2027-H1 and owned by Melissa Grant, to add 'entity-level subscriptions' letting a user subscribe to a specific paymentId or caseId.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L49-L51",
+          "version": "repo-lines-v1:sha256:7b6750fc41945eae6836d5115964229ec2e5835b12941bb5e45adddb0e807434:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmYmNjYzc3OTQyOTJlYzU2YTA5ODc2YTZjNTBmODFmODQxYjYzZDJjOTQ5YmNmMzYyNzE0NGU4NjA4ZjBkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNlNWE5M2U5NDUzN2FjZjYzMGEwZmZhZTkwYWM4ODM5NmUxNzBkNGViYTgxMDVmYTcxODgxODBkMDEyOTliNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzI5ZmI2YmY4MWNkOWNlYjQxY2UwMjI5NDM0NGU5NGI1NGIzODc3Zjk5NTczMzRhOGQ0MGIwYjcxZDY4OGNmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJhMTY5OTRmOWQzZTI1NTY0YjEyNDA2ZjVhYjAxYjQ4OTgzMDM2NTQwMzk3ZDk1NTc4Y2ZiZjhkMWE5MDA3MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L64-L64",
+          "version": "repo-lines-v1:sha256:14b559e05d7d58640a033ebbc11bfdd14789883f6f7ed8a57e0874f23b5790a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTRiNTU5ZTA1ZDdkNTg2NDBhMDMzZWJiYzExYmZkZDE0Nzg5ODgzZjZmN2VkOGE1N2UwODc0ZjIzYjU3OTBhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTRiNTU5ZTA1ZDdkNTg2NDBhMDMzZWJiYzExYmZkZDE0Nzg5ODgzZjZmN2VkOGE1N2UwODc0ZjIzYjU3OTBhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTdmOWYzZGI0OWNiYTIyMWExMzgxNDZiNjFkNWZjYmQzZTZkZGRmMzhmN2Y4YzBkMmEyOTk3NDIyNmEwMzgxZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWU0YTdmMzFiMWJjZTNmMjZiNzY2YWM4YjU4NDRhNTlkMjc4OGY5NjkyZjA4NGQ5NGRmZDZmOTk2ZDU1OTI3MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1e7358fd702e4ddc95ceee92ea18af2a",
+      "statement": "ENS's current subscription model is scoped per user to an event type with only accountId and amount-threshold filters (created via POST /ens/v3/subscriptions, EP-ENS-02); it does not support subscribing to an individual entity such as a specific paymentId, which is why ENS-1120 is tracked as a separate future initiative rather than a configuration change.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L49-L51",
+          "version": "repo-lines-v1:sha256:7b6750fc41945eae6836d5115964229ec2e5835b12941bb5e45adddb0e807434:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmYmNjYzc3OTQyOTJlYzU2YTA5ODc2YTZjNTBmODFmODQxYjYzZDJjOTQ5YmNmMzYyNzE0NGU4NjA4ZjBkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNlNWE5M2U5NDUzN2FjZjYzMGEwZmZhZTkwYWM4ODM5NmUxNzBkNGViYTgxMDVmYTcxODgxODBkMDEyOTliNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzI5ZmI2YmY4MWNkOWNlYjQxY2UwMjI5NDM0NGU5NGI1NGIzODc3Zjk5NTczMzRhOGQ0MGIwYjcxZDY4OGNmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJhMTY5OTRmOWQzZTI1NTY0YjEyNDA2ZjVhYjAxYjQ4OTgzMDM2NTQwMzk3ZDk1NTc4Y2ZiZjhkMWE5MDA3MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L77-L83",
+          "version": "repo-lines-v1:sha256:4f45975b846200812fde2391ef6afd25cb58b11f2bac4f9684677bbe291c229d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg5NzQ2MzgwN2QxNTNmZDIzZjE5OGZiODQxYzkxZjlkNTkxYmIyMWU2Njg2YzI1OGVkNmMzYTk4MmUyNGFhNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4OTFhMGYyZjgxNTVmOTk0ZTljNTMxYTA4NzFhNDA3ZDAxMGJhMTUwZTYxMzA2Zjg3NzQ1Y2U4Nzg0OWFiOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBjYjE0N2JkYmZkZGYxYjY0OTFiODkyZDllYzc1MDViYWQ3NjVmZTRhODgwYTdkYmRjMzJiNmJkY2IyZmI0NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmI4NTE2ODYxMDMxMjg0Mzk5ODE2MDlhZjZkODg2ZTBiNTA0OWM0MmUzODk4YjIyODA2ZmZkMGQwMjlmZGExMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cded4839dbc14e93806a6f4557ed22b4",
+      "statement": "The ENS Treasury (TRS) event catalog has no registered event type for client action required on held wires (nor for wire network acceptance, gpi beneficiary credit/ACCC, wire returns, or other gpi milestones), so even with entity-level subscriptions, there is currently no event to subscribe to for a held-wire client-action notification.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L75-L75",
+          "version": "repo-lines-v1:sha256:c711a202e3c02b999cc47706e6568e6e339edc12411a572c9c0f6bdb3ece5e3c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzcxMWEyMDJlM2MwMmI5OTljYzQ3NzA2ZTY1NjhlNmUzMzllZGMxMjQxMWE1NzJjOWMwZjZiZGIzZWNlNWUzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzcxMWEyMDJlM2MwMmI5OTljYzQ3NzA2ZTY1NjhlNmUzMzllZGMxMjQxMWE1NzJjOWMwZjZiZGIzZWNlNWUzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTdlMWM0NGVmNTQ5MTg3MDljNTEwNzhkYzliYWJiODk1OGFlMzI4ZGUxODg4MjIyNzA4MzMxY2EyYWViNjRlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjODc0MzI0N2U2NTA3OTY2NjBlZDI4ZGUzNzIzNWE0YzllYWRmYjU3Yjg5NTc0MmVhZjc5ODY4MGNjZDE2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e7d8121c2d248209d05fbf737bcecd4",
+      "statement": "Held wires in CBO Wire Center show only a generic 'Pending Review' status with static text ('This wire is being reviewed.'); Wire Center has no hold-reason data and no client-action workflow, so there is no client-facing path today to tell a client that action is required on a specific held wire.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L24-L26",
+          "version": "repo-lines-v1:sha256:6eb4e1fbf4a28ebb51b329886e3dba84d73bfd15ce56217f8416810cbee7689e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzNTA2NGQ4OTU5ZDZhMGUzYTg4MWVlM2EyZGQ5NzJjZTg2YTU4NmEwZGMxNjM0Y2I2NWQ3ZThlZjQxN2ZiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhOTVlZGMzNWQ5NGU3NzBjZDdhYjMzZDljNTI4NWJiNTZhMDAwYTMyNzA0Mjg1OTlmOGNmNDRmM2IzYmNmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjY0MmQ5NjY2ZDg2NWI0ZWZmY2RmZWJjMTAwNjllNTBkNTM2NzdkNDhlNDllYWUxNjBmODJkMDc4MmMyYmQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzhmZjY0YmYyYmVlODY2Y2U3ZjI0NDU2ZDM1MjdjZGUwMzEyYjkzYzg1YjllNzU3MDUxZDcwYTljNDY4MTM0MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L95-L95",
+          "version": "repo-lines-v1:sha256:9c9572b60da76a73ca7c96373d1e66f7c643333797a58bc5f4210425cf360d4e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5NTcyYjYwZGE3NmE3M2NhN2M5NjM3M2QxZTY2ZjdjNjQzMzMzNzk3YTU4YmM1ZjQyMTA0MjVjZjM2MGQ0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5NTcyYjYwZGE3NmE3M2NhN2M5NjM3M2QxZTY2ZjdjNjQzMzMzNzk3YTU4YmM1ZjQyMTA0MjVjZjM2MGQ0ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWVlZWYwODczNWNlZjMwMDE0ZjFiMmIyZWI0M2I5ZDNlYzU3ZDVlMGZkOWIwNjczOGYxYzA2Y2JiNjk2NzY3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTgwZWU2ZWQ3ZWVhNDBjZDY0ODEyNDQyMWVmMTIyZTlmNDc4YzcwY2EwYzAzZTFjZTdjYTQ2MWQ5OWUxZTY0ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_09b6d11828e241df979d727e25dd77a3",
+      "statement": "Even if ENS-1120 ships, it would not create a channel-authorized path into hold detail: ADR-PAY-021 restricts hold reason codes, descriptions, scores, and analyst notes to FCT systems, risk.hold.events.v1 is restricted to FCT/Payment Operations tooling, and the only proposed client-safe facade (FCT-1893) is deprioritized backlog with no delivery date, so a compliant held-wire client-action notification would still need FCC-approved copy from a facade that does not exist, independent of subscription granularity.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L143-L157",
+          "version": "repo-lines-v1:sha256:e8a6d63076fc11a9e4bd00e83736be541e05a667aa0ea1f20f1a9daa71884644:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlOTM5ZTM1YzVhOWY0YmM5MzgxYTZjNGUxNjA3OThkMmY2MDEyNzA1MzRiM2UwMDA5ZDAxNmM5ZTVkY2EwMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjOWRkMjlkOGIzODg5NzMzNjExYjg4NzgxOTMzMWM0Y2NmMGMwMjJjNmYzYTk3MDc0NzdlNTI1MjNmZDJiNzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4NjkyMTE2YzBiYjZiMzRkNGMzNmRmNjk2MTM1NjgwZDRkOTY0ZWNhZWMzYWExMTczMTY0MTQ0OTJmMjBiNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgxMjUyNTFjYTAzZTI5YTMwNTE1OGQ4ZTY4NzBlZWNkMzkyMTA5YmI0MThhNGNhZjRiMzFhYzFjZWY0OTRjMzkifQ"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L72-L88",
+          "version": "repo-lines-v1:sha256:5109dbbc64fa96e0bb6361a1f1f3e0c64498e0e9fa0d00ab755ced02794214cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3M2VlOGNjY2IwODYzOGJiZmEzYTQ1ZDE0NjY5Y2U3MGYyOTI3ZTZlYmRiZWJiOGM5MjJiYzZjNDk1MTY3YTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyMDkwMzRkNzE5MDc5ZTMyNjAyMTdhNWZkMjU0OGIwZTM3NDExOTk2OWQyYjUyOTZmZTk0NTJkMDBjZjkxZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMyODg1MGFlYzYzNmZmYjU3NmQzYjBjMmE0MTcyZThlNjc1YzI2MzI4ZjE3OTA5MTdmNGM5MzJhMGVhOTFjMWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJkZWZhOGI3YTA1ZWFkMDcxYTU3OGUwZTJlNGJkMWRlM2Y0ZjU3MWZkYzJkNDQzNTljOTQ3MzA5MzIwMWFiOGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0864fb7ebba1473ea2b1616a9fa03303",
+      "statement": "Per ADR-PAY-019, any new wire status capability for Wire Center (such as a held-wire client-action notification) must be event-driven rather than polling-based, but Wire Center currently has no event-driven path for wires: it still calls PPH v1 synchronously, the Status Projection Service is configured for ACH only, and pay.wire.lifecycle.v2 is unused, so an entity-level, held-wire notification would additionally require a PPH v2 migration (CBO-4471) or a new SPS wire mapping module with a pay.wire.lifecycle.v2 consumer ACL.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L39-L56",
+          "version": "repo-lines-v1:sha256:0ed39e07f6b48af7291442569c962064b7e091e9ce3598a928ff7ec23c00a01a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMmFmNzY4OWUxNjlmZWE3MjBhZDFhOWMzOGU5MzYwYTVhYzZmNjg1YTc1OTFiNWU0MjczNzRiNGM0MTg4NjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNmQ4ZDJmMjMwODRiZDNiYzZkN2I4NjY3YjdiYmIyYmVmNzlmOTkwMTI1NDE3ZGIxMmFkM2Y4OTcxNzgxMmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI0N2U4YWI3NDk4ZmQ0N2E4M2MyODIxYWRmMjdmMzdhYTY1OTkzNzZkY2U5NWM2ZjM3MmZmNTAzNjAxZWZlMjQifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L123-L129",
+          "version": "repo-lines-v1:sha256:b98a4269ebd7df79bd67e4f14df8ca99146ecfcf518700069a8a6c3d8d399810:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYxMDgxYmI3MzlmOTM1NjY0OWE5NzY2YWRlM2QyNDg1YmYwNmIwZGZkNTNmM2I3MjdkYzVlOTdhYjAwNzBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1M2NlNDkyZTNhOTA2ODZhZDkwOTNiZGRlNTMwNjk3OGFlODUyN2QyYmZlZTY3N2RlOGYyYjA2OTFjNTdiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmMzk5NjE2OTQwMzVhZDk4Y2ZhMzEwN2IxNzBiMmI1ZWU5MzE2MzA1MDVlM2M0YzU0NzIwNzU2NGFjZjkyNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d5f262d4db564e0192a277347345c452",
+      "statement": "ENS-1120's 2027-H1 target overlaps the mandatory PPH v1 sunset date of 2027-03-31 (no extensions, per the 2026-09-08 ARB decision), which bears on the realistic sequencing of any Wire Center feature that would depend on both entity-level subscriptions and PPH v2/event-driven plumbing.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L137-L141",
+          "version": "repo-lines-v1:sha256:04068018a39909221bd96b517609deb4cee9d42a30b8ab9ebbc7b70e7a2c47aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiZmRmMjY2NmY2NGMyMjcyZDJlZmIzNzkyNTU1N2U0ZGRlZTk4NTBkYWFlZjUzNTllMTkyYzdjNTVlMDI4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNDVhYjczOWJhNDk4NWM3NTBjZmFhMDYxYjAyZTdhZTljOTkzNzU2M2Q5MjRkODVmNGZhYjAzOWVmMjI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWNkMTk4YmI0MzFiYjBkMGM5MzNjYTUyZDIyZTUwNDE2ZGRkZGE4ZGFmMTMxM2FhNzIzZGViYTljYjI2NjdiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQzYjljMWU1NjQwOTU5YmNlY2Y1ZDJlMTQzMzUzZmEwM2Q5ODg4NTVjMzFkY2RmZDc4NjE5NzA0NTU4MmRhMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

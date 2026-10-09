@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:706cccfbca0e16b833a6c4685cd2346549845f5f804e6627bbc0836ab1197eca",
+  "claims": [
+    {
+      "id": "claim_c78e16e2d8774c639e31874a0c51d07f",
+      "statement": "The three Tier 1 models consume specific APIs: MDL-CR-007 consumes API-10, API-11 and API-14; MDL-ALM-014 consumes API-11, API-12 and API-15 (with API-16 supplying Tier 1 capital in the workbook); MDL-CAP-003 consumes API-16 and API-14.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L23-L23",
+          "version": "repo-lines-v1:sha256:5e9bbb0e5f5fa844df683fdce525b54e673527362e19c07c56ac2ec8f5e6a550:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU5YmJiMGU1ZjVmYTg0NGRmNjgzZmRjZTUyNWI1NGU2NzM1MjczNjJlMTljMDdjNTZhYzJlYzhmNWU2YTU1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU5YmJiMGU1ZjVmYTg0NGRmNjgzZmRjZTUyNWI1NGU2NzM1MjczNjJlMTljMDdjNTZhYzJlYzhmNWU2YTU1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzI3NmNhMjBjMzk2MTRlN2Q2ODM3NzA1ODU4MWUwODM2NDNlMzY1MzM0ZDQyODY5YTcwYTI0NjRjY2Y3MjEwYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODkwNzAyYjM1YTg3NzgyN2FkMjA3Nzg5YjI4NWQ3NzE0MDE2YWMwNzNjMzU1MzYwOWM2YTYwNmYyNGZiNzBlYyJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L45-L47",
+          "version": "repo-lines-v1:sha256:c39b6856c6f5bccfc4bdd60d1bd0e6a6776038348eceda9ffdddd296118de976:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgxZjU2ZjBjYWFkYmUzMTA1MWMyMGI0MGJhODdkZTBmNjE2NTI3ZTkzYjU3Nzg2YzdjZjNmZGNjN2VjMDMxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThlNTg2YWE5Nzc2YjhmNTY1MTE5OGVjZGU1YTQ4YWIyNDVkZTI0OWQwMDg3ZjQ3ZGQyMjYyOThlOWQyNzU2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmM2ODYwMmI2MDY4NzIwNWIzM2I4Zjg2MDYzYjNkMTFhZGZjOTA3NTQwMTBmZmJmMDU1M2QyMjEwMzUwY2M4NiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L133-L133",
+          "version": "repo-lines-v1:sha256:bf92583e9218a2119b1299e72b7287839c0281c7d968f9b1a04fb249cb7baffe:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5MjU4M2U5MjE4YTIxMTliMTI5OWU3MmI3Mjg3ODM5YzAyODFjN2Q5NjhmOWIxYTA0ZmIyNDljYjdiYWZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5MjU4M2U5MjE4YTIxMTliMTI5OWU3MmI3Mjg3ODM5YzAyODFjN2Q5NjhmOWIxYTA0ZmIyNDljYjdiYWZmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYThhNmU1MDI4NjMwMmQ5ZWQyZGI5YTg5ZmUxOGNmMmViM2ViMTgyODU0OWRkZjA0ZGEyMzVjMTg1ZmQzZWMzMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjdmZGFjZDVhMmQzZTE1ZjQwMmUzMmZjNTdjMWZiZmFmZmEzODJhYmQ1OGRmMTYyNmJmZDBlYjBiODQ5MTk5NyJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L23-L23",
+          "version": "repo-lines-v1:sha256:f872a870ac63c785a3817c14953ae153bce99f06521e23c5fefb74ca9e8cbfd5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg3MmE4NzBhYzYzYzc4NWEzODE3YzE0OTUzYWUxNTNiY2U5OWYwNjUyMWUyM2M1ZmVmYjc0Y2E5ZThjYmZkNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg3MmE4NzBhYzYzYzc4NWEzODE3YzE0OTUzYWUxNTNiY2U5OWYwNjUyMWUyM2M1ZmVmYjc0Y2E5ZThjYmZkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGNmZGVmMmQwNmY1ZTA5MjU3YzliYzA1NzkzYmI0ZGIxYmUwZTM4NmIyYjhlMDFkNzk0YzRmMGM0ZTNiM2VjZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmM5Mzg0NjQxYzY0N2M0NDU5NjE0NTA4YzE5YWNjNjQxNWM5NjllMDM3YjQ2MjYwOWIyYTlmYTlhZTE5NmM4MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6763737327f047e883bf7729c1757498",
+      "statement": "APIs that feed Tier 1 models or regulatory disclosures are BCBS 239 critical data services registered in the model inventory, so a breaking change automatically triggers a model change review by MRGR.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L18-L18",
+          "version": "repo-lines-v1:sha256:1911fe2b741a3143411f7afb253d43080ad46591d44c2882658a55dbd0bc0329:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTNjZDcyNGIxNmM2YTI5NmI1N2UxMzJiNmIzNmZmOWE2NjUxMjJlODMxYzQzYjIxNDQ4NzAxMDUzY2ZiNDNiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d7cd8e85bf8348fc9e037a08eb61eba8",
+      "statement": "The CECL model computes scenario PD, lifetime PD, scenario LGD and ECL, sums probability-weighted scenario ECLs, then adds a qualitative overlay approved by the Allowance Committee to give the total allowance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L146-L152",
+          "version": "repo-lines-v1:sha256:85cef9d216827426eb3c470e36f29e8bba78c10a83831cfdca275053a18128ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FjNmZlNWVlZDZkYjU3OGIwNzNkMGIwOTMxZjBlMjMxOWRhNDEyMjRmYTI1OThiMGUxNWQ2MjAwMmJmMmU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU5MDQ1YTM5MmZhNzEwN2U0MTQxMzU3MWMxNTk0MTI5ZGQ3YWM1NjU0NjM3N2JlMmUwMjYxYzdmYWVjYWY2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2YxZGY3YzY0YzdkOGUzNmY4ZjRiZmU4Yjg1MWI4M2NjMTkyNGI2MDJlNzFiMGE1M2RmNmYzM2JhODE4OGMyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3d349c9a638f419b9a405619b7d339ca",
+      "statement": "Scenario set naming differs across sources: the CECL workbook cites MSC-2025Q4 while Pillar 3 refers to set SA-2025-INT, and the NII model's API-16 Tier 1 capital dependency is absent from the registered model inventory, so lineage layers do not match perfectly.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L50-L54",
+          "version": "repo-lines-v1:sha256:f04720e10c872a95a46c200c6e6c97f6d785ede3cc066c481f55531ca4d24ee0:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I2NmNjZGE0NDBkMjBmM2FmYzQwZGExNTQ4Zjc0YWQzMGU0NTRjMmMxMDcwMWE2N2YwMjNjZWQ3N2ZjMzk5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L23-L23",
+          "version": "repo-lines-v1:sha256:f872a870ac63c785a3817c14953ae153bce99f06521e23c5fefb74ca9e8cbfd5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg3MmE4NzBhYzYzYzc4NWEzODE3YzE0OTUzYWUxNTNiY2U5OWYwNjUyMWUyM2M1ZmVmYjc0Y2E5ZThjYmZkNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg3MmE4NzBhYzYzYzc4NWEzODE3YzE0OTUzYWUxNTNiY2U5OWYwNjUyMWUyM2M1ZmVmYjc0Y2E5ZThjYmZkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGNmZGVmMmQwNmY1ZTA5MjU3YzliYzA1NzkzYmI0ZGIxYmUwZTM4NmIyYjhlMDFkNzk0YzRmMGM0ZTNiM2VjZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmM5Mzg0NjQxYzY0N2M0NDU5NjE0NTA4YzE5YWNjNjQxNWM5NjllMDM3YjQ2MjYwOWIyYTlmYTlhZTE5NmM4MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L474-L537",
+          "version": "repo-lines-v1:sha256:67f2845aa8d33d75d2abe7dc5d8f6e0a94b5d14dc6adb3c60de101f5b47944cf:eyJzZWxlY3RlZExpbmVDb3VudCI6NjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwOWRiMjI0NGMwOWJiYjUyN2RhYTE3OTQ4NTk1OTExNTg2N2FhOTFkNzliODM3Y2ZhZjc2YjNjMDQ3NzNlZjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxM2ZjNDU1M2IwNTYxNDJjMmQ1ZWFjNmYxNGUzM2MzYWJhMDRjZDgwN2FhNGEzYmU5ZDkyODQwYjhmOGEwMmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3NTAzMDUyNTFhMTNmMmEwNjllYmU3NGYwMDYzYzYyNmEwNzJhOGM2ZmRlOTQzMWEwMDQ1YTUwMTUwOWU3MzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRkNDE3MjgyNGQ0YTU3MDFkNGFkNjVkODhiM2E5MDgzOTJiZWRkNTNjNDYyZDI1ZmYyMzQ2MTU1MjAxZGRkNWMifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:08b68e98347b48e00da071ffa5ea8834c7c887d46684c18f9a4d1310b8e358f8",
+  "claims": [
+    {
+      "id": "claim_911b5136f85c48de9bfdfd061470907c",
+      "statement": "Tanya Brooks is the Wire Room contact for the Payment Operations function, a first-line partner function accountable to Denise Carter, alongside Luis Ramirez as the Wire Investigations contact.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L71",
+          "version": "repo-lines-v1:sha256:da22ed286092b0812d135af96aa84d7eabe2140341f33a4af62f87451942de11:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWUwNGNiYWM0MWE5MjMxMTk1ZTgzYzk2MDRiMTRhZDZmNzg2MTczZjI1YWJjN2QyM2UzZDMyNTQ1ZDQxYzgwNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmM4ZDk4OWFkZWM4MWQwZDhlNzZlZThkOTE1ZmJkMTJmNjc4ZWQ2YWExMjk1MzBkODQ0ZjlkMjNhN2NlZThhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBjOWY2NzFiNDViMGMyMjc3ZmRlMTQ4N2JjNGEyOTc4NmNiZjA0ZGM4NjlhOWUzMGE5YzI2NWI5M2VjZjBmYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmI1M2Y2YjY3NDNhNDViZWIwN2ExMmUyZDJkZjI0YzZiYmUwNDQ1NDUxYjljOThmMjJkZTkyOTJhZjM2MTgzZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_13bbaf9f3fd94987aa7435e5cf378967",
+      "statement": "PRISM Payments Hub's v2 lifecycle model includes a REPAIR state meaning the wire has been routed to the Wire Room repair queue (typical duration minutes-hours), which legacy v1 API consumers can only see as the generic PENDING status.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L54-L62",
+          "version": "repo-lines-v1:sha256:53d872875eeb2f450cdfe14ae01c09d532f9ecad01596d4da951f2a8eb249610:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM0MGE4MGZhOTYzYTY1ZDdmNWJlNTYxMjMyMDQzZmE2NDMzNTIwMjJkMDc1NDk4Mzg1MTc3YjU5ZjQ2YWI1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGIzMzYxZDZlZjdjZWVlZjc1NWNjZmRlODhhZmVhZjg5ODg2ODc3MDEyNDM2NTdhZGM1Y2QxNDNhYTgzZDYwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjYyOGNhYzI4YjA0ZjU4ZjVjN2IzYTE1YzNjNTIwMDU3YmUyOGY3NjMwNjU4Nzk0MGMxZmEwZDRkMDcwMTQ0MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGQ4NzY1NmMyNmExZTBkNDEzYjZmMGIyNGJlYjk0N2UzMWFjNWE0NjM1YjBlYjk1YzRlNGM5ZGQ3YzlmNDllYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f134fddf5fe64ae69113ec6ee4955b9a",
+      "statement": "Under CTRL-PAY-031 (updated 2026-06-10), digital client self-attestation for duplicate-suspect (HRC-01) holds is allowed with step-up authentication, but wires over $5,000,000 still require Wire Room release and have no digital release path.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L159-L163",
+          "version": "repo-lines-v1:sha256:287ffb3ab43bf6c7a3651d048d8c9b5ba3b739fb9f68bcb1809b6e4d8feb3188:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDAyNzQ1YTA1M2Y1ODU4MGVhN2YxMGE2N2JlODgwMGIwZGVmYmRlMzhkMzljZjI5YmEwZDMzMWI1MmU5NjQwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI3MmU1NGExYTkwMTNhZTc2MDIwZjczMDk5MWEzMzQ4OWZkMThjOTI2NTZjOTRmYjQ0ODFjOTk5ZGVjNmJmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAzNTY4MjBmNzFhZjdkOGQzMGMwMmJmN2I5YTQ1MDczOTkxZjIwMDcwY2NkMjYyMjM2ODQ5MmY1MmIxMzEyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRiMzcxZTNmZTBkZDY3MmJlYjY0N2RhZWU5OTI3ODZiZjJjNzdmY2Q0NzZjNmJiNDlkNWMyNTBhNWIwMTI5OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6dd7a4fe550748019411c5e776fec858",
+      "statement": "The legacy Wire Room console, owned by Payment Operations Tech, was migrated onto the Investigations Workbench (IWB) in 2025, which is the current tool Wire Room staff use to action held and repair-queued wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L96-L96",
+          "version": "repo-lines-v1:sha256:211610d4c7dfab72409a96b6aa697bbf1ad5a74f2e91909b1130e18f2dcbc89e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjExNjEwZDRjN2RmYWI3MjQwOWE5NmI2YWE2OTdiYmYxYWQ1YTc0ZjJlOTE5MDliMTEzMGUxOGYyZGNiYzg5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjExNjEwZDRjN2RmYWI3MjQwOWE5NmI2YWE2OTdiYmYxYWQ1YTc0ZjJlOTE5MDliMTEzMGUxOGYyZGNiYzg5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWJlZTM1NzdlMWFmMGE4OWU2MDJiN2ZlMzgzYjAyZjQ4NWU0YmRjYmY5NzkxMzQ0ZTMxNDFmYjE4ODExMGE4YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjU4MDJiMDlkYzg5OTA0YTYzNzEwMDdjYmI1NTdlZmQ4YWY0YmI5OTdkYjQ1ZGNlZWVhNmI0NDJlYTQ2NjM1NSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L35-L35",
+          "version": "repo-lines-v1:sha256:c0f8527207a315ef067c76be8a85e1fb6594265bb766791b65c07ef33f4116fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBmODUyNzIwN2EzMTVlZjA2N2M3NmJlOGE4NWUxZmI2NTk0MjY1YmI3NjY3OTFiNjVjMDdlZjMzZjQxMTZmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBmODUyNzIwN2EzMTVlZjA2N2M3NmJlOGE4NWUxZmI2NTk0MjY1YmI3NjY3OTFiNjVjMDdlZjMzZjQxMTZmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjI0ZDcwYzE3N2ViZjFkY2Q5N2JiYTkyOTlhNDYyYzk2YjVlMGRlY2FmZjFlOTViYmMzYTkwNGU4ZTdlMDY3MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTBhYTNlNTUwNTY1NGQ0OTgzNzhjYjAyMDA1MzU4MzA2NDAwMGY4NmRkMzUzNWIyYTE3YWM3ZjNhMzMwOGVkNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_808f27b1eced422999ed09f0c9170107",
+      "statement": "Payment Operations is engaged via an Ops Readiness Review required 4 weeks before go-live for client-facing workflow changes, with a planning factor of roughly 40 hours per new client-facing workflow/SOP, distinct from the Jira/Slack intake used by PTT engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L138",
+          "version": "repo-lines-v1:sha256:5e8f25138683bde846ef0c644ee375a49c381dc55b8f31b3cbb6d01a7d4a0662:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjNDUwZDBiZGFhOWUyNDU5MDcxYWU5YzhhMGI3N2Q1NjYwNGY2MzZmY2U1N2E1Zjk0NWI3YjBlNjgyNzExNDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmYTIxZDVlM2UzY2M5NzUwYjU1ODExNmVlOTVkNzZjZTk2NGRmMmFhYTJmZWFmOWE5ZTIwYzRlYjBmYTU3OWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_26b0d96ab6bd4b44ae4d74bd2d487add",
+      "statement": "Compliance or hold-policy interpretation questions are not decided by engineering or operations teams directly; they escalate to FCC Policy & Advisory (Jordan Ellis) or the Privacy Office per the PTT directory's escalation path.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

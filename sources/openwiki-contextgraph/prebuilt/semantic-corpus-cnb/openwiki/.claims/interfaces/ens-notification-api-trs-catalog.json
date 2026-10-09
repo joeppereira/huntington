@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f90cd3eb10b2582c33431d8c439274a360fa090c21e9125936de3d814950a800",
+  "claims": [
+    {
+      "id": "claim_3fe458a035c14c22aca1e874e111cdd3",
+      "statement": "ENS exposes three Treasury-facing APIs: POST /ens/v3/notifications (EP-ENS-01) to send a registered event with an approved template, POST /ens/v3/subscriptions (EP-ENS-02) to create a per-user subscription filtered by eventType and accountId, and GET /ens/v3/event-types?domain=TRS (EP-ENS-03) to read the TRS event catalog.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L77-L84",
+          "version": "repo-lines-v1:sha256:602c087a2c9e2432ac2347e20e31b61f7ea58215954e49e021f04cf41bb8681e:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg5NzQ2MzgwN2QxNTNmZDIzZjE5OGZiODQxYzkxZjlkNTkxYmIyMWU2Njg2YzI1OGVkNmMzYTk4MmUyNGFhNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBjYjE0N2JkYmZkZGYxYjY0OTFiODkyZDllYzc1MDViYWQ3NjVmZTRhODgwYTdkYmRjMzJiNmJkY2IyZmI0NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjA1YTZhYjIzZGEzY2M2ZDhiMTNhYjMxMTAyMzgwNDgyZWQyNGY2OGJiMzIzOWJkYTQyMjk1MTFkYmIxMjRiZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_25c2306c56404e30a5ddbd4e7bace154",
+      "statement": "The current Treasury (TRS) event catalog has exactly six live event types: TRS.WIRE.APPROVAL_REQUIRED, TRS.WIRE.RELEASED, TRS.WIRE.REJECTED, TRS.WIRE.INCOMING_POSTED, TRS.ACH.STATUS_CHANGED, and TRS.ACH.RETURN_RECEIVED, each with a fixed producer, trigger, and template.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L53-L73",
+          "version": "repo-lines-v1:sha256:b6e04e2498a7a101676059970f116757f6e72b398c75e422a9cef0b7d123a4b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NDFhYzA0MTM0ODM5NWFiOTgxZTkwMGU2NWRmYjc5NzQyODNkYTMwNTU5NmFjNWE2ZjU0MGNiN2ZlNjViZDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkMGZmOTI3ZmNkYjAxMTdiMmNmMjM2Njk5ZTZkYjQ2MjQ4ZTY3YmM5YzIyZWU3NTZjZTgwMTM3ZTNlYTQyYWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI3OWZjNjM3NmI5ZjI5OTBkOWY3Mjg2MTU2MmI0MGQyZjRkMTc1OTYzYzgyYjAyNzkwMWVkMDkwZTdjYmEyYzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUwY2IxNDdiZGJmZGRmMWI2NDkxYjg5MmQ5ZWM3NTA1YmFkNzY1ZmU0YTg4MGE3ZGJkYzMyYjZiZGNiMmZiNDcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_97b659da1c944c32b453f99f160a79f3",
+      "statement": "No ENS event types are registered for wire network acceptance, beneficiary credit confirmation (gpi ACCC), wire returns, gpi milestones, or client action required on held wires; this is an explicit, named gap in the TRS catalog.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L75-L75",
+          "version": "repo-lines-v1:sha256:c711a202e3c02b999cc47706e6568e6e339edc12411a572c9c0f6bdb3ece5e3c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzcxMWEyMDJlM2MwMmI5OTljYzQ3NzA2ZTY1NjhlNmUzMzllZGMxMjQxMWE1NzJjOWMwZjZiZGIzZWNlNWUzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzcxMWEyMDJlM2MwMmI5OTljYzQ3NzA2ZTY1NjhlNmUzMzllZGMxMjQxMWE1NzJjOWMwZjZiZGIzZWNlNWUzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTdlMWM0NGVmNTQ5MTg3MDljNTEwNzhkYzliYWJiODk1OGFlMzI4ZGUxODg4MjIyNzA4MzMxY2EyYWViNjRlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjODc0MzI0N2U2NTA3OTY2NjBlZDI4ZGUzNzIzNWE0YzllYWRmYjU3Yjg5NTc0MmVhZjc5ODY4MGNjZDE2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3f0952318bb94faa8dc9ca313b4ced06",
+      "statement": "ENS subscriptions can only be scoped to an event type plus optional accountId/amount filters; subscribing to an individual entity (e.g., a specific paymentId) is unsupported until the planned ENS-1120 entity-level subscription work (targeted 2027-H1), so producers needing a specific recipient today use a producer-resolved-recipients send pattern instead.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L49-L51",
+          "version": "repo-lines-v1:sha256:7b6750fc41945eae6836d5115964229ec2e5835b12941bb5e45adddb0e807434:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmYmNjYzc3OTQyOTJlYzU2YTA5ODc2YTZjNTBmODFmODQxYjYzZDJjOTQ5YmNmMzYyNzE0NGU4NjA4ZjBkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNlNWE5M2U5NDUzN2FjZjYzMGEwZmZhZTkwYWM4ODM5NmUxNzBkNGViYTgxMDVmYTcxODgxODBkMDEyOTliNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzI5ZmI2YmY4MWNkOWNlYjQxY2UwMjI5NDM0NGU5NGI1NGIzODc3Zjk5NTczMzRhOGQ0MGIwYjcxZDY4OGNmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJhMTY5OTRmOWQzZTI1NTY0YjEyNDA2ZjVhYjAxYjQ4OTgzMDM2NTQwMzk3ZDk1NTc4Y2ZiZjhkMWE5MDA3MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d9a9613784a24f7fa548fc5848a685f0",
+      "statement": "Onboarding a new ENS event type is a defined five-step process (ServiceNow catalog item, payload/recipient-resolution design, DRC template review, ENS configuration/testing, producer UAT) with a published 6-week SLA to production, and requests submitted after 2026-11-20 are deferred past the year-end change freeze.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ba50d9789bac47aeb78c8b0be58c5016a66c7b51eeb9632461c33cf56926fe22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZDU1ZjUzNTA2NDk2YThmNmNlZjMwOGVhZTJmMTA3ZmI0ODJlZDg0ZTdmYjU3OTFjNDhhN2RiZDZkMjBlNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiZDlkYzQyMjI3MWQ0YjI3M2MxNGU0NGUwZTk1Y2ExYWI2MzBjZDc4NzFlMTc3NDliMWQ4NzNlODg3N2UxNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZjA4ODc3NmRjZGZkYmU4YTFjYjZiNjI0MDE3ZWNlNDE2MjE4OTI4OWE1OTJhMTU5MDRlMTRjN2FkYTc1ZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlMTlkMTE5YjVkMDQwZmVlZTk1YTRlMzVhYWI0ZmM1MmJmZWY2MzBkODQ5MWFkMDNhMWQyODBhOTRhOWIyY2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8ea80c8b73244ae89dd8b98aef129dc0",
+      "statement": "Wire Center (cbo-wire-bff) currently produces only three of the six live TRS event types (TRS.WIRE.APPROVAL_REQUIRED, TRS.WIRE.RELEASED, TRS.WIRE.REJECTED), each triggered directly off a PPH v1 status value, via a synchronous call to POST /ens/v3/notifications (EP-ENS-01); TRS.WIRE.INCOMING_POSTED is produced by CDP and the TRS.ACH.* events are produced by CBO SPS, not Wire Center.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L107-L113",
+          "version": "repo-lines-v1:sha256:94cc22eab336aa0ae3d0741801269d37e1ff13ccd00cd112fc9aab6ee6139fdc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYzYWI5YjQzZjI4MGMyOTU4MzZlZTNmZjcyMzkxMzliNDhjMDQzMDZlMjAwM2MwZTUyYTQ0Yzg3ODcwMWRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzA4ZWExYWVkMDdjNDAyZjkxOTZjNGY5MzUzMmQ0ZDkxMjJjZDliOGM2OGZjNjNiNzI1MDkxYTAyMzgxMGIzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTBkMjRkZWI1NDk4OWEwMWJlMGY3ODY0YzM1NDZiZmRmNDU1ZjYzZGVkNDY0ZWRjNjBjZmE1M2ZhMDBhMjM2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGFkMWY1MjU3YzE5M2NmMGFlYWJkZDRmNTk1MTUwMTg0MjgzZmJlMzA5NDJkOGFhMmE5MDc2Mjc4NmU5ODVmMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L76-L78",
+          "version": "repo-lines-v1:sha256:0a08b91c754c1d5c3ddc4c189b3b143f85f8c93cba15348b6687b7e2a2e7a4f1:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTM5NTFkNDYxYjVjY2JjYzFhZTdhODhjMjc1NWNjYmU2YjJkOWMyNWYwZjdjMGUyOTgwMGRkNjU3NTAyMDVmNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTkwMDkwMDdjMDllZTZjZWM3ZGZkOWFmNWU0OWY2YTgwZDY5ODEzMWRjZGRhZGFiMjg0ZjMyOTcxOTRhNGViNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWQ3MjgxNDEwNWE1NjgyYWJhODEzMTM2ZmQ4YTU3MWYwZjRjNzAwZjNkMmNiNzJjMGRkNzhlYWIzMzg1ZDgxNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d783ff6c43634eb282872f7090654c77",
+      "statement": "The missing TRS wire-event types trace to Wire Center's reliance on PPH v1, which exposes only a coarse status set (RECEIVED/PENDING/HELD/PROCESSED/REJECTED/CANCELLED/RETURNED) with no UETR, OMAD, gpi milestone data, or hold-reason detail, and to gpi status being visible only to Payment Operations in the Investigations Workbench rather than any CBO/ENS-connected flow.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L139-L139",
+          "version": "repo-lines-v1:sha256:01bb1daf51eabc17efc9fbb5ad3fbb7b5b526200953fcf793f69e265cb6cca30:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYjFkYWY1MWVhYmMxN2VmYzlmYmI1YWQzZmJiN2I1YjUyNjIwMDk1M2ZjZjc5M2Y2OWUyNjVjYjZjY2EzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYjFkYWY1MWVhYmMxN2VmYzlmYmI1YWQzZmJiN2I1YjUyNjIwMDk1M2ZjZjc5M2Y2OWUyNjVjYjZjY2EzMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjkwOGVkZWExMmU5ZDlkMWEwZTRlZmFlMTgwNmFhZWFiZWI4ZDUyZGU2ZDMyMTZiMWYwODE5NGU1NTEwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L84-L95",
+          "version": "repo-lines-v1:sha256:9ec8d5cad265bd0df9465fd805622940197901e52e6c189469df987e4b621a9f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5NDVhNTFhYjRiMTJmMzU2ODQyNDdkOTcxM2M2MTliMDgxZWI4YWNiMDEzZjkzMjU4MWMzZjUxODczODRjYzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljOTU3MmI2MGRhNzZhNzNjYTdjOTYzNzNkMWU2NmY3YzY0MzMzMzc5N2E1OGJjNWY0MjEwNDI1Y2YzNjBkNGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkYTY5ZjBjZGUzNDNmYjBkYmVmMDY1NjVmNDI5MjQ3NDVmNmVjOTRiYzgxNWZlNmIxYmEwNDVhNjMwMzBhZTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MGVlNmVkN2VlYTQwY2Q2NDgxMjQ0MjFlZjEyMmU5ZjQ3OGM3MGNhMGMwM2UxY2U3Y2E0NjFkOTllMWU2NGYifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L97-L105",
+          "version": "repo-lines-v1:sha256:2c65e9defaf6072f35e5fdb130048b9cdcc4bdd54f420f49bfb200b6aaa6eca7:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzMxNjc5YTFhOWZhNjAyZGI3MDQzN2RkZDU0OTdkNGNjOTk5YTkzZDBmYzQ0NTlkMWMxMjRiNjFmYjU3YmNjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWY3ZDlhYTJmODYzNjVjYTJhZGEyZGMxZTk0ZDBlY2RjOTQ4OTI5ODlhYmExNGZlNzllNjZjNmZhN2RjNmI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUyOTAxYTRiOGMyYjQyMGMyMmI4MzZjNTI5NWRjNWY2YjViZWFlMDA2NDVkNTM5Yzg1MWJjZmRmZTE2YmI1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ3MzVmMDY5MTM1NjYwYWViMTYzMWUxYjIyZTNmYjQ1NTQwZmJkM2Q5N2U1OTMwMGUxNTU1YzYzZWNiZWM3YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4bc61ebceb594db5b503091a6cc29558",
+      "statement": "Per ADR-PAY-019, Wire Center must not poll PPH for status (only throttled, user-initiated refresh is permitted), so any new wire-lifecycle notification capability must be event-driven, requiring either a PPH v2 migration or a wire-capable Status Projection Service mapping module with a consumer ACL on pay.wire.lifecycle.v2 (SPS today is configured for ACH only).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L127-L127",
+          "version": "repo-lines-v1:sha256:4ca758e2941b0d69619354e421c40c2a235be8df0bc06e8807020e2588198c87:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNhNzU4ZTI5NDFiMGQ2OTYxOTM1NGU0MjFjNDBjMmEyMzViZThkZjBiYzA2ZTg4MDcwMjBlMjU4ODE5OGM4NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNhNzU4ZTI5NDFiMGQ2OTYxOTM1NGU0MjFjNDBjMmEyMzViZThkZjBiYzA2ZTg4MDcwMjBlMjU4ODE5OGM4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2E5Yzc3NjdiMDQwNzhmMmJmZjA4YWJjMDc1NjA5NGUzYjVhMWJkODFhYmI0ODAzZTM5NmEzNzgwZjZlYzRkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2I4YjI5YzU5ZWUyMjNmYjg1NGE0MDRmMzFhYmIzOWU3MmY4ZWI4N2Y4Yjg4Y2M3NDIzNzA3ZTU0ZTY4YTcxMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L143-L143",
+          "version": "repo-lines-v1:sha256:649c24876fe623537eb31867fda9265fdfda45ea349de6ec96c4e6df67513f40:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg3MjQwNmEzMDgzOTZmODNlMWZiZGI1NzU3NjE3NzdhM2I4MTk2MDA1ZWUyZmIyYzBmZjAyMzk2MjNkOTZiYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L54-L56",
+          "version": "repo-lines-v1:sha256:ab076e9ea1e708bc43ad26f76c1485ffb7bf3fd9106006e85b78067d2fcc89cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODczMmQzMzZhNTdhY2RlNDU0N2Y3MWQxYmRmNjA4NWM5NDg3NjA0NGRiOTA0OTQ4NjJmODVlMjI3ZjMxYmZkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU3MzJkNTA4ZjdkMDk4NTFjZGE4MGU5ODk5NjUxNWNjMTY3MThmZjc0OTJhN2E3MDQ5ZjQzODJlY2JlY2Y5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjQ3ZThhYjc0OThmZDQ3YTgzYzI4MjFhZGYyN2YzN2FhNjU5OTM3NmRjZTk1YzZmMzcyZmY1MDM2MDFlZmUyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b46ad1258f9c42518c2579d4a5b42724",
+      "statement": "ENS enforces a Treasury-domain throughput quota of 120 msgs/s within an overall 300 msgs/s sustained / 1,200 msgs/s burst platform capacity, a 4s p95 delivery latency target for push/in-app, last-4 account masking, a ban on Restricted data in payloads/templates, and TCPA-consent-gated 160-character SMS templates.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L28-L33",
+          "version": "repo-lines-v1:sha256:54e97e2a4f8b51d9b34f2192cd432f58755b9128e08dd2253dbc60704ae0481b:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmY0YmFmYWI0OTc2NjZiNmI3ZjZhZDFmNGU5MDQyNDRkMTU0M2ZiNTIzNDQ0ODg3MDU2ZDgxN2Q4ZTI5ZjQxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTFmMDM2MTAzMTE1MGI2OTBlMTYwNDczNDRhOTIyODE1MDI3OTJkMTQ0ZmQzYmRjNWRlOWM1ZDgyMmVlYjM1ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGYxMDk5YmIyN2Y1YTNhOThjZWI4MTA3NzAwMDMzMjYxNzEyMjE5YmJlOTJiMzRjMzkxYjZmM2NmZThlNGVjYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmNlNzVmNDRkYzk5ZjE1OTEyMzllYTY4ZjZhZGVmMmFhY2IzNWMwNDExYmIwMTdkNmM4NjhlNzE0MWQyMTg2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_760a3c963f3448af980641c82b02754d",
+      "statement": "ENS content rules require FCC-approved copy (per POL-FCC-014 Appendix B) for financial-crimes-related template states, producer-approved status terminology in templates, and prohibit links exposing transaction data outside authenticated sessions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L85-L91",
+          "version": "repo-lines-v1:sha256:8a12edee5b51cde3ded50a2374c3e3708134d2a0463291731f658b85f806c4e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzAxM2E4NmY2ZWNlYmNkZDJiZTdiY2ZmNmNkZWI5YTgyNzU2ZDU3ZTA3MGNkOTFlMmJmOWRmMmI5YWYwMzQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk1Y2QyMWI4NTM4ZGQzMjdhYWY2YzJlMjNkMzQ1NDhjMmZjNTU1ZGUwMjkxOTk4YmRjNjUyODBiODk1NjQ2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGVjYWQ5ZWEyZjgzNTFjM2NjMzhjNGU2YjFhOWJkYzE4NmQ0MzNhMzRiMTU0NDFjM2ZhYWNiZTQyN2Y2NDllMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ5ZTFkMWJmNGM3MDJiOWI3NzhjMDdkMTA4YzU5YmMyYTc5NjMxNWZkY2UzM2I2NzIzNjc3MzkxMWJlYzA2MiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

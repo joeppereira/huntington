@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:4f56ee790e6794f117441a24d84bbb2d6ab893512e61a2a80cb62c1b3af5d21a",
+  "claims": [
+    {
+      "id": "claim_c3dd46aaac9c45ce97f30362d6ad867a",
+      "statement": "Pillar 3 complements Pillar 1 and Pillar 2 by requiring banks to publish capital adequacy, risk exposure and risk management information; MHFC's FY2025 report is prepared under 12 CFR 217 Subpart D and E and covers the consolidated bank holding company.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L7-L37",
+          "version": "repo-lines-v1:sha256:7274562e83a3846dc62c6a5515d48316d6a08906c43951c9acd59760697404b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllZjYxYTUyNDJjOGU2YmZiOTE3ZjVlOThhZmY5OTc0OTFiY2VlNTUxYmE0NTE2OGNjMjRmNzgxYmFiMzVkMjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjOGJhODk0Yzk4MWRiNDg5Y2FlYWNiMmVlMjVmNzFkN2QzODIxOWY3YmQzZTBiNzNlYzk4NmI1MjlkNmVhYWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMmI1ZmNhNWVhMDk2YmY1NzYwMzFiNmExOTUwY2EwMGZmYTAyMjZhMDQ2OTkwNGI2ODA5MWI1OWU5MzMyNjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJmYTdjYTZhYWQ3MzI4NmQ5MmFkNDVlNzdlMTNkZGNjYzE3YjI4ODJiZTJlZmM3OGFlNjBiYmI4MTNmMTRkNGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_109098a0113143969b33683e212efda3",
+      "statement": "MHFC is an advanced approaches firm calculating RWA under Standardized and Advanced approaches, using the lower of each ratio (currently Standardized, the 'Collins Floor'); disclosures are unaudited but subject to disclosure controls and Disclosure Committee review, and consistent with FR Y-9C, FFIEC 101 and FR Y-15.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L35-L37",
+          "version": "repo-lines-v1:sha256:8e86802ca5b92c87d6c759a3fd1247cb6a8bc719e91b675ee3ed140ee2ddc9cb:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc3NzA4Nzk5NTQwNmQxZjE0OGFlYjM5MDMwZTdlYzVmY2MzOTg0YjFlZDJkOTQ1MjM0NDdhMzFiZTlkZTc1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM4YmE4OTRjOTgxZGI0ODljYWVhY2IyZWUyNWY3MWQ3ZDM4MjE5ZjdiZDNlMGI3M2VjOTg2YjUyOWQ2ZWFhYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGE2YTM1YWFmZWUxN2UyYjg2ODNmZDQ1OTMzMDIzYTgwYmI3ZGNhZGVjNGFhZmI2MmI1Nzg2MDM3NjliZWU2MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmZhN2NhNmFhZDczMjg2ZDkyYWQ0NWU3N2UxM2RkY2NjMTdiMjg4MmJlMmVmYzc4YWU2MGJiYjgxM2YxNGQ0ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2318708206a54be4b0cd339045204245",
+      "statement": "The report maps each Pillar 3 topic (scope, capital structure, adequacy, leverage, credit, CCR, securitization, market, operational, IRRBB, liquidity, stress testing, model risk/data governance) to numbered sections 1-15.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L39-L54",
+          "version": "repo-lines-v1:sha256:76dbc25dab6e58c7c7855941d9e90324b09eef84f76d6eb334df5390fc295e7e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzOGYxNmYyNmE3M2ZjMDdiYzNiZjJmNzAzMGU5NmQ2Yzg4NmNhNjljYzRhN2ViZDk2MGE0MzFlNzkzY2Y2MTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4OTYyMjU2ODhhYWQxNTExMmE5ZDljZjJhMDA3OWFiZjA2ZWRmMzc0NjQ1Yjc0ZTI5NjkwYTFjNzlkZmJiZjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFhNTI3YTkwYzUzNTEwYmU3ZDBiNDhmNDhhOWRjOWI2YTY0OTg5M2FmZDIxZTIwNjc5NmQ0MTZhNGExZjIwYjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg5MjdiYWU2ZmVlOTJhMDM5ZTQ4NjM1NThhYzBiNmFmNDVhMzE1OWQyMDNlNjNmZTY2NjY3MGNmZjEzMTkwYWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_61114ba752214435bf8092f0fb2d9f43",
+      "statement": "At Dec 31, 2025 MHFC reported Standardized CET1/Tier 1/Total ratios of 15.08%/16.95%/19.75% and Advanced 15.92%/17.89%/20.54%, with a 10.2% CET1 requirement; the 5.7% buffer requirement equals the 3.2% stress capital buffer plus 2.5% G-SIB surcharge plus 0% CCyB, versus an actual 10.58% conservation buffer.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L135-L149",
+          "version": "repo-lines-v1:sha256:3ccf6d25972b1b8eac63783fe0da443217e57c59898020c1c24fef69aefff0fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MTg4NjBjZTQ2YmQ4MzFjNDBlZDAxNjM5NWIzZjRiZGRkM2ZlMGQ2ZTY0NjIzNjdkN2FiNjRiMmU5YzFjM2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0NjNjMjQwY2YxMmIyODE4Njc4MjBlYjkyMjY5OTcxODNlZjVjY2VkZGY5ZTA0ZGZkNDIyMGJmZDIxODM4YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk2MjFlZWJkYjMwMGRjZDhjMDc1OGI1OGE1YzQ1ZWQ1YTE5OGU2ZDk5ZGQ3NmYyNWFlOGI2MTkwZTA5YjkzOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlZGIwNDE5ZmE1NjU2ZGVmMjU5ZjMwZWNiMjAwYTU2Y2E5MWNmMzdkOWZlZjE4YTg4ZjY0ZWQ5N2EzMTgwMTUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L186-L194",
+          "version": "repo-lines-v1:sha256:8814413ebfecb35a6c67291d9fc18f64295e16f2a8663fcfbe1b79af0a961510:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWZjNjYzNzk2YjM5YmRmNzIwODIyYjlkMjk2OGQzNzk5YTM1N2U2YjcxOTcwYjBkZDg5OTRkMjQ5NTAwNzNhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzdiOTFhNTAyMzlmODgwNGUzNTVjYTA3YzE1N2U2NmVjOWMwYWYzMjM2Y2I5YjY2NDBjYTY3YzQ5Mzk1YjBmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTI2ZGQ5NDVlY2YwMGI3MWNiZmRkZjliNWJhZTU4NmNiNDlhMTJlMDQ1MjA5NGQzMzZlOGUxZGE3MzMxMjAyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjAzZDFkZWFiYmQ3M2JkYjM2OTFkY2M3ZWZmZjY2MThkYTg0Yzg3NzUyOTFlZWQ3MTEzMzdkMjcwZmE0NWQzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f3f8d48325a74c8bbba9a8bf125b3b4f",
+      "statement": "The U.S. CCyB is 0%; foreign-jurisdiction rates produce a 0.108% weighted firm-specific figure applied to non-U.S. exposure only and shown for transparency and Advanced approaches computation.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L170-L182",
+          "version": "repo-lines-v1:sha256:aa183cdca4df95a48b70e1eca82094848fd007bd4b37b34fc9fd0e74c7f1953f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3ZmU1NzM1ZGY3YzZkMmQwY2MxMmY4OGYwMjM5MzZmYWU0NzQwNDI1NTg2ZTQxMmMyNmM2MjJhYmM4MGQ0MzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0OWNjM2ZlYWI0ZmZkMzlhY2MzYTg2N2VmM2Y5MjFiOWVlNWVlYjJmZjI1NDU1Y2Y2NzFmMTc2YjVlODNmMzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzYzI1NWQxMmYzZDIwOTQ1Mzc3OTEyOGQyZDY4ODUzMTJjZTEwYTVmNTA5ODI4YzdiMmU2NjlkNDM1MGQ3MTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkyNmRkOTQ1ZWNmMDBiNzFjYmZkZGY5YjViYWU1ODZjYjQ5YTEyZTA0NTIwOTRkMzM2ZThlMWRhNzMzMTIwMjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_18fbb19d3c424191b66f6b2c2d21123b",
+      "statement": "The SLR is Tier 1 capital over total leverage exposure (6.10%); the report states an effective 5.0% requirement while the internal risk appetite sets a stricter 5.5% limit.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L198-L211",
+          "version": "repo-lines-v1:sha256:31b22049e90b175957b6b668efebace90f7b23393d8a9d3acd9be447800ddb9c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMDg5MmFhMzcwOWVkZjQyYTU2NjQ1YWY3NzBjMzExODRlZTdiMDQ2NGQ2OTU2ZWE0OGJkOWVhZmVkMmQ2ZGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjNDkwMGU1MjNmMzdlZWMwOWVhODY4NmUwNjcxODg4NWI3NTdmNTNjMGExNGVjN2MxMWI0YjhkMjA0YmEwZjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwM2QxZGVhYmJkNzNiZGIzNjkxZGNjN2VmZmY2NjE4ZGE4NGM4Nzc1MjkxZWVkNzExMzM3ZDI3MGZhNDVkM2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk1MzI4ZGQ1MjM5Yjc1MWZiZjYyZTUwYzkzZTM4YzA3NTE5M2ViOTM3NzRhY2U0MzBhMjU3YmRhNWE0ZTMwODMifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L72-L72",
+          "version": "repo-lines-v1:sha256:6ea2c6af14dba77961be65d161ee3ae71357908bb8363451e3f2141ac53801f4:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmVhMmM2YWYxNGRiYTc3OTYxYmU2NWQxNjFlZTNhZTcxMzU3OTA4YmI4MzYzNDUxZTNmMjE0MWFjNTM4MDFmNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmVhMmM2YWYxNGRiYTc3OTYxYmU2NWQxNjFlZTNhZTcxMzU3OTA4YmI4MzYzNDUxZTNmMjE0MWFjNTM4MDFmNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGZkMThlMWYxZTBiOWYwYzVhNDRlN2YxYTgwZjA3MGRiMDQ1YWY2ZjFiZjFjNDI4ZjU1NWZjYjhmMTE3YWUyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ1ODkxMjY0MDAwNGViOTU1ZTAxMWRlOTQ0MmE4MThhNjAxNTYwNTFmNjFiNzRmNGY0NzlhMTE4NTE5ZWE2YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ddcea90d3f2c4ed6abc3b70fb9cb437f",
+      "statement": "The Board-approved risk appetite framework sets quantitative limits (e.g., CET1 >=13.0%, LCR >=110%, NII decline <=7% under -200bp) that the report discloses actuals against, all within limits.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L64-L77",
+          "version": "repo-lines-v1:sha256:74c019405ec33b0287cb19abe6f127b54a9da097a15d9caf5941a71b6165abfe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmYjIwNDY1MDkwOWYxNGQ1ZjJkNjkyOTFiMDE5MjUxYTA5YTQzMzNjODJlNDNjNTI0YjlkZjdhYmMwMmE1NmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhODZjNWVmODEzNzEwYTI0Mjg5ODVhNDBkYTU1YWQ3ZWYxMDhmMDZkNzlkMDg4NDJhMmMxYjI3MWUwNDQ0YzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzOGVjZDQ4NGIxZmRlN2ZiMGQzNTcwOTdhNTlkNjBmODQ0ZTY3NDZjNGJhMmFjYmI0ODI3ZDA0ZWViNTQzNDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmYWZjZWQxZGEwMGI4ZDM0OTI4MWY1YzI1NDQxZjNhNjgwY2Q0MDE2OGJlMTMzMTI0OGFjM2IyNmZmOGViM2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_838ecc02c45b4f159503888def4d41b8",
+      "statement": "Disclosed liquidity and stress outcomes: LCR 116%, NSFR 128%, internal severely adverse minimum CET1 12.6% versus Federal Reserve supervisory 12.1% that set the 3.2% SCB; capital planning projection outputs are intentionally not reproduced because they refresh quarterly.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L410-L437",
+          "version": "repo-lines-v1:sha256:40586f1c01c84f21411fe49d5ec10f8bccc9d94703825e07358251a7a8f2688c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1MzM3ZWVkZGFmOWY2ZGY2MzZmOTc1NmM5YTNiZDFjMDI1YmFlMmY3MmI0NmQ0ZjFmNmZkZjhmZDFjODdiMTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlYTAzNDA4N2Q1NDg2NmEwOTAxYmJhMTcwYmVkODk4MDBkYmVlZWFiZGY4MGIyMTE0ZGI4N2MyOWE4MmEwNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyOWZhY2EzM2ViYTljNDRkN2RiODdkOTViM2VmYTAwOTRjNjkzN2ViNWQ5ZjIxYzc2M2IzMDU5NjE1YzliNjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRiZjcyY2RkMjZiMWYwZjJkOTJhYzM1MjViOWNkYzk0NzRmNDNjNTU4YWY1NTcxMDY2YjAzODc5OWJjMzQyN2QifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L443-L466",
+          "version": "repo-lines-v1:sha256:2634f3aa56c347e80a2b36a1fd1df242e6bcbb7957c92a91e85ccff934e36e5d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyZjc3YjEzZWQ0MjJhYjVmMGE1ODY1NjZhOWQxMGRiMzQ4YzUxNGUzM2Y0MDRhYTYzYmVmNjRjMWQ3N2Q5ZTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3YWJlOWQ5YmI1MGU4OGU2NjhkNDVlNDA5Y2Q1MGVkZDI4YzEyOTQ2NzMzMjU4NDlmNzgxOTRhYjVlN2JlODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlNDgzYzFiMDk2ZWMwNjkzODQ4ZjJlMDNiY2I0YmFiNDNjOTA1YWY0YWM5MmUzNDlkY2M5NWVmNDEzNzJmOTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2MzEwYjIyZjg0YjIwN2Y3Yzk0Y2Y3M2RiYTdhZjRhZjhiYmM3MmU5NjY5Y2FlNDMzMDQ3ZTQyYjQyMDE3OGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5a3080966a6d44d3996bbab9831d8db4",
+      "statement": "Disclosed figures rest on Tier 1 models (MDL-ALM-014, MDL-CR-007, MDL-CAP-003) governed under an SR 11-7-aligned policy with annual MRGR validation, quarterly monitoring and owner attestation; material changes require MRGR approval and, for regulatory capital models, regulatory notification.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L470-L517",
+          "version": "repo-lines-v1:sha256:0d2c67ec198b1bdc22537bb6d9d01745f4439927d25a4c3f2ac83af82b1cd4b9:eyJzZWxlY3RlZExpbmVDb3VudCI6NDgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiMmVkMmM1NmE4NzcyMTRlNTZmYTlmYTQ5MGJmZmJjZThjMzVkMzc1OGZiYmIzMTM2YWUwOTAxNGVhYjRkMWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJjZTlhZjkxNzYwOTgyYzVjZTU5ZGI3ZDQzNDI5MzdhNjllYmRjNGI1ZGFjZGE1OWM1NmNlYzgzMTNkZDUxZjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM2MzEwYjIyZjg0YjIwN2Y3Yzk0Y2Y3M2RiYTdhZjRhZjhiYmM3MmU5NjY5Y2FlNDMzMDQ3ZTQyYjQyMDE3OGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI1NjgyZmMyZTMyMzQyZWY0MGFiNmFhOWMzNjIyNjY5ZTdjM2UwYjc5YjUxZjY2OTQxMTM3MzBkM2JjYmE5NjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f2f214e8d59b4a828cd136c362ca64c4",
+      "statement": "Risk data flows through governed Developer Platform APIs (API-08 to API-16) under BCBS 239, each registered as a critical data source whose breaking change automatically opens a model change review; API-16 feeds capital, RWA and leverage data to Pillar 3, FR Y-9C and capital planning, with automated general-ledger reconciliation and monthly data-quality exception reporting.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L474-L537",
+          "version": "repo-lines-v1:sha256:67f2845aa8d33d75d2abe7dc5d8f6e0a94b5d14dc6adb3c60de101f5b47944cf:eyJzZWxlY3RlZExpbmVDb3VudCI6NjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwOWRiMjI0NGMwOWJiYjUyN2RhYTE3OTQ4NTk1OTExNTg2N2FhOTFkNzliODM3Y2ZhZjc2YjNjMDQ3NzNlZjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxM2ZjNDU1M2IwNTYxNDJjMmQ1ZWFjNmYxNGUzM2MzYWJhMDRjZDgwN2FhNGEzYmU5ZDkyODQwYjhmOGEwMmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3NTAzMDUyNTFhMTNmMmEwNjllYmU3NGYwMDYzYzYyNmEwNzJhOGM2ZmRlOTQzMWEwMDQ1YTUwMTUwOWU3MzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRkNDE3MjgyNGQ0YTU3MDFkNGFkNjVkODhiM2E5MDgzOTJiZWRkNTNjNDYyZDI1ZmYyMzQ2MTU1MjAxZGRkNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ec4f75b7e20841a1a961d6a075fc6d9e",
+      "statement": "Regulatory capital PD/LGD are through-the-cycle with floors while CECL parameters are point-in-time scenario-conditioned, exposed by API-10 through separate endpoints.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L283-L283",
+          "version": "repo-lines-v1:sha256:da64c3acc934b052164becea3069b8cc50f50485da5c727dba28f2cbe6a45b9a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2NGMzYWNjOTM0YjA1MjE2NGJlY2VhMzA2OWI4Y2M1MGY1MDQ4NWRhNWM3MjdkYmEyOGYyY2JlNmE0NWI5YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2NGMzYWNjOTM0YjA1MjE2NGJlY2VhMzA2OWI4Y2M1MGY1MDQ4NWRhNWM3MjdkYmEyOGYyY2JlNmE0NWI5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDhiZjY4MjMzYjhjN2Q1YjI0MTRlMmMwNGRkYjU0NDg3NmZkNjZkZDFjZmFlOWRkMjAxODgyZjQ3YmFlNTEwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGNkN2Q0NmVlZWZlYWJjNDhhOWJkMGRiN2FmOGQ3ZWE0MDRmMmM5ZjU2NjIzY2IxMjhjYmE3MWFhMTk4ZWVlZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_812e614296ec4b56bc208e92cae370cd",
+      "statement": "Disclosed model limitations: MDL-ALM-014 uses parallel shocks on a static balance sheet with constant deposit betas (medium MRGR finding, compensated by quarterly dynamic simulation); MDL-CR-007 had one medium and one low finding; MDL-CAP-003 had none above low.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L379-L402",
+          "version": "repo-lines-v1:sha256:0869e388798f72c8a89075502f905d681e200b8e6f0ba74fc52d15b30e14445c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3M2E1M2YwZmQ1OWJmNjQxNzNjN2ZiNDdlYTAyZjkzZWNlZmMyMGM0M2RjOWE5N2U3N2YzNmFlZGEyMjFlZTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlNzE2MGMyMzk3MjM0ODFmN2Y2ZTY5MzM2MzY5YTFjZTJjMDE4OWU2YzJiNGU0OGEyMDA4OGRjN2Y2NDNlNzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE0YTdjMDhjNWMyZDkwZTRiNGQ2NGFmMWI0MzQ0ZDZiZWVmZGM5YmVkNDBlMzk5N2JiM2EzYTVkMjk4NDljNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA3ZTU5YzUyNTdmYWRkMjFlOGRhYjU1OTk5MmUzMjAzZmNlMThkMjExNGNmYzg4MDY5YmQyZDUwN2QzODE5NmEifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L517-L517",
+          "version": "repo-lines-v1:sha256:bce9af91760982c5ce59db7d4342937a69ebdc4b5dacda59c56cec8313dd51f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNlOWFmOTE3NjA5ODJjNWNlNTlkYjdkNDM0MjkzN2E2OWViZGM0YjVkYWNkYTU5YzU2Y2VjODMxM2RkNTFmNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNlOWFmOTE3NjA5ODJjNWNlNTlkYjdkNDM0MjkzN2E2OWViZGM0YjVkYWNkYTU5YzU2Y2VjODMxM2RkNTFmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTM4YjBiYWM1MDUxMGI5ODI1NDQzNGM1NTU1NzRiNDVlZmU5M2RlNGIyYjZlNzliNWU1YzEzYTc4ZTVjM2M1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjU2ODJmYzJlMzIzNDJlZjQwYWI2YWE5YzM2MjI2NjllN2MzZTBiNzliNTFmNjY5NDExMzczMGQzYmNiYTk2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0ec1f98301ad49e88f0d75e25671c1e5",
+      "statement": "The source report is explicitly synthetic: MHFC is fictional and all names, figures and events are invented.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L17-L17",
+          "version": "repo-lines-v1:sha256:7314ecc1313d6f61e67044716783301222190d9cb3fd785b7a0d0c5baf693dbb:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzMxNGVjYzEzMTNkNmY2MWU2NzA0NDcxNjc4MzMwMTIyMjE5MGQ5Y2IzZmQ3ODViN2EwZDBjNWJhZjY5M2RiYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzMxNGVjYzEzMTNkNmY2MWU2NzA0NDcxNjc4MzMwMTIyMjE5MGQ5Y2IzZmQ3ODViN2EwZDBjNWJhZjY5M2RiYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDFmM2MyYzFhNzA1ZDQxZjkyYTMwZDc1NGIxMmFmMDkxODBlMGI3ZGEyMmFjNTQ5ZmFmOGE2ZmUzYTYwZGMxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBlZDA3ZTllMTc3MDY1MWUwODFkYjJiZGNmOGYwNWE2YTkwZWMyNTlhNTQ2Y2ZjNTcyMGU1M2IzOTNkNDdlYSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

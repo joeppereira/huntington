@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:ec6020587dc396dee39768c3eacefaf88c6ee1754b3f70c46f8c604146014d67",
+  "claims": [
+    {
+      "id": "claim_a7500ee6b93f47f0978e66f325c0f4b7",
+      "statement": "Meridian Harbor's Model Risk Policy aligns with SR 11-7 and is overseen by the Model Risk Governance & Review (MRGR) function, the independent validation function, which reports to the Chief Risk Officer.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L435-L439",
+          "version": "repo-lines-v1:sha256:d67d42f53108021556872bd0e4b88a3610434430665ff9a5f97c89a19159c67a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTE4MDk2MzVkOGNjMDlmMjkwMjc0OTU2MWVkMDNhZThkZGZkNDA0NzRiZTE1MjM1YjBmNThkMTUwN2M2YjNhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI1NWQ4NDk5NDllOTQzMWY0YjU2NDU2YmM0NzIzYWZiM2E4NWFlNzk2ZTBkYTBmNmExYmU5NThiNGJhOTA2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmUwZDQ3ZjQxY2I1NDIyYjExNjZkMDMwZDAzYjY5OGIwNjRhMmU5YjA2MDk5NmU3YmNmZmJhZjM1NDhlOTJhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U0YjRmYmU4MTMwNTQ1ZDBlNGU3YzhlY2I3ZjY2MDY3YTk5YzFjNmUyOTMwZTVjYmRlYjk3MjdjNGNhZjRjYiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L660-L660",
+          "version": "repo-lines-v1:sha256:819e1442c3ddcf5aef61854cc9efb43062034bf16c09cf7991833ca08e2e80ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODE5ZTE0NDJjM2RkY2Y1YWVmNjE4NTRjYzllZmI0MzA2MjAzNGJmMTZjMDljZjc5OTE4MzNjYTA4ZTJlODBiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODE5ZTE0NDJjM2RkY2Y1YWVmNjE4NTRjYzllZmI0MzA2MjAzNGJmMTZjMDljZjc5OTE4MzNjYTA4ZTJlODBiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmQ5YjQxMGQ5ZjNmMWQ1NGI4MmM0ODk5NjRiZmM5N2FjMWM2MTkwODc5YjEwM2FkZWEwZTcwNTA5ZmFkOTFkYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWJmN2M3YWJjMWMzNzgxZDFlNmJkNDg1ODJmMWM0NmQyOWE3MDQzNDI3NjUwODdlZTgxOWE1YzgwZjhhMGY5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e45d892ec48f47108d18e1fa6bb107fe",
+      "statement": "Models are tiered by materiality and complexity; Tier 1 models require annual independent MRGR validation, documented ongoing performance monitoring (quarterly per Pillar 3) with annual owner attestation, and Firmwide Model Risk Committee approval before use. Material model changes require MRGR approval, and regulatory capital models also require regulatory notification.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L437-L439",
+          "version": "repo-lines-v1:sha256:66f90d534288394ab833bfe516a5a866538b0c5b96fca1e7d20bb2fac24c1863:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2NjOTU3Yzc2ZGMzNGVkM2I3MGQwMTlhYTQ4MDI5MmYyNmYxZWRmOTMyZTQzOTA3ODI5YWNkMjdlNGE0MWNmNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI1NWQ4NDk5NDllOTQzMWY0YjU2NDU2YmM0NzIzYWZiM2E4NWFlNzk2ZTBkYTBmNmExYmU5NThiNGJhOTA2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTY5ODY2YzQ1ZmNkMDE5OTEyYzgzYWY5NGY2NzQ5M2EyMjU4YjZkYWM4NjU1NTYwNGVkNDg0MzA5YmFjYmU4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U0YjRmYmU4MTMwNTQ1ZDBlNGU3YzhlY2I3ZjY2MDY3YTk5YzFjNmUyOTMwZTVjYmRlYjk3MjdjNGNhZjRjYiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L470-L474",
+          "version": "repo-lines-v1:sha256:2a913c314801b01e44f4ad907ba95c488e6b59aa7cf68dfe68553aaea790a89f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmIyZWQyYzU2YTg3NzIxNGU1NmZhOWZhNDkwYmZmYmNlOGMzNWQzNzU4ZmJiYjMxMzZhZTA5MDE0ZWFiNGQxZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA5ZGIyMjQ0YzA5YmJiNTI3ZGFhMTc5NDg1OTU5MTE1ODY3YWE5MWQ3OWI4MzdjZmFmNzZiM2MwNDc3M2VmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzYzMTBiMjJmODRiMjA3ZjdjOTRjZjczZGJhN2FmNGFmOGJiYzcyZTk2NjljYWU0MzMwNDdlNDJiNDIwMTc4YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWUyZGY2NmVhYzA2MjU0YjIxMzQ4OGY5NWYzNjU4YWM1YmY0ZDA2ODdmMDI3ZTNkNWU2YjVlNDAyODUxYjM1NiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L83-L89",
+          "version": "repo-lines-v1:sha256:ba0a043f6e9b12bb6172a626191f0549ecbb1c93223fe9bab4bec750caf2c0af:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FhYmY2NzJjMzRiNjdmNjc2ZmRkODFjZDVmNWQ4NTI2ZDBiZTNjMDlkMTQwZTk4MWE0YjNlNDZhNGIxYTQxMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTc3OTE0OGI1NzA1MGVmOThjMTBhZjQzMjJlYTE0ZjJhMThjOWQ4ZWY2YmQyZDUzNTMyN2ViMWU0NTEwOTRhZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmM5NWU0MmZhMjFlMTE0Nzk0NTc0NzJiNzQ5N2Q2YTU5Y2MyZmQ0NjA1YWEzODYyNWRhMTU5OWVhMzlkMTFjYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjYxNzgyODlkZjY5N2ZiZTA2NjE5NjU2YjE5M2RiYmI1YzA3YTY5NDBmY2Y3Mjc1MmVkNDI5NWFmNWU5ZDlmYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_935dc3784d224848baac64907a61ddbe",
+      "statement": "The firm's inventory has about 2,900 models, of which three Tier 1 models (MDL-ALM-014 NII Sensitivity, MDL-CR-007 CECL, MDL-CAP-003 Capital Planning) directly drive the amounts and metrics disclosed in the Annual Report; each README labels them Tier 1 (High) with MRGR as independent validator.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L15-L24",
+          "version": "repo-lines-v1:sha256:0c13af1b4dc2f8884faa6c763999a1b8334cc293fcce65572c9830ff8b5e605f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjZmQ0MDk4NGVjOTcxOGRlZDAwM2RlMmM5NDYyYmRjYWJhNTIyYzRlNTVjMjg4MjM4ZjZlMDRkZDllN2ViMjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0MWEwNzlhZjMwNzdkYmRlMjE3NDEyZDU0YzdlNDc2YWUyODQ5ZDljYzdjY2VlZTc0YmE0MzdlNTcyMTg1ZWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlMTIxMTA5MTdkYTVlNWNiZjc4NTQ4MmZiMmRiNjA2MTlhMWE3ZGI4ODcyMjY3YmUzNjEyMGU2Yjg1NTU2YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwYWQ5YWIwMWY5OGE2YmM0YjcwZWZhODdjNjk5Y2MzY2IxZDUwYjM5NjNlNGVhZmYxOTgyNzE3NWQyMjY4MTAifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L125-L134",
+          "version": "repo-lines-v1:sha256:2385621ee1ebe24946e04e2da3ef9ec3f38d99d01f0f61980c405e559875907b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ODE5YmEwYTgzYmUzMTFiNjJkN2NjOTZiZjI5MGRiZGEwMjdiMzY4YTdhOTJlNWFlYTE0ZGQwMzljYmZiZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwODcxMjI0MDEwOTUzMzE1NWRmNTQzMDdjNzJhYmY0ZmY5OTViZGM3YTc0ZDM4NTYwZWE4NTU1NzZmYTY5MzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlMTIxMTA5MTdkYTVlNWNiZjc4NTQ4MmZiMmRiNjA2MTlhMWE3ZGI4ODcyMjY3YmUzNjEyMGU2Yjg1NTU2YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwYWQ5YWIwMWY5OGE2YmM0YjcwZWZhODdjNjk5Y2MzY2IxZDUwYjM5NjNlNGVhZmYxOTgyNzE3NWQyMjY4MTAifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L15-L24",
+          "version": "repo-lines-v1:sha256:076467cb51cfe85fa02e7f33d12541389ed81b589a741054b8f34ae1aa4e3745:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjOTVhOGEzNjI1Mzk0OGU0OGQ0YTA4MDQ1NjE1MmE2ZmNkMzQxNmZkMWNkNjk0OWJjNzIxOWQ5OWIxNzQ0OGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJhY2Q4YjNhNzExMWI0ODZiN2Q2M2EzMTNiMzA4ODliYzRhMzFiZDdhMDY4MTNlNzQ1MDFhMGM0NTk1ODEwNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlMTIxMTA5MTdkYTVlNWNiZjc4NTQ4MmZiMmRiNjA2MTlhMWE3ZGI4ODcyMjY3YmUzNjEyMGU2Yjg1NTU2YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwYWQ5YWIwMWY5OGE2YmM0YjcwZWZhODdjNjk5Y2MzY2IxZDUwYjM5NjNlNGVhZmYxOTgyNzE3NWQyMjY4MTAifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L439-L451",
+          "version": "repo-lines-v1:sha256:a69b14895eb7aa991fbccb65cd703dfa470f562368949ae859015e98ccb4edaf:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyNTVkODQ5OTQ5ZTk0MzFmNGI1NjQ1NmJjNDcyM2FmYjNhODVhZTc5NmUwZGEwZjZhMWJlOTU4YjRiYTkwNjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwZTNjMDY2MzNkNmYxYjZlZDFhZGE1ZTJlODljOTY0ZTk4MmI4ZjZmZjZjNDBjM2ViNzdhZDY3M2NmODJmNzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzYTJmM2MyNDZkNTY4NzdiMjc4YmZmZmNhY2E4Y2Y0YWM2NWYxYTk4MDY5NjVkYmVjMjZkMGQ5YzhjNTM2MTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzNGY3M2MxMGI4ZjhkZmQ1NGE5ZjI5YTc5YzQ3OTUyZmUyMTEyM2YwZTNjMDdiZmE3ODA0MjJmYzlhYzg2NjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a793755a7be74060b92a576293e5ceba",
+      "statement": "Validation dates: MDL-ALM-014 last validated 2025-09-18, next due 2026-09-30; MDL-CR-007 last validated 2025-11-04, next due 2026-11-30; MDL-CAP-003 last validated 2026-02-27, next due 2027-02-28.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L20-L21",
+          "version": "repo-lines-v1:sha256:612952736dd3214051e6c72abee89922586bd8a45e42f9c7d57530f4969837f7:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzkyYmQzODQ4YmYxYjE2MjhkMjgyNWMzMzk0NzZhMWEyNTJiY2FmOWUxYWU4ODhjMjdiNzE2MTAxYTM3MjA1ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQwODE2MDMyYjQ5ZmJhMWYxNjg3MTVjZTc1MTU5ZDhhM2U3N2ZkZDgwMjM5M2Y2Yzc5YzJkMTBmYmIzMWE5NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmJiMWI3ZTMwNjYwZTIxOGQxYzBhZjYwNTE2ZmRjMTY5NzdiYzU0ZWZiNWI1NzAzYmQ1ZjI3NDZiMmJlNTI5ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTA4YTFmNDY3MTViNzMyY2Y4OWI0ZTIzNzk5NGJjMTEzZWRlZmFlZmU0MWZkZjU5MGFiYWRhOGVjYmMwMDhiOCJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L130-L131",
+          "version": "repo-lines-v1:sha256:740d1e3ce34eeb9a3cdd14afbfff058baa45022a1325ce85f39b2e37cf4b36ed:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRhMWUzMjlmYWMzZjA4NWU3YmQ4OGZlNzY2M2I3NjE2ZjA5NjAxNmY3YTU5MmU2NzcyZDRjNGNmNDMzM2VhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGE1YzM0ZGI0NDZlMzc5ZDhjOWJjNzEwMmJlOThhNmViMGEwY2I0MDkzZWViNTliNDUzNTdhYWUwODYxNzU2MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmRjNmRlNzI4OTA1NjQ4MGZlZmNlNmI0ZGY1MTdjM2FhOGY3M2E2NTFjN2Y3MzBiMWQ0MjIyYTAxYTM5YTg4YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBhYjU4ODI4MGVjMjI2NzExNzlkZTBhMGI4NzlmNjY2YWJiMjIxYWM4NGRiZmQxYjc0Nzc4MjNkYTI0YzRlMSJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L20-L21",
+          "version": "repo-lines-v1:sha256:f623cb059706a932f51140a4e82dc252e8a4be9c4481399c9d1b6884906ad47c:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y0NGRkNWE0OTE1ZTM3MzRmYzk4ZDg2ZjE1NjFkMDA2YzkyM2NhY2Q4NmU2YTQ1YTU0NWVjMTM0MTk1ZWUwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIzNDUxYmQ3NjZkNDA0NGViNDEyYmFhYjdmNWYyNjNiNmExYmE4ZWJjM2I4YTZlZDhiZDJmYjQ5YTIzNDU1OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWQyMGIzMWY2ZWQwODM4NTdkNzZhYzEwZTIxNzg3NTNhNjMwNTdlYWQzYjU1NTgwNWU1YmM1OGY2NTM1OWU0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGY0NmUyM2M4OTZjNTUwMzI5OTM0NWIxNTA3NzA0ZDgwYzYxOWUzMjFiZDI3NWRmMjJlYTE5NDhmNTY3ZDRmMyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L476-L515",
+          "version": "repo-lines-v1:sha256:f249b1f24372f8c4dc543fc439c084d31489b4daecaa1fd6d701622ecc243e8e:eyJzZWxlY3RlZExpbmVDb3VudCI6NDAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyZWY2N2Q2MDBhZjM0ODAwYjYyMTYyM2MxY2UwN2FlZGNiNTE1YmI0MTQ5ODQzNGNjZGE3ZDcwOTc4NWE4ZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk0ODE3MWY1YTQ1NWM4Y2FjNDc5YzM0YjU4MDNmOWU3MGMxNjdhNzM2YjY0ZWU0Yjg2Njk3ODc2NWU1MDdjZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJhNjc2M2ZmZmQwY2Q1NmZhYjZjZmQxNmIwZjM4NTU4NjUxOGJkOGQxZjU5YTA1MjVjYjBlZjVmYjk3M2JjZTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI4ZjQzNzljNmI0YjU2MjViYTQxYTQ2NTk3NmY0MjU2NmViNGZjMjNiNmIzYzlhY2M5YjBiYzM1NWFmNDkyODAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_83ae8cb44a614c74905528ef48269c39",
+      "statement": "MRGR validation findings: MDL-CR-007 had a medium finding (no explicit unfunded-commitments model, remediated by an interim overlay) and a low finding (Card PD elasticity documentation); MDL-ALM-014 had a medium finding (deposit betas constant across shock sizes) compensated by the quarterly dynamic simulation; MDL-CAP-003 had no findings above low severity.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L57-L62",
+          "version": "repo-lines-v1:sha256:e9f1a84255b063ac1ebd07b75e307c2db6d8afcd92211a7a477b1625cede980f:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGU0ZDYzZTU3MjBjZTE0MDJmYWQ0ZTkyNTE2MzBlMTE4ZmJmY2NjYzA3YzVjNThlZTgyZGQ0ZThjZjI1Y2FhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjcyZWYyNDRkN2U0M2VjZmRiMDAwY2NhNDMxZDQ4OGZhZTM0NjhiYzQ5MzFkYjZhZGM1NTkyZTc1ODgzNWUzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L517-L517",
+          "version": "repo-lines-v1:sha256:bce9af91760982c5ce59db7d4342937a69ebdc4b5dacda59c56cec8313dd51f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNlOWFmOTE3NjA5ODJjNWNlNTlkYjdkNDM0MjkzN2E2OWViZGM0YjVkYWNkYTU5YzU2Y2VjODMxM2RkNTFmNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNlOWFmOTE3NjA5ODJjNWNlNTlkYjdkNDM0MjkzN2E2OWViZGM0YjVkYWNkYTU5YzU2Y2VjODMxM2RkNTFmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTM4YjBiYWM1MDUxMGI5ODI1NDQzNGM1NTU1NzRiNDVlZmU5M2RlNGIyYjZlNzliNWU1YzEzYTc4ZTVjM2M1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjU2ODJmYzJlMzIzNDJlZjQwYWI2YWE5YzM2MjI2NjllN2MzZTBiNzliNTFmNjY5NDExMzczMGQzYmNiYTk2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e6994d34cdb1429cbf653a1bfb5908e1",
+      "statement": "Upstream APIs feeding Tier 1 models are critical data services registered in the model inventory under BCBS 239; a breaking change to an API's schema or business logic automatically opens an MRGR model change review. API-11, API-14 and API-15 each feed two Tier 1 models.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L16-L18",
+          "version": "repo-lines-v1:sha256:73505b1c6c07b5bf626066df74ccbf28f5b577a5a458f53bfc45c4dae6502afd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWQ3YTQ0ZjQzNmE2YjQ1ODliNTAzZGFiYWMyZWYyYjNlZmE1NWUzYTEyYjIzODQ4ZTEyNzRmMTIzMmMzMDRhZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzlmNjE4NTQ3MTEzM2JlYWZlN2E3OGU4YTU2NDY2ZmI2MWYyOWJlOWY3YWFiMjM2MmE1M2Y4MmFhYTg5ZmZkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L457-L457",
+          "version": "repo-lines-v1:sha256:ef196b7af5e265e500911c223531b5b795358ae6d9e126fe1d281851649171ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTkzYjJjNDEyY2U3NWM2ZDBmNjlmMTU2NjlhMzBjYzM1NzdjMTcxMDBmOGNiZGQ0MjA3M2YwYTRjYmY0Y2MxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY4N2UxMzhkYzFlMjJkMTBkNmI5OGU5YjkzODZmNWM4NTI5YWJhZjk0Yzc3YTM4MmUxMTA4YTZlY2Y4ZTljZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L472-L474",
+          "version": "repo-lines-v1:sha256:1a8ff1ed0a1f67c82640bb7b56a809cd8b268bc39cca5d95b7d2c6f224e0d283:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDMyODc2ODI4YjA0Zjk0MDFkMzY4M2E1NGVkZTU3YmQ2Y2QwYTBkYTlhZDJhOTMxMzE3NjI5M2Y0NTdjM2NjMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA5ZGIyMjQ0YzA5YmJiNTI3ZGFhMTc5NDg1OTU5MTE1ODY3YWE5MWQ3OWI4MzdjZmFmNzZiM2MwNDc3M2VmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWY1OTY5ZWMxOGQ1OTY5Zjc3Njk5MjAxMGI3YTE2ZGZkOWE0ZWU5ODBhMGNkODBkY2M5Y2RhNjUzN2E0YTE5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWUyZGY2NmVhYzA2MjU0YjIxMzQ4OGY5NWYzNjU4YWM1YmY0ZDA2ODdmMDI3ZTNkNWU2YjVlNDAyODUxYjM1NiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L523-L535",
+          "version": "repo-lines-v1:sha256:547c5dea3c1d1101859525199ccdb6f4ba2c49031cf95f63d3b57b6f5381fe86:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhM2UxMjgwMDlhOWYzNjhkZGNjNjkwMGVlN2NlYjVmZDEzMjkzZDEwNWYxYzFlNDRjOWViODY1YTNhNDYzZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1NzRkZDA3ZTA2NzMyMTczNmIyZTA3MDgxYzUxNmE4YThmZDVlOGFhNzc2YTVhZmQyZDA1Mzc3ZGQxMDI2MDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkwZjhkODQ5MGJhY2RjNzUzMWJlNGUzNGU1ZGQ4YzBhMGY3YjUzYjNiZjM5OTM2ODk2YTAxNjQ0NzI3MDkxZjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhNTA1ZDZjMmY2OTc3ODEwY2FkYjg4ZjUwNWY0ZjY2NDE2MTIxYWVjMzAwNTRlMjU2ZWQ4OTJmYTEyNWUyNTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0b1f05431d6c431ab034f9d49f379723",
+      "statement": "The CECL workbook embeds model-internal controls: scenario weights (20/50/30) must sum to 100%, qualitative overlays must stay within +/-15% of modeled allowance per segment (check returns OK), and the total allowance reconciles to the reported $15,920 million with zero difference; unfunded commitments are excluded.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L12-L22",
+          "version": "repo-lines-v1:sha256:c04ea1ea35bb52cce8d702c315bbb970f3e944763e990f534c3f2b902488753c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlNzdhZWY4ZmQ3ZTQwODExNjc2ZGJiYTQzN2I3ZjM3Y2QwNDFkYTFjODA5NWJiYjIzZjM2NGFiNTQwMDM5ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNTU1ZGU5YjlkNzFlMTY0ZjRkMzdkZDNmYjgwYmQ4MWFlOTI2M2Y0YjkxOWYzOGNjMmZlMzMyYWExMmY1ZjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNkZWJjMjE1ZTliNGYzYzRjYTY5ZjI4NTcyZjU1YzkxNzEwYThlMDZmZDUzZDNiYTFkODkxOWRmODgzMGEwODQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0ZTQyNjllZjJhOTU4YjNjN2YxYTg3Y2Q2YzNjYjNhMGYwNTAzNjUyOGNkNjJiYmM2MDZhZjg1ZjhlNjdjMjAifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L166-L171",
+          "version": "repo-lines-v1:sha256:fb01423de24d1e066230096daa04d1fe6352ff621c6d8973acec37f41bd9056a:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTY3ZmM4NGFiMDY3YTg0YjFjYzg4NTU2ZmExNjJlYzhmZTU3YjNhNjNhZTJhYWZhZjUyYmZiNmZmOWRhOTgxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjc4YjY1OWI1ZjNiYTIwMzFmNjQxYTFlNzBlMjY2MTk1NDhjMzI4NDA1NDg4YjIwMjIwMTJmMTJhYjY5OGM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L186-L201",
+          "version": "repo-lines-v1:sha256:d785556a366425a64817bb3147429187aa9a553f428a8a8d04d28da7bf47a201:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyNDMwNjA4MDZiN2E3YTA1YjYxNzQ0YmUxYTliMzZhNGMwMzE1Njg5ODg4NGIyMjMzYmFhOTZiYzk4Mjc1ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2MDhkNjQ1MmMyMzlhYzYxMjhhNWJmYmUzN2FlZDFiMTI3ZDAyZjhhNWNhNWI3Y2RkOGNkOTY3NzhiMGYyNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyNWY2YjlmYzMyZTYzODQzZGJiNzVkN2EzMzM1OTU1MzBkNTRlYmM4MGM4YjdlMTkzYTdiODhlODljN2E0ZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2NmMwNWM1ZTcxMDM4YTNiMTY4YjhmN2E2ZjNmMDI3MjgzM2FkMzU0OGNiY2QwOTE2OWMzMTVmMTNiNmVkYTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2a124938020d4e848c1a1884af328de5",
+      "statement": "The NII Sensitivity workbook enforces Board limits (NII decline no more than 7.0% of base NII in any parallel shock; EVE decline no more than 15.0% of Tier 1 capital) with BREACH/Within limit status cells; known limitations are parallel shocks only, static balance sheet, and constant deposit betas, compensated by a quarterly dynamic simulation, and deposit betas come from an annually calibrated, MRGR-approved Deposit Behaviour sub-model.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L44-L62",
+          "version": "repo-lines-v1:sha256:7afe5f786a19fbab64b3815017bbae700c410a0573b6a87afdf6bc722a87b9b8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmNTQzMGFkNWM0YzMwMzg3NDMyZDE5OTJjZWE0ODk2YjQzMThhMWYwNzY0ZjhmMzlhZjU0NmQ4Y2UzYjMyOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlNGQ2M2U1NzIwY2UxNDAyZmFkNGU5MjUxNjMwZTExOGZiZmNjY2MwN2M1YzU4ZWU4MmRkNGU4Y2YyNWNhYTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3ZWI2YjM4ZDVjMTE1YmJjMzhhMTBlZTE0YTE2Y2Q1ZmQzOTQwMTgzNzdlOThmZjhkMzg5ZmEzYmYxMzU4ZmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwNzZiNjE3NzcwMTk3ODc1ZmU1YzMzNmFhOTM3YjZiZjE1MTE5MTA3Y2I4YThjN2FkOGFiNmZjNGEzZmIwZDUifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L77-L98",
+          "version": "repo-lines-v1:sha256:02a5fe06488994b283ae1d9944dfad6b6268a88fc6addf62f806418ae343867f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkYjFiMzU2ZjUzNzUxODZlODdkNjdjMGEyZmU4NzEyZDI0ZGQxNDg1ZGYzNzE4MjMzMjdiNTRhMTRkZDFiZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhY2RhOGY2YWI0YTE5MzFlNjY1MjkyMTA3ZTU5ZTQxZTg0OTI3MDBjZjFkZTk3Mjk0ZDE3MjZhZDUxMDU2Y2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiN2ZkNjg0OWYyZTM1Mjk1NjEzMWQyMGQ4NDBjZjc3YjNjZDI2ZjRkMjFkZTAzNTAyMWI3NmUxN2E3YTM5NDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI2Mjk2NDY1Y2QyMWViOTBlOGFmZWY4MDMwMWMzYTkyZTdkZDJiZDc5MzM1YmJhYjliNzJkZjAyZjNjMGFhOGIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_04f575138f3c4685ac6db9e65744f364",
+      "statement": "The Capital Planning workbook documents limitations (no AOCI volatility, no DTA threshold deductions, top-down stress losses from the enterprise stress testing program) and a stress check that compares minimum stressed CET1 (12.9%) with the regulatory requirement (10.2%), with the indicative SCB floored at 2.5%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L56-L60",
+          "version": "repo-lines-v1:sha256:bb4d9655d2159223d4fbbc6a66c40eeac81b0271c1ca714e0275c9fb29745300:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVhN2UxMzBkZTAzNGQ2ZTRiYzZkNjJkMTdkMWFkYThhNWU5MTliZWViYTUyMmQxYWNlOWNmNmI2MmMwN2IyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzJlZTJkYjY1NzI3NWYxMWExMWNhYTg0NDg2NDg1YmRkOTY5NDE0YmViNWJlZmU2MWQ0NDlhMjEzOWY5YTkyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L75-L108",
+          "version": "repo-lines-v1:sha256:120422934de73c12589c688117818586c38ca8bddcb71c3410c4486f7a4740a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzQwMTkxYWQ5ZDk3NzNlOWEwZjg2M2QwOTAyMzk5YTI5MTlhYTgzZjIzMmNmMjJjN2RlOTU2YTllNGJlMDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZmUxMjFiMDljNmNhNzgyZTg4MmYzZWFhOTA4ODM4ODZjZjQ4NTZkOGFlZTE1N2ZmZDE1NjJkMGE0ODVhY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2ZmYwZjcyNjQxYTRkZDRlMTk3NTA0YTQ1MGI2MTQ4MjhkYTMxZmI5ZWIzOGRmNDliYjk3OTlhOWE0MGE2NDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNWJlZGQ2MGJjYTY5MTFkZDQxOTBjY2RhMmJlNjc3NTRiM2M2MzZkZjU4ZWFjNzFkOTRlOTQ4MWRjYjdiYTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1422c8e9b28d48469e0850c491acd9c0",
+      "statement": "Model outputs are consumed by business governance committees distinct from validation: ALCO reviews NII model output monthly, the Capital Governance Committee owns capital model outputs, the Allowance Committee approves scenario weights, CECL outputs and overlays quarterly, and the Firmwide Model Risk Committee approves Tier 1 models and model risk appetite. Treasury/CIO owns the NII and capital models.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L249-L249",
+          "version": "repo-lines-v1:sha256:72de5e43c376e4377135473fab26d5ca97905ef863b8657bcbd39be8f5e62dbb:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJkZTVlNDNjMzc2ZTQzNzcxMzU0NzNmYWIyNmQ1Y2E5NzkwNWVmODYzYjg2NTdiY2JkMzliZThmNWU2MmRiYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJkZTVlNDNjMzc2ZTQzNzcxMzU0NzNmYWIyNmQ1Y2E5NzkwNWVmODYzYjg2NTdiY2JkMzliZThmNWU2MmRiYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzI5ZTJiNzJhODBlNzc0MmEwZjMwNzE0ZDE2Yjk2OTYzOWQxMTVkYWVlN2VkZWEyOGI0ODQzMTNlZDA5MjZmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzIyNjJlMzY1YjkyYzliNzQ4NzkxYjcwMmQ0NDM1NzViNDVmZjRhZGU5ZjRmNDEyZGUxZmZmNjMxOTgzOTIwOCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L283-L283",
+          "version": "repo-lines-v1:sha256:53b02a02b011e412fc6a12b0cee406ec8422367bbc66ad5ce627f0f3a3c8db6a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTNiMDJhMDJiMDExZTQxMmZjNmExMmIwY2VlNDA2ZWM4NDIyMzY3YmJjNjZhZDVjZTYyN2YwZjNhM2M4ZGI2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTNiMDJhMDJiMDExZTQxMmZjNmExMmIwY2VlNDA2ZWM4NDIyMzY3YmJjNjZhZDVjZTYyN2YwZjNhM2M4ZGI2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjcyNTNjZmE4YmFhYTBhYjJiNjQwMWJjYmU1ODhmMDc2YWNiMjZjYjU5NTVjMDUxZTI4MGI0ZTg1MDAwZjhmMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjMzZTg3NDk3YmJiMjFiMmFjNmIzYTliYzM5NzM0MmYzMGUyNzFjMzM2N2FhMzg0MTA1NzZhMWE3MDdkMzViYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L83-L89",
+          "version": "repo-lines-v1:sha256:ba0a043f6e9b12bb6172a626191f0549ecbb1c93223fe9bab4bec750caf2c0af:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FhYmY2NzJjMzRiNjdmNjc2ZmRkODFjZDVmNWQ4NTI2ZDBiZTNjMDlkMTQwZTk4MWE0YjNlNDZhNGIxYTQxMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTc3OTE0OGI1NzA1MGVmOThjMTBhZjQzMjJlYTE0ZjJhMThjOWQ4ZWY2YmQyZDUzNTMyN2ViMWU0NTEwOTRhZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmM5NWU0MmZhMjFlMTE0Nzk0NTc0NzJiNzQ5N2Q2YTU5Y2MyZmQ0NjA1YWEzODYyNWRhMTU5OWVhMzlkMTFjYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjYxNzgyODlkZjY5N2ZiZTA2NjE5NjU2YjE5M2RiYmI1YzA3YTY5NDBmY2Y3Mjc1MmVkNDI5NWFmNWU5ZDlmYSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

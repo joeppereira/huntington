@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:155c0f769e7de551dda2aa6e7cf2df9f5207d95b838915e14f2f2b24c54b30e8",
+  "claims": [
+    {
+      "id": "claim_6a3d5a25cd9941f9adef18a249466067",
+      "statement": "Reported NII was 48,620 in FY2025 (up 3.6% from 46,910), being interest income of 79,340 less interest expense of 30,720; 2Q26 NII was 12,560 (up 2.0% QoQ and 4.5% YoY), with interest income of 19,840 and interest expense of 7,280.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L486-L488",
+          "version": "repo-lines-v1:sha256:55ea7975abe4dcef1568a6ce029a92978c8c532a5413f50ca32b1ab9fb2e8ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDcyZmVkYmYxNjdiY2JiZDg0YjA1ZjI1MmM3ODNmODdjZTA1NTRiMTM5YmM1ZjhlYTEyY2UzMjBkMzYyMTIzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmYwNWRhYmRjMTE1NzU3OWRmMzMzOTdiYjkxZWQwNjkwMDE2OWU4NDZiOWM2MWJlZDNmOTQwOTdmOTdiNTUyMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzljYWU3YzkyOWYzZjEzMzI3MDAwNmUzMTFjNzg0MzY5NDk1YzY3NTA1ODc2YmExMTFjMTg0OWJiNDUzMGM5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzg5M2Y2YTEyMWYxMzVlZjlhODkyNjA3Y2RlMjZiM2JhMzAwMzVhNGNkNjhjMTM5OWQ0MDRjOGRkNmRmNTk5MCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L65-L69",
+          "version": "repo-lines-v1:sha256:b6d4335e552bd39b2f380512ae6947cd476ac21ebca716be7f90f9104acb4118:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRkN2U3MDkzMzdiYWRlZDM1MjYyMjMyY2E4OTMxMjJhOGIxMjZhYzVhZjU2YjQyOWQxNTc4YzY5ZjdmNWE5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI3ODc1NmFhZGFhMGQ0MDM1NWMyNmIxY2Q5OGYwN2Q0MTJiMzg4OTZiMWE2OWJkNzkwZDhiMDIxYjhhMzA2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTFhMGE1MDJhMjA5MWMxZTZhNjdjZjk0MDI4OGIwMGRiNDI3NjRmOTBkODViY2I1NDBjNWFiMjU3ZGI0N2EzZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmM5YWExNGM0MzEzZWM3N2Q3NDM0NWRmOTUxZmFmODcwOGUxNjNhMzg1MzIwOGQwZmZlNzA4OTUwMDJlMTMwNCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L126-L128",
+          "version": "repo-lines-v1:sha256:cec5746236bd7d5b11692893d7545adef407f47f56ec83472b39b6147ce6c234:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzdjZTYzMGFmNWNmNTI3NTQ1NjlhZTIzYmEzNDM3MDc5MmZiYTQzNDNhZjQyZTc5N2RkZDIxZmZkNGMyM2RmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQ3OTMzMTdiMjVkMTc0NTZjYjc5ODJhZDNjZjY0M2VhNmUzNjEyMTA4NGE1YmEzNWNiY2U1MmFmYTE2ZDM3YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2U1NzdiN2NkNzg2MzEzMDQ3MjAzNTUzYTVlMmY3ZWRjMWM2MGIxNzcwZTFiYWExOWJjMjQwODMyYTMwNTFkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4MmU4MDNlZmZiNWQ5MzFiNDJlNjYwMzM1OWQ1YzU0NDU2MjQ5MDY2MGY4MWQxNzYwMWMxYTEyOWE2ODUwOCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L89-L92",
+          "version": "repo-lines-v1:sha256:d3805f47671fb18149d1a0f45942b9a7c25675005c9977e92cedd72d0c9c33c5:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ3ZWJkZmU2NzdkZjU4NjIyYjhjN2IxYmI5MTYwMDNiNmU0OTJjMTRjMzI0ZDViMTBhMTk3YzIxNjQxZDc1OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGEzZDg0YzM5OGE5ODMzM2Q0ZTEwZjU2MzIwM2RjMWJhNzk0ZjMzYzk5NWM0ZTQ4MTlkODZjYjM0MDMzNGYwZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWE5NzhkNDg2OTA4NmE5ZmFhMTg4NmEzOGExYzlmYWI0MDhiZmE4Yjc2OWM1NWVkZWE4YWIxYTA1MjFhOWM3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTcxNDk0NThjNzkyOGQ2MzcwZTM0YTk4OGZhMDY4YTMyMjkzMjVhZDM5YjE1MGQ1ZjI2MzU5OTg0YjdkYjA2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b8488f010f1c4906af71904a7efc5ed1",
+      "statement": "Reported NII drivers: FY2025 growth came from higher average loan and deposit balances (Card loans, wholesale deposits) offsetting lower Q4 policy rates and late-year deposit margin compression; 2Q26 growth came from an extra day, Card loan growth and higher deposits, partly offset by lower deposit margins after the March 25 bp rate cut.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L104-L104",
+          "version": "repo-lines-v1:sha256:df8d1b9e2f1b8f6d0671675a40951ec365eb021442cb1ee33fc876b3ccfad44c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY4ZDFiOWUyZjFiOGY2ZDA2NzE2NzVhNDA5NTFlYzM2NWViMDIxNDQyY2IxZWUzM2ZjODc2YjNjY2ZhZDQ0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY4ZDFiOWUyZjFiOGY2ZDA2NzE2NzVhNDA5NTFlYzM2NWViMDIxNDQyY2IxZWUzM2ZjODc2YjNjY2ZhZDQ0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGY4YTRmMDM2M2U5NTNhN2YxYWQ0Mjk0NmE5YzZkMzRiMjZhMmQ2N2Y5YWI4OWRkZTFlNDdhNzM3OTg4MWNiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGZhMzA2ZTEzNmIxZTI0ZjVkMGQ1MzJmOTQ1OGNmZTA1YTg0NjI4Mjg0NGUzMzA4ZDdjMzIyNGNiNDFkYWU0YyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L124-L124",
+          "version": "repo-lines-v1:sha256:973786187c4d70a4a019a4e13c5c066c712c89ca0952a2a541a7471c63e4ff17:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTczNzg2MTg3YzRkNzBhNGEwMTlhNGUxM2M1YzA2NmM3MTJjODljYTA5NTJhMmE1NDFhNzQ3MWM2M2U0ZmYxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTczNzg2MTg3YzRkNzBhNGEwMTlhNGUxM2M1YzA2NmM3MTJjODljYTA5NTJhMmE1NDFhNzQ3MWM2M2U0ZmYxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTIxNDg2MTliNzY4MWI5ZDBiNzMzNWE1YTU2OTFjZTIxNTI5MmQzY2RkODE4N2Y5Yzc4M2Q3YjNiNTMwY2U1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjFlYTM4NmMzNTAzNzZkYjhhNTJmYTFhZGUyNzM3NzYxMDE1ZmFlYzE3MDYwZDYwNjVkNmU4MjFmOTQyYjQ2ZSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L43-L43",
+          "version": "repo-lines-v1:sha256:2007759479adb3505976bce72d7f85ed8377c10b21d912f04a40cae2b7f43277:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjAwNzc1OTQ3OWFkYjM1MDU5NzZiY2U3MmQ3Zjg1ZWQ4Mzc3YzEwYjIxZDkxMmYwNGE0MGNhZTJiN2Y0MzI3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjAwNzc1OTQ3OWFkYjM1MDU5NzZiY2U3MmQ3Zjg1ZWQ4Mzc3YzEwYjIxZDkxMmYwNGE0MGNhZTJiN2Y0MzI3NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGEwM2IwMDhmMDJjMzE5MDc2M2Y5MjY1ZWU5NWY5NjhhMWJhMzkzYWQ3NjRjMzIwZTA4MDJiMTcyNGIzMzZlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTU5ODdlNzRmMzZiOTQyOGM3NTRkYjNlNWM5YWI3ZWI0ZWIwZjMzNTg3MDYyOTUyZGM4NjRiYjQ1NmFlYjZiNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_33cb87ca333d4f5a9d5c12fbe0ad4644",
+      "statement": "Business-segment NII for FY2025 is CCB 31,420, CIB 12,680 and AWM 3,640 (sum 47,740), leaving an unitemized residual of 880 against firm NII of 48,620; Corporate/Treasury-CIO cites higher NII on the investment portfolio and reinvestment of maturing securities at higher yields.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L189-L189",
+          "version": "repo-lines-v1:sha256:f54143637da21bceeeb86a48db4987bb06d2fae72293068ddd36a877aa883043:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU0MTQzNjM3ZGEyMWJjZWVlYjg2YTQ4ZGI0OTg3YmIwNmQyZmFlNzIyOTMwNjhkZGQzNmE4NzdhYTg4MzA0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU0MTQzNjM3ZGEyMWJjZWVlYjg2YTQ4ZGI0OTg3YmIwNmQyZmFlNzIyOTMwNjhkZGQzNmE4NzdhYTg4MzA0MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzA4N2E0YjQ5YmUwNTNjYjg0MmI5OGZkNzU5MjQ1NWE5Y2RlZTcwYTU2Nzk5NWRkNDNiMWIyODhhYzhhYmEyMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjIyZGNhMzMxNTFmOWIwOWRlODEzMmVkMzlkYzQxYmUyMGYyM2NiYzE0OGVmNTBkMDE2MzlhOWE4ZjdkZDcxZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L215-L215",
+          "version": "repo-lines-v1:sha256:d3d51bb7b50b564c3edf0dcf099c39e592aa029a1e8a37f14e412e1d743d577f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDNkNTFiYjdiNTBiNTY0YzNlZGYwZGNmMDk5YzM5ZTU5MmFhMDI5YTFlOGEzN2YxNGU0MTJlMWQ3NDNkNTc3ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDNkNTFiYjdiNTBiNTY0YzNlZGYwZGNmMDk5YzM5ZTU5MmFhMDI5YTFlOGEzN2YxNGU0MTJlMWQ3NDNkNTc3ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmI5YTM3MDNhNzg0ODg2N2ZiZjQxNWJjYzczZDgxYTg5YjA5ZTI5OTNmY2RiNTk0MTQyNGNlOTU4NmUzNGY4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDZmMGI0YzljYzE3ZTVmMjdkYjk2NTM0YTQ2NjQ0NzQ4NDIyYzIzZTgwMmNkOGE0NzAzYTk3NjI4M2RiYmU4NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L235-L235",
+          "version": "repo-lines-v1:sha256:67204d26a7d2f93b24d004e69e1b236c204e6c38671fe633b7c88b1c399443a0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjcyMDRkMjZhN2QyZjkzYjI0ZDAwNGU2OWUxYjIzNmMyMDRlNmMzODY3MWZlNjMzYjdjODhiMWMzOTk0NDNhMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjcyMDRkMjZhN2QyZjkzYjI0ZDAwNGU2OWUxYjIzNmMyMDRlNmMzODY3MWZlNjMzYjdjODhiMWMzOTk0NDNhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDk4ZjMxZDRiM2U0Y2E0NTdmYTZjNGVmNDMxZDA1NTYxMTY1ZmYzMDdkMGQzZmRjNDUwNjY4NGZjMDFiZWMzYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjhjMDgzMjNhMzgzZDk5MjYzN2FmM2U4YTczYzg0ODQ2ODAxYjZhNTUxYTVkNDFjODZkMzhlZDk0OGI5MWRjMyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L251-L251",
+          "version": "repo-lines-v1:sha256:88328a8da1d4c21ec08e820afffeb10078c65b48a707cdc5df737f4aa149e9c2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODgzMjhhOGRhMWQ0YzIxZWMwOGU4MjBhZmZmZWIxMDA3OGM2NWI0OGE3MDdjZGM1ZGY3MzdmNGFhMTQ5ZTljMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODgzMjhhOGRhMWQ0YzIxZWMwOGU4MjBhZmZmZWIxMDA3OGM2NWI0OGE3MDdjZGM1ZGY3MzdmNGFhMTQ5ZTljMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjJmODNkZTZmNThhYjNmZTIzOTVlMGMwYjE2NWE2NGIzYmNhMzI2ZjU4ZDk1YjU3Zjg0Zjc3ZDMwMWM0NDlmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGRjOGJkYjEyYjk1NjI0NzEyM2M0ZmM3OWMwMTU1NGYyYzcwZGQ1MTNhYzNmYmE5NWQ3M2E1Y2ZhYzBhY2E1MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L240-L240",
+          "version": "repo-lines-v1:sha256:89213b6f90431e9de398f3da6745224fec0e7b47655561ebfaec9bb60a1a5ab4:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODkyMTNiNmY5MDQzMWU5ZGUzOThmM2RhNjc0NTIyNGZlYzBlN2I0NzY1NTU2MWViZmFlYzliYjYwYTFhNWFiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODkyMTNiNmY5MDQzMWU5ZGUzOThmM2RhNjc0NTIyNGZlYzBlN2I0NzY1NTU2MWViZmFlYzliYjYwYTFhNWFiNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmI5YjU0ZTYyMDQ0YTVhZGEyYzRiMGFjZTU1M2IyNDZhYTMwOTkwMmZkOTI1YWU2NjllNzM1MDE1Y2VlYWQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTNlYzA4YjU0YjAzNjc0OGMwZjRiYjUyZDU2Y2M5ZGFjNGQ1YzEwM2IzYTkxMGU3ZWUyMzk0ZTZmZjdlMGE0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_545a9a7353ea44218634edb41a8f9d56",
+      "statement": "The 2026 NII outlook was about $50.2 billion in the Annual Report (forward curve at YE2025, two further 25 bp cuts) and was raised to about $50.5 billion in the Q2 2026 supplement on stronger deposit balances; the bridge from the ~$48.6bn 2025 base is Card growth +1.1, securities reinvestment +0.6, deposit growth +0.5, lower policy rates -1.0, deposit product migration -0.4 and other ~+1.1 ($bn).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L116-L116",
+          "version": "repo-lines-v1:sha256:e8611612576acd287a8214db3debbca61bae635fad020bba3b4cc8a65c8d8d14:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTg2MTE2MTI1NzZhY2QyODdhODIxNGRiM2RlYmJjYTYxYmFlNjM1ZmFkMDIwYmJhM2I0Y2M4YTY1YzhkOGQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTg2MTE2MTI1NzZhY2QyODdhODIxNGRiM2RlYmJjYTYxYmFlNjM1ZmFkMDIwYmJhM2I0Y2M4YTY1YzhkOGQxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2M4MzhiNzQ2NzNkMTFiNGY0NzZmZDdjMGFiZDljYTlhNDU0MDhiZmQxZDkyMGUwMzljMTJjMTUyN2U4ODlhNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjAzMzFhMGFjMTNhNTQ3ZGU5MTUzNTY2NmI3YzM0MmY0MjBkMjM4MzVjMTY5OGZhOWM2ZWI3Zjc0YTE0OGYxYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L401-L405",
+          "version": "repo-lines-v1:sha256:5b6cc1d0a874fe0f02c178a31b05f3f53c2a2efca6fb5711df312d518f92289c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiODA2MWU1NDZiNzAxNzY0ODA4MWQwYTBmNWQ0ODU4YTg0OGMwYjg1ZGViNmEzYTQ5NjBjMzQwZTU5YTI5NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzRkMmFkYjI4OGMwNDM1NmY4MmMwMjc1YTk5ZTVmMGY0MzQxYzNmNjUwYjQyZjM2OGYwYmE5Yjc2NjQ0NzViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZhZDNlNzVjMzgwMzUxNWZlYzVhMGRkN2EyMDNmZTBhZTRlOTRlOGM0YmExMTVhZGM1YmQ3ZDk5NGJhMjQwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDdlNTljNTI1N2ZhZGQyMWU4ZGFiNTU5OTkyZTMyMDNmY2UxOGQyMTE0Y2ZjODgwNjliZDJkNTA3ZDM4MTk2YSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L51-L51",
+          "version": "repo-lines-v1:sha256:b3cedd8ffd90c9c8490253fbf726cbbbae5550d308d42ff50130185b85ca65d9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNjZWRkOGZmZDkwYzljODQ5MDI1M2ZiZjcyNmNiYmJhZTU1NTBkMzA4ZDQyZmY1MDEzMDE4NWI4NWNhNjVkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNjZWRkOGZmZDkwYzljODQ5MDI1M2ZiZjcyNmNiYmJhZTU1NTBkMzA4ZDQyZmY1MDEzMDE4NWI4NWNhNjVkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQ5MDdlNzI2YzM3MGQ1ZDc1YTI5NmI0ZWI4ZjNkNTA3MDJkODM4YTI3ZDMyNTlhOGNhZTA0ZjViMTUzMTE5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGZhNDQ3YWM2MjMyZGJiNGZiOGM3NTM5NzA1YzFiMjZlMTQ1YTE5NjU0MmM4MmY5YzQ5ODU0MDA5MTE1MzY5NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0fd84b7f455b4884a7de8b6dfc68d273",
+      "statement": "MDL-ALM-014 computes base NII as annual interest on 1,258,500 of rate-sensitive assets (76,515.95) minus interest on 1,180,100 of liabilities (26,279.04), equal to 50,236.91 at the 2025-12-31 snapshot (Balance_Sheet!J23).",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L166-L185",
+          "version": "repo-lines-v1:sha256:fc0d07278417341745f558532e3bf6e71c0eb83c4c7fb1460d5c80c38e4ec292:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1ZDFiYTgzZjc4MjljNWY1YTJlMTJlNDg2YzExNmJhNjhhY2MzOTkzNzVjZTNkNWY1Yzc1ZmY1ZmU5MGUxYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3NjljYjFlMDljNWJjMmQxNWZkMTVjZDhjZTVmMzJkY2M1MzNmMzg4NmQ0NjFlMTNiYTNhZWUyMTg0MGQ5ZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgyZTIwYjRiYWUzMTIxMGQ2YjUyYzZhZDJjODY2M2RhZDI2ZjY1MTg3MzI4OWYyMzMwYjY3NDkzMzFhOGIwMjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNiM2VlYTBmM2JiMTcwYjAwN2EzODIxN2VhM2MzNmQyMGU3NTM4NzZiZDUzNGZhZmE1Y2U3NjVhODA2ZTE3OWYifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L219-L223",
+          "version": "repo-lines-v1:sha256:ffb1c7f0639aefe8d0ff3f14157234aff9e4ef7f5f2d254b45f8792308fa3176:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVhMmExZDFmMDZiYjFkOWRmMzZkNzBjODk5NTdlNWJlODcwNjRkNjBiNDA4YWIzZTNmYWEzNTQ0YzcyY2VhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmMxNmJjMDk4ZWI3MGFhMDcwN2MwOGM1Zjk3MTgxYTUxYzIzNGEzYjJlZWNkMDBkOGUyYmNiMThmNjI1ZDM0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTJiNGIxOWRjN2U1NGZmMzEzY2Q5ODA3ZDcwNDU2OGQyMDJiNmIwZDRhNjI2OWYxMDVjMDczZTY2MGMzMzk3NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGZkN2M1MjFjYjg5MTFmYmEyOWZkM2ZkMjdkZWJjZjExYmM3YTE1MmIzMjQ0YTJhNTcwYTIwMDM1ZjMzYTg1YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_76719e6346ce45de80ab7301b01f6937",
+      "statement": "Shock effect per line in NII_Projection is sign x balance x beta x repricing factor x shock/10000, with the repricing factor weighting 0-3m (midpoint month 1.5) and 3-12m (midpoint month 7.5) shares over a 12-month horizon; asset betas are 1, deposit betas 0.45 consumer, 0.75 wholesale and 0 noninterest-bearing, and repricing beyond 12 months does not affect 12-month NII.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L142-L152",
+          "version": "repo-lines-v1:sha256:60b22ccf45cfbddb8a0e51df56edaf9144fdbebd3dcf1ff42c2ad5d1b4d71ba5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzQwMTkxYWQ5ZDk3NzNlOWEwZjg2M2QwOTAyMzk5YTI5MTlhYTgzZjIzMmNmMjJjN2RlOTU2YTllNGJlMDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2NzBiOTFlNjcxMzQ4MzU5ZDJhMDE1NTU1MTc3N2ZjYjJmNGVkMDU1ZDgzMDk2NGVlOTZmNDI0ZjU0ZmUyZmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFlMzE4ZWRjYTEyMzQ5NTM5NmI3ZTZlNzQ1YmU5OWY5YzViNTQzMjc2ZTQ1YzJmMGEyNzEzNjhiMzQ0YTE5MDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYxZWUzYjQxYTIzYzgwNTIxODE0ODNkM2EzOTNiMjM0OWMzNzc1ZTA4M2MxNmVmNjcxYWM1MWU4YWU0MzBlYzAifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L273-L274",
+          "version": "repo-lines-v1:sha256:a7780b2b4c9d27baedf44bc074dccb5a7616c89887ad5d47abd3693bbb749465:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZjMmYxZDk1OGI0YjYwOTU2MWI1NWI5Yzg2ZThmYWFhNTg4ZjMyZjQ1YTZlM2ZiZTljNzA5Y2IzODEwNmZkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzhhZTdkZWU4ZTE3ZDg3NjMwN2JhN2QyZmM5YWRiM2FmZTU0NzNjNTlhZjllMTdjZWE0ZmEzMWZlNWFhNjYyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmMzYjQxNDUwZGFmMTYxOWFiMGQ2NWQzNjE5ZDBjYTQxODFjZWE1MjJkMzhmMjJjZmVhYmNhODkwZGE4MDQxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjQyNjIzZjQzMjliOTEzMGIyY2MxMzI4MmUwNjIzYzIwZmJjNDcxYzE5ZDkyYzU3NzFmMmZkMTczMzhjNzAxYyJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L36-L43",
+          "version": "repo-lines-v1:sha256:7ceab1ffe4fd232f0f3857d713f34b4e6ac905976c9ced037ebf96f6ccdec234:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FjNmZlNWVlZDZkYjU3OGIwNzNkMGIwOTMxZjBlMjMxOWRhNDEyMjRmYTI1OThiMGUxNWQ2MjAwMmJmMmU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2ViNzAyNTc1OTNkYTA2ZjY4MmEzZGRkYTU0YTlkMjYwZDRmYzUxNGY2NDUyMzdmNWNhNzRiMDhmOGRhNjFhNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTRiMTQ3MWY1YmM4NzA1MjQyMzg4OTJjMTg3MmM5Y2QwMzVkMDhjNDI2ODNiNWE1OWI5MWNlNjc4MGQ3NWY2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjUwNTJjYTIzNGUzNTJiYmE4OWZjNTM4ZmQyZWE4OWU4ZThjZjRhZTRjNzVkMDI3ODA0ZDlhYmE4NmIxYTY5NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L383-L387",
+          "version": "repo-lines-v1:sha256:e1f2b392478181a58f39385173dcf63895974e4835e706b6a8948c3471243bb8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjllMDFiOWVhMmIwNGZlYmY5MWYxNmQxYjdkYTFkNWExMTNmMTk1N2FkMTdhNDEwMGEzYTAxMmEyNzM4NDU5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzNmODk0M2MwMGQ5NDQzYjQxYTUzZmZjZGRkZjU4ZWNmNzYxYzdhOWVkMjYwNDZlY2Q4ZTkzMjZiZGVmNTY2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTYxMGU5NzljOTY1MTQ1NWNkNWNkZDZjMDZiY2U0MGYzYTM0MTM2YmMzZWIwYzk2ZWUzYjE4NmVmNjg2M2NjOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGVjZjE1NzlhMDNiZThlZDdjMDJlNGQxMGRkNjlkMjg0ZDUwM2Q3NDg4ZGM0OTBkMTM3YmEyNjZjMjY2YzI3NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_502c1ff862b746de9ffc68a4597b2f80",
+      "statement": "At 31 Dec 2025 the model projects NII of 47,220.02 / 48,728.47 / 50,236.91 / 51,745.35 / 53,253.80 for -200/-100/0/+100/+200 bp (changes of -3,016.89, -1,508.44, 0, +1,508.44, +3,016.89, i.e. about +/-6.0% and +/-3.0%), making the firm asset-sensitive; all are within the Board limit of a 7.0% NII decline (approved 2025-03), flagged via IF(E<-Assumptions!$B$11,\"BREACH\",\"Within limit\") in Summary.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L150-L151",
+          "version": "repo-lines-v1:sha256:b4fd9f8e8fb6e655549a0e48dce7cd76673d67a1ee9eea9887f1d7c58519fffd:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGUyNjk1MDdjMDM5ODAzMzFlNjQ1ZTZkYjFjZjY5MmVkMDdkOWM4M2ZmMTIzNjYzYjJiODM2MGI3YTFhYmE1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzE1ZjFlYjJhNDY0MGQwNzY5YjkxNjJiNzZkMGIxNDFhMDFkZDQ5ZmUwNjVhY2U3MzlhYjE0YmIwNTA1ZWE5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjQ5Mjg1ZDFkZDA4YzJiYmM0YTE3NjQ3Yjk5Y2M0OGU3MTU0ODhmMDQzMTYyNDk1YWMzY2JkMWU3N2EzZGU2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2E3YmE5YzVjMjAwYjNmYTM0MjRjNTFiNzAzNzc0MzczMjJhMzM5NzU3MzkwZmRiMmI5ZjQ1NTdkNGY1YjNhNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L239-L260",
+          "version": "repo-lines-v1:sha256:b3f4b40246e2844be90be61417779035fcae8984ebdb7f293738403c5f83da3b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2NGQ0MDI3NzMyOWE0ZTU3OTQxNTcyM2FhMWQ5MzkwNDYwOTJmZTEzYTczNDY1MjZhOTVhOTQwYTVmN2ZmZWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY0MTkzMDEwMjQ1MzQ4YmU5MDAyMzhmODcwMTBlNTFkNjZiMDg3ODQ2MDM1NTU5YzNiOWExMmZkNzY0NGFiMzciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMjBlNmYyMzJhNmM0ZTcwN2E4MTcyMTU3NjY4ZmQ0MjRhNzVhOWRiZTE1MDY0NmU0ODU2OTdmMmQ0YTZhMzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0NWQ1NTA5ODM5ZDNkZmM0NGFmMmVmYmViNDllNDZhMGQ0OTVmMzE3NmMxMzU5ODAyYzViNTk1M2NjOWMwMDgifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L77-L84",
+          "version": "repo-lines-v1:sha256:d48d2fc1137d799edce1dadcd17df8d7d0694603f1c81204b360439727709190:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRiMWIzNTZmNTM3NTE4NmU4N2Q2N2MwYTJmZTg3MTJkMjRkZDE0ODVkZjM3MTgyMzMyN2I1NGExNGRkMWJmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU0ODVmMDcyY2VjYTRlYzRlMDVlMzY2OTg4YjRiZTU2YjVkZTU3ZTljZmY5ZGVhYWM2NTcyNjcxMDQ4NGQ5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2I3ZmQ2ODQ5ZjJlMzUyOTU2MTMxZDIwZDg0MGNmNzdiM2NkMjZmNGQyMWRlMDM1MDIxYjc2ZTE3YTdhMzk0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2U1MzIxNjFiNjI1MWJlMzdiYTIyMGM3YWFmZTlmNzRmNjNmN2EzZDMxNDJmMmM0NDIzZjVlZTg3YzVlMmJiNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L95-L95",
+          "version": "repo-lines-v1:sha256:438914cc176cbaab67d8ab87622dd1aecfd09ea9d28385a11955b9e05d27b0d5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM4OTE0Y2MxNzZjYmFhYjY3ZDhhYjg3NjIyZGQxYWVjZmQwOWVhOWQyODM4NWExMTk1NWI5ZTA1ZDI3YjBkNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM4OTE0Y2MxNzZjYmFhYjY3ZDhhYjg3NjIyZGQxYWVjZmQwOWVhOWQyODM4NWExMTk1NWI5ZTA1ZDI3YjBkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWVjN2IyZjc0N2MzOTA3NjI3YzA0NTgwZDhiMGUzMWYxMWM5YTg5ZWNmNWM4NTMyMDE3OTJkZWRlMzgwNWNhMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDA5NzRjODViMjdlZjRlNGJiNzFlNTI3NWZlN2VhOTJkMmU2MWM2YmZlZDczMmQzZTg4YWZjOWNjNjJhMzQ0MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_73d2db3468934ea988de97845f240aff",
+      "statement": "The model and reports agree on the sensitivity: the Annual Report Market Risk table (pp. 18-19) and Pillar 3 section 11 (p. 16) reproduce the Summary sheet results and the 50,237 base-case NII; the Annual Report states its 2026 NII outlook of ~$50.2bn is consistent with the model base case.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L77-L84",
+          "version": "repo-lines-v1:sha256:d48d2fc1137d799edce1dadcd17df8d7d0694603f1c81204b360439727709190:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRiMWIzNTZmNTM3NTE4NmU4N2Q2N2MwYTJmZTg3MTJkMjRkZDE0ODVkZjM3MTgyMzMyN2I1NGExNGRkMWJmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU0ODVmMDcyY2VjYTRlYzRlMDVlMzY2OTg4YjRiZTU2YjVkZTU3ZTljZmY5ZGVhYWM2NTcyNjcxMDQ4NGQ5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2I3ZmQ2ODQ5ZjJlMzUyOTU2MTMxZDIwZDg0MGNmNzdiM2NkMjZmNGQyMWRlMDM1MDIxYjc2ZTE3YTdhMzk0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2U1MzIxNjFiNjI1MWJlMzdiYTIyMGM3YWFmZTlmNzRmNjNmN2EzZDMxNDJmMmM0NDIzZjVlZTg3YzVlMmJiNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L116-L116",
+          "version": "repo-lines-v1:sha256:e8611612576acd287a8214db3debbca61bae635fad020bba3b4cc8a65c8d8d14:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTg2MTE2MTI1NzZhY2QyODdhODIxNGRiM2RlYmJjYTYxYmFlNjM1ZmFkMDIwYmJhM2I0Y2M4YTY1YzhkOGQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTg2MTE2MTI1NzZhY2QyODdhODIxNGRiM2RlYmJjYTYxYmFlNjM1ZmFkMDIwYmJhM2I0Y2M4YTY1YzhkOGQxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2M4MzhiNzQ2NzNkMTFiNGY0NzZmZDdjMGFiZDljYTlhNDU0MDhiZmQxZDkyMGUwMzljMTJjMTUyN2U4ODlhNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjAzMzFhMGFjMTNhNTQ3ZGU5MTUzNTY2NmI3YzM0MmY0MjBkMjM4MzVjMTY5OGZhOWM2ZWI3Zjc0YTE0OGYxYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L415-L427",
+          "version": "repo-lines-v1:sha256:8554fd232dde82c4a9c8d47bfc4f9a4b4dfb0ace0a3a3033632fc109bfcff237:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmOTdkNTM5Y2EwM2RiZmJlZWRjY2MxOGVkNGRlMzA4MTBhMTNjOTk5NjQ2MWJhYWFjODNiNzA4MWQwMTRiY2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiOTdhZGI4MmFhZTliZDI2N2U5MTcxNDRmODRlMDhkYTQ4N2VjNWE1ZDkxMjA1MTUzZTE3NDcwYmQxM2NmNDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEyYzJiY2RhMmZjNjVkY2FlYTVjZDBiZmQ0MGI0ZGQ0ZDQ0YTRjM2FkOThiNjhlMjBjZTVhN2QzYjQ4MDEzYWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2MzEwYjIyZjg0YjIwN2Y3Yzk0Y2Y3M2RiYTdhZjRhZjhiYmM3MmU5NjY5Y2FlNDMzMDQ3ZTQyYjQyMDE3OGEifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L379-L400",
+          "version": "repo-lines-v1:sha256:b45ee44f90f64c4a48266fa5c2892e38f8e1ab91527ea7066d49cc96e544d4d0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3M2E1M2YwZmQ1OWJmNjQxNzNjN2ZiNDdlYTAyZjkzZWNlZmMyMGM0M2RjOWE5N2U3N2YzNmFlZGEyMjFlZTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkM2M2OGYzMTUxNTZjMjE1N2FmNTE0YzMwYjBjMmYyZjQ1OWJhM2ZmMjY1YjUxZjY2NDNjMTIwNTEyMWM1NDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE0YTdjMDhjNWMyZDkwZTRiNGQ2NGFmMWI0MzQ0ZDZiZWVmZGM5YmVkNDBlMzk5N2JiM2EzYTVkMjk4NDljNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE2NGZiY2M4YzYzOTRmODcxZmVhMGE4YzRjZTQ2MjE5YzczMDBjMjBkYTEwZTJmNDk4NmExMTk4Njg5NDk2MzEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_58cca7975f5a44478417e7c5e8749860",
+      "statement": "The Q2 2026 supplement reproduces the year-end 2025 sensitivity, says the 30 Jun 2026 sensitivity was directionally similar with +100 bp adding about $1.4 billion (vs $1.5 billion at year end), states the 0.45/0.75 deposit betas were re-calibrated in 1Q26 and unchanged, and notes observed cumulative interest-bearing deposit beta of 49%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L319-L319",
+          "version": "repo-lines-v1:sha256:3928b45b2872597e3357b95b825eb597f9390b44c4576819321274df0295b711:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkyOGI0NWIyODcyNTk3ZTMzNTdiOTViODI1ZWI1OTdmOTM5MGI0NGM0NTc2ODE5MzIxMjc0ZGYwMjk1YjcxMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkyOGI0NWIyODcyNTk3ZTMzNTdiOTViODI1ZWI1OTdmOTM5MGI0NGM0NTc2ODE5MzIxMjc0ZGYwMjk1YjcxMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGExYzE2NTQ3NTNiODE0ZjM1M2E3ZGNkM2QyODIwMGNlZGZlNjE5MDQxODY2NzIxMzQ0MzM0NWJiZTg3M2I5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBjOWRmNmZhM2M3MTNmNzdhZDJhZjA3MzhlY2UyMzc0YzYzZTc0ODg1NzlhNTg4MThlNTliMTQ4NjYxOWYwZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L392-L401",
+          "version": "repo-lines-v1:sha256:b869457428b372156e1d583f3e6fd77370dce61dd7564fad2b99854b348ffdad:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxOGQ4NWNmMTE0ZDZhZmU3Y2M3ZTc5ODU5ZGFhNDgxMjIyZmYxNmFkOGI0ZjhhMGE3NDk1NDgyOTM3ODI2NzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhYjgwNjFlNTQ2YjcwMTc2NDgwODFkMGEwZjVkNDg1OGE4NDhjMGI4NWRlYjZhM2E0OTYwYzM0MGU1OWEyOTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUwZTRkN2JiZTQxYTNhM2FiNmUxZmJhZTYyNWY5YjM3ZjRkMTAzNzNhODk1NjNlMjUzNGFjYTRiYWI1ZWMzOTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMxYWRjZjAzNmNiYWE3NGYwMWQxYWI5OWUzMWU4NzkyOTI0ODdkNWIxZmQzNWY5ZjQ0MWM5NWRlNGE3OGQxNTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8c641615ca94484992537ad5c0befdfc",
+      "statement": "The model's base NII (50,237) is a static-balance-sheet forward run-rate on rate-sensitive balances and differs from FY2025 reported NII (48,620); model gross interest income (76,516) and expense (26,279) are below reported interest income (79,340) and expense (30,720), and the sources provide no reconciliation.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L183-L185",
+          "version": "repo-lines-v1:sha256:1ddc27f631b7c06ce99db2df4531b5ea4283d4f2e253f57dc664592df25b12ee:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWU0ZDFlODgwODJkODVmNjdjY2Q2NGYyNjNmMTVkYmRlZGRhZTE3MzQxNjE5MDRjNDgyYTFiYThmZGNiM2MzOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTc2OWNiMWUwOWM1YmMyZDE1ZmQxNWNkOGNlNWYzMmRjYzUzM2YzODg2ZDQ2MWUxM2JhM2FlZTIxODQwZDlkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjM3NzM3NzQ2YzMxZTJkZDE1MWE4OTY3ZGNiNjhlMGZjMTgxMDcyMjQ5YzRkZmI5OGRlOWJiNTMzZTNhNzRhMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2IzZWVhMGYzYmIxNzBiMDA3YTM4MjE3ZWEzYzM2ZDIwZTc1Mzg3NmJkNTM0ZmFmYTVjZTc2NWE4MDZlMTc5ZiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L486-L488",
+          "version": "repo-lines-v1:sha256:55ea7975abe4dcef1568a6ce029a92978c8c532a5413f50ca32b1ab9fb2e8ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDcyZmVkYmYxNjdiY2JiZDg0YjA1ZjI1MmM3ODNmODdjZTA1NTRiMTM5YmM1ZjhlYTEyY2UzMjBkMzYyMTIzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmYwNWRhYmRjMTE1NzU3OWRmMzMzOTdiYjkxZWQwNjkwMDE2OWU4NDZiOWM2MWJlZDNmOTQwOTdmOTdiNTUyMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzljYWU3YzkyOWYzZjEzMzI3MDAwNmUzMTFjNzg0MzY5NDk1YzY3NTA1ODc2YmExMTFjMTg0OWJiNDUzMGM5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzg5M2Y2YTEyMWYxMzVlZjlhODkyNjA3Y2RlMjZiM2JhMzAwMzVhNGNkNjhjMTM5OWQ0MDRjOGRkNmRmNTk5MCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L400-L400",
+          "version": "repo-lines-v1:sha256:3d3c68f315156c2157af514c30b0c2f2f459ba3ff265b51f6643c1205121c548:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2QzYzY4ZjMxNTE1NmMyMTU3YWY1MTRjMzBiMGMyZjJmNDU5YmEzZmYyNjViNTFmNjY0M2MxMjA1MTIxYzU0OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2QzYzY4ZjMxNTE1NmMyMTU3YWY1MTRjMzBiMGMyZjJmNDU5YmEzZmYyNjViNTFmNjY0M2MxMjA1MTIxYzU0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjMzMmI4OTUwMjA2MTM3ODI3MWVkNTlhMDJlYTYzMzllM2U2ZjBhNDFlYzQ2NzE1YzdmNzVhMDFiZGI2MTFiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTY0ZmJjYzhjNjM5NGY4NzFmZWEwYThjNGNlNDYyMTljNzMwMGMyMGRhMTBlMmY0OTg2YTExOTg2ODk0OTYzMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bfa593357a39455c9bd6d63ab287c13b",
+      "statement": "MDL-ALM-014 limitations are parallel shocks only, static balance sheet, constant betas across shock sizes and no deposit-cost floors below zero (plus no mortgage prepayment optionality or beta convexity per Pillar 3), with a quarterly dynamic balance-sheet simulation as compensating control; the model is Tier 1, owned by Corporate Treasury - ALM, validated 2025-09-18 with next validation due 2026-09-30, and fed by API-15, API-11 and API-12.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L44-L62",
+          "version": "repo-lines-v1:sha256:7afe5f786a19fbab64b3815017bbae700c410a0573b6a87afdf6bc722a87b9b8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmNTQzMGFkNWM0YzMwMzg3NDMyZDE5OTJjZWE0ODk2YjQzMThhMWYwNzY0ZjhmMzlhZjU0NmQ4Y2UzYjMyOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlNGQ2M2U1NzIwY2UxNDAyZmFkNGU5MjUxNjMwZTExOGZiZmNjY2MwN2M1YzU4ZWU4MmRkNGU4Y2YyNWNhYTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3ZWI2YjM4ZDVjMTE1YmJjMzhhMTBlZTE0YTE2Y2Q1ZmQzOTQwMTgzNzdlOThmZjhkMzg5ZmEzYmYxMzU4ZmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwNzZiNjE3NzcwMTk3ODc1ZmU1YzMzNmFhOTM3YjZiZjE1MTE5MTA3Y2I4YThjN2FkOGFiNmZjNGEzZmIwZDUifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L9-L26",
+          "version": "repo-lines-v1:sha256:1cc81239ccaa43d2cbeb7c85a5815519d9373fcc81fd2a409f63df637a32e151:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkNjM3OTliOWMyYzVkMzZjYmQ0MjgwNzg4NWZmYzBmNWMzYWNlMTdkYzk2ZTVlZmZlZTZjM2MwMmFlYzQ2YjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0YmUzYzJkNDFmYzkxMzIzN2E2NjBmMTE4MGUwNDg3OTc4NjY5ZGIwYTYwNmU5MDAyNTk1OGQwMDlmMDI3MmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMDg3MTczYWQyODI0MTliM2ViNjI5MWE4NzRiNWY0OWQyYWNmYzQ3MDY0YjcxOWFlNzc4OTk2MzM3NThjNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFmOGM4MzY1MGQ4OWRkMDhiMjExOGUzZjEzZDlmNzkyMDM5ZTU1YmRiZDA2NDE4OTlkMTdmMzFmNzJhNGQxMWQifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L427-L431",
+          "version": "repo-lines-v1:sha256:50ee1380553544bf5ff293de4178e982848ebab5ba0037f20aba5cfab1617998:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmI5N2FkYjgyYWFlOWJkMjY3ZTkxNzE0NGY4NGUwOGRhNDg3ZWM1YTVkOTEyMDUxNTNlMTc0NzBiZDEzY2Y0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJjODI5YmY2YzAyNmI2YTRkY2QyYzZmNmNhNzk2MTM4YzQ0MWQ0Njc1YjA3Y2E0YzcyNTI2YjUzOTQ5MmFjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE2ODUxOTcxOGYxYTliOGRmOTBjMjg1OTQxOWU2ZjVjYWY2YzQ3NzNjMThiOTFiNjJkNGE4NmE3NTExMmY5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmUwZDQ3ZjQxY2I1NDIyYjExNjZkMDMwZDAzYjY5OGIwNjRhMmU5YjA2MDk5NmU3YmNmZmJhZjM1NDhlOTJhZSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L402-L402",
+          "version": "repo-lines-v1:sha256:7e7160c239723481f7f6e69336369a1ce2c0189e6c2b4e48a20088dc7f643e76:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2U3MTYwYzIzOTcyMzQ4MWY3ZjZlNjkzMzYzNjlhMWNlMmMwMTg5ZTZjMmI0ZTQ4YTIwMDg4ZGM3ZjY0M2U3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2U3MTYwYzIzOTcyMzQ4MWY3ZjZlNjkzMzYzNjlhMWNlMmMwMTg5ZTZjMmI0ZTQ4YTIwMDg4ZGM3ZjY0M2U3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODhkYjMwNzM2NDIzOGFiN2ZmY2I5NjljZDRiOGIxMDhjZDBjYjY1YWUyZTdjMjJhNjc1MTk1MThjYTUzYTg1YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDdlNTljNTI1N2ZhZGQyMWU4ZGFiNTU5OTkyZTMyMDNmY2UxOGQyMTE0Y2ZjODgwNjliZDJkNTA3ZDM4MTk2YSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

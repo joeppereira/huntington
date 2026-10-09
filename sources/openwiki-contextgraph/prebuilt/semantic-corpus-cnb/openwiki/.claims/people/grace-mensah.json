@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:75b82e8dd8cff017936365c5fea1ba48156ac53cf6b9555821d9994c0d3f3b19",
+  "claims": [
+    {
+      "id": "claim_874a340f1b34446eb1deaa4a64507856",
+      "statement": "Grace Mensah is the Engineering Manager for the Financial Crimes Technology - PRSP team, reporting to Director Victor Petrov, with Daniel Kowalski as Tech Lead for the Hold Management Service under her.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L48-L50",
+          "version": "repo-lines-v1:sha256:8a3418892372ddb28fef420747a38955000b5317f94db7f8e25bd0f4e068ec8d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkyZTI1ZDRmNWI0NWVhNDY2NWFkZWRhN2QxYWFiZGI0OWE2ZmYyYmUzNGIzZTNkNGNmMmMwMTc1YmUzMDcyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQzNWQ4OGY1NWNmOWUwMTZkNWRmZmMxNzBmNGVkNjdkNzU5NjI5ODcyODg1NTExYTgzY2M3MTQ3YjNhYTRlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b2d052d79a0b42a39112fdd474c4cdae",
+      "statement": "Grace Mensah is the accountable technical owner of three Tier-1 PRSP systems: the Hold Management Service (SYS-PRSP-HMS, co-owned with Daniel Kowalski; business owner Rebecca Stone/FIU), Sentinel Fraud Scoring (SYS-PRSP-SEN, vendor; business owner Fraud Strategy/FCC), and SanctionScreen (SYS-PRSP-SSC; business owner Michael Tran).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L90-L92",
+          "version": "repo-lines-v1:sha256:3ec853561a13f92a25876c2fc672fe863cea5759d6d95f3a7b8c6a58bbc16607:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3ZjBiZjdmMmUxMjA4NjM0Mzg2YjlmZjcyZjM3ODQ1ZmUyOTdkN2UwNGNhNGQxNTc4NWRkZmQyNWE4NGJkMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkYmY2NzJkYjRlNjVhM2I3OWI3NzUxYTExNDY3MzRlZjM0MTUxZDUwM2VmMTBmNGIyNjhhNDA3NWUwZjNmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlZTM1NzdlMWFmMGE4OWU2MDJiN2ZlMzgzYjAyZjQ4NWU0YmRjYmY5NzkxMzQ0ZTMxNDFmYjE4ODExMGE4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_63f6c810cf3d4c24a38632518ad59a10",
+      "statement": "Work intake for the FCT team runs through the bi-weekly FCT Change Advisory forum with mandatory FCC sign-off for hold/screening changes, observes a year-end freeze Dec 15-Jan 5, is sized at roughly 1 story point per 8 hours plus a 20% independent-compliance-testing allowance, and was tracked at ~80% committed capacity for PI 27.1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L104-L104",
+          "version": "repo-lines-v1:sha256:63d027daad508af59de04bac07bc7261ca90abb2139c44a21bd1b94446269a74:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzE2YjlmMTc1MGJlOTRjNDVhMDNiNWFlYmU5MDEwMzZlM2QyZjhkN2ViOTQ0MGE3YWNhYTc3NGY1MzQyZGU2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L131-L131",
+          "version": "repo-lines-v1:sha256:a37c138ff188ac6b762e14b246f1f059a57736e29bfe7b269722b004662668c5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM3YzEzOGZmMTg4YWM2Yjc2MmUxNGIyNDZmMWYwNTlhNTc3MzZlMjliZmU3YjI2OTcyMmIwMDQ2NjI2NjhjNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM3YzEzOGZmMTg4YWM2Yjc2MmUxNGIyNDZmMWYwNTlhNTc3MzZlMjliZmU3YjI2OTcyMmIwMDQ2NjI2NjhjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDIwNWJhMmIxMjFlOWE0ZDQ1NDQ5OGNkNDRmYTJiNzE0MzQ3Y2VkMDgzYmI1MDBhMGE3YjQ4YzIzZTY3ZDJmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTJhYTNiY2QzNjgyNTFiZGYyNzcyMmM4YTE0ZGRhYTI0YmI1Y2U5ZTM0MWIwNzVlN2RjYzhlMDA3MmY2ZmM4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1791871e8266473bb3b8dfe5f6f50868",
+      "statement": "Grace Mensah led FCT-1951, the Duplicate-suspect client attestation pilot (via Service Center phone), completed 2026-04 (18 points), under which clients could attest by phone that an HRC-01-flagged duplicate-suspect wire was intentional; the pilot achieved 82% of HRC-01 holds resolved within 30 minutes with client confirmation, and FCT Risk approved digital/phone attestation for HRC-01 only subject to step-up authentication.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L159-L161",
+          "version": "repo-lines-v1:sha256:e0238718eb6afb02c22cac2907cf80ce98e76e7fc8d8193c46e06ea131ea6f4e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDAyNzQ1YTA1M2Y1ODU4MGVhN2YxMGE2N2JlODgwMGIwZGVmYmRlMzhkMzljZjI5YmEwZDMzMWI1MmU5NjQwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzY2MzY0MzkyMGVhZDE0ODg3MGFhYjAyZTM0Y2RkMTZhZTk2ZGI1YmY1YTU4ODMxNjJjYzgzMDhlYjA3YTNkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAzNTY4MjBmNzFhZjdkOGQzMGMwMmJmN2I5YTQ1MDczOTkxZjIwMDcwY2NkMjYyMjM2ODQ5MmY1MmIxMzEyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZjZWMxOWUxOWQ5ZjAxNTJlNGYyOGYxYTZkZTBhNDMwYjI4Yzk3YTczMzU5MGYzMzkzZmFjOTUzZGJlYzM5MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_caeee4ca6f0742c593c2aa51f68dbe6b",
+      "statement": "The FCT-1951 pilot results updated control CTRL-PAY-031 (2026-06-10) to permit digital/phone attestation for HRC-01 holds only with step-up auth, while wires over $5M still require manual Wire Room release, and no fully digital self-service attestation path existed at that time.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L163-L163",
+          "version": "repo-lines-v1:sha256:f272e54a1a9013ae76020f730991a33489fd18c92656c94fb4481c999dec6bf5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI3MmU1NGExYTkwMTNhZTc2MDIwZjczMDk5MWEzMzQ4OWZkMThjOTI2NTZjOTRmYjQ0ODFjOTk5ZGVjNmJmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI3MmU1NGExYTkwMTNhZTc2MDIwZjczMDk5MWEzMzQ4OWZkMThjOTI2NTZjOTRmYjQ0ODFjOTk5ZGVjNmJmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGRmYWQ1Yzk2ZTZmZTE0MmQ0ZTk2ZmE4Yjk1OWZlMTkzNjZlMjQ2ZmM2NjRiZWRkNmEyNTU3ZTdlNDAzMzA1YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRiMzcxZTNmZTBkZDY3MmJlYjY0N2RhZWU5OTI3ODZiZjJjNzdmY2Q0NzZjNmJiNDlkNWMyNTBhNWIwMTI5OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7875b71e2f694030b8245f8281fe9f95",
+      "statement": "A known open risk (FCT-2004) against the Hold Management Service, tracked by Daniel Kowalski, is that the legacy PPH v1 holdReasonDesc field leaks HMS free-text hold descriptions (potentially including hold-reason-code and analyst notes) to downstream channel consumers, pending a decision to strip the field in v1 or redact it at the API gateway.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L165-L167",
+          "version": "repo-lines-v1:sha256:1ff89d090b6bf4bd2e01243a3aa2c555b9140197e509aa8cbcaeff95c70bafb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA2OGMwYTFlNzM4MjQ2MjZjN2RmYWU2MDk0MDIwY2JmYzhjOWIzMjNkNDQyOGU5MDM2NjY5MmUxNjBiNGJjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZjZWMxOWUxOWQ5ZjAxNTJlNGYyOGYxYTZkZTBhNDMwYjI4Yzk3YTczMzU5MGYzMzkzZmFjOTUzZGJlYzM5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L63-L63",
+          "version": "repo-lines-v1:sha256:67d6a57937689dd583209404ef088c1bf3567cbb87070e53d86295c20d6dc608:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmM0MzYwYzlmZTM3ZDY4Y2NlZWYyNTAwYzk2MWU0NGI0M2RkYjRkMzE2MDJmN2RhNzU1ZWRmZmI2ZDlkOGU2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d9498fe6d74945178439b0709477bdf8",
+      "statement": "Grace Mensah deprioritized FCT-1893 (Client-Safe Hold Status Facade, GET /holds/{id}/client-view, intended to return only a disclosure tier and approved copy key per POL-FCC-014 Appendix A and never raw hold-reason-code or analyst notes) on 2025-08-19 because no channel consumer had committed to building against it.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L143-L157",
+          "version": "repo-lines-v1:sha256:e8a6d63076fc11a9e4bd00e83736be541e05a667aa0ea1f20f1a9daa71884644:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlOTM5ZTM1YzVhOWY0YmM5MzgxYTZjNGUxNjA3OThkMmY2MDEyNzA1MzRiM2UwMDA5ZDAxNmM5ZTVkY2EwMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjOWRkMjlkOGIzODg5NzMzNjExYjg4NzgxOTMzMWM0Y2NmMGMwMjJjNmYzYTk3MDc0NzdlNTI1MjNmZDJiNzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4NjkyMTE2YzBiYjZiMzRkNGMzNmRmNjk2MTM1NjgwZDRkOTY0ZWNhZWMzYWExMTczMTY0MTQ0OTJmMjBiNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgxMjUyNTFjYTAzZTI5YTMwNTE1OGQ4ZTY4NzBlZWNkMzkyMTA5YmI0MThhNGNhZjRiMzFhYzFjZWY0OTRjMzkifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

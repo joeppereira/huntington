@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e343f76e83f3cb1ad88f055d36643ccad86e62ac2a324f712da9280969e4c1f4",
+  "claims": [
+    {
+      "id": "claim_7ef63b13cd1544e395c8ade02a25ded9",
+      "statement": "MHFC reported Q2 2026 net income of $6.54 billion and diluted EPS of $4.48 on net revenue of $22.48 billion; net income was down 0.3% sequentially and up 6.9% year-on-year, while EPS grew faster (+9.5% YoY) because average diluted shares fell about 2.0% to 1,402 million.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L25-L37",
+          "version": "repo-lines-v1:sha256:90eff355ed70455e1bf8addd9ae81551e48345bfd979fb3997206592dbb9459a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1ZThhNjRjOTcyOWJiNGUxODViNDZlYzE1NGYzMzQyYTFmYzFjNmUwZDVhMDExYWNmNDY3ZGQ0MDRkZjQ3MDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlNGYyMTEwYWQ5YjViOThiZWVmZGI1ZDFjYTYyOGZmNWExMjQ5ZDExYTBhNDY0NDdhMWEzMTNhOTgyNDY3NzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2M2RjNTkwODRmYTMzMmQ5MDRmZWQ4ODczZWFlZWY0ODk5MmI2OTA4NjJhNzE5OGJkNTI2NTRjZTJmY2U1MjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI0MmYzMWU5N2NjY2VmNTBlYzlmODNlODU4YTAxMmM5OTgyMDcwYzBhMDU4ODE3YzNkYjFjMGExZWQyNGQyZTUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L89-L100",
+          "version": "repo-lines-v1:sha256:828bc31f383114782ad3bf06f24cc5c1af06bddda601956bc1ad0438df8dc8c0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0N2ViZGZlNjc3ZGY1ODYyMmI4YzdiMWJiOTE2MDAzYjZlNDkyYzE0YzMyNGQ1YjEwYTE5N2MyMTY0MWQ3NTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImViMjlkNmM0OGY3MmNlNzM4ODk4NDNlNjc4NDVhMmQ0MmQwZTU2YWVhZjZkMTU5OTFmNWYxZWU0MWJmY2MxNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFhOTc4ZDQ4NjkwODZhOWZhYTE4ODZhMzhhMWM5ZmFiNDA4YmZhOGI3NjljNTVlZGVhOGFiMWEwNTIxYTljNzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIyMTU1ZTNkMDAxOThlMDFjNmYyZGY5ZmZiOWY1ZjM4MmIwYzc5MWMzMjI0Y2JmNThiNTI4YzJlMzE3MTUzOWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2510ca879a0d4665b3b42d1a111849b0",
+      "statement": "Q2 2026 NII of $12.56 billion rose 2.0% sequentially on one extra day, Card loan growth and higher deposit balances, partly offset by lower deposit margins after the 25 bp March policy-rate cut; noninterest revenue fell 3.1% sequentially from a seasonally strong Markets first quarter but rose 6.6% year-on-year on investment banking and asset management fees.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L116-L128",
+          "version": "repo-lines-v1:sha256:c1b4777f689389cae94fa8c3b6a4e9e689176f2b5889615395bdc583d9e486ee:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmZDA4YzVmYWU3NmFkYjQ1OTg2YzE3YTNiNjQ4Yjg0YjdmY2NmMTQ0NmM2MWMyYzY1NWJhM2ViMDg4MDA4ZjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZkNzkzMzE3YjI1ZDE3NDU2Y2I3OTgyYWQzY2Y2NDNlYTZlMzYxMjEwODRhNWJhMzVjYmNlNTJhZmExNmQzN2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzYTY4ZDQ0MjQxYjY0ZDdjNzAwNjhiMGQwZjAyZmQ2YWNjNTgzMTVkYjU2ZWY5NGE1OTVhMDg4NjhlNmQzYzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODJlODAzZWZmYjVkOTMxYjQyZTY2MDMzNTlkNWM1NDQ1NjI0OTA2NjBmODFkMTc2MDFjMWExMjlhNjg1MDgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L43-L45",
+          "version": "repo-lines-v1:sha256:2a272a20a5f26d2a7c71c9a6a6348e19516985d7bf5611a38e04537cedfb5946:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjAwNzc1OTQ3OWFkYjM1MDU5NzZiY2U3MmQ3Zjg1ZWQ4Mzc3YzEwYjIxZDkxMmYwNGE0MGNhZTJiN2Y0MzI3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTYwNjE1MjlhN2ZjMzNiYjE0NWY0MDMwY2E5YmYxMDI2MDJiYTIwZDYwMzRjYTY1MzQ1NmZhNDUyODFhOGQxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGEwM2IwMDhmMDJjMzE5MDc2M2Y5MjY1ZWU5NWY5NjhhMWJhMzkzYWQ3NjRjMzIwZTA4MDJiMTcyNGIzMzZlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTBjOTUyZDUwZTVlYTI3NjQzZTg3MmNkNGEwN2RjMjBmYjExZjRkZGYwN2ZiYzg5MGFjZDQ3N2M4ZWRhZTVkNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_708c42b081df467a8119eacdce170d4b",
+      "statement": "Segment net incomes (CCB $3.21bn, CIB $2.74bn, AWM $0.96bn, Corporate -$0.37bn) sum to the firmwide $6.54 billion; CIB net income fell 5.2% sequentially on Markets revenue of $4.61bn (-9.3%), while CCB and AWM grew.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L175-L196",
+          "version": "repo-lines-v1:sha256:22e52898b9d92527f9f507c3c023b5f072fe0d45586bbb937fb3dbf86f6df272:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwNzZkNGI5YTQ2ZGY2MDc4NmRkYTlkYjAzMmVmMzU0ODNhMjQyNzJkZjIxZmM5OWIxY2E5YTcyYmRlODc5ZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjMGY1Y2RiNDhkMjM4MWNlZWViZDkzZWY4MGUwYzIwZTg3M2IwZWMyMmUyZGQ2NTZiZGJjYzA4OWIwNTdkZWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE0OTljMDA4OGUzZmMxMzkxYjUwOTU4YzJhMjY4ZjE4YTA1NjU1OGY3YzA1ZmY4OTNjMGUyY2I1YTFmM2QxMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJkMGFjMzhmOTM1YTEzMmUwYmU3MGE1NjEyNTVlNmQyOTQ0OGNiYTU1NTY3NjNlNTNkNzE5N2IwYmI1M2I4MjIifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L55-L75",
+          "version": "repo-lines-v1:sha256:e06b2b14df8d891f42d48a729c5dbd14c75e07fa025e8d59aa3c9bbae7536190:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIzNjI5NmFmZTAyZWQ2YjVlZjI3ODJiYzE5MGU3MmMwYzBkMTVlOWY2NTk4YTZmNzNkMjhiNTg3YmQ3OTYzM2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkMTliMWM3MTZiZmEyY2ZlMDhiOTUxNWU5M2Y5NTc1ZjFkYjEwMmMyNGExZTUyOTczYzAxYTQ3ZjRlNzczYTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRmYTQ0N2FjNjIzMmRiYjRmYjhjNzUzOTcwNWMxYjI2ZTE0NWExOTY1NDJjODJmOWM0OTg1NDAwOTExNTM2OTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdlYjk1ZjE4MGY4OGU5MWY1YjJlMGIyNjFjYmNkOTEzZDBlMjUxMjA1YTM4OGQ2ODFjOTg1ZGQwZjQ5ZWM1ZTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9f2787bbe969478ebb6465127ca19ab1",
+      "statement": "The 2026 NII outlook was raised to about $50.5 billion from about $50.2 billion because of stronger deposit balances; the bridge from 2025 is Card growth +$1.1bn, securities reinvestment +$0.6bn, deposit growth +$0.5bn, lower policy rates on deposit margins -$1.0bn, migration to higher-yielding deposit products -$0.4bn, plus about $1.1bn of other balance sheet effects. Adjusted expense is guided to about $49.5bn and the Card NCO rate to about 3.6%, on the June 30, 2026 forward curve.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L401-L405",
+          "version": "repo-lines-v1:sha256:5b6cc1d0a874fe0f02c178a31b05f3f53c2a2efca6fb5711df312d518f92289c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiODA2MWU1NDZiNzAxNzY0ODA4MWQwYTBmNWQ0ODU4YTg0OGMwYjg1ZGViNmEzYTQ5NjBjMzQwZTU5YTI5NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzRkMmFkYjI4OGMwNDM1NmY4MmMwMjc1YTk5ZTVmMGY0MzQxYzNmNjUwYjQyZjM2OGYwYmE5Yjc2NjQ0NzViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZhZDNlNzVjMzgwMzUxNWZlYzVhMGRkN2EyMDNmZTBhZTRlOTRlOGM0YmExMTVhZGM1YmQ3ZDk5NGJhMjQwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDdlNTljNTI1N2ZhZGQyMWU4ZGFiNTU5OTkyZTMyMDNmY2UxOGQyMTE0Y2ZjODgwNjliZDJkNTA3ZDM4MTk2YSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L49-L51",
+          "version": "repo-lines-v1:sha256:7ada6e43cf708c1790bb2131b8bece2372d17cf2c7708982363885fa97fe7077:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRmOTQyNGZjOGY1Y2JjMzQ5OTBjMjM3NGIzODI0NDA0ZmU3YTcxMjRmMDBkOGZmZjliNjUxNWU4NmZjYTE3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNjZWRkOGZmZDkwYzljODQ5MDI1M2ZiZjcyNmNiYmJhZTU1NTBkMzA4ZDQyZmY1MDEzMDE4NWI4NWNhNjVkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTBjOTUyZDUwZTVlYTI3NjQzZTg3MmNkNGEwN2RjMjBmYjExZjRkZGYwN2ZiYzg5MGFjZDQ3N2M4ZWRhZTVkNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGZhNDQ3YWM2MjMyZGJiNGZiOGM3NTM5NzA1YzFiMjZlMTQ1YTE5NjU0MmM4MmY5YzQ5ODU0MDA5MTE1MzY5NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5f23db37f75442b5ab9738434f20a1e5",
+      "statement": "Deposit-beta assumptions in the NII Sensitivity Model (MDL-ALM-014) are 45% consumer and 75% wholesale, re-calibrated in 1Q and unchanged; the realized cumulative interest-bearing deposit beta is 49%, and management identifies deposit mix shift as a larger swing factor than rate cuts. The outlook assumes two further 25 bp cuts.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L319-L319",
+          "version": "repo-lines-v1:sha256:3928b45b2872597e3357b95b825eb597f9390b44c4576819321274df0295b711:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkyOGI0NWIyODcyNTk3ZTMzNTdiOTViODI1ZWI1OTdmOTM5MGI0NGM0NTc2ODE5MzIxMjc0ZGYwMjk1YjcxMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkyOGI0NWIyODcyNTk3ZTMzNTdiOTViODI1ZWI1OTdmOTM5MGI0NGM0NTc2ODE5MzIxMjc0ZGYwMjk1YjcxMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGExYzE2NTQ3NTNiODE0ZjM1M2E3ZGNkM2QyODIwMGNlZGZlNjE5MDQxODY2NzIxMzQ0MzM0NWJiZTg3M2I5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBjOWRmNmZhM2M3MTNmNzdhZDJhZjA3MzhlY2UyMzc0YzYzZTc0ODg1NzlhNTg4MThlNTliMTQ4NjYxOWYwZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L401-L401",
+          "version": "repo-lines-v1:sha256:9ab8061e546b7017648081d0a0f5d4858a848c0b85deb6a3a4960c340e59a296:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiODA2MWU1NDZiNzAxNzY0ODA4MWQwYTBmNWQ0ODU4YTg0OGMwYjg1ZGViNmEzYTQ5NjBjMzQwZTU5YTI5NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiODA2MWU1NDZiNzAxNzY0ODA4MWQwYTBmNWQ0ODU4YTg0OGMwYjg1ZGViNmEzYTQ5NjBjMzQwZTU5YTI5NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZhZDNlNzVjMzgwMzUxNWZlYzVhMGRkN2EyMDNmZTBhZTRlOTRlOGM0YmExMTVhZGM1YmQ3ZDk5NGJhMjQwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzFhZGNmMDM2Y2JhYTc0ZjAxZDFhYjk5ZTMxZTg3OTI5MjQ4N2Q1YjFmZDM1ZjlmNDQxYzk1ZGU0YTc4ZDE1OCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L436-L438",
+          "version": "repo-lines-v1:sha256:69fa2810d3173dbbeec40acf7816b4c57ff18e0f30796e7b766fbc406f70d4e4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY5MTlkOGEyMWY4OTQ2ZmIwMGIxNjI4YjA2MjM0NzY3Y2U5NTA2YjYzZGZlMjJjNzAyYmI4MWE0Y2JmZDQxMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmQ4M2FmYjdlMmZjZWY4N2MzNDBmNjBmYjVlNDE0YjE2ZjZkZmIyZGE3MGRhNmY2YTgxMWEyODg2MDUyMjM5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzA1Y2MzY2VlZGExZDgzYTZhNmU3OTdmMDQ3YjZjMGVmYTI2ZmMxOTkzNTlmN2FhYWJmN2U2NjgyYjNjMjAwYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTkwYjFiOTJkMDgzOGY1MzgzN2Q4MjY2OGNiNWRkZmVkOGM5MjNmNmE5ODJhMDRlMDA0MWNkOGQ1MjlmMTE2OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0583901a5ce94ae8b64f8dd67e0f60dc",
+      "statement": "The firm is modestly asset-sensitive: MDL-ALM-014 applies instantaneous parallel shocks to a static balance sheet; the disclosed year-end 2025 table shows ±100 bp changing 12-month NII by ±3.0% and ±200 bp by ±6.0%, the June 30, 2026 sensitivity was directionally similar (+100 bp ≈ +$1.4bn), and management cites a 7% Board limit for a 200 bp decline.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L390-L399",
+          "version": "repo-lines-v1:sha256:9d0b3bd26efa8d6e1564b5642be8581e7000caa30c957a7fe9a0a1d8e3bc9665:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwMjY3MDA1ZTNlOTY3ZWQxZjY5NjZkMGU0MDY1ODcyY2I0ZDUyZTE0OGFiNThhMDE2YTI3N2VlOThjYzRmYzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE3YzM5ZGZmNzBmOTZhYWNkM2Y0MzA0MjhjM2NiOWVjN2UxN2ZlMDdmNTA0NmI2MDZhM2IwNTU5MjI0MGFkMWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjExMDYwNGE3OWY4ZjUxNzNhMTQzYTRlYTc4MmI2ZGIwYjY2NGNjYTY4ZmU1NjUxMGRiODBlM2FhNjI2ZGE4YjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3ODBkNWRhZjVkNmUzOGZiYjM0ZTBmMGM4NGZjOGNhYjc0NmEzYTUzNWQ4ZmYwODk3NWFiZWZlYzNjMjEyYzkifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L442-L444",
+          "version": "repo-lines-v1:sha256:1b83b83145e8106eb543edc893b12a125e0c6c91439cf7825d088895e84e713b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjU0MTQ2Y2ZhYjI4ZmJiOGNmYjNlMTBlOGE1YTU4NmRlZTE0MDEwNGQ2Yzg1ZjZkYTBmMjE3MGU3ZDM4YTM4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU0NzhmZjA5NmJjZjg1MjUwNDZmYjkxYTJkNGFlYmQ2ODFhNWM2YTE3MWQyZjhkNjliOTVkNjdjMDY0NTE0YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTkwYjFiOTJkMDgzOGY1MzgzN2Q4MjY2OGNiNWRkZmVkOGM5MjNmNmE5ODJhMDRlMDA0MWNkOGQ1MjlmMTE2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGZlMzBmMGQ1OWMwZjkyNjcxZDJlOWU3Zjg4ZjgyMjhmYWViZGMzMjE5ZWVhYjQ4YmZhZmMyYTNkMjk3OTM5NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_aa992aa0014c439f9516dac799686e88",
+      "statement": "Q2 2026 total net charge-offs were $1.65 billion (+3.8% QoQ, +8.6% YoY), with Credit Card at $1.27bn the dominant portfolio; the Card NCO rate was 3.58% versus 3.55% in 1Q26 and 3.39% in 2Q25, with 30+ day delinquencies improving seasonally to 2.24%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L254-L262",
+          "version": "repo-lines-v1:sha256:cd82aa16e3f7980149dc3f6bd780037acc2481ac07aedf25a97461ed85b7985a:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlkYTExMDY4MGUzNjkwY2ViZjhlOTVjMTE3MzYxMGI4MTI3ZmFlMWI3ZTdkMDJlZTZhZThjN2RhZDdhNjViNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFlZmJkNWMyY2Q2YjE5Y2E4NjlkNTVjYWVlNWU0YmFiZjI4YjA2ZGJmMmMzZTY5Mjc1NmY2MzUyNTE5NTE2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTYyMjExNzRkNTkxZDRkMzM2YTU2ZWY2ZTI4MWUwMGEyYTM0ZDZlNDEyMjQ1OWY5NWNlY2ZlYTJiMTgzNDUzZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWVhNmJkNzg1ODIxYmFhOGNmNTgwY2FhMzI5YzZhNTY2NzcxNmM0MDUwYzE5YjcwY2RmZDc2N2VlYTA5NzIxZSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L340-L351",
+          "version": "repo-lines-v1:sha256:ebfe4cc9bc0b2c8d88be1fd922e64c6dbe0f11ea763e0c08e778cc75503c37f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlNDQyMzEyYzBiNmFlOTViYmQ1NjUwYjUxZjZjM2Y2YWFiNGM0ZjgzNzkwZWI0ZjZlNzZmYmIyZjhiMjIwZDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmNzRkYjk5M2M0NWNhZmYzOTg5YzNhYjAxNmNiZjcyNmE4ODFjYjY3NDMzYWFlNDkzZDc3ZDIzNTAzM2JhYzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc5ODcxZDkyOTUyYzJlZjE5NTQxMzIwNTc4ZmI4ODkwYmRkZDBlNmVkN2M3ODliY2Q1ZGRmZmVhY2ZmNDNiOTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkxMDY5ZDM5NjRiOTE2ZDFiYmJkNGVkMDhhZDRmOTNhMmU3YTk2YTAwNGJmZDgyZDJiODkzYTM2NTg2MmI2ZDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3a378807020e44768b28607652552487",
+      "statement": "The allowance for loan losses rose to $16.38 billion (2.15% of period-end loans): beginning $16,110m minus $1,650m net charge-offs plus a $1,920m provision; the $270m net reserve build was primarily in Card on loan growth.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L263-L268",
+          "version": "repo-lines-v1:sha256:8a975667697f4f090d94ba7640d0af60ff334bef8d99102547a4158178ab9787:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmE1MTRhNzY1NmNiYTM3Yzk4ODVlNmE4NDI3YmVmY2EwYjQ1ZGZlN2Q1MjY4NzdmZWU1MzRmYWQxMDFjZjlhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDdiMmFiMTU3NjBiODViNWFlNDk1NjQ5NzNiYTAxNjRkM2FkNjA3MWJmNTk4MWFlOTJiNTU3MjI4NmZjMTQzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmY3YWQ2MWEwZjlkYmMyOTAyMzk2NTczZDE5YzAzZTY3ZjhmM2I5MzRkYzNjMDU5ODQxZjkzNDM4MjgyNDVjMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODhhMjhhZGJiNjgyOWQ4ZjEyMGZkMjYzMWU3MzE4NjQwZDJhY2RmYzUxNGVlNTU4YTY1YjU1ODU5MWI4ZWY0MCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L47-L47",
+          "version": "repo-lines-v1:sha256:9a974c85d172485a3d62b1909dc21c3b47cd957f9a4f8826007c09b03b77e537:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWE5NzRjODVkMTcyNDg1YTNkNjJiMTkwOWRjMjFjM2I0N2NkOTU3ZjlhNGY4ODI2MDA3YzA5YjAzYjc3ZTUzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWE5NzRjODVkMTcyNDg1YTNkNjJiMTkwOWRjMjFjM2I0N2NkOTU3ZjlhNGY4ODI2MDA3YzA5YjAzYjc3ZTUzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTU5ODdlNzRmMzZiOTQyOGM3NTRkYjNlNWM5YWI3ZWI0ZWIwZjMzNTg3MDYyOTUyZGM4NjRiYjQ1NmFlYjZiNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjQ5MDdlNzI2YzM3MGQ1ZDc1YTI5NmI0ZWI4ZjNkNTA3MDJkODM4YTI3ZDMyNTlhOGNhZTA0ZjViMTUzMTE5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8d990aa88f4148169a3ed6313d1b6766",
+      "statement": "The allowance is estimated with the CECL model MDL-CR-007 using unchanged scenario weights (Upside 20%, Baseline 50%, Downside 30%) and a baseline unemployment peak of 4.5% in 1Q27 (vs 4.4% at year-end); management says a full move to the downside scenario would raise the firmwide allowance by over $4 billion, and Card allowance is roughly 6% of loans.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L270-L270",
+          "version": "repo-lines-v1:sha256:c45f6aa16f214df956086e0db17e3337addaa1291e909f9dcfcfdc19a98d7d2e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ1ZjZhYTE2ZjIxNGRmOTU2MDg2ZTBkYjE3ZTMzMzdhZGRhYTEyOTFlOTA5ZjlkY2ZjZmRjMTlhOThkN2QyZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ1ZjZhYTE2ZjIxNGRmOTU2MDg2ZTBkYjE3ZTMzMzdhZGRhYTEyOTFlOTA5ZjlkY2ZjZmRjMTlhOThkN2QyZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIwNGQ2MjFhOWMxZDhkODI3NzA4YjIyNDIxNmViNzdjMTg1OThhNWMxMjg4NDZiMGZkMGI5ZjdjMDUyZjNkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGRjOGJkYjEyYjk1NjI0NzEyM2M0ZmM3OWMwMTU1NGYyYzcwZGQ1MTNhYzNmYmE5NWQ3M2E1Y2ZhYzBhY2E1MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L448-L450",
+          "version": "repo-lines-v1:sha256:33546e25db9c177c96115a10c359b6e83d0595b6b711da4927ba01f3c61d9d3a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmJiZjliN2IyZjk2MWE2M2Y3MDg5Y2MyYzgyMjVhMDY5NTE1MWFmZDY3MzJhODMyM2ZhNGQ0ZTUwZTRhMzg1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM5NWY1NGEyZjhlYWM1MTI3NjQ3YmRkOTI4YTcxMDM4OTg1OWUyYTU2YTg3NzRjNzE4YmVmZjgwMTRlMGMwOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGZlMzBmMGQ1OWMwZjkyNjcxZDJlOWU3Zjg4ZjgyMjhmYWViZGMzMjE5ZWVhYjQ4YmZhZmMyYTNkMjk3OTM5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2EyYmRiNWE5Y2JkN2U5ZTljNGI3YzI0NTJkNWM2NTllOTAxNWRlOWFiNWQ4OThiNDAxNDQyOTE4YzQ0MDJjNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b50f4a99bbf34d9194a678b5bf9d9083",
+      "statement": "Office CRE is the area of greatest credit attention: $15.2bn exposure with 38% investment grade, $3.1bn criticized (down from $3.6bn at year-end), $90m of 2Q26 net charge-offs and 9.8% allowance coverage; office is about 2% of total loans.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L194-L200",
+          "version": "repo-lines-v1:sha256:59d93444f73a1b2dcb495609e300444c965dd3e325bb424903230b9cc19d74c3:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVjOGRjZGNjYjVjN2EzMjFmMDBkYTcyMWQyZjhhNTI0YjdiYjQwYzdlZmMyOGY0ZGZlYzhhZTI5ZGJhMTRlZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjA3ZjZkYTliYzhmYmEzM2FlZDU3MjcxNjU5ZTc3MmMxMzcyNmU2NzU4YmE1ZjNhMmQxMGQwMzhjMjA3OTliYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTUyOTAzZGM2MThkNWRlNGY4YmVkMWIxZDg4NGZmMTBjMmQyOTYyZTg2YmQ4YzdhMjg4ZDIyM2EwMjg4MTE4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTI2ZGQ5NDVlY2YwMGI3MWNiZmRkZjliNWJhZTU4NmNiNDlhMTJlMDQ1MjA5NGQzMzZlOGUxZGE3MzMxMjAyNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L353-L368",
+          "version": "repo-lines-v1:sha256:20a6584bf8829b52f7621c0aaa227b5979618ad286f0ef33f6dd91fe91c37395:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlZWZmMTEwNDQ4NzZjMTBlYjk5ZjUzYWQ4ZDE4ZmQ4NWM4YmFkNzc1OWE4NDM5MDdiNDY5YWU2ZjIzZTE2ZmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3OGExN2QyN2U5MTZlMmY0YzQzOWY3MGY4YTY1MjgxMWY5NDIxZjgzZjFlNjM1MGU2MTVlNWI3MDg4MmZlMTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZjMmEzZmY0NzcyMzAzZWJjYjBjODVlZGI5YzQ2ODZiMzdhMzdiZmQxYWE4NmIxYzA1MzU4M2IzZjFhZDdjNGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmNjQ5ZTEyNDFjMjE5NzIxMTE4NWZjODRiY2ZlMjRkNDNiYzNmNmViNDI0ZWVjMjlhNWZkODJkZWMwNGIxMmUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L458-L462",
+          "version": "repo-lines-v1:sha256:a43a2bca0b871bcef416b0efb3dd938b6c80d39497e9d35d90051e79ec45c644:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjk1NTllMzBkMWE4MjQ2MGNmMDIwMGEzM2U0Y2ZhOTc1YTY2NWJhNWFmZjkzNGY1MDJmOWU0Njg4N2JjMThkNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc5YzgyOTRkZWVkY2YyZmE0MWQyOWEwZTJiOWM3ZmRiYmYwMTU4ZmMzMGVlYjU2OWUyOGRiZTJhNDg5NGNiZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmNkMjJjYzY0ZjBkNDUwOGIzYmI4ODFjMjliNTFhYjFjYmJlMTc5NGZmNDI4MzEwMTU3NDVlZGY4NjhjYjZjYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGViZjliYmFlNDViYzZjMTI3ZTE4YzY1YzdmYzNiZDkzNzJjM2Y0Yzc2ZTVlYTk5OWJjNmNjYzc3MTM0MTZmYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0515745192b54dd99e6218629f006c62",
+      "statement": "The Standardized CET1 ratio was flat at 15.1% (15.14%; $101.2bn CET1 over $668.4bn RWA) because CET1 capital and RWA both grew 1.1%; the firm repurchased $3.0bn of stock and paid $1.15/share dividends (about $4.6bn returned), with SLR 6.1% and average LCR 115% (down from 117%).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L101-L110",
+          "version": "repo-lines-v1:sha256:8811d52d333413f86014833afed30d14f4b36ed9f5e227c6ea92f956082b57ec:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhMjQ3NGI4OTZkNzE2MzM1MjYwMjc2YzUwZGI4M2FhYjE4OWZmM2Y5N2FhNDMxMTk0ZWZkYmIyZmM4YWZlZGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlMTM2NjQyZDBjZDA2OWYyMGI0NjA3N2VjZmY5OTQ4ZGMyODRkNTRkZDRlZDc1YTc0NDJhNTZlMzIwMWZhYjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhMGI0YzYyNzBiOGJiMzgzODQ0YzQ3ZTZiNTVhYTU2MDZlNmVkM2IzNmVmYWI2MGJjYmZmZWUyZTUxMzUwMWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NTc5NWRmNTBmNTUzNmVmMWIzZTI0YzRhYWJkMzY1MTY5MjBjMTdlMjAzODk0OTQyY2NhNmYxZjY4MjZkN2YifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L276-L276",
+          "version": "repo-lines-v1:sha256:78caf3034961c3270388c73a341988176a0550f7e13221c4cf861253159e85dd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzhjYWYzMDM0OTYxYzMyNzAzODhjNzNhMzQxOTg4MTc2YTA1NTBmN2UxMzIyMWM0Y2Y4NjEyNTMxNTllODVkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzhjYWYzMDM0OTYxYzMyNzAzODhjNzNhMzQxOTg4MTc2YTA1NTBmN2UxMzIyMWM0Y2Y4NjEyNTMxNTllODVkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTViMDllZjZhYTY1ZGJlMmZkMDNjNWU1MGU0YmNlODAxODRiNTI3OTY5MmFkODVlNzY3ZTZiNWIzNzM2MzcxZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTM3ZDlmMGYzYWEyMDA1YTc2ODI3ZDk1Mzk0NTkxZmJlNzI1ZDRjYmNkMWQ1OGNiZTQ1MmZlNGU2ODgyZWY5NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L77-L79",
+          "version": "repo-lines-v1:sha256:5e42f7cf9409d2e31b677b315d9c5a53420d634962b465b6aac466e3034f24ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDI0ZjBjYWI3ZGMxYjFkZDM0ZmI2OTM1M2VjOTg3OGI5ZGQyNWY3NzU1NDQzZWZmYTU3YTg2ZDFkM2I3MDZiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWIwZjkxNWQzOWM2ZjEwYTY0NGFlNmIyMmUyNWEyNWU5NDk5ZDFkZjgzYTg0NzVkOWY4ZjM4NjUzMWUzNDIzNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWYxZjkwYzhmYjU1ZTMzZmQ1MTZhNmYyMDAzZjIxMmY3NTdiMTE5ZmU3ZGViMWZkMzk0NTIwOGQxOTAzMzg1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjRlYzg3YTkxMTQwMzkzOTIyOTIwODYzNWFlZDk4MDAzYjJhYWRkZmIzNDBhOTA3YzZjODhjYWRmNTFlMzE3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_56bc51692edb4d8a93c1b4046cf0f57e",
+      "statement": "The CET1 requirement stack totals 10.2% (4.5% minimum + 3.2% SCB + 2.5% G-SIB surcharge + 0% CCyB) against a 13.0% management target; the Fed's preliminary SCB of 3.2% (received June 27, 2026) is expected to hold from October 1, 2026, consistent with the firm's indicative 3.18% (2.24% severely adverse decline plus 0.94% dividends).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L276-L294",
+          "version": "repo-lines-v1:sha256:30a0284f2b1890f525dcb1ca4e224720dab19aee534c05abccd6536d1b7ef3c8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2FmMzAzNDk2MWMzMjcwMzg4YzczYTM0MTk4ODE3NmEwNTUwZjdlMTMyMjFjNGNmODYxMjUzMTU5ZTg1ZGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImViYTc2ZTRkYjg5MTk1OTMyYWY0MjM5NDdiZmJhYmU0YjJiMTI0MWE4MmRjN2QwNmRjYjkzMDU0MGQ0NWY2NDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1YjA5ZWY2YWE2NWRiZTJmZDAzYzVlNTBlNGJjZTgwMTg0YjUyNzk2OTJhZDg1ZTc2N2U2YjViMzczNjM3MWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAyYzQwNGQ2MTlmMDA0ODhhODgwMDM4ZjMzMjZkYjkyMmUzM2YxMzMzMzEzMWJmMGUwMzRmMTIwZDAyMjY5OTYifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L81-L81",
+          "version": "repo-lines-v1:sha256:a3bc57a579a80142c8ea9024b76a97a193e56869a5d6d99b0f0dd7b10b774c7d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTNiYzU3YTU3OWE4MDE0MmM4ZWE5MDI0Yjc2YTk3YTE5M2U1Njg2OWE1ZDZkOTliMGYwZGQ3YjEwYjc3NGM3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTNiYzU3YTU3OWE4MDE0MmM4ZWE5MDI0Yjc2YTk3YTE5M2U1Njg2OWE1ZDZkOTliMGYwZGQ3YjEwYjc3NGM3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI5ZGU1MDk5OWExNWQzM2QzMGY1MmEzYTlhNzJlNWZjM2UxODU5NjYwM2RjNDc3MDhlMGEwY2IzOWU3NDgwZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjM4ZWNkNDg0YjFmZGU3ZmIwZDM1NzA5N2E1OWQ2MGY4NDRlNjc0NmM0YmEyYWNiYjQ4MjdkMDRlZWI1NDM0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7b3c68ab6fea430eb0c282321a88db0f",
+      "statement": "The capital plan from MDL-CAP-003 projects baseline CET1 of 16.15% by 3Q28 after $27.0bn of buybacks, a severely adverse minimum CET1 of 12.90% with buybacks suspended, and about $23.0bn of excess CET1 above the 13.0% target; management is deliberately cautious on buybacks due to final capital rule uncertainty and will revisit the pace after the final SCB in August.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L276-L286",
+          "version": "repo-lines-v1:sha256:6dd019408caae683d6ab438fec79a77571466e06abc0c3e4ac7835fb62d131e7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2FmMzAzNDk2MWMzMjcwMzg4YzczYTM0MTk4ODE3NmEwNTUwZjdlMTMyMjFjNGNmODYxMjUzMTU5ZTg1ZGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlOTZiNzkxM2Y0ODI0NjdhNDM0Mzc0NTI5OTU0ODE2MzY3MDM4Y2Q2MGJmYThmOWFlNGFjZDAwY2U3NmQ2M2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1YjA5ZWY2YWE2NWRiZTJmZDAzYzVlNTBlNGJjZTgwMTg0YjUyNzk2OTJhZDg1ZTc2N2U2YjViMzczNjM3MWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MDFmNzI5NDU1OTY1NGZlODUxN2RjZDg1YmQ5OWY0NWZmYzAzZGZhM2Q2ZGRjZGE3ZjZkMDc1OTkyYmU0OTMifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L452-L456",
+          "version": "repo-lines-v1:sha256:95bd951b9d207dc08027f8bf7238d14462b7c3400f95e7d6978cac3a3490aca6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4YzEzMTkzZDQ4ZWFkMWE2MzBkNjQ5MDg3MWM1ZWQxM2FkZTM1NGY4MjA5ZmFhNTI4YzMzMmQ1NzI4OTc0YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA1ZDVmZDQ5NzBjMWVhNTZiYzE5Yjc5ZTA2YzY0NTIyNDFjMWU2OWI3ZTNjZGJkYmRhMzc3Y2IxZjNjNzk4MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGY0NjhjODk0OTcwYzQ5M2FjNmFiNGQxNTVlNTY0MzVhNWE3YjUzYWI1NTc2OTMyMDM5NGI3Zjg0OGJjMDlhNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGE0YTNlZTQzY2NiNzdhMTg4ODcxYzcwNTA1MDE3MzFjYTk0NjY2NDBhYzA0ZDU4YTllYWUzZmQxZjAzOTFhNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b87c5230786b4b319d908b1c8f1340e5",
+      "statement": "The supplement states 2Q26 ROTCE inconsistently: 25% in the highlights, but 24% in the non-GAAP reconciliation and five-quarter table; the reconciliation arithmetic ($6,280m net income to common over $103,000m average tangible common equity, annualized) supports about 24%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L29-L29",
+          "version": "repo-lines-v1:sha256:055b2c5a4da1439ae499e7de62c7b382370b9a258260d175c567a95b7e462281:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YjJjNWE0ZGExNDM5YWU0OTllN2RlNjJjN2IzODIzNzBiOWEyNTgyNjBkMTc1YzU2N2E5NWI3ZTQ2MjI4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YjJjNWE0ZGExNDM5YWU0OTllN2RlNjJjN2IzODIzNzBiOWEyNTgyNjBkMTc1YzU2N2E5NWI3ZTQ2MjI4MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGYzNzEwZmZiMzdjMTM5Mjk2MmNhMmQ0ZjM2ZTQyZjA3MmZjZDJkNmZiMGFmNzRiYWY5ODIwMGJhZmM0MzQ2YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjcwMzEwNmU0NTI4NTlhOWY5NDQ2OWZiNmJiZjg0Zjk2ZTZjMmM1MzliYWE5Njg2ZTBiYjUzMzAyYjM1Mjg1ZiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L476-L485",
+          "version": "repo-lines-v1:sha256:21b55f4373c37e5e25a53efcfda5af532750c782a8f43fc57ffcac475d93cdd3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhZjk1MDljYTU1OGFiNDg0ZjA1NzQ2YjYzMzRjNzg2NTZlODE1OGIwZmQxOGFiZTQ4YmQ3ZTUyZTdkN2JlNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkZTY3Y2RmZTA0Nzk4NTNmMjY4ZDRhOGFiMWMxODczMzg4ZDczNTYyMzlhYjhkZmRhY2FlNTQxMDE1YTdiMmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NWM2MzcyNWUzYTI1NjJhMWY0NjBkMWRlOWU2YjMzM2ZiNmYwZDRjOTI2ZTkzYTBjZWU3YjYxMjljZDc5Y2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJlMGQ0N2Y0MWNiNTQyMmIxMTY2ZDAzMGQwM2I2OThiMDY0YTJlOWIwNjA5OTZlN2JjZmZiYWYzNTQ4ZTkyYWUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L499-L499",
+          "version": "repo-lines-v1:sha256:609be30bc2c9eb8f8f1f054acd6112a469e4184c96e8c51d7967fa68e31d73bf:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA5YmUzMGJjMmM5ZWI4ZjhmMWYwNTRhY2Q2MTEyYTQ2OWU0MTg0Yzk2ZThjNTFkNzk2N2ZhNjhlMzFkNzNiZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA5YmUzMGJjMmM5ZWI4ZjhmMWYwNTRhY2Q2MTEyYTQ2OWU0MTg0Yzk2ZThjNTFkNzk2N2ZhNjhlMzFkNzNiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODQxNTU0YzBlODZmYzY4ZWE5Y2MxY2Y4MTkyMmYyOWRhOWYxZTk3YjFjZjBmNmJkOWIzMDJlZmY0NzhjYWRmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIwOWE4YTc2NDI0MmM0MTE4MmU1ZmRmZjA4YzI0OGUwM2ViYTUyMGM2YjdiYWQwNDE0M2VmMjgyNTFjYmQwZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d71f568295d247399fef1505e1dea92a",
+      "statement": "The supplement links platform APIs to financial and risk processes: Card originations are decided via the Credit Decisioning API (API-09), PD/LGD refreshes come from API-10, HQLA/cash flows from API-15, FR Y-9C data from API-16, and migrating the Macroeconomic Scenario API to the strategic data platform cut CECL and capital model scenario-load time from six hours to under forty minutes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L169-L169",
+          "version": "repo-lines-v1:sha256:d2807e9239902fae88ac768448f31802319b06e6bde8596fd8af0451a80ddcb2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI4MDdlOTIzOTkwMmZhZTg4YWM3Njg0NDhmMzE4MDIzMTliMDZlNmJkZTg1OTZmZDhhZjA0NTFhODBkZGNiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI4MDdlOTIzOTkwMmZhZTg4YWM3Njg0NDhmMzE4MDIzMTliMDZlNmJkZTg1OTZmZDhhZjA0NTFhODBkZGNiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmRhMzg3MWM5YTFhMzcxMWRhZWI2OGJmNDUzOTU0ZDU1NWFiMTQyOTU1NDBjNzlkMWY0NmUwOGM0ZjBiZDJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2VlMGU1MTM1YmRhYWUwYjE5MjM2MTZlNTk0M2ZiMWQ0ZTAzY2RlZjg4MGQ5NTZiZTg2YTA2ZTJiNTc1OTRiMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L351-L351",
+          "version": "repo-lines-v1:sha256:4f74db993c45caff3989c3ab016cbf726a881cb67433aae493d77d235033bac2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3NGRiOTkzYzQ1Y2FmZjM5ODljM2FiMDE2Y2JmNzI2YTg4MWNiNjc0MzNhYWU0OTNkNzdkMjM1MDMzYmFjMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3NGRiOTkzYzQ1Y2FmZjM5ODljM2FiMDE2Y2JmNzI2YTg4MWNiNjc0MzNhYWU0OTNkNzdkMjM1MDMzYmFjMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjc3MGU4M2NlNzFmYjdkNGU5MjE4ZDA4N2YxMDMzZTFjNzE0MmEzYjIzZWEyYTkyYWJkYmRiNzQ3OGZjYzc4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTEwNjlkMzk2NGI5MTZkMWJiYmQ0ZWQwOGFkNGY5M2EyZTdhOTZhMDA0YmZkODJkMmI4OTNhMzY1ODYyYjZkOCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L388-L388",
+          "version": "repo-lines-v1:sha256:54723cb02f8dc0f9576e3f082002d5b160b75bf887152b4f5fd85c8d3ad6c222:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ3MjNjYjAyZjhkYzBmOTU3NmUzZjA4MjAwMmQ1YjE2MGI3NWJmODg3MTUyYjRmNWZkODVjOGQzYWQ2YzIyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ3MjNjYjAyZjhkYzBmOTU3NmUzZjA4MjAwMmQ1YjE2MGI3NWJmODg3MTUyYjRmNWZkODVjOGQzYWQ2YzIyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFjYmU1NTQ5ZGUyYmFkODE2OWUwNTY3ODY5MTllOTgzZTVkNjg4ODVhMGRkZWJiZDUwNzAxNTc0MWE0NmZlZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTBlNGQ3YmJlNDFhM2EzYWI2ZTFmYmFlNjI1ZjliMzdmNGQxMDM3M2E4OTU2M2UyNTM0YWNhNGJhYjVlYzM5OCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L426-L426",
+          "version": "repo-lines-v1:sha256:f314bdf6f41ecd526723c29cd948075c05788edceb2be4f80fe9392fd2fab017:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjMxNGJkZjZmNDFlY2Q1MjY3MjNjMjljZDk0ODA3NWMwNTc4OGVkY2ViMmJlNGY4MGZlOTM5MmZkMmZhYjAxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjMxNGJkZjZmNDFlY2Q1MjY3MjNjMjljZDk0ODA3NWMwNTc4OGVkY2ViMmJlNGY4MGZlOTM5MmZkMmZhYjAxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVkZGEwZDExNzQzNDgwMjZkOGNhY2UwYjI0OGVmNDljODIyY2Q3YzQzMzk4OTE3YzNlNGUzZGM5MGY4YzRiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmU0ODNjMWIwOTZlYzA2OTM4NDhmMmUwM2JjYjRiYWI0M2M5MDVhZjRhYzkyZTM0OWRjYzk1ZWY0MTM3MmY5NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L520-L520",
+          "version": "repo-lines-v1:sha256:5734b01b03830915ac670fe901750eca8f168356845cbbf74c9ca1d6fbfea82d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTczNGIwMWIwMzgzMDkxNWFjNjcwZmU5MDE3NTBlY2E4ZjE2ODM1Njg0NWNiYmY3NGM5Y2ExZDZmYmZlYTgyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTczNGIwMWIwMzgzMDkxNWFjNjcwZmU5MDE3NTBlY2E4ZjE2ODM1Njg0NWNiYmY3NGM5Y2ExZDZmYmZlYTgyZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjRjYzkxOGZjNGJiZGU4ZWM2OTRiYjIyMDFhYTNhYjk3NzZhMTdiZmRiYTJjZDY4ODFjZDhmNTc2MzkyOWJhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWIxYjZmZDgyODM0ZDRlNDI1ZDk2NDEwOTcwYTkzM2NmMTkwODRmYjMxZGRlZjUxYTljYjEzYTgzMzNiZjNkMCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:5c529165bba893620ef6a04d2d2b3b3a05e6ab726157ef93a10e69eadf2b0e29",
+  "claims": [
+    {
+      "id": "claim_97ff584c53ef4c16af573b611191eee8",
+      "statement": "Card Technology is the owning team of the Card Management API (API-06, v2.6, base path /cards/v2) in the Card Services domain.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L2-L17",
+          "version": "repo-lines-v1:sha256:fe7243b01124c3ca7b6670cec53c81f0e8752bcd30f6692e74350749d98ecdec:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5NGNmMTBmZmI5NmEwODA2NDQxMTNlMTI0ODIzYzYyNzg3Mzg5YTcwNzY4YjAzMWU4ZGE0YjI4MjA2NDk1ZGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYzYxM2Q5ZDBhZTE3NzcwY2Y0ZjcwZmUwZmZmMGY1M2RjZWI5NzYzZDEyMGYyZDgyNTMzMDE0MGQ0ZmIyNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoxLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L86-L86",
+          "version": "repo-lines-v1:sha256:be93ed1c2b9c744048a9fa54a88d8842f77b3b8d5758bf1b3e010159b8e9a283:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmU5M2VkMWMyYjljNzQ0MDQ4YTlmYTU0YTg4ZDg4NDJmNzdiM2I4ZDU3NThiZjFiM2UwMTAxNTliOGU5YTI4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmU5M2VkMWMyYjljNzQ0MDQ4YTlmYTU0YTg4ZDg4NDJmNzdiM2I4ZDU3NThiZjFiM2UwMTAxNTliOGU5YTI4MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWNmMDIyZTg3Y2FhYjgwZTUyMmI3MDExYWViZGIyY2Q1MmY1YTZhYTY4ZDA1YzFkNzNiYTMyNGExZDkwNzA0ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOThlODJlODIzNWQ3NGQxMDEzMjdiNGMwN2E0ZjAwNDQ4NTY0YjY2NWVhMmMwNTg1YmUxM2VkYWJiNDQ3ZDI4YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d9d97e21e7c74555831a80314eb2da8f",
+      "statement": "API-06 documents four endpoints (GET /cards/{cardToken}, POST lock, PUT controls, POST wallet-provisioning); issuance, activation, unlock and replacement are described in the API scope but have no documented endpoints.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L4-L26",
+          "version": "repo-lines-v1:sha256:021c778aaba1adb5bd5424c27cf7259f1e6b8ad4eb00334d70f4675913979683:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkZDgxZDBiM2ExNjAxYTAzNzBhZWEzNjQzNTQyMDcxM2MyODBlMTcyYWE4YzE0MGE0OGIwNjA5MTA5M2ZmZDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhZjgyOTUzZjczMGQ4MWVjNDE1ODE4ZDk5YzFlMGMyNDllZTQwOWVlZjhiNDllMmJmN2Y3Y2NmMzQ1MmY1OGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmMDVhNmUzNGM4Y2NiNjI2ZjM2MDQwZjcwMzhiMmMwMTE1MTY1NjNhYzIwZmFlMWQ3MTRjOGFhNmM2NWNhZDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6b8b10d2c1d5410d81918d3dccac3c43",
+      "statement": "API-06 operating commitments: Restricted - PCI classification, scopes cards:read, cards:write and cards.controls:write, 800 requests/minute per client, 99.97% availability with p95 latency 220 ms; the Q2 2026 supplement reports about 260M calls/month, up 15%, at 99.97% availability.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:f7458542b1c271a1c430ed835687c7823fff66a601d835065f921ca45a0a5a04:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiYzYxM2Q5ZDBhZTE3NzcwY2Y0ZjcwZmUwZmZmMGY1M2RjZWI5NzYzZDEyMGYyZDgyNTMzMDE0MGQ0ZmIyNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjczZGE1Y2MwYWI3OGFkYWQ2YWQyNGYzMzAwMWQzNTJiYTc3NGNmZjhmNTYxMGU0YTJhMzEwZGRjMDkwZTljZTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L420-L420",
+          "version": "repo-lines-v1:sha256:3ef18278bfd8f0c84168658b500c296e434979613638a51e2dbc3475eac2a1a4:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2VmMTgyNzhiZmQ4ZjBjODQxNjg2NThiNTAwYzI5NmU0MzQ5Nzk2MTM2MzhhNTFlMmRiYzM0NzVlYWMyYTFhNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2VmMTgyNzhiZmQ4ZjBjODQxNjg2NThiNTAwYzI5NmU0MzQ5Nzk2MTM2MzhhNTFlMmRiYzM0NzVlYWMyYTFhNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmU2MjYxMzFjOTk4ZTY0NmVkYjc4NGYwMDU2MjIwYTdlOTRmNDQ3OTRmZDFiMGQyMmJhNDcyOGYzMGE5NDI5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2VlYzk5NzQ0NGM2NWZkNmVmNmFiNTNhZDkxNTljMTFmNjIyNGExZjAyMzM5ZTY4ZjhkOTYwMmFjNjE1NDdkYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6c71b1aee8bb43c8b6419c137d029f02",
+      "statement": "Card data is tokenized: raw PANs are never returned and clients reference cards by opaque cardToken values.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:edd81d0b3a1601a0370aea36435420713c280e172aa8c140a48b06091093ffd1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWRkODFkMGIzYTE2MDFhMDM3MGFlYTM2NDM1NDIwNzEzYzI4MGUxNzJhYThjMTQwYTQ4YjA2MDkxMDkzZmZkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWRkODFkMGIzYTE2MDFhMDM3MGFlYTM2NDM1NDIwNzEzYzI4MGUxNzJhYThjMTQwYTQ4YjA2MDkxMDkzZmZkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGYwNWE2ZTM0YzhjY2I2MjZmMzYwNDBmNzAzOGIyYzAxMTUxNjU2M2FjMjBmYWUxZDcxNGM4YWE2YzY1Y2FkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L60-L68",
+          "version": "repo-lines-v1:sha256:4a057438c233634dc44c0ca410cbc69b55f7bb75d8016d4e51c8a56d15c52e42:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODNlYWU3ZTZhNGQzYzcxYmNjOTYzMjhjNTE5ZmJhMjk0MWVlNDg2OTY4YTZkNjMyMmZiMDhjZWI0NGUzZWZkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTIyZmFhNTM1YmQyZWEzZDUyZTc0MWVkNDU0NDM1YjdmZTQ5ZTgzNTg2ZTk0M2Q5OGQ4MmJiZmIyNGQxZjVjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWNiZDI0MGNiYzY4YTJkNmI3MTYwN2UwMWM3Mjk1YzI1NzIzZmRkMzhjY2U5MzkyYWY2M2Q4Y2EzMWY3NjQ0NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjlkMTM3NGYzZWY2YjAwODk0YTJmMDJlYjdlMDljNjFjYmVhMzg3ZmI2YjI3ZjdmOGM5MmFkODNiNTUzZGZiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e2ad0bb2cba34fcb9b4871fc62e228f9",
+      "statement": "API-06 data lineage: upstream are the card processing platform and API-07 Customer Identity & KYC; downstream are the card authorization system, digital wallets and API-18 Webhooks & Event Notifications, which lists API-06 as an upstream event source delivering to client systems.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L70-L74",
+          "version": "repo-lines-v1:sha256:9b5aa77259030dbdbe29292d388782ab651a11d554e1db2a48c75aeb242b3911:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzdlYzQ0MzcwYWVjZDI4ZDNmOWEwYTdjNTlmMTNjMjY2Y2Q5ZWE3YjEwYTc0NDE3MWQ2YzM5MjkwNjhjNmQxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-07-customer-identity-kyc-api.md#L71-L71",
+          "version": "repo-lines-v1:sha256:b95f9485e29420987709e911e3b9782dfedd64ae745ef8add166576e2a781ede:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1Zjk0ODVlMjk0MjA5ODc3MDllOTExZTNiOTc4MmRmZWRkNjRhZTc0NWVmOGFkZDE2NjU3NmUyYTc4MWVkZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1Zjk0ODVlMjk0MjA5ODc3MDllOTExZTNiOTc4MmRmZWRkNjRhZTc0NWVmOGFkZDE2NjU3NmUyYTc4MWVkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-18-webhooks-event-notifications-api.md#L63-L63",
+          "version": "repo-lines-v1:sha256:3450acec9aae824105fda2914765d95ae508c584bc580cace5c2faec113ee7a2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ1MGFjZWM5YWFlODI0MTA1ZmRhMjkxNDc2NWQ5NWFlNTA4YzU4NGJjNTgwY2FjZTVjMmZhZWMxMTNlZTdhMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ1MGFjZWM5YWFlODI0MTA1ZmRhMjkxNDc2NWQ5NWFlNTA4YzU4NGJjNTgwY2FjZTVjMmZhZWMxMTNlZTdhMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_025ac9146e9e4b439d09258ee5d3b7e5",
+      "statement": "The intended consumers are the mobile app and fintech and co-brand partners; co-brand partner scopes were added in v2.5 (2025-08) and geography controls in v2.6 (2026-04).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L13-L13",
+          "version": "repo-lines-v1:sha256:d19129c04da26aac97622c396570474746fe6bf169ef0bad585b177aa048939d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDE5MTI5YzA0ZGEyNmFhYzk3NjIyYzM5NjU3MDQ3NDc0NmZlNmJmMTY5ZWYwYmFkNTg1YjE3N2FhMDQ4OTM5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDE5MTI5YzA0ZGEyNmFhYzk3NjIyYzM5NjU3MDQ3NDc0NmZlNmJmMTY5ZWYwYmFkNTg1YjE3N2FhMDQ4OTM5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTRiNWUxM2M3MzU1OGQyMzI4MmUxZWZmZDJhODZlOTZmODYxZWEwOGU0ZWY1ZjU4MTliMzQwNzBhMDFjMWE0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODdkOGU3NDM5NzZhYjM0NTE5NTMxYTk3ZDA5MGUzMGI2ZTYxMWY3NTZkMzMwZDIzY2FhZGYwZGUyMDIyZTI3MiJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L76-L79",
+          "version": "repo-lines-v1:sha256:fefa9553263b9e52aeec72a1464d4e0d2c53d3436e0b83a4de65affa33018eef:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTIzOWI1YzIwZTMwYmNiMWJlNDEwYTRmY2FhMWIxYTYyZDg0OTVlMjIzZGExODM0YTEyY2RiYTMxZjBhMTA2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBhZTRlMTg1MDNiZDI5Mjc4YjUzNTE3NzBmMTlhZGY3MzJjNWQwNTk1NDQwOGY5ODQ5NjM1YzU5OTYxMTQ1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_037db44d24254b36a10d4f624cf8d0c6",
+      "statement": "The documented sample request is labelled as a POST lock call but carries a controls body (blockedCategories, dailyLimit, allowedCountries) and a response with controlsVersion, so it matches the controls operation rather than lock.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L28-L68",
+          "version": "repo-lines-v1:sha256:5060d512d5cab459e84e58c8ebf85b26f0f2a7d6a14d6bf96fffb6e0cd84f856:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkYzgxYmZkM2MxYzlkNWI1NmEzYzVmMmUyYTRjNjFkZGJmYzdkZjRlODlhYTA1YWE2MzY0MjEyZTY3MGI5MGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

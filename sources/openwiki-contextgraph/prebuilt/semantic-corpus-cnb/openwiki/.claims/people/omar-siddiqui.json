@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:666ee222ffee732f15da118227212e5028f81c472826a8e99e8fdfae1a287dfa",
+  "claims": [
+    {
+      "id": "claim_e233d276e7684296a127806aaafdec67",
+      "statement": "Omar Siddiqui is the Engineering Manager on the Global Transaction Services Integration (GTSI) team, reporting under Director Elena Vasquez, with Hannah Lindqvist as Tech Lead.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L30-L33",
+          "version": "repo-lines-v1:sha256:1b3888a47d0d584d0821c793a2e389ac25e70e3959c5dd0a1eb05d6c867674e3:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDUzMTg0YjM2ZWY4MDhhOWVjZGY2OWI3ZDdlMjczZmZjMmJhZWQ4ZTA4N2MxN2Y3MzFlOWE0NTA5OWZmNTI3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDI3ZWFiNDg3OGYzMDllMWUxYmRlMTJmNTZkOTg5MzE3ZWZhYmU3NTU4ZTNmYmRjZDVhMzc2OTUyNWFiMGM5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2EzYzMxYzQyNTdkZmU4NzQyMzYxYjkxMTJiYzgzZjM2ODBmN2Q4MTAxYTE5OTNiZTY3NzhkZmVlYzkyYTM5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTY4ZmFhNmM5NTRiZmE1ZWYzNTY4ZDBlY2IxMTQwYjE3NGZkMGQ5ZjNhMDdkNmE3MzI1NjAwYTg0ZjIwMGI4MiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L49-L49",
+          "version": "repo-lines-v1:sha256:558008d8e40b6c23f9794a1f0003fbedcc8339753c8a49c1939c09e976e65e22:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTU4MDA4ZDhlNDBiNmMyM2Y5Nzk0YTFmMDAwM2ZiZWRjYzgzMzk3NTNjOGE0OWMxOTM5YzA5ZTk3NmU2NWUyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTU4MDA4ZDhlNDBiNmMyM2Y5Nzk0YTFmMDAwM2ZiZWRjYzgzMzk3NTNjOGE0OWMxOTM5YzA5ZTk3NmU2NWUyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGU4ZTQ0ODU5ZGZjZGY0ZTBjNjYzZTM5ZDA4MTQ1ZmI4YjZiZjIzNjBiNzk1NGE2NGYzNjdiNDA2MDEwOGZhNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmJlYzM3OWE4MmRkODY2OTIyZGMwNGUzYzRhMjUwOGYxOGI2NTEzYTU1NDdlZWRkNWVhMmRmYWQ3NTdlZWNiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7062a136ee1b40cb86ecbdc7a8ebbf14",
+      "statement": "Effective 2026-10-01, CNB-MEMO-2026-09 moved the Swift Alliance Gateway, gpi Connector (SYS-PNG-GPI), gpi Tracker integration, Swift API gateway (Microgateway), SwiftNet PKI service accounts, and the international wire tracking roadmap from Payment Networks Engineering to GTSI, naming Omar Siddiqui EM for the gpi Connector/Tracker capability.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L26-L37",
+          "version": "repo-lines-v1:sha256:a067172df18837e131d7c142a21639fcb949466aeb84603a1724662c014c8d8d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxZTdiNjIyMTY5ZDI2NDIzMWY3Mjk4OTkyYTA4MTE1MDllNWE5ZjE0MDdkODRjOWEzZjM4MWFlZmJhMmIwYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiNTI1YWYxMWI5YjBhMDE3NDNlMzg2ZTZiNDJkMDU1ZGMyMDUxNDJkMjJjN2I2Mzk5MjViODgzZTVlYmM5MzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA0Y2FhYzI5YzEwZTA5MzQ2YjNhZDRhZThiMjlkN2ZlODMxY2JhN2VkNzNlYjQ4OTBmYThkMzJhZjBkMzlhNTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8d34a302a3c042d098bcb501bc42d9db",
+      "statement": "The Fedwire Funds Connector (SYS-PNG-FFC) did not move in the realignment and remains owned by Payment Networks Engineering under Raj Malhotra (Brian Walsh, EM), making it out of scope for Omar Siddiqui's GTSI responsibilities.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L38-L42",
+          "version": "repo-lines-v1:sha256:f51e3d675ffc0e02ba92982cfa64b5bcf5b843b3b31b5e93c5d75fdc81e623ea:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNjY2QxOTFmN2E3ODhiOTI3NDI4NjRiMmY0NjhlZDBjNzhjNTBjNjhhOGVlNmExMjI5ZTBmYjA2NTQyYzM4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBiZTI3N2JjYmMyMDI5ZmFkMDhiOGY4MGY3MDE1NmEwMTQxYzA5ZmMwZjY1MDI5MmQ5MTNjODA3OWE3NDEyNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmNhMDIwMTRlOTJjMTk0MjRhZGRhNTFiY2RlZDIyYjdmNjA5M2RkN2FkMDE5MWYzZmZiNDU3N2NiNGMyZjQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWRmOTJlY2M5NWZkNWUzMWY3Zjc0YWU1MjI1NmM1ZmU5ODY0YjEwNDNiZGUyZDdiMGI0MGYxYzMxNGNiOTkxNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d16d655620734eff94b56ced3428d182",
+      "statement": "From 2026-10-01, all new requests for gpi data, Swift Tracker usage, or international wire status capabilities must be raised in Jira project GTSI and directed to Omar Siddiqui; requests already logged against PNE/PNG for gpi topics are triaged by GTSI during knowledge transfer instead of reopening new PNG tickets.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L50-L52",
+          "version": "repo-lines-v1:sha256:86950afcb6732c6c4e8bf8327a463676493d226cc1f0d52943d2f6bfbc21d42a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmY4ZTVhM2Y3MjhmNjQzMzVmMWU4NTI5ODEzMDRmNDkwMjU2ZTVlYmUwNmZkYTY2MWRkYWQ3NmFmNmEyNzJlNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY1ZDEyOGY1ZWJhMDY0Y2ZhZTg3MDMwNGZlYzg4YjZhM2I0ZWU5MzZiZjY2YjdmOTY2YTkzNmZiNzg1Y2M5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjk1YTAxMzEzZWNmOTU2Y2MxMWM4ZTU0YTg3OTZhOTZkYjc0NjVmZjU3ZDczZmY3MmViNWMzMjY5YjgxNzk4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGExZTgxMDRkNTkwNTcyYmIxZTgwMjZmZDc1NTE4NzFhNmNlM2E3ZmU1OTUzYTk4OTRmNzYxOTFlMGJjZjI4ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cd913593a4824613be78d8f6b7ae019a",
+      "statement": "Tomasz Nowak (Senior Engineer, gpi Connector) transferred from Payment Networks Engineering to GTSI and now reports to Omar Siddiqui; PNE on-call remains secondary support for SYS-PNG-GPI until 2026-12-15, when the GTSI-0112 knowledge transfer completes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L44-L48",
+          "version": "repo-lines-v1:sha256:236c5bcb0a274aefe86abc1f4a0258103e730ecfc53157511da28cda8409f54e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM4NGVjNjM2ZjJiZjZlNWEzYmZhMjM4YzU0ZWM4ZGQzYzZmMGY4MzU4NTBhMmFkNDdlNTkwNDdiYWI5YjU2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDUzNTJmYTllNjdiODg3OGY5Mjc2MzMzOTYxODc3MGUxOWEyNjk0YmIyZWNjOGZjYzMwMjM1Y2Q0N2U5NGJlYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRlOWNiODg5NDc5Njc2NTU0MGY0YTUwOWZiZmVkM2JjNmU0OWEyZmQwODlkMTFlZDk1Yjc5ZjVmYjA0ZTg1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRlMmQ2MzY0OTk3OGFjZDg4NjE2ZWRkNzhkYTg5ZmZkZDRlNDkyZDhlZjk4N2NhOTAyMDM4MTcwZGE3MWE5NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0a888da308bc46809cbca2d46725abed",
+      "statement": "Omar Siddiqui is the assignee/owner of Jira epic GTSI-0112 (Knowledge transfer: gpi Connector & Swift API gateway from PNE to GTSI), status In Progress, targeting completion 2026-12-15.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L59-L59",
+          "version": "repo-lines-v1:sha256:893c485732118f5e77f9aa0cfba6d9bff7216eb1b4ce24d3341404a6a87dcba5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODkzYzQ4NTczMjExOGY1ZTc3ZjlhYTBjZmJhNmQ5YmZmNzIxNmViMWI0Y2UyNGQzMzQxNDA0YTZhODdkY2JhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODkzYzQ4NTczMjExOGY1ZTc3ZjlhYTBjZmJhNmQ5YmZmNzIxNmViMWI0Y2UyNGQzMzQxNDA0YTZhODdkY2JhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGZiYjA2MjQ5ODg5Y2FhZjQ0MWIxOWRjMWJmZjBmYWVhZWE3N2RlNDFiMzRhYWQ4MTYyZDAxMGRiOTcyYWViNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmM0MzYwYzlmZTM3ZDY4Y2NlZWYyNTAwYzk2MWU0NGI0M2RkYjRkMzE2MDJmN2RhNzU1ZWRmZmI2ZDlkOGU2YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ba327382daf74f1aa57a9dd791f85e97",
+      "statement": "Omar Siddiqui is the assignee/owner of Jira story GTSI-0115 (Swift gpi Tracker API contract renewal; quota 250k calls/month; renewal due 2027-01-31), status To Do.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L60-L60",
+          "version": "repo-lines-v1:sha256:8a91c4cfb8597ea4a37dec30edba09c6d7de8528c49e3946dc0fdf9a0b0c35dd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGE5MWM0Y2ZiODU5N2VhNGEzN2RlYzMwZWRiYTA5YzZkN2RlODUyOGM0OWUzOTQ2ZGMwZmRmOWEwYjBjMzVkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGE5MWM0Y2ZiODU5N2VhNGEzN2RlYzMwZWRiYTA5YzZkN2RlODUyOGM0OWUzOTQ2ZGMwZmRmOWEwYjBjMzVkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODMwODc4Y2M5MGUwYTI3ZTY2YThiOWU5M2U3NjVlZjdhZDY0NDZlZjg3NDEyMjYxYzRiNmZhN2EyNDMzOWM1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTdmOWYzZGI0OWNiYTIyMWExMzgxNDZiNjFkNWZjYmQzZTZkZGRmMzhmN2Y4YzBkMmEyOTk3NDIyNmEwMzgxZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bac73dc3786b43a7a496404daa05ed0c",
+      "statement": "GTSI (under Director Elena Vasquez) owns initiative GTSI-0107, the gpi Tracker Real-Time Service (GTRS), a change-feed based internal API; it is unfunded for 2026 with discovery planned for 2027-Q2 subject to 2027 portfolio review, and teams with near-term gpi data needs are expected to engage GTSI early to inform that discovery.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L54-L56",
+          "version": "repo-lines-v1:sha256:11e00a12917a45d0c2a3e0c9838d29fd8117f72c4d0c28698e247ce0cfe13d0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QyYTg3ODQ3M2UxM2Q4MDE2MTQyYzM3ZjVhZDVkNGM0OGE2NmYyNzYyYTNjNzBkNGI2M2M0ODY4ZThkNjRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3NWZlOTRlYmQzZjE1ZTQ1YjNlNTBhZmI2NDAwNDBlYzYwMTg1N2FjN2E5NjI1MjAzMDNiN2JlOWFhYTRjYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjljMTAwNjVhNGY2YTI4MDJiOWMzNzM0MmM2YTEwY2JkMmM3MjZiMjUxNWZiMmQ3ZjE1OWQ1NDBmODI2ZjBjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWQ3YjczNjBjOTljODk5NjMyZmRhODE2MjNiODQ0Yjg0ZWZhZjc2OTY2OTkwYzkyZmFkY2E1OTYyYTYxNDI5ZiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L58-L58",
+          "version": "repo-lines-v1:sha256:c96887d023c1cb361f8752e6d0c128fd32752d9c302a65237bd3ff391c8e9de8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ODg3ZDAyM2MxY2IzNjFmODc1MmU2ZDBjMTI4ZmQzMjc1MmQ5YzMwMmE2NTIzN2JkM2ZmMzkxYzhlOWRlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ODg3ZDAyM2MxY2IzNjFmODc1MmU2ZDBjMTI4ZmQzMjc1MmQ5YzMwMmE2NTIzN2JkM2ZmMzkxYzhlOWRlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDQ5ZjEyNmYzNmNjMDA1YzZlOTBiYTBkYmVkMzJjZjhkZGM4MWQ1NDJjODdmZmY0NGE5ZjUxZDBmNGY5YmJkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTg1YWFlZmNhZTIwNTllODAyMDg5NzVlMWU5OWFkMDc2OTg5NGMyZmM4MDZjOTE5Y2JjYzAyNmIwMTY0NDAyOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9062e5ddae2c4cfa8a5fc2a4acab9905",
+      "statement": "GTSI's planning factor is approximately 1 story point per 7 engineering hours, with intake via Jira GTSI on a quarterly roadmap cadence, and PI 27.1 capacity noted as ~75% committed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L130-L130",
+          "version": "repo-lines-v1:sha256:553f420fa426171ae849e7866942665d6e32ae4594f56b07032bafb426ee5814:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTUzZjQyMGZhNDI2MTcxYWU4NDllNzg2Njk0MjY2NWQ2ZTMyYWU0NTk0ZjU2YjA3MDMyYmFmYjQyNmVlNTgxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTUzZjQyMGZhNDI2MTcxYWU4NDllNzg2Njk0MjY2NWQ2ZTMyYWU0NTk0ZjU2YjA3MDMyYmFmYjQyNmVlNTgxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZkNWFjOGJkM2FiYjZkZTM1NDllNThiYzE2YTUzNjkxZDc0NzQ4MDU3NTFiNDM3YTM3M2Q3MmRjZmMzZGVlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyY2MyNDVhZGEwMDAxZGU1Y2U5ZTlmYTRmMWYzZDFhNmY2YTNkMDZmMjkzNTgwMWE2YmU2NDI0MjUyZjQ3NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_93eef261f3a54516af23a0dc87e62921",
+      "statement": "The current gpi Tracker integration (owned historically by PNE, transitioning to GTSI) is a batch process polling the Swift Microgateway every 4 hours with no internal real-time API, and the Payments ARB has not approved exposing the GPI_TRACKER_SNAPSHOT table directly to channels.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L67-L67",
+          "version": "repo-lines-v1:sha256:7b4ee1c1bb428270053402672d151d7f4f96fec43435048a230113900301c655:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZTRmMmVkNGQ1ZTJmYWI4NTc0NmU0MDE4Mzg2OTllMGY0YmE1NmVmOWFmNjk1YzZmMzE4ODQ5OWQ1MDNkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmJkNzg2ZGVmZjdkYmQyZWNlYjA0NDU5ZWE0NzE1MDFkMGZlNmFmOWVlNjgyZjZlYWIzNDMwN2IzOTA0YzE0MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L75-L92",
+          "version": "repo-lines-v1:sha256:f8124d7e7337058c62ef5a6533eddcbe0ed2459187e10c598d413138f1058cd8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMDZhZmE0OTU1ZTc4ZDdjMDE3NWRjYjJkMjg0ZjAxM2JiNGU3ZmM3NTI2NmQ2ZmJiYmE3MTUxNDRjNzM4M2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM2OTY3MGNiYzYyZDg4ODk0MTdiYzQ0NTI4MTg4MjEzYzQ4NWJhNDNmODFmMzgxZmRlOWVkZTkzMjY2M2M2MjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhOWY0MWJhNTgyZDA1NzJjYzQ4MmIxYTlkYjkwOWUwN2E4MDQwNDY3YzU2Yjg5ZjA0MmI3ZDgzMmYyNWYyMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzNDZjMmU2MDQ0MGYyNzA0OWY4MGJmMzY4YjY4NmVjZGUyNjhiMzhjMzZjODM3MWFlMTUyYWIwNjA4M2Y1M2QifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

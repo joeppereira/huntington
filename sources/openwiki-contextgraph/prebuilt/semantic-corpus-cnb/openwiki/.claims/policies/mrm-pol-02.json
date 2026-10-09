@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:fabba7821b1078a4816bf7042f24471ee7d48679a232024bdb6e4bc68f46bcde",
+  "claims": [
+    {
+      "id": "claim_fa51ae02701449a0a15999faa9f1e251",
+      "statement": "MRM-POL-02 v7.0 is approved by the Board Risk Committee (2026-06-18), owned by Jonathan Price (Head of Model Risk Management), effective 2026-07-01, classified INTERNAL - CONFIDENTIAL, and re-baselines against the April 17, 2026 interagency guidance (Federal Reserve SR 26-2; OCC Bulletin 2026-13; FDIC FIL-15-2026) that rescinded SR 11-7 / OCC 2011-12.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L15-L23",
+          "version": "repo-lines-v1:sha256:301cdb97808c1b1f50e98d7fb0e47305052e2d41e9ba656be9c59cf9af37a14f:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y2MDU2YzhlMzFjMzVkNTVlMzRiMGRiM2Q1NzcxYTdhMzVjZjRjNmRhYWM1NWYzZTg1YjgxMWRlNjczNTM2OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWZiODU4ZTIxNWFkMTMyMzY5MWZiMGIzNzYyZmYyMTk4N2IzZTE4YzkxNzQ4YzNmN2I2MWU2NGFmMjczNGY1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjRlNGJlNDE4M2FjYzUwMDk1NjllNTExZDEwNzEyM2QwNzdmM2MyYzFhMmJiZjY3OGYxY2I2ZDIxMjhiMzZiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQxMmQxMmU5MWExNWU4MTM1MmJjMGFjYTZiYTdhYjczZDdmYTJjNDMwMWEwNDg5Y2EwYjNmZGMxMzIwYWRhOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_325defc441b7427e9b678553fdbcc8e5",
+      "statement": "MRM-POL-02 defines a Model as a quantitative method of meaningful complexity producing estimates/predictions used in decisions or communicated to clients, an End-User Analytic (EUA) as simple descriptive calculations with no forward-looking estimation requiring Archer registration and business-owner attestation but no independent validation, and a customer-facing estimate as any forward-looking value shown to a client.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L29-L35",
+          "version": "repo-lines-v1:sha256:a0e52bfda870e6d52bf0138aabbae44d26b092d926324a811b185354645b03d2:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTYzNTE4YzI3MWQ3N2EwOTAwNWVjMjRhOTk5NzY1YzhjYzA5ZmNmNDgyNjhkNzM1ZjVmMTM4ZTIxYzQ2ZTIyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjU5ZDE5NWMyOWRjZTgyMmVmZjcwZjEyYjk2MjE1NWI5NzAyZGJlZGZlMzc3Y2E2OGEyY2JmMjZkN2FiMmY0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2YwYjllYmE1OGI3NzM2MTBiZjY4YTQ4ZDAyYzhlOGI3YTc0ZWViZGM2N2FkYzc3OTM2OTViOGQyNjllMDhkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTcyODAzZjc1MzIyODU5ZTczOTY3MTBhOTJmMThkOWMwNTlhNWQ5MGM2YTYxN2FlMTQxNzM2ZjhmOTk1NjU4MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_70b9ff494b1a4601b57da856f406f56e",
+      "statement": "MRM-POL-02 Section 3 defines four tiers with exact criteria and validation requirements: Tier 1 (regulatory/capital/financial-crimes/high exposure, full independent validation + annual review), Tier 2 (customer-facing estimates or models influencing client decisions/treatment, independent validation 10-14 weeks / 160-240 validator hours), Tier 3 (internal operational, limited exposure, targeted validation 6-9 weeks), and EUA (descriptive only, registration + attestation ~2 weeks); customer-facing estimates are Tier 2 at minimum and may not be shown to clients before validation and approved use conditions are complete.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L36-L42",
+          "version": "repo-lines-v1:sha256:fd1a3bf772e7c4411ded9e760a94371c654cbf36b0515341da2ede3a7485bb4b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU3YzQxZGQyZWM4ODg3YmIwNmU5ZjhmNjdjYmVjNWU3MzQwYzE4NWU5YWU1MWFlMjQ2MzZiMjI3YzFlODYyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWUyYTEzZjg4YjU3NTdkMzFiMWM5Y2YxMzEzZDcwZjJmY2FlOTI5Y2U3MTViNzJjYWM4MTgxNjI0ZmQ2ODA2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjgzNWVkOGVjNTY5N2E0NjRkNzE0MWMyYWZjYTVjOTQyYjUzZjA5MmM3MWE4ZGFkMzExYmJmYTE1NDM4M2I1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWIzZTcyNWI0NzI1NTQ0ZjgzYjIyOGJmZTNlYmVjNjI0ZmViMWU0YTRhMWI4NzFjM2I1NDhjZjNkZGViOGNmNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a934958cc27e4668ab579e24eb17c9b5",
+      "statement": "MRM-POL-02 Section 4 forbids use of financial-crimes (Tier 1) model outputs - including Sentinel fraud scores (M-FCT-0021) and beneficiary mule-risk features (M-FCT-0034) - for product, marketing, or client-facing purposes, restricts model use to registered purposes, and requires compensating controls and outcome monitoring for vendor models where developers cannot provide sufficient information.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L44-L48",
+          "version": "repo-lines-v1:sha256:a472ea2965d693b181c9f90bc6afc7a45036833ae8d10c13fc418f17ecf084dd:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzMzNDZiZjUxZDUzYzQ0NTIyMTRjODJjYWNmMzBkNGIzMTU0ZjZkZGFkOWNkOGRmZjFiODlkNjI1YzM2NzU3MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZmZmU5N2M4ZjA4YmZmY2JkODU5Y2M0YjE4ZTEzNzFhMWYzMjQ5ZTI2Mjg2YTdlMWZiNmY4MjIzYTBiOWI4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmI1OTc4NTA0OGYwYmUyMWRjNTUxNmYzMmM5NDFiMWY4MTg0MTM1NWMxYWU2NjkwYjhhZDRlNjRiNjU3MGVlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcyYTRjYjMyNWUxNzE1NGI3ODQ5YTU5Y2Q5NzljODU2NzY5MTg2YWQyOGRhMjE4ZTc5YWNhMDdmODRlODg2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ef984e24c0f249cfa9285f4bb1aafbad",
+      "statement": "The MRM-POL-02 Treasury & Payments model inventory extract lists exactly: M-FCT-0021 (Sentinel payment fraud score, vendor, Tier 1, owner Victor Petrov, Validated 2025-12); M-FCT-0034 (Beneficiary mule-risk features, Tier 1, owner Victor Petrov, Validated 2026-02); M-TRS-0142 (Treasury Insights cash forecast, Tier 3 re-tiering to 2 under v7.0 review, owner Wei Zhang, Validated 2025-09, 9 weeks); and EUA-TRS-0007 (Ops corridor completion dashboard, EUA, owner Denise Carter, Registered 2026-05).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L66",
+          "version": "repo-lines-v1:sha256:6fbbfb3cfdc09f08cc7e81f61719b2a1c94c6b47eb1488555c6817d62039ead9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ1ZmZkMjc0NWJmNzQ4ODM2MGFiN2FiMDAwN2NhNGYyYWZlNjc5MGE1NjMyNzI2NWM0MjA3M2E2NTMwNWJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThkYzNlNWQyNGVhNjRiOGMwMDliYjdkNzlhNTkzNzRiYjM5ODc2MDliZmExYTkwZDY0MTE3OGZkMzAyN2IxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTQwMWFmNmEwYjkzNmQ1MzQ4ZmVhNTU5ODkxMDJhM2JiMzcxODU4NjdmZGUzMzMyNzRhN2IwZjRlMDJlMjZmMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d60c366917f7442aa951fe6f3a51a243",
+      "statement": "As of the Q4-2026 capacity notice, the Tier 2 validation queue is approximately 6 weeks before work starts, submissions must include development documentation, data lineage, and proposed monitoring, and the named Validation Lead for Treasury & Operations models is Sophie Laurent.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L68-L70",
+          "version": "repo-lines-v1:sha256:6bcb6ea7791f1bc1f58101ac8d9abf78e4eb84359ab131e327edb160611baec0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2UzYmEyYTJhOTJlYjhhMzdhM2Q5NWUwNzhlZjkzNzVlZjQ2MTc1ZThjMmY2MWFlMjBlYWVhNzczNTI1ZWE3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA4MzhkYTVlNzZhNDI1NWMwMzFlMWU5NGQxZTQ5YWUzMDI3NTFkN2RiNmY0NDIxNGZmMzk3Yjg5ZTI3YTYyZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzU1Y2NhMmY5NWU2YmQwNmFjZjViZTBjNjliNjI2NzIxYjU2NzdjMzY1MGZlYzRhNTk5OGM3OWFlMGU5ZDQ2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDQ0NDE3NjliMjA1ZTkzNDY2M2YwYTgzM2NkZDdlZTEyYjA0NTc4Mjg3NGQxZTBiZWNmZmZmZmFhMTIzNzU0MiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

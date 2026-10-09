@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:3b59726b2e4580be0f586600a367edfbe0b8c34cc2f6abb5b621c399acd4b5e3",
+  "claims": [
+    {
+      "id": "claim_2896c8bcdcc14b3ca4fdd291eefa9eb5",
+      "statement": "Marcus O. Lindqvist is the Chief Technology Officer of Meridian Harbor Financial Corp., under whose oversight the Firm operates a single Developer Platform exposing eighteen production APIs to internal applications, clients and approved third parties.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L457-L457",
+          "version": "repo-lines-v1:sha256:ef196b7af5e265e500911c223531b5b795358ae6d9e126fe1d281851649171ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTkzYjJjNDEyY2U3NWM2ZDBmNjlmMTU2NjlhMzBjYzM1NzdjMTcxMDBmOGNiZGQ0MjA3M2YwYTRjYmY0Y2MxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY4N2UxMzhkYzFlMjJkMTBkNmI5OGU5YjkzODZmNWM4NTI5YWJhZjk0Yzc3YTM4MmUxMTA4YTZlY2Y4ZTljZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0ff3707a1ec14d9c80e39a2c9fb0e0d0",
+      "statement": "The Developer Platform's APIs are versioned, authenticated via OAuth 2.0 (with mutual TLS for server-to-server traffic), rate-limited and monitored against published SLOs; in 2025 it handled an average of 4.0 billion calls per month at 99.97% availability.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L457-L457",
+          "version": "repo-lines-v1:sha256:ef196b7af5e265e500911c223531b5b795358ae6d9e126fe1d281851649171ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTkzYjJjNDEyY2U3NWM2ZDBmNjlmMTU2NjlhMzBjYzM1NzdjMTcxMDBmOGNiZGQ0MjA3M2YwYTRjYmY0Y2MxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY4N2UxMzhkYzFlMjJkMTBkNmI5OGU5YjkzODZmNWM4NTI5YWJhZjk0Yzc3YTM4MmUxMTA4YTZlY2Y4ZTljZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_475eb4c6a67c439baaf9f6671b9b54f2",
+      "statement": "APIs feeding Tier 1 models or regulatory reports (Credit Risk Scoring, Loan Servicing, Market Data, Macroeconomic Scenario, Treasury Liquidity Positions, Regulatory Reporting) are classified as critical data services with enhanced change management and data-quality controls.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L457-L457",
+          "version": "repo-lines-v1:sha256:ef196b7af5e265e500911c223531b5b795358ae6d9e126fe1d281851649171ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTkzYjJjNDEyY2U3NWM2ZDBmNjlmMTU2NjlhMzBjYzM1NzdjMTcxMDBmOGNiZGQ0MjA3M2YwYTRjYmY0Y2MxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY4N2UxMzhkYzFlMjJkMTBkNmI5OGU5YjkzODZmNWM4NTI5YWJhZjk0Yzc3YTM4MmUxMTA4YTZlY2Y4ZTljZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_98646c8ba42148ad94a55d05115c8b58",
+      "statement": "The Developer Platform's APIs serve both as client products and as governed data feeds for the Firm's key risk models (allowance for credit losses, interest rate risk, stress capital projection); the model inventory maps MDL-ALM-014 to API-12/15/11, MDL-CR-007 to API-10/11/14, and MDL-CAP-003 to API-16/14/15.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L441-L445",
+          "version": "repo-lines-v1:sha256:348e39278baf4c94c738a775b89891ffe0263c09239cc84c9b40a664a4f1bed2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGZjMmYxZWM5ODA1YzJhNjRjODAzMGVmNzFkMWFkOWVkNTJhMThiZTRkOGJhNTQzODAyZDZlYjg2OGEyMjEyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWUzYmFlZTJiYjQxNzkyNWJhZDFlZGYxOTRmMjVjNDNkMDE0YTY0OTkzNzhmYWU5ZDM1MjhkYzI4ZDY5M2RkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRkOWUyYmNkOGY2NGZhYmU3YzU4OWM4OGZmM2MwMGE5NjllZjY2YTc0OWJkYWI5NDg1MTU3MGVmNmQ1NWRjZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGRmNTI2NTUwNDZiYTAwN2JiM2I0ZDc3MjY3MGMzNDc3NzMxODNkZmNiNjIzMWI5MmQ4NDU2Mzc0MGM3NGM2ZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L47-L47",
+          "version": "repo-lines-v1:sha256:06e76f4d71d754e65204938357ca172f4746d525abecf2f5e0a91df97cb04f9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZlNzZmNGQ3MWQ3NTRlNjUyMDQ5MzgzNTdjYTE3MmY0NzQ2ZDUyNWFiZWNmMmY1ZTBhOTFkZjk3Y2IwNGY5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZlNzZmNGQ3MWQ3NTRlNjUyMDQ5MzgzNTdjYTE3MmY0NzQ2ZDUyNWFiZWNmMmY1ZTBhOTFkZjk3Y2IwNGY5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTYxNWMyY2EwNDBmMDE3ZDQ5NDZmYjM1ZjFmYTUwMzRhN2FkZWNjNzY5MjZhNTM2NzliOTcxYjZlMDJhODM5ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTJmMWRlMDQ0NzYyOTdjYTg1NzYwMTZhMjQ5MDBkOGIzZmE1NDY5MjVjYjA4YmJjOGIwNGFmZGQ2Zjc0MzEyMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f02c528d76df4f2499e3aad8e842d36d",
+      "statement": "Lindqvist said on the Q2 2026 call that moving the Macroeconomic Scenario API to the strategic platform cut the scenario load for the CECL and capital models from six hours to forty minutes, enabling more scenarios and a faster quarter close.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L464-L468",
+          "version": "repo-lines-v1:sha256:c00d73c51e8bde7fba842f72772e528c0cd93871c1532ce48576b92dc823b29b:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWY5M2MzMDI2ZDU5ZjE0YzNmMzM0YjRjMmY3ZDYzNmI1OTcwM2QzNzJjNmMzYWMyYzA2YzlhMThkNjVhZjZkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDFiYmVhNDRiMTdmMWRmMzhkZGE3NmJkOGNjOGVlN2QzYjFiYWQyMzYyZDA5Y2E5YjIxZDU0YzI4ZmEyNzA0MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGMxYzM1YmUyMDk5ZDJhM2FjYWQ1NGRmM2UxYTFiNjcyZTdiNGVjZjE5MjU0NDRjMTNiMzZlODg4M2U1MDlhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYzMTBiMjJmODRiMjA3ZjdjOTRjZjczZGJhN2FmNGFmOGJiYzcyZTk2NjljYWU0MzMwNDdlNDJiNDIwMTc4YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1e89d58408d34744a520c2d0bb503c9c",
+      "statement": "In 2025 MHFC spent $16.8 billion on technology, and technology, communications and equipment expense rose 7.3%, attributed to cloud migration, Developer Platform expansion and retiring 1,140 legacy applications.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L160-L160",
+          "version": "repo-lines-v1:sha256:4440205db0bd7018de92150f758e2931fbd3c56674ca8f1838ee43f23b80c9a3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDQ0MDIwNWRiMGJkNzAxOGRlOTIxNTBmNzU4ZTI5MzFmYmQzYzU2Njc0Y2E4ZjE4MzhlZTQzZjIzYjgwYzlhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDQ0MDIwNWRiMGJkNzAxOGRlOTIxNTBmNzU4ZTI5MzFmYmQzYzU2Njc0Y2E4ZjE4MzhlZTQzZjIzYjgwYzlhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWU2MDFiMGYxZWZjOTE2OGMyZTQwZmVjODI5OGQwNTkyODY0ODc5NmM3ODA0OTg3Yjc3ZGY2ZjU5MWNmMGQwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTBmY2UxMGEwZGE4MTk1NjNkYWJmZjM0MjU5MWRjM2Q5M2NlZDdmNjU1MmU5NDEzYzk4MWI3ZTg1NjNkMzk5MyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L47-L47",
+          "version": "repo-lines-v1:sha256:06e76f4d71d754e65204938357ca172f4746d525abecf2f5e0a91df97cb04f9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZlNzZmNGQ3MWQ3NTRlNjUyMDQ5MzgzNTdjYTE3MmY0NzQ2ZDUyNWFiZWNmMmY1ZTBhOTFkZjk3Y2IwNGY5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZlNzZmNGQ3MWQ3NTRlNjUyMDQ5MzgzNTdjYTE3MmY0NzQ2ZDUyNWFiZWNmMmY1ZTBhOTFkZjk3Y2IwNGY5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTYxNWMyY2EwNDBmMDE3ZDQ5NDZmYjM1ZjFmYTUwMzRhN2FkZWNjNzY5MjZhNTM2NzliOTcxYjZlMDJhODM5ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTJmMWRlMDQ0NzYyOTdjYTg1NzYwMTZhMjQ5MDBkOGIzZmE1NDY5MjVjYjA4YmJjOGIwNGFmZGQ2Zjc0MzEyMyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

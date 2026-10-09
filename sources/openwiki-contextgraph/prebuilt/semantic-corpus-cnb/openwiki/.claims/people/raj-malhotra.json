@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6ec81a980df3daa3ed39dc29ae86d36965a2dce961ae7dcaa46b6a41feaff440",
+  "claims": [
+    {
+      "id": "claim_4345891ddeb046f4b8c3ec25ac4fde2d",
+      "statement": "Raj Malhotra is Director of Payment Networks Engineering (PNE) at Crestline National Bank, reporting into Gregory Hall (MD, CIO Payments & Treasury Technology), with Brian Walsh (EM, Fedwire) and Chen Wei (Tech Lead, Fedwire) as his named direct contacts.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L48-L48",
+          "version": "repo-lines-v1:sha256:6d13a87bde0a0f7867c012cdc0c539ba99422b1bfba5db53b897abd86d7165be:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQzNWQ4OGY1NWNmOWUwMTZkNWRmZmMxNzBmNGVkNjdkNzU5NjI5ODcyODg1NTExYTgzY2M3MTQ3YjNhYTRlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmUwNDllYzU5YjUxYjk1YzAzYzA5ZDlhYWExNWNiZDljYjJmODI2ZjM0MjFlYzBiM2Q5NTJmMmNlNWY0MWRmYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f15a748e948e4790a0b8e2070396ddab",
+      "statement": "Per CNB-MEMO-2026-09, effective 2026-10-01 the Swift Alliance Gateway/gpi Connector (SYS-PNG-GPI), gpi Tracker integration, Swift API gateway (Microgateway), SwiftNet PKI service accounts, and the international wire tracking roadmap moved from Payment Networks Engineering under Raj Malhotra to Global Transaction Services Integration under Elena Vasquez.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L36",
+          "version": "repo-lines-v1:sha256:de8334d1ab755f4260cd81f077f972bd5a24425a7039c2a6ecb5317b4b7850a3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzUwNTkyMTVmMGU5ZmJhYzA4MGUxMTNmODYwMTA2MTUwZDliZGI5NDRlMTVkNTcxYTQwYzVkYjc4NGRhYzQwMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTBlZjMyODNmNWQ2ZGVkYzY4ZWYyYmRiODc3MTE3NjM4OGZiMDlmOTkzZWIwZGU2NzY3M2NmMGQ0YzNhYTc2OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGQwMWE4NWI4Y2MyZTNiMmVlYmM1OWVmZjkzZDMyNTUyNTVmM2UwYzY3MGYwZmQyMTdmNjAxNGFkNWNjOTE2NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzhmODc1YjViMjQ4YTliNWY5YzMxY2NiODA0ZTQ1MjI3NWJiOTBmZTBkNjU0MGVhNTAxNjVhZjY2ZGVhMThlYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_28df6efbaac546eda81b510deecbd201",
+      "statement": "CNB-MEMO-2026-09 explicitly excludes the Fedwire Funds Connector (SYS-PNG-FFC), including the net.fedwire.ack.v1 and net.fedwire.inbound.v1 topics, from the 2026-10-01 realignment: it remains with Payment Networks Engineering under Raj Malhotra, with Brian Walsh as Engineering Manager.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L38-L40",
+          "version": "repo-lines-v1:sha256:04caac29c10e09346b3ad4ae8b29d7fe831cba7ed73eb4890fa8d32af0d39a53:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNjY2QxOTFmN2E3ODhiOTI3NDI4NjRiMmY0NjhlZDBjNzhjNTBjNjhhOGVlNmExMjI5ZTBmYjA2NTQyYzM4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWJhMjcyNDJhY2IwZjYwYWEyOGE0ZGMwZWRmMmMyZjA5Y2VjMGIwNDg0MjE1MDljZjYxYmRiZTUzODBmYWYxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmNhMDIwMTRlOTJjMTk0MjRhZGRhNTFiY2RlZDIyYjdmNjA5M2RkN2FkMDE5MWYzZmZiNDU3N2NiNGMyZjQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWRlOWNiODg5NDc5Njc2NTU0MGY0YTUwOWZiZmVkM2JjNmU0OWEyZmQwODlkMTFlZDk1Yjc5ZjVmYjA0ZTg1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c73552ba41ba441bb228f3ce4dccdd77",
+      "statement": "CNB-MEMO-2026-09 states that Raj Malhotra additionally assumes ownership of the FedNow and RTP connectors effective 2026-11-01, a change bundled into the same memo as the cross-border realignment but not derived from it.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L42-L42",
+          "version": "repo-lines-v1:sha256:e0be277bcbc2029fad08b8f80f70156a0141c09fc0f650292d913c8079a74127:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBiZTI3N2JjYmMyMDI5ZmFkMDhiOGY4MGY3MDE1NmEwMTQxYzA5ZmMwZjY1MDI5MmQ5MTNjODA3OWE3NDEyNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBiZTI3N2JjYmMyMDI5ZmFkMDhiOGY4MGY3MDE1NmEwMTQxYzA5ZmMwZjY1MDI5MmQ5MTNjODA3OWE3NDEyNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjUxYWE3MzdiNWYxNmUwMDM1MmNjODU4YTU1MWQ1Y2I5ODQ3ODQ3ZTFhYWQ4ZDhmZGRkOGU5ZWU5MTUyYTIyYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWRmOTJlY2M5NWZkNWUzMWY3Zjc0YWU1MjI1NmM1ZmU5ODY0YjEwNDNiZGUyZDdiMGI0MGYxYzMxNGNiOTkxNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8531c22a3c80444189b47fb20ada7208",
+      "statement": "During the transition, PNE on-call retains only secondary support for SYS-PNG-GPI until 2026-12-15 (tracked as GTSI-0112), and from 2026-10-01 new gpi/Swift Tracker/international wire status demand must be raised in Jira project GTSI rather than PNE's PNG project.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L44-L52",
+          "version": "repo-lines-v1:sha256:22818c55fd09ddaed38a12723e2a2d21c62918d084fc04436f7f695b4425ca69:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM4NGVjNjM2ZjJiZjZlNWEzYmZhMjM4YzU0ZWM4ZGQzYzZmMGY4MzU4NTBhMmFkNDdlNTkwNDdiYWI5YjU2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY1ZDEyOGY1ZWJhMDY0Y2ZhZTg3MDMwNGZlYzg4YjZhM2I0ZWU5MzZiZjY2YjdmOTY2YTkzNmZiNzg1Y2M5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRlOWNiODg5NDc5Njc2NTU0MGY0YTUwOWZiZmVkM2JjNmU0OWEyZmQwODlkMTFlZDk1Yjc5ZjVmYjA0ZTg1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGExZTgxMDRkNTkwNTcyYmIxZTgwMjZmZDc1NTE4NzFhNmNlM2E3ZmU1OTUzYTk4OTRmNzYxOTFlMGJjZjI4ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e2d1d78b6d044a4fb90bfc54e5dc6664",
+      "statement": "CNB's system ownership register (CNB-ORG-PTT-2026-06, published 2026-06-15) lists PNE, under Raj Malhotra, as owning both SYS-PNG-FFC (Fedwire Funds Connector, technical owners Brian Walsh / Chen Wei, business owner Laura Kim, Tier 1) and SYS-PNG-GPI (Swift Alliance & gpi Connector, technical owners Raj Malhotra / Tomasz Nowak, business owner Laura Kim, Tier 1), a snapshot that predates both the 2026-10-01 and 2026-11-01 changes and does not yet list FedNow/RTP connector ownership.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L89",
+          "version": "repo-lines-v1:sha256:26ded62bdc980a8149a62727dbc325baab7e5b07eab17d62110105610645bb61:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODYwNjFjZmQ3YmE2ODFhZDkyYWY4NjA4YTI2Y2M3ZjYxODI5NTQyYmYxZGQ3ZmU4NGJjMjE3YWQwMGY1ODZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ExM2UzNDFkYTEyZWEzZGU2NDk0YWVmNTU4MzNhNTFkMmUxY2UwNjJkMjUwMjEyZDI4MjUyYmVmZDQ2MTc0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2NzEwOTA3MzI2NTUzNjJhNjM1MTBlMGY1OTNlNDI1ODc1N2I1MjljMTAyZWJmMTM3ZWY0M2Q5YWViOWZiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2VjODUzNTYxYTEzZjkyYTI1ODc2YzJmYzY3MmZlODYzY2VhNTc1OWQ2ZDk1ZjNhN2I4YzZhNThiYmMxNjYwNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3dc34ac6e9b24b02bea5f74e22ae4dc3",
+      "statement": "Raj Malhotra is listed as document owner (with Chen Wei for Fedwire and Tomasz Nowak for gpi) and as an approver, alongside Chief Architect Nikhil Bose, of PNG-TDD-6.0, the Payment Network Gateway Fedwire and gpi technical design document.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L18-L19",
+          "version": "repo-lines-v1:sha256:0363c830146e4c8d3246f411d4bce905b37c05439e224e64126d53eef07ba495:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI2NWUxNmNlZThlZjZmZmYxMTVjNmMxM2M1NzM3ZDMwODdkNDJkYjA3NzIzYTVmZDYwNjE4MmE1NmRmMmY4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRiMDAwZWNmMjJlZDQ2MjYzNmFjNGQxMzdjZDMzOGI1NGJmNDExZjg0YmI1MWI0MmMzYzg5MTBjMTc0NDY1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjUyZTk5NThjNDVhZjZjOTRmZTMwNmFiMzY2ODJkN2FiMmI1NjYzYmE4ZmVhNDkyZjliZTI0NmYzMGE5NmFmNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzNlN2NlNjdlNTRmOGM3OWZjZDNlODc2MjYwOWI3ODQ1NGI2ZTk0NGNhODkyN2UzZWMxOTU2MzM2YWQ3Yjk3MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_52fe7b4f6dc648dba88c366c11178400",
+      "statement": "Payment Networks Engineering's demand intake runs through Jira project PNG and Slack #payment-networks, with standing change windows Saturdays 22:00-02:00 ET, a planning factor of roughly 1 story point per 8 engineering hours, and reported capacity of about 80% committed as of the PI 27.1 planning cycle.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L129",
+          "version": "repo-lines-v1:sha256:8fc5b18bdae38d88dbf170c0d9efde96da400b54ede15ba74642eb0c5db72597:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0NTBkMGJkYWE5ZTI0NTkwNzFhZTljOGEwYjc3ZDU2NjA0ZjYzNmZjZTU3YTVmOTQ1YjdiMGU2ODI3MTE0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgxNjYxOTY3Mjk4YzAxODUyYTZlNGMxYzEyOWRkMTgyZmQxZmJhYWQ5NjY2YjY3ZTY0YmI5NzU4ZDAzNzU5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWZhMjFkNWUzZTNjYzk3NTBiNTU4MTE2ZWU5NWQ3NmNlOTY0ZGYyYWFhMmZlYWY5YTllMjBjNGViMGZhNTc5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmQ0MjE2Y2NjNDE3NDZlOTE2YTM3MzU2MDc3ZmIxNjkzNzYxMDU2NjhjNTg4MzM1MTI4Y2Y1NzVmMTAxNGIxMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f3ad829a80f4426ea656b2e0e8efdbe4",
+      "statement": "The PRISM Payments Hub system overview lists a FedNow outbound expansion as a PI 27.1 commitment, and CNB-ORG-PTT-2026-06's PI 27.1 capacity note for Payments Hub Engineering cites FedNow outbound (alongside November 2026 address enforcement) as a driver of that team's ~90% committed capacity, distinct from Raj Malhotra's own FedNow connector ownership in PNE.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L128-L128",
+          "version": "repo-lines-v1:sha256:92737050a9dbf779b530abefb3d3f80e0e4e32091119e89d4b448c014b44dcb2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTI3MzcwNTBhOWRiZjc3OWI1MzBhYmVmYjNkM2Y4MGUwZTRlMzIwOTExMTllODlkNGI0NDhjMDE0YjQ0ZGNiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTI3MzcwNTBhOWRiZjc3OWI1MzBhYmVmYjNkM2Y4MGUwZTRlMzIwOTExMTllODlkNGI0NDhjMDE0YjQ0ZGNiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk0ZGI0YTA2ZDlkZGZiYzEyYTg0YTU0OTFkOTg0OGNlYjJiNWY5ZDg1OWUzNTYwNGFlMThhODIyOTcxYmQ4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDRlOGY1MzA3MzNmMTc0NmJjOTkxOGYyMTViN2Y1NTMyNWI0ZmMwNjlmMjk4ODRkMjJiOTUzMTQ3ZDJkNTBjMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L132-L136",
+          "version": "repo-lines-v1:sha256:720958a0753dc82c583d4e7486579abd69438869a0ceeb0141a1a794607a1ead:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmVkZWIxYWYyNDYzYTZjNWU5Yjk1YjhjZTIwYjI0YzY3MTVkZGFiYzFhYTQ4Y2U5NWYxZTQxYmNkOGQ4YzMxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkwZDg4YWQ0OTNlM2E0NDljNGZjN2U3ZGIzNDQyODNjN2I5MzM2ZGRmNDIyNjNjMjBhODQwNWMxYWE3ODZlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWJhM2QzYTEzMmY0YzY0MjI1OTBmNDZlZTI5NTVjNGI3ZTlkNjc0NjdiNzBlY2Q5MjUwOThiMjRkOTVkMzU4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmI5MmVkZGRiZTlkZTVlZGY3NTNjZDg3Zjk4ZmViMGE4NWE0MGYzODNlZjVmOGQ5NWUwNGEzZmY2MzEwNmNhMyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

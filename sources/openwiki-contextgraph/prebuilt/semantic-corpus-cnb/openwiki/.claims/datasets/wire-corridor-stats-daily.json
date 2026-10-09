@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:20745767204629d48ba75a146164553c0eb981bd0a8f68dd6ff34b87e5fd1337",
+  "claims": [
+    {
+      "id": "claim_59e6f7d968c74323889a60f10c1626d1",
+      "statement": "wire_corridor_stats_daily is a TDIP feature table (TDA-2140) at currency x destination-country x day grain, derived from pay_wire_txn_hist and gpi_tracker_events across all originating clients, classified Internal and built for Payment Ops dashboards, containing wire counts, distinct_originating_clients, same_day_accc_rate, and median_hours_to_accc, with no suppression flag.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L43-L45",
+          "version": "repo-lines-v1:sha256:b59c85fc710851e6cbe2b8ad2aff35491927abd1668c4876862631098e960fe0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg0MTNmOGFjMWMxODc1ZmQ2MDRjOGFjN2U3NmM0MGE0M2EyZTNlMjcxMDgxMGNkODg4NzA2ZjQwNzFmYzc1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1MWNiNTJmMjA5OWQ2OGZmZWQ2OGNkZmViYTIwYzg4NDEwMGZlZThmNDg5M2E0ZTI3NTg0MWQ5MWI2MzBhOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTMxZjM2NzdhYmJlMTk5ZDM2NWNhYTgyYjU1ZmIwM2IyZTVkZDkxMmRhZjIwMThiNWYyNWNkZWI1MmI1MDBlZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7af6d36509124a39a231b005298bb129",
+      "statement": "The TDIP catalog's corridor statistics sample (rolling 90 days to 2026-08-31, outbound Swift wires) reports EUR/DE, GBP/GB, CAD/CA, MXN/MX, INR/IN, and NGN/NG rows with specific wire counts, distinct originating clients, largest client share, same-day ACCC rate, and median hours to ACCC.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L49-L69",
+          "version": "repo-lines-v1:sha256:dd561895e50f246db5d5979202f369af4d03337feb4c81bb512cd9ac1b25018c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIwMWE3ZjBiMDA3YjNkMWY0YmVkZjBkMmJjMGMwOTE0ODM2YTRjY2QyZWI0NmZmNjM5NmQzNmQzMWI3ZGZmYmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEyOTk3YzI0MGZjN2JkZTA3YWEwYjRmYjNmMDIzNzRmNDhlZWFmNjA0ZTJlZDgzNmE0MWYzNzBjZDI4NGZlMTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkzMWYzNjc3YWJiZTE5OWQzNjVjYWE4MmI1NWZiMDNiMmU1ZGQ5MTJkYWYyMDE4YjVmMjVjZGViNTJiNTAwZWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNiZWI5MTU0NzQ2ZWNlNzBhZmJlNGQ4ZDEzMGUwZDczZWYxYWMzZjcxNDQ1OGNhZDgyNDY1YWRkMzQ5OTU4NjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f55aaa2042824c1d887f40dea026d957",
+      "statement": "The NGN/NG corridor row (140 wires, 11 distinct originating clients, 38% largest-client share, 52% same-day ACCC) fails DUS-07's cohort-aggregation thresholds requiring at least 500 transactions, at least 20 distinct originating clients, and no single client over 15% of volume, so it would have to be suppressed rather than shown client-facing.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L46-L60",
+          "version": "repo-lines-v1:sha256:b947da52469af808271803afaf573c53290020b53d6fda6fc78b9d28d4dc089f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxOTA0YjliNmRlYTJiOTZmMGQwZTcwMmExYWNmZjBlYjI3M2FiMzdiYjZlODY5NjcyMzUxZmZiMzNhMjJkMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZTc3MTExZDQ0ZTA4YWU5MWJhZTcxMTQyZTE0MmI0MzM0MjBmZmNlYjczMjJmODkzZGMwZjU2ZGI0NGE4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkYzM0OGY0NjliYjljYmQ0ZGY0NWMxODY0M2QyYzllZTNhZjY2N2Q3N2JmMjQ0NGJkOWU0ZTc2MmE0MzQwYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ODQ1ZWJlZTQ2MWY4ZDgwOWM4MzNiNDBjZjE0MDhhODFkYTVmMTVkNThmNGRlNDlkZGJlNGNiNGNkNWU3MGQifQ"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L69-L69",
+          "version": "repo-lines-v1:sha256:12997c240fc7bde07aa0b4fb3f02374f48eeaf604e2ed836a41f370cd284fe12:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTI5OTdjMjQwZmM3YmRlMDdhYTBiNGZiM2YwMjM3NGY0OGVlYWY2MDRlMmVkODM2YTQxZjM3MGNkMjg0ZmUxMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTI5OTdjMjQwZmM3YmRlMDdhYTBiNGZiM2YwMjM3NGY0OGVlYWY2MDRlMmVkODM2YTQxZjM3MGNkMjg0ZmUxMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTg1YzZjODI4NmQwOWQ0MGU2ZjJmMDJmMDRjMTdmYzlkZjEzM2YwOTMwOTJmZTljYjgxMGRlNzdhYzI5NDI0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2JlYjkxNTQ3NDZlY2U3MGFmYmU0ZDhkMTMwZTBkNzNlZjFhYzNmNzE0NDU4Y2FkODI0NjVhZGQzNDk5NTg2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d535dd5336a24899957c62c396006e4a",
+      "statement": "wire_corridor_stats_daily has an MRM link of 'None (descriptive)', distinguishing it from client_wire_history_features ('Not registered') and beneficiary_behavior_profile ('Input to M-FCT-0034'), reflecting an affirmative determination that it falls outside MRM-POL-02 scope as purely descriptive.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L43-L47",
+          "version": "repo-lines-v1:sha256:ce5ce7ac6307a3543acb25acd2ca8ef847473a4c05e6ab400564cd0beca1a5d4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg0MTNmOGFjMWMxODc1ZmQ2MDRjOGFjN2U3NmM0MGE0M2EyZTNlMjcxMDgxMGNkODg4NzA2ZjQwNzFmYzc1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_28bd102861164b3796453224a5acddd8",
+      "statement": "No Insights API endpoint exists for wire or corridor insights; the catalog records this as not available and names client_wire_history_features (not wire_corridor_stats_daily) as the closest prototype, meaning wire_corridor_stats_daily is not currently consumed by any client-facing serving endpoint.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L75-L80",
+          "version": "repo-lines-v1:sha256:950542cca53805fa4a8d814dc94e211ff99a12d41d253f3f530c50069108dac6:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUzYTBkMThjYTUwOWRiMWQzNDI1ZDUwODY0OGUwZTM0M2UzZjYyN2FmYTRjMWMwMTZmYTc4MGEwMDg4NzdlOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2M1MjYyZDA1N2I5MGQ0M2JiYzczODhhNzViNDc1NjQyMjc1ODUzM2E5NDFjOTA3Yzg0ZDk2ZThhYjk1NzI5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

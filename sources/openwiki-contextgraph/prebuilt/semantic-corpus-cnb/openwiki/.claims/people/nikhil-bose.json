@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:b2a0b3afd159e4ee9f73a2294506f3eaed99ee0a7b3331bd060becacacde6a0b",
+  "claims": [
+    {
+      "id": "claim_9f0d2b79e4844617929fc33fb3d51d8d",
+      "statement": "Nikhil Bose holds the title Chief Architect, Payments & Treasury within Payments & Treasury Technology (PTT) at Crestline National Bank, and chairs the Payments Architecture Review Board (ARB).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L36",
+          "version": "repo-lines-v1:sha256:2c7a7ef05ec50f06985a11d6daf968d3df0bc261a6e8dd57234b0b0b8831815b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ1ZWM2ZjQ0MGRmMzQzNzc5N2RkY2NmYzNlYTU0NGRlMTMyZTQyMzEwNzU1NjFjZDY1ZWQyNDc4YjRlZjMzOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGE4MDBlNTRkYWEyZjJiYmU4Y2ViMWQ4NzY3MTdkMmM1MTAzZGUxY2U4OWI2MjgyZmU5ZDEzNWU0YmUwZGM5YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDBlOGNmYjQ2ZDJlNWExN2E4MjM3ZDRhODViMjJjOWViYjQyNmE4ZjA2Y2I1ZDlhMzMyMzY0MTBiMTU3Y2VhMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1e65f895de1247aeb86683d6d8090a90",
+      "statement": "Nikhil Bose, as ARB Chair, is the approver of record for ARB-PAY-REG-2026Q3, the published 2026-Q3 Payments ADR register and 2026-09-08 decision minutes extract, while Jenna Ross (ARB Secretariat) is the document owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L15-L22",
+          "version": "repo-lines-v1:sha256:bbe3420669fdbf660d41075cf4da766401db71d5aef23b30fd50d866a6f80f00:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg1OWZjOTFjMzdhM2ZjYzE4OTE4MGRjNjM3MDg5MjhlMjIzZmU5M2Q5Y2RiZmYxNTBlMzJlYjI3YjE2NjM4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM3NjdiMDVhMjY4OTA1NjkwY2ZjOGE2MDNjMDNiMDFmMTdjYzM5Y2VhYmU2NDUyN2Q0OTFlN2QyNWI0NTMxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmEwNDYyZTQyMDc2NGZiMTEyYWIzYjIwYjNkNDczOWI4YmUzMGYyZDFjYzVjMjNkNGJhMDJiNWY4ZTc5ZjBkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDQzYmRiOWFlMDA0MDUyYjgyZThhY2I0MGM0YTA0YjdjM2Y0NGQ5NTNjYzMyOGU1YWNjMTExYThhYTJhODcwMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c2e3c351668044dbbe566821769fbf61",
+      "statement": "The ARB meets monthly on the second Tuesday with a 10-business-day submission lead time, is required for new client-facing integrations to payment systems, and the 2026-09-08 session chaired under Bose's board decided: no extension of PPH v1 support beyond 2027-03-31, non-approval of funding for the gpi real-time service (GTRS/GTSI-0107) and of interim direct GPI_TRACKER_SNAPSHOT exposure to channels, reaffirmation of the Status Projection Service as the reference client-status pattern for all payment types, and confirmation that structured address enforcement remains on track for November 2026.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L50-L71",
+          "version": "repo-lines-v1:sha256:2236b2fbb0ebcc1e73a136f96f199a9ffd93f46c53df83fa75e60a86166925fe:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiMWNiZDQ1YjAyOTRmNWFjMDlhYjUyMzU3ZDUxZjkxMmFhZTkzZTZiOTMwNGEyMDY3Mzc2NzExN2ViYTRiYTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3OWQzOWEyYzJkNWQ1OWQ5OTMwMWU3NmI1NjhhNWFkOGRlNTk2NzQzNWNlNDBkYWVlMThlM2MzYjlkNGMxNTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg2YWQ5MWVlMTQ3NTNiNWFhNjUyYTc3MTgwOGY1ZWU0ZDcxMWQ3N2JlMDQ2NWRiYzhiZjZjZWFlM2ZkNmUyZGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmZDg3MTBiZjRlMGIwOGZmMTBjODA4MWY0MGQ0MmQ5MGYwYjA3MTY2NzhmZGNhOWE4ZjgyNzgwMmFiNGYwMjQifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L100-L103",
+          "version": "repo-lines-v1:sha256:414b8a468c6f62d74d2ed88b0878804843a2274e4a086af063d247e5d16469d2:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIxNDBmNzQyMzJjNGI1ZGYxYzU4NjI3ZTI3N2EzOGQzZWY4YTlmOWExMzc0NTk3ODcwOWMzYmEwNWY2MGI1NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjU4MDJiMDlkYzg5OTA0YTYzNzEwMDdjYmI1NTdlZmQ4YWY0YmI5OTdkYjQ1ZGNlZWVhNmI0NDJlYTQ2NjM1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2M2NmU2MWMxNmQ3Mzk5ZjU0MjRkZDEwNWMxZGVlM2I1OWJjZWU2OWUzYTMxNDk4MDIzNmI0MzMzZjViNjIzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4d5552da51d44291af25d7bdeeb85412",
+      "statement": "As of the 2026-Q3 ARB register, five ADRs are Accepted and binding under the Payments ARB chaired by Nikhil Bose: ADR-PAY-017 (Kafka integration backbone), ADR-PAY-019 (event-driven channel status, no PPH polling), ADR-PAY-021 (hold reason confidentiality), ADR-PAY-023 (UETR as canonical correlation id), and ADR-PAY-026 (client-facing analytics via TDIP Insights API).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L24-L48",
+          "version": "repo-lines-v1:sha256:680fbbe5b840324a49b5742b25a2fb545ef544013e21e29ec9815a72554aaeb0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2YTU0MDZiZGVlZmYxMjhmZTI1ODkzMDMwMGI3OGJlZjY2ZmM1NmQ3MGNhNjE5NWI3MjA1NjgyNmExMjY0NmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZDgyMGIzMmI0MTcwZjBiYTJlNTIzNjg0ZTFmYWMzZTI3ZGI4MmQwNWQ4OTA1MmI0ZThhMmE0OGJlN2MwZWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY0MTRiOWNkMDJlY2QwYzZkMDIxMWZiYmFjYzEyNWNhYjQ1YzQ0NzdhY2ZlNjQ1NDkxNzQwN2RkMmVjZWM1NzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhlNjZiMDcwZTJkOGFmZjM1YzNiMmQzZjVkMTllMmNlODg3ZjdhOTZjZTk3Y2IwNjJkMzRjYzUzYTlmZjlhZjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c3cf98d7d33f479ea967a146b4d450cc",
+      "statement": "Nikhil Bose is a named co-approver of CBO-ARCH-WC-4.1 (Wire Center current-state architecture, alongside Anjali Deshpande, Director of Digital Treasury Channels Engineering) and of PNG-TDD-6.0 (Payment Network Gateway Fedwire/gpi technical design, alongside Raj Malhotra, Director of Payment Networks Engineering), both documents that cross channel or domain boundaries.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L19-L19",
+          "version": "repo-lines-v1:sha256:d7947a3a2f84084541458ac639161dcec93c674371e3f1be85b8aedcdc822af8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDc5NDdhM2EyZjg0MDg0NTQxNDU4YWM2MzkxNjFkY2VjOTNjNjc0MzcxZTNmMWJlODViOGFlZGNkYzgyMmFmOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDc5NDdhM2EyZjg0MDg0NTQxNDU4YWM2MzkxNjFkY2VjOTNjNjc0MzcxZTNmMWJlODViOGFlZGNkYzgyMmFmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTU3YWY4ZmY5YzJlMWRlYzg1NzllMTgzOGFlNmI3NDhmODA4YjBhMTQyYzdlNzBiZjQzMDY5ZDQzNDBmMDFlNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2JjM2Q1MDk1MDQ5YzY1MTJjYmMzMzk5Y2VjZTQzMTBmMDQxNzdmYWQ0Nzc2YTk1YjQ3YzRiNjM3ZjUzMzRmMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L19-L30",
+          "version": "repo-lines-v1:sha256:559198c8fcab7ab25df90ab9091fc8b99d6ca87445ab0cc27b88ba691f2ab3b4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkYjAwMGVjZjIyZWQ0NjI2MzZhYzRkMTM3Y2QzMzhiNTRiZjQxMWY4NGJiNTFiNDJjM2M4OTEwYzE3NDQ2NWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0MWY3OTM1Nzc4YjZiNzJjZTExMmY1MzdiZDBhZDc1ZTdiNDFhMzg5NjQyN2JkM2VhZGVjNDlmZDIwOWJhZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU3YmM3MjdmMWU0N2IwYWVmMzJjZWE2MmZjYTdiZTFlOTg3NTMwNTQ4ZWQzN2RkMGY3YTZhZjYxZGQxNjI0M2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlhZTRlNDljZDMyZjllZDMwMDczOTg5MGFkMjAyZWNkZGI3YTMyN2I4MDdjYjhkY2U4NDA0YjVmM2U5NTc4ZDcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d2726848022a4eef9a13a321b3100190",
+      "statement": "PRISM Payments Hub's own system documents (PPH-SYS-OVW-9.2 and PPH-API-CAT-2026.3) are approved by Payments Hub Engineering's own leadership (Raymond Ortiz, Kevin O'Brien, Laura Kim) rather than by Nikhil Bose, distinguishing system-level architecture sign-off from the Chief Architect's cross-cutting approval role.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L19-L19",
+          "version": "repo-lines-v1:sha256:796a867521cf7ce1c0d3c206ee7b26a934631a87a8b35b1557221755ad5c80b3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzk2YTg2NzUyMWNmN2NlMWMwZDNjMjA2ZWU3YjI2YTkzNDYzMWE4N2E4YjM1YjE1NTcyMjE3NTVhZDVjODBiMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzk2YTg2NzUyMWNmN2NlMWMwZDNjMjA2ZWU3YjI2YTkzNDYzMWE4N2E4YjM1YjE1NTcyMjE3NTVhZDVjODBiMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjYwZjljYjg5NjA5ZTZmNzEwNGIyMTIzMTY4N2MyZTg1Njk0NjcxZDJjZmEwMmJmMDQwZGM2YmE5YzRlZGNhYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmUxY2Q3YmJkOWM3ZDFiODA4NWY2NzE3YTY0YzM3MTZkMTUxYTdkNDk5NGRjYWNkNzBhMzNlMzU2ZjU1Nzg0OSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L19-L19",
+          "version": "repo-lines-v1:sha256:38ba33c18c588b033da4151a461e272547743f2b13f8967199c76010016ae9b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhiYTMzYzE4YzU4OGIwMzNkYTQxNTFhNDYxZTI3MjU0Nzc0M2YyYjEzZjg5NjcxOTljNzYwMTAwMTZhZTliMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhiYTMzYzE4YzU4OGIwMzNkYTQxNTFhNDYxZTI3MjU0Nzc0M2YyYjEzZjg5NjcxOTljNzYwMTAwMTZhZTliMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQyOWFkNzdhNWY4NmQ3Zjg3OGNiZjNmYWRhMDZiZjIyOGI2ZWEzZTJlNzk0NjZmODdjMGEzYjdmNDEzMGJhOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjVkMjcwNTFiMmNmMDM1NjQ0MTI2MWE0YmI0Yzk2OTE4YjJmZWE0MTY5YWRkNzdkOWRkZTc1MWZjMzI0YTBkNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_78857214bbc14f0abc9f47ef66a53373",
+      "statement": "The PTT organization, system ownership and engagement directory (CNB-ORG-PTT-2026-06) is itself approved by Gregory Hall (MD, CIO Payments & Treasury Technology), not Nikhil Bose, indicating Bose's approval authority is architectural/governance-scoped rather than organizational.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L15-L19",
+          "version": "repo-lines-v1:sha256:60851e0c0a7a61503a27c69d0663b56c4cc0973e70789799bf94eac63262ec8a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTkzZmY0ZmZkODkxMjNjZDIyMDhhMDdkOGZhNzU3NGI1ZGRhNmE1NWUxYzU1NzhkM2IzYjIyZjY4Mjk1NTcxMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQxNWEzMDdmMmFjN2VmZjZlZjNkODhmNDRhYzViYTVjYmRjOTBjMjRkYzc1OWE4MGZmMjg1ZTY4ZDRjNTA3NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2U3ZTFlOWM3ZDhhMjZmZTBkN2Q4Njk4N2M4YmU3ZDU3MjU0ODg2MTIxOTZhMGYzYjllZTZkM2IyNjM2OGJiYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDFlN2UwYzFhNjVmYTJhMmUwY2M4Y2MyZTgyMDYxN2U2YzM4ODc2NWY1NzBkZTk5YTYzOGJhNzBjMDZiZmExZCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

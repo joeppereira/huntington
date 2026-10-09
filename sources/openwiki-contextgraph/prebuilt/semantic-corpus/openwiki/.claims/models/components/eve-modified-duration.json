@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:b200b72c1186005dd7e9a2d856deb08500b7c31000a6f631d33a45ffdef10149",
+  "claims": [
+    {
+      "id": "claim_ba33ad5c120142fd97e61ee6a4c0adf3",
+      "statement": "The EVE sheet of MDL-ALM-014 approximates the change in economic value of equity with a first-order modified-duration calculation: per line, dollar duration = ±balance × modified duration / 100 (assets positive, liabilities negative), and the line EVE change = -dollar duration × shock_bps / 100, summed across the 14 lines. It is linear and symmetric, has no convexity term, and uses book balances as the value proxy.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L36-L42",
+          "version": "repo-lines-v1:sha256:a9f6174ce5f2e2e10aac96ce4d5f2c98db3b5b55041cd6029caf07abc3454b80:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FjNmZlNWVlZDZkYjU3OGIwNzNkMGIwOTMxZjBlMjMxOWRhNDEyMjRmYTI1OThiMGUxNWQ2MjAwMmJmMmU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQ5M2QwNWI1NjlkNTYxMWFkNTQzNjVhNDAxZTYzNGI5NmVkNjljZGEyNmNkNzI4NjZjZjhhYzdhOTM1NjUwMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTRiMTQ3MWY1YmM4NzA1MjQyMzg4OTJjMTg3MmM5Y2QwMzVkMDhjNDI2ODNiNWE1OWI5MWNlNjc4MGQ3NWY2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L404-L450",
+          "version": "repo-lines-v1:sha256:ad67bc63c493637340a4a65e5536f63edde7e45c772bb569909b160474d4fa22:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhNmVhNGMwNjljMjg5Mjc5NDQyNGU1ZDYyNmU0MDI5YjBhOThjNDQwZGRiYzc2MGQ4YWM0MjFlOTcyZjA1OGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5NmZlMDE4Yzc0MDgwMzlkNDMzNWRiZWUxODI2YzNlOWYwMjQzMjE4ODk3OTVkMDQ3N2MxOWNkZGIwZTExMDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlMDI1ZTA2NjFmZTg0ZmViZWFlNGYzZGVhYTkzMjE3YTVlYzQ0Y2JlY2NjNmQwNTg4ZmQzYjcyNmNmY2JjNjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5Y2ZkMTViNjI1MjU0YTUyMWYyMjM3Mjc3NDBmNjMzZmQ1NGNjZTExMjJjMDMwNzI3YmU3ZTU0ZTM1MGI4NTUifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L581-L595",
+          "version": "repo-lines-v1:sha256:f35ebaaaa6de8776e0508cf677bbc2512ed01f1591b932a36def04bffc02e13c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIyMDdhMWVhMDBkYzViNTEwYWZkMzJhYjkxZWQ3NWFlZjQ5NTk3NTY1OTNjZTZiZmVlMmRhYzFlOTc0MzYwNGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyOWJhNjIyMjFlNzlhNjM4MDcwMTViMTJiOWYzMjliMDU0MDcyMjkyMmNiZGQwZmRkMjVmZmY0NGZkNjgxNWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmNWUxNTA1ODliNDZhNGY4YjU0MDcwMzI2MGYyNjIwZmZmNDM2NDIzN2Q2MzYyMGJlNmJmYjlmNzBhYjIyMDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f4b4d04052454148955de9faa2a1d383",
+      "statement": "The EVE calculation uses the shared shock grid (-200, -100, 0, +100, +200 bp) from the Assumptions sheet and per-line balances and modified durations from Balance_Sheet (column K); it does not use the rate betas or repricing-bucket shares that drive the NII projection. Tier 1 capital ($110,620mm, from API-16) is the denominator for the EVE percentage.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L136-L158",
+          "version": "repo-lines-v1:sha256:7dbd60d25d7a1f49d30eb1406fd0640a20ad2ed13d4dd95e1947b3c2fed55da1:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmMDE4YjVhZWY2ZDI1MGRiNWU5NWE4MmM4ZGY1Y2E1ZGFkNWI0MDE0MGVmZTA1ZmQ1ZGRhMjU5YzJjNmFiMzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkMmJmNmQyNmE2ZWQ1Y2NmMDM5NjY1NDEwM2Q0MzA5MWExNDgwYzViZDQ5YWYxZTY5ZGY4OTAzMzQxYzM5YTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4YmIzZGRiNWMyZWRlYTQ3NGI4MDlkMmE4NzBkNjYyYzRiMTdkZWI0NTQ0N2EwZjlkODdhNWJkMTNiZGRhMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZlY2I0MDg0MDY5MmY2NjI1MmY1MmUzZGQwZjg2OGYxMWQ1YTlmMmVmOThiN2VmNWMwZTgzM2ViM2IzOTFjMTcifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L166-L185",
+          "version": "repo-lines-v1:sha256:fc0d07278417341745f558532e3bf6e71c0eb83c4c7fb1460d5c80c38e4ec292:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1ZDFiYTgzZjc4MjljNWY1YTJlMTJlNDg2YzExNmJhNjhhY2MzOTkzNzVjZTNkNWY1Yzc1ZmY1ZmU5MGUxYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3NjljYjFlMDljNWJjMmQxNWZkMTVjZDhjZTVmMzJkY2M1MzNmMzg4NmQ0NjFlMTNiYTNhZWUyMTg0MGQ5ZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgyZTIwYjRiYWUzMTIxMGQ2YjUyYzZhZDJjODY2M2RhZDI2ZjY1MTg3MzI4OWYyMzMwYjY3NDkzMzFhOGIwMjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNiM2VlYTBmM2JiMTcwYjAwN2EzODIxN2VhM2MzNmQyMGU3NTM4NzZiZDUzNGZhZmE1Y2U3NjVhODA2ZTE3OWYifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L428-L447",
+          "version": "repo-lines-v1:sha256:5a23a5557eac0f57f2c954a6ca9c0bdf8a8dddecf65089c91d622fb3479e29e8:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwNzc3ZjI5OWYxYjA2NjMwYWJhNzM1NjUxMTRlNTc5MmQ4NTcwZmRkMTMzNmM0OTE4NWI4MGNlMmI2ZGNmOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkNDU1NmM4NzhmM2ExYTQyMzI3M2I5NGI4YzZjMmRmMDc0YjNlZWZkOTMxMWNiYTJlNzVkOTUwYjA1NDQxZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ4MmExM2M0MDdhZjMzMjk1YjA0ZDEwNGY1MjRkYzY3NDZhNGQ0YWRiMDU4ZDFiZjdmZDViOGFhODFlOGM5ODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc4OTVmM2QzYzY4ODU5MzE2M2FjMjE0ZTc3ZDNkNjJkNzIyMGNiNmNjYTY2Y2E5M2ZmMmVmZjVlNjAxYjZiZmIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a05bba7cf5f54e1d902514bb1447f59c",
+      "statement": "At 2025-12-31 total asset dollar duration is about +28.5bn and total liability dollar duration about -27.1bn per 100 bp, giving a net +1,368.7 and an EVE change of +2,737.40 (+2.47% of Tier 1) at -200 bp, +1,368.70 at -100 bp, -1,368.70 at +100 bp, and -2,737.40 (-2.47%) at +200 bp. The firm is value-exposed to rising rates because the duration of mortgages and securities exceeds that of modeled deposit liabilities, opposite to its asset-sensitive NII position.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L410-L430",
+          "version": "repo-lines-v1:sha256:c144852d627892a2fd4e6424dd7781a7179ee1ac6ee01287f2b24ba6d512f100:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4NDI2YmMyZTQxNTExZmY0ZmFmZDI5OGQ2ZGVkYmMzOWE0MWNhNDFlNGUxZWVlNDAzOGQ0YmY2NWRhNzMzYTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3YTE4NTMyNzQyMDFjZDY5YThlMDI2ZjFjMTY0Mjc5OTk2MWE4YzYwNTlhY2QwNGY1NzM5MDAxYzcxMzE0MmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk4MTQyMjNjZjM4YmFmZjAwM2YzZmM2ZjdjZjY0MmQ3MjQ1MmU0NTY5OGEzOTQwNjYxYjg3MGJiM2UxMDM1NzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmOTcwMzczYTcxMTYzMjQ0NGZkZDlmOTZkMWNjZTc0YmZlZGMxYTJjNzBlOGFiMTUwYWU5ZGNkYWE4OThmMDUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L427-L427",
+          "version": "repo-lines-v1:sha256:bb97adb82aae9bd267e917144f84e08da487ec5a5d91205153e17470bd13cf49:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmI5N2FkYjgyYWFlOWJkMjY3ZTkxNzE0NGY4NGUwOGRhNDg3ZWM1YTVkOTEyMDUxNTNlMTc0NzBiZDEzY2Y0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmI5N2FkYjgyYWFlOWJkMjY3ZTkxNzE0NGY4NGUwOGRhNDg3ZWM1YTVkOTEyMDUxNTNlMTc0NzBiZDEzY2Y0OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE2ODUxOTcxOGYxYTliOGRmOTBjMjg1OTQxOWU2ZjVjYWY2YzQ3NzNjMThiOTFiNjJkNGE4NmE3NTExMmY5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYzMTBiMjJmODRiMjA3ZjdjOTRjZjczZGJhN2FmNGFmOGJiYzcyZTk2NjljYWU0MzMwNDdlNDJiNDIwMTc4YSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L393-L398",
+          "version": "repo-lines-v1:sha256:e15284ebd68bd8117f3da8b5ef4b361a770dbc3855bac7aee264fc091598f2f6:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTg4NTY1MmVjZjZmNWJhMDMzZWJhZTEyNmE3NGU3YTFmYmVhMDkwMzA0MzU4NjVkNmJkMTA2MzY2M2U0MzhkYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2RkYjJjNDc5ZDNiNDYyMDJhMjU4ZjdjNWViNWQ5YTRlY2FiNmRkMGM2ODI3MzNiYWQ4YTVjMzU3ZDNiYmQxYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWRlYmM0MjUzOWQzMjE5Mzg3Nzk2NzViMjU0N2MwMjllZDI0ODE5NTFiYzU4M2M2MGQ3NGQ4M2E5NjZkY2U4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODhkYjMwNzM2NDIzOGFiN2ZmY2I5NjljZDRiOGIxMDhjZDBjYjY1YWUyZTdjMjJhNjc1MTk1MThjYTUzYTg1YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1f33a9c7c74146f5b1afae8f6b3e974b",
+      "statement": "The Summary sheet tests EVE against the 15.0% of Tier 1 Board limit with =IF(H<-limit,\"BREACH\",\"Within limit\"), so only EVE declines can breach; all five FY2025 scenarios are within limit, with the worst decline (-2.47% at +200 bp) using roughly 16% of the limit.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L147-L152",
+          "version": "repo-lines-v1:sha256:107d962af6cc9d011c400209dbd882e3d6f60b3b7376c2c28e2c778d3db85be9:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2UxNmVhZDBlODAxMzUwYWI1ZGM5YTJlNWRiMzUxNWZmMzgzMThhNDI4ZjA4OGY4YTU2YmYyMGNjYjI1ZmQ3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY3MGI5MWU2NzEzNDgzNTlkMmEwMTU1NTUxNzc3ZmNiMmY0ZWQwNTVkODMwOTY0ZWU5NmY0MjRmNTRmZTJmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY4ZGViNDRkMTJjOTQ3YmU3OGI5NzQ3NjFhNjc0Njk5NmMzMDMzMzk1ZDdlMmFkMDkyM2E0NTk1ZWMzOWFlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjFlZTNiNDFhMjNjODA1MjE4MTQ4M2QzYTM5M2IyMzQ5YzM3NzVlMDgzYzE2ZWY2NzFhYzUxZThhZTQzMGVjMCJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L77-L98",
+          "version": "repo-lines-v1:sha256:02a5fe06488994b283ae1d9944dfad6b6268a88fc6addf62f806418ae343867f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkYjFiMzU2ZjUzNzUxODZlODdkNjdjMGEyZmU4NzEyZDI0ZGQxNDg1ZGYzNzE4MjMzMjdiNTRhMTRkZDFiZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhY2RhOGY2YWI0YTE5MzFlNjY1MjkyMTA3ZTU5ZTQxZTg0OTI3MDBjZjFkZTk3Mjk0ZDE3MjZhZDUxMDU2Y2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiN2ZkNjg0OWYyZTM1Mjk1NjEzMWQyMGQ4NDBjZjc3YjNjZDI2ZjRkMjFkZTAzNTAyMWI3NmUxN2E3YTM5NDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI2Mjk2NDY1Y2QyMWViOTBlOGFmZWY4MDMwMWMzYTkyZTdkZDJiZDc5MzM1YmJhYjliNzJkZjAyZjNjMGFhOGIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5f1caa017b494ca59404e2ca8ebe6ad6",
+      "statement": "Behavioral deposit durations are key judgment inputs: noninterest-bearing deposits are assigned 3.5 years and consumer interest-bearing deposits 2.8 years, which together contribute about -20.8bn of liability dollar duration per 100 bp and offset most of the asset-side duration, so the net EVE result is a small difference between two large figures. The EVE sheet has no in-sheet validation check on durations or balances.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L191-L218",
+          "version": "repo-lines-v1:sha256:4c965ba450a8cbab50be0601e34f459afcc94c7a5f967adb87f57a5e91193625:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzMGJkZTgyZmRhNTBhOWUyNTkxNzYzZDEzM2QyNWM5NDJmZDFmYTZhMzliNTU0MGExZjFhZDhkYTMwNGNlZjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjOTgwYzdlODhlYjcyN2FjNDQxMGUxYzdmY2Y4M2U4ZDY5YTM5NzAyNTMwOGU0ZjJlMTFmNWVkMzU5ZmU1ZTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlYTk2NjUyMjY2Mzk2MTdlODdmODRiMzU0NGQ2MTk1ZTk2ZmU1YThmOWRlYTgzMTQ5OGJjMDdkYjIwMDQ0ODUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYyYTViZTEzYWY2OWZiMWM3MTE2MmIzNDA3ODdjODI3MmFmMzZlMWNmOGEyYTRhMTM4YWUxZjAyOTI0NjhkYzQifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L414-L428",
+          "version": "repo-lines-v1:sha256:9b1eb588401d4efa2d2a5e378d079eba7bc4382993e9fdd6267f97fa1adbeca1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIyZWYxOTBmNzgyNTMwMGZlNjJlYjJjODUzMDFiYWFjN2U0NDlhNDMwY2E3ZGQzYjc5ZGRiNTU1YzNjMzU5OGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwNzc3ZjI5OWYxYjA2NjMwYWJhNzM1NjUxMTRlNTc5MmQ4NTcwZmRkMTMzNmM0OTE4NWI4MGNlMmI2ZGNmOWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE5ZmNmOWRlOWMyZTkwZWY0NDIxZDY0ZTBmM2QxYTRkMTI5ZDM4OTBjMWViYTBkZDI1ZDFiNjdhZmUzZTMyMWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkxMmJhOGEzNmUyNzJiOWFhZTIwOWU0MTY2YTEzNjQ0ZTk2MzZiODQ4ZjNmOTg2MTFlMDEyNDc4MGI4MDVmYWUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L389-L389",
+          "version": "repo-lines-v1:sha256:aa076a13bc809fe6afefc2322cf00b212da3690c646a911a63757f1e29bcac8f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWEwNzZhMTNiYzgwOWZlNmFmZWZjMjMyMmNmMDBiMjEyZGEzNjkwYzY0NmE5MTFhNjM3NTdmMWUyOWJjYWM4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWEwNzZhMTNiYzgwOWZlNmFmZWZjMjMyMmNmMDBiMjEyZGEzNjkwYzY0NmE5MTFhNjM3NTdmMWUyOWJjYWM4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTU1MDRiYzYyNmZkYTlhNThlMDY4OWFhY2ZlNjU2ODczZjdjNWM4ZTNjZDc3Yjc0NDVhNTVkZDUxNDNmYmY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWRlYmM0MjUzOWQzMjE5Mzg3Nzk2NzViMjU0N2MwMjllZDI0ODE5NTFiYzU4M2M2MGQ3NGQ4M2E5NjZkY2U4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f9cf854e458c4cc2bb2d54706bef916f",
+      "statement": "Known limitations of the EVE approach: parallel shocks only, static balance sheet, constant betas, and (per Pillar 3) no capture of basis risk, mortgage prepayment optionality beyond the static profile, or deposit-beta convexity at low rates; the compensating control is a quarterly dynamic balance-sheet simulation in the ALM engine reviewed by ALCO.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L57-L62",
+          "version": "repo-lines-v1:sha256:e9f1a84255b063ac1ebd07b75e307c2db6d8afcd92211a7a477b1625cede980f:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGU0ZDYzZTU3MjBjZTE0MDJmYWQ0ZTkyNTE2MzBlMTE4ZmJmY2NjYzA3YzVjNThlZTgyZGQ0ZThjZjI1Y2FhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjcyZWYyNDRkN2U0M2VjZmRiMDAwY2NhNDMxZDQ4OGZhZTM0NjhiYzQ5MzFkYjZhZGM1NTkyZTc1ODgzNWUzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L402-L402",
+          "version": "repo-lines-v1:sha256:7e7160c239723481f7f6e69336369a1ce2c0189e6c2b4e48a20088dc7f643e76:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2U3MTYwYzIzOTcyMzQ4MWY3ZjZlNjkzMzYzNjlhMWNlMmMwMTg5ZTZjMmI0ZTQ4YTIwMDg4ZGM3ZjY0M2U3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2U3MTYwYzIzOTcyMzQ4MWY3ZjZlNjkzMzYzNjlhMWNlMmMwMTg5ZTZjMmI0ZTQ4YTIwMDg4ZGM3ZjY0M2U3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODhkYjMwNzM2NDIzOGFiN2ZmY2I5NjljZDRiOGIxMDhjZDBjYjY1YWUyZTdjMjJhNjc1MTk1MThjYTUzYTg1YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDdlNTljNTI1N2ZhZGQyMWU4ZGFiNTU5OTkyZTMyMDNmY2UxOGQyMTE0Y2ZjODgwNjliZDJkNTA3ZDM4MTk2YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4ae6b743cc73411c80c436478fb6ab0e",
+      "statement": "MDL-ALM-014 is a Tier 1 (High) model owned by Corporate Treasury ALM and validated by MRGR (last 2025-09-18, next due 2026-09-30); its EVE outputs flow through the Summary sheet into the Annual Report market-risk section, Pillar 3 IRRBB disclosure and ALCO limit-utilisation flags.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L51-L55",
+          "version": "repo-lines-v1:sha256:ac4315812a33583c68c6a1d8914c0bc812c8322cc7e2f9f24391a90dd97d3010:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGI3MTUxN2IzYThiZDNiYmIwZDY1OTY2ZDBiMDUxMGNmNjE3NGIxMmU3YjkxN2U2Yjg1MTk4ZDBiYWIzNTFhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFjYWIwODZlYmYyNzE2NjU1ZDM3OTE4MDYwMmY4ZDZmMTcwNmM2MDRmMzg4YWE2YjRkM2ZhZWJmYTlkM2Y3YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjI4NTkxOTM1M2ZhMDA5N2M3OGUxOTJlMDgwOGYxM2VlZTE5NzZkOTYxZWRiMTdiOTc2N2ZjZWYzZjg5N2U5ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjNjNzBkODgxZTgxMWY2NzZmZGVkYTJmMmY1OGQyYzAxMWE5NDk2MjBmOTgxZWM5YWI0NDNmMTEyZWFjZWE0MyJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L9-L26",
+          "version": "repo-lines-v1:sha256:1cc81239ccaa43d2cbeb7c85a5815519d9373fcc81fd2a409f63df637a32e151:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkNjM3OTliOWMyYzVkMzZjYmQ0MjgwNzg4NWZmYzBmNWMzYWNlMTdkYzk2ZTVlZmZlZTZjM2MwMmFlYzQ2YjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0YmUzYzJkNDFmYzkxMzIzN2E2NjBmMTE4MGUwNDg3OTc4NjY5ZGIwYTYwNmU5MDAyNTk1OGQwMDlmMDI3MmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMDg3MTczYWQyODI0MTliM2ViNjI5MWE4NzRiNWY0OWQyYWNmYzQ3MDY0YjcxOWFlNzc4OTk2MzM3NThjNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFmOGM4MzY1MGQ4OWRkMDhiMjExOGUzZjEzZDlmNzkyMDM5ZTU1YmRiZDA2NDE4OTlkMTdmMzFmNzJhNGQxMWQifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

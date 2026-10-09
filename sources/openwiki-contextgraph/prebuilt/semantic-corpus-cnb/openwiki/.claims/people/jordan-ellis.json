@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:89b6b5a2e9d636123c21c50b17f6389ca3440db454f254fcbe2bf89620362295",
+  "claims": [
+    {
+      "id": "claim_3baf6935362c4091b519b8f56d15d3b8",
+      "statement": "Jordan Ellis holds the title VP, FCC Policy & Advisory and is listed as the Policy contact in the document-identity header of POL-FCC-014 v3.2.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L15-L23",
+          "version": "repo-lines-v1:sha256:47a568773085c3771cb225bfe950df86c860dac9f1271c0ee9e7930c5e8985c8:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwODQ0NDVjMThhYTJkMWU4ZmEyZDc4M2Y0YmM5Zjg3MzNmYTM2MzJlYzRkYjdkYjQyZTNlNGViYTI1NDM5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM0ZWM4ZjNhZGFiNWY2MjBlOTM4YWEwMjFhNWYwNTY5NzJkOGM4NzZjYzE3M2Q2NmVkOTdhMmQwOTA0MzcyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODE2ZTQ0MWViNjczOGIxY2E1ZGVmMWNmZDAyMWVjNzZjZjUzOTllMTFmMDZlY2JjMWZiMGMxY2U0NDM5ZWI3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1e74416a1cc247eb93d48fa04f54c2bf",
+      "statement": "Jordan Ellis (FCC Policy & Advisory) is named as the reviewer of PRSP-HMS-3.4, the Hold Management Service design and hold reason taxonomy document approved by Victor Petrov (Director, FCT) and owned by Daniel Kowalski and Grace Mensah.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L15-L22",
+          "version": "repo-lines-v1:sha256:6069ed8a3ceee635b2e43e4e1c367d6f0705313644281a802811986ae5b88d3d:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTdjOGQ3OWMxOGE5OTZmOGQ2OTczNTRiMjE5YTU2OGRiZWU2OTk3MWZjOTcwMmVkYTk4MTc0YTkxYWYxN2FiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc2NjYyODczYzY3MTFmYmVjNzQxN2QwMDc1ZTQ4NWEwYTZiMzgyNjczMTBiMzg3YWNjYWY4ZTFlMzkzMjZlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_671dd8f5d54648039715d2b9b484c1cf",
+      "statement": "PRSP-HMS-3.4's hold reason taxonomy uses the disclosure tiers (P/C/G/R) defined by POL-FCC-014, linking HMS's twelve HRC codes to the client-communication standard that Jordan Ellis is the policy contact for.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L40-L44",
+          "version": "repo-lines-v1:sha256:10ad4a9d8d1c868a397cfd867ef05ef5f76fa7bdca0ed423aa7a9ee379a55207:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzNkZmUxYTQxZDhhNDkzM2QzMWU5MmY4ZjFiNWU1N2IyNGQ0NTBmNTVlN2MxMDdjN2MyM2I5M2Y5YTE1OGZkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGFlMGZlMDY2ZTdlNTZiYTA1Njk0ZjU4YmI3OGJlMThkYWRmNzNkMmFlNWQ1NDczOTc5ZmUyYjYzY2ZmNTBhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjVhMTA0ODYzM2VmMDk4OTUxNmY3ZWM0MmZlZGNmODM0NjdkMTA5Y2UxZmIxNWM3YmQyNGI0MjhiMDM4Njc5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2I2NjI3MzMwNTA4NDExMzJkZGM1OGUzM2MzODA0ZmQyYmRhZjVlNDcwNDMwNThhMDNiZTQ3MGRjY2Q2YjMwMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_056f485392204e65b7de78b9550de7ec",
+      "statement": "In the PTT organization directory, Jordan Ellis (FCC Policy & Advisory) is listed as a contact for product/design reviews under the Financial Crimes Compliance (FCC) partner function, which is accountable to Catherine Doyle and is not part of PTT's engineering reporting line.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L77",
+          "version": "repo-lines-v1:sha256:c7fe64a4a6d6da01855db29c521dadfd9a0a292acb5a311c64f12ee702279fff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyOTQ3M2U0MjkwNmViOTg1NzUwYTBmYjFjOTA1MTdhZGIwNzNmNmVhNDViYmUzMzkyYWJiN2M5M2M3ZWE1NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_42a7d3d55ce04af89ead80240e7f7032",
+      "statement": "The PTT organization directory's escalation section routes compliance or policy interpretation questions to FCC Policy & Advisory (Jordan Ellis) or the Privacy Office (Ethan Brooks), explicitly stating these are not decided by engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L151",
+          "version": "repo-lines-v1:sha256:9100899fd07a815ca37f7f8197712f48bf29716d4558fe18a3bcdfaaa4778185:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDYzNzYyMGRiZWQ3NWM4ZWUyNmI0NTNkYjQ1NDYxZWE4YTI3ZTEyMjI5YmI3OTQ3YzNlOTNiMTBhY2U1YTIwOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d481e7b299c94379ae596c0630e6bb8e",
+      "statement": "POL-FCC-014 Section 6 requires FCC Policy & Advisory review before build commitment for new or changed client-facing status, hold or exception experiences, plus DRC approval of final copy, while exceptions require Chief BSA/AML Officer approval rather than FCC Policy & Advisory approval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L100-L102",
+          "version": "repo-lines-v1:sha256:df3fcb6237816c88e8de3094ed2fef1d4e917b1307ab6ec0e9a7e54c2a3ddaba:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzEwNGJlM2FmZDJmNzUwNjU4Y2U1YjMyNzk1NjYyMjA3M2Y5MDRlNzVhZWIyYWU5ZmRlOTkyMzQ4Y2FmODcxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJlYTA4YzliMjViMjYwNmYzNThjMzhjNzMxY2Q1N2I3NGViYTRmZTYyOTQyMjg0NTQ4NDk4NzgwZTZiMWE3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjY1MDJjMjM0ZTMwN2JhNmE4N2FkNjZiNmJmYTA3M2E1YzU0NzU0ZDM3MTgzZTE5NTZlN2I4ZDQ0MDhjZmNjOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTgxOGY1NTlmZWEyZGEyM2Q0MzQzYmY0NjQ4NDk3OGM4NjA4YWZmYTI3NDEyYzM1ZGMxZjFjMDg1ZDZlM2Q2NCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

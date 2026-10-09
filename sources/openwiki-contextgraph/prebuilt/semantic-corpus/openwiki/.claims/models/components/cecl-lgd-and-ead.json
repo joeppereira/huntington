@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:fa11ff17d3b0d593924dc9b9147342f1aa4d5181ccb773805b2dbbdb8827238f",
+  "claims": [
+    {
+      "id": "claim_f57fb6f6c345427fa73ce38a14d1937b",
+      "statement": "Scenario LGD in ECL_Calc is base LGD × (1 − LGD sensitivity × collateral price change), clamped to 0–100% via MIN(1, MAX(0, ...)); each scenario block (Upside, Baseline, Downside) applies its own price path from the Scenarios sheet.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L150-L150",
+          "version": "repo-lines-v1:sha256:da0f092fbab705ea7f031de5cd0787615d699b7ad42da7c2120e962f2c92e052:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGEwZjA5MmZiYWI3MDVlYTdmMDMxZGU1Y2QwNzg3NjE1ZDY5OWI3YWQ0MmRhN2MyMTIwZTk2MmYyYzkyZTA1MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGEwZjA5MmZiYWI3MDVlYTdmMDMxZGU1Y2QwNzg3NjE1ZDY5OWI3YWQ0MmRhN2MyMTIwZTk2MmYyYzkyZTA1MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjRkZWNmOWI5NTEzYjQ0MmMwY2RmM2IyZDBjMGQ4MTY4N2ViMDYzNTdjMDI4ZjhiODY4NGM4OTI2Nzk3MjcyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTYyZDUyZTQ3OGE4MGViMzBiZmY4NWExYTAzMGZjMzgxNmNmYjg0YTViMGU4M2VmMmIyZjZiOGZkYjdlYmYzYiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L280-L281",
+          "version": "repo-lines-v1:sha256:1fed40caef4cc92f7ea2891f7362211b229294b4720de541d4cbf57ba75b2ea2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmUzNGNhMjAyZTJiN2ExNmY1OTBkYmRhNTA4OGZhODZiYzk1MTAzYzk1OTNhNzc0ZmE1MzU3NzczMWZiMzMzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTAyM2QwZTdhMWJkMmQ1ZGYyOTJmNjZmODdjZGQ5NWRhMWIxNDI0ZTVmYzY4Y2U2OWQ3ZDg1ZTk3YTU5OGUwOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzVlMzdiZGZiMmE4ZDA3N2YwZTZlZTFhYTc1NmNjYmVkNWIxNDk2MWI2ZDI3NjNkOTM1MDFkOWVkZjhmNTMyYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTdmNDIwNDQ5ZWE1ZGVlN2I3ZjM4ZTUxY2U0NmExNTU4MmRjMDQwMWY3OGZlNWIzYTVmOTk3MjYxYTZkMThhZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L323-L324",
+          "version": "repo-lines-v1:sha256:29b0d55da35ae6b246ab1034e0b7dbdcc34054f0e5404d71b724773b9d0ae4cc:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzdjNWI1MjhjZjU0NTgwMGIzZTFiMDRjOTg0YTI2OWQyYjQwODhlYTZlZjU0YzBiYmU4NzdmOGU1MjdiZmJmNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M3MWZiZjM1MDRlNGQ3YzBkMWIxODFlOTlhYmIxOTcxZGJmOTQ3ZjdiZjYyMmQzNTE2MzI2NzQwZmQyZmI3MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzg4NjRhYjIzNTdlMDJjMmY3M2UzMGIwNTMyNDI3NzgxMWQxMTJmMWU4MmZiMDhhYzAyNzgxYzU5NTg0MmMyYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2U0M2JjZjVhZjVjOWFmZDdlN2RmODZhNzgyMzEwMTI4ZWY4YWVmYzg0NWIwOTFiYjFhNmJhNzcxMTI1YjZkYiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L366-L367",
+          "version": "repo-lines-v1:sha256:3222dabba9ec26ecaf319011a73f55e7f9e06223582af5fb8e351a9a377da3d0:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU1MjQ4N2NlYWZhZWM1MTA5NDA1MzAyMDhkMjdmMjRlNDcyMmQ4OTkwOGEwMzVjZjg5NDBlYzQ4NzM0OTY1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ1YTljZTkxMjM5Mjc0ZDdkMTY5MGYyZWQ3M2Y2NDM3YzVkMTM2ODU0OGE2YzAwNzgzOGIzMDc1NGE5MzI5NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY1NDJkMGEwMDU2ZTlmOWUzNWRkY2ZiYWM1ZWUzOTU0ZmZmNGI5OWZhZTJkZjMzZjdkNjA2MjBhNDJhOGUyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTBhZTA2NzgxYzA1MDYxOWM0MzYyMGRhMzJiMWQyNWVjNDYzNWM4MGE1NmM0ZWQxOWQ1ODM3YTIzMDM5NWE3OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1edbdeea4eb047edadd784b1171aac59",
+      "statement": "The Segment_Inputs price-driver column gates the LGD adjustment: only the values HPI (Residential Mortgage) and CRE (Commercial Real Estate) select a price series, while any other value (including None) gives a zero price change, so Auto, despite a 0.40 LGD sensitivity, keeps a fixed 0.42 LGD, as do Card, C&I and Other with fixed LGDs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L209-L217",
+          "version": "repo-lines-v1:sha256:5c541cc397b6ee1f341967b71c6340c138c09ddc248e0b4f9c952d078539d852:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmFjMjcyMTYyNGI5ODVmOTRkNzFiZDA1YmU1MGNkNTBjN2RjOTliYTQ2NGQzZmFlMzlkNDhmMDdlMzE0MDhmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRhMGE0MDljMGRhNzk2MTgxYjEyZTRkZjJlYjM1MmY4ZmM2Y2E2MTU3ZGE0OTczMDBkYTUxOTg3ZDlmNWQ3MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzdhMjBlMjAxMWEwNzg3M2EzYTcyNDZhMTU0YTA1YjY0YjNiNmEyMmI3OTk4YzRlMThhMmRlMDczMGQ5MmZjMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2ZkZDc1MWM5ODMyZTkxZTVhMmZkMmZjN2I4MGJmYTAyODNjMTZkMjI5MjhjYjc1YTk2NjBkMDhlNmY2MTU5MyJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L280-L280",
+          "version": "repo-lines-v1:sha256:be34ca202e2b7a16f590dbda5088fa86bc95103c9593a774fa53577731fb3332:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmUzNGNhMjAyZTJiN2ExNmY1OTBkYmRhNTA4OGZhODZiYzk1MTAzYzk1OTNhNzc0ZmE1MzU3NzczMWZiMzMzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmUzNGNhMjAyZTJiN2ExNmY1OTBkYmRhNTA4OGZhODZiYzk1MTAzYzk1OTNhNzc0ZmE1MzU3NzczMWZiMzMzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzVlMzdiZGZiMmE4ZDA3N2YwZTZlZTFhYTc1NmNjYmVkNWIxNDk2MWI2ZDI3NjNkOTM1MDFkOWVkZjhmNTMyYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmE1ZmJjNDVjMmQ5OWIyMDE5Y2FiNmU3MWJmMjYzMGM0MGZiYzFiOGM5MjM4NTQwYzc2YzZjODdlMjMwMzg4MSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L294-L295",
+          "version": "repo-lines-v1:sha256:dc7b2135257344948d39bce1d098aa0684cc3da9f18c10ddde1d919ad1adba97:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNlYTZhNTM4MGU5YjMzZDkwZDljZWI5Mzk5OWRiNDY3NTZiYmY3YWVmMWY1YWNlMDk4MDM3MTNiN2MyOTcyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmM5ODJkM2NkNDhmYzgyYTg4M2U5YjM2NDA4OTcxMDEwMDgzMjFlYzY1NzAyN2NhZTQ2YzU2MjIyMGIyMzhmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTMwNTg0OTczYjBmNWJjMzQ1MTlhYjE3NjMxMDQxZmI3NTQzNjY2YmVjMzBjM2EyOTg1YmEzNGIxYmQ0ODViNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWU1N2YwYzZhOWNmOGNmMzQ0MDNiMDk2MTdjZTMxYmZhMDhkNDM0NzE3M2NkNTAzNmFiNDk2NGU3NGMyOGM2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d87d32a1ece34c81b178a79dc41fdd3d",
+      "statement": "Resulting scenario LGDs: Mortgage 0.1287/0.1345/0.1614 and CRE 0.3618/0.3861/0.4651 for Upside/Baseline/Downside; the clamp does not bind at current inputs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L188-L191",
+          "version": "repo-lines-v1:sha256:3fb1dbe113bb215dcdb02624a4ddc069495648e537cf2c83b0f36a7f6f665315:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmE3YjJjNWM2YWYzZGIxMGYzYzg0YjQyNTA3NmJmZmM4NzFiOTkxNzcyZDY0MWE3MzNmMDFjMjEwZjNmOGI4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjk3YTUyYjE5ODIzNzdjN2Q3Zjc5YThlODE0YmQ2OWI5YjQxOTczZmE5Mzc3ODAyM2YxYjkxYTMyOTM5MDNjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjMyYzU3MjMyNGY2YWQ4ODIyZTM5YjYyYzQ0MjkwNWJkNzNmZTAwMWQyOTk1NjdkMTA3OGRjNzdiNjBjYjhmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWQ3MmE4OTU0YjFjYTg2Y2FkNjIyMzc0ZDYwNjYyZDFlODZkODk5NTY4NGZhZjcyMGZkNTNmNGZiYTc4ZmE1NSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L247-L270",
+          "version": "repo-lines-v1:sha256:190fb7433141183566d40b0d7c04374d36e3d2e54ab35cf51c5451a8c1bd8a85:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0N2U0M2U5ZGRkZTcxNzNiZTMxNDE4MDViYTQwODFjNDliMzI5ZWYyNWRmMjMyMGZhYzQ1OTc0OWE5NGJjM2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkYTBmYmZiYzZmZTI5N2JlMDRiYTUxNmMyMTVjNmMwMWU4ZmQ0MjdiYTcwYmQwZDJmNGVkMGI1MTM2N2ZiYzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzZGM4MzNhODJjYjJkMGU3YzU3YjBkZGUxZjVhNTM2MTAyNGE0NmUxOThhNWI5MzA2YTA3NDkxZDk3ZjBlYWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUwZTk5NWNlMDAxZDE5NTUyNDFkNzY2MzZiZmZmZmMyN2VmMjc2OGQwYzkwOTg3Y2NlNjYwNjc0OTM2OTNlZTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6023a6f029974aeaa847c9cb25d24502",
+      "statement": "EAD in ECL_Calc is a pure link to the segment balance in Segment_Inputs column C (742,300 $mm total at 2025-12-31), identical across all three scenarios; the workbook has no credit conversion factor, amortization or prepayment term, and unfunded commitments are excluded, so scenarios affect ECL only through PD and LGD.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L168-L169",
+          "version": "repo-lines-v1:sha256:0b32c1c92989cbc8872ccdeefeb1edcbae1e94b4e740dd3642476473b2f587fb:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGRiOWVlOGRmYTE0ZWNhYTllNGMyZTg2MTUyMjY2NDM3NjllMWJhM2Q4ZWI3MjU5M2EyZGUzMmVkNmIyODMxMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGE5OWY4NjliZWY5ZmIzN2NmN2FhNmRmZjExYjc5MTIxYTIzYmI3NmM2YmIxNTcxNjVjOTQ0YWViZWRlYjViNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjNjNzBkODgxZTgxMWY2NzZmZGVkYTJmMmY1OGQyYzAxMWE5NDk2MjBmOTgxZWM5YWI0NDNmMTEyZWFjZWE0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTRmODBiOTBjZGQ1ZWQ5NjUwYjE5YWIzZWNjZDlkNDlmNWNhYzJlYTYzNmFmOGY1NDNjM2NkOTQ5OGMxNjg4MiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L209-L226",
+          "version": "repo-lines-v1:sha256:8f0dabb45aa0baaebdb21daf6a67b085d802d08aae9298df4513061ecdc2d3d2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhYzI3MjE2MjRiOTg1Zjk0ZDcxYmQwNWJlNTBjZDUwYzdkYzk5YmE0NjRkM2ZhZTM5ZDQ4ZjA3ZTMxNDA4ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1Zjc0NWZjZTEwMWUxYTFlMjc1ZmMwOWY3NjU2YWU5NjI1N2Y3MTY2NmEzYmNlZGU2MmYxMDgyYzBiY2JmZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM3YTIwZTIwMTFhMDc4NzNhM2E3MjQ2YTE1NGEwNWI2NGIzYjZhMjJiNzk5OGM0ZTE4YTJkZTA3MzBkOTJmYzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY3NWIxMzBhYWZjZWYxYTRjOWVkZmI1MGQ3NTMyMzBhYjI3NzEwYzAxMjNlOGZlZWE2Zjc2MTY0ZjdkMzhkNjMifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L282-L282",
+          "version": "repo-lines-v1:sha256:60134b02d5f79ac2a110c61b5076b72d7e843b3e92708f34866a6e91fdcd2aa5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAxMzRiMDJkNWY3OWFjMmExMTBjNjFiNTA3NmI3MmQ3ZTg0M2IzZTkyNzA4ZjM0ODY2YTZlOTFmZGNkMmFhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAxMzRiMDJkNWY3OWFjMmExMTBjNjFiNTA3NmI3MmQ3ZTg0M2IzZTkyNzA4ZjM0ODY2YTZlOTFmZGNkMmFhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmNhNzRiZDllYmExZDhkOWU1MGFlNTY2Y2ViYjU1MjdiMzdlYWEzMjllNDgwZDc0MjMxNmQzNmY5NmFhYmNiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGJlYzE1NjRhYTUwMDg1NjVhOGY3NmQzNDNkZmI1MjNmZWFjZTA3YWUyZTkyM2VhMzU1Y2I3Y2NiZGE0YWNjZiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L325-L325",
+          "version": "repo-lines-v1:sha256:c14d47843dc19b8745d21b8d0dd1ec74f41813d06004aa066aa505770f0bf914:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE0ZDQ3ODQzZGMxOWI4NzQ1ZDIxYjhkMGRkMWVjNzRmNDE4MTNkMDYwMDRhYTA2NmFhNTA1NzcwZjBiZjkxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE0ZDQ3ODQzZGMxOWI4NzQ1ZDIxYjhkMGRkMWVjNzRmNDE4MTNkMDYwMDRhYTA2NmFhNTA1NzcwZjBiZjkxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGJiMDA1ODM1YWUyNGRkOTUzMmIyYjY1N2E5M2Y1NGFkMjA4ZWRkMThiZTI4N2RkMzQxODZjYWE2ZWVlMDBjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDViYWI1MTdmMWE4Mzg4YzMxNDU1ZmM1N2M3MjRjZjRlZGJhNWUzOWM3NmNiNzllOTg0YjA2NzdhMTM0Njc2ZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L368-L368",
+          "version": "repo-lines-v1:sha256:d4f72b115e0dc61b51f37183d77de9b0677dc37f280f26036912a0673e1c47da:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRmNzJiMTE1ZTBkYzYxYjUxZjM3MTgzZDc3ZGU5YjA2NzdkYzM3ZjI4MGYyNjAzNjkxMmEwNjczZTFjNDdkYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRmNzJiMTE1ZTBkYzYxYjUxZjM3MTgzZDc3ZGU5YjA2NzdkYzM3ZjI4MGYyNjAzNjkxMmEwNjczZTFjNDdkYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2FlZjc3NjQ3ZWRmM2M4ZWE3OTQ5ZTBlNmFmZmY2N2IwODAwNWYxZjJkMzdjOTA5MmE0YTE3OGRjMjA4Y2Q4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmRkNGVhOWZiOTgwNjJkZjI3ZDcxYTczZDlhYjEwOGFhNWEzNDQwOWYxMjBlNzZmODZmNGI4ZTE5ZDBiNWNmYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a0dc04aea1e04a489f9e75e4fc7abafa",
+      "statement": "Lifetime ECL per segment and scenario is EAD × lifetime PD × scenario LGD (ECL_Calc column G = F×C×E), summed into block totals G13/G23/G33 (12,434.76 / 13,817.04 / 19,478.13 $mm) that Allowance_Summary links to by cell and weights across scenarios.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L283-L283",
+          "version": "repo-lines-v1:sha256:e01a40daa967d795d7c8b514dbd42d2711ad51852d8e8eb61d1f5fbfe4f70624:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTAxYTQwZGFhOTY3ZDc5NWQ3YzhiNTE0ZGJkNDJkMjcxMWFkNTE4NTJkOGU4ZWI2MWQxZjVmYmZlNGY3MDYyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTAxYTQwZGFhOTY3ZDc5NWQ3YzhiNTE0ZGJkNDJkMjcxMWFkNTE4NTJkOGU4ZWI2MWQxZjVmYmZlNGY3MDYyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjhlNWVkMGIyYjYzNWMyMDA2MTg2ZTk2OTQzNDdkYWM0ZWNhMDFmMTFlNDg2ZWM0MmJkYTcyNThmYmE5ZmM2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFjNDg3MDQyYzZjZGEyNWRiMzY5YTY0NTJhMGQ4OGVlOTk0MGY5YzY4MTdjMmNmYjcyNzA4MWQwZjZhZDY1ZiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L319-L319",
+          "version": "repo-lines-v1:sha256:d0037d54e9c6347c365f064534206d4a134f53b5586022edb519e09c963e3a33:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAwMzdkNTRlOWM2MzQ3YzM2NWYwNjQ1MzQyMDZkNGExMzRmNTNiNTU4NjAyMmVkYjUxOWUwOWM5NjNlM2EzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAwMzdkNTRlOWM2MzQ3YzM2NWYwNjQ1MzQyMDZkNGExMzRmNTNiNTU4NjAyMmVkYjUxOWUwOWM5NjNlM2EzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDQzNzRiZDQ5YTIxZGM3ZDRiZDEwOTZkZDEyYmU0NmU2MDg5ZjE1NTkyYjdlMTBhMzRmMWMyMTljNjMyOWVkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzg4NjRhYjIzNTdlMDJjMmY3M2UzMGIwNTMyNDI3NzgxMWQxMTJmMWU4MmZiMDhhYzAyNzgxYzU5NTg0MmMyYSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L32-L32",
+          "version": "repo-lines-v1:sha256:d7d21ae847c7f1d259a78f28f5137d659ea4f6ad4a09aa867da4c4b18ade0842:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdkMjFhZTg0N2M3ZjFkMjU5YTc4ZjI4ZjUxMzdkNjU5ZWE0ZjZhZDRhMDlhYTg2N2RhNGM0YjE4YWRlMDg0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdkMjFhZTg0N2M3ZjFkMjU5YTc4ZjI4ZjUxMzdkNjU5ZWE0ZjZhZDRhMDlhYTg2N2RhNGM0YjE4YWRlMDg0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGVmZDgyMGViZDA1YzNhZmNhOGIwMWY0ZGFhMjY1YmU2YTI5Y2E4M2U1NzI0M2VjMTEzODFiYzRlNzFjMDkyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmVjYzRkM2E1OTRjMGU5ZDYxNmIwZDZlZTc2ODliOGY1YTI2MzlkN2UyOTM1YmQ3ZmFmYmExYmYzYWEwMzg4ZiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L362-L362",
+          "version": "repo-lines-v1:sha256:8457c9caf6ff8e374b5eb7c39adb1c1746de5ab2d4945448798f3fa47a218c3c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQ1N2M5Y2FmNmZmOGUzNzRiNWViN2MzOWFkYjFjMTc0NmRlNWFiMmQ0OTQ1NDQ4Nzk4ZjNmYTQ3YTIxOGMzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODQ1N2M5Y2FmNmZmOGUzNzRiNWViN2MzOWFkYjFjMTc0NmRlNWFiMmQ0OTQ1NDQ4Nzk4ZjNmYTQ3YTIxOGMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDE0YWQ3MDlmZTFmYTYwYTgyNjhmYWE2MmE0ODVjNzdlNzUyNTI4ZmVhYmRiMWQyNWNhNmMzMjMyNzI4NGVmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTY1NDJkMGEwMDU2ZTlmOWUzNWRkY2ZiYWM1ZWUzOTU0ZmZmNGI5OWZhZTJkZjMzZjdkNjA2MjBhNDJhOGUyNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L405-L405",
+          "version": "repo-lines-v1:sha256:f1af85ef9296ae3766373993417dd2dbab1b956f6d5eb16fc8d5aff8e08ca3a0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjFhZjg1ZWY5Mjk2YWUzNzY2MzczOTkzNDE3ZGQyZGJhYjFiOTU2ZjZkNWViMTZmYzhkNWFmZjhlMDhjYTNhMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjFhZjg1ZWY5Mjk2YWUzNzY2MzczOTkzNDE3ZGQyZGJhYjFiOTU2ZjZkNWViMTZmYzhkNWFmZjhlMDhjYTNhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTMzZWQ3NDE0ZWUyZTlmMmI2ZTY2MWE3YzUyNzhkMTc2ZjcwMWNmYTcwZWZjZTJhOWIwNGQyZjE0YzNhNDVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWJlM2YwNTRjYzdlMDk4NTIwYTE3Yjg2YjYyYjY4MDViY2I3ZjlmOTViZGJiMWIwYzdlMDEyNTQzMzZlODE1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_68c71b1896e14eaba8c686f8ec9a7e35",
+      "statement": "EAD (balances and remaining life) is sourced from API-11 Loan Servicing and LGD parameters are pool-level, refreshed quarterly, from API-10 Credit Risk Scoring; CECL uses the point-in-time basis endpoint, distinct from the through-the-cycle capital parameters with regulatory floors.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L798-L799",
+          "version": "repo-lines-v1:sha256:da8fb06bdaa6262612d3ac382bffd7ac4f1e1eab9b63d23964fbe0cdd301179c:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2EyZTFkNjQwODI1NmQ1ZWExOGM5ZGMyNGRiOTZlZmE0ODA3OGZlOTdmYTI0MWU5YjY4Y2FmYWI5MzBlM2Q5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjRiYjY5MTliNWEyN2MyZTEyMDI5NTI2MTM5MTk4MDRiOTk2NjAyZmU0NDUxZTA1MDQ3ODAyYjQxNzdlMzEyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTRlMmFiYjI3ZDc2NjRhNjEzNDczMWRlNzlkZjU0MDBmMTRmMGI1NzUzZmI5NmZjNDZjOGNkY2YxMjM4NzFjNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTE5ZmRiNmQ5MTI0MGYzYzI0Y2U0NGJmN2EwM2RhNjgyZDczZDVjNmZhODEwNmJmMzcyZTA3YjE0N2IzODJhZCJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L154-L158",
+          "version": "repo-lines-v1:sha256:e52610f8b6a29fb8e43db704f82a24ec5947df3fd77592cd4eb78a717ef346b8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1NDMwYWQ1YzRjMzAzODc0MzJkMTk5MmNlYTQ4OTZiNDMxOGExZjA3NjRmOGYzOWFmNTQ2ZDhjZTNiMzI5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIzNDJhMGE4ODY3YzhlMGVkYjE3ZmJlNGNjZmZlYTY4N2I5Yjg0YTAyODNkNmI5NGU1MGEyZWU5N2ZhYmNmNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTYyZDUyZTQ3OGE4MGViMzBiZmY4NWExYTAzMGZjMzgxNmNmYjg0YTViMGU4M2VmMmIyZjZiOGZkYjdlYmYzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdmZmE5NWRiYzFjYzQxNDY0ODkwYmFlZmU5ZjE1YTNjMTQ1NzkxM2QxYjYwMjkwZmMxN2I2MDQ0YTU1NzY3NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L283-L283",
+          "version": "repo-lines-v1:sha256:da64c3acc934b052164becea3069b8cc50f50485da5c727dba28f2cbe6a45b9a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2NGMzYWNjOTM0YjA1MjE2NGJlY2VhMzA2OWI4Y2M1MGY1MDQ4NWRhNWM3MjdkYmEyOGYyY2JlNmE0NWI5YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2NGMzYWNjOTM0YjA1MjE2NGJlY2VhMzA2OWI4Y2M1MGY1MDQ4NWRhNWM3MjdkYmEyOGYyY2JlNmE0NWI5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDhiZjY4MjMzYjhjN2Q1YjI0MTRlMmMwNGRkYjU0NDg3NmZkNjZkZDFjZmFlOWRkMjAxODgyZjQ3YmFlNTEwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGNkN2Q0NmVlZWZlYWJjNDhhOWJkMGRiN2FmOGQ3ZWE0MDRmMmM5ZjU2NjIzY2IxMjhjYmE3MWFhMTk4ZWVlZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f4f16c746bc54054b104d93518f63571",
+      "statement": "The workbook has no stand-alone LGD or EAD control: reconciliation occurs only at allowance level (Allowance_Summary I6:I12) against reported allowance, where the overlay is an input, and the model is a simplified pool-level demonstration whereas production uses loan-level cash flows.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L105-L114",
+          "version": "repo-lines-v1:sha256:dddd6069753d5757e933b3fa25f4888f3fc46b7978d55bafd51f8bc7436f4e0f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1MDgwZDk4OTM1ZGYwN2U2ZDc5OTIzZTU3NzkzYThmYzhiMGMwOTFkOGM2OWJmNGM1YTA2NjRmMzEzM2E2OGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzOTNkODlkYWZmYjY1MmQyMTQyNGFiZDkyM2U2YWY2NGFjNzg4YmY1YmUzMzIzYjVmOTA2YmRlNzNlNTUwYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFmNGI1MGFlMGE1MWI0ZTcxYTVkZmRmODkzZDdkNTczYzdmNGY2MGE5OGQzZjgxODVjOGM4YTE2NzYyMDQ3MDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY2MTFlYjE4NjkyODgxODA1MDM4YThhYjZhNjYzZjEzYzMxMzRjM2M4YmZiODZlNjg0YTA1Y2Y2OTA3ZmI0YTgifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L14-L22",
+          "version": "repo-lines-v1:sha256:2f1ad0f6baddbcf43536d6fa4601f97a859645a69dd18368559147c073805d9e:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODkzY2UzN2FkODRmYzBhMTM3NmI2M2EwYThhYTA2Y2YzMTRlMDgwNGRkMjIwN2ZjNzdhNTg2ZGM2YmJlMjZhMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E1NTVkZTliOWQ3MWUxNjRmNGQzN2RkM2ZiODBiZDgxYWU5MjYzZjRiOTE5ZjM4Y2MyZmUzMzJhYTEyZjVmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTg0YTVhODQ2MTcwZWJlYWQzMDlhMDUxYjFkNjU0NmU4MzlhYWUxM2ZhMzYzODE5MTUxODcwNjQyN2I3ZTZlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjRlNDI2OWVmMmE5NThiM2M3ZjFhODdjZDZjM2NiM2EwZjA1MDM2NTI4Y2Q2MmJiYzYwNmFmODVmOGU2N2MyMCJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L168-L171",
+          "version": "repo-lines-v1:sha256:816d152622d6f1e0913d5cfbd3f04fb78af5078bb93d51f5f69629b9f76ff96e:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGRiOWVlOGRmYTE0ZWNhYTllNGMyZTg2MTUyMjY2NDM3NjllMWJhM2Q4ZWI3MjU5M2EyZGUzMmVkNmIyODMxMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTY3ZmM4NGFiMDY3YTg0YjFjYzg4NTU2ZmExNjJlYzhmZTU3YjNhNjNhZTJhYWZhZjUyYmZiNmZmOWRhOTgxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjNjNzBkODgxZTgxMWY2NzZmZGVkYTJmMmY1OGQyYzAxMWE5NDk2MjBmOTgxZWM5YWI0NDNmMTEyZWFjZWE0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7d46a74bb1ca46caa18f74b1f1d5ce23",
+      "statement": "The same Segment_Inputs balance column used as EAD is the denominator of Allowance_Summary allowance / loans, so a balance change moves both ECL and the coverage ratio.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L282-L282",
+          "version": "repo-lines-v1:sha256:60134b02d5f79ac2a110c61b5076b72d7e843b3e92708f34866a6e91fdcd2aa5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAxMzRiMDJkNWY3OWFjMmExMTBjNjFiNTA3NmI3MmQ3ZTg0M2IzZTkyNzA4ZjM0ODY2YTZlOTFmZGNkMmFhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAxMzRiMDJkNWY3OWFjMmExMTBjNjFiNTA3NmI3MmQ3ZTg0M2IzZTkyNzA4ZjM0ODY2YTZlOTFmZGNkMmFhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmNhNzRiZDllYmExZDhkOWU1MGFlNTY2Y2ViYjU1MjdiMzdlYWEzMjllNDgwZDc0MjMxNmQzNmY5NmFhYmNiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGJlYzE1NjRhYTUwMDg1NjVhOGY3NmQzNDNkZmI1MjNmZWFjZTA3YWUyZTkyM2VhMzU1Y2I3Y2NiZGE0YWNjZiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L37-L37",
+          "version": "repo-lines-v1:sha256:691ab1061df52c86b6fcad92a71e788d09bf0a774e096700db5a3146b0b02081:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjkxYWIxMDYxZGY1MmM4NmI2ZmNhZDkyYTcxZTc4OGQwOWJmMGE3NzRlMDk2NzAwZGI1YTMxNDZiMGIwMjA4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjkxYWIxMDYxZGY1MmM4NmI2ZmNhZDkyYTcxZTc4OGQwOWJmMGE3NzRlMDk2NzAwZGI1YTMxNDZiMGIwMjA4MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGI2MjIyYzIxNmYxMDM3NjNlYmVjYzlkMTVmNzc3M2VmMjBkMDUzMzljMGY1ZTE1ZGFkNmZjMGZhMDYyMzcyMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmE5ZDMyMzg0MWMxZTY5N2ZkOGRmMWFjYjYwNjk4MDVhYjIwYmZhM2MzODhkYTRlMjYzMGE2Yjg0MjRlMjRhYyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

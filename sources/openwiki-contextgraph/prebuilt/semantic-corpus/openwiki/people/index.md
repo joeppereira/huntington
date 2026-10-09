@@ -1,0 +1,7 @@
+# Files
+
+- [Eleanor V. Ashcombe, Chairman and CEO](chief-executive-officer.md) - Profile of Eleanor V. Ashcombe, Chairman and Chief Executive Officer of the fictional Meridian Harbor Financial Corp. It covers her public role, the priorities in her 2025 shareholder letter and the reporting lines that run to her.
+- [Chief Financial Officer](chief-financial-officer.md) - The Chief Financial Officer (CFO) of Meridian Harbor Financial Corp. chairs the Capital Governance Committee, which oversees capital planning, the CCAR submission and contingency capital planning. The sources do not name the CFO.
+- [Dana K. Whitfield, Chief Risk Officer](chief-risk-officer.md) - Profile of Dana K. Whitfield, Chief Risk Officer of the fictional Meridian Harbor Financial Corp. It covers her reporting lines, the independent risk function she leads, the model risk (MRGR) function that reports to her, her committee and compensation roles, and her public statements on credit.
+- [Marcus O. Lindqvist, Chief Technology Officer](chief-technology-officer.md) - Profile of Marcus O. Lindqvist, Chief Technology Officer of Meridian Harbor Financial Corp., who oversees the single Developer Platform exposing eighteen production APIs to internal applications, clients and approved third parties.
+- [Treasurer](treasurer.md) - The Treasurer role at Meridian Harbor Financial Corp. No source names a Treasurer or uses the title; this page records that gap and describes the Treasury/CIO function in the Corporate segment, whose duties a Treasurer would lead.

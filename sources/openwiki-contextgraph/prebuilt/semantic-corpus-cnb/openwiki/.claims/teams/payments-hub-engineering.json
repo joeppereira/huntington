@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f64ca2be61a4e204f41a283e133e7c497274c9ab2a71b49271f561171515c8a8",
+  "claims": [
+    {
+      "id": "claim_b60a86c224d940d8b65d48bad18db848",
+      "statement": "Payments Hub Engineering is an engineering team within Crestline National Bank's Payments & Treasury Technology (PTT) organization, led by Director Raymond Ortiz, and is the owning team of record for PRISM Payments Hub (SYS-PPH), a Tier 1 (24x7 critical) system running Volaris Payment Platform 9.4.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L51",
+          "version": "repo-lines-v1:sha256:8cb745022746c6f00b08c3f2a09e0918a946c66920d40e3717ccdfbeca766059:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NjAzMjVlZTYxNDVlYjgxM2I3YzEzZjQ0ZmFlN2Q1ZWFlMzMzNmQ4ODFiMGQwYmJmMDlhOTRmMmI5ZjcwYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZGU1ZmYwMTIzYzQzMjdlYjIxM2RhYzQ0ZDEyZTM5OTE4M2UxNjU3MGNlNTdhMDBiZGY4YTQ1NmEyNjk3N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkxNWI2OTEzMmIxYmRhOTZiNDk1ZmYzY2Y1Y2FjYmJhNzkyMDZhNDE3ZWZjZjQ0ZmQyMTU5M2NiZDM2NTBmOTgifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L97",
+          "version": "repo-lines-v1:sha256:3e754189cd6ed7e6bf56a0003483afa983aa49ac9592ceab583db2167e8a0dfc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MTI4YjA3ODdhMjEyNjJmYTk4NGM4M2QyMmI3Mjk0MTJjZGI3MzJkYmIxNDgxZjM1N2VjMjk4MzQ3YzczZjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6008b15d53fc447197e7fc79337861ed",
+      "statement": "Kevin O'Brien (Engineering Manager) and Sunita Rao (Principal Engineer) are jointly recorded as technical owners of SYS-PPH and report into Raymond Ortiz; Laura Kim (Director, Payments Platform Product) is the business owner of PPH and the paired product owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L47",
+          "version": "repo-lines-v1:sha256:467d4b3993708a0c6369d2765315dc621a5ab216f1cc5fff9d4c2bb757c62cfd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNWVjNmY0NDBkZjM0Mzc3OTdkZGNjZmMzZWE1NDRkZTEzMmU0MjMxMDc1NTYxY2Q2NWVkMjQ3OGI0ZWYzMzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzYTIxOTNmMDI0ZjRmNWU4M2M5NWRkNjIzMDY3ZjRiNmRmNmFkYzJjMzE0YmM4ODI2ODU1YzUxYmJjY2Y4MzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjYWNiOGZlMzRiNTdmYWZiNjU2NmQxZTFlYTFhNTNkOTllNmZhZjcxYzU0MjFiYTJmMzgyOGU0MDVhZGU0MWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhhMzQxODg5MjM3MmRkYjI4ZmVmNDIwNzQ3YTM4OTU1MDAwYjUzMTdmOTRkYjdmOGUyNWJkMGY0ZTA2OGVjOGQifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L87-L87",
+          "version": "repo-lines-v1:sha256:08d0a3f880ff32f85717ca63944932e8a04698d95da9082a3ba6fe2a41218cb3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDhkMGEzZjg4MGZmMzJmODU3MTdjYTYzOTQ0OTMyZThhMDQ2OThkOTVkYTkwODJhM2JhNmZlMmE0MTIxOGNiMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDhkMGEzZjg4MGZmMzJmODU3MTdjYTYzOTQ0OTMyZThhMDQ2OThkOTVkYTkwODJhM2JhNmZlMmE0MTIxOGNiMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWFkNDI2Yjc1ODFjNmI3YjA3MjE2OTBlN2RmMjIzNzliNjNmYzgyYmFmNDZlNzlhMWFiMGExZmIyZjE0NjIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmMxY2ZlM2M5ZmVkNDM4MDI5YTJjNmE0ZTE1NWExNTE0OTRjN2ViZDk1ZGFjZDU2OGM4OTNiODgyMDExZGI2YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_af130615647144f7b8a65d82b4407911",
+      "statement": "Payments Hub Engineering's team contact points are tracked via the PPH Jira project and the #pph-support Slack channel.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L47-L47",
+          "version": "repo-lines-v1:sha256:13a2193f024f4f5e83c95dd623067f4b6df6adc2c314bc8826855c51bbccf836:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNhMjE5M2YwMjRmNGY1ZTgzYzk1ZGQ2MjMwNjdmNGI2ZGY2YWRjMmMzMTRiYzg4MjY4NTVjNTFiYmNjZjgzNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNhMjE5M2YwMjRmNGY1ZTgzYzk1ZGQ2MjMwNjdmNGI2ZGY2YWRjMmMzMTRiYzg4MjY4NTVjNTFiYmNjZjgzNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGQwZTk1ZWZhZmE4MmFjZTY1MDYyYmU5ZGQzZDFiZmVmZTI5NDNlMDA1MzkwNTZhNDY2ZDhjZmFhNWJlN2QwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGEzNDE4ODkyMzcyZGRiMjhmZWY0MjA3NDdhMzg5NTUwMDBiNTMxN2Y5NGRiN2Y4ZTI1YmQwZjRlMDY4ZWM4ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_999602131d46414e90377ba3341b3b78",
+      "statement": "New engineering demand against the PPH roadmap must be raised through the Payments Platform Demand Board (monthly cadence, requests due prior month-end, 6-8 week lead time to schedule) rather than direct backlog intake into the PPH Jira project, distinguishing Payments Hub Engineering's intake model from teams like CBO Wire Center squad, CBO Platform & Entitlements, and Payment Networks Engineering that take demand directly into their own Jira projects.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L100-L103",
+          "version": "repo-lines-v1:sha256:414b8a468c6f62d74d2ed88b0878804843a2274e4a086af063d247e5d16469d2:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIxNDBmNzQyMzJjNGI1ZGYxYzU4NjI3ZTI3N2EzOGQzZWY4YTlmOWExMzc0NTk3ODcwOWMzYmEwNWY2MGI1NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjU4MDJiMDlkYzg5OTA0YTYzNzEwMDdjYmI1NTdlZmQ4YWY0YmI5OTdkYjQ1ZGNlZWVhNmI0NDJlYTQ2NjM1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2M2NmU2MWMxNmQ3Mzk5ZjU0MjRkZDEwNWMxZGVlM2I1OWJjZWU2OWUzYTMxNDk4MDIzNmI0MzMzZjViNjIzMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L131",
+          "version": "repo-lines-v1:sha256:a90484a0eb37c32d38329283cca0e9781b3b882322189ff39134445477ad5eae:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0NTBkMGJkYWE5ZTI0NTkwNzFhZTljOGEwYjc3ZDU2NjA0ZjYzNmZjZTU3YTVmOTQ1YjdiMGU2ODI3MTE0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM3YzEzOGZmMTg4YWM2Yjc2MmUxNGIyNDZmMWYwNTlhNTc3MzZlMjliZmU3YjI2OTcyMmIwMDQ2NjI2NjhjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWZhMjFkNWUzZTNjYzk3NTBiNTU4MTE2ZWU5NWQ3NmNlOTY0ZGYyYWFhMmZlYWY5YTllMjBjNGViMGZhNTc5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTJhYTNiY2QzNjgyNTFiZGYyNzcyMmM4YTE0ZGRhYTI0YmI1Y2U5ZTM0MWIwNzVlN2RjYzhlMDA3MmY2ZmM4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d47e7ebfbc51474b94ede292b88f39a8",
+      "statement": "Payments Hub Engineering's planning factor is roughly 1 story point ≈ 8 engineering hours, reflecting vendor-platform constraints plus regression testing, and the team was reported as approximately 90% committed for Program Increment 27.1, driven by November 2026 structured-address enforcement and FedNow outbound expansion work -- the highest committed-capacity figure among PTT engineering teams listed in the directory.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L138",
+          "version": "repo-lines-v1:sha256:5e8f25138683bde846ef0c644ee375a49c381dc55b8f31b3cbb6d01a7d4a0662:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjNDUwZDBiZGFhOWUyNDU5MDcxYWU5YzhhMGI3N2Q1NjYwNGY2MzZmY2U1N2E1Zjk0NWI3YjBlNjgyNzExNDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmYTIxZDVlM2UzY2M5NzUwYjU1ODExNmVlOTVkNzZjZTk2NGRmMmFhYTJmZWFmOWE5ZTIwYzRlYjBmYTU3OWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_51bea5939c3c424d901f5fcc7720f351",
+      "statement": "Dependency conflicts unresolved between engineering managers escalate to the respective Directors (for Payments Hub Engineering, Raymond Ortiz) and then to the PTT Leadership Team, which meets weekly on Mondays; compliance or policy interpretation questions route instead to FCC Policy & Advisory or the Privacy Office and are not decided by engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c49578a8117c46a985628df8f2822434",
+      "statement": "The Payments Architecture Review Board (ARB) meets monthly (2nd Tuesday, 10 business days' submission lead time) and is required for new client-facing integrations to payment systems such as PPH; the FCT Change Advisory (bi-weekly, 5 business days' lead time) requires FCC sign-off for hold/screening changes, which affects PPH's integration with the Hold Management Service.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L100-L104",
+          "version": "repo-lines-v1:sha256:cedf70a1ef327776fe9ae6b7139ac2d3edff58f920b8d56cfd11600a9037735d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjU4MDJiMDlkYzg5OTA0YTYzNzEwMDdjYmI1NTdlZmQ4YWY0YmI5OTdkYjQ1ZGNlZWVhNmI0NDJlYTQ2NjM1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e2cddef7e3874ff29a4c13a26db3a3c2",
+      "statement": "Payments Hub Engineering owns the mandatory PPH v1 API sunset (hard date 2027-03-31, confirmed by the Payments ARB with no extensions), tracked as Epic PPH-2190 owned by Kevin O'Brien, which depends on migration work in consuming teams including the CBO Wire Center squad's cbo-wire-bff migration (epic CBO-4471), illustrating a cross-team dependency the demand board and Director escalation path are designed to manage.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L109-L137",
+          "version": "repo-lines-v1:sha256:49acb4e24287eccb292c88984cb378f7f0f03f3cd14de72ead9e4b9f8eb2f3f0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwYjJhYzA0MmRlY2QzMjRjZTlhMGM4N2U3OGJhZGRkZWQzZWQyNzc3ZDU2ZTQzOWUwNjUzYzQxNGU5YzFkYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmZkZjI2NjZmNjRjMjI3MmQyZWZiMzc5MjU1NTdlNGRkZWU5ODUwZGFhZWY1MzU5ZTE5MmM3YzU1ZTAyOGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2NTFiYmE1MzhiM2E2ZGMxNDExMzAwMTFjMDVlOTcwYWVhYTEzZDhjZjhiYWZiMTA4MTRjNzNhYzM1MTMwM2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkZGFjM2UxYTc1MWZkYjUzMzAwMTIxNTVmYmI0YjA1M2QyNWJhZWZhMGRlOWQ5Zjc3MGE3YzRlZGNkMDNkZjUifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L53",
+          "version": "repo-lines-v1:sha256:515745db80ce9a62177b92b20ef36d463662dfc31de2d7348b229095edef6ce3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImViMjEzNjIwODEzNDE2YzBkNzQ2OTdhZWY5MDEzNDhiZjdiMGUzODk3MTMzYjE1NjlhNTY5OThhZTU0NTk0ZjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkMzk1ZDNiMTI2YTcwNTAyMjVmMDBjNjZlYjkwM2NkODBiNzhhZGZkYjQyNmY1OTE1M2NlYjBhOTI1YjE5ZDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZhNjVmNjA4NTk5MTc3Yzg0MmZkYjVmYzgzZTAxNzIwNTk4Y2JmMjEwMDg4NDAyNWU5NGY2Y2FjZjMwZDBhYjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc3ZjdlOGY2ZGJiMjljZjRlMzdjNWE4MDU0YzFlZTMyYTUzZGVmYmEwYzFlZWY0ZDE0MmU2YWIzZThlMGVkYTEifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

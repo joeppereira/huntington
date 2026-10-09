@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:cc4fa159f8343f29f582784e13352dc901c611407184811615f0288be1414398",
+  "claims": [
+    {
+      "id": "claim_61fffed1d9594191add21da7fdf9a7f9",
+      "statement": "The repository's trace log stores one Markdown file per conversation turn under sessions/<session-id>/, which is the raw per-turn source material that the context graph's Session, Turn, and Decision pages are derived from.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L1-L3",
+          "version": "repo-lines-v1:sha256:a3d8fe5f816a8b40d40c8c28c2ee5c7fe02241a4d3e303156491655bb455ce45:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDk0Y2M1ZTY0NWFhNjY2N2JjNzRjYWI2MzNkMGZkNmFkNDVkZTkwN2UzYjQ2OTA2YWYxNjAxY2Q5OTc0NDM5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzNkZDFiMTgxNDIyZmVlOWFmOTA1MTU3YzM1NjAzYjUxMDUzODNjOTg0NjQ4Mzc5MzRlMTIzZjg1ODFhODY3MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T20:59:04.422Z"
+  }
+}

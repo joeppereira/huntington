@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f4e5cd39cdb492fbc4c6f354c3b41f1f09b608df9545b5262a86bf0ff9a1e920",
+  "claims": [
+    {
+      "id": "claim_c33a01f44b5e41baac3671b271e6b76a",
+      "statement": "The cbo_wire_events dataset is cataloged in the TDIP Payments domain data catalog with source 'CBO clickstream', Hourly refresh, 13 months of retained history, Internal classification, and Marcus Chen as data owner/steward.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L38",
+          "version": "repo-lines-v1:sha256:9db3a86d366138313249f5efd2e75c005b4fc60ba7037a8e3eeab1fbc0e03778:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzNzkzNzhmMWQwZjYyMjdhNDM5ZTI4MjNjYzBmZWJhZDlkNjczOTk3ZDFjMjU0Y2I5OGFhZmI2MmVlZTI1NDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a2e1230da5d4f25ac43fc6010bfde1b",
+      "statement": "cbo_wire_events carries the lightest (Internal) classification among the Payments domain datasets in the TDIP catalog, in contrast to Confidential - Client or Restricted - Client Confidential classifications on sibling datasets such as pay_wire_txn_hist, gpi_tracker_events, client_hierarchy, and dda_txn_history.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L30-L38",
+          "version": "repo-lines-v1:sha256:3be99fcc4dadbd8a755cd6c770deace2e26c15919f0ac08f507059de8aea9c87:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQzNzlkMDBhY2E0NjJkYWRjYTY2OGNiZmU4OGUxOTdhODk1MzczZjkwOTdkZGU1MDgwMGZkM2JjYjE4YjEzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjM3OTM3OGYxZDBmNjIyN2E0MzllMjgyM2NjMGZlYmFkOWQ2NzM5OTdkMWMyNTRjYjk4YWFmYjYyZWVlMjU0MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0d0bce64ae3b4a35b6cff0860d36a1f8",
+      "statement": "Marcus Chen, the data owner of cbo_wire_events, is also the Director of Digital Treasury Product and Product Owner of CBO Wire Center, and is recorded as business owner of SYS-CBO, SYS-CBO-SPS, and SYS-CES in the PTT system ownership register, aligning the dataset's ownership with ownership of its source channel.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L34-L34",
+          "version": "repo-lines-v1:sha256:b5e7325963451bc8548b7868c5ec5ce8d709e35b7098ffc7ce48e7f383107e93:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjVlNzMyNTk2MzQ1MWJjODU0OGI3ODY4YzVlYzVjZThkNzA5ZTM1YjcwOThmZmM3Y2U0OGU3ZjM4MzEwN2U5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjVlNzMyNTk2MzQ1MWJjODU0OGI3ODY4YzVlYzVjZThkNzA5ZTM1YjcwOThmZmM3Y2U0OGU3ZjM4MzEwN2U5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWVkMDcwNmQ1N2ZjMDQxODY1MjA2OTA2ZDA4ZTFhOWM5MjgyZjczMjQyZDlhMjg1NjI2NzM4NmFhYTM1ZGRhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTQ5N2QwZTJjMDAxM2Y0YzBmYWEyM2FmNjU0MDdlNTRlYzliYjAzNDM2MDQzNDAxN2YzMDI0NjVmNzFkYjUxMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L86",
+          "version": "repo-lines-v1:sha256:4de8e26db7bc18cbdff9eb7884fdc219b73642235b8a429f78efeb29826b23b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODYwNjFjZmQ3YmE2ODFhZDkyYWY4NjA4YTI2Y2M3ZjYxODI5NTQyYmYxZGQ3ZmU4NGJjMjE3YWQwMGY1ODZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2MTBhYmUzOTJhNTcxMGZiYjY3NmEyMWM5ZWQ3NTFhNDdlMDFlMzY0YjM0MmQ2YjY1ZDliNjc2MTk3NTgzZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2NzEwOTA3MzI2NTUzNjJhNjM1MTBlMGY1OTNlNDI1ODc1N2I1MjljMTAyZWJmMTM3ZWY0M2Q5YWViOWZiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L37-L37",
+          "version": "repo-lines-v1:sha256:3c7ceead610b43e240675de4e573c7c374eef9a3137ddec21be5948d6295f533:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M3Y2VlYWQ2MTBiNDNlMjQwNjc1ZGU0ZTU3M2M3YzM3NGVlZjlhMzEzN2RkZWMyMWJlNTk0OGQ2Mjk1ZjUzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M3Y2VlYWQ2MTBiNDNlMjQwNjc1ZGU0ZTU3M2M3YzM3NGVlZjlhMzEzN2RkZWMyMWJlNTk0OGQ2Mjk1ZjUzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmEzMGZlOTU5ZjZlOTczNThjOGYyMjE4MmFjZDYxY2IyY2I3ZmE3ODg0NTYwMTIxYjk1MTllNmUzMTY3M2YyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_513114096ccd4239aa4ca550e6e63171",
+      "statement": "CBO Wire Center generates substantial client-facing usage activity that plausibly underlies clickstream telemetry such as cbo_wire_events, including about 1.4 million Wire Center page views per month and about 310,000 'Refresh status' clicks per month across roughly 9,800 entitled client companies and about 41,000 active 90-day users.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L28-L37",
+          "version": "repo-lines-v1:sha256:96b9d2e45baf7d433e9070aaea515be07a963b66c1232a6900fd84158208af10:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4MWZkOWIyYzE2NTk1YTRmZWU4NjY1N2Y3MzI4MjNlMzljYWFkY2UwMGJlODQ3MGNkNWIwN2FjMGZjZDNiZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmZGM1OGJhNjYwMzQyZGNlYjQzOWQ1MzZjZGQxNzcxOWNmMDZjN2I5NzBjODBkYWQzMWIzNDUyNDZmNmMxZGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIwNzYzY2U5MDdhNThjY2QyNzc3OTk5YzNlYjcxOTY2YmE4MWM1ZjdlODgwYzRmZjZhZDY5ZmYxZTBjNmRkZTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyZTU3Y2E0NTUzZjgzYmFhNTY1ZjBlMjZlNTg3NjMwMTI1ZWQxZGMwMmYwMmYzNWNlZjJkNGFkY2Y0NjhlNzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0a6afb6fd15a4b0ab4743161e27bca65",
+      "statement": "The TDIP data catalog does not list cbo_wire_events as a source for any published feature table (wire_corridor_stats_daily, beneficiary_behavior_profile, client_wire_history_features) or for the GA Insights API cash-forecast endpoint; those are derived only from pay_wire_txn_hist, gpi_tracker_events, and dda_txn_history.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L41-L47",
+          "version": "repo-lines-v1:sha256:2082afba3708689b0dd9e8cc06eec2f17b36425ffb27d4c65d970fba22e7b421:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmJjNmY5MDM2OGFjNDIwMGQ2NWU2ZTk1M2FmMjFjZjkxYTI0OWI3MmI4NjBhYWI1MGUyZGY4ZWY3MmE1ZGU0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L71-L78",
+          "version": "repo-lines-v1:sha256:9ff2dbdad8a7a92fcfad966003ef7f62003fb76109462ce26ef3430ae6317e3c:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ2NDg3MWQxYzZkMGVmNTM5NDM0Y2U3YmI4OGZjYzliYmU0NWEzZWU0MDc1ZDdlMWRjZjcyOTMyOGU0MDlmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDEyNDcwNjUzODY5ZDM2ODFkNGY3MDZiZDU3YjFhZTk2ZDliNmJhMTY4ZWY3YzkzOWY3YTNmOGM5OGEzZjFjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTc3YjlkODYyN2VhMTYzNGU5NjQzM2IwMDVhODE5MWI0YWVkZmI3OWUzNTRlZGQ2NDBjMGI1ZWU1M2VkOGU0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a2f003e44994e9bbfb67cef62b0efa5",
+      "statement": "cbo_wire_events refreshes hourly, matching pay_wire_txn_hist's cadence and faster than the Daily cadence of dda_txn_history and client_hierarchy, and faster than gpi_tracker_events' current nightly cadence (pending TDA-2188 moving it to hourly, targeted 2026-11).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L30-L38",
+          "version": "repo-lines-v1:sha256:3be99fcc4dadbd8a755cd6c770deace2e26c15919f0ac08f507059de8aea9c87:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQzNzlkMDBhY2E0NjJkYWRjYTY2OGNiZmU4OGUxOTdhODk1MzczZjkwOTdkZGU1MDgwMGZkM2JjYjE4YjEzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjM3OTM3OGYxZDBmNjIyN2E0MzllMjgyM2NjMGZlYmFkOWQ2NzM5OTdkMWMyNTRjYjk4YWFmYjYyZWVlMjU0MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L82-L88",
+          "version": "repo-lines-v1:sha256:60996095138c66b375cef4489154f82351719b5d9bd7857ad94f0299baa7512d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRjYmE0YTQ2ZGI1NDYxNWVkMTQwMjU5NDc0ZTJkNTMwYmRkZjdjM2Y4OGNmNGY1YjI5NDhiYjEzNjRlMTJkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmY2Y4Y2E2MmE1Yjg5MWE2OTEyMzBmOTM1MzZkZWRjM2E1MTgyNDE0MWZhYzYyMmZlOWU5YzgxNzI5ZWM0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQ1NmUwNWRkNTFjYWQxZDYzMjk3ZDIzOGJiMWY2NjJiMGU3YTUyNGMyZWM5MmMxOWQ0NmJiMGU0YzU2NDVlYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8aec6802675a43e4a4b6be5ee7dff64b",
+      "statement": "TDIP's known-gaps section states there is no real-time (sub-minute) serving for wire data on the platform; minimum freshness across the Payments domain datasets, including cbo_wire_events, is hourly, and dataset access is governed in Collibra with a 15-business-day Privacy Office approval SLA applying to Restricted-classified datasets (a tier cbo_wire_events, as Internal, is not subject to).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L24-L26",
+          "version": "repo-lines-v1:sha256:7da4ef09857d42d661a8423664c4eba22ed197cd925d9e12582890f733e3ad87:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1MjAwZjAyM2RkOGY0NjZjYWZlYWFkODQ1MDIxOTAxZmNhMDg5N2U2NjQxYjNhOTdjYTExYzM1ZGQxM2VjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdmNTNkYmVlMWI2OTM4Yzg3YWI4NzEyNmZkYjBkYzhiZmZjNjkyOWNmYTg1MGYyNzZlODU0MGJjYzA2MTg4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L82-L88",
+          "version": "repo-lines-v1:sha256:60996095138c66b375cef4489154f82351719b5d9bd7857ad94f0299baa7512d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRjYmE0YTQ2ZGI1NDYxNWVkMTQwMjU5NDc0ZTJkNTMwYmRkZjdjM2Y4OGNmNGY1YjI5NDhiYjEzNjRlMTJkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmY2Y4Y2E2MmE1Yjg5MWE2OTEyMzBmOTM1MzZkZWRjM2E1MTgyNDE0MWZhYzYyMmZlOWU5YzgxNzI5ZWM0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQ1NmUwNWRkNTFjYWQxZDYzMjk3ZDIzOGJiMWY2NjJiMGU3YTUyNGMyZWM5MmMxOWQ0NmJiMGU0YzU2NDVlYSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

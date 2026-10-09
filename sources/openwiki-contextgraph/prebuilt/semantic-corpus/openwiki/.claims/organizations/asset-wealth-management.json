@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:fee7d216c41ada6866ca41b0e9ea586b380f85fa9a388a5792e6c504e8500e09",
+  "claims": [
+    {
+      "id": "claim_4b963d25d7bb4fc8a400f6d5c5e4b7f1",
+      "statement": "AWM is one of three reportable business segments of MHFC (with CCB and CIB), alongside the Corporate segment, and serves institutions, retail investors and high-net-worth individuals across equities, fixed income, alternatives, multi-asset and liquidity strategies, plus lending, banking and trust through Global Private Bank.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L226-L230",
+          "version": "repo-lines-v1:sha256:d3de9624d4672340ed5362582df59ec515279690f62260167eee1e8b2753af16:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQzODg3ZTdjNzM0YzQzZjg5MmVhYTA2M2JlNWEzMmFlYzkxNjYyYzY3NmFlNDA3ZDAzYWRiMGU3MGJiMTFhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTY0ZjQ0NzUwOWZhMDI4YzA3MWVlMjRkYTlkNWQ0ZTNmMWQ0YTg3YTViNzIyYWRmYTU4NGZmYjM3NzkwZTUzNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2UxZGYyOTJiMmM3YjBkNDRkMmIxNTBmOGNkMTI1NWQ5ODAyYzliY2JhMTQ0YjI1YTlmYmE1M2M1YjhjN2FlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2ZmYTFkYjEyNDc2YzE4NGEyNmNjMGU2ZmFmODY0NjI1ZmUzNmViYmNiNDYzNDA0NDQ4YmU4MzUxNTg3ZTQxNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L98-L98",
+          "version": "repo-lines-v1:sha256:807e4eade7df2f4f1bd1b50c826ff75ce7d91128f70166a7edb86ae2cd1720ef:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3ZTRlYWRlN2RmMmY0ZjFiZDFiNTBjODI2ZmY3NWNlN2Q5MTEyOGY3MDE2NmE3ZWRiODZhZTJjZDE3MjBlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3ZTRlYWRlN2RmMmY0ZjFiZDFiNTBjODI2ZmY3NWNlN2Q5MTEyOGY3MDE2NmE3ZWRiODZhZTJjZDE3MjBlZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmVmMTIyYWIwNTVhYWQ0Y2ZlMjZmYzUzNzI3ZjMxYWNlNmU1MzkzMmUwNDBiNDEwOTdhZDQxYmJjNzZiY2VlYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzNjMWRhMGQ0YmU0MGQ2MDcyNjFkN2U0NjI3YmRjZmU2MGU5ZWQzMzRiYjRlNmY5ZjRmMjc3NDZjODRlNjk2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_736f9d8f92a3423e8a741c37406d07ae",
+      "statement": "In FY2025 AWM reported net revenue of $13,180 million (+7.2%), net income of $3,580 million (+10.5% from $3,240 million), NII of $3,640 million, noninterest expense of $8,420 million, provision of $60 million, ROE of 32.0% (up 200 bps) on $11,000 million average allocated equity, and a 36% pre-tax margin.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L226-L243",
+          "version": "repo-lines-v1:sha256:c7f027028ea5aafd3cd88fdb70f1393bcde35f747ccc9c3b869696af69cce1d3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZkMzg4N2U3YzczNGM0M2Y4OTJlYWEwNjNiZTVhMzJhZWM5MTY2MmM2NzZhZTQwN2QwM2FkYjBlNzBiYjExYWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzMDFjZmU2NWRlMDVmYTFkYzFjZmIwYzk5MjJkMzNlZGFmZDIxMjUwZjY5ZjI3MTI3ODBlNjEwZDBjMTVlNGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlMWRmMjkyYjJjN2IwZDQ0ZDJiMTUwZjhjZDEyNTVkOTgwMmM5YmNiYTE0NGIyNWE5ZmJhNTNjNWI4YzdhZTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI3MzFkZmM4NTM5MWI2NjQ4NGMzZDg4MDI2MDdmZDI5NTMxODQzZmU0Njg1NjFkZjhiZGFjNDUxNWU5ODAwZGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0416733abe6c4d74bc366b73d1c9da07",
+      "statement": "At year-end 2025 AWM AUM were $2,140 billion (+12.0%) and client assets $3,180 billion (+10.8%); the annual report attributes growth to higher average market levels and record long-term net inflows of $148 billion, with wealth advisor headcount up 6%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L230-L243",
+          "version": "repo-lines-v1:sha256:4960f0fa13e3c963d688b873e2ee9a9b9ed79d0122cec690071f27cf38c92e3f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2NGY0NDc1MDlmYTAyOGMwNzFlZTI0ZGE5ZDVkNGUzZjFkNGE4N2E1YjcyMmFkZmE1ODRmZmIzNzc5MGU1MzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzMDFjZmU2NWRlMDVmYTFkYzFjZmIwYzk5MjJkMzNlZGFmZDIxMjUwZjY5ZjI3MTI3ODBlNjEwZDBjMTVlNGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQzNzE0NWU2YmRhMDRiODk1NmYxNWFkNWU2ZDdkYzBlMjU5ZTU0ZjFkOTM3YzY2NjE2OWRhNDkyMjk2Zjg4MTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI3MzFkZmM4NTM5MWI2NjQ4NGMzZDg4MDI2MDdmZDI5NTMxODQzZmU0Njg1NjFkZjhiZGFjNDUxNWU5ODAwZGYifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L45-L45",
+          "version": "repo-lines-v1:sha256:f41553a04ba758313b2b342e12399a3635d1df227c93c05073ced7c4ea79d7c1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjQxNTUzYTA0YmE3NTgzMTNiMmIzNDJlMTIzOTlhMzYzNWQxZGYyMjdjOTNjMDUwNzNjZWQ3YzRlYTc5ZDdjMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjQxNTUzYTA0YmE3NTgzMTNiMmIzNDJlMTIzOTlhMzYzNWQxZGYyMjdjOTNjMDUwNzNjZWQ3YzRlYTc5ZDdjMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTU2ZmYzZmVhMzI1YWM2ZDFkMmU4ZDNiNGM5ZjVlNmU4MmY4NDdhZGE2YTIwOTBjMGU0OTc0Y2IwYzgwYWNjMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmYwMDVmNWY1MTgxNjI4YWNhNWFkYzRhZTllYjI2NzA2MmYwOTRjMTRjNWQwY2M5NWQ4N2ZlYWRiMGRmMWUxYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_507df3d337754662ac121958194cedc7",
+      "statement": "Segment capital is allocated on standalone risk profile (Standardized requirements, stress capital buffer, G-SIB surcharge) and segment ROE is net income less allocated preferred dividends over average allocated equity; AWM's 32% ROE is the highest of the three business segments (CCB 30%, CIB 18%, Total Firm 21%), and AWM contributed $3,580 million of $24,960 million firm net income.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L168-L176",
+          "version": "repo-lines-v1:sha256:88960541c97f73fe0f5b97fe5dac33915f26fdbcc28ff1c35aa2acc106a56a59:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQwYWZiZjY5YzVkYWIyODM0ZjAzMGUzNzAzMDVlYTg3ODk5MDIwODZhNjQzYzc1ZWEwZTgzY2M3ZjAyZmZiYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRiYTc2ZDI0ZDIwZjQ4YWJkOTI0M2VlYWFlMWQzZDNhN2MwNWUwMjc4YjZkMWExM2UyN2Y0NmQwNzEwZDM1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTgxZjAzZjIwMzViZTQxNmZkYWJiZmY2M2ZhNDU0MzUzODQwZTRiMTUyOWVhYWZjNjc3ZWU1MzY4NzQxOGQxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdiZDNjMzdkNTA3ZDg5ZmZkNmM1NTRmMjhiYTc0ZDU1Mjc2MjgwZjgxZDg4YTdlYTQ1ZTUyOWEyMGVlNGFiZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7e6dffc2a7744673b1c467f52f671425",
+      "statement": "In 2Q26 AWM net revenue was $3,560 million (+3.5% QoQ, +10.6% YoY) and net income $960 million (+5.5% QoQ, +10.3% YoY), against firmwide net income of $6,540 million (-0.3% QoQ, +6.9% YoY).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L204-L213",
+          "version": "repo-lines-v1:sha256:6b0b4777c11fb384b72c85095d8276e2b0c1a07dd5341185b0cc4a9f3813fc40:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlMzUyZWUxMDE3ZDFmYjY3YjUwZTNjYTI2MDk2Y2QwOGI2YTExZTg5ODMxMjk4MTVkYWFkZjA1MDgzM2UwY2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyY2Y4YTBmZjlhM2JkOWIwZDE5NDdiOGYzYzRmYjBkNDM4OWQyYTMyZGMyNzNjNzYxMWYyNWI3Y2I5MjMxNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyNmRkOTQ1ZWNmMDBiNzFjYmZkZGY5YjViYWU1ODZjYjQ5YTEyZTA0NTIwOTRkMzM2ZThlMWRhNzMzMTIwMjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4Yzc3OTc2MGIyZjc3ZmE2YjJkNjYwYmUyNjI1M2Y5NjVmZDRlNTc2OTdlMmEwN2U4ZmY4NDNlNzEwOGUzMzgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L57-L67",
+          "version": "repo-lines-v1:sha256:56e5e49678cd5f518ccdf92753f2de96a3da711878b49efdd0c6a62d31392ee8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0N2ViZGZlNjc3ZGY1ODYyMmI4YzdiMWJiOTE2MDAzYjZlNDkyYzE0YzMyNGQ1YjEwYTE5N2MyMTY0MWQ3NTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5MTJlNjcwYzljZjdhOTU0OWQ5NGE0MGFhYzhhZTZmNjA0MWEyZGZjNGUwMzU4NzhhYTMzNzJhZWFlYzNlYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEwZTYxY2VlM2ZjMDE4ZTkxZDY4Y2M4MTg5ZDdiYTZmODk3YTAyYTZmYTI4YjgzZDc1MWE5YjkwYzg1NzkxNWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhjOTA4MzIxNDM1ODI4MmI4OGU3MTkwNmFkZWU5NDZlYWNjN2Y2MDYxNTkxNzMzMTI2Mjk2ZmU0ODJhMzY5M2UifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c404cc3854f148b1b6c76f3484c8205e",
+      "statement": "At 2Q26 AWM AUM were $2,270 billion and client assets $3,310 billion (both records); long-term net inflows were $41 billion and liquidity net inflows $18 billion; asset management fees were $2.48 billion (+10% YoY); pre-tax margin 36% and ROE 34%; average loans $63,800 million and average deposits $238,100 million.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L204-L221",
+          "version": "repo-lines-v1:sha256:83094303e963caca4b64c81fa76247497a1ffdcc2473e1ef946c9037e4e89002:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlMzUyZWUxMDE3ZDFmYjY3YjUwZTNjYTI2MDk2Y2QwOGI2YTExZTg5ODMxMjk4MTVkYWFkZjA1MDgzM2UwY2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmNjY0NWNhNjU5ZTU5ODkwZDE1ZGQ4ODkzZmIwYzIwYmU1ODMyNTYyODgxNmMxYWY1ZTBlODhhN2RjMzFmYzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyNmRkOTQ1ZWNmMDBiNzFjYmZkZGY5YjViYWU1ODZjYjQ5YTEyZTA0NTIwOTRkMzM2ZThlMWRhNzMzMTIwMjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE5NTcwODRhY2RlYzliNjY1ZGY4ZDI1OTIwZDU4ZThkNGM1Njc0NDJhOTkyOTg1MmE1NmYyYzVhZmIwMDMzNTYifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L73-L73",
+          "version": "repo-lines-v1:sha256:c216dffa2b00d3ba0b07e7e9fcff7badb65ae1a150a8664ddd5c1708728f4739:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIxNmRmZmEyYjAwZDNiYTBiMDdlN2U5ZmNmZjdiYWRiNjVhZTFhMTUwYTg2NjRkZGQ1YzE3MDg3MjhmNDczOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIxNmRmZmEyYjAwZDNiYTBiMDdlN2U5ZmNmZjdiYWRiNjVhZTFhMTUwYTg2NjRkZGQ1YzE3MDg3MjhmNDczOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDViYTNiYTQ0ODhlOTU4YmFkYTNmZjM5YzA4MTA1MDk4M2M0NTc0MWE2NDg1MjY5OTFiNjQxYzQ5YmEwZWI4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWYxZjkwYzhmYjU1ZTMzZmQ1MTZhNmYyMDAzZjIxMmY3NTdiMTE5ZmU3ZGViMWZkMzk0NTIwOGQxOTAzMzg1NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9892f09afe4140dcb1c86766ab5cce33",
+      "statement": "Q2 2026 AWM commentary: growth driven by market appreciation and net new money, notably in Global Private Bank and active ETFs (top-five issuer by net flows); advisor headcount +5% YoY; private bank lending (mainly securities-based lending and mortgages) +7% with negligible credit losses; $9 billion alternatives fundraising.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L223-L227",
+          "version": "repo-lines-v1:sha256:8cf6a0a60184071ecf64e111a755802b8ed8cd3f9b055c7800fe3e89c67c6bca:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2NDFiMWE0NmFiY2FlM2YyOGY0ZDBkOWU0ZjBhYjE5ZGE5NDM4NjA1NWE5NjAwZmRmZTg2OWY5OGYxNGRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M2Y2Q4YjQ0ZjRhYWNmYWE2NjExZDlkYmU3NTFkYjI1ZWRmOTI1NzkyNDJiYWU3OTZlYTQ5N2RlZTMzZWNjZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjExMzQzN2E3MzVhNjlmOGY0YWNiNWQ3ZjFhZWRhMjdlZjU2NDIwZmEzOTVkMDFkMmMxYzQ2ZDBiYTIwNDg1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjAzZDFkZWFiYmQ3M2JkYjM2OTFkY2M3ZWZmZjY2MThkYTg0Yzg3NzUyOTFlZWQ3MTEzMzdkMjcwZmE0NWQzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_166a5ebe60e44f3583d97298c1d4a228",
+      "statement": "Higher eligible collateral on securities-based lending in AWM is cited in the Pillar 3 disclosures as a main reason for improved asset quality and collateral in credit risk RWA.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L168-L168",
+          "version": "repo-lines-v1:sha256:a7db67a8e773f0adae3aa34f6152182e7025fa3a25f7cbd81cf91199d98333b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdkYjY3YThlNzczZjBhZGFlM2FhMzRmNjE1MjE4MmU3MDI1ZmEzYTI1ZjdjYmQ4MWNmOTExOTlkOTgzMzNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdkYjY3YThlNzczZjBhZGFlM2FhMzRmNjE1MjE4MmU3MDI1ZmEzYTI1ZjdjYmQ4MWNmOTExOTlkOTgzMzNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmI2ZDQxNzNmNDZlY2VmZjE0MzU5MDg4MGUxNGE1MTViZjVhOWMzZDZlNWFkNzc5ZWE1ZDkxYTg2YTUyMzMwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJjZTZhMzE2ZWRkMDRmNGMwM2JkZTIwOWE5NzYzNmYyZDI2N2NhN2Y1MjIxYjY1ZDkwZTJkMTQ0NmEwZTVkMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_664a92134a1b40ec991826be26d32619",
+      "statement": "Firmwide asset management fees were $9,120 million in 2025 versus $8,340 million in 2024 (+9.4%), and the annual report attributes the rise to higher average market levels and strong net inflows.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L126-L137",
+          "version": "repo-lines-v1:sha256:6f8a846e8ad415179884078b553ec4cf145b9fe47d000aab1f42fd92657c7171:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4MmZiYzgzYjc1NTEyYThjYTVkMzE3ZjNlZGQ0NzJhMzkyNWJkODNjYjI5NTU2MGQzN2Q0MTU0MGM2OTY5YzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkxMDQ3ZWY3MTA3YzMzNWJkMzc4MmU3M2Q1ZGEzZThkNzU5OGRlZTVhZDVmN2UwOGRjYjZiMmZjZDEzNmJiM2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ3YzZjOTc4NWI1NmI1MTk0OWZlNjk1NDNlN2NkM2VkM2YzNWYyYTE5MjhjMTljYjU4ZWYxNmJmNzc2MTZjMTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwMGRmZDgyMmJlYjc5NjNhNTJiNTJhNTllMmNiYzZhNmZiNzJhNWI5OWNhZWRjZWJiYThkNDA5MDNmMjlmNzAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9d2b5f72d5154afeb8294598412a13b9",
+      "statement": "AWM is the smallest of the three business segments by FY2025 net revenue ($13,180 million vs CCB $40,800 million and CIB $32,450 million) and net income, but has the highest segment ROE (32% vs Total Firm 21%).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L168-L176",
+          "version": "repo-lines-v1:sha256:88960541c97f73fe0f5b97fe5dac33915f26fdbcc28ff1c35aa2acc106a56a59:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQwYWZiZjY5YzVkYWIyODM0ZjAzMGUzNzAzMDVlYTg3ODk5MDIwODZhNjQzYzc1ZWEwZTgzY2M3ZjAyZmZiYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRiYTc2ZDI0ZDIwZjQ4YWJkOTI0M2VlYWFlMWQzZDNhN2MwNWUwMjc4YjZkMWExM2UyN2Y0NmQwNzEwZDM1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTgxZjAzZjIwMzViZTQxNmZkYWJiZmY2M2ZhNDU0MzUzODQwZTRiMTUyOWVhYWZjNjc3ZWU1MzY4NzQxOGQxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdiZDNjMzdkNTA3ZDg5ZmZkNmM1NTRmMjhiYTc0ZDU1Mjc2MjgwZjgxZDg4YTdlYTQ1ZTUyOWEyMGVlNGFiZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6af2642e971d416294e6fefe1b8741b0",
+      "statement": "The annual report cites higher revenue-related compensation in CIB and AWM as a driver of the 4.8% increase in firmwide compensation expense in 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L160-L160",
+          "version": "repo-lines-v1:sha256:4440205db0bd7018de92150f758e2931fbd3c56674ca8f1838ee43f23b80c9a3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDQ0MDIwNWRiMGJkNzAxOGRlOTIxNTBmNzU4ZTI5MzFmYmQzYzU2Njc0Y2E4ZjE4MzhlZTQzZjIzYjgwYzlhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDQ0MDIwNWRiMGJkNzAxOGRlOTIxNTBmNzU4ZTI5MzFmYmQzYzU2Njc0Y2E4ZjE4MzhlZTQzZjIzYjgwYzlhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWU2MDFiMGYxZWZjOTE2OGMyZTQwZmVjODI5OGQwNTkyODY0ODc5NmM3ODA0OTg3Yjc3ZGY2ZjU5MWNmMGQwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTBmY2UxMGEwZGE4MTk1NjNkYWJmZjM0MjU5MWRjM2Q5M2NlZDdmNjU1MmU5NDEzYzk4MWI3ZTg1NjNkMzk5MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f8e90b1549c54847a51c225ca30384f2",
+      "statement": "AWM period-over-period comparatives: FY2024 net revenue $12,290 million, NII $3,550 million, AUM $1,910 billion, client assets $2,870 billion, average loans $57,900 million; 1Q26 net revenue $3,440 million, net income $910 million, AUM $2,210 billion; 2Q25 net revenue $3,220 million, net income $870 million, AUM $1,990 billion.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L232-L243",
+          "version": "repo-lines-v1:sha256:8e30b1fcede0b581443519d5c31dea65e5753f31153ef17e27560f536b7a6720:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk0NWI5YWNiOTcwNDhlMjAyOTQ2MWEyNjdmYjVkZjkyMGJhYmJlZWU0ZWZlMzQyZGMxNGU1MDZkOWRlMjY1NWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzMDFjZmU2NWRlMDVmYTFkYzFjZmIwYzk5MjJkMzNlZGFmZDIxMjUwZjY5ZjI3MTI3ODBlNjEwZDBjMTVlNGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ2ZTFkYjA4MGUyZWY0NTY1NjVjYjMyY2RlNTQyZmUwMDlmMWNkNGIzMzgzZTcxNDRlMjlmMmFlODFiNGE4NGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI3MzFkZmM4NTM5MWI2NjQ4NGMzZDg4MDI2MDdmZDI5NTMxODQzZmU0Njg1NjFkZjhiZGFjNDUxNWU5ODAwZGYifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L204-L213",
+          "version": "repo-lines-v1:sha256:6b0b4777c11fb384b72c85095d8276e2b0c1a07dd5341185b0cc4a9f3813fc40:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlMzUyZWUxMDE3ZDFmYjY3YjUwZTNjYTI2MDk2Y2QwOGI2YTExZTg5ODMxMjk4MTVkYWFkZjA1MDgzM2UwY2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyY2Y4YTBmZjlhM2JkOWIwZDE5NDdiOGYzYzRmYjBkNDM4OWQyYTMyZGMyNzNjNzYxMWYyNWI3Y2I5MjMxNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyNmRkOTQ1ZWNmMDBiNzFjYmZkZGY5YjViYWU1ODZjYjQ5YTEyZTA0NTIwOTRkMzM2ZThlMWRhNzMzMTIwMjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4Yzc3OTc2MGIyZjc3ZmE2YjJkNjYwYmUyNjI1M2Y5NjVmZDRlNTc2OTdlMmEwN2U4ZmY4NDNlNzEwOGUzMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_27df7dbde5e343f983a91254cc17e2d5",
+      "statement": "In 2Q26 AWM average loans rose to $63,800 million (+6.9% YoY) and average deposits to $238,100 million (+4.9% YoY); the segment's net income growth outpaced firmwide growth on both sequential and YoY comparisons.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L204-L213",
+          "version": "repo-lines-v1:sha256:6b0b4777c11fb384b72c85095d8276e2b0c1a07dd5341185b0cc4a9f3813fc40:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlMzUyZWUxMDE3ZDFmYjY3YjUwZTNjYTI2MDk2Y2QwOGI2YTExZTg5ODMxMjk4MTVkYWFkZjA1MDgzM2UwY2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyY2Y4YTBmZjlhM2JkOWIwZDE5NDdiOGYzYzRmYjBkNDM4OWQyYTMyZGMyNzNjNzYxMWYyNWI3Y2I5MjMxNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyNmRkOTQ1ZWNmMDBiNzFjYmZkZGY5YjViYWU1ODZjYjQ5YTEyZTA0NTIwOTRkMzM2ZThlMWRhNzMzMTIwMjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4Yzc3OTc2MGIyZjc3ZmE2YjJkNjYwYmUyNjI1M2Y5NjVmZDRlNTc2OTdlMmEwN2U4ZmY4NDNlNzEwOGUzMzgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L57-L67",
+          "version": "repo-lines-v1:sha256:56e5e49678cd5f518ccdf92753f2de96a3da711878b49efdd0c6a62d31392ee8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0N2ViZGZlNjc3ZGY1ODYyMmI4YzdiMWJiOTE2MDAzYjZlNDkyYzE0YzMyNGQ1YjEwYTE5N2MyMTY0MWQ3NTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5MTJlNjcwYzljZjdhOTU0OWQ5NGE0MGFhYzhhZTZmNjA0MWEyZGZjNGUwMzU4NzhhYTMzNzJhZWFlYzNlYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEwZTYxY2VlM2ZjMDE4ZTkxZDY4Y2M4MTg5ZDdiYTZmODk3YTAyYTZmYTI4YjgzZDc1MWE5YjkwYzg1NzkxNWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhjOTA4MzIxNDM1ODI4MmI4OGU3MTkwNmFkZWU5NDZlYWNjN2Y2MDYxNTkxNzMzMTI2Mjk2ZmU0ODJhMzY5M2UifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ff15dddb957842e0996bc783bf6199a2",
+      "statement": "AWM's 2Q26 commentary adds that 84% of ten-year long-term mutual fund AUM performed above the peer median.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L223-L223",
+          "version": "repo-lines-v1:sha256:a3641b1a46abcae3f28f4d0d9e4f0ab19da94386055a9600fdfe869f98f14df0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2NDFiMWE0NmFiY2FlM2YyOGY0ZDBkOWU0ZjBhYjE5ZGE5NDM4NjA1NWE5NjAwZmRmZTg2OWY5OGYxNGRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2NDFiMWE0NmFiY2FlM2YyOGY0ZDBkOWU0ZjBhYjE5ZGE5NDM4NjA1NWE5NjAwZmRmZTg2OWY5OGYxNGRmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjExMzQzN2E3MzVhNjlmOGY0YWNiNWQ3ZjFhZWRhMjdlZjU2NDIwZmEzOTVkMDFkMmMxYzQ2ZDBiYTIwNDg1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTVkYTg0NDFlMzU4OTM4NTI5NjA4NGFjOTlhMGM0NjRmN2IzYmYxNWVhMzgwMjIxMGUzNmQ3NWM1MGE3ZjNmYiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T02:29:31.666Z"
+  }
+}

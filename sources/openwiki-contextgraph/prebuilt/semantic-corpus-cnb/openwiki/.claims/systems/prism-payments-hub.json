@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:4c895a2af7c7046d490956dd0a7af4ca46c22fac2c0c13b38cf3b825fda76353",
+  "claims": [
+    {
+      "id": "claim_ed83d573a1cb43c5bd8ed1ae0e89c056",
+      "statement": "PRISM Payments Hub (PPH) is CNB's wire orchestration platform built on the vendor Volaris Payment Platform 9.4, operated on-premises in an active-active configuration across the Columbus and Charlotte data centers, with a 99.95% availability target during Fedwire operating hours.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L26-L36",
+          "version": "repo-lines-v1:sha256:ff5b8c1135a39af1fe9661e890dd8ad49eb73d3180dde2b0d0cdbf568f78f42b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYjMwYjVlOGUyMjEzZjkyMmZlMmI2N2M0OTQzMjQ4OTRjMjEyN2RjNmEyOWYzMWI0MmY1ODE3Y2Y2NTM3MDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5MzIxNWZkNWY3YzRmZjA0OWY0ZWYzZTVhODg0ODk5YWZiOTc5MWQzODJjZWUxNjgyNDdkNmFjYjgyMGYyNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5OGRmODM0NzQ5ZDI1OGFkMDQ5MjkyNzg2OTM0NWI4Y2Q1OWMwMmI5MDQxYjUzZTYwMTQ1YTViMjcxYjY1ODEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhkODQ2Njc5MDFjODU5ZTM0YzA5ZDViNjA1MTU4OGYzZTUxNWM1YWNjOTEyMDA1ZmQ1MTM2Y2Q5MTI5NmUzYmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e0589dc5114a43cc87f795356292d03e",
+      "statement": "PPH processes a payment through seven stages: Intake, Validation & enrichment, Screening (synchronous PRSP call creating an HMS hold and HELD state on a hit), Funds control (CDP memo debit, HRC-05 holds with auto-retry until 5:30pm ET), Release (UETR assignment and pacs.008/pacs.009 message build), Network (delivery to Fedwire Funds Connector or Swift Alliance/gpi Connector), and Close (COMPLETED, later RETURNED on pacs.004).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L38-L52",
+          "version": "repo-lines-v1:sha256:3f639c914bd212446bd1d2c5d4313d61e968875b18c65594496368e5e87c7aa7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhM2U2NDNjOGRjYTExNTc5YjI2OTIxN2YwMDM4OWZiZjVlM2ZmZGYwMWUzY2VmOTQ3ODg0NTcxMGFlOWFkMDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmNmYzZTdhZjIxNDdhNDY1MGIxZTY3YjY2ZTNmNjhlOTU4YjcxMWVlMDc1MjZiZmMxOWYyODNiYjQxMDQ3NDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYwZjY4OWQzM2NhNmYzM2ViOGNjMzU0MzMxMGZmZDU4ZmFhMmI3ZGYxY2JhOTgzMTJiZjEyNjY4NjZjYTdmYTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk1MjQ3YTMxMGZhMmMyZjhhNzI4MjRmMmE1OGNiNWE3NDQ1YjU3YzUyOTdhMDM4YWQwMGQ3ZjA5OTY0NDAxM2IifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_75c6fdf389474130a4b1732689ff079a",
+      "statement": "PPH's v2 lifecycle defines ten canonical states (RECEIVED, VALIDATING, SCREENING, HELD, REPAIR, FUNDS_CONTROL, WAREHOUSED, RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED, NETWORK_REJECTED, COMPLETED, CANCELLED, RETURNED), and the legacy v1 status field collapses RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED, and COMPLETED into a single PROCESSED value, so v1 consumers cannot distinguish release from network acknowledgment from accounting close.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L54-L86",
+          "version": "repo-lines-v1:sha256:bde107894ff96b385e7ce3462c846a6a6c16cc21f3e0a22fa2e5c8c6d84c8dbf:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNDBhODBmYTk2M2E2NWQ3ZjViZTU2MTIzMjA0M2ZhNjQzMzUyMDIyZDA3NTQ5ODM4NTE3N2I1OWY0NmFiNWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlMDRmNjJkMjAyYzI2N2MzNTJkMDA5MjAzN2YzZTMwYmRkY2IyZDE0MzIzNWU4N2ZiMjE2YzczYzBmMjlkODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2MjhjYWMyOGIwNGY1OGY1YzdiM2ExNWMzYzUyMDA1N2JlMjhmNzYzMDY1ODc5NDBjMWZhMGQ0ZDA3MDE0NDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyNzM5ODUzZThiYjdkNmZkNmIwYTNlYWU5YjY1OWRlYzBjOWM0ZjVhZmE2ODQ0NTkyOWI0MDk4OTBiMDU5OWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5e2e4af7206141fea26962a35cf58284",
+      "statement": "The NETWORK_ACCEPTED state has rail-specific meaning: for Fedwire Funds it is a Federal Reserve pacs.002 positive acknowledgment carrying OMAD representing final, irrevocable interbank settlement (not beneficiary credit); for Swift CBPR+ it is only a SwiftNet delivery ACK for pacs.008 with no settlement implication, and the v2 stateHistory timestamp for NETWORK_ACCEPTED reflects PPH's processing time rather than the Federal Reserve's pacs.002 creation timestamp.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L88-L95",
+          "version": "repo-lines-v1:sha256:0e075ddaf74fe14ef25d7654439b547f620a93a40fb689563c40fbfb4f7605d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1NGRmYTQ4ZDE4ZGNhMDE0NTc1MDliOWMwMTdlMDQ1OWU5YzAxNmEzYTNhMjI5ODk2OWJmYjI2Y2U1MTc5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQxMjgwOTViYTdiZDI4MTljYWU2NTQ1OWI3ODg4Y2U0ZTBlZDA3NWI4ZDYxYjM4NTg3MDUzYzI4YjZmMGRiZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGU1MDI3ZTBhMGY5ODRjMzUxNjRmNGE3NzE1ODQ5NmVhMDRlZDJlNWFhNmUzMDM1NzIwN2MxNTJhYjAyNWZjMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c0531002b5644950b2188364ff66fd89",
+      "statement": "PPH assigns and tracks six identifier types with distinct owners and scopes: pphId (PPH, internal key), cboRef (CBO, channel reference), IMAD (PPH as Fedwire sender, input message), OMAD (Federal Reserve, output message acceptance), UETR (PPH at release, end-to-end tracking), and EndToEndId (originator/PPH passthrough), with OMAD and UETR unavailable in the v1 API.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L61-L65",
+          "version": "repo-lines-v1:sha256:d4501b71b5b2ea48a7d8ba67b23dba2212f30b0cee810786d5ee39e203037bb5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E5NTZiMGZjODg5NzFkMjBmZmQ3NzQ4MTU5NzgyZWMwZGRjNzQzMmJkNzY3YWRhNzgyOTU3ZjMyYjU4ZGQ5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWJhNDVmNTczNDRiMDIyYmVmOTg3Zjk3YzBiYTQ4MGI0MWU5NTE2YjliMmRiNzgwMzY4MzVjNjgyZWE4NDQ0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L97-L106",
+          "version": "repo-lines-v1:sha256:ea23ef2c4f42c936de062beca162eac894af0795b48f20c49f8f94b6a6e64f84:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkYmEzYzM0MGMyZjg1YWVjOWIyMjYxMzE2N2YwOTc1MzQxZDRkOTU5YzliYTk2M2U1ZTM2ZjhhNjgzNGIyNTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwNGNiZDA0OThiZmFmYzI0ZmM2MzQ0ZDliYTQ1YmQ1M2I5NjFkMzMwMWQ2OTM2YjU3ZDIxZTI5NmQxMjI1ZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxZjk3NDIzOGZmN2Y1ZTYyMmM2MzQ2YmM5MzFmMzg4NDM2MDZlYWNlNmM3OTVhNzZlNWY0MjQ4ZGVlMDBjOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY1NmM1ZjEwNGU1OTdhOTZiMzA1MjYyYjgwNmZhNGVhMGJkYjU0ZjM0M2FhMmI3M2M0MzU4MWZlMmJlOTlmYTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e7bdf0cf5d144069fcb1daa5c585847",
+      "statement": "When PRSP/HMS raises a hold during screening or funds control, PPH transitions the payment to HELD using the returned holdId; since a 2019 integration PPH also synchronizes the HMS hold description into the legacy v1 holdReasonDesc field (uncurated free text) for the Wire Room console, while the v2 API exposes only hold.isHeld and hold.holdId per ADR-PAY-021, and hold reasons are not published on any PPH Kafka topic.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L115-L115",
+          "version": "repo-lines-v1:sha256:0f46a3b66150121475fa5f38ac89a8828fc0b90394fadfb4197d7b642198cdf3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY0NmEzYjY2MTUwMTIxNDc1ZmE1ZjM4YWM4OWE4ODI4ZmMwYjkwMzk0ZmFkZmI0MTk3ZDdiNjQyMTk4Y2RmMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY0NmEzYjY2MTUwMTIxNDc1ZmE1ZjM4YWM4OWE4ODI4ZmMwYjkwMzk0ZmFkZmI0MTk3ZDdiNjQyMTk4Y2RmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGJjNTkzZTQ5MzNhNDUwNzc3YWY5ODJhZGRkYzk2MzU0YzRkNjg1MmQyZjE0OGJhMzQ5MGU2OWI5OGI1ZjlhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDFiMGQxMjhjY2Q3NjU2YTk2ZDY4ZTQwNzdhZDg2ZTUzMTY3Y2E1MTUwNTBiNTA5OTU0MjdlYmJjODdiMGI3YiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L63-L65",
+          "version": "repo-lines-v1:sha256:f545e37d15347befb7b877d9913acba8c0ee5507af3aaba82258c3692a05a2af:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ5NTA0ODZkYzVlMjIzOTgxYjI0YTE1ZWUwOWRjNzI4OTI4YjljZTY4NzRjMzVhNDBiOWZlMGQ1OGNlZDA5OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2QyYTk2MmFhZDA0MDVjZGFhYTZjZmM3NmY2YjJmYTVhYWE1NDJmNTdmNWNjNzRmZGExMjQ4ZmFmYmIzNjcyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L108-L110",
+          "version": "repo-lines-v1:sha256:fa0c1a110c0ec2463fb4a9a90e31befc095af4f57c313f725a2fbcc597d1b9f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIwMDk2YmQ4MWZiYWFhNjIwMGI2M2IxZmFiYTliYzIzYjJhNTZlMjA1MjY0ZmMzZGE0NzJhYWM4NzdkZWM3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQxMDYwZmUwYjRmMTZmYmY5NDA4MWNmZmU0MmVhNmM4MzM0OTAwMTY5NTUyNTFkYmNmNmUwMDM0NjJhZTIxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzZiMzMyMzViNmUwYjdlODBmZTU4ODJlYmQ2MTZjNzNjNjcxMjg4M2M2Yzk0OGUzZGZmNWU4NTIxNzFiNjYwOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdiODQzZDAxNjhkOTJkNzUwMTU3MmY0MjE3MzJiMTAyNmI3OGI2ZDA5OGFjNDYzNzM5YzUwZGEyOTFiODYzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_82bae1d47d8c4981b32a61f216d3f456",
+      "statement": "PPH enforces fixed cutoffs and operating windows: a Fedwire operating day of 9:00 p.m. ET (prior day) to 7:00 p.m. ET, a Fedwire third-party customer transfer cutoff of 6:00 p.m. ET (HRC-04 warehousing after), a CBO same-day domestic wire cutoff of 5:30 p.m. ET, and currency-specific international cutoffs (e.g., EUR 2:00 p.m. ET, GBP 1:00 p.m. ET, MXN 3:00 p.m. ET, JPY prior day).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L112-L130",
+          "version": "repo-lines-v1:sha256:313a794a684c6b16b3c648d664ae13b0c77c80583fa16094e3f2081003670f01:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNkMGE0YjdiOTMxZDI0NmRmNjI0ZGM4NTYwOGJhNTI5N2I2NjQ4ZGZjYjMwM2Q4ZTEwNDc4MTI1ZTE4MGE1N2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMjRlOGFmMmNkMWM0MjdhNWE3NTYyOGVkNDNkMjA0MTVlOGMxYmRlOWUwNDBjYmFmYjVkNDliZTFlMGM5YTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYxMTZhN2Y0YjMxMTBlM2QyMDg3NWExZjM0YTY4ZTAyOTFhMTVjYjlkMTkwMDhiMmZiYjQ2ZWVlNDZmNTUxM2UiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU2NTdmZmJkMjE0N2NjOGY4NWJhYjFiNjdmNzAyMzVlYmYyYTMyZTc2ZmE4NWExYzQ3OGYyNGJhOGNlY2EwZDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_308f76a26f2642708d95f3b26dbbc30e",
+      "statement": "PPH's v1 API (EP-PPH-01/02/03) is rate-limited to 20 TPS shared across all consumers on the status endpoint, caps list results at 500 rows with no cursor, and its status field is a coarse seven-value enum (RECEIVED | PENDING | HELD | PROCESSED | REJECTED | CANCELLED | RETURNED) with fedRef carrying IMAD only (null for Swift wires).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L37-L65",
+          "version": "repo-lines-v1:sha256:63d5fbcecf7b16ed5e77dc26410e8026f57610dff82c89cbc05a4ed869b125b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0MWFhYzc1N2YzNDlmNTY5ZGYwYTI1Mjg2ZGQ2NGM5MTU1MmQyYWYyY2EzMmE1YzRjOTgxMjBmZDA0YzQzYjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxNjUzNzFiM2RlOTc1MTU3MjA5NTYwZGM1ZDBhMDM5ODcyNTAxNTVhMjg0ZmQ3ODk0MTBlMzA5YTU0ZTdkZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI1Mjc3YzIyZTNhYWU2ZmZhMGQ1YjlkN2VjNzMxZmQ5YmJjZWIxYTM0NzdjZDcxNjQ4MmU2OTlmNGJlMDcyYWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhNjAxMzZjOTA4MzYwNzgyZmFkZmVjMDYzNDJiNzM0NzdlZjc0ZWQzNWVlMDI0ZGE1NWFiMDNjOGMwNDFkOGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a921f7a8345a4bf991a65debc4cfde92",
+      "statement": "PPH's v2 API reached GA in 2025-10 and comprises EP-PPH-04 (payment detail, 150 TPS, returns lifecycleState/identifiers/network/hold/charges but no settlement object), EP-PPH-05 (search, filterable by clientId but not account, no beneficiary-name filter per backlog item PPH-2251), EP-PPH-06 (state history, PPH-processing-time timestamps), and EP-PPH-07 (submission, requiring an Idempotency-Key header); a proposed v2 settlement object exposing fedSettlementTs and rail-aware settlementStatus is tracked as backlog item PPH-2207 with no product sponsor.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L125-L131",
+          "version": "repo-lines-v1:sha256:1f58cdd4769edb8f2350ba1a4beffd7e8cae8506bea0656f3294c1a7a95b051c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTA1MWRmMDE4ODExMmNmZmQ2ODFlZWRlMWE4NDQ3MzkwYWU2OWRlYjVhYmJlMWY0NTE3OGMzZjI2MmNhNmRkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4ZTcwYTNiNTQ3NDYzZmJhZjEyNGI4MTI0OTA0MjZiMWM0NTU1YWMwM2Q0MzBjYzQxZDQzMjdkM2IzNGZiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAwODkwZTIyNzIyZGE1NmIwYTUwMTYzNDhjNDYxZmU1ZGM2ZTIwMWRlOTgyMWRjMjVkZDA0NmViMWFhZGY0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODQ3YjEyZTEyOWNhYTA2NzY1MWIzNjJhMTIyYWE0ZGQ3ODA5MjdiM2E2M2E2MjkwMDM4MDQ0MDc4MGYxMDU5YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L67-L104",
+          "version": "repo-lines-v1:sha256:26dc3bcb85621115c2550a8eb6e5ee53bc37a2d405e0a548157a4ccddfaee35f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwODgxOWZhYzcyODY2Y2ZlMDIxYjZhYzkzNDg0YWJiOGI4NzIxMzNkYTdkYTNhZjk3Y2IxNTdmYWRiZDM2ZjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2NDkwNTEwNDk5NTZhZmYyYWY0MjI5ZGYzOGNmYWJmNjRmZTg5ZTNjMDcyNDc2N2NiN2M4MWRmODZmMDMzNWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1MmY0ZTJjYzU1OWRkNTI5N2FmNWJjYjRmNjMxOGZmNjg0MGJjODVlYjIwZGNkZTQ2ZTg2NGNlMWEyYjg3ZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2MDQ2Y2RhZGRjZDUyYmQwMDc0YmM3M2Q3ZTViYzgxZTdlNWQ0OWY0NTk3MzA1NGQwOTg5MmVlMWQzZTk2MWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e01d24d10d62499484332a30eb6a3588",
+      "statement": "PPH publishes payment lifecycle events on the pay.wire.lifecycle.v2 Kafka topic (EV-PPH-01, WireLifecycleEvent v2.3 Avro, 7-day retention, Confidential-Client classification, consumer ACL via PPH Jira taking ~3 weeks) and ACH events on pay.ach.lifecycle.v1 (EV-PPH-02); ISO pacs.004 return reason codes (e.g., AC04, AC01, RR05) have been published on pay.wire.lifecycle.v2 since 2026-08 per PPH-2266.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L106-L115",
+          "version": "repo-lines-v1:sha256:af80132e90803c86c77f75d5b8602dc1909e9c680bc61de738886db890e17c08:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNTkyNzYwZjA4MWUxYzUyNGQ5ZDg0NDE2ZTExY2U5OTRjNzMwZTU4ZDNlZDI2MzI3NzViMmQ1ZTUwNmYxZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNDZhM2I2NjE1MDEyMTQ3NWZhNWYzOGFjODlhODgyOGZjMGI5MDM5NGZhZGZiNDE5N2Q3YjY0MjE5OGNkZjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlZjI3YTg5NjAyNDk3MDgwYThmNWYxMzk1Y2YxNDk5YTBiYThjMzU0ZTI1NjFkYmJlMGM0ZWYwMDVmZDJmYjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxYjBkMTI4Y2NkNzY1NmE5NmQ2OGU0MDc3YWQ4NmU1MzE2N2NhNTE1MDUwYjUwOTk1NDI3ZWJiYzg3YjBiN2IifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c26ada9f21564bab813172085220baa9",
+      "statement": "PPH service levels differ by interface: v1 REST offers 99.9% availability and 350ms p95 latency with best-effort support until sunset; v2 REST offers 99.95% availability and 180ms p95 latency with T1 support; pay.wire.lifecycle.v2 offers 99.95% availability with sub-2-second p95 event lag and T1 support.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L117-L123",
+          "version": "repo-lines-v1:sha256:b1db6dd3b655b4f961fd3865480dea607e58a56213ecb7920687aaeb7db772c6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUwOTY4ZTg2ODFlYmNjNmI0MWU0YTgzZWM1NGMzYWE3MzkyYTZmYzBmMWE0NmE0Yjk3MDk2MzhmMThhZjliZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTA0OWZlMmJhYTMyODgyMDgyYzhiMjQzNDQ2NmQyODUyNjBmNDJjYTZiZTNlNjNmYTJhMjIyNzI0OTIxNjQzMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmZhNDNkMTBmNjA1YTViMDMyZmJhYmYyYTc0NWJjNjg0NTY1NjZiNTk2MjMyYjVmZDY0NWU1OWZhMDNlMDgwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTdlMDg4ODM2MDExYTAxM2ZkMDFjNWQxMjMyYzlhMDNiMjRiOTg5MTk1YWUwMmYyYTRjM2U4YWM5MDcxNDhhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fd894ac719f749b7b3b3bf14772bce45",
+      "statement": "PPH's v1 API is committed to sunset on 2027-03-31 with no extensions, a decision the Payments ARB confirmed on 2026-09-08, driven by the hard vendor constraint that the v1 adapter is unsupported on the Volaris 9.6 platform upgrade scheduled for April 2027, which removes the legacy v1 API adapter.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L24-L28",
+          "version": "repo-lines-v1:sha256:26e53d2210e9d9c01e1fc52dfe03447bc64e37adbd43258cf1bd1665b1330e48:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRmZjRiNTQ2YmNlYjg2ZDAyM2IxZjBmM2EwMGQ1MDFmMDQ5Y2FjZjFhYTI1MDNlNzEyM2ExNGIxMTc3YWQ1ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2YTRlOTc0Y2MxYTAwZGVjZWNjYmY5ODMyMDVlYWI1NTYyOTI4NzM3YWU0NDEwNGMxZDlkZGNhOTYyMGMxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2JjZGZhMWFhMDM4NjM1YzM1NjA3YzRkZDllZDZlYWIxZjQ1NmM3NjE5MTM2YmYxYjgyNTA2OWU5M2YzMDliMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDJiYWVmZjYyZTEyMzdkN2QxMDFhNTJmMmQ4YmRkMzEwYzk3NDM0NGVmOWIyYzQzNDI1NmI3ZmJmYzdmODBmMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L138-L138",
+          "version": "repo-lines-v1:sha256:2ab1e30dbf803e7d78e04258f065cc8ecd94b6a379e0ab43d95c4517815a8215:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFiMWUzMGRiZjgwM2U3ZDc4ZTA0MjU4ZjA2NWNjOGVjZDk0YjZhMzc5ZTBhYjQzZDk1YzQ1MTc4MTVhODIxNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFiMWUzMGRiZjgwM2U3ZDc4ZTA0MjU4ZjA2NWNjOGVjZDk0YjZhMzc5ZTBhYjQzZDk1YzQ1MTc4MTVhODIxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjE3YjVmYzA2NjkyZDcyOGJiZmVlZjBmYmNlMjAxYWU5MjliYjM4YTNhNzMwODdiNmQyOTk4N2QxMjVjZjcxYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmEwZTEwN2YzZmE2YmY4NDE1NTA2MDA2MTEzNjQ3ODlmMTVjMmFiYmQ0YmQ5ZGM2Yzg4MWQ4OWViNWI4YzE5NiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L36-L36",
+          "version": "repo-lines-v1:sha256:d93215fd5f7c4ff049f4ef3e5a884899afb9791d382cee168247d6acb820f253:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkzMjE1ZmQ1ZjdjNGZmMDQ5ZjRlZjNlNWE4ODQ4OTlhZmI5NzkxZDM4MmNlZTE2ODI0N2Q2YWNiODIwZjI1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkzMjE1ZmQ1ZjdjNGZmMDQ5ZjRlZjNlNWE4ODQ4OTlhZmI5NzkxZDM4MmNlZTE2ODI0N2Q2YWNiODIwZjI1MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODcxYTQyYWM1MjIxOWEwM2I4YmVkMWQxZTEyMmM3NDc3ODczN2FmNmRmOWUyMjY4YTEwZmRkNGY4MmUwYTI0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ4NDY2NzkwMWM4NTllMzRjMDlkNWI2MDUxNTg4ZjNlNTE1YzVhY2M5MTIwMDVmZDUxMzZjZDkxMjk2ZTNiYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_016366efa67741a8a1741f559bdfd51b",
+      "statement": "As of PPH-API-CAT-2026.3, v1 consumer migration status is: IVR wire status (Contact Center Tech) migrated 2026-05; Service Center CRM (CRM Engineering) in progress with a 2026-12 target; Wire Room console (Payment Operations Tech) migrated to IWB in 2025; and cbo-wire-bff (CBO Wire Center squad) not started, tracked separately as unscheduled CBO-4471.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L30-L35",
+          "version": "repo-lines-v1:sha256:43575f7ebe092fb99c0662be6e47d78cabed44958ee2afc42d2a856a2f02ab84:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTgzNTkxOWRlZDE3N2NlZmMyYTI0N2M1MTE1NzI0MjJkYTM4MTQzNDkxMDIxMzUzYTVmMDEwMjAxOWYzOGUzMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBmODUyNzIwN2EzMTVlZjA2N2M3NmJlOGE4NWUxZmI2NTk0MjY1YmI3NjY3OTFiNjVjMDdlZjMzZjQxMTZmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDE2MDUwYWE4NzRhMTMyOGI5N2NjNDIyM2FkNTVlZDg3NWE5NzcyN2RlZjAwNzczNTg1Y2RmMGY0YWY0OGIwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTBhYTNlNTUwNTY1NGQ0OTgzNzhjYjAyMDA1MzU4MzA2NDAwMGY4NmRkMzUzNWIyYTE3YWM3ZjNhMzMwOGVkNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7cb81d9bbf85471c933b16ed1e8bf1a5",
+      "statement": "PPH has three scheduled upcoming changes beyond the v1 sunset: mandatory structured/hybrid postal address enforcement for Swift CBPR+ and Fedwire from November 2026 (expected to raise HRC-06 repair holds), a FedNow outbound expansion committed for PI 27.1, and the April 2027 Volaris 9.6 upgrade that removes the legacy v1 API adapter.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L132-L138",
+          "version": "repo-lines-v1:sha256:48e73a3f4bebb74fc765b9699d4f6416927b26867c7da4dbfe24885d53a3b35a:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmVkZWIxYWYyNDYzYTZjNWU5Yjk1YjhjZTIwYjI0YzY3MTVkZGFiYzFhYTQ4Y2U5NWYxZTQxYmNkOGQ4YzMxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFiMWUzMGRiZjgwM2U3ZDc4ZTA0MjU4ZjA2NWNjOGVjZDk0YjZhMzc5ZTBhYjQzZDk1YzQ1MTc4MTVhODIxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWJhM2QzYTEzMmY0YzY0MjI1OTBmNDZlZTI5NTVjNGI3ZTlkNjc0NjdiNzBlY2Q5MjUwOThiMjRkOTVkMzU4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmEwZTEwN2YzZmE2YmY4NDE1NTA2MDA2MTEzNjQ3ODlmMTVjMmFiYmQ0YmQ5ZGM2Yzg4MWQ4OWViNWI4YzE5NiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

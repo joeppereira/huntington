@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:bd7d6a1089ffa6d9c4a87aa5a9e626a16f983443e7e921813cd09edc6880bfa2",
+  "claims": [
+    {
+      "id": "claim_b2d55c73f68749839bc21161388010ae",
+      "statement": "The quickstart page routes readers from the overview into each of the twelve entity-type folders (organizations, systems, interfaces, teams, people, policies, decisions, projects, incidents, datasets, concepts, documents) with one example page per folder.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md",
+          "version": "repo-file-v1:sha256:da150fbc7e5d6b1afebd2ab76897f64a0377a765c980f6d81ac0eb4155441998"
+        }
+      ]
+    },
+    {
+      "id": "claim_32afc0cd9b824a63a96ad491446136d0",
+      "statement": "Five representative multi-hop estate-discovery questions (wire-tracking dependencies, client-facing hold/status disclosure rules, the Wire Status Lite pilot failure history, Swift gpi ownership transfer, and dataset restrictions on timing predictions) are each mapped to the specific wiki pages that answer them, chaining systems, interfaces, concepts, policies, decisions, incidents, and projects.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md",
+          "version": "repo-file-v1:sha256:40edd064c3159402678a30c7852b46b5f8af2dc5c77aa0e9f3a7e1d7007d8cb7"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md",
+          "version": "repo-file-v1:sha256:7ddb85584c2111f22578f52c53cb9d520a35de06ca82c6f6eec637cc988f8452"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

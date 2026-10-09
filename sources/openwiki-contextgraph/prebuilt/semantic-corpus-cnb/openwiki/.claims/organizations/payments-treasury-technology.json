@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d4efa7ba2a0ea81252c71149f1c00d3ac28445069e03a2ae2ff874449579cddb",
+  "claims": [
+    {
+      "id": "claim_016ea1f70fe44bc2960ff9d786a62ca5",
+      "statement": "PTT is led by Gregory Hall, MD and CIO of Payments & Treasury Technology, who owns all PTT engineering (channels, payments hub, networks, data), and is the approver of the quarterly PTT Organization, System Ownership & Engagement Directory (CNB-ORG-PTT-2026-06) and the sole signatory on PTT organizational announcements.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L13-L22",
+          "version": "repo-lines-v1:sha256:abf00b139fb7258d123ae23c6e19f36df3f2bfde4f5143458e93f1dd62ed262f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwYzYxMmIyOTdmY2JlMmMxMzQxN2VmOTc4NWMyOGY1Njk3ODkwMjVlMGU0OTMxNTBmNWY3ZDEzN2ExNmNmMjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2MTFhNjU2ZjE2NTdmMTc1ZWZiZmRiYzI0MzRjMjY5MmE3NThjZWNiNjQ0YWYwNTVhYjIxYjhlNjBmY2YxYTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBmYTllYjI3Njc1MGZlOWU4MDYwNWRmNzcxNDg3ZmM4MDZjZDczMjhkZWVhODdiZDJkNmIyYWQzMWI5NDM1N2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJiNTI1YWYxMWI5YjBhMDE3NDNlMzg2ZTZiNDJkMDU1ZGMyMDUxNDJkMjJjN2I2Mzk5MjViODgzZTVlYmM5MzYifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L18-L36",
+          "version": "repo-lines-v1:sha256:60c8ab761b602665721a37239c4c6285c4d5224d5a45dd5b82faa7bea25a0a47:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY3NTg3ZTY4NTFmY2I2YjA5YjRlZDAyZTQyOTVlZjQzMDNlNzZlODk3MzBlYjJmZjdiYmE2MzUwNjI5OTE3NDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhODAwZTU0ZGFhMmYyYmJlOGNlYjFkODc2NzE3ZDJjNTEwM2RlMWNlODliNjI4MmZlOWQxMzVlNGJlMGRjOWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmMWVlNWE4MTFlZTVjNmY3NjBlY2I1YzkzNDQ3M2ExMzA5OTBjMmRkNDlhNmRkNjZkNzc0MGM4MzkwMmQyZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQwZThjZmI0NmQyZTVhMTdhODIzN2Q0YTg1YjIyYzllYmI0MjZhOGYwNmNiNWQ5YTMzMjM2NDEwYjE1N2NlYTIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_300df7d75501459290c1c69c6d3c4e49",
+      "statement": "PTT engineering comprises eight teams reporting to the CIO: CBO Wire Center squad (Anjali Deshpande), CBO Platform & Entitlements (Nadia Haddad), Payments Hub Engineering (Raymond Ortiz), Payment Networks Engineering (Raj Malhotra), Global Transaction Services Integration (Elena Vasquez), Financial Crimes Technology/PRSP (Victor Petrov), Enterprise Notification Platform (Sanjay Iyer), and Treasury Data & Analytics/TDIP (Wei Zhang), each with named EM/Tech Lead contacts and a dedicated Jira project and Slack channel.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L63",
+          "version": "repo-lines-v1:sha256:a5f823a46b37cb21b660a14413eea191f26a4185d74f377429f4252db38fccef:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NjAzMjVlZTYxNDVlYjgxM2I3YzEzZjQ0ZmFlN2Q1ZWFlMzMzNmQ4ODFiMGQwYmJmMDlhOTRmMmI5ZjcwYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk5N2RjOTMzN2Q4YTA1OWI3OTU4YzgzYWZhMjI3MjZmMDY3NmE3ZTZmYzUwYjk3OTgyYzhkNzVlYjBjY2EyNDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZGU1ZmYwMTIzYzQzMjdlYjIxM2RhYzQ0ZDEyZTM5OTE4M2UxNjU3MGNlNTdhMDBiZGY4YTQ1NmEyNjk3N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0MWJmZDVjMTBiZmJiZDQzZDRlZmM4OTM3MGViMDIzYWI2YmUwY2ZmMjc0ZjJhNDRmMmRlY2Q0MDVmYjk1MjgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_33862b2f00844c369b74e90f4870d6cd",
+      "statement": "PTT's system ownership register assigns each payments system a technical owner, business owner and support tier (T1 24x7 critical, T2 business hours + on-call, T3 business hours); SYS-CBO, SYS-CES, SYS-PPH, SYS-PNG-FFC, SYS-PNG-GPI, and the three PRSP systems are all T1, while SYS-CBO-SPS, SYS-ENS and SYS-TDIP are T2, and SYS-CDP (Deposits Technology) and SYS-IWB (Payment Operations Technology) are owned outside PTT but included because Payments Hub Engineering depends on them.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L96",
+          "version": "repo-lines-v1:sha256:94a541e3f9bfd7a49d68075cae13cdd9db2c100412eca16a10fba77b8013840c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkMmI5MDJiNTRjZDUwZWZkMWYwODNhMDI4NWJkM2M3OTI4ZjFkOGI1ZWQxMWI1ZmMzN2Y3OTE2ZTgyZDgzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNjdmM2ZiOWNlMWFhYjVhNjNhNDg3YjhhNDM1NTdhYjM0Mjc0M2YwN2U0ZTNiZGJmMGJjNmYxYThhNzZlNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4fe55a0f2cc74eebad94db6904bc5ff4",
+      "statement": "PTT change governance runs through distinct forums with fixed cadences and lead times: the monthly Payments Architecture Review Board (required for new client-facing payment integrations, 10 business days submission lead), the Payments Platform Demand Board (monthly, prioritizes the PPH roadmap), FCT Change Advisory (bi-weekly, FCC sign-off required for hold/screening changes, year-end freeze Dec-15 to Jan-05), the Disclosure Review Committee (bi-weekly, approves client-facing copy), continuous MRM Model Inventory & Validation registration before development, and Privacy Impact Assessment review (~4 weeks) for new client-data uses.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L119",
+          "version": "repo-lines-v1:sha256:c499f6cc0a8f64fefbd72820dc9df6b1c06eda8469c28ab90119fec081074d17:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzc0NmU5NjRiNzZiN2U2ZjA0NTU1YzdjOWZkZDU4YWY0ZDk1MjRlNjMxYjBkODU0NzMxMmJhN2I5ZDQ2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzgxOTcwMTI4YjJiYzliMWJmYjk4ZTYxYjFmYzFhMjI1MjhkZWQxNzE4ZWY0OWFjMTg1ZGNiZTNkNWU4OTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM1NDE0MmEwN2JhOTdiN2I5ZjljZmZlYWI1MzYwNDc2Y2ZkNTFjYjZlNzBhMDAwODA5YWU0MzA4NmNhZDY0OGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f561b9f9aeb44a6f82682f857daacb59",
+      "statement": "Effective 2026-10-01, CNB-MEMO-2026-09 moved the Swift Alliance Gateway, gpi Connector/Tracker integration (SYS-PNG-GPI), the Swift API gateway (Microgateway), SwiftNet PKI service accounts, and the international wire tracking roadmap from Payment Networks Engineering (Raj Malhotra) to Global Transaction Services Integration (Elena Vasquez, EM Omar Siddiqui, Tech Lead Hannah Lindqvist), while the Fedwire Funds Connector (SYS-PNG-FFC) stayed with PNE and Raj Malhotra additionally assumed the FedNow and RTP connectors from 2026-11-01.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L42",
+          "version": "repo-lines-v1:sha256:406e7d21cd3cf4c002098b353c16d1226deed5affc7638754b2be98026f52e59:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MDU5MjE1ZjBlOWZiYWMwODBlMTEzZjg2MDEwNjE1MGQ5YmRiOTQ0ZTE1ZDU3MWE0MGM1ZGI3ODRkYWM0MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwYmUyNzdiY2JjMjAyOWZhZDA4YjhmODBmNzAxNTZhMDE0MWMwOWZjMGY2NTAyOTJkOTEzYzgwNzlhNzQxMjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkMDFhODViOGNjMmUzYjJlZWJjNTllZmY5M2QzMjU1MjU1ZjNlMGM2NzBmMGZkMjE3ZjYwMTRhZDVjYzkxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFkZjkyZWNjOTVmZDVlMzFmN2Y3NGFlNTIyNTZjNWZlOTg2NGIxMDQzYmRlMmQ3YjBiNDBmMWMzMTRjYjk5MTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_61f17f3610a84a30b0596bc022d106f1",
+      "statement": "As part of the 2026-10-01 cross-border realignment, Tomasz Nowak (Senior Engineer, gpi Connector) transferred from PNE to GTSI reporting to Omar Siddiqui; PNE retains secondary on-call support for SYS-PNG-GPI only until 2026-12-15, when knowledge transfer tracked as GTSI-0112 completes; and from 2026-10-01 all new gpi/Swift Tracker/international wire status requests must be raised in Jira project GTSI rather than PNG.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L44-L52",
+          "version": "repo-lines-v1:sha256:22818c55fd09ddaed38a12723e2a2d21c62918d084fc04436f7f695b4425ca69:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM4NGVjNjM2ZjJiZjZlNWEzYmZhMjM4YzU0ZWM4ZGQzYzZmMGY4MzU4NTBhMmFkNDdlNTkwNDdiYWI5YjU2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY1ZDEyOGY1ZWJhMDY0Y2ZhZTg3MDMwNGZlYzg4YjZhM2I0ZWU5MzZiZjY2YjdmOTY2YTkzNmZiNzg1Y2M5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRlOWNiODg5NDc5Njc2NTU0MGY0YTUwOWZiZmVkM2JjNmU0OWEyZmQwODlkMTFlZDk1Yjc5ZjVmYjA0ZTg1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGExZTgxMDRkNTkwNTcyYmIxZTgwMjZmZDc1NTE4NzFhNmNlM2E3ZmU1OTUzYTk4OTRmNzYxOTFlMGJjZjI4ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_35f0883f5d434f0aa8e9be9bd97132df",
+      "statement": "GTSI owns two unfunded/forward-looking cross-border initiatives per the realignment memo: the gpi Tracker Real-Time Service (GTSI-0107), unfunded for 2026 with discovery planned for 2027-Q2 subject to portfolio review, and the Swift Tracker API contract renewal (GTSI-0115) due 2027-01-31.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L54-L56",
+          "version": "repo-lines-v1:sha256:11e00a12917a45d0c2a3e0c9838d29fd8117f72c4d0c28698e247ce0cfe13d0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QyYTg3ODQ3M2UxM2Q4MDE2MTQyYzM3ZjVhZDVkNGM0OGE2NmYyNzYyYTNjNzBkNGI2M2M0ODY4ZThkNjRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3NWZlOTRlYmQzZjE1ZTQ1YjNlNTBhZmI2NDAwNDBlYzYwMTg1N2FjN2E5NjI1MjAzMDNiN2JlOWFhYTRjYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjljMTAwNjVhNGY2YTI4MDJiOWMzNzM0MmM2YTEwY2JkMmM3MjZiMjUxNWZiMmQ3ZjE1OWQ1NDBmODI2ZjBjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWQ3YjczNjBjOTljODk5NjMyZmRhODE2MjNiODQ0Yjg0ZWZhZjc2OTY2OTkwYzkyZmFkY2E1OTYyYTYxNDI5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9679be5048dc40a5b3ed6cac2bb8f5a4",
+      "statement": "PTT cross-team work is sized using quarterly BMO-published planning factors (story-point hours, velocity, intake route and lead time, and committed-capacity notes per team) and delivered against a program-increment calendar (PI 26.4 complete; PI 27.1 2026-12-01 to 2027-03-05 with dependency asks due 2026-11-06; PI 27.2 2027-03-15 to 2027-06-11).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L146",
+          "version": "repo-lines-v1:sha256:456da4d84d058a3e3c81ddc2453bc744acb9a3f6fb41082c4f96d3000cc7fe5a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3ZDBkMzIwNzQ4MGI0ZjMyNGI0ZjQ0MzFmZWM2MjU2MWIzMjY4MzNiNzFmNTdmZGYyOWM1N2JiZmU5YzhlZDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRlMTQ0OWRjYmQ5MjkxY2Q2M2Y1MjI3Y2IwMTNhNGYwMTg3MWVlMzAzMGZmMDYzOGE5ZTdhMGIxNDIwMWI2OTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8e18fb91247445a38d90cf8a21541912",
+      "statement": "Dependency conflicts unresolved between engineering managers escalate to Directors and then to the weekly (Monday) PTT Leadership Team, while compliance or policy interpretation questions are routed to FCC Policy & Advisory (Jordan Ellis) or the Privacy Office (Ethan Brooks) rather than decided by engineering teams directly.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

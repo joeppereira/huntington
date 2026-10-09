@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d9cfb7c37e5b54625cbd3a60e00327299062609ee2299bda83998f9e555f4960",
+  "claims": [
+    {
+      "id": "claim_c40d8d729a884a61a7990c258c424eef",
+      "statement": "Patricia Moore chairs the Disclosure Review Committee (DRC), the governance forum that approves client-facing copy, disclaimers, and notification templates for PTT initiatives.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L116-L116",
+          "version": "repo-lines-v1:sha256:b3def72cd68c3b10f9cb95117a2ce5cd621b5580839612c883655b744564b326:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkZWY3MmNkNjhjM2IxMGY5Y2I5NTExN2EyY2U1Y2Q2MjFiNTU4MDgzOTYxMmM4ODM2NTViNzQ0NTY0YjMyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkZWY3MmNkNjhjM2IxMGY5Y2I5NTExN2EyY2U1Y2Q2MjFiNTU4MDgzOTYxMmM4ODM2NTViNzQ0NTY0YjMyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQwNzU1ODQ5NWUwODQ2M2VjZjQ4NmM4ZTMxNzM0ODI0NWZmNTY5NGM0Nzg1NmEzZDNhM2MwMmEwMmQ0Y2ZmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzNiYWExNmFiMDk2ZmY0N2Q5MDNmNjkzMDliYTU3NWU3Y2ZkZjliMjE5ZmQxNjk0ODc1YzNmYjJmNWE3Y2Q4OSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L69-L76",
+          "version": "repo-lines-v1:sha256:854f8a0528df1f73aba3435a6a4697dca9602cbd437c00a49e0d6b6577ff9e1d:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkxOTY3ZWM2YzQ1M2YwNDU3NmIxZTA2Y2FjYWVmOWMzMjZlMzIwYTlhNDEzZGRmZmU2ODY4ZDRjNDg2MDk5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTVlZTQ0MmZmOWNlYmE1NTc1YzA3MTRkNjk5Mzc2ODQxNDlmMmU4NjJjNjQ0OTUyNDJlM2YwOTUyYTMxZTU4YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGE1MmIyN2Y3Njg5ZWUyYWUwODA4ZjY2YmZmNWZhZjFiZGIwNzBhOTk0MmI2ZGZhYWNlOWU5ZDBhZDg2NjBjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTBlNTY1NDhiMWQ0MzkzYjVkMTNiOGM2ZDgzMDRiZDRjMGNjMjE5MzlkZjAxZDk5ZjczYWEyYzg1YmZhZWVhZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_84e2e4c0b7c04d5d9b5e3015f32fa85a",
+      "statement": "The Disclosure Review Committee meets bi-weekly on Thursdays and requires submissions at least 5 business days in advance of a session.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L114-L116",
+          "version": "repo-lines-v1:sha256:e0fc12a5bac1ce93b384394dec424ed4f620474a44f424dfb60bbdb8a75950e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkZWY3MmNkNjhjM2IxMGY5Y2I5NTExN2EyY2U1Y2Q2MjFiNTU4MDgzOTYxMmM4ODM2NTViNzQ0NTY0YjMyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzNiYWExNmFiMDk2ZmY0N2Q5MDNmNjkzMDliYTU3NWU3Y2ZkZjliMjE5ZmQxNjk0ODc1YzNmYjJmNWE3Y2Q4OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3e09ab2fe8b24d0397b2cf8e456713bf",
+      "statement": "Patricia Moore is the named contact for product/design reviews within the Legal - Treasury & Payments partner function, which is accountable to Andrew Feldman.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L73-L73",
+          "version": "repo-lines-v1:sha256:5ba1e367ba8218d988388865bad9d708e140c8713c4f460072b93bc96044378b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWJhMWUzNjdiYTgyMThkOTg4Mzg4ODY1YmFkOWQ3MDhlMTQwYzg3MTNjNGY0NjAwNzJiOTNiYzk2MDQ0Mzc4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWJhMWUzNjdiYTgyMThkOTg4Mzg4ODY1YmFkOWQ3MDhlMTQwYzg3MTNjNGY0NjAwNzJiOTNiYzk2MDQ0Mzc4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjg2MjI0YjllMThiNjY4NWY1ZTQ3OTE4NWJjMDkzYzQ4YmE4YzEwMjc2YmJlNjZiZGM5N2IzMTc5ZjYwNmFjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2QyMWNkZTNhYjgyYzg5ZGRjNTI3N2M4YzNjNmRiNGYxNzMzODAxMzYyNzQ5OTgzMTgyNTMwMTAxYTE4ODRiNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_222e3032a03846c6adfbabb84479eaad",
+      "statement": "Compliance or policy interpretation questions (e.g., financial-crimes or privacy policy interpretation) are not decided by the DRC or engineering teams; they must be escalated to FCC Policy & Advisory or the Privacy Office instead.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

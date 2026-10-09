@@ -1,0 +1,19 @@
+# Generated corpora (each is its own git repo)
+/semantic-corpus/
+/context-corpus/
+
+# OpenWiki state (keys, onboarding, history)
+.openwiki-state/
+
+# Secrets
+.env
+
+# Runtime
+logs/
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+frontend/dist/
+.pytest_cache/
+.coverage

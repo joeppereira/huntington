@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9c99f61080dcf99867571f8fe0fa17a08d4e11327c11a73403cd7dc10d3482be",
+  "claims": [
+    {
+      "id": "claim_44928b65ceaf47a294938ca3c898f97f",
+      "statement": "Sophie Laurent holds the title Validation Lead, Treasury & Operations models within Model Risk Management (MRM) at Crestline National Bank, named as the contact for product/design reviews in the PTT partner-functions directory under MRM (accountable: Jonathan Price).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L70",
+          "version": "repo-lines-v1:sha256:fb945689d044a28becf3109c96b3fe2fb75179566ee00069ec2f40a8ce34851b:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWUwNGNiYWM0MWE5MjMxMTk1ZTgzYzk2MDRiMTRhZDZmNzg2MTczZjI1YWJjN2QyM2UzZDMyNTQ1ZDQxYzgwNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkzZmY3MjBkYTkwOTQxNjdiYWFjMjNiNDU2ZGRhZWQ5YjcwMWU1ZjRhNzU1OWU3MDIwNmUzYzExM2Q2YTg3ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBjOWY2NzFiNDViMGMyMjc3ZmRlMTQ4N2JjNGEyOTc4NmNiZjA0ZGM4NjlhOWUzMGE5YzI2NWI5M2VjZjBmYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmE4ZDM3ZmMyOTZjNWJmMDEyMmRhM2EzMzE1ZGJkYTQ3YTA4Njg4ZTdlODFkNWYwZDUwYjdmNjY1ODUzMDZlOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3d4666e6e477459fb2376c68f3f3f216",
+      "statement": "Sophie Laurent is named as the contact in MRM-POL-02 v7.0's Q4-2026 capacity notice for the Tier 2 model validation queue, which runs approximately 6 weeks before work starts and requires submissions to include development documentation, data lineage and proposed monitoring.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L68-L71",
+          "version": "repo-lines-v1:sha256:22a23f3f566542a96081642e9a39771305cda8306e72cbcb051b7ec1c929b083:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2UzYmEyYTJhOTJlYjhhMzdhM2Q5NWUwNzhlZjkzNzVlZjQ2MTc1ZThjMmY2MWFlMjBlYWVhNzczNTI1ZWE3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzU1Y2NhMmY5NWU2YmQwNmFjZjViZTBjNjliNjI2NzIxYjU2NzdjMzY1MGZlYzRhNTk5OGM3OWFlMGU5ZDQ2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGZhNGU3ZTkwYjgyZDhjN2ZjM2M1NGE0MzcyZDllZWY2NWRlNDgwNDdlMDg1NmU0NDA3NmE5ZDZhNTBjMjRlNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_48f4f181c2854100974309edb8c63504",
+      "statement": "MRM-POL-02 v7.0 defines a four-tier model risk framework (Tier 1, Tier 2, Tier 3, EUA) with validation requirements ranging from full independent annual-reviewed validation (Tier 1) through Tier 2 independent validation (10-14 weeks, 160-240 validator hours), Tier 3 targeted validation (6-9 weeks), down to EUA registration plus attestation (~2 weeks) with no independent validation; customer-facing estimates are Tier 2 at minimum and cannot be shown to clients before validation and approved use conditions are in place.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L29-L42",
+          "version": "repo-lines-v1:sha256:fd8a9cf07e953cb92c84f0ce764a38239230bf40e684002966d739166cbd941a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU2MzUxOGMyNzFkNzdhMDkwMDVlYzI0YTk5OTc2NWM4Y2MwOWZjZjQ4MjY4ZDczNWY1ZjEzOGUyMWM0NmUyMmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMmExM2Y4OGI1NzU3ZDMxYjFjOWNmMTMxM2Q3MGYyZmNhZTkyOWNlNzE1YjcyY2FjODE4MTYyNGZkNjgwNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmMGI5ZWJhNThiNzczNjEwYmY2OGE0OGQwMmM4ZThiN2E3NGVlYmRjNjdhZGM3NzkzNjk1YjhkMjY5ZTA4ZDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjViM2U3MjViNDcyNTU0NGY4M2IyMjhiZmUzZWJlYzYyNGZlYjFlNGE0YTFiODcxYzNiNTQ4Y2YzZGRlYjhjZjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7d89f3c350824332b43db60af263909b",
+      "statement": "The MRM-POL-02 Treasury & Payments inventory extract lists M-TRS-0142 (Treasury Insights cash forecast, owned by Wei Zhang) as Tier 3 re-tiering to Tier 2 under v7.0, and EUA-TRS-0007 (ops corridor completion dashboard, owned by Denise Carter) as a registered EUA, both falling within the Treasury & Operations model/EUA population relevant to the Validation Lead role, as distinct from the Tier 1 financial-crimes models (M-FCT-0021, M-FCT-0034) owned by Victor Petrov.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L66",
+          "version": "repo-lines-v1:sha256:6fbbfb3cfdc09f08cc7e81f61719b2a1c94c6b47eb1488555c6817d62039ead9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ1ZmZkMjc0NWJmNzQ4ODM2MGFiN2FiMDAwN2NhNGYyYWZlNjc5MGE1NjMyNzI2NWM0MjA3M2E2NTMwNWJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThkYzNlNWQyNGVhNjRiOGMwMDliYjdkNzlhNTkzNzRiYjM5ODc2MDliZmExYTkwZDY0MTE3OGZkMzAyN2IxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTQwMWFmNmEwYjkzNmQ1MzQ4ZmVhNTU5ODkxMDJhM2JiMzcxODU4NjdmZGUzMzMyNzRhN2IwZjRlMDJlMjZmMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1aef0d8a800a468abf986738277ae170",
+      "statement": "The PTT engagement-routes and planning-factors table estimates EUA registration at roughly 16 hours of Model Risk Management effort and Tier 2 validation at 160-240 validator hours, with intake via Archer and Tier 2 validation taking 10-14 weeks plus queue time (queue approximately 6 weeks as of Q4-2026/PI 27.1), and models/EUAs must be registered in Archer before development begins.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L117-L117",
+          "version": "repo-lines-v1:sha256:b1ff71e43c6b53c57a552e412d1c72fc3037d23d7561aa129399da7c89e96472:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjFmZjcxZTQzYzZiNTNjNTdhNTUyZTQxMmQxYzcyZmMzMDM3ZDIzZDc1NjFhYTEyOTM5OWRhN2M4OWU5NjQ3MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjFmZjcxZTQzYzZiNTNjNTdhNTUyZTQxMmQxYzcyZmMzMDM3ZDIzZDc1NjFhYTEyOTM5OWRhN2M4OWU5NjQ3MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTBmYzEyYTViYWMxY2U5M2IzODQzOTRkZWM0MjRlZDRmNjIwNDc0YTQ0ZjQyNGRmYjYwYmJkYjhhNzU5NTBlMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzc4ODlhZDUzOGZjNjI0NWMxYTRmYzhiZjI0ZDFkMWYwYjc0NDg3NzY5OGUyNjIwNTJkY2MyZDA4NmIxZTNlOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L134-L134",
+          "version": "repo-lines-v1:sha256:1b3a10b924b92636f32f09e44204fb23379668515fe9ba66aa3469c2cdc5ccb2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWIzYTEwYjkyNGI5MjYzNmYzMmYwOWU0NDIwNGZiMjMzNzk2Njg1MTVmZTliYTY2YWEzNDY5YzJjZGM1Y2NiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWIzYTEwYjkyNGI5MjYzNmYzMmYwOWU0NDIwNGZiMjMzNzk2Njg1MTVmZTliYTY2YWEzNDY5YzJjZGM1Y2NiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzYyY2MyNDVhZGEwMDAxZGU1Y2U5ZTlmYTRmMWYzZDFhNmY2YTNkMDZmMjkzNTgwMWE2YmU2NDI0MjUyZjQ3NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjkzMjk2YWJiNzAzYzdiYzM1NzhiNzkxZjM2MWJmZmFkNTA3ZWIyMDc4ZTRmZWYzM2I5MDM5YzNiNWQ2NmE1YSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

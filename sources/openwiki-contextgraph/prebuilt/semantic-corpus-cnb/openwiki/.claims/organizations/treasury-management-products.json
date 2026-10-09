@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a78f189275566bc2800772d25bb35f7d88badbbd779564b961ce35fb09ccb285",
+  "claims": [
+    {
+      "id": "claim_06a708a87fa64f5688c0054eec12dc69",
+      "statement": "Danielle Okafor, EVP, Head of Treasury Management Products, is the business owner of record for Treasury Management (TM) products including Crestline Business Online (CBO), and sits in PTT leadership alongside Gregory Hall (MD, CIO Payments & Treasury Technology).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L28-L40",
+          "version": "repo-lines-v1:sha256:48f0201afe8c268ed3bd070a6cf04814f1be048b9872e09497ff536827ce6285:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMThlNDE5MjYwM2E5N2JlYWVjMDA5M2U3MzdmYzk1YTNlMmMwNjU1NmNiYzI4ZmYzZjFiODMyMjQxODMyOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwZWI4ODU4NmY2YmU3NGY0NmRmYjM1NDhhOGI5ZWEwYzc5ZmE4NGM5YTkyYTg1MzhiNGY3Y2RmNWI2NjliNGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhNTc3MTliMDhlNmM5YzUwOTE1YWQwZDYzMmU2ZDQ1YWI5NWJjN2VkMDA3NzBmMGM2MTc4MzFmNTU3M2NjN2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c074e6b5095c41ffad763715119d7f7b",
+      "statement": "Treasury Management Products is a business-side organization distinct from PTT engineering: Marcus Chen (Director, Digital Treasury Product) holds day-to-day product ownership for CBO Wire Center and the Payments & Transfers line, while engineering delivery for the same systems is organized separately under PTT's CIO line (e.g. Digital Treasury Channels under Anjali Deshpande).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L28-L49",
+          "version": "repo-lines-v1:sha256:6a78e4d53757dc52ed8afbf408127fad2b593f094a087b8ce368bcbc39d79ea2:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMThlNDE5MjYwM2E5N2JlYWVjMDA5M2U3MzdmYzk1YTNlMmMwNjU1NmNiYzI4ZmYzZjFiODMyMjQxODMyOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1ODAwOGQ4ZTQwYjZjMjNmOTc5NGExZjAwMDNmYmVkY2M4MzM5NzUzYzhhNDljMTkzOWMwOWU5NzZlNjVlMjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwZWI4ODU4NmY2YmU3NGY0NmRmYjM1NDhhOGI5ZWEwYzc5ZmE4NGM5YTkyYTg1MzhiNGY3Y2RmNWI2NjliNGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJiZWMzNzlhODJkZDg2NjkyMmRjMDRlM2M0YTI1MDhmMThiNjUxM2E1NTQ3ZWVkZDVlYTJkZmFkNzU3ZWVjYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a81b1ef741b54d02b6a44f910800bdb6",
+      "statement": "The PTT system ownership register separates technical owner from business owner for every system; for SYS-CBO (Wire Center), SYS-CBO-SPS (Status Projection Service), and SYS-CES (Commercial Entitlements Service), Marcus Chen is recorded as the business owner while distinct engineering managers/leads (Tom Becker/Lucas Ferreira, Arjun Mehta, Nadia Haddad) are the technical owners.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L96",
+          "version": "repo-lines-v1:sha256:94a541e3f9bfd7a49d68075cae13cdd9db2c100412eca16a10fba77b8013840c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkMmI5MDJiNTRjZDUwZWZkMWYwODNhMDI4NWJkM2M3OTI4ZjFkOGI1ZWQxMWI1ZmMzN2Y3OTE2ZTgyZDgzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNjdmM2ZiOWNlMWFhYjVhNjNhNDg3YjhhNDM1NTdhYjM0Mjc0M2YwN2U0ZTNiZGJmMGJjNmYxYThhNzZlNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_fda8fc6c850d46c78e298860521ad50b",
+      "statement": "Wire Center, the flagship CBO product sponsored by Treasury Management Products, currently lacks milestone tracking, international (gpi) status, hold-reason explanations, and client actions on held wires; these are tracked as roadmap gaps against the upstream PRISM Payments Hub v1 API rather than as CBO defects.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L24-L26",
+          "version": "repo-lines-v1:sha256:6eb4e1fbf4a28ebb51b329886e3dba84d73bfd15ce56217f8416810cbee7689e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzNTA2NGQ4OTU5ZDZhMGUzYTg4MWVlM2EyZGQ5NzJjZTg2YTU4NmEwZGMxNjM0Y2I2NWQ3ZThlZjQxN2ZiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhOTVlZGMzNWQ5NGU3NzBjZDdhYjMzZDljNTI4NWJiNTZhMDAwYTMyNzA0Mjg1OTlmOGNmNDRmM2IzYmNmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjY0MmQ5NjY2ZDg2NWI0ZWZmY2RmZWJjMTAwNjllNTBkNTM2NzdkNDhlNDllYWUxNjBmODJkMDc4MmMyYmQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzhmZjY0YmYyYmVlODY2Y2U3ZjI0NDU2ZDM1MjdjZGUwMzEyYjkzYzg1YjllNzU3MDUxZDcwYTljNDY4MTM0MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L53-L56",
+          "version": "repo-lines-v1:sha256:c6f08921b32fb9c914b873940a5da97b2ee3ce25808a7979c780e594492a3149:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVhOTMyOTdjZjdiYjliZmE5NmE1M2FlZGRjMmY0OTU1YzY4OGFiODQzYzU5ZDBlZmJjYTIyYzVjNzNjNmI4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjQ3ZThhYjc0OThmZDQ3YTgzYzI4MjFhZGYyN2YzN2FhNjU5OTM3NmRjZTk1YzZmMzcyZmY1MDM2MDFlZmUyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_17fa60f613204508b72fe0ccc7f50841",
+      "statement": "Any CBO feature change that alters what is communicated to clients about payment status requires sign-off outside Treasury Management Products' direct control, specifically FCC Policy & Advisory review and Disclosure Review Committee approval under POL-FCC-014, plus Model Risk Management registration for any predictive/estimated completion-time statement.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L138",
+          "version": "repo-lines-v1:sha256:9eee5ca82d6b0725c9e5c06afe93d9a1f7573909a1d88d9664dd6a1f414c70d4:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzc0NmU5NjRiNzZiN2U2ZjA0NTU1YzdjOWZkZDU4YWY0ZDk1MjRlNjMxYjBkODU0NzMxMmJhN2I5ZDQ2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzgxOTcwMTI4YjJiYzliMWJmYjk4ZTYxYjFmYzFhMjI1MjhkZWQxNzE4ZWY0OWFjMTg1ZGNiZTNkNWU4OTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_21023c9aa86c42ceb630b8e49d53af74",
+      "statement": "The PTT organization directory CNB-ORG-PTT-2026-06 is refreshed only quarterly, and organizational announcements issued between refreshes take precedence over the leadership and ownership assignments it records, including those for Treasury Management Products.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L24-L26",
+          "version": "repo-lines-v1:sha256:f18489a719daa45bf0bb0ee7107579a71558b11b153d102f8492d9de6cb3ce58:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTE4NDc5MmJmOWZjMWQ1MThhMjJlNTUxZDQ5ZTU2NDdkN2JhMjY5NTUzMTEyMmZhYWI4Y2I1ZGMyMWU5MmVmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjNmU2ZGY3MTZhYTI0ZGE2YjhhZGFjZjdhYTUzZjRiMDBmYmZiZTk0NmY3Nzg0MDY4YTJhMDE2ODI0YTQ0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzkzM2I4YzI2NGVlMTkyNDc0YjJlMWE2MzAzMDVhZmU0MGE2NDY1MDcwZDZmNTlkMjJlNjc2OTIxZDkxN2EyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

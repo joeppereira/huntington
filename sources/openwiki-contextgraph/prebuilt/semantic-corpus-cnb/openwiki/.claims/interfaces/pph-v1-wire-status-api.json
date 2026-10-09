@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a2008f7313a4cc61000c398349e72d537462f091b4db0538116ec7f44b69c91b",
+  "claims": [
+    {
+      "id": "claim_3b09837d4ea04f858a7dbbfc04ce26d6",
+      "statement": "PPH v1 exposes exactly three deprecated endpoints — EP-PPH-01 GET /pph/v1/wires/{wireRef}/status, EP-PPH-02 GET /pph/v1/wires?clientId&fromDate&toDate, and EP-PPH-03 POST /pph/v1/wires — all scheduled for sunset 2027-03-31 with no extensions, confirmed by ARB on 2026-09-08 because the v1 adapter is unsupported on the Volaris 9.6 upgrade (April 2027).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L24-L43",
+          "version": "repo-lines-v1:sha256:6912d7d8b5a3e52ec1ba2ab16d342428ecd254aaa0b2c9344fbcd735b901b3d5:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0ZmY0YjU0NmJjZWI4NmQwMjNiMWYwZjNhMDBkNTAxZjA0OWNhY2YxYWEyNTAzZTcxMjNhMTRiMTE3N2FkNWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwOTI1OGEyZmQyNjAyOWUxYWM4YjM5OTRjYjlkYjczNzYwNTA4ZDgxM2I5ZjAwYjkzNjExYmQ5ODc0YWNlZmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNiY2RmYTFhYTAzODYzNWMzNTYwN2M0ZGQ5ZWQ2ZWFiMWY0NTZjNzYxOTEzNmJmMWI4MjUwNjllOTNmMzA5YjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBmNWVkYjVhYzI3YjYwZDkxMjdkYzBlZDk3OGIzYjdjNThlZDMyMWQyZTgzYTIyMTVmMDllZWRiNzk3YTMwOWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_fa4c235d91df4174b5b5340140d319de",
+      "statement": "EP-PPH-01 is rate-limited to 20 TPS shared across all v1 consumers (not per-consumer); EP-PPH-02 is capped at a maximum of 500 rows per response with no cursor.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L39-L43",
+          "version": "repo-lines-v1:sha256:431f4cc02473bf7679423b619dcbe38eb9c4e56a48e57456e8f98686e22565fb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzNmOWZmNDIxODU3MWM3MmUyYjg3MzliNjRiZjIyMDgwZTM5OWMyNzU3ZjMwMGVjNmY0ODBjODEwYzAxYjNlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDA5MjU4YTJmZDI2MDI5ZTFhYzhiMzk5NGNiOWRiNzM3NjA1MDhkODEzYjlmMDBiOTM2MTFiZDk4NzRhY2VmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTBhYTNlNTUwNTY1NGQ0OTgzNzhjYjAyMDA1MzU4MzA2NDAwMGY4NmRkMzUzNWIyYTE3YWM3ZjNhMzMwOGVkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGY1ZWRiNWFjMjdiNjBkOTEyN2RjMGVkOTc4YjNiN2M1OGVkMzIxZDJlODNhMjIxNWYwOWVlZGI3OTdhMzA5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_78c73b175d4449c9a81a8fce8a754228",
+      "statement": "The EP-PPH-01 response includes status (one of RECEIVED|PENDING|HELD|PROCESSED|REJECTED|CANCELLED|RETURNED), holdFlag, holdReasonDesc (free text, max 255 chars), and fedRef (Fedwire IMAD only, null for Swift; OMAD and UETR are not available in v1).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L45-L65",
+          "version": "repo-lines-v1:sha256:287cfab04f755c79e9f79c9e8e4faf37a02d4a030b1ec484e0470c61a14a2c12:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiNDgzYjBhODc5YmZiODE1OWVkNzcyMTk4ODNjZmIxZTJjM2VmMzliOWYyZTg2N2E5ZjYxN2Q4ZDNhZDAwM2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxNjUzNzFiM2RlOTc1MTU3MjA5NTYwZGM1ZDBhMDM5ODcyNTAxNTVhMjg0ZmQ3ODk0MTBlMzA5YTU0ZTdkZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzMzgxZjZiNzQ1MGE1ZmY5NWU3ZTJjYTJlYzQ1Yjk2M2FjNGZlNjBlMjkxOGEwZTdhNzc1OWI2NTM2YjdjMGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhNjAxMzZjOTA4MzYwNzgyZmFkZmVjMDYzNDJiNzM0NzdlZjc0ZWQzNWVlMDI0ZGE1NWFiMDNjOGMwNDFkOGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_536d7b9a6c37406488b8497dcc7879a8",
+      "statement": "v1's status value PROCESSED collapses four distinct v2 lifecycle states — RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED, and COMPLETED — so v1 consumers cannot distinguish a merely-released wire from one acknowledged by the network or closed in accounting.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L63-L63",
+          "version": "repo-lines-v1:sha256:14950486dc5e223981b24a15ee09dc728928b9ce6874c35a40b9fe0d58ced099:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ5NTA0ODZkYzVlMjIzOTgxYjI0YTE1ZWUwOWRjNzI4OTI4YjljZTY4NzRjMzVhNDBiOWZlMGQ1OGNlZDA5OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ5NTA0ODZkYzVlMjIzOTgxYjI0YTE1ZWUwOWRjNzI4OTI4YjljZTY4NzRjMzVhNDBiOWZlMGQ1OGNlZDA5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2QyYTk2MmFhZDA0MDVjZGFhYTZjZmM3NmY2YjJmYTVhYWE1NDJmNTdmNWNjNzRmZGExMjQ4ZmFmYmIzNjcyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTUyZjRlMmNjNTU5ZGQ1Mjk3YWY1YmNiNGY2MzE4ZmY2ODQwYmM4NWViMjBkY2RlNDZlODY0Y2UxYTJiODdlNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L54-L86",
+          "version": "repo-lines-v1:sha256:bde107894ff96b385e7ce3462c846a6a6c16cc21f3e0a22fa2e5c8c6d84c8dbf:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNDBhODBmYTk2M2E2NWQ3ZjViZTU2MTIzMjA0M2ZhNjQzMzUyMDIyZDA3NTQ5ODM4NTE3N2I1OWY0NmFiNWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlMDRmNjJkMjAyYzI2N2MzNTJkMDA5MjAzN2YzZTMwYmRkY2IyZDE0MzIzNWU4N2ZiMjE2YzczYzBmMjlkODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2MjhjYWMyOGIwNGY1OGY1YzdiM2ExNWMzYzUyMDA1N2JlMjhmNzYzMDY1ODc5NDBjMWZhMGQ0ZDA3MDE0NDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyNzM5ODUzZThiYjdkNmZkNmIwYTNlYWU5YjY1OWRlYzBjOWM0ZjVhZmE2ODQ0NTkyOWI0MDk4OTBiMDU5OWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ed4ecfc2721d483ca43361b446f7fb24",
+      "statement": "The 2024 Wire Status Lite pilot found 37% of surveyed users believed the PROCESSED/'Processed' status meant the beneficiary had received funds, which is inaccurate since NETWORK_ACCEPTED means only Fed settlement (Fedwire) or network delivery acceptance (Swift), not beneficiary credit; CBO Wire Center relabeled 'Processed' to 'Completed' in release R26.1 (CBO-4402) without resolving the underlying state-collapse ambiguity, and complaint CMP-2026-1189 reflects a client relying on 'Completed' for a wire later rejected via AC04.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L80-L95",
+          "version": "repo-lines-v1:sha256:0404441262518543b59a77e054e8aefe0f39ba9f0898b26f9c760960aa1d64cc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3YzI1YTI4YTczMWI1MjRlMzNhNmM0YjAxMDMxOTc0Yzk3N2IzZmViZDUyNGM4M2Q5ZjFhNWQwMzk2OTQxZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljOTU3MmI2MGRhNzZhNzNjYTdjOTYzNzNkMWU2NmY3YzY0MzMzMzc5N2E1OGJjNWY0MjEwNDI1Y2YzNjBkNGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjNjI1NmJiYzIyZTg5MmU5Njk4NmNlOTY5ZjBjNWFmOGQ5MDFjYjgzM2M1NjY4ZTVkZTM3MjdkZmU2NGZmMTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MGVlNmVkN2VlYTQwY2Q2NDgxMjQ0MjFlZjEyMmU5ZjQ3OGM3MGNhMGMwM2UxY2U3Y2E0NjFkOTllMWU2NGYifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L185-L188",
+          "version": "repo-lines-v1:sha256:952dad864d4302ac5cc7ef0f1292c13b2d80d73eb463e0a7c448178235e027b9:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDcxMTU5Y2NiMTViYjg0ZmM4MTY1OTdhYmQxZGVkYWI3M2JkMDdiMTBkODA2NTI2NjRhZDA5ODkyYmUwOTlmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjliM2JlNWNlZDQzNzllYzg2MTJiNDczMzk2MGYyYTkzYWJhNzI4M2NmOWE3MWNhZTE2MmNiZmYzNGY0MzEwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDU4ZTkxMTdkYmJiMDYzZDMzMDhjYzI5NmNmMjA0ZDY0NmEwNDFjYTgwMTViMGE2YjJmYWI1ZmNmNGZiOWZiNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L37-L43",
+          "version": "repo-lines-v1:sha256:c13cc30ea9aeac03b0e805756b86daeffe12820d3bfe0b608f80179424daaa42:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzU0MGRiZjZmMzhlMTc5NTMyMmM0NjA3ZDk3MDMyZDRkMDVjZWE2YjAxZTQwMzc5MWJmN2UzNWViN2IyNzZiNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwYTRiNjU5MzQ2ODQ0ZmMzMTk2ZGIwNGEyMDJlODc3MGMzM2Q5YzJhZWFhMTdiMTU0YjllNGZmY2RlNWYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFmMGQ4MTgwYzk5OTQ1NzA3YzE3Yjk4ZGZjYzExMGM1YmUxMTk2NDE0MGJkMGI1YzBkNGE2NzlmMGJiYjk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkNjk4OTVkMzlhMWRjYTliNmU5ZWZjZjJkOTA0YTllODBlMTRjYjAzM2VkMWVlMTIwYmQ3ZmY4M2ZmMmJmNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L88-L95",
+          "version": "repo-lines-v1:sha256:0e075ddaf74fe14ef25d7654439b547f620a93a40fb689563c40fbfb4f7605d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1NGRmYTQ4ZDE4ZGNhMDE0NTc1MDliOWMwMTdlMDQ1OWU5YzAxNmEzYTNhMjI5ODk2OWJmYjI2Y2U1MTc5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQxMjgwOTViYTdiZDI4MTljYWU2NTQ1OWI3ODg4Y2U0ZTBlZDA3NWI4ZDYxYjM4NTg3MDUzYzI4YjZmMGRiZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGU1MDI3ZTBhMGY5ODRjMzUxNjRmNGE3NzE1ODQ5NmVhMDRlZDJlNWFhNmUzMDM1NzIwN2MxNTJhYjAyNWZjMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f3691ae6988c4a8facc279b646abfc6a",
+      "statement": "holdReasonDesc is populated by a legacy, always-on HMS-to-PPH description sync active since 2019 that predates ADR-PAY-021's hold reason confidentiality rule; it exposes HMS free-text (potentially including HRC mnemonics and analyst notes) and is tracked as open risk FCT-2004 (owner Daniel Kowalski), with consumers instructed not to display it; it has no v2 equivalent and hold reasons are not published on PPH event topics.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L165-L167",
+          "version": "repo-lines-v1:sha256:1ff89d090b6bf4bd2e01243a3aa2c555b9140197e509aa8cbcaeff95c70bafb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA2OGMwYTFlNzM4MjQ2MjZjN2RmYWU2MDk0MDIwY2JmYzhjOWIzMjNkNDQyOGU5MDM2NjY5MmUxNjBiNGJjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZjZWMxOWUxOWQ5ZjAxNTJlNGYyOGYxYTZkZTBhNDMwYjI4Yzk3YTczMzU5MGYzMzkzZmFjOTUzZGJlYzM5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L63-L63",
+          "version": "repo-lines-v1:sha256:67d6a57937689dd583209404ef088c1bf3567cbb87070e53d86295c20d6dc608:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmM0MzYwYzlmZTM3ZDY4Y2NlZWYyNTAwYzk2MWU0NGI0M2RkYjRkMzE2MDJmN2RhNzU1ZWRmZmI2ZDlkOGU2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L115-L115",
+          "version": "repo-lines-v1:sha256:0f46a3b66150121475fa5f38ac89a8828fc0b90394fadfb4197d7b642198cdf3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY0NmEzYjY2MTUwMTIxNDc1ZmE1ZjM4YWM4OWE4ODI4ZmMwYjkwMzk0ZmFkZmI0MTk3ZDdiNjQyMTk4Y2RmMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY0NmEzYjY2MTUwMTIxNDc1ZmE1ZjM4YWM4OWE4ODI4ZmMwYjkwMzk0ZmFkZmI0MTk3ZDdiNjQyMTk4Y2RmMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGJjNTkzZTQ5MzNhNDUwNzc3YWY5ODJhZGRkYzk2MzU0YzRkNjg1MmQyZjE0OGJhMzQ5MGU2OWI5OGI1ZjlhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDFiMGQxMjhjY2Q3NjU2YTk2ZDY4ZTQwNzdhZDg2ZTUzMTY3Y2E1MTUwNTBiNTA5OTU0MjdlYmJjODdiMGI3YiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L64-L64",
+          "version": "repo-lines-v1:sha256:d0e7607c7d629c640074bc7937a9585277c74766ed5c78bc0e11912d25f650b4:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDBlNzYwN2M3ZDYyOWM2NDAwNzRiYzc5MzdhOTU4NTI3N2M3NDc2NmVkNWM3OGJjMGUxMTkxMmQyNWY2NTBiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDBlNzYwN2M3ZDYyOWM2NDAwNzRiYzc5MzdhOTU4NTI3N2M3NDc2NmVkNWM3OGJjMGUxMTkxMmQyNWY2NTBiNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTllMGU1YTc1ZWE2NzQxYjllOThmOTJjZmUzMjNjNTc3OGM5N2EyOTMwYWEwMjZkMzdkMTk5ODRkOGY4Yzg5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTU0N2EyMGNjMjk0NDBhNTE2ZWY0ZTk5NWRjNWZkZjg3MmM1ZGExODZjMGI4MDZjODc3YjhhNjRhNjcwNDIzMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8288b88cf80f41d3965a6a5f2ee1be64",
+      "statement": "CBO Wire Center does not display holdReasonDesc today (held wires show generic 'Pending Review' / 'This wire is being reviewed'); it is tracked separately that a Wire Center UX change (CBO-4388, per HMS interface documentation) began surfacing this field as a client-visible tooltip behind a feature flag, a concrete instance of the FCT-2004 leak reaching a client-facing surface.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L95-L95",
+          "version": "repo-lines-v1:sha256:9c9572b60da76a73ca7c96373d1e66f7c643333797a58bc5f4210425cf360d4e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5NTcyYjYwZGE3NmE3M2NhN2M5NjM3M2QxZTY2ZjdjNjQzMzMzNzk3YTU4YmM1ZjQyMTA0MjVjZjM2MGQ0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5NTcyYjYwZGE3NmE3M2NhN2M5NjM3M2QxZTY2ZjdjNjQzMzMzNzk3YTU4YmM1ZjQyMTA0MjVjZjM2MGQ0ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWVlZWYwODczNWNlZjMwMDE0ZjFiMmIyZWI0M2I5ZDNlYzU3ZDVlMGZkOWIwNjczOGYxYzA2Y2JiNjk2NzY3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTgwZWU2ZWQ3ZWVhNDBjZDY0ODEyNDQyMWVmMTIyZTlmNDc4YzcwY2EwYzAzZTFjZTdjYTQ2MWQ5OWUxZTY0ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0b7ae3db81eb40709be1fde056d2dca1",
+      "statement": "PPH v1's seven status values map to distinct CBO Wire Center client-facing labels with documented introduction releases (e.g. HELD→Pending Review since R22, PROCESSED→Completed since R26.1, RETURNED→Returned since R23).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L82-L95",
+          "version": "repo-lines-v1:sha256:3728edc05f3ef4332c4df313b1adc579a5106c7c76f10de1c03530cab788c1a6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiNjY1ZGYwNmE3MGVjOTg2ZmMzZmRmYzM3NjcwZWNiMGJkZWYxNGEzODg0MWViYTI1MTZmMDk5MDZhYTJiNGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljOTU3MmI2MGRhNzZhNzNjYTdjOTYzNzNkMWU2NmY3YzY0MzMzMzc5N2E1OGJjNWY0MjEwNDI1Y2YzNjBkNGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkNzI4MTQxMDVhNTY4MmFiYTgxMzEzNmZkOGE1NzFmMGY0YzcwMGYzZDJjYjcyYzBkZDc4ZWFiMzM4NWQ4MTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MGVlNmVkN2VlYTQwY2Q2NDgxMjQ0MjFlZjEyMmU5ZjQ3OGM3MGNhMGMwM2UxY2U3Y2E0NjFkOTllMWU2NGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_be7fd83046ef4d43be71e0cd01326acb",
+      "statement": "EP-PPH-01's 20 TPS shared rate limit was imposed in June 2024 as a direct remediation action from incident INC-2024-1182/PIR-2024-07, in which Wire Status Lite's 30-second auto-refresh polling drove ~85 TPS against this endpoint and exhausted PPH's API thread pool for 47 minutes; CBO Wire Center now enforces a 60-second server-side cache plus a refresh throttle of 1 call per 60 seconds per wire against EP-PPH-01 per ADR-PAY-019.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L125-L129",
+          "version": "repo-lines-v1:sha256:8ec6de8500175bc3faf2163322a52f5f186b2d117a23df6b9bfe6c3bea033ad2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGMxNDBiZGVlYzY2NjNkNTVkYjAzMDUzZTU0Y2I4YjgwODYyMzQ4Y2EwYzMxNjEyNTg1YzU0ZGUxOTg4ODQwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2U4ZmZmMmE4MWIwMGIxMGVjZDNiZjJhNTVhYjY2Y2QyZmYxMGNjMTBlOGNhMDBlY2RkYzJiZGIxOWIzOWQ4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNThlZGMzZTA1MzEwYWJhODg0NzgzNDhkNDY0MWEzZmNkZGZjYmRjMDZjNDkzYzU5NmZkMmI1OWUyNjZmYzAyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWFmY2UwMTlhM2Q5NGFmYzEwMTI3MzIxZTc5ZTc1NTMzOTc5M2E1Y2FjMjczYmEzOTg0NDkwMjAzNWMyNTU4NCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L62-L64",
+          "version": "repo-lines-v1:sha256:f973606548d2ab7ba47450663cb7ebd8825edff29be824d87dd0700c30d4a25c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGIxYzJhNWE3Mjk0NzI1NzI3MzViOWJmZDFjYjhhZjUwZjA0YTZlOTI3MGVkY2RmNGQ4NTU3ZTQ5ODI2YmM2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNhMWJiZDQ2YjliMmRiM2Y3OGIxYzYwOTE0NTQwNDcxOTU1N2FmNTcyZTM1NzA5NWUwOTZlMjMxZDYwNGFmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmQ0NzYwOWM1NDdhMDMzOGIwYjc5Yzg2NmIyNDAxNTMyNGNlYTdmOTFjM2QwZjQzNGYxYzViNzZjYTg0NTE5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2M5YTk1Y2NjM2Y0YmIzZTgwNmRkM2Q4MmUyZTk0NmFiMzdjZmRhNjA0Zjc0N2Y3OGRkZjg4MjIyNjhmNzc5MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L45-L59",
+          "version": "repo-lines-v1:sha256:957d8734ea044bcca75f6d9fa5474b70f13cd21e5cebe2427d3edc35fce4cf2b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxY2Y1ZjBiMDZkYzIzNDBkZTE2MjdlNWVlZDZkMDNlMGYzNzc0OTBmMGZkMjUxN2RkYTFiYmQ0ZGQyNWQ0NTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM2NDU2MzJkYThlMGI1YzYxOTQ3OTI4ZDk2NjNmMDU3ZjE5YzZlMjg1ZmFmNDAwZGE4Yzc3YWY3YTJkNDZkYzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBlZjdiMDRmZmIwYjlhOWM2MmY5YzcxZWNhMmM2YTE4MzY1YjRhZmIyODkzZWFiNmM2NGQ5MjdhNmJjMmI0YjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNkYzFlYTAyNTkxNzFhNjE3OGRiMGQ2OWJmN2EyMzI3MTc3YzljZWVjNzEzNzdiMDRkM2E0MDA3NzQwOTI5NGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0a1940dd7936435ca8409f1da3d87e66",
+      "statement": "v1 consumer migration status per PPH-2190: IVR wire status migrated (2026-05); Service Center CRM in progress (target 2026-12); cbo-wire-bff (Wire Center) not started, tracked as CBO-4471 (34 pts, unscheduled, also depending on CBO-4473 for CES account-filter mapping); Wire Room console migrated to Investigations Workbench (IWB) in 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L137-L137",
+          "version": "repo-lines-v1:sha256:46fb1f963ae502640173a488a548fbb8625c109986c40f20803804dd4a3f9cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZmYjFmOTYzYWU1MDI2NDAxNzNhNDg4YTU0OGZiYjg2MjVjMTA5OTg2YzQwZjIwODAzODA0ZGQ0YTNmOWNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZmYjFmOTYzYWU1MDI2NDAxNzNhNDg4YTU0OGZiYjg2MjVjMTA5OTg2YzQwZjIwODAzODA0ZGQ0YTNmOWNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBkMTJjMWMzYmNiYWMwNjQ1ZjY2ZDAxYmVlNDUwMDRlZmI2ZTdiYzM5NGZmODM1YTc4NjAwZThjNWMyYTE2MSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L30-L35",
+          "version": "repo-lines-v1:sha256:43575f7ebe092fb99c0662be6e47d78cabed44958ee2afc42d2a856a2f02ab84:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTgzNTkxOWRlZDE3N2NlZmMyYTI0N2M1MTE1NzI0MjJkYTM4MTQzNDkxMDIxMzUzYTVmMDEwMjAxOWYzOGUzMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBmODUyNzIwN2EzMTVlZjA2N2M3NmJlOGE4NWUxZmI2NTk0MjY1YmI3NjY3OTFiNjVjMDdlZjMzZjQxMTZmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDE2MDUwYWE4NzRhMTMyOGI5N2NjNDIyM2FkNTVlZDg3NWE5NzcyN2RlZjAwNzczNTg1Y2RmMGY0YWY0OGIwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTBhYTNlNTUwNTY1NGQ0OTgzNzhjYjAyMDA1MzU4MzA2NDAwMGY4NmRkMzUzNWIyYTE3YWM3ZjNhMzMwOGVkNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5d604f7e7c3041f590703e44b86a72dc",
+      "statement": "v1 REST is published at 99.9% availability with 350ms p95 latency and 'best effort' support until sunset, a lower service commitment than v2 REST's 99.95% availability, 180ms p95 latency, and T1 support.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L117-L123",
+          "version": "repo-lines-v1:sha256:b1db6dd3b655b4f961fd3865480dea607e58a56213ecb7920687aaeb7db772c6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUwOTY4ZTg2ODFlYmNjNmI0MWU0YTgzZWM1NGMzYWE3MzkyYTZmYzBmMWE0NmE0Yjk3MDk2MzhmMThhZjliZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTA0OWZlMmJhYTMyODgyMDgyYzhiMjQzNDQ2NmQyODUyNjBmNDJjYTZiZTNlNjNmYTJhMjIyNzI0OTIxNjQzMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmZhNDNkMTBmNjA1YTViMDMyZmJhYmYyYTc0NWJjNjg0NTY1NjZiNTk2MjMyYjVmZDY0NWU1OWZhMDNlMDgwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTdlMDg4ODM2MDExYTAxM2ZkMDFjNWQxMjMyYzlhMDNiMjRiOTg5MTk1YWUwMmYyYTRjM2U4YWM5MDcxNDhhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a9e370229dda433187100e0ffc186f78",
+      "statement": "PPH v2 search (EP-PPH-05) filters only by clientId (not account) and has no beneficiary-name filter (backlog item PPH-2251), while EP-PPH-07 submission requires an Idempotency-Key header — unlike v1's EP-PPH-03, which has no documented rate limit or idempotency mechanism.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L77-L82",
+          "version": "repo-lines-v1:sha256:1d9e4bf20c003bcfe8e328ecfc7916d9e7ca1dfce65cec8b7d6663b3992e6459:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzdkYmM3ZmYxYjg4MTE3ZGNmZDdlYmY2MWM2ZTZkZTVkM2QwMDIwNGQzYTIwMjYxZjIzNDA1YzY0MmJkMTlkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDY3YWQ4YmEwOGJjYmE2ZmZlMzRiMmMzZWE5MjQ4OTllYjMyNWEyZWY0ZDg1ZWM4N2VhZjczZTVmMGI1MDNmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTM4NDJhMmQ1NmQwNGU1MTRjYjE0YTZjYjBjN2U5YzI4NGQ2ODllYWIyYzQ1ZWRhMzdmNDY2NWM4Nzc3MDMzNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

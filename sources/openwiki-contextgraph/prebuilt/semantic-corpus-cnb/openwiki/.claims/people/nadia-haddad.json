@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9553a2a4dfd80ad025f64fd937ef6915ff5789c04375d2ff0f487a63243085ab",
+  "claims": [
+    {
+      "id": "claim_4351517bd2584a7d97245cda27af48ad",
+      "statement": "Nadia Haddad is the Engineering Manager of CBO Platform & Entitlements and the named technical owner of record for SYS-CES (Commercial Entitlements Service), a Tier 1 (24x7 critical) system in the PTT system ownership register, with business owner Marcus Chen.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L97",
+          "version": "repo-lines-v1:sha256:3e754189cd6ed7e6bf56a0003483afa983aa49ac9592ceab583db2167e8a0dfc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MTI4YjA3ODdhMjEyNjJmYTk4NGM4M2QyMmI3Mjk0MTJjZGI3MzJkYmIxNDgxZjM1N2VjMjk4MzQ3YzczZjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d6318d5f40fa4b709ac64446570df4b6",
+      "statement": "Haddad reports to Anjali Deshpande, Director of Digital Treasury Channels Engineering, who also leads the CBO Wire Center squad; engineering delivery/technical design authority for Wire Center and CBO Platform & Entitlements systems is organizationally separate from Marcus Chen's product/business ownership.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L49",
+          "version": "repo-lines-v1:sha256:186ecf859d0ae692c32c9442aaf7ba1b79ad3a9ae95086eea3f9cf6cc3964836:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2MDMyNWVlNjE0NWViODEzYjdjMTNmNDRmYWU3ZDVlYWUzMzM2ZDg4MWIwZDBiYmYwOWE5NGYyYjlmNzBiOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTU4MDA4ZDhlNDBiNmMyM2Y5Nzk0YTFmMDAwM2ZiZWRjYzgzMzk3NTNjOGE0OWMxOTM5YzA5ZTk3NmU2NWUyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGRkZTVmZjAxMjNjNDMyN2ViMjEzZGFjNDRkMTJlMzk5MTgzZTE2NTcwY2U1N2EwMGJkZjhhNDU2YTI2OTc3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmJlYzM3OWE4MmRkODY2OTIyZGMwNGUzYzRhMjUwOGYxOGI2NTEzYTU1NDdlZWRkNWVhMmRmYWQ3NTdlZWNiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6068fcbae2164266bfe5a92736c9ee70",
+      "statement": "Within CBO Platform & Entitlements, Arjun Mehta is Tech Lead for both owned systems (SPS and CES); for CES, Haddad is the system register's technical owner while Mehta performs hands-on delivery work such as account-filter mapping.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L97",
+          "version": "repo-lines-v1:sha256:3e754189cd6ed7e6bf56a0003483afa983aa49ac9592ceab583db2167e8a0dfc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MTI4YjA3ODdhMjEyNjJmYTk4NGM4M2QyMmI3Mjk0MTJjZGI3MzJkYmIxNDgxZjM1N2VjMjk4MzQ3YzczZjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_03eed0170e7f49efaf1607a9a08e5b88",
+      "statement": "CES is called synchronously by cbo-wire-bff via GET /ces/v2/users/{id}/entitlements (EP-CES-01) to authorize and account-filter Wire Center results, governing entitlement types WIRE_VIEW, WIRE_INITIATE, WIRE_APPROVE, WIRE_RELEASE, and WIRE_TEMPLATE_ADMIN.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L115-L119",
+          "version": "repo-lines-v1:sha256:ede1ff782da99c4e0112eaf723cab878eb610f62fdb12d55ba3426ced67b19c6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZkNDU4MDAzNmYxMzhlMTQyMTcyNjE0MmYyZDhhMGEyMzUwOTAzMGJiMTk4NmZmZmMzMmM0NWMzNzc4MjQ3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjViZTVkNjY1ZjRhOGM3YWI2N2YyNmU1Mjg0MDdlM2I1NzIyZWY2Njg1NGZhY2YxYTg0Y2IwYTY5NjEwYTc1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBmZjEwMDJmMjM1MWZmNTQ1ZTM1NTUxZjdkMGE2NDQ4MjI2MzFmN2I4MWM2MTExODE1YjRkMTFhMWM2MWM1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWMxZGM0MWZiY2MzZDUxZmMyZmJlYWZkNDNlYzc2NzAyZDIwMTMxZGM1MzY5ZmRmZmU0NzI1N2YyZjVhZjJmNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L39-L67",
+          "version": "repo-lines-v1:sha256:9f8fba30eb477c5baea0b323039623ce5de1cf872c7378ee39cbc01770febe9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMmFmNzY4OWUxNjlmZWE3MjBhZDFhOWMzOGU5MzYwYTVhYzZmNjg1YTc1OTFiNWU0MjczNzRiNGM0MTg4NjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNmQ4ZDJmMjMwODRiZDNiYzZkN2I4NjY3YjdiYmIyYmVmNzlmOTkwMTI1NDE3ZGIxMmFkM2Y4OTcxNzgxMmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZmY2IzNDUxYmMwNDk2NWQwMWU3YzIwYjk3YTJhOGE2YmE3NmM2ZDM0NjJmYmFhYzNjMDVkZDVlZTIyY2EyMWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0f7b76631be14a3995a3dbef06070082",
+      "statement": "CES-sourced client hierarchy data (CIF + CES) feeds a daily-refreshed, Confidential-classified TDIP dataset with Marcus Chen and Carlos Mendes recorded as data owners, making CES a source system for downstream treasury analytics beyond its authorization role.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L36-L36",
+          "version": "repo-lines-v1:sha256:38a2924a95803536403af2ac9e2b348e53a443d3d1baff891dae90d252a7ed85:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhMjkyNGE5NTgwMzUzNjQwM2FmMmFjOWUyYjM0OGU1M2E0NDNkM2QxYmFmZjg5MWRhZTkwZDI1MmE3ZWQ4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhMjkyNGE5NTgwMzUzNjQwM2FmMmFjOWUyYjM0OGU1M2E0NDNkM2QxYmFmZjg5MWRhZTkwZDI1MmE3ZWQ4NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmYxNTQyZDgzYTFlNDNjNTVmODEwM2IzZTBjYTQ2NmY2ZTc1M2M5NmY4NGRlNTIxNmU1ZmJlNzIyMGUwZTUxZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmIxN2VkNGJjZDc0MjJkYzYzNjliZDg4Y2E0YzQzY2VmMTg0MTNkOTBlNzE3MGIzNDdiZjllMWY3ODM0YWI4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a349bbc1c9594261a60baaf444e95576",
+      "statement": "Wire Center's PPH v1-to-v2 migration epic CBO-4471 (34 points, unscheduled, required before the 2027-03-31 PPH v1 sunset) is blocked on CBO-4473, an 8-point CES account-filter mapping story owned by Arjun Mehta, making CES delivery a dependency gate for the migration.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L137-L137",
+          "version": "repo-lines-v1:sha256:46fb1f963ae502640173a488a548fbb8625c109986c40f20803804dd4a3f9cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZmYjFmOTYzYWU1MDI2NDAxNzNhNDg4YTU0OGZiYjg2MjVjMTA5OTg2YzQwZjIwODAzODA0ZGQ0YTNmOWNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZmYjFmOTYzYWU1MDI2NDAxNzNhNDg4YTU0OGZiYjg2MjVjMTA5OTg2YzQwZjIwODAzODA0ZGQ0YTNmOWNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBkMTJjMWMzYmNiYWMwNjQ1ZjY2ZDAxYmVlNDUwMDRlZmI2ZTdiYzM5NGZmODM1YTc4NjAwZThjNWMyYTE2MSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_27ff0929f6eb4174871e83fc6700e922",
+      "statement": "CBO Platform & Entitlements is engaged via Jira project CBO (Platform component) and Slack #cbo-platform with a two-week triage cadence; its planning factor is ~1 story point per 6.5 engineering hours at ~30 points/sprint, running at ~70% committed capacity as of PI 27.1 planning.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L146",
+          "version": "repo-lines-v1:sha256:ed81267452b8320ceee1f15c41dbec863da53a24117f0c4d14e8ec36dd573182:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjNDUwZDBiZGFhOWUyNDU5MDcxYWU5YzhhMGI3N2Q1NjYwNGY2MzZmY2U1N2E1Zjk0NWI3YjBlNjgyNzExNDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3ZDBkMzIwNzQ4MGI0ZjMyNGI0ZjQ0MzFmZWM2MjU2MWIzMjY4MzNiNzFmNTdmZGYyOWM1N2JiZmU5YzhlZDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmYTIxZDVlM2UzY2M5NzUwYjU1ODExNmVlOTVkNzZjZTk2NGRmMmFhYTJmZWFmOWE5ZTIwYzRlYjBmYTU3OWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRlMTQ0OWRjYmQ5MjkxY2Q2M2Y1MjI3Y2IwMTNhNGYwMTg3MWVlMzAzMGZmMDYzOGE5ZTdhMGIxNDIwMWI2OTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3693dd8fcf7644848834034aecd8d227",
+      "statement": "Unresolved dependency conflicts between CBO Platform & Entitlements and a peer team escalate from the respective engineering managers to their Directors, then to the PTT Leadership Team, which meets weekly on Mondays.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

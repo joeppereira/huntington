@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:82ccf3b5354a5b202f5d1720eddf2ea05c8cedce540756bda6405149579559dd",
+  "claims": [
+    {
+      "id": "claim_25eb1e0a13644727b91a2f792e3e3ea2",
+      "statement": "MRM-POL-02 v7.0 is the Model Risk Management Policy extract, owned by Jonathan Price (Head of Model Risk Management), approved by the Board Risk Committee on 2026-06-18 with effective date 2026-07-01, and re-baselined to the April 17, 2026 interagency guidance (Federal Reserve SR 26-2, OCC Bulletin 2026-13, FDIC FIL-15-2026) that rescinded SR 11-7 / OCC 2011-12.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L15-L22",
+          "version": "repo-lines-v1:sha256:4183c06bc0341bf4a16ac29fcae724ff05d4a6a3a8505b3ff262ec71f4143c42:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y2MDU2YzhlMzFjMzVkNTVlMzRiMGRiM2Q1NzcxYTdhMzVjZjRjNmRhYWM1NWYzZTg1YjgxMWRlNjczNTM2OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjVlOWY5NWYwNjNhOTZjYTc0MjFlNTI1MzNjYjFhYTJlNjlkZDM5NTE1NjQ2NDFhN2YzN2ExNDAxMWJhNTc5YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjRlNGJlNDE4M2FjYzUwMDk1NjllNTExZDEwNzEyM2QwNzdmM2MyYzFhMmJiZjY3OGYxY2I2ZDIxMjhiMzZiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWQyOGZjOGYzMGM2N2RmZjY5OGE0OWQ3NmI2ZjEyMDBiNWVlODM5YTEyMGRhYTgxMjIzYmNkMmFhMzk2MTBkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4ecd200894cf4afa93e407cefee318c3",
+      "statement": "Version 7.0 of MRM-POL-02 introduces a model definition requiring meaningful statistical/economic/financial/ML complexity, a formal End-User Analytic (EUA) category for simple descriptive calculations with no independent validation, purpose/exposure-based risk tiering, and a dedicated vendor-models section.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L25-L27",
+          "version": "repo-lines-v1:sha256:8c6b20dc048ddea8a3d63d6c37f9a6c5460c550acb6a40aceb192a5fc76fdaa4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWU5YTgwNzI3Y2UxZjJiNDUwNDk4YTAzZDZkZDQyZWQ3MjI0MTMwNTMwNzkzZTcyZTdjNzQyMDM0ZDNlZjA5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFiZjYxMTk4MjZhMTZlYWI4YmZmYjMzODI3YjRhZWVjYThkMzY5ZGRiMTFhZDE1ZWVmN2IwMjczYzI1OTg2ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmNiMWM2N2E5NjE1MTEzZjZhOWJhYjE0ZjRhN2EzMDkwYzRmMjJiNzAxYjcwZTg5NDY2OTAzOGNmNjcxZTI5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjczZWM2ZjVjNWRhNTQ1MjcxMjgyZDkzNDQ5NDI0OWU4NmUwZGNmNjBkNjY0Zjg5YjIyZjQwM2YxOTIyOTliMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_557c52f3e4944bf38e9bbf29ae70b70b",
+      "statement": "MRM-POL-02 defines four tiers (Tier 1, Tier 2, Tier 3, EUA) with escalating validation requirements, and mandates that customer-facing estimates are Tier 2 at minimum and cannot be shown to clients before validation and approved use conditions are in place.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L36-L42",
+          "version": "repo-lines-v1:sha256:fd1a3bf772e7c4411ded9e760a94371c654cbf36b0515341da2ede3a7485bb4b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU3YzQxZGQyZWM4ODg3YmIwNmU5ZjhmNjdjYmVjNWU3MzQwYzE4NWU5YWU1MWFlMjQ2MzZiMjI3YzFlODYyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWUyYTEzZjg4YjU3NTdkMzFiMWM5Y2YxMzEzZDcwZjJmY2FlOTI5Y2U3MTViNzJjYWM4MTgxNjI0ZmQ2ODA2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjgzNWVkOGVjNTY5N2E0NjRkNzE0MWMyYWZjYTVjOTQyYjUzZjA5MmM3MWE4ZGFkMzExYmJmYTE1NDM4M2I1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWIzZTcyNWI0NzI1NTQ0ZjgzYjIyOGJmZTNlYmVjNjI0ZmViMWU0YTRhMWI4NzFjM2I1NDhjZjNkZGViOGNmNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4bd93f2201d74428aa02a045f9193618",
+      "statement": "MRM-POL-02 use limitations restrict Tier 1 financial-crimes model outputs (e.g. Sentinel fraud scores M-FCT-0021 and beneficiary mule-risk features M-FCT-0034) from product, marketing, or client-facing use, and require compensating controls and outcome monitoring for vendor models lacking sufficient development information.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L44-L48",
+          "version": "repo-lines-v1:sha256:a472ea2965d693b181c9f90bc6afc7a45036833ae8d10c13fc418f17ecf084dd:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzMzNDZiZjUxZDUzYzQ0NTIyMTRjODJjYWNmMzBkNGIzMTU0ZjZkZGFkOWNkOGRmZjFiODlkNjI1YzM2NzU3MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZmZmU5N2M4ZjA4YmZmY2JkODU5Y2M0YjE4ZTEzNzFhMWYzMjQ5ZTI2Mjg2YTdlMWZiNmY4MjIzYTBiOWI4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmI1OTc4NTA0OGYwYmUyMWRjNTUxNmYzMmM5NDFiMWY4MTg0MTM1NWMxYWU2NjkwYjhhZDRlNjRiNjU3MGVlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcyYTRjYjMyNWUxNzE1NGI3ODQ5YTU5Y2Q5NzljODU2NzY5MTg2YWQyOGRhMjE4ZTc5YWNhMDdmODRlODg2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_062fa25f829149219ab8aaa3db407277",
+      "statement": "The MRM-POL-02 inventory extract lists M-FCT-0021 and M-FCT-0034 (Tier 1, owned by Victor Petrov), M-TRS-0142 Treasury Insights cash forecast (Tier 3 re-tiering to Tier 2 under v7.0, owned by Wei Zhang), and EUA-TRS-0007 ops corridor completion dashboard (EUA, owned by Denise Carter); the Tier 2 validation queue had roughly a 6-week wait as of the Q4-2026 capacity notice, with Sophie Laurent as the named Treasury & Operations validation contact.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L70",
+          "version": "repo-lines-v1:sha256:7f83b63917fbafbba3a6dfd5c99abd3ea157337447dd633011b5938168890e5d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBkNWZmZDI3NDViZjc0ODgzNjBhYjdhYjAwMDdjYTRmMmFmZTY3OTBhNTYzMjcyNjVjNDIwNzNhNjUzMDViZjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwODM4ZGE1ZTc2YTQyNTVjMDMxZTFlOTRkMWU0OWFlMzAyNzUxZDdkYjZmNDQyMTRmZjM5N2I4OWUyN2E2MmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlODhjM2M0YjBiMjZlNjE0NmQ4Y2QzYjVkZTY0NzI3Zjc4MDc5OTZmZDYwNGM1MWJhNjE1MmFmMDQ5NmU1ZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0NDQxNzY5YjIwNWU5MzQ2NjNmMGE4MzNjZGQ3ZWUxMmIwNDU3ODI4NzRkMWUwYmVjZmZmZmZhYTEyMzc1NDIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1d63230b4bad42389852f55eadafe5c3",
+      "statement": "Jonathan Price is independently confirmed as the 2nd-line owner of MRM-POL-02 and the model inventory, and Sophie Laurent is confirmed as Validation Lead for Treasury & Operations models, in the PTT Organization & Ownership Directory.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L38-L38",
+          "version": "repo-lines-v1:sha256:79cc70f65b2deadc86555ed5982c54d79a5746ab7a0cb4b99fa98b4e637c17fb:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzljYzcwZjY1YjJkZWFkYzg2NTU1ZWQ1OTgyYzU0ZDc5YTU3NDZhYjdhMGNiNGI5OWZhOThiNGU2MzdjMTdmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzljYzcwZjY1YjJkZWFkYzg2NTU1ZWQ1OTgyYzU0ZDc5YTU3NDZhYjdhMGNiNGI5OWZhOThiNGU2MzdjMTdmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTQ5N2QwZTJjMDAxM2Y0YzBmYWEyM2FmNjU0MDdlNTRlYzliYjAzNDM2MDQzNDAxN2YzMDI0NjVmNzFkYjUxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzFkZjk0YjhjMWU1MjUzYjU1NDUwMGVjMGJlZjYzYjEwMWMwMzY4M2Y2MGY3YmJmMmRlZWY1MGI1MTkwZjQxZCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L70-L70",
+          "version": "repo-lines-v1:sha256:393ff720da9094167baac23b456ddaed9b701e5f4a7559e70206e3c113d6a87f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkzZmY3MjBkYTkwOTQxNjdiYWFjMjNiNDU2ZGRhZWQ5YjcwMWU1ZjRhNzU1OWU3MDIwNmUzYzExM2Q2YTg3ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkzZmY3MjBkYTkwOTQxNjdiYWFjMjNiNDU2ZGRhZWQ5YjcwMWU1ZjRhNzU1OWU3MDIwNmUzYzExM2Q2YTg3ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGQzNzA0NGM5ZDdjODNkZjE3YWI4M2U4NWU2N2NiMWI2NzNjYmZlYjkwOTVlNjU1NWUwNjE5YTc1MWJhNjJmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmE4ZDM3ZmMyOTZjNWJmMDEyMmRhM2EzMzE1ZGJkYTQ3YTA4Njg4ZTdlODFkNWYwZDUwYjdmNjY1ODUzMDZlOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_19c0d73ab0374b379f31474e17d4894b",
+      "statement": "MRM-POL-02 is a related document of POL-FCC-014, DUS-07, ADR-PAY-026, TDIP-CAT-2026.2, and PRSP-HMS-3.4, reflecting that client-facing predictive insights and financial-crimes-model-consuming services must satisfy model-risk registration and tiering under this policy.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L23-L23",
+          "version": "repo-lines-v1:sha256:fcd5a960bd1a11abedb09863c506f5b464508b1520fc2faecae5b2ed732d35f8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNkNWE5NjBiZDFhMTFhYmVkYjA5ODYzYzUwNmY1YjQ2NDUwOGIxNTIwZmMyZmFlY2FlNWIyZWQ3MzJkMzVmOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNkNWE5NjBiZDFhMTFhYmVkYjA5ODYzYzUwNmY1YjQ2NDUwOGIxNTIwZmMyZmFlY2FlNWIyZWQ3MzJkMzVmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQ0ZTg3NTU3ZWFjMmNiNjk3ZjEyZTU5MGQ5NDQxNGM1NDBjZDg5MGFjZmY1MzgxYTI5MzRlZGU3NDdkZmQ2ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L98-L98",
+          "version": "repo-lines-v1:sha256:62b8ed081262965595d20803bbc2beaba7ddf0c58de5d86437e4021d99c57ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiOGVkMDgxMjYyOTY1NTk1ZDIwODAzYmJjMmJlYWJhN2RkZjBjNThkZTVkODY0MzdlNDAyMWQ5OWM1N2VhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiOGVkMDgxMjYyOTY1NTk1ZDIwODAzYmJjMmJlYWJhN2RkZjBjNThkZTVkODY0MzdlNDAyMWQ5OWM1N2VhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2I0OTNiNzM4NzAwN2IxMzE2NWI2NDJhMzQwNjE3NDA1ZDU4NTQyNWUxYTlhYTMxMjU3OWEyYzU0NTA1ZTc1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjgyODBlZWUwOTE4ZmRkNDkyZDA3MDJlNDg3YjkxZDkzYWJiYTAxODFlMWZkNjUxMWQ3M2QyNDJmNWM4MTYwMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L22-L22",
+          "version": "repo-lines-v1:sha256:98641674f4fcd319268fd97feb02298785edaa932c68ff154b5b30b38ba81ca9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQxNGI4ODJiYjVhNTAyNzU3MmJiMTYwN2M3NTg4MzAwNzI3YzExZDdjYWM3MTNmZTg5NTg0M2I5OWZlNTk4ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L22-L22",
+          "version": "repo-lines-v1:sha256:e682f9556cf76f93a64e163713c765af9a2fcc8b8f000d7f0ea874fe09fff373:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmQ4OGIxNjc2MjhjNzE0ZWYzNDEwMTg1YmVmMjU3MTg2ODRlMmIzM2I1MTM4ZmM1Mzk1MDI1YzNkMTVkODU3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBiOTE3YWJmZWM4NjYyMzAwM2VlNzNhMGJkZjE1ZDliOTUzMjRhMmNhMDI5YjBiMTFhYWUwNGY4YWQwZTM2NCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L80-L80",
+          "version": "repo-lines-v1:sha256:a8e6adad988dc571ad903be21a8e008015faa8deba0e7214b8154065589d6517:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzNjNjIzMjFmZTkwYjVlYTU2MmU5YjQxY2RmMDczNjM4M2Q4MTI5MDQ3MGMzZGQwOThhNDM3OTRiMmU0ZGMwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

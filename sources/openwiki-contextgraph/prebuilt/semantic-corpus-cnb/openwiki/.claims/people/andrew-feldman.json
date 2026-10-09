@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:0b7154a8facc63923d312876858b731b722222f16f907536ad7d8e514a836c0d",
+  "claims": [
+    {
+      "id": "claim_7fddeda544884470a6e07a29f58b90fd",
+      "statement": "Andrew Feldman is the accountable leader of the Legal - Treasury & Payments partner function listed in the PTT Organization, System Ownership & Engagement Directory, with Patricia Moore (Chair, Disclosure Review Committee) as the contact for product/design reviews.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L76",
+          "version": "repo-lines-v1:sha256:29a82c4ca27a76ecf2eb7738d8713a0123db25932946ca8cf354860648692b07:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1ZWU0NDJmZjljZWJhNTU3NWMwNzE0ZDY5OTM3Njg0MTQ5ZjJlODYyYzY0NDk1MjQyZTNmMDk1MmEzMWU1OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_440cdb8f92ea4462930176b3c4a66297",
+      "statement": "The Disclosure Review Committee (DRC), chaired by Patricia Moore, meets bi-weekly on Thursdays with a 5 business day submission lead time, and approves client-facing copy, disclaimers and notification templates.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L114-L116",
+          "version": "repo-lines-v1:sha256:e0fc12a5bac1ce93b384394dec424ed4f620474a44f424dfb60bbdb8a75950e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkZWY3MmNkNjhjM2IxMGY5Y2I5NTExN2EyY2U1Y2Q2MjFiNTU4MDgzOTYxMmM4ODM2NTViNzQ0NTY0YjMyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzNiYWExNmFiMDk2ZmY0N2Q5MDNmNjkzMDliYTU3NWU3Y2ZkZjliMjE5ZmQxNjk0ODc1YzNmYjJmNWE3Y2Q4OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5cfce99cb0fa46f3a7541efa8fa0479a",
+      "statement": "New ENS event types must have their per-channel templates submitted to the Disclosure Review Committee as a required onboarding step, with an overall SLA of 6 weeks from complete submission to production enablement.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ba50d9789bac47aeb78c8b0be58c5016a66c7b51eeb9632461c33cf56926fe22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZDU1ZjUzNTA2NDk2YThmNmNlZjMwOGVhZTJmMTA3ZmI0ODJlZDg0ZTdmYjU3OTFjNDhhN2RiZDZkMjBlNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiZDlkYzQyMjI3MWQ0YjI3M2MxNGU0NGUwZTk1Y2ExYWI2MzBjZDc4NzFlMTc3NDliMWQ4NzNlODg3N2UxNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZjA4ODc3NmRjZGZkYmU4YTFjYjZiNjI0MDE3ZWNlNDE2MjE4OTI4OWE1OTJhMTU5MDRlMTRjN2FkYTc1ZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlMTlkMTE5YjVkMDQwZmVlZTk1YTRlMzVhYWI0ZmM1MmJmZWY2MzBkODQ5MWFkMDNhMWQyODBhOTRhOWIyY2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_efdecc944e544b2ab7290fd9e2dbb2b5",
+      "statement": "Under the Data Use & Client Confidentiality Standard (DUS-07), displaying aggregated cohort statistics to clients requires, among other conditions, that the wording and disclaimer be approved by the Disclosure Review Committee.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L46-L60",
+          "version": "repo-lines-v1:sha256:b947da52469af808271803afaf573c53290020b53d6fda6fc78b9d28d4dc089f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxOTA0YjliNmRlYTJiOTZmMGQwZTcwMmExYWNmZjBlYjI3M2FiMzdiYjZlODY5NjcyMzUxZmZiMzNhMjJkMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZTc3MTExZDQ0ZTA4YWU5MWJhZTcxMTQyZTE0MmI0MzM0MjBmZmNlYjczMjJmODkzZGMwZjU2ZGI0NGE4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkYzM0OGY0NjliYjljYmQ0ZGY0NWMxODY0M2QyYzllZTNhZjY2N2Q3N2JmMjQ0NGJkOWU0ZTc2MmE0MzQwYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ODQ1ZWJlZTQ2MWY4ZDgwOWM4MzNiNDBjZjE0MDhhODFkYTVmMTVkNThmNGRlNDlkZGJlNGNiNGNkNWU3MGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2eef4a85f2d24609a1803f5532588859",
+      "statement": "Legal - Treasury & Payments is one of several first/second-line partner functions (alongside FCC, MRM, Payment Operations, Commercial Service Center, Information Security - Digital Channels, Privacy Office & Data Governance, and Deposits Data Ownership) that PTT engineering teams must engage via defined routes rather than treat as owning engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L76",
+          "version": "repo-lines-v1:sha256:29a82c4ca27a76ecf2eb7738d8713a0123db25932946ca8cf354860648692b07:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1ZWU0NDJmZjljZWJhNTU3NWMwNzE0ZDY5OTM3Njg0MTQ5ZjJlODYyYzY0NDk1MjQyZTNmMDk1MmEzMWU1OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_af1f3ebf77ad47b79323c98f5591b185",
+      "statement": "Compliance or policy interpretation questions escalate to FCC Policy & Advisory or the Privacy Office rather than being decided by engineering teams, reflecting the governance model under which Legal and other partner functions hold accountable, named-approver authority distinct from engineering.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

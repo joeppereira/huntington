@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:952a0888266322ff9f68ddb821a94269e1df7c1d02aef7e1f3cc3626c3da34b8",
+  "claims": [
+    {
+      "id": "claim_bdf7cb8d82c54412a9c19395f68d9ea8",
+      "statement": "ADR-PAY-021, accepted 2025-04-08 and applying to PPH v2, channels, and data, decides that hold reason codes, descriptions, scores, and analyst notes must remain within financial-crimes trust (FCT) systems, with PPH v2 and payment lifecycle events exposing only hold presence and holdId.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L30-L40",
+          "version": "repo-lines-v1:sha256:b925fb09b98dfc847350831b2efe94c645bd37d70bd6b329db11dd22b31410d0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZjY1YWFlN2RiNjAzZDliMzVhYzMzNmNmNjBiMDhjNGJlMGIzOTMxMzYwMDgwMmRkODk3OWQ2N2E2MDNjYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwZjQ5ZWUwZGY0ZmRmZjhkYTZkNTk4MDg0OWZlZTU4MDQwZjY2NzM5MTBiYzVlODYwYzcyNmFlOWY5YTk0MzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc5MTk3MzM4NjI1NmRlNGY1OTRhM2YzNzFjNmJkZjI1ODIxMWE0NzEzN2ExY2MzMWUxMTYyNTc4ZTRmOWE1YWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRmMjQ0NTcyMTcxYWU3MTU3Y2Q1M2NlMjNhNGZjYmNhYjQxZDBmYzE3MGNlMWJlN2QyMWVlN2IxYzU5YTcyODcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_16dd7d7a1417459ebbc69266fef76f42",
+      "statement": "Under ADR-PAY-021, any client-facing hold explanation must come from an FCT-owned, FCC-approved facade returning a disclosure tier and approved copy rather than raw hold reasons; legacy PPH v1's holdReasonDesc field is a documented exception retained until v1 sunset.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L38-L40",
+          "version": "repo-lines-v1:sha256:c8d677a33290573aa826e7fd4b7df5371c019bfddffe7c6cd8118863c079d690:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWIxNjA0ZDQ5ODAyODkzZGRlNDlkMWYwZjYwOGE1M2VmM2JlMzcwNGIzOTA2NmE0ZjgxYjRlNjQwNTY3YmM4YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTBmNDllZTBkZjRmZGZmOGRhNmQ1OTgwODQ5ZmVlNTgwNDBmNjY3MzkxMGJjNWU4NjBjNzI2YWU5ZjlhOTQzNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjdiNjU5ZjE5ZDg5NTQzZDY5MTYyYjY3ZmI1MGUxNGI4MTVlOWRhMjY1ODU0NTJiYzY0MGU1YjlhYmNmMjQzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGYyNDQ1NzIxNzFhZTcxNTdjZDUzY2UyM2E0ZmNiY2FiNDFkMGZjMTcwY2UxYmU3ZDIxZWU3YjFjNTlhNzI4NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ac6378a08eda45108b353fabb31cd070",
+      "statement": "The Hold Management Service (HMS) is the system of record for payment holds and is part of the Payment Risk & Screening Platform (PRSP) alongside Sentinel Fraud Scoring and SanctionScreen; hold work queues are surfaced to Payment Operations and the FIU via the Investigations Workbench.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L24-L26",
+          "version": "repo-lines-v1:sha256:f6fb690120df161b152daf802cd9a5d75abcf329a7d1f3edc5375f7506369281:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZiOWRiZmI5ZWE1NDM4ZjgxODQxMjU3MzI1ODg1NTg5MzViNzdlY2IwNzkzYWQ5NzQ2MmJlNThhYzM0OWRiYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDExNzM4NWI2ZjM1NGNjMDk3M2YyZWQ2Y2JjYTIzMGQxMzRmZWViZDhiZTA1MWVmZTc0MTM0MDBiNzcwMjA3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODljZjZmNGYzOGVkMjhhYjdmYjJiMTM3NTk4MGNjZDEzNjBlMTk2MTNmZGVkYjljMThmYTE5M2UxM2U3ZDI4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7f52fdf3298e4ee7a472f224712de854",
+      "statement": "HMS holds progress through the lifecycle states OPEN, IN_REVIEW, ESCALATED, RELEASED, REJECTED, BLOCKED, and EXPIRED, with BLOCKED requiring OFAC reporting within 10 business days under 31 CFR 501.603.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L28-L38",
+          "version": "repo-lines-v1:sha256:3289fc66d676d11e5fff1066c372a6656b4e757edd15a85e02a56238b140704d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1OTZjYmIyZGRjZDBhODlhZWE1NDY3MTg1MzBiOGE4OGJjNDEwMWQ2MTc2OTU3Njg5MmE0MGRlYWExOGZjYWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkMzBiNWE3NzcxNTUwZTI4MzExODllNzZmMjQ0Yzc5MGRkMzdlNzhiMDY0YjE3MzE4YTZhMWY1NTk4Zjc1ODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjOWQzZmNlYTkyYjZmNjhiZmI4MTIxNDRlMGM0ZjdjMzVmZjA1MGJmZTQ1NjYyYTUzNTI2OTY3YmFiNTExOTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExZTAyOTlhMjI4OTVjNDFiMGMxM2NhM2E2NGMwNzgwNDQzMThmMzc0ZDcxMzFmMTgxOWNjZWZkZjAxYzU4MzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b3a6a8ef65c646049bd0ebb4a74f3e42",
+      "statement": "HMS defines twelve hold reason codes (HRC-01 through HRC-12) each assigned a disclosure tier (P, C, G, or R) per POL-FCC-014, and classifies hold description and analystNotes fields as Restricted, with descriptions templated to include sensitive detail such as fraud model scores and sanctions match confidence.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L40-L56",
+          "version": "repo-lines-v1:sha256:8ced1cf701cd15ac4f63a4ed5a3717f239087530fad1bd3ca3f5e30caf67556c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzZGZlMWE0MWQ4YTQ5MzNkMzFlOTJmOGYxYjVlNTdiMjRkNDUwZjU1ZTdjMTA3YzdjMjNiOTNmOWExNThmZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY1YTEwNDg2MzNlZjA5ODk1MTZmN2VjNDJmZWRjZjgzNDY3ZDEwOWNlMWZiMTVjN2JkMjRiNDI4YjAzODY3OTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwMjZmM2UwYjU0MmE2NTc1YmRmM2NmYzRkZDU5OGYxNGQxODNhZDYyNzI2OWUxNzBkNzZkZDYyZjVhZjNlMmIifQ"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L67-L74",
+          "version": "repo-lines-v1:sha256:7cd87a8716a79d7571fc8d13c933eb405e432990ed11d928c7c79e1e41a44278:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzIxNzhlOWNjZWU0Nzk2NWE2MmIyNDU2NDdhMjIwOTA3NTRhYzVlNDBkYzQ5NThiNTc2OWJlZTlkNTI2ZDhiZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNjY2ZiOTI1ZmIwZTc3NzMwYmE4NjM1MjcxMTJlMzI1NjA0YmFjMGYwNzQ3MzM4OTA3YWJjZmE5YWU5ZDVjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzQzYTVlM2VmNGNlM2ZhOGJlYThkNmI3MjFkZTBiMzI3MTM0NmM4NzkxZDM2NjdlMmFhNTE3OGVhY2M4MWI3NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTFiNjIyYzZiMTU2OThlN2MwMzc5ZmRhODZiMWJmNWI0M2E1YWU1ODU3YWRjYTRhYmNlNTQ2OTgzMDk5NTNmNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cc605d93b4dd43adbe898f6adbe9b3a2",
+      "statement": "The HMS-to-PPH description sync feeding legacy PPH v1's holdReasonDesc field predates ADR-PAY-021 and remains active only for v1 backward compatibility, tracked as open risk FCT-2004.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L76-L76",
+          "version": "repo-lines-v1:sha256:c938c8fe35a3ca6f713c3e03c5efd918dbf0e0cb28118343660ad89013f8cb8e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkzOGM4ZmUzNWEzY2E2ZjcxM2MzZTAzYzVlZmQ5MThkYmYwZTBjYjI4MTE4MzQzNjYwYWQ4OTAxM2Y4Y2I4ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkzOGM4ZmUzNWEzY2E2ZjcxM2MzZTAzYzVlZmQ5MThkYmYwZTBjYjI4MTE4MzQzNjYwYWQ4OTAxM2Y4Y2I4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzEyZTEwYWQxNTBlN2I0NzUyNmJmNTMxY2NiMzg0YzE3ZDQ3OGE4MjczM2FmZjcxNTFjMTMwNzU3NmQwZWJlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjVhZmE0NTcxOTFhODBkYWUwMWQ0Y2QxZjFiZWE0MGNhMGEzMDlkZGQ0ZjlkNmU4OWE5NzI0YTM4ZGJlZjAxMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_216f5483b9814d0cbba82f5bd649e1f9",
+      "statement": "The HMS event topic risk.hold.events.v1 is restricted to FCT and Payment Operations tooling; channel applications are not authorized consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L78-L78",
+          "version": "repo-lines-v1:sha256:d92e1e18563acf9ee8645407a3f2d9c07da41488977ab09530608cb38aad7694:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkyZTFlMTg1NjNhY2Y5ZWU4NjQ1NDA3YTNmMmQ5YzA3ZGE0MTQ4ODk3N2FiMDk1MzA2MDhjYjM4YWFkNzY5NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkyZTFlMTg1NjNhY2Y5ZWU4NjQ1NDA3YTNmMmQ5YzA3ZGE0MTQ4ODk3N2FiMDk1MzA2MDhjYjM4YWFkNzY5NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTFiNjIyYzZiMTU2OThlN2MwMzc5ZmRhODZiMWJmNWI0M2E1YWU1ODU3YWRjYTRhYmNlNTQ2OTgzMDk5NTNmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2I2NWVmMTNmNDVkY2VjMzI0NGI3OTQ5MTNlZDZlZmYwNjBmMDE3ZjRmNzFiOTMxNzA2MTg5ZTkxZWQzN2Y2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ea40d97ad44e46498c549f6cff870409",
+      "statement": "No compliant client-facing HMS interface exists in production; proposal FCT-1893 (Client-Safe Hold Status Facade), which would add GET /prsp/hms/v1/holds/{holdId}/client-view returning disclosure tier, approved copy key, and permitted client actions, was deprioritized in 2025-Q3.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L80-L88",
+          "version": "repo-lines-v1:sha256:2106f98fbd574b8cd510cc5d07e5757a1f9796e1bc661d226e4ad0ba71f20559:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjkyNTU1YWNiOTIzNzMzMGNlMDMxZmRhYjE2YmEyNjBkMjgyYzE3NjQyOWQxNWU0Y2NhOGQ4NzRjOWM3MWNlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZmE0NTcxOTFhODBkYWUwMWQ0Y2QxZjFiZWE0MGNhMGEzMDlkZGQ0ZjlkNmU4OWE5NzI0YTM4ZGJlZjAxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRlZmE4YjdhMDVlYWQwNzFhNTc4ZTBlMmU0YmQxZGUzZjRmNTcxZmRjMmQ0NDM1OWM5NDczMDkzMjAxYWI4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_76492641db3742e4a38571a1e9f59949",
+      "statement": "Internal HMS endpoints EP-HMS-01 (GET /prsp/hms/v1/holds?paymentId=, returning hrcCode, category, description, analystNotes, slaDueTs) and EP-HMS-02 (POST /prsp/hms/v1/holds/{holdId}/disposition, maker-checker under CTRL-PAY-012) are limited to the Investigations Workbench and PPH's legacy sync, not to channels.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L82-L94",
+          "version": "repo-lines-v1:sha256:119d4f2b2422a236dd3f028e5897b7b147d1465cbcf695d4ec013ae06e00958b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2ODc0YmI3MWUzZjcxZTBlNmFmOWIzM2MwMjg1NDVjM2ZmODljYTdlYTQ2N2Q2ZjMzMTVkYTI4MDNiMWFlZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4ZjY2MjIxMjg5M2E5ODJmNGVjNTkwZThlZGU2MTc4YTE2N2VmYzIzZTJmNDE0NDY4MGJiMDE3NDEwOTg1YWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiNjVlZjEzZjQ1ZGNlYzMyNDRiNzk0OTEzZWQ2ZWZmMDYwZjAxN2Y0ZjcxYjkzMTcwNjE4OWU5MWVkMzdmNjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc4OTgxODI2MjE2M2I4YTljZjJlNDYzNjY4MTZlMWZjODQyYTFiNmE3NDBkYjgyYmZjMTZiZmMyMjIzZDU2MzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3c120831807f4dddbc0a911384ba13a2",
+      "statement": "CTRL-PAY-040 prohibits providing any client-facing estimate of hold release time for holds in disclosure tiers G or R, and sanctions-related blocks or rejections are communicated to clients exclusively by Sanctions Operations (not channels), with OFAC reporting under 31 CFR 501.603/501.604.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L97-L97",
+          "version": "repo-lines-v1:sha256:eacf40df2db8b7918f6b3c5a5722943b40ad849580eca0c4821c9389ba6c8a99:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWFjZjQwZGYyZGI4Yjc5MThmNmIzYzVhNTcyMjk0M2I0MGFkODQ5NTgwZWNhMGM0ODIxYzkzODliYTZjOGE5OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWFjZjQwZGYyZGI4Yjc5MThmNmIzYzVhNTcyMjk0M2I0MGFkODQ5NTgwZWNhMGM0ODIxYzkzODliYTZjOGE5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODFiNzhkNDRjMDViN2Q4MzcxOWI5MWFmNjI5OTU4YzY1ZDkwMWI5YTk0N2YyM2I1NTQ1ZGI5Mjg3MWUyYTU3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMxOGI3NmFmZGIzMDZkYmRmZTAxZDFkNTgxNWM5NTYyMGI5NjU5MWFlNjdmNDQxZGViOTkxYTViM2VjOGZmZiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L99-L101",
+          "version": "repo-lines-v1:sha256:9135e432b811788277f8bdc8d15d86947c3cc5727afc4bada09f8fb3ea4ca958:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTU3YWQxNjk0OTFkMGJlZmQ4NDk2MTdjYzc5YTEyZjVjOGIyYWJiYzhhYTBmZTM5NTQ2NWZiNTk3YzM5ZjkwZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmNTBiMWY4NmUwYzRkZGIwMzhmYzhjMDljMDk0ZTI3MGNmZmRkNjZkNGM2YTFmMmEzNWRjYTc3ZThmODU3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjJjYWNjYmYzNDFiNDdmNDJjMWM5M2FiNzk0NGIwZTIzNmJlOTE4ZWU2NzA3ZjYxYmQ0YmRlNzU0Nzk5ODg0YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMzMzFhNzFjNjYzNDdhOWU4M2ZhMzk1YmQyYmI1YzdjZWFiZWY3MGQ4MDQ0Mjc4YmIzYjNkZjI1ZDNmZWY2MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0ecccdb7c3664181b7a6f6e6756ef45d",
+      "statement": "CTRL-PAY-031, updated 2026-06 following pilot FCT-1951, allows HRC-01 (duplicate-suspect) holds to be resolved by client attestation through a digital channel with step-up authentication, up to $5,000,000, above which Wire Room release is still required; this applies only to HRC-01.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L96-L96",
+          "version": "repo-lines-v1:sha256:31d3648eb29f1055110005b4fadd605b41069ce841721a0b0ce1a379655696a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFkMzY0OGViMjlmMTA1NTExMDAwNWI0ZmFkZDYwNWI0MTA2OWNlODQxNzIxYTBiMGNlMWEzNzk2NTU2OTZhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFkMzY0OGViMjlmMTA1NTExMDAwNWI0ZmFkZDYwNWI0MTA2OWNlODQxNzIxYTBiMGNlMWEzNzk2NTU2OTZhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWFmNDRkMjNkNzAxYTZlODQ3Y2NlYWQyZjU0NjA5ZjFmZjYzMjdmY2YxMTgyMjk3NDFkNWQ1YWJhNTIwMmZlZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZmMzczY2E3OWVmNGU3OTZiYTgwYzYzMmMxOWM2MjQzMTJiMGFjOGRmZjQzMTY5OTdjMDc2ZmFlZmU0OWQzYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_07f4e6140cc64127afa207ca4643bb15",
+      "statement": "The 2026-09-08 Payments ARB minutes set a firm PPH v1 sunset of no extension beyond 2027-03-31 (Volaris 9.6 removes the v1 adapter), after which the legacy holdReasonDesc confidentiality exception must be retired, with remaining v1 consumers required to present migration plans at the 2026-11-10 ARB session.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L52-L55",
+          "version": "repo-lines-v1:sha256:c2829af66b9003e8ff7b6ee839fc1ab3c114bf16c72cdc75b6f0d6285fc82d7a:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJiZmQ0YTk0YWM1NGUzZmFlYmE0M2ZlNTdiN2UzYmNjYWY2NDk0YzE4YzBkYjQ5Njk3ZWM1OThjNWI5N2EyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRmMDU3YjViMDcwNjkyNjY4NDg3NDIxOWRkZWMyM2ZlNmQ1OTkzZjhlZWEwOWRjNWYwNTVkOGUxNWQ2OGI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGU2NmIwNzBlMmQ4YWZmMzVjM2IyZDNmNWQxOWUyY2U4ODdmN2E5NmNlOTdjYjA2MmQzNGNjNTNhOWZmOWFmMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2IzOTEwOTE1MzA0ZTE0OWVmNWQ2YTFlMDE2NGUxZjdkN2YwNjI5MzRlNDcyNGJjYzc0Mzg2MGU2OGYwOWYxZCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

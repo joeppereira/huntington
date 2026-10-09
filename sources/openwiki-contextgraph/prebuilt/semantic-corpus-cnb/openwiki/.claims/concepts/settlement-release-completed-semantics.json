@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:70d61042c2811fea40320feca9526434dfca02e4bb40514da250aed74a6f951f",
+  "claims": [
+    {
+      "id": "claim_674db204406044acbe219b1f4704f7dd",
+      "statement": "PPH's v2 lifecycle state COMPLETED represents the internal accounting close of a wire, occurring at end of day after RELEASED, SENT_TO_NETWORK, and NETWORK_ACCEPTED have already occurred.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L54-L83",
+          "version": "repo-lines-v1:sha256:fe959f59a4c9193850c9329f96b0e9b0dee89db60bf681e8209d7555f9c5042c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNDBhODBmYTk2M2E2NWQ3ZjViZTU2MTIzMjA0M2ZhNjQzMzUyMDIyZDA3NTQ5ODM4NTE3N2I1OWY0NmFiNWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2MjhjYWMyOGIwNGY1OGY1YzdiM2ExNWMzYzUyMDA1N2JlMjhmNzYzMDY1ODc5NDBjMWZhMGQ0ZDA3MDE0NDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIxNzM4ZDMwMzcxNzJjM2JhNjgxNmU3N2FiZjU5MWM2MTUyZWU2YWUxZTdhYjQ4OGE3YzFlMzgyZTlkMDNmMjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c3cbb7ef0fd54715a5cc01a4b4b7f84a",
+      "statement": "The legacy PPH v1 status API collapses the four distinct v2 states RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED, and COMPLETED into a single consumer-facing value, PROCESSED, so v1 consumers cannot distinguish a merely-released wire from one acknowledged by the network or accounting-closed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L76-L86",
+          "version": "repo-lines-v1:sha256:b80659f5240008cd2708b7f999f0b7e470051f1ccaf13998907be58566090da8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiYjRlNzVkZjliNjY5MmZiMDkyMjRmNzkxM2RiMDg5NDJiZWQzY2VjNDk0ZDdhNDcwNDE0OGY0Nzc0NTEwMTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlMDRmNjJkMjAyYzI2N2MzNTJkMDA5MjAzN2YzZTMwYmRkY2IyZDE0MzIzNWU4N2ZiMjE2YzczYzBmMjlkODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxMGU5MWMxZTdjNmNhZmFiMWI0MDA0NzU4MDkyYjVkOWJhODJkYjE5OWM0MGZmZDk2MzU1Zjc0NjQzMzI5N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyNzM5ODUzZThiYjdkNmZkNmIwYTNlYWU5YjY1OWRlYzBjOWM0ZjVhZmE2ODQ0NTkyOWI0MDk4OTBiMDU5OWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_cb5e3994ec914825a2ccdb0c4dfa84ed",
+      "statement": "NETWORK_ACCEPTED has rail-specific finality: for Fedwire it means final, irrevocable interbank settlement (Regulation J / UCC Article 4A) via a pacs.002 acknowledgment carrying an OMAD, but does not confirm beneficiary credit; for Swift CBPR+ it means only that the message was accepted by the Swift network for delivery to the next agent, with no settlement implication, and beneficiary credit is known only from gpi ACCC if reported.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L88-L95",
+          "version": "repo-lines-v1:sha256:0e075ddaf74fe14ef25d7654439b547f620a93a40fb689563c40fbfb4f7605d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1NGRmYTQ4ZDE4ZGNhMDE0NTc1MDliOWMwMTdlMDQ1OWU5YzAxNmEzYTNhMjI5ODk2OWJmYjI2Y2U1MTc5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQxMjgwOTViYTdiZDI4MTljYWU2NTQ1OWI3ODg4Y2U0ZTBlZDA3NWI4ZDYxYjM4NTg3MDUzYzI4YjZmMGRiZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGU1MDI3ZTBhMGY5ODRjMzUxNjRmNGE3NzE1ODQ5NmVhMDRlZDJlNWFhNmUzMDM1NzIwN2MxNTJhYjAyNWZjMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f1c378da4f60458dad4e0db4a598011e",
+      "statement": "POL-FCC-014 Section 5.2 permits the client-facing terms 'Completed' or 'Settled' only when Fedwire acceptance has been received (domestic) or gpi ACCC has been received from the beneficiary bank (international), and explicitly prohibits these terms on release, transmission, Swift network ACK, or ACSP statuses.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L77-L84",
+          "version": "repo-lines-v1:sha256:572d332a69845cc81094d446042a13b722fb64cc20c483444837217b87c12891:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QwOWI5YzI1Mzc4MTliYjNmMDhkNTBhNjk0ZDQyNTk1ZTk2ZmVhNDkwZTQ5MjMwMTU0ZmEwY2Q3NTQxMWY2MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDE3NGI1ZjFlMzJlNzc5NjcxMzdlYzg1NDczMDA0OTZlY2RkMmQ5M2JkNDc0ZGI1NjYwZDM0MTYxZmQwZmMyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWI4MWM3YjllYjQzZjc4YzllZTAyYmU0ZWNiMTM2ZGVjZmFlMDBmNTg3MjBmMDI4NzIzZGZhN2MwMWEwMmNiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzRkNjU1MTE4NDM5OWE0ODI4YzViNzJjYjUyMmU2NmQ0NDdiOTgxNDA5NDQ3NzVjY2Q2Y2NlYTBjMjcxMGE0NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6c38eeec6a8b440294471483f6384356",
+      "statement": "POL-FCC-014 permits the term 'Credited to beneficiary' only on gpi ACCC, and states that domestic Fedwire does not report beneficiary credit at all, meaning no domestic equivalent of a beneficiary-credit confirmation exists.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L83-L84",
+          "version": "repo-lines-v1:sha256:20b9c3147551ed0ed04ef6171774539fab03c4a48a691a3c63d20bbe15644239:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2Y2FiZGRiMmI2ZjI3ZjY0OWUzODZhNjY1NzMzMzExZWYzYjRkMDY2MzU5MDdjMWM1ZjJmYTU3NGJmZTI5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDE3NGI1ZjFlMzJlNzc5NjcxMzdlYzg1NDczMDA0OTZlY2RkMmQ5M2JkNDc0ZGI1NjYwZDM0MTYxZmQwZmMyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2UyMTg0ZWRkNjU3ZjlhOTg5N2NhZDAxZDBkNzZlNDY1Yjg4NmI1YTViYjYwOWUzOTYyNDZhN2RjOWI2ZGNlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzRkNjU1MTE4NDM5OWE0ODI4YzViNzJjYjUyMmU2NmQ0NDdiOTgxNDA5NDQ3NzVjY2Q2Y2NlYTBjMjcxMGE0NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_02af5b5f0c224af8b4b9f25756c7c807",
+      "statement": "POL-FCC-014 Section 6 requires FCC Policy & Advisory review before build commitment and DRC approval of final copy for any new or changed client-facing status, hold, or exception experience, with exceptions requiring Chief BSA/AML Officer approval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L100-L102",
+          "version": "repo-lines-v1:sha256:df3fcb6237816c88e8de3094ed2fef1d4e917b1307ab6ec0e9a7e54c2a3ddaba:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzEwNGJlM2FmZDJmNzUwNjU4Y2U1YjMyNzk1NjYyMjA3M2Y5MDRlNzVhZWIyYWU5ZmRlOTkyMzQ4Y2FmODcxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJlYTA4YzliMjViMjYwNmYzNThjMzhjNzMxY2Q1N2I3NGViYTRmZTYyOTQyMjg0NTQ4NDk4NzgwZTZiMWE3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjY1MDJjMjM0ZTMwN2JhNmE4N2FkNjZiNmJmYTA3M2E1YzU0NzU0ZDM3MTgzZTE5NTZlN2I4ZDQ0MDhjZmNjOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTgxOGY1NTlmZWEyZGEyM2Q0MzQzYmY0NjQ4NDk3OGM4NjA4YWZmYTI3NDEyYzM1ZGMxZjFjMDg1ZDZlM2Q2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_44894c8f0d324ee0b355748dbeb210ef",
+      "statement": "PIR-2024-07 found that 37% of surveyed Wire Status Lite pilot users believed 'Processed' meant the beneficiary had received the funds, and that Treasury Support could not explain wire holds to users without FCC guidance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L37-L43",
+          "version": "repo-lines-v1:sha256:c13cc30ea9aeac03b0e805756b86daeffe12820d3bfe0b608f80179424daaa42:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzU0MGRiZjZmMzhlMTc5NTMyMmM0NjA3ZDk3MDMyZDRkMDVjZWE2YjAxZTQwMzc5MWJmN2UzNWViN2IyNzZiNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwYTRiNjU5MzQ2ODQ0ZmMzMTk2ZGIwNGEyMDJlODc3MGMzM2Q5YzJhZWFhMTdiMTU0YjllNGZmY2RlNWYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFmMGQ4MTgwYzk5OTQ1NzA3YzE3Yjk4ZGZjYzExMGM1YmUxMTk2NDE0MGJkMGI1YzBkNGE2NzlmMGJiYjk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkNjk4OTVkMzlhMWRjYTliNmU5ZWZjZjJkOTA0YTllODBlMTRjYjAzM2VkMWVlMTIwYmQ3ZmY4M2ZmMmJmNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_687bd8008b6e436a8b927d08a408f6c7",
+      "statement": "PIR-2024-07's action list carried forward an open item, owned by CBO Product, to validate client-facing status terminology with FCC and Legal before any future tracking feature.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L53-L60",
+          "version": "repo-lines-v1:sha256:48e33e8afd5d89a9891ca2815cbb357d002f93967de9d8394a7e0632cdb08305:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDJiY2U5NThlYjI2ODEyMWYwYWZhNTI0NjkxOTE2YjZjNTEwODY3MjRiODc5M2RhYjM4NDIxMjNhODY5NDE2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlZjE2MWJiMDQyOTE2MzliZmZiNGUxMzE1NTdmNGMyYjA2MmI1ZmUyYzAzMmY4ZDQzZWFkNDQwMDNkOGNiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTk3MGZkNzA0MmU2M2M5ZjAwMmExM2VjZWQzZTZhZWE4YmFiZDZjNWIyNWIzYzU5MTUwOGRkMDk2MzkwN2JhMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzgzNDlhYmQ0MzEwNDExYmQ2NmMyZGM4MmMwNGRmN2U0MzRkNjgyNTk0ZWM4ZjdiNmE0ZTJhODE0MDlhMDFkMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a0f2ed2a66764e58980b8f4f964a63e9",
+      "statement": "In R26.1 (2026-02), CBO Product replaced the legacy status label 'Processed' with 'Completed' based on client feedback and a six-client survey showing 'Completed' tested better, without the POL-FCC-014 terminology validation that PIR-2024-07 had flagged as an open action.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L93-L97",
+          "version": "repo-lines-v1:sha256:f4f0029c745c3ab84cb0dfc4f9291769fea9e9acbb9d5d9a09d659cea92b7583:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5YWFjZjQ3N2Y5YzQzZWNlNTAwZjM5MDMxZTU1NjNjNjA3MDQxNzI5ZGExNDgxODBlZDU2MDMxZGIyNmI0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODRmYjU0MjA4MjNjYWE5ZGI0ZTNmZThmOTg3M2U1YWY5ZDMwMDBlMmQ0MWQ1YTdiYjc0ODBmMTNmN2NjYjllMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmVkMjYyZjY5NmQwOTFkYTg1N2I1Y2Y0MWU3ZTI1NDI3NTY1ZjgwODhmZDgyZGIzYWNlYmE3MTQ3OWU3YzUzMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b420dc7dd55448f5a8cbd5eff4eda6c4",
+      "statement": "CMP-2026-1189 arose because CBO displayed 'Completed' for an international wire (Halvorsen Industrial Supply, EUR 412,600) at release on 2026-09-16, before gpi ACCC; the beneficiary bank rejected the wire the next day (RJCT AC04), funds were returned 2026-09-21, and the client had already released goods on 2026-09-16 in reliance on the 'Completed' status.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L183-L188",
+          "version": "repo-lines-v1:sha256:ecc285eaf96f70a87269e9fd8bd08794a7428e3e4c02205b208bc0937ec2ee52:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmE3ZmZkNWQ0Mjc2OTlhYzQxMDhkNTgzOTBkOTI4YzJjZGVjMzhlZmRhOTkwODc3MTNlOWI4NmNlZTcxMzI5ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc2MGUwNzkxMjlkYjczMjg1YTk2MjA4MzJjNWE2YmNjNDhjN2ZhYTJiOTYzNWI0NDk3MzhiNTA1MGI5MTFlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDU4ZTkxMTdkYmJiMDYzZDMzMDhjYzI5NmNmMjA0ZDY0NmEwNDFjYTgwMTViMGE2YjJmYWI1ZmNmNGZiOWZiNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L105",
+          "version": "repo-lines-v1:sha256:53c8e075e2a2238436ddd729cfbb94c76ca723bb718379669e7c0fd55e25e75c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIyNDQ1OGEwZDI2OWJiMTJhNjEyMDMxNTAxYmZkZmNmODc2ODI0YTM4ZWRmMzViMjMzOWQ3OTZjZjVmYWE3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MWJiYTUzOGIzYTZkYzE0MTEzMDAxMWMwNWU5NzBhZWFhMTNkOGNmOGJhZmIxMDgxNGM3M2FjMzUxMzAzYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cbc2fea2a54441d9ab10a17e6bf49ba6",
+      "statement": "As of the 2026-10-05 Jira export, CBO's wire-center backend-for-frontend still calls the legacy /pph/v1 API rather than /pph/v2, with migration (CBO-4471) unscheduled and gated on the 2027-03-31 v1 sunset, meaning client-facing status derived from PPH continues to rely on the collapsed PROCESSED value.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L107-L113",
+          "version": "repo-lines-v1:sha256:3368cafdb0b6b5cbfa1b9a67247e306826af7835c147b7c32d283efbadc11fdf:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwM2ExZDQ2NDI3NzQxYmQ0NjA1ZWYzZWQ4YjY2MGYyMjk5NDZlNjJmNTcwZGRkZWVlOTczMzlhYjhlOWM0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0YzMwNDhkMTdmNTdhNjAyMzliZDJlMzFjOTQ1ZGEyY2I1YjljNDBmMjE0NTgxNGY3M2U3NjVmNTMyZmQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjRjNDI4OTgxYTcwZjYxYTY5OWVjNTZiM2JhOTVmOGUwMTM2YjdlOThkM2YyZjE1NmEzNTJjMGM0Njc4MjcxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYwM2Y0YTI2OTg0MjI4YmZjMDgzMzY2NGIxODIwOGIzYjkyODJjYzI5MWVkZDNiN2M4YTczMmNkMDY0YzU1NyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

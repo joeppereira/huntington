@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:63ff0c08d590eccc3cfaaf1ea33c6ba7a171612a56b245f0d8db4b838207484d",
+  "claims": [
+    {
+      "id": "claim_f7d8feed475a4ec1bfe54c395b03359b",
+      "statement": "The NSFR is defined as available stable funding (ASF) divided by required stable funding (RSF), and Meridian Harbor reported 128% for Q4 2025 (126% in 2024).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L323-L329",
+          "version": "repo-lines-v1:sha256:95c2654de2108d5987c8f624a604f7e7bff0f47a61c4a4bb35820f95db36a7dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgxMjFhZDEyNDZiYTI3YTM5MTBkMjM2MTZjYWQyM2E1MDAwZDExNjdiMGRiYTQyN2I3M2JkOWY4NWEyOGM2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhkNWNiZTk1OWE0NzI5MTUyZmRjOWVkODQ1YjE5MThiNzgyMTRiZjhhY2I5Mjg2NWZlZWIxYzUwMjFlMDBlOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2IzMjQxYTYyOWYxMzc0ZjIxY2Y2MWJmYzgzMjgzOWIyNzE1ZjM1MTI3YmM2N2ZjNTcxYWJkMjVjNDViZmFlZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWYwYzI0Yzg1Yzc4NjFmYWY4ZjQxM2E5NTRhOTc3ZjY4N2JlZTJmM2I1MjgzMDYzNWNhNWE4ZDhkZDYyNzhlMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L663-L663",
+          "version": "repo-lines-v1:sha256:7b4d7c70e25f779327fb43506e372586bb982148e0123c37aae46d115034d8b6:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZDdjNzBlMjVmNzc5MzI3ZmI0MzUwNmUzNzI1ODZiYjk4MjE0OGUwMTIzYzM3YWFlNDZkMTE1MDM0ZDhiNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZDdjNzBlMjVmNzc5MzI3ZmI0MzUwNmUzNzI1ODZiYjk4MjE0OGUwMTIzYzM3YWFlNDZkMTE1MDM0ZDhiNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmFmMDI5Yjc2NWZhMjBjNjY1YTExYmYwNDcxMjQ5NWJiZDU1ODI3YTM1NGE0ZTdkMTIxOWFjZjhjYTUyMzYzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjE2OTIyM2UxYzMxZWI1NDZjNGIzZmZiMzRlMTMzZDlmMWZkODI2NDg2ZmRkZWEyYWU0ZjZkZTcwNmYxYjJiMyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L425-L437",
+          "version": "repo-lines-v1:sha256:a8410917dfdcae76584ad07bdb82d69d5d99061f81251790d867e3b541808cdd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNGJhMTMzNGM0ZjczNTY3NjlmMGI0ZWFkMzM4Y2FmYmRjZjFlOTAxNTllOTgwZmNmMWEyZjgyMTM1Y2U1MGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlYTAzNDA4N2Q1NDg2NmEwOTAxYmJhMTcwYmVkODk4MDBkYmVlZWFiZGY4MGIyMTE0ZGI4N2MyOWE4MmEwNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViYjgwMzA0OTJiZWY3ODZkZTRmNDhmOWEyNmFjYTg1MjI0YWZlN2E0YWNkMjRjYTAyZjZiZmUxOTZkMGUxMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRiZjcyY2RkMjZiMWYwZjJkOTJhYzM1MjViOWNkYzk0NzRmNDNjNTU4YWY1NTcxMDY2YjAzODc5OWJjMzQyN2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_65fb4ce166d84e079630560b93fab16f",
+      "statement": "Pillar 3 §12.2 builds the 128% NSFR from total ASF of $1,082,000m (capital and long-term debt 214,600; retail and small business deposits 598,400; wholesale and other 269,000) over total RSF of $845,300m (loans and securities 671,800; HQLA, derivatives and other 142,700; off-balance-sheet 30,800), as weighted amounts only.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L425-L437",
+          "version": "repo-lines-v1:sha256:a8410917dfdcae76584ad07bdb82d69d5d99061f81251790d867e3b541808cdd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNGJhMTMzNGM0ZjczNTY3NjlmMGI0ZWFkMzM4Y2FmYmRjZjFlOTAxNTllOTgwZmNmMWEyZjgyMTM1Y2U1MGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhlYTAzNDA4N2Q1NDg2NmEwOTAxYmJhMTcwYmVkODk4MDBkYmVlZWFiZGY4MGIyMTE0ZGI4N2MyOWE4MmEwNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViYjgwMzA0OTJiZWY3ODZkZTRmNDhmOWEyNmFjYTg1MjI0YWZlN2E0YWNkMjRjYTAyZjZiZmUxOTZkMGUxMzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRiZjcyY2RkMjZiMWYwZjJkOTJhYzM1MjViOWNkYzk0NzRmNDNjNTU4YWY1NTcxMDY2YjAzODc5OWJjMzQyN2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_75225d3cf5e4457e9e9faf2321a6c920",
+      "statement": "The risk appetite table lists an LCR (average) floor of 110% but no NSFR limit, and the Q2 2026 earnings supplement reports no NSFR, so no newer NSFR figure or internal threshold is documented.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L64-L77",
+          "version": "repo-lines-v1:sha256:74c019405ec33b0287cb19abe6f127b54a9da097a15d9caf5941a71b6165abfe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmYjIwNDY1MDkwOWYxNGQ1ZjJkNjkyOTFiMDE5MjUxYTA5YTQzMzNjODJlNDNjNTI0YjlkZjdhYmMwMmE1NmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhODZjNWVmODEzNzEwYTI0Mjg5ODVhNDBkYTU1YWQ3ZWYxMDhmMDZkNzlkMDg4NDJhMmMxYjI3MWUwNDQ0YzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzOGVjZDQ4NGIxZmRlN2ZiMGQzNTcwOTdhNTlkNjBmODQ0ZTY3NDZjNGJhMmFjYmI0ODI3ZDA0ZWViNTQzNDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmYWZjZWQxZGEwMGI4ZDM0OTI4MWY1YzI1NDQxZjNhNjgwY2Q0MDE2OGJlMTMzMTI0OGFjM2IyNmZmOGViM2EifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md",
+          "version": "repo-file-v1:sha256:17068d22fb0f7f9dff8c44a706dfb0626195bea43fb1fe218abc9277afb125d8"
+        }
+      ]
+    },
+    {
+      "id": "claim_9080fb10da364219b33b4c29ceaa5a79",
+      "statement": "Liquidity positions are aggregated daily by legal entity through API-15, which feeds the LCR and NSFR calculators, the liquidity stress testing engine and the ALM models; Treasury/CIO owns liquidity risk management with independent oversight from Liquidity Risk Oversight in the Chief Risk Office.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L319-L321",
+          "version": "repo-lines-v1:sha256:70db8eecb6575bd54a2ecf1e2e22dac4d9744e3a406afa1a5551b87b50154ace:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI2YmU2Nzg2ZmE3NmZmZDkzNTdkYjcwZjJiY2IxYmU1MDUyODdmYjRjMDZhNTg3YmE4NjQxMjZlNTEyNGUwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzM1Mjk5YjNmZTg0YzZiYmQwYjU1N2U3M2Q3NzE5MzNjMWQyMjNiNmZhYTczNTBjMTQ1ZjQ5NDY0NzgwZTYwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWQ0YzI5ZmI5ZjMyNjA5OGQxNWJlZDg4OGMwMzAzZWNlNDUxMmVlMTk4ZGMyZTQ5ZjFkMjBkYTgwN2VlNWI5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODVlMTgxZTlhZmU1NDM2MTVkN2M3NmY4ZjMyOGQwMjkxNjU5YzMzNmZlZGFmN2FkOGYxMTA4OGIwOTFkZDAyMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L439-L439",
+          "version": "repo-lines-v1:sha256:668cec3ab099c36f5327715c00f92895d059ef318a7dee158fb4ec347ee7035f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY4Y2VjM2FiMDk5YzM2ZjUzMjc3MTVjMDBmOTI4OTVkMDU5ZWYzMThhN2RlZTE1OGZiNGVjMzQ3ZWU3MDM1ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY4Y2VjM2FiMDk5YzM2ZjUzMjc3MTVjMDBmOTI4OTVkMDU5ZWYzMThhN2RlZTE1OGZiNGVjMzQ3ZWU3MDM1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjcyYWM0NjQ3MzEwMjg4MGZjM2ViZmIwZjViNDVjODlkNGUxNTM1MGU4OGZiNWEwY2RhMjYzYWMwZDk0MmRiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmU0ODNjMWIwOTZlYzA2OTM4NDhmMmUwM2JjYjRiYWI0M2M5MDVhZjRhYzkyZTM0OWRjYzk1ZWY0MTM3MmY5NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L532-L532",
+          "version": "repo-lines-v1:sha256:7391a3e7962b631b5f62df1cd86b94fe64457f3f5cbac450046c280ca556929d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzM5MWEzZTc5NjJiNjMxYjVmNjJkZjFjZDg2Yjk0ZmU2NDQ1N2YzZjVjYmFjNDUwMDQ2YzI4MGNhNTU2OTI5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzM5MWEzZTc5NjJiNjMxYjVmNjJkZjFjZDg2Yjk0ZmU2NDQ1N2YzZjVjYmFjNDUwMDQ2YzI4MGNhNTU2OTI5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQwNTMxYTg1ZDU0OGVlZmMyNWE1OTA0NzQ1ZGYxYTgyZmJiZTVjMTIyM2QxMzEyOTllZGM2M2FiZTNmYzQ3MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWMzNTgwMGI2MWYwMzFmZTJhMTBhMDkzMDlkODA0MDI3NzI5ZjdkMWNmY2U4YmI3NDAyYWYyYTQ0Nzg1YTk3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_442254912a7947029fae89b738f2378d",
+      "statement": "The balance sheet is deposit-funded: about 66% of deposits come from consumer and small-business clients, the loan-to-deposit ratio is 73% in both 2024 and 2025, and long-term debt of $86.7bn has a 6.8-year weighted-average remaining maturity.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L323-L331",
+          "version": "repo-lines-v1:sha256:dac7a6c087f695469ec46d49633c5a6032b1563857f44b69d4069825bd4a2e16:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgxMjFhZDEyNDZiYTI3YTM5MTBkMjM2MTZjYWQyM2E1MDAwZDExNjdiMGRiYTQyN2I3M2JkOWY4NWEyOGM2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDI4MjMyZGE5NDhhOTk2MDRkNTNhMjMxYzY5MzFjYzhkYzNlMDg5MjllMzE1NTEzMDBjZjUzODU2MzAzNmYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2IzMjQxYTYyOWYxMzc0ZjIxY2Y2MWJmYzgzMjgzOWIyNzE1ZjM1MTI3YmM2N2ZjNTcxYWJkMjVjNDViZmFlZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTJjODkyMmExYjI4MDdjYjI5MWRjOTcyMGYzNDE5ZjEyNGIwOTc3ZmM0YzgwZGEwMmQ4ZDI4ODgyZWVhYzMxNiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:21b655b0e57a471adadab5ba8e7c5e18133b05e8ab29c01c7d0c9ac70dd6a9a5",
+  "claims": [
+    {
+      "id": "claim_47c48de1b2a84c628ddfe02db56777d7",
+      "statement": "Chen Wei is the Tech Lead for Fedwire within Payment Networks Engineering and is named as a co-owner of PNG-TDD-6.0, the Payment Network Gateway technical design, alongside Raj Malhotra (Director, PNE; overall document owner) and Tomasz Nowak (Tech Lead, gpi).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L15-L22",
+          "version": "repo-lines-v1:sha256:4d2f39602c6fd90441350273122e612296c7b29b43bc4e3e304e5331f89127e2:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTU3ZmE2ODgxN2Q2ZWY1MDQ4Y2JiMzI1MjA0MWI1OTIxNzRlODgyNjFkOGIyOWNjMTczNjRhY2FhNmFhZDIwNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWQ4ZDAzOGRlMzhlYmVlN2M4MTYyYWI4YWFiYzM5MDQ4N2U4OGU2NmY1NjNiZWQwYzA1NjJhYjJiZjY4MzdlNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQzYmQzZWU5NWE2MTdkZTI4ODM1MjQ2YzhiYTlmOWEyMWMyNzVhNzc0NzNhMmYyZTUyMDAyNzlmNmNhNjdlZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWVlMGVmMmY2MWVlOGIxNjgwYjlmMjI4OGNmODM5MGQxMzkwNWYzNjFmZmM1OGUyYzg1ZDgzNzA1Y2MwZTk1OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_da4094ab85b04bb9af26f4334d7418d1",
+      "statement": "PNG-TDD-6.0 is an approved, INTERNAL-CONFIDENTIAL technical design at version 6.0 plus Addendum A, effective 2025-11-14 with the addendum added 2026-03-03, approved by Raj Malhotra and Nikhil Bose (ARB).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L15-L22",
+          "version": "repo-lines-v1:sha256:4d2f39602c6fd90441350273122e612296c7b29b43bc4e3e304e5331f89127e2:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTU3ZmE2ODgxN2Q2ZWY1MDQ4Y2JiMzI1MjA0MWI1OTIxNzRlODgyNjFkOGIyOWNjMTczNjRhY2FhNmFhZDIwNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWQ4ZDAzOGRlMzhlYmVlN2M4MTYyYWI4YWFiYzM5MDQ4N2U4OGU2NmY1NjNiZWQwYzA1NjJhYjJiZjY4MzdlNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQzYmQzZWU5NWE2MTdkZTI4ODM1MjQ2YzhiYTlmOWEyMWMyNzVhNzc0NzNhMmYyZTUyMDAyNzlmNmNhNjdlZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWVlMGVmMmY2MWVlOGIxNjgwYjlmMjI4OGNmODM5MGQxMzkwNWYzNjFmZmM1OGUyYzg1ZDgzNzA1Y2MwZTk1OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c76a8b2db7ee45a4b56ae0bbc9e4976a",
+      "statement": "The Fedwire Funds Connector (SYS-PNG-FFC), the module under Chen Wei's Tech Lead ownership, connects to the Federal Reserve over FedLine Direct using dual MQ channels (primary Columbus, contingency Charlotte) and has exchanged only ISO 20022 messages since the Fed's single-day cutover on 2025-07-14, which retired the legacy FAIM format with no coexistence period.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L28-L38",
+          "version": "repo-lines-v1:sha256:519a3657b20c8cd86dbf90e5ad3ffc6e39158db5329901056dcc76facbe11009:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxMzFkNzY1ZGYyMWU3NTE1ZjA5NzhhNDY4ODljNWQwZjU4MDY3MmI3ZTJmNjFjMzA5ZDE3MjczNjZhY2RkZDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljOWE0NTlhZWRhZDIzY2I0NGJlZWVkOTU4Mjc4ZDA1ZjIxOTk4ZWQzZjA3MThhY2U3OTZlNDllNmRiYWMzZDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViNzY1ZTk0NjMzOTU5N2I3NTZjMjNkNWNjMmNlODVlMmEyOTgyZjM2YWU3YzJjODEzNDU2ZDA4OWUwNzM2YWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjExZjVjN2E1MzYxZTM4ZjBmN2ZiNzUwOTFhNjhkOGFmZjk2ZTRmNDAzNGIxZjVmNmM1ZTA3YTVlZmVlMzhhNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e2b1052470a849af8484590c509427ed",
+      "statement": "FFC sends outbound pacs.008, pacs.009, pacs.004, camt.056, and camt.110 messages and receives inbound pacs.008/pacs.009/pacs.004 (published to net.fedwire.inbound.v1), pacs.002 acknowledgments, and admi.002 error reports.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L36-L38",
+          "version": "repo-lines-v1:sha256:1385cd636332ea221903219797ac50430153f7c687cfa86d6cb74e2737a65962:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzI3NTkwODAyMzYwMjE5MDk1Mjk5ZmU5Y2Y3MDY0ODdkMGYwMjk0YTM4ZTBhZDA2YTdhMzZmYjk1YTI1Y2Y1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5YTQ1OWFlZGFkMjNjYjQ0YmVlZWQ5NTgyNzhkMDVmMjE5OThlZDNmMDcxOGFjZTc5NmU0OWU2ZGJhYzNkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzE4NTFmOGNhM2I4NDc2NTcxYzk2NjBjZjM2MTJhY2NjNTNjNmE2ZmU2MGNiYTQyNDVkN2EwMWM1NjdhMjVjNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTFmNWM3YTUzNjFlMzhmMGY3ZmI3NTA5MWE2OGQ4YWZmOTZlNGY0MDM0YjFmNWY2YzVlMDdhNWVmZWUzOGE1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_45c704922b26497d88a18d541101a294",
+      "statement": "For every accepted value message, the Federal Reserve returns a pacs.002 with OMAD and a creation timestamp, which FFC publishes to net.fedwire.ack.v1 (catalog event EV-PNG-01); errors are published via admi.002 keyed by IMAD; Fed acceptance constitutes final settlement under Regulation J but does not confirm beneficiary credit.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L40-L42",
+          "version": "repo-lines-v1:sha256:3467d3152bab3b5f0dd073ec1a83cab4e83a170214f2053a1f65d147fe529852:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc0ZjkwYjUzY2UwNjk2ZDkxYTcwMzI5OGU5MTQ1Y2JmMDFlMTAzNWMzODQyY2RiMjgzZTEwMWM1ZGYxZGE1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2NmQyMDcwMDEyYWNkYTkwYzNkZTdhNjhhMmZiYTgzNDY2OTc2NGRkZDM1Mjg1MGYyYjAxZjE0ZGIxZDM1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM3MmRhMzA5YTMzZDc3MDc1YmMwNDM3NjhjMzM5ZmE5ZDEwZWU2MWFhN2U0YzhjNDIzMjI3Yjk5YTAxNzllOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjc1OTAxMmMxZTViOWZhZjlhYmMxMGI2MWViOTIyMzMwMjZiNDI2MWZiMDliY2YyZGY4NWM3ZjUwMmVhNDdjNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_379e768500c248fda330f4d31d8efc0d",
+      "statement": "In Q3-2025, FFC observed a median Fed acknowledgment latency of 4.2s, a median of 6 minutes from PPH RELEASED to Fed acceptance (including queueing), and Fed technical/business rejects at 0.07% of messages.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L44-L48",
+          "version": "repo-lines-v1:sha256:087a5cfdba66e7665404823ab0781af10d0af2c6fc34b7f184e30a9bf1836903:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzYTA2YzQ0NjE3MjZjNTAxMTkyNDVmZWVmNjZiMDViMDg3Yjg2NmM1ZTIxZDc1NmZkMWE4Y2FiNjRjZTMxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I3MzUzOGRhOTkyYzQ1MDAzODQ1ZTlhMWQ3ZGFhNWMyYzZkOTFlMjNkMzNhM2JmMTUyNDVhYjc2ZjAzMzg5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjIzYzk0NmI0MGM5NzNiNDc3ODA0Yzg2ZWQ2NjJlODQ5ZTljZTk4NmMzZWNkYWM0MWM0ODE2MmQ2Mzk0MWE5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg0YTUzZTQ4ODk1M2RhY2YwYjY3YTE4NjdjOTkwMTA3MDExYTQ3Mjg5NWU2MDIwODAzNjA4ZGIyOTk3ZWI3NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a91b52d82704c609b94a8e4555ac177",
+      "statement": "FFC produces the net.fedwire.ack.v1 and net.fedwire.inbound.v1 Kafka topics, both consumed only by PPH and administered under ACL ownership by Payment Networks Engineering.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L50-L56",
+          "version": "repo-lines-v1:sha256:d4d5af0fd3edd6e7d10dcc8a877bb4171f0f0b52ff495b55e7c9b6003ead19c0:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE2NTEzMDg3ZWY4NWFkZWE1ZThiYjFkZjllNmExNGE2MGJmM2VmMDBlMGQ0NjExN2VhMGM3YTNmODE3NWY3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWJhOTg5NmEzZjJkM2IyZDM4YjFjYTZmMzk2MzI0ZDA5ZTFjYTRjZGJmNWMyNmQ3MGFjYWJiYjg4NzI3YjUzNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTNjOGQ1ZWU4MjNmZmIxNGZjYTA4YTE3Yzg4OWRlNDJhYjg3OWU2MjIwMDEzOWJhOTY3NzUyYzU1YjI5ODc3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_96a72c6fffb74d59b839848e56fa7784",
+      "statement": "PNG operations (covering FFC) use a Saturday 22:00-02:00 ET change window, Splunk dashboards under the PNG-FFC-* and PNG-GPI-* prefixes, and FedLine Advantage / Swift Alliance Lite2 as business-continuity contingencies, with PNE on-call (T1) as first-line support via #payment-networks.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L125-L131",
+          "version": "repo-lines-v1:sha256:4ca5e3691f5ae934dfc9f944b3179b4bcebdd0b520521b7b65db58568829fb17:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVjZDQ3MTMwYTliNWI4YTIwYzM1MTlkMDY5ZDY3MWVkNjcxNzQxYmE5M2UwZTFkMjk4OGI2NjViN2Y4OWU1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJlYTlmZGVkNDlhYTExYTRhNTA1ZTY4Zjg0YjFmMGU2NzQ1MjExYzkxNDI2ZDk1ZDI5NDQzNjI5ZmRhODUyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzhhMDgyMTEzNzkzYzc0OGRmZGY3NjFjNjUwZTNjZmVjZGE5OTJlZTkxZGY4OWRkNDhiMGQyNzFjMTgzNTRlNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L24-L26",
+          "version": "repo-lines-v1:sha256:9db4339b0ffd6f5f1b5d71162adaa9e0bf0e95e89610ece8f1ed7ec7168489fd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQyMjE4MWIxZTA5ZjVlMjg5Njg5MTFkZGU2MTBjNWQ1NWY0YmJiZDkwODFhYzg3YmQ5NDlhNjZlNzBjMWY0YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTAyOTQxY2NiNTM1MTZmNGI3YWI3YWQzMGZhOGY4NTAzMDlhMmQwMmM3MmRkNWU0MDhmMmQzNzZhNDJkMDMwMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTU1OTE0ZGQxMDY2OTlmMDkwZmVkOTI0ZDY2MzAzMTk1NGJjZTU1ZmM5MGI1YTg4YjE0M2IyNmQyODUxZTMxNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmY1YWVkOWM0NmJmZjBlZmQ2MTZkZDVmMDJiNGI4NTE4ODkxMTdhMGYyYjRkYjU2MDBmNjI1M2E0MjEyZDVlOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6b5b91b4563f401694509d46b474ef20",
+      "statement": "PNG-TDD-6.0 also governs the Swift Alliance & gpi Connector (GPI-C), led by Tomasz Nowak, covering Swift CBPR+ ISO 20022 migration, UETR tracking, and batch gpi Tracker integration — the counterpart module to Chen Wei's Fedwire ownership within the same Payment Network Gateway document.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L57-L77",
+          "version": "repo-lines-v1:sha256:8b21bc3961aed538582d14323c3e785bcdaf677220a0a8cf615ff8b63287b07d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxYzhmNTljNWY2MWM3NjNkYWY1MTdhODk3Yzk3YmIxY2Q3OTViOTAzMjg3OTdmYTdlOWQ2Yjk5MGUxZWRjZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3NjAwNWI0MjE2YTE1YWJjYjMzNTc4ZGE3YTM3MDhjZDk1NzBkMzhhYjYwZTVlYTlmMzFmYjM1ZGYzODc3MWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBhNmU4MmI0YjI0MTRhY2VjZmVkMzI2MTc3YTZiYTEwNjIzNTM0YzMzZjhmOGIyYzJiMDViNTFjZjcxZWY3NjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyMzZjZWE0ZDI3ZjRjYTY5OGRiYzA1NDYzMzQzNjExZDhjZjY0ZjQ1MDI1ZThkYzI5OGM2ZGZlNzVjYWVhYzYifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

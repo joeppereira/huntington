@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:5075dadca4ab47e1764a8a12d4fd3e1565bd3cec3adc3c6bd2c87f9bb4562f24",
+  "claims": [
+    {
+      "id": "claim_b9deab7b5f2848229e11b687b5729891",
+      "statement": "Dr. Aisha Rahman is the Lead Data Scientist for the Treasury Data & Analytics (TDIP) team at Crestline National Bank, which is directed by Wei Zhang and tracked under Jira project TDA and Slack channel #tdip-help.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L63-L63",
+          "version": "repo-lines-v1:sha256:997dc9337d8a059b7958c83afa22726f0676a7e6fc50b97982c8d75eb0cca249:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTk3ZGM5MzM3ZDhhMDU5Yjc5NThjODNhZmEyMjcyNmYwNjc2YTdlNmZjNTBiOTc5ODJjOGQ3NWViMGNjYTI0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTk3ZGM5MzM3ZDhhMDU5Yjc5NThjODNhZmEyMjcyNmYwNjc2YTdlNmZjNTBiOTc5ODJjOGQ3NWViMGNjYTI0OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGJmNGI2ZmE5Mjk0MjU5MmVjZDUyOGQ4MTFiNDRiNGY1Yjk4YWZkNjY5NTdiMmFmN2U2ZGQ1ZjQ4YjkxMTdlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQxYmZkNWMxMGJmYmJkNDNkNGVmYzg5MzcwZWIwMjNhYjZiZTBjZmYyNzRmMmE0NGYyZGVjZDQwNWZiOTUyOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d930a22c1d55451ba369f47a57c34989",
+      "statement": "Dr. Aisha Rahman is listed jointly with Carlos Mendes (EM, Treasury Data Platform) as document owner of TDIP-CAT-2026.2, the Treasury Data & Insights Platform Data Catalog Extract (Payments Domain) & Insights API, version 2026.2 published 2026-09-18 and approved by Wei Zhang and Ethan Brooks.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ba7ff2eb1885278e0711f4cf6fce36662df1eb6b2108a4d280e0a3578d76a938:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmRiNTI5ZDcxMjNmYjZkYTNjZjRmNjE4NDg4MzdiNmM2YzZjOGJiZTdlYThjOTY5NGIwOTAyYmY0N2ZlZjc1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzk2N2E0ZTdkNGE1YjI5ODNiNTg2MTlkMDM0MTQxZGRjM2I1NDVjOGMyM2I0MDAxMjM2ZjgyODc1NGQxYWUxZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBiOTE3YWJmZWM4NjYyMzAwM2VlNzNhMGJkZjE1ZDliOTUzMjRhMmNhMDI5YjBiMTFhYWUwNGY4YWQwZTM2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4b4d44c242724f66a6d1a8f8c0030105",
+      "statement": "Jira story TDA-2140, which delivered the wire_corridor_stats_daily feature table (8 points), is credited solely to Dr. Aisha Rahman and was closed Done on 2026-05-22, making her the feature table's data-science owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L65-L65",
+          "version": "repo-lines-v1:sha256:98aa7778f6d6444cfcb7380ee189be354331bf98a635b9037532bbb377e540b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOThhYTc3NzhmNmQ2NDQ0Y2ZjYjczODBlZTE4OWJlMzU0MzMxYmY5OGE2MzViOTAzNzUzMmJiYjM3N2U1NDBiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOThhYTc3NzhmNmQ2NDQ0Y2ZjYjczODBlZTE4OWJlMzU0MzMxYmY5OGE2MzViOTAzNzUzMmJiYjM3N2U1NDBiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGUxZmJhNzRkNjE1NmY0YjdmMzczNjA0NmYxNzRhMzRjNzdhOTE2ZmEwODZlZWEwZjQxOGFhNzhhYTA0YTYwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmQ1NWJhMWI5MTkyOGUyOWQ0NGRiMWIwN2E2MTJkN2E5MDM3ODEzNmY5YjE2MWU3YWZhNDE1ZmVkODBhZGViZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_69ad696b549043308c67fa635bce97ca",
+      "statement": "The wire_corridor_stats_daily feature table that Dr. Rahman owns aggregates pay_wire_txn_hist and gpi_tracker_events at a currency x destination-country x day grain across all originating clients, is classified Internal with no suppression flag, and carries an MRM-inventory link of 'None (descriptive)'.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L43-L47",
+          "version": "repo-lines-v1:sha256:ce5ce7ac6307a3543acb25acd2ca8ef847473a4c05e6ab400564cd0beca1a5d4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg0MTNmOGFjMWMxODc1ZmQ2MDRjOGFjN2U3NmM0MGE0M2EyZTNlMjcxMDgxMGNkODg4NzA2ZjQwNzFmYzc1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5b5912d21898420a96ad1613f4709b17",
+      "statement": "Within the TDIP team, feature-table/data-science backlog work (TDA-2140, owned by Dr. Rahman) is attributed separately from platform/ingestion-engineering backlog items TDA-2188 (gpi_tracker_events nightly-to-hourly migration) and TDA-2210 (ingesting net.fedwire.ack.v1), both of which are owned by Carlos Mendes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L65-L67",
+          "version": "repo-lines-v1:sha256:5e4a7f31b1bce3f26b766ac8b5844a59d2788f9692f084d94dfd6f996d559272:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOThhYTc3NzhmNmQ2NDQ0Y2ZjYjczODBlZTE4OWJlMzU0MzMxYmY5OGE2MzViOTAzNzUzMmJiYjM3N2U1NDBiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGUxZmJhNzRkNjE1NmY0YjdmMzczNjA0NmYxNzRhMzRjNzdhOTE2ZmEwODZlZWEwZjQxOGFhNzhhYTA0YTYwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

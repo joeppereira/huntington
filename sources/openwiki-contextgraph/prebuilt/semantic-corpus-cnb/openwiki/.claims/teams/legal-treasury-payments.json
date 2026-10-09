@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a4a6a7eae08ca67b84a039435890a66cf78bf47fd4cca619b72c395d65870204",
+  "claims": [
+    {
+      "id": "claim_6884b6ff44294c228099bbac68b99f38",
+      "statement": "Legal - Treasury & Payments is a first/second-line partner function in the PTT organization directory, accountable to Andrew Feldman, with no owned system of record and no entry in the engineering team directory or system ownership register.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L77",
+          "version": "repo-lines-v1:sha256:c7fe64a4a6d6da01855db29c521dadfd9a0a292acb5a311c64f12ee702279fff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyOTQ3M2U0MjkwNmViOTg1NzUwYTBmYjFjOTA1MTdhZGIwNzNmNmVhNDViYmUzMzkyYWJiN2M5M2M3ZWE1NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3d3e10af17be4d2095235ca771a7e7ed",
+      "statement": "Patricia Moore is listed as the contact for product and design reviews under Andrew Feldman's Legal - Treasury & Payments function, specifically as Chair of the Disclosure Review Committee (DRC).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L73-L73",
+          "version": "repo-lines-v1:sha256:5ba1e367ba8218d988388865bad9d708e140c8713c4f460072b93bc96044378b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWJhMWUzNjdiYTgyMThkOTg4Mzg4ODY1YmFkOWQ3MDhlMTQwYzg3MTNjNGY0NjAwNzJiOTNiYzk2MDQ0Mzc4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWJhMWUzNjdiYTgyMThkOTg4Mzg4ODY1YmFkOWQ3MDhlMTQwYzg3MTNjNGY0NjAwNzJiOTNiYzk2MDQ0Mzc4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjg2MjI0YjllMThiNjY4NWY1ZTQ3OTE4NWJjMDkzYzQ4YmE4YzEwMjc2YmJlNjZiZGM5N2IzMTc5ZjYwNmFjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2QyMWNkZTNhYjgyYzg5ZGRjNTI3N2M4YzNjNmRiNGYxNzMzODAxMzYyNzQ5OTgzMTgyNTMwMTAxYTE4ODRiNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_be4c116f5ba543629528ef1313c4f9e8",
+      "statement": "The Disclosure Review Committee (DRC) meets bi-weekly on Thursdays, requires 5 business days' submission lead time, and approves client-facing copy, disclaimers, and notification templates for PTT.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L114-L116",
+          "version": "repo-lines-v1:sha256:e0fc12a5bac1ce93b384394dec424ed4f620474a44f424dfb60bbdb8a75950e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkZWY3MmNkNjhjM2IxMGY5Y2I5NTExN2EyY2U1Y2Q2MjFiNTU4MDgzOTYxMmM4ODM2NTViNzQ0NTY0YjMyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzNiYWExNmFiMDk2ZmY0N2Q5MDNmNjkzMDliYTU3NWU3Y2ZkZjliMjE5ZmQxNjk0ODc1YzNmYjJmNWE3Y2Q4OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f62c786148274711a5c908499543dd91",
+      "statement": "New Enterprise Notification Service (ENS) event types require draft per-channel templates to be submitted to the DRC as a required step in event onboarding before production enablement, under a 6-week SLA from complete submission to production including DRC review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L41-L47",
+          "version": "repo-lines-v1:sha256:b6abd378e2e8eea606b93612daa7b82efbc5b0cbf606b55bc4b9b16f2b733fad:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDliNWMzYjExY2ZjNjU4NTg4YTZjZDM4ODQ5NDg2ODEzM2Q0ZmNmMjkzNjY3ZmQzZTEwZGU5M2FjZjc3ZDY3ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJkOWRjNDIyMjcxZDRiMjczYzE0ZTQ0ZTBlOTVjYTFhYjYzMGNkNzg3MWUxNzc0OWIxZDg3M2U4ODc3ZTE2MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGZlMGQ3MzdiOTZhNmI1MDY2OTA1Mjk1OGVjMmYzNWNkZWRlNTc5OGJiNzY3M2E2NzY2MjQ2OGM3N2Y0ZjgwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGUxOWQxMTliNWQwNDBmZWVlOTVhNGUzNWFhYjRmYzUyYmZlZjYzMGQ4NDkxYWQwM2ExZDI4MGE5NGE5YjJjYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8dc76a787ed74d3bb4c0e020fad2a68a",
+      "statement": "Compliance or policy interpretation questions bypass the DRC and engineering teams, routing instead to FCC Policy & Advisory (Jordan Ellis) or the Privacy Office (Ethan Brooks); the DRC's authority is limited to disclosure-content sign-off.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cb96eb13ddc94b6b896d7c7627bde5b2",
+      "statement": "Under DUS-07 Section 5, aggregated cohort statistics may be shown to clients only if the cohort has at least 500 transactions and 20 distinct originating clients, no single client exceeds 15% of cohort volume, statistics refresh at least monthly, and the wording and disclaimer are approved by the Disclosure Review Committee.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L46-L58",
+          "version": "repo-lines-v1:sha256:2c1505f0c4fce0678b09bee8b37383d28cf2f0d12e8ab973caa3008245165343:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxOTA0YjliNmRlYTJiOTZmMGQwZTcwMmExYWNmZjBlYjI3M2FiMzdiYjZlODY5NjcyMzUxZmZiMzNhMjJkMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZlMDE5NTg4NDNkMjI4OWZkNzAyMmNlNmYwZDdlMjAwNDA5ZjRkYmNlZjJlMTE1NTNkZjIxNjdjZGQxZWZmM2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkYzM0OGY0NjliYjljYmQ0ZGY0NWMxODY0M2QyYzllZTNhZjY2N2Q3N2JmMjQ0NGJkOWU0ZTc2MmE0MzQwYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3Yjk3YWYyZGM4MjQyM2U2NTEzN2NjMzRjY2Q5MWVhOTNkMzI5N2M1NWNmM2MwYjc0NTM3M2E4ZGJmZjljNTkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_85f272fc9b9c44c590735581dc159898",
+      "statement": "Under POL-FCC-014, any client-facing predictive or estimated-delivery statement must carry a DRC-approved disclaimer, be registered with Model Risk Management where applicable, use only the client's own data or DUS-07-compliant cohorts, and never be shown for payments in tier G or R hold; new or changed client-facing status/hold/exception experiences require FCC Policy & Advisory review before build commitment plus DRC approval of final copy.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L98-L102",
+          "version": "repo-lines-v1:sha256:2afefbdfea7bae053e63ef7205d6001798dff738e8aac6f4869a7d8c5efc6f45:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiOGVkMDgxMjYyOTY1NTk1ZDIwODAzYmJjMmJlYWJhN2RkZjBjNThkZTVkODY0MzdlNDAyMWQ5OWM1N2VhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJlYTA4YzliMjViMjYwNmYzNThjMzhjNzMxY2Q1N2I3NGViYTRmZTYyOTQyMjg0NTQ4NDk4NzgwZTZiMWE3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2I0OTNiNzM4NzAwN2IxMzE2NWI2NDJhMzQwNjE3NDA1ZDU4NTQyNWUxYTlhYTMxMjU3OWEyYzU0NTA1ZTc1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTgxOGY1NTlmZWEyZGEyM2Q0MzQzYmY0NjQ4NDk3OGM4NjA4YWZmYTI3NDEyYzM1ZGMxZjFjMDg1ZDZlM2Q2NCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

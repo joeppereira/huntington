@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:21757b284989b2f2b6d1b0457aa84bb15e10dcebde11b990a4257c13bef6272d",
+  "claims": [
+    {
+      "id": "claim_a68860f0c06c4756a70eb95ff8ea0e02",
+      "statement": "Model Risk Management (MRM) is a second-line partner function listed in the PTT directory's partner-functions table (not the engineering team directory or system ownership register); it owns no PTT system of record and employs no PTT engineering staff.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L77",
+          "version": "repo-lines-v1:sha256:c7fe64a4a6d6da01855db29c521dadfd9a0a292acb5a311c64f12ee702279fff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyOTQ3M2U0MjkwNmViOTg1NzUwYTBmYjFjOTA1MTdhZGIwNzNmNmVhNDViYmUzMzkyYWJiN2M5M2M3ZWE1NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_01b6619e8baf4218be922d21a6ca674a",
+      "statement": "Jonathan Price, Head of Model Risk Management, is named as the 2nd-line owner of MRM-POL-02 and the model inventory, and as document owner of MRM-POL-02 v7.0 approved by the Board Risk Committee on 2026-06-18.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L28-L39",
+          "version": "repo-lines-v1:sha256:71c43d98ee5dd71eb4b39b1f5c6fe8c3baedc691bf83e2bf9d0a3761144e8c6e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMThlNDE5MjYwM2E5N2JlYWVjMDA5M2U3MzdmYzk1YTNlMmMwNjU1NmNiYzI4ZmYzZjFiODMyMjQxODMyOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxYjMzNWUxZGI3M2Q4NTFlZjc5ZDQ0OTRkMzU2ODJhZjMzN2I2MTczMTY3Y2EzMzdkNThjMDcyMGY2MmNlYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwZWI4ODU4NmY2YmU3NGY0NmRmYjM1NDhhOGI5ZWEwYzc5ZmE4NGM5YTkyYTg1MzhiNGY3Y2RmNWI2NjliNGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlkODAzODk3ODZmMDJkZWZhODczMzNhNzJjZWNiOWVhYzQzZGY5MjE4ZmJhOTM1ZjM4ZTU2YzU1ZWViOTU1MjkifQ"
+        },
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L15-L21",
+          "version": "repo-lines-v1:sha256:febdd73cf2ad794a4aa14ba9d6376f54c68328ce544a893f61d0c8f2beb389c2:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y2MDU2YzhlMzFjMzVkNTVlMzRiMGRiM2Q1NzcxYTdhMzVjZjRjNmRhYWM1NWYzZTg1YjgxMWRlNjczNTM2OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzkyMTRiMjNjOTdjNDYzMDNlYjQwZTg0NWUxOTUxYmY2NTVmZmZiNThkYjg3MGRlMDQxNTZmNmIzNzFjZjk3OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjRlNGJlNDE4M2FjYzUwMDk1NjllNTExZDEwNzEyM2QwNzdmM2MyYzFhMmJiZjY3OGYxY2I2ZDIxMjhiMzZiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmNiMWM2N2E5NjE1MTEzZjZhOWJhYjE0ZjRhN2EzMDkwYzRmMjJiNzAxYjcwZTg5NDY2OTAzOGNmNjcxZTI5NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c541b60f33964a80b8053d02987a3b23",
+      "statement": "Sophie Laurent, Validation Lead for Treasury & Operations models, is the named contact for product/design reviews in the PTT partner-functions table and the named Tier 2 validation queue contact in MRM-POL-02's capacity notice, so PTT teams engage her for routine registrations rather than escalating to Jonathan Price directly.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L77",
+          "version": "repo-lines-v1:sha256:c7fe64a4a6d6da01855db29c521dadfd9a0a292acb5a311c64f12ee702279fff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyOTQ3M2U0MjkwNmViOTg1NzUwYTBmYjFjOTA1MTdhZGIwNzNmNmVhNDViYmUzMzkyYWJiN2M5M2M3ZWE1NWUifQ"
+        },
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L68-L71",
+          "version": "repo-lines-v1:sha256:22a23f3f566542a96081642e9a39771305cda8306e72cbcb051b7ec1c929b083:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2UzYmEyYTJhOTJlYjhhMzdhM2Q5NWUwNzhlZjkzNzVlZjQ2MTc1ZThjMmY2MWFlMjBlYWVhNzczNTI1ZWE3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzU1Y2NhMmY5NWU2YmQwNmFjZjViZTBjNjliNjI2NzIxYjU2NzdjMzY1MGZlYzRhNTk5OGM3OWFlMGU5ZDQ2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGZhNGU3ZTkwYjgyZDhjN2ZjM2M1NGE0MzcyZDllZWY2NWRlNDgwNDdlMDg1NmU0NDA3NmE5ZDZhNTBjMjRlNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f59a5d7b53a34e2d9a0366454aa3fcad",
+      "statement": "MRM-POL-02 v7.0 re-baselines to the April 17, 2026 interagency guidance (SR 26-2; OCC Bulletin 2026-13; FDIC FIL-15-2026) replacing SR 11-7, introducing a complexity-based model definition, a formal End-User Analytic (EUA) category, purpose/exposure-based risk tiering, and a dedicated vendor-models section.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L15-L27",
+          "version": "repo-lines-v1:sha256:0d13397add156834f609d8e9c5844dff3d56a4cc90e551c533c73b2c10175706:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNmNjA1NmM4ZTMxYzM1ZDU1ZTM0YjBkYjNkNTc3MWE3YTM1Y2Y0YzZkYWFjNTVmM2U4NWI4MTFkZTY3MzUzNjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxYmY2MTE5ODI2YTE2ZWFiOGJmZmIzMzgyN2I0YWVlY2E4ZDM2OWRkYjExYWQxNWVlZjdiMDI3M2MyNTk4NmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0ZTRiZTQxODNhY2M1MDA5NTY5ZTUxMWQxMDcxMjNkMDc3ZjNjMmMxYTJiYmY2NzhmMWNiNmQyMTI4YjM2YjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3M2VjNmY1YzVkYTU0NTI3MTI4MmQ5MzQ0OTQyNDllODZlMGRjZjYwZDY2NGY4OWIyMmY0MDNmMTkyMjk5YjIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_fa4b1ef94d264bef97550ba0edb52605",
+      "statement": "MRM-POL-02 defines a Model as a quantitative method of meaningful complexity producing decision-relevant or client-communicated estimates/predictions, an EUA as a simple descriptive calculation with no forward-looking estimation needing only Archer registration and business-owner attestation, and a customer-facing estimate as any forward-looking value shown to a client that is Tier 2 at minimum.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L29-L43",
+          "version": "repo-lines-v1:sha256:866add96d4fa1d63f100e0b2a30d78ba491691548720e8cb107f7aed0baee50b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU2MzUxOGMyNzFkNzdhMDkwMDVlYzI0YTk5OTc2NWM4Y2MwOWZjZjQ4MjY4ZDczNWY1ZjEzOGUyMWM0NmUyMmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmMGI5ZWJhNThiNzczNjEwYmY2OGE0OGQwMmM4ZThiN2E3NGVlYmRjNjdhZGM3NzkzNjk1YjhkMjY5ZTA4ZDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjZTk1OTlhMWNkNjM4YmJiMzRlMmExOTNkNmU4MTM0MmUyZTFlNmVkN2FkYmFhNTMwNmUxYzAxY2I0Zjc5OTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1700bd3560a945c59bf88e27f7d77762",
+      "statement": "MRM-POL-02 defines four tiers with validation lead times: Tier 1 (regulatory/capital/financial-crimes/high exposure) requires full independent validation with annual review; Tier 2 (customer-facing or client-decision-influencing) requires independent validation typically 10-14 weeks and 160-240 validator hours; Tier 3 (internal operational, limited exposure) requires targeted validation in 6-9 weeks; EUA requires registration plus attestation in about 2 weeks.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L36-L43",
+          "version": "repo-lines-v1:sha256:f8b9027402087c4f37afc8791d0d71bd18c88d7c9da98ad2cce61ad3076c3f0c:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU3YzQxZGQyZWM4ODg3YmIwNmU5ZjhmNjdjYmVjNWU3MzQwYzE4NWU5YWU1MWFlMjQ2MzZiMjI3YzFlODYyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjgzNWVkOGVjNTY5N2E0NjRkNzE0MWMyYWZjYTVjOTQyYjUzZjA5MmM3MWE4ZGFkMzExYmJmYTE1NDM4M2I1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmNlOTU5OWExY2Q2MzhiYmIzNGUyYTE5M2Q2ZTgxMzQyZTJlMWU2ZWQ3YWRiYWE1MzA2ZTFjMDFjYjRmNzk5OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_67824a3aa1f843faa1e282d6574a52fa",
+      "statement": "MRM-POL-02 prohibits use of Tier 1 financial-crimes model outputs, including the Sentinel payment fraud score (M-FCT-0021) and beneficiary mule-risk features (M-FCT-0034), for product, marketing, or client-facing purposes, and requires compensating controls and outcome monitoring for vendor models when the vendor cannot provide sufficient development information.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L44-L49",
+          "version": "repo-lines-v1:sha256:a560a8f123796edc68b38b0306d1cae2aa10a92cf7cc10a5411b9f744bc4a6b2:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzMzNDZiZjUxZDUzYzQ0NTIyMTRjODJjYWNmMzBkNGIzMTU0ZjZkZGFkOWNkOGRmZjFiODlkNjI1YzM2NzU3MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmI1OTc4NTA0OGYwYmUyMWRjNTUxNmYzMmM5NDFiMWY4MTg0MTM1NWMxYWU2NjkwYjhhZDRlNjRiNjU3MGVlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2IzOGM2NjM0MzRjOTM1OWQ2ODY5YzgxN2JlY2ZmYTIwYTgzMDE5MDhiM2I1Y2QxNzQxYTgzY2ZkOWJhMDE1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3850a3aeba85401a8b5e187c1f06d858",
+      "statement": "The Treasury & Payments model inventory extract in MRM-POL-02 lists M-FCT-0021 (Tier 1, Victor Petrov, validated 2025-12), M-FCT-0034 (Tier 1, Victor Petrov, validated 2026-02), M-TRS-0142 (Tier 3 re-tiering to Tier 2 under v7.0, Wei Zhang, validated 2025-09 over 9 weeks), and EUA-TRS-0007 (EUA, Denise Carter, registered 2026-05).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L50-L67",
+          "version": "repo-lines-v1:sha256:396fa8df49003320edf0cf89295d36152b0e96f453a0647f646791125f77dd68:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwODI5YWI0NzQ3NmZjYmEzN2RiNTg0ZGI4MDVlNGFmNjE2MzNlMTBiN2Q2ZDg1MWI3ZWMxYTQzNjViM2UyNzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM0MjBiNjFjOThhMTRjZDFlYWMwOWYzYzcwMGUxNmI0ZGJhNDM1YzE1YTQyNGRhZjRiMzJkMzVjZjkyYzlkNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZiY2I2ZWE3NzkxZjFiYzFmNTgxMDFhYzhkOWFiZjc4ZTRlYjg0MzU5YWIxMzFlMzI3ZWRiMTYwNjExYmFlYzAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_19a97d36daf147d186316d45f3643e9e",
+      "statement": "New models and EUAs must be registered in Archer before development begins, not merely before go-live, making MRM a gate on project planning as well as release; the MRM Model Inventory & Validation forum runs continuous intake via Archer.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L119",
+          "version": "repo-lines-v1:sha256:c499f6cc0a8f64fefbd72820dc9df6b1c06eda8469c28ab90119fec081074d17:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzc0NmU5NjRiNzZiN2U2ZjA0NTU1YzdjOWZkZDU4YWY0ZDk1MjRlNjMxYjBkODU0NzMxMmJhN2I5ZDQ2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzgxOTcwMTI4YjJiYzliMWJmYjk4ZTYxYjFmYzFhMjI1MjhkZWQxNzE4ZWY0OWFjMTg1ZGNiZTNkNWU4OTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM1NDE0MmEwN2JhOTdiN2I5ZjljZmZlYWI1MzYwNDc2Y2ZkNTFjYjZlNzBhMDAwODA5YWU0MzA4NmNhZDY0OGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_169123c29b6e46028d9c23ed4a748a14",
+      "statement": "As of the Q4-2026 capacity notice, the Tier 2 validation queue runs approximately 6 weeks before work starts (on top of the 10-14 week typical validation effort), and submissions should include development documentation, data lineage, and proposed monitoring, directed to Sophie Laurent.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L138",
+          "version": "repo-lines-v1:sha256:1e2fed947d50a609157df7385e3543534ad4bc415464e1c1f9efb1d8a6b1723d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        },
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L68-L71",
+          "version": "repo-lines-v1:sha256:22a23f3f566542a96081642e9a39771305cda8306e72cbcb051b7ec1c929b083:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2UzYmEyYTJhOTJlYjhhMzdhM2Q5NWUwNzhlZjkzNzVlZjQ2MTc1ZThjMmY2MWFlMjBlYWVhNzczNTI1ZWE3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzU1Y2NhMmY5NWU2YmQwNmFjZjViZTBjNjliNjI2NzIxYjU2NzdjMzY1MGZlYzRhNTk5OGM3OWFlMGU5ZDQ2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGZhNGU3ZTkwYjgyZDhjN2ZjM2M1NGE0MzcyZDllZWY2NWRlNDgwNDdlMDg1NmU0NDA3NmE5ZDZhNTBjMjRlNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a38f60601a564284a2b070fea1c8bae9",
+      "statement": "PTT planning factors estimate EUA registration at approximately 16 engineering hours of MRM effort and Tier 2 validation at 160-240 validator hours, used by engineering/product teams for first-pass sizing of MRM-dependent work.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L138",
+          "version": "repo-lines-v1:sha256:1e2fed947d50a609157df7385e3543534ad4bc415464e1c1f9efb1d8a6b1723d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d4552bbc9e1c46058ea4c1ce9a6d8a22",
+      "statement": "Model-risk classification and policy-interpretation questions are second-line decisions made within MRM and are not decided unilaterally by PTT engineering or product teams, consistent with the directory's broader escalation rule that compliance/policy questions route to the accountable second-line function.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

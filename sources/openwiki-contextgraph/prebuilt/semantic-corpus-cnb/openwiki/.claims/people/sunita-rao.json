@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a724c02e3b0d4e4a2cb2567d2e1944b3b262625568d0dab89f439d7efa9fcfe4",
+  "claims": [
+    {
+      "id": "claim_f18787a655224fc5931f8cb3a47e29c1",
+      "statement": "Sunita Rao is Principal Engineer on Payments Hub Engineering and, alongside Kevin O'Brien (EM), is recorded as co-technical owner of SYS-PPH (PRISM Payments Hub, Volaris 9.4) in the PTT system ownership register, with Laura Kim as business owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L48",
+          "version": "repo-lines-v1:sha256:303bd8ab5dfa328bee2d9aff57c0f8b08bdfee5b48706c003deeac978bdbbbe6:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2MDMyNWVlNjE0NWViODEzYjdjMTNmNDRmYWU3ZDVlYWUzMzM2ZDg4MWIwZDBiYmYwOWE5NGYyYjlmNzBiOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGRkZTVmZjAxMjNjNDMyN2ViMjEzZGFjNDRkMTJlMzk5MTgzZTE2NTcwY2U1N2EwMGJkZjhhNDU2YTI2OTc3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmUwNDllYzU5YjUxYjk1YzAzYzA5ZDlhYWExNWNiZDljYjJmODI2ZjM0MjFlYzBiM2Q5NTJmMmNlNWY0MWRmYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L88",
+          "version": "repo-lines-v1:sha256:ac5f8d85c7a99459e287020406bd402f2bd7b997f6dea5307504660bcbb5edf5:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODYwNjFjZmQ3YmE2ODFhZDkyYWY4NjA4YTI2Y2M3ZjYxODI5NTQyYmYxZGQ3ZmU4NGJjMjE3YWQwMGY1ODZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE2NWYwODZkNmU2MjNhZDA3M2FiN2M4OWYzM2VhZmQ4ODU1MTM5NWRmMmQ0Y2E1ZWFmZmY5MGZmM2I1ZjJhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2NzEwOTA3MzI2NTUzNjJhNjM1MTBlMGY1OTNlNDI1ODc1N2I1MjljMTAyZWJmMTM3ZWY0M2Q5YWViOWZiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDllNjU5MDZiYWFjMzE3NmI4NWEwMjAwYzJhOGM1NWY1NmZjZjM0N2YwZDA0NjJkNmFkMWJjOTUyZDc1ZGM5YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_460926e3eb844495bb5c68d923e84b92",
+      "statement": "Sunita Rao is the document owner of PPH-API-CAT-2026.3 (the PRISM Payments Hub API & Event Catalog, v2026.3, published 2026-09-10), approved by Kevin O'Brien (EM) and Raymond Ortiz (Director), and is listed as the API design contact for consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L133-L133",
+          "version": "repo-lines-v1:sha256:59ebca39801ea4a58680fc97b3cc0c7c4221142f427cf48c7c01083034b8400e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTllYmNhMzk4MDFlYTRhNTg2ODBmYzk3YjNjYzBjN2M0MjIxMTQyZjQyN2NmNDhjN2MwMTA4MzAzNGI4NDAwZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTllYmNhMzk4MDFlYTRhNTg2ODBmYzk3YjNjYzBjN2M0MjIxMTQyZjQyN2NmNDhjN2MwMTA4MzAzNGI4NDAwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmRlODJiZTUyZWU3Yzk1OTAyY2Q5OGY1NmMzNGY3YzI4MzZiODM1YTM1YmIwNjA4NzQxOWVhMzdmMGE3YmNlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2FmOTM5YjE2ZmYyOTAyNzY0NzA0ZTIzNjk5MzVmMDJhMGQyMmI0MzYzYmYyMGIxYmE2YzIyYTExZDMxOTM5MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L15-L22",
+          "version": "repo-lines-v1:sha256:20621c2809dc3acdbb34020473af314c7a0f7de17e63110d683c5e499f2eea40:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTc3OTYxYWY1ZDQ2MDgxNTUzMDcxNGQ5OTRlNjNkMTFkMzM5ODg5ZTU3NDY5OWU3YTVlMDBmNGFjYTk4ODg4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTc1NzFmZjk4NTY3YjQ2MWRjYzAxMTdhNmI3YmVjNjhkZDNhN2Q0YTA3YjQyNzY0Zjk5YmRjYzQwZmFmNGNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTQ0MjVhY2ExMjhkY2FkM2ViYjFiNDM0ZTJhMzZkNjlkYTY1OWJkZjY1YzQwYjkwMDFhNzExMmVhOTA3MjRjYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWFlOGMzNWUwNTM2OTc0YmI2OWMxNjBhYmU0MTZmZDBiZWU2YWFhMmFlOWE0NmRkYmU2MWNlZWU4MTk4ZGRlMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f27cc1b7295942348ae3327545e5add7",
+      "statement": "PPH-API-CAT-2026.3, owned by Sunita Rao, documents the deprecated v1 REST APIs (EP-PPH-01/02/03), the current v2 REST APIs (EP-PPH-04..07, GA 2025-10), and two Kafka topics, and records the v1 sunset (2027-03-31, no extensions, confirmed by ARB 2026-09-08) with per-consumer migration tracking under PPH-2190.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L106-L115",
+          "version": "repo-lines-v1:sha256:af80132e90803c86c77f75d5b8602dc1909e9c680bc61de738886db890e17c08:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNTkyNzYwZjA4MWUxYzUyNGQ5ZDg0NDE2ZTExY2U5OTRjNzMwZTU4ZDNlZDI2MzI3NzViMmQ1ZTUwNmYxZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNDZhM2I2NjE1MDEyMTQ3NWZhNWYzOGFjODlhODgyOGZjMGI5MDM5NGZhZGZiNDE5N2Q3YjY0MjE5OGNkZjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlZjI3YTg5NjAyNDk3MDgwYThmNWYxMzk1Y2YxNDk5YTBiYThjMzU0ZTI1NjFkYmJlMGM0ZWYwMDVmZDJmYjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxYjBkMTI4Y2NkNzY1NmE5NmQ2OGU0MDc3YWQ4NmU1MzE2N2NhNTE1MDUwYjUwOTk1NDI3ZWJiYzg3YjBiN2IifQ"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L24-L36",
+          "version": "repo-lines-v1:sha256:79d9091776464d194ca82be7526cfdbed9dc23402d9056dd0fa497c18d5e6505:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0ZmY0YjU0NmJjZWI4NmQwMjNiMWYwZjNhMDBkNTAxZjA0OWNhY2YxYWEyNTAzZTcxMjNhMTRiMTE3N2FkNWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNiY2RmYTFhYTAzODYzNWMzNTYwN2M0ZGQ5ZWQ2ZWFiMWY0NTZjNzYxOTEzNmJmMWI4MjUwNjllOTNmMzA5YjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRiZDVlZGVkOTYxMDJmZmMxZWZjODEyMmM1MTU3NTFlMDUyNWUyNThkOGRmNDFjNDllNjQ0ZTQ0Y2Y5ZGVmMDAifQ"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L67-L82",
+          "version": "repo-lines-v1:sha256:bc17b0d5fd11731d14530aa810756cdbd4d79afbdf84cbeff079c2847443915e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwODgxOWZhYzcyODY2Y2ZlMDIxYjZhYzkzNDg0YWJiOGI4NzIxMzNkYTdkYTNhZjk3Y2IxNTdmYWRiZDM2ZjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ2N2FkOGJhMDhiY2JhNmZmZTM0YjJjM2VhOTI0ODk5ZWIzMjVhMmVmNGQ4NWVjODdlYWY3M2U1ZjBiNTAzZmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1MmY0ZTJjYzU1OWRkNTI5N2FmNWJjYjRmNjMxOGZmNjg0MGJjODVlYjIwZGNkZTQ2ZTg2NGNlMWEyYjg3ZTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzODQyYTJkNTZkMDRlNTE0Y2IxNGE2Y2IwYzdlOWMyODRkNjg5ZWFiMmM0NWVkYTM3ZjQ2NjVjODc3NzAzMzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_929955a854804263a8ad9f6ef312bfb1",
+      "statement": "The v1 holdReasonDesc field (legacy HMS free-text hold description sync, since 2019) is not curated for external display and has no v2 equivalent, consistent with ADR-PAY-021's exclusion of raw hold detail from the v2 API, which exposes only hold presence (isHeld/holdId).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L61-L65",
+          "version": "repo-lines-v1:sha256:d4501b71b5b2ea48a7d8ba67b23dba2212f30b0cee810786d5ee39e203037bb5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E5NTZiMGZjODg5NzFkMjBmZmQ3NzQ4MTU5NzgyZWMwZGRjNzQzMmJkNzY3YWRhNzgyOTU3ZjMyYjU4ZGQ5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWJhNDVmNTczNDRiMDIyYmVmOTg3Zjk3YzBiYTQ4MGI0MWU5NTE2YjliMmRiNzgwMzY4MzVjNjgyZWE4NDQ0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L84-L104",
+          "version": "repo-lines-v1:sha256:0f65c05159e2cdda488c8255f5dab284b239c1726faf2ad135b721c591ef5d62:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0NzdhMzQ2OWYxMzdiY2U1MGEwYzM1OWQwNTA1MjY3NzZkYjlkODRkNmUyNDk5NTI5NzBmZDZlNjJmMDBhMDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2NDkwNTEwNDk5NTZhZmYyYWY0MjI5ZGYzOGNmYWJmNjRmZTg5ZTNjMDcyNDc2N2NiN2M4MWRmODZmMDMzNWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRhOGIwMzI0YjQ4ZjI4YjVmNWE0NzA4ZTA4ODAxNjFiZjA1MGUxZGQxOGQ1NjFhMmRmM2Y3NGUxMGY1M2JkNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2MDQ2Y2RhZGRjZDUyYmQwMDc0YmM3M2Q3ZTViYzgxZTdlNWQ0OWY0NTk3MzA1NGQwOTg5MmVlMWQzZTk2MWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bb28ed968d3442588ff6f779342bdd2c",
+      "statement": "FCT-2004, an open risk raised by Daniel Kowalski in 2026-05, flags that PPH v1's holdReasonDesc field leaks HMS hold-reason free text (potentially including HRC mnemonics and analyst notes) to channel consumers, and was raised to Sunita Rao (PPH) and Tom Becker (CBO) with remediation options of stopping the sync or redacting at the API gateway, still unresolved.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L165-L167",
+          "version": "repo-lines-v1:sha256:1ff89d090b6bf4bd2e01243a3aa2c555b9140197e509aa8cbcaeff95c70bafb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA2OGMwYTFlNzM4MjQ2MjZjN2RmYWU2MDk0MDIwY2JmYzhjOWIzMjNkNDQyOGU5MDM2NjY5MmUxNjBiNGJjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZjZWMxOWUxOWQ5ZjAxNTJlNGYyOGYxYTZkZTBhNDMwYjI4Yzk3YTczMzU5MGYzMzkzZmFjOTUzZGJlYzM5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1c98eda686264f5f95f8d98123ac5be2",
+      "statement": "Two open backlog items remain against the v2 API documented in Sunita Rao's catalog: PPH-2207 (proposed settlement object, backlog with no sponsor) and PPH-2251 (v2 search lacks beneficiary-name filter, backlog).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L125-L131",
+          "version": "repo-lines-v1:sha256:1f58cdd4769edb8f2350ba1a4beffd7e8cae8506bea0656f3294c1a7a95b051c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTA1MWRmMDE4ODExMmNmZmQ2ODFlZWRlMWE4NDQ3MzkwYWU2OWRlYjVhYmJlMWY0NTE3OGMzZjI2MmNhNmRkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4ZTcwYTNiNTQ3NDYzZmJhZjEyNGI4MTI0OTA0MjZiMWM0NTU1YWMwM2Q0MzBjYzQxZDQzMjdkM2IzNGZiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAwODkwZTIyNzIyZGE1NmIwYTUwMTYzNDhjNDYxZmU1ZGM2ZTIwMWRlOTgyMWRjMjVkZDA0NmViMWFhZGY0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODQ3YjEyZTEyOWNhYTA2NzY1MWIzNjJhMTIyYWE0ZGQ3ODA5MjdiM2E2M2E2MjkwMDM4MDQ0MDc4MGYxMDU5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_39db624325b54e6089dfe77574dcd6cc",
+      "statement": "Sunita Rao is recorded, alongside Kevin O'Brien, as document owner of PPH-SYS-OVW-9.2, the system overview document defining PPH's architecture and wire lifecycle state model, co-approved by Raymond Ortiz and Laura Kim.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ebc3a0e791d6d0697026a97efc7ef6d2ea5c928512fcfcad698e4854a4deee13:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjYyYTY3ZDdhOTYzYjdkMWM3MTE4Njg5YmYwNjFhMDBlN2M5MjA5Zjg1NzVjZGIyMWI5Y2RiNzU5N2JlNmMxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODMxY2IwOWIyY2UxYTYxODIwYmQxNjJlMzZkNGEwM2E0NDgyNTM1MDJkYWUxYjA1MDI4ZDdmODRhNDQ2NjRiYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTAwOTRkNGEzODYyMThmYzYxMTQxYTA3YTkzZGE3ZTYxYTk0Y2RhNjcwZjExMTU3NWEwNmNmNGNlZGMxOTcxYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTk4ZGY4MzQ3NDlkMjU4YWQwNDkyOTI3ODY5MzQ1YjhjZDU5YzAyYjkwNDFiNTNlNjAxNDVhNWIyNzFiNjU4MSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

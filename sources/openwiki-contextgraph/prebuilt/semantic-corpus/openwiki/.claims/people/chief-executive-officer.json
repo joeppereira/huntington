@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:18f48517beaa326781791059a5d2c43223f051f58a78bca05a8b741530fa0453",
+  "claims": [
+    {
+      "id": "claim_90f016508aee44d99ab59c5f681dbb0d",
+      "statement": "Eleanor V. Ashcombe is Chairman and Chief Executive Officer of the fictional Meridian Harbor Financial Corp.; she signs the 2025 Annual Report shareholder letter in that capacity.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L15-L15",
+          "version": "repo-lines-v1:sha256:7314ecc1313d6f61e67044716783301222190d9cb3fd785b7a0d0c5baf693dbb:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzMxNGVjYzEzMTNkNmY2MWU2NzA0NDcxNjc4MzMwMTIyMjE5MGQ5Y2IzZmQ3ODViN2EwZDBjNWJhZjY5M2RiYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzMxNGVjYzEzMTNkNmY2MWU2NzA0NDcxNjc4MzMwMTIyMjE5MGQ5Y2IzZmQ3ODViN2EwZDBjNWJhZjY5M2RiYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTQ2ZjFhMGFlMjlkZWFhODlmNTlkOTFmOTc0MmViOTM0OTRjOTY1NTI5NzIyMGQ1MTQ0MzBlYTRkNDhkZWNlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBlZDA3ZTllMTc3MDY1MWUwODFkYjJiZGNmOGYwNWE2YTkwZWMyNTlhNTQ2Y2ZjNTcyMGU1M2IzOTNkNDdlYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L55-L57",
+          "version": "repo-lines-v1:sha256:b4ef1f8b446da47fe68a6904000d534e86892f42e9946e56e5ba48b49769394f:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA3NWJkZDlkYTYyM2Q0YWVmNTlkOTU3ZmUxOTYwOTczMWJhMmRjNzY0ODk4ODA2Yjc4MWMwMjczN2M4MDUwNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTdjODgxNjFmNDY0NGE1NGMyZGU3YmM5OWU3YzFlNjcxZmM4YWQ0MzYwYjM2ZjQ1YmVlZjk2NWM5ZTJjMWI4YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjM4ZWNkNDg0YjFmZGU3ZmIwZDM1NzA5N2E1OWQ2MGY4NDRlNjc0NmM0YmEyYWNiYjQ4MjdkMDRlZWI1NDM0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzU1Nzk1ZGY1MGY1NTM2ZWYxYjNlMjRjNGFhYmQzNjUxNjkyMGMxN2UyMDM4OTQ5NDJjY2E2ZjFmNjgyNmQ3ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c483e752f7f44a10a56d8596b5005949",
+      "statement": "The 2025 shareholder letter reports record revenue of $86.1B, net income of $25.0B, diluted EPS of $16.93, ROTCE of 26.4% against a 17% target, CET1 of 15.1% against a 10.2% requirement and 13.0% target, and $17.1B returned to shareholders.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L33-L37",
+          "version": "repo-lines-v1:sha256:74c11bf109e903c836a71ccba4c9c28f1b0a8e41b82ee4df11f93bceda8f78da:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGMzOGQwOGI4ZDlhNjU2ZDIzNTNmNjE1ZDUwMGRiNTdkMmFlZDdiM2JjY2YzOTI3MTU0YmFkYzBkM2IzNWE5NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzdhOTFmOTc5MTUxNTM5YTM2ZDE5ZWExMzI4MmMzNWI0NTNiODY4MTQ3YjNhYmE3YjkyNzcxYTg0YjRhOGFjMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWM4ZGFkODRhM2NlYjY1NWViNjk1OWM3ZmJkNGZjNjAzNWYxZTEyMzcwMWQxMjVjYmVkODU5NDY1NTU5ZWQ1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTE0MWUwZTU5NTVkOTJkNjNiZTBhMDM2NDQyM2RhZjU4MDdjOGFlMTM5ODUzYjNjNWQ1MmQwYTBjOTI5OGI2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7dc3eabfcba340ceae5039c187f9d415",
+      "statement": "The letter frames the strategy around diversification and a capital-strong, resilient balance sheet, and says the Developer Platform's eighteen APIs serve clients and also feed governed data to key risk models (allowance, interest rate risk, stress capital).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ffa17009a03ce97e041bc30f7d65db219cd53ac76895c45ecfa8fe273908d405:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljMTFmZDAxNTUyNWI3NjZhZDA2MzIyNDAyN2MyNDllY2EyZWYxMDRmMDA1OTY0MDg2ZjVlZWQ3NWJmNWEyOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2ZTc2ZjRkNzFkNzU0ZTY1MjA0OTM4MzU3Y2ExNzJmNDc0NmQ1MjVhYmVjZjJmNWUwYTkxZGY5N2NiMDRmOWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjljMTI2MjljMjdkYmE3NjQzNjIyNGEwNDhiNjMxOTM2YThmMWYyZmYyZWI0YjllYjkyZTk4MmMyNmQ3ZjE1ZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUyZjFkZTA0NDc2Mjk3Y2E4NTc2MDE2YTI0OTAwZDhiM2ZhNTQ2OTI1Y2IwOGJiYzhiMDRhZmRkNmY3NDMxMjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_112f6651e9b04273acd80af3b13dc9b5",
+      "statement": "The Chief Risk Officer, Dana K. Whitfield, reports to the CEO and to the Board Risk Committee and leads the independent risk function organized by risk stripe.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L58-L58",
+          "version": "repo-lines-v1:sha256:1c19ce1e44a500a3cd85f3849305e392a6297b966364417f6480317fa48b39b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMxOWNlMWU0NGE1MDBhM2NkODVmMzg0OTMwNWUzOTJhNjI5N2I5NjYzNjQ0MTdmNjQ4MDMxN2ZhNDhiMzliMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMxOWNlMWU0NGE1MDBhM2NkODVmMzg0OTMwNWUzOTJhNjI5N2I5NjYzNjQ0MTdmNjQ4MDMxN2ZhNDhiMzliMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODkyN2JhZTZmZWU5MmEwMzllNDg2MzU1OGFjMGI2YWY0NWEzMTU5ZDIwM2U2M2ZlNjY2NjcwY2ZmMTMxOTBhZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWVhZDkzOTA2MDkxYWRjOGZlOWI2N2NmZTcxYWVjNjg2M2UxOWRjNDgxM2M5NTE3ODkyMTM3MWQzNDAxYTY0MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4a15e27948b64fb496cb9a1b72a5b667",
+      "statement": "In the Q2 2026 earnings supplement Ashcombe is quoted, as Chairman and CEO, saying businesses performed well, credit is behaving as expected and the balance sheet has never been stronger.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L29-L39",
+          "version": "repo-lines-v1:sha256:568a4d873e0c99af2d3d9416774dea6924ada00ce91f18e6bd9eb2ca245fa98e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1NWIyYzVhNGRhMTQzOWFlNDk5ZTdkZTYyYzdiMzgyMzcwYjlhMjU4MjYwZDE3NWM1NjdhOTViN2U0NjIyODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1ZDE5MDQ2MWI5OTdmZjI5NGZkMmMzODg1NmM3ODc4YWFjNjY3NDlhOTc5N2MxZmFhMWRmNWZiN2E0NmEzYTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhmMzcxMGZmYjM3YzEzOTI5NjJjYTJkNGYzNmU0MmYwNzJmY2QyZDZmYjBhZjc0YmFmOTgyMDBiYWZjNDM0NmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBhMDNiMDA4ZjAyYzMxOTA3NjNmOTI2NWVlOTVmOTY4YTFiYTM5M2FkNzY0YzMyMGUwODAyYjE3MjRiMzM2ZTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a7352bb6aedc4112a87b6ff6b52686b1",
+      "statement": "The Chief Technology Officer, Marcus O. Lindqvist, oversees the Developer Platform exposing eighteen production APIs, and the Capital Governance Committee is chaired by the CFO under Board-approved Capital Policy and risk appetite.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L283-L283",
+          "version": "repo-lines-v1:sha256:53b02a02b011e412fc6a12b0cee406ec8422367bbc66ad5ce627f0f3a3c8db6a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTNiMDJhMDJiMDExZTQxMmZjNmExMmIwY2VlNDA2ZWM4NDIyMzY3YmJjNjZhZDVjZTYyN2YwZjNhM2M4ZGI2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTNiMDJhMDJiMDExZTQxMmZjNmExMmIwY2VlNDA2ZWM4NDIyMzY3YmJjNjZhZDVjZTYyN2YwZjNhM2M4ZGI2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjcyNTNjZmE4YmFhYTBhYjJiNjQwMWJjYmU1ODhmMDc2YWNiMjZjYjU5NTVjMDUxZTI4MGI0ZTg1MDAwZjhmMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjMzZTg3NDk3YmJiMjFiMmFjNmIzYTliYzM5NzM0MmYzMGUyNzFjMzM2N2FhMzg0MTA1NzZhMWE3MDdkMzViYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L457-L457",
+          "version": "repo-lines-v1:sha256:ef196b7af5e265e500911c223531b5b795358ae6d9e126fe1d281851649171ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTkzYjJjNDEyY2U3NWM2ZDBmNjlmMTU2NjlhMzBjYzM1NzdjMTcxMDBmOGNiZGQ0MjA3M2YwYTRjYmY0Y2MxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY4N2UxMzhkYzFlMjJkMTBkNmI5OGU5YjkzODZmNWM4NTI5YWJhZjk0Yzc3YTM4MmUxMTA4YTZlY2Y4ZTljZCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

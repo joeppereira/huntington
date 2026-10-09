@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:4305c74c43527c7b7322e7a6f6ce077a3a3c87b2dbcccb02359f70eabde1ef0c",
+  "claims": [
+    {
+      "id": "claim_5aebfa276e5847cebb9c5866f9ff1252",
+      "statement": "Arjun Mehta documented that extending SPS to wires requires a new consumer ACL/subscription on the pay.wire.lifecycle.v2 Kafka topic plus a new mapping module translating v2 lifecycleState values into client-facing milestones.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L129-L129",
+          "version": "repo-lines-v1:sha256:f785b04a77cb6ee520d961a4b73fd0f463bb1bddccd02b1a9f626ac14e0153d5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDVmYzhiODU4YjhmNjNkY2MzNmNhY2MwMGZlYmRlNjE3Yjc3MWM0ZmVlYjdkOTQzYTZiMmZmZmNjNWRkMGNlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmMzk5NjE2OTQwMzVhZDk4Y2ZhMzEwN2IxNzBiMmI1ZWU5MzE2MzA1MDVlM2M0YzU0NzIwNzU2NGFjZjkyNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

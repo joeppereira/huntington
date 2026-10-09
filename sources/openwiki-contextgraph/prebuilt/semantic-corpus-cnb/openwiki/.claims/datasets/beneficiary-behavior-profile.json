@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:52066f2f1dd016500bc547c48bc4f61316a5d99fe6f9cda8cd8dffda38e94788",
+  "claims": [
+    {
+      "id": "claim_34845218e7c44add88b2ce34b996dbad",
+      "statement": "beneficiary_behavior_profile is a TDIP feature table at grain on-us beneficiary account x day, derived from dda_txn_history and pay_wire_txn_hist (incoming wires to CNB accounts), classified Restricted - Client Confidential, with permitted purpose limited to FCT fraud/mule-detection features as input to model M-FCT-0034.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L41-L47",
+          "version": "repo-lines-v1:sha256:2082afba3708689b0dd9e8cc06eec2f17b36425ffb27d4c65d970fba22e7b421:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmJjNmY5MDM2OGFjNDIwMGQ2NWU2ZTk1M2FmMjFjZjkxYTI0OWI3MmI4NjBhYWI1MGUyZGY4ZWY3MmE1ZGU0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6b46dee2da644cb1ac15a883232eda20",
+      "statement": "beneficiary_behavior_profile includes features bene_median_hours_to_outflow, bene_outflow_ratio_24h, and bene_new_counterparties_30d.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L41-L47",
+          "version": "repo-lines-v1:sha256:2082afba3708689b0dd9e8cc06eec2f17b36425ffb27d4c65d970fba22e7b421:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmJjNmY5MDM2OGFjNDIwMGQ2NWU2ZTk1M2FmMjFjZjkxYTI0OWI3MmI4NjBhYWI1MGUyZGY4ZWY3MmE1ZGU0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_899c6eb620fb4de39d8df6be83bc9c5a",
+      "statement": "dda_txn_history is sourced from the Core Deposit Platform, refreshed daily with 7 years of history, classified Restricted - Client Confidential, owned by Mark Sullivan / Deposits Data Eng.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L38",
+          "version": "repo-lines-v1:sha256:9db3a86d366138313249f5efd2e75c005b4fc60ba7037a8e3eeab1fbc0e03778:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzNzkzNzhmMWQwZjYyMjdhNDM5ZTI4MjNjYzBmZWJhZDlkNjczOTk3ZDFjMjU0Y2I5OGFhZmI2MmVlZTI1NDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_921b261fffb447a08de16651d62d238a",
+      "statement": "pay_wire_txn_hist is sourced from PPH via CDC, refreshed hourly with 7 years of history, classified Confidential - Client, owned by Laura Kim / Carlos Mendes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L38",
+          "version": "repo-lines-v1:sha256:9db3a86d366138313249f5efd2e75c005b4fc60ba7037a8e3eeab1fbc0e03778:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzNzkzNzhmMWQwZjYyMjdhNDM5ZTI4MjNjYzBmZWJhZDlkNjczOTk3ZDFjMjU0Y2I5OGFhZmI2MmVlZTI1NDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7232ca29415b42b6ac9acf53b52f3276",
+      "statement": "MRM-POL-02 v7.0 registers M-FCT-0034 (Beneficiary mule-risk features) as a Tier 1 model, owned by Victor Petrov, last validated 2026-02, requiring full independent validation and annual review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L36-L46",
+          "version": "repo-lines-v1:sha256:491555465483577f7987eb9cae0b925a81b900bd692565b6c19b7fed2a358a59:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1N2M0MWRkMmVjODg4N2JiMDZlOWY4ZjY3Y2JlYzVlNzM0MGMxODVlOWFlNTFhZTI0NjM2YjIyN2MxZTg2MjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhYjE5NmJlN2NhZGYyMzJjNjYwMmNkNmE4Y2UzOTJjZmEyNGY0MzAyMGYzOTMxYThjNTQyNmJjMmI2NzFlNGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY4MzVlZDhlYzU2OTdhNDY0ZDcxNDFjMmFmY2E1Yzk0MmI1M2YwOTJjNzFhOGRhZDMxMWJiZmExNTQzODNiNTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM0MjBiNjFjOThhMTRjZDFlYWMwOWYzYzcwMGUxNmI0ZGJhNDM1YzE1YTQyNGRhZjRiMzJkMzVjZjkyYzlkNDMifQ"
+        },
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L63",
+          "version": "repo-lines-v1:sha256:cd2647047f1f4bd85f90327d1e50b0787b7b83be1fc2df72b5585c8b1c3c00d6:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ1ZmZkMjc0NWJmNzQ4ODM2MGFiN2FiMDAwN2NhNGYyYWZlNjc5MGE1NjMyNzI2NWM0MjA3M2E2NTMwNWJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDVlZTVlNDdkYzcyMGI1ZWRkZDIxOGQzYmNkNDJiMTQwMjRiYzE1ODMyZDQxY2I1MTZiNzczOTJjN2FhNjMyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzhkZTIyMTVmOTI4MzM4NzQxOWQxZDA4MDJiODRiODEzNjc5NjgzNDdiZGVjN2Y5MGI1YmQxOGU4MzQxMTA4ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_df98f9ff82c942ce9abc0c604c27a47b",
+      "statement": "MRM-POL-02 Section 4 explicitly prohibits use of financial-crimes model outputs, including beneficiary mule-risk features (M-FCT-0034) and Sentinel fraud scores (M-FCT-0021), for product, marketing, or client-facing purposes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L44-L48",
+          "version": "repo-lines-v1:sha256:a472ea2965d693b181c9f90bc6afc7a45036833ae8d10c13fc418f17ecf084dd:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzMzNDZiZjUxZDUzYzQ0NTIyMTRjODJjYWNmMzBkNGIzMTU0ZjZkZGFkOWNkOGRmZjFiODlkNjI1YzM2NzU3MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZmZmU5N2M4ZjA4YmZmY2JkODU5Y2M0YjE4ZTEzNzFhMWYzMjQ5ZTI2Mjg2YTdlMWZiNmY4MjIzYTBiOWI4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmI1OTc4NTA0OGYwYmUyMWRjNTUxNmYzMmM5NDFiMWY4MTg0MTM1NWMxYWU2NjkwYjhhZDRlNjRiNjU3MGVlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcyYTRjYjMyNWUxNzE1NGI3ODQ5YTU5Y2Q5NzljODU2NzY5MTg2YWQyOGRhMjE4ZTc5YWNhMDdmODRlODg2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ad315ed8c2ce41189a7b60583bc1f73f",
+      "statement": "Access to Restricted datasets in TDIP, such as beneficiary_behavior_profile and dda_txn_history, requires Privacy Office approval via Collibra with a published SLA of 15 business days.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L24-L26",
+          "version": "repo-lines-v1:sha256:7da4ef09857d42d661a8423664c4eba22ed197cd925d9e12582890f733e3ad87:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1MjAwZjAyM2RkOGY0NjZjYWZlYWFkODQ1MDIxOTAxZmNhMDg5N2U2NjQxYjNhOTdjYTExYzM1ZGQxM2VjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdmNTNkYmVlMWI2OTM4Yzg3YWI4NzEyNmZkYjBkYzhiZmZjNjkyOWNmYTg1MGYyNzZlODU0MGJjYzA2MTg4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9eb883634780415ead2b7a789514d560",
+      "statement": "Customer-facing estimates are Tier 2 at minimum under MRM-POL-02 and may not be shown to clients before independent validation and approved use conditions are complete, meaning reuse of beneficiary_behavior_profile for client-facing purposes would require separate new-model registration and validation rather than inheriting M-FCT-0034's existing validation.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L36-L43",
+          "version": "repo-lines-v1:sha256:f8b9027402087c4f37afc8791d0d71bd18c88d7c9da98ad2cce61ad3076c3f0c:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU3YzQxZGQyZWM4ODg3YmIwNmU5ZjhmNjdjYmVjNWU3MzQwYzE4NWU5YWU1MWFlMjQ2MzZiMjI3YzFlODYyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjgzNWVkOGVjNTY5N2E0NjRkNzE0MWMyYWZjYTVjOTQyYjUzZjA5MmM3MWE4ZGFkMzExYmJmYTE1NDM4M2I1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmNlOTU5OWExY2Q2MzhiYmIzNGUyYTE5M2Q2ZTgxMzQyZTJlMWU2ZWQ3YWRiYWE1MzA2ZTFjMDFjYjRmNzk5OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7fbf0874c4be463d9e876dcc22c98a92",
+      "statement": "TDIP's other Payments-domain feature tables, wire_corridor_stats_daily (Internal, descriptive, no MRM registration) and client_wire_history_features (Confidential - Client, prototype, not registered), are both less restrictively classified and not registered against any MRM model, unlike beneficiary_behavior_profile.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L43-L47",
+          "version": "repo-lines-v1:sha256:ce5ce7ac6307a3543acb25acd2ca8ef847473a4c05e6ab400564cd0beca1a5d4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg0MTNmOGFjMWMxODc1ZmQ2MDRjOGFjN2U3NmM0MGE0M2EyZTNlMjcxMDgxMGNkODg4NzA2ZjQwNzFmYzc1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1612b9c1e24743798cc043e9abedfb3f",
+      "statement": "TDIP runs on Snowflake (Enterprise, US-East) with dbt transformations and a Feast feature store, with Amazon SageMaker used for model training and batch scoring; client-facing outputs instead flow through a separate low-latency Insights API serving store.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L24-L26",
+          "version": "repo-lines-v1:sha256:7da4ef09857d42d661a8423664c4eba22ed197cd925d9e12582890f733e3ad87:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1MjAwZjAyM2RkOGY0NjZjYWZlYWFkODQ1MDIxOTAxZmNhMDg5N2U2NjQxYjNhOTdjYTExYzM1ZGQxM2VjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdmNTNkYmVlMWI2OTM4Yzg3YWI4NzEyNmZkYjBkYzhiZmZjNjkyOWNmYTg1MGYyNzZlODU0MGJjYzA2MTg4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L71-L73",
+          "version": "repo-lines-v1:sha256:627406a5f38f3a903386344fcdf05641c3099de97b8fac82a95d87a2c3e87c76:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ2NDg3MWQxYzZkMGVmNTM5NDM0Y2U3YmI4OGZjYzliYmU0NWEzZWU0MDc1ZDdlMWRjZjcyOTMyOGU0MDlmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGExY2U2NWI2ZDNiYjM4Yzc4NjliMzA2N2ViMmUwMzYyZWU3ZDdiOWMyMGMwNzNiNjYyYWVjYzI5MTA3YTVkZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTc3YjlkODYyN2VhMTYzNGU5NjQzM2IwMDVhODE5MWI0YWVkZmI3OWUzNTRlZGQ2NDBjMGI1ZWU1M2VkOGU0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWFkNDMyNWZmNTI3OGMxYmY3YzA4ZTc3NTJiY2RiODg2MDBiZDQzYTk3ZjU0YmRjYTcxMWY5NWQ5ZjU5YjY1MiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

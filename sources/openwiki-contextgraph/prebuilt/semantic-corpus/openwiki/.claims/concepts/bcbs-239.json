@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:7c248a4cf55f1dddf02ffe8e33363dc8d974c08d89b203162628b3824009d161",
+  "claims": [
+    {
+      "id": "claim_04fc39e2c01d408eb6f26fb81bec5086",
+      "statement": "Under MHFC's BCBS 239 program, Developer Platform APIs that feed Tier 1 models or regulatory disclosures are classified as critical data services, carrying named data owners, documented data-quality rules, enhanced change management and model-inventory registration.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L16-L18",
+          "version": "repo-lines-v1:sha256:73505b1c6c07b5bf626066df74ccbf28f5b577a5a458f53bfc45c4dae6502afd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWQ3YTQ0ZjQzNmE2YjQ1ODliNTAzZGFiYWMyZWYyYjNlZmE1NWUzYTEyYjIzODQ4ZTEyNzRmMTIzMmMzMDRhZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzlmNjE4NTQ3MTEzM2JlYWZlN2E3OGU4YTU2NDY2ZmI2MWYyOWJlOWY3YWFiMjM2MmE1M2Y4MmFhYTg5ZmZkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L521-L523",
+          "version": "repo-lines-v1:sha256:d683cc6b0d148efcd313be4586f32b4762276aa04366fe534371673d525646bf:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjYwMDdmOTdjMDg3MzU4MTYwZmExNmQyZjhiZjE4OGRhMGQ1MGM0YzIzZDk1YzAzMTkyZTkwNDAxNTc5YjVhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWEzZTEyODAwOWE5ZjM2OGRkY2M2OTAwZWU3Y2ViNWZkMTMyOTNkMTA1ZjFjMWU0NGM5ZWI4NjVhM2E0NjNmMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjU2ODJmYzJlMzIzNDJlZjQwYWI2YWE5YzM2MjI2NjllN2MzZTBiNzliNTFmNjY5NDExMzczMGQzYmNiYTk2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2ZlNzRhZGI2OGE4N2FiMjRjNjhhNjFiN2YzMDAwYTM3MWI5YWUxNmU5YmMxNGUyYjUzNmQ5MzI1ZTE4MTQ5MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_10b571bc7de7435a96578fd13d20c60c",
+      "statement": "Because each upstream API is registered as a critical data source in the model inventory, a breaking change to its schema or business logic automatically opens a model change review by MRGR; material model changes need MRGR approval and regulatory capital models also need regulatory notification.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L18-L18",
+          "version": "repo-lines-v1:sha256:1911fe2b741a3143411f7afb253d43080ad46591d44c2882658a55dbd0bc0329:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTNjZDcyNGIxNmM2YTI5NmI1N2UxMzJiNmIzNmZmOWE2NjUxMjJlODMxYzQzYjIxNDQ4NzAxMDUzY2ZiNDNiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L472-L474",
+          "version": "repo-lines-v1:sha256:1a8ff1ed0a1f67c82640bb7b56a809cd8b268bc39cca5d95b7d2c6f224e0d283:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDMyODc2ODI4YjA0Zjk0MDFkMzY4M2E1NGVkZTU3YmQ2Y2QwYTBkYTlhZDJhOTMxMzE3NjI5M2Y0NTdjM2NjMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA5ZGIyMjQ0YzA5YmJiNTI3ZGFhMTc5NDg1OTU5MTE1ODY3YWE5MWQ3OWI4MzdjZmFmNzZiM2MwNDc3M2VmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWY1OTY5ZWMxOGQ1OTY5Zjc3Njk5MjAxMGI3YTE2ZGZkOWE0ZWU5ODBhMGNkODBkY2M5Y2RhNjUzN2E0YTE5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWUyZGY2NmVhYzA2MjU0YjIxMzQ4OGY5NWYzNjU4YWM1YmY0ZDA2ODdmMDI3ZTNkNWU2YjVlNDAyODUxYjM1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a5248d283ecb4cfd855bf2c242bca507",
+      "statement": "The Annual Report names API-10, API-11, API-12, API-14, API-15 and API-16 as critical data services, and the API Reference gives the same six a 24x7 quarter-close escalation path via the Data and Technology Risk Committee; separately API-12 and API-13 are called critical data elements, and API-08/API-09 appear only in the Pillar 3 lineage table.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1423-L1423",
+          "version": "repo-lines-v1:sha256:7a5e3c6873ee9aac5238cce281c91b1b6b56911b1b42c86d34f80f3340b682d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmNhNDcwNTY0YTFmZWVmMTdjNjc1NDJhN2M5YTgxYmNjOGYwMTYxMzdhZWRkNDMyNTA2NjFjNTNkNmQyMzY1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2QwZGRmYjE1OWE5MDhjNzc4OTBkOWYxMmZmYmQ3M2UxYjJjZDBlNGM1YWE0ODM4NjcxZTQ1ODk2YjE3MmFkMCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L397-L397",
+          "version": "repo-lines-v1:sha256:a2ea860e7a7147deacaf5fbc0261442539f6fe1a201ae10406cbae84044522ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2I5ODFjZWQxNTBiM2VlZDhjNmFlOGM1ZmJjYTBlZDBhNGJhNTg2ODY0NmUwN2Q5YWVlODNiNTlkMGI5MWY4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlOWQ4YWI3NDlkMDAzZTU1OTM2NDMxZGNmOWZjZWQyZGQ0M2VjNWIzZGY3ODg4NGVhODA3YzJjN2QxOThkNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L457-L457",
+          "version": "repo-lines-v1:sha256:ef196b7af5e265e500911c223531b5b795358ae6d9e126fe1d281851649171ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTkzYjJjNDEyY2U3NWM2ZDBmNjlmMTU2NjlhMzBjYzM1NzdjMTcxMDBmOGNiZGQ0MjA3M2YwYTRjYmY0Y2MxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY4N2UxMzhkYzFlMjJkMTBkNmI5OGU5YjkzODZmNWM4NTI5YWJhZjk0Yzc3YTM4MmUxMTA4YTZlY2Y4ZTljZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L525-L535",
+          "version": "repo-lines-v1:sha256:12a91a8426f389ab3b07f02f0f7cfa5d9f661e09612815eb5cde52ad02d03218:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4OWIyYTA3YjEwYTA4YWI1NzM1MWJhNWNkNWJkNWVlNzY4Njc5YmM1NGRlYjVhZGRkZGI1ZWE1NjM0ZWJmZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1NzRkZDA3ZTA2NzMyMTczNmIyZTA3MDgxYzUxNmE4YThmZDVlOGFhNzc2YTVhZmQyZDA1Mzc3ZGQxMDI2MDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkYjkxMWJiMWZhMDY0NDZiYmE3NGU2NDRmZmQwOGFiZTMyODZhZDllZjljYmEwODgxNzAwYzdhODEwMjc1ZmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhNTA1ZDZjMmY2OTc3ODEwY2FkYjg4ZjUwNWY0ZjY2NDE2MTIxYWVjMzAwNTRlMjU2ZWQ4OTJmYTEyNWUyNTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_931f0c43cb0b4e5ea29556dee81659b8",
+      "statement": "Pillar 3 Section 15 maps each feeding API to the data it provides, the consuming models or calculations and the disclosure sections it supports (for example API-16 supplies regulatory capital, RWA and leverage exposure to MDL-CAP-003, FR Y-9C and Pillar 3 in Sections 3, 4, 5 and 13).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L521-L535",
+          "version": "repo-lines-v1:sha256:3a98a25d5d09e9623874c62dabeddc6edbaba082e570e563415f96c832e1820a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI2MDA3Zjk3YzA4NzM1ODE2MGZhMTZkMmY4YmYxODhkYTBkNTBjNGMyM2Q5NWMwMzE5MmU5MDQwMTU3OWI1YWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1NzRkZDA3ZTA2NzMyMTczNmIyZTA3MDgxYzUxNmE4YThmZDVlOGFhNzc2YTVhZmQyZDA1Mzc3ZGQxMDI2MDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI1NjgyZmMyZTMyMzQyZWY0MGFiNmFhOWMzNjIyNjY5ZTdjM2UwYjc5YjUxZjY2OTQxMTM3MzBkM2JjYmE5NjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhNTA1ZDZjMmY2OTc3ODEwY2FkYjg4ZjUwNWY0ZjY2NDE2MTIxYWVjMzAwNTRlMjU2ZWQ4OTJmYTEyNWUyNTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9ac582bbd3ff478f9ce8b43aecc66ef0",
+      "statement": "The API-to-model lineage matrix registers upstream feeds as: API-10, API-11 and API-14 to MDL-CR-007; API-11, API-12 and API-15 to MDL-ALM-014; API-14, API-15 and API-16 to MDL-CAP-003; API-13 and API-09 have no Tier 1 model feed in the matrix.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1357-L1415",
+          "version": "repo-lines-v1:sha256:9bdda04bcaebedb109b6a380fafef77c1996d0ae27503a83febd2cceddfb0da1:eyJzZWxlY3RlZExpbmVDb3VudCI6NTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3NzZiZjA3ZjllZjI1OTFiZWUzMGYwYjE1OTc2MzE4NDg4YzEzYTQwOGE4NzIwMjI3YTUyYTYyOTU0MGExOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAyNGI4Zjg4NzkwNjE0ZjBmMTIxNDk0NjRkZjk0ZDllZDg5MzFkYWU2NGI2OTFhMDBiMGU5NThkODI5ZmM0ZjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxNjY3MzE3YjI3ZWU0NzkyMjlmNGNjMWExZDk0ZThhYzY3NjkxNjEwODdhZGEyZjNmMmUyMzJkOThkNTkzOWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2YmE4NTJiODI3MzAzNWFjNmY1NDk4NGFmZmM2MTljMGI4NTRhZWQxOWJkMjk2NGZmYjdkYTc3MGY5YTVlNmYifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L472-L500",
+          "version": "repo-lines-v1:sha256:671d5af4016521528cb96cfa07b6216f5f6c3d5363439f460bf3f545b425c579:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQzMjg3NjgyOGIwNGY5NDAxZDM2ODNhNTRlZGU1N2JkNmNkMGEwZGE5YWQyYTkzMTMxNzYyOTNmNDU3YzNjYzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExNTRjZTdkNmM3MzYxOTE1YzNkZTBhNjFiODAxZjhiYzk0ODE2OTI1YTA0ODI4NWZiZjQ5NDkxNWZhNWU3YzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFmNTk2OWVjMThkNTk2OWY3NzY5OTIwMTBiN2ExNmRmZDlhNGVlOTgwYTBjZDgwZGNjOWNkYTY1MzdhNGExOWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdhZTU4MGU5MGIxNTQ4MTE5ZjExMTY3Mzg2NjQwYWZlMGVjOWYyN2Y0YzQ1YjU1YTAyZTQzMDdkODEzODgxYTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b66a6810439144eea712f392d64a9cfb",
+      "statement": "API-16 Regulatory Reporting is the golden source for Pillar 3, reconciled to the general ledger at legal-entity level, restricted to internal consumers with scope regulatory:read, 20 requests/minute, 99.9% availability and quarter-end data locked by day 25.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L4-L54",
+          "version": "repo-lines-v1:sha256:d43e2950063ff3fbc638c01aacb5b517136fde3706f4b8e1766e28c786d4c16c:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlYTI1YTY3NmViNWIxNWYyNzc1OWM1YTI0Mzk5NWQ0Yjk2MDcxYTEwNjJiMjBiYTkwNzM4Y2EzY2I2MTAxYzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdiNjZjY2RhNDQwZDIwZjNhZmM0MGRhMTU0OGY3NGFkMzBlNDU0YzJjMTA3MDFhNjdmMDIzY2VkNzdmYzM5OWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhNzY0Yjc3OTJlMTM5ZjBhNDI5OTEyZDJkY2E2NWY2ZDE3M2Y2ZGIxZTVkN2EyNzE3NjBiMWZiZmNhODhmOWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhMmYyNTkxYWNlYWUzNjY2YzI1NzIwOTYyN2VjMzkwN2I0NjU5N2QxMTg2YzUzMmUxMmU5ODkwYzNiMWRmNzcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_847bf7f242034ad5ad75f6ebfcaa8c66",
+      "statement": "The Data and Technology Risk Committee oversees critical data elements, API change management and BCBS 239 compliance, and receives monthly reports of data-quality exceptions on critical data elements; in 2025 none had a material impact on reported capital ratios.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L537-L537",
+          "version": "repo-lines-v1:sha256:513fc4553b056142c2d5eac6f14e33c3aba04cd807aa4a3be9d92840b8f8a02c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjkyYThlOTM4ZjZhYTI1ODI3OTJhMTQ2ZmEzYjlkMzFhZTYxYWZhYTVlYjMyNTgyZmI5ZDRlN2I2YTc3YzA5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQ0MTcyODI0ZDRhNTcwMWQ0YWQ2NWQ4OGIzYTkwODM5MmJlZGQ1M2M0NjJkMjVmZjIzNDYxNTUyMDFkZGQ1YyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L91-L91",
+          "version": "repo-lines-v1:sha256:e94e4e83daafddf52f84abf3b342a81add3efd78c2a9bd48c9bb4137ae348214:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTk0ZTRlODNkYWFmZGRmNTJmODRhYmYzYjM0MmE4MWFkZDNlZmQ3OGMyYTliZDQ4YzliYjQxMzdhZTM0ODIxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTk0ZTRlODNkYWFmZGRmNTJmODRhYmYzYjM0MmE4MWFkZDNlZmQ3OGMyYTliZDQ4YzliYjQxMzdhZTM0ODIxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2IxY2YzNGJiZjcyMTZmNzM1YTdkMzlkYzExM2NmZmVjYmNiOWY0NzMyNDkzZDNkYWM2MWRmZTljNGQ5YWVlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzU1Nzk1ZGY1MGY1NTM2ZWYxYjNlMjRjNGFhYmQzNjUxNjkyMGMxN2UyMDM4OTQ5NDJjY2E2ZjFmNjgyNmQ3ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fdbcf07137da4240a299417d4d889e61",
+      "statement": "In 2025 MHFC migrated the Regulatory Reporting API and Macroeconomic Scenario API to the strategic data platform and introduced automated reconciliation between API-16 outputs and the general ledger at legal-entity level; API-16 v1.8 added a GL reconciliation status flag.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L56-L59",
+          "version": "repo-lines-v1:sha256:b28fda0d93d1ed2334eb851c98f4ddc5fee374994205eba12838234c19d1062f:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDcyOTVjNmZmNWMwZWQ4ZDJlOTdmYjY4YjU3NWM0ZjhlOGY1ODg5NzlkOTczOTlhNDI1ZDYwOTllZGQ1YjAxMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzU0MDQ1MWUzMWM5MWE0NDdkMTEyMGUzOTcxMTllZDM2MDk3MDUyZmEwZWM3MmI5OGQ4N2Q1N2QyYmI2N2YxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L537-L537",
+          "version": "repo-lines-v1:sha256:513fc4553b056142c2d5eac6f14e33c3aba04cd807aa4a3be9d92840b8f8a02c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjkyYThlOTM4ZjZhYTI1ODI3OTJhMTQ2ZmEzYjlkMzFhZTYxYWZhYTVlYjMyNTgyZmI5ZDRlN2I2YTc3YzA5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQ0MTcyODI0ZDRhNTcwMWQ0YWQ2NWQ4OGIzYTkwODM5MmJlZGQ1M2M0NjJkMjVmZjIzNDYxNTUyMDFkZGQ1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e1944b4f491543a2ba23eab9c1ebfbd0",
+      "statement": "The Pillar 3 report says the inputs from the Market Data API (API-12) and FX Rates API (API-13) used for market risk capital are validated independently by the Valuation Control Group.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L346",
+          "version": "repo-lines-v1:sha256:ece883d5df930fff747b6dd1b69f170c6f9f45a16d06a5fab0ffd6112629d85b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI0YjYyZWFjNWIwMmI2NjY1YmUxYzBhMWQ1NmFlNzE5ZGYxN2JlNTNiZTlhMTExYjkyZjYyOGVhYzYwZGI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkMGFkNWYwYmZmZjVlZTZlMjcxNmI3ZmNjNTY1NDY0MzMxMzZmMmY3NWMwZjQ2ZTFlYzc0ODE5ZDgwZGY5ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c057ef59405c4834942292272ad3a631",
+      "statement": "API-10, API-14, API-15 and API-16 are restricted APIs served only from the internal risk-and-finance base URL on the private network.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L27-L27",
+          "version": "repo-lines-v1:sha256:df6453f7d71c059d7f3290e0c3561299a6d658858b40c7bbff40884bf0a1ba37:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY2NDUzZjdkNzFjMDU5ZDdmMzI5MGUwYzM1NjEyOTlhNmQ2NTg4NThiNDBjN2JiZmY0MDg4NGJmMGExYmEzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY2NDUzZjdkNzFjMDU5ZDdmMzI5MGUwYzM1NjEyOTlhNmQ2NTg4NThiNDBjN2JiZmY0MDg4NGJmMGExYmEzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjg4NDBkYjQ1ZjA0ZWNjYmQ5MjljOWFlYTgxZmM3YTY3NzUwZTg0ZmM3OGQ2ZjY2MGEwNzQ3YzM5MjBhMGU0ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWVlOWYyNTM5NjM3OGFiMGJiYzMxYzU2M2FlNzMxMTU2NjI4ZmQxZDQxYzhmMWEyNDA2YWFjZjJlZmZlMGJhYiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

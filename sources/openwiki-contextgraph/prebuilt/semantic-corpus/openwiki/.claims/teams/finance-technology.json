@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:b4c2d41104d54dd96575d86ab151a92dfb85c0f9903959121d9514c5b2a3c1f7",
+  "claims": [
+    {
+      "id": "claim_16802eed633b4eebb69caac056f19e44",
+      "statement": "Finance Technology owns API-16, the Regulatory Reporting API (v1.8, base path /regulatory/v1, Finance & Regulatory domain), which provides governed regulatory capital, RWA, leverage exposure and report line items reconciled to the general ledger at legal-entity level, and is the golden source for Pillar 3.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L1-L17",
+          "version": "repo-lines-v1:sha256:ff417da0106845648ccf724c11faeaffb1ee630355a3f247ad8166a90fbd38e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYTMxNWEzNTQ1ODBmZTYzOWI2ZTdhOTQ1MGQxZDM1MTc2NzRmZmUwNmM3ODExZmM5ZTZkZTg1NzExYjVlYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_29cd2a7024c94fb480790ec8b061bdb8",
+      "statement": "API-16 exposes four read-only GET endpoints (capital, rwa, leverage, reports) keyed by asOf date, protected by the single scope regulatory:read.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L15-L26",
+          "version": "repo-lines-v1:sha256:442fefd1217da9f0cf0eeff850108b466a1f52128c90573e6e339f6e720a85d5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMWNiZDQ3MDZhYzkzZTFkZWM0YTgxMzViMjE0YmM0MDEzYWZjNzIyZTNlN2M0YjBjYjc3ZGRiNmI1OGRmZjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExMDc3NTk5NzczNGE2MThhZjkyY2UxNjlmY2Y5YTkxNThmNzk1MjRlNzM0ODZiMzU5ZmY2MGRiYzQwYmEyYjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg0MTNjYzM3ZmI0NTU2NWUxMGU5ODhlZGVmZWEzM2ZhY2IyMGE5MjM1MmU4OTUzMDEwNWIyN2IyMDVlNjdhMDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0f3b832f11604d67a8f90c54c3c05b19",
+      "statement": "API-16 commitments: Restricted - Internal classification, 20 requests/minute rate limit, 99.9% availability SLO and quarter-end data locked by day 25; the Q2 2026 measured availability of 99.90% at about 0.4 million monthly calls equals the SLO.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L14-L17",
+          "version": "repo-lines-v1:sha256:49166e08c57889500b9b0fa873a02d18ad4ed40102f46f1492b30eaeea4a37bf:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFlOWU4YTliOWRhOGFhM2M5Y2M0ZTQ4OWEwMDJjODEyMzk4MWM4Zjk2NmQyZDMxNjFjNTUyODM4Zjg0ZjAwZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFhMzE1YTM1NDU4MGZlNjM5YjZlN2E5NDUwZDFkMzUxNzY3NGZmZTA2Yzc4MTFmYzllNmRlODU3MTFiNWViYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFmNzg4OWVjZDhlMDhjODlmYWU3OTIwMjQ1ZDEzYjc0ODFiZTNkNDlkOTIyM2RhNjY3MGYzZjk3NDBjOTdlMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L424-L424",
+          "version": "repo-lines-v1:sha256:3a6b9f91aa47ce42cf9c418940c6d773c0a3444fc7c31950609eb5b0f318402a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E2YjlmOTFhYTQ3Y2U0MmNmOWM0MTg5NDBjNmQ3NzNjMGEzNDQ0ZmM3YzMxOTUwNjA5ZWI1YjBmMzE4NDAyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E2YjlmOTFhYTQ3Y2U0MmNmOWM0MTg5NDBjNmQ3NzNjMGEzNDQ0ZmM3YzMxOTUwNjA5ZWI1YjBmMzE4NDAyYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2VlYzk5NzQ0NGM2NWZkNmVmNmFiNTNhZDkxNTljMTFmNjIyNGExZjAyMzM5ZTY4ZjhkOTYwMmFjNjE1NDdkYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNThkMTY2NGIzNzdkZTdjY2M3Y2YwZWQ2NGQwMTE1ZjI1NzZjNDg1NzI3ODQ1MDY0N2YwNzFmYTJmMDJkMzljOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5b0ffaa061c44c38825131dcbc34649e",
+      "statement": "API-16 is a restricted internal API served only from the private-network internal host, and as a critical data service under BCBS 239 it carries named data owners, data-quality rules, enhanced change management, and a breaking change triggers an MRGR model change review; critical data services escalate to the Data and Technology Risk Committee 24x7 during quarter close.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1417-L1423",
+          "version": "repo-lines-v1:sha256:2050916cd04ea5a5cfaeaff5cc5906945ac7667ec5633a26a7059f38c93380ba:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZiNTJkMzUwYTdjOGZhNTc1NjI4YzJmODgzZWM4NTBiZTg4MjhjNjk2ZWE0ZGNiNjdhZTAwNWUxZTg3NjI1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGJmZGEzZDQwMTQwOWQyN2Q4MmViYTZkMTNmMDNhY2E4NDVlOWVjYTJjZmVlNGQ5OTBmOTk4ZTc2ODgzN2MyMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2QwZGRmYjE1OWE5MDhjNzc4OTBkOWYxMmZmYmQ3M2UxYjJjZDBlNGM1YWE0ODM4NjcxZTQ1ODk2YjE3MmFkMCJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L18-L27",
+          "version": "repo-lines-v1:sha256:ab19f5ac111c7ce63423b734c6d9f97f75b322f8a95877fe73f81237f95121f7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5MTFmZTJiNzQxYTMxNDM0MTFmN2FmYjI1M2Q0MzA4MGFkNDY1OTFkNDRjMjg4MjY1OGE1NWRiZDBiYzAzMjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNjQ1M2Y3ZDcxYzA1OWQ3ZjMyOTBlMGMzNTYxMjk5YTZkNjU4ODU4YjQwYzdiYmZmNDA4ODRiZjBhMWJhMzciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkzY2Q3MjRiMTZjNmEyOTZiNTdlMTMyYjZiMzZmZjlhNjY1MTIyZTgzMWM0M2IyMTQ0ODcwMTA1M2NmYjQzYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVlZTlmMjUzOTYzNzhhYjBiYmMzMWM1NjNhZTczMTE1NjYyOGZkMWQ0MWM4ZjFhMjQwNmFhY2YyZWZmZTBiYWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b057cc0455ae452d998dd566adcb9b40",
+      "statement": "API-16 data lineage: upstream from the general ledger, RWA calculation engines and FX Rates API (API-13); downstream to MDL-CAP-003 (starting CET1 and RWA), FR Y-9C and FFIEC 101 filings, Pillar 3 disclosures and the NII model's Tier 1 capital input.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L50-L54",
+          "version": "repo-lines-v1:sha256:f04720e10c872a95a46c200c6e6c97f6d785ede3cc066c481f55531ca4d24ee0:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I2NmNjZGE0NDBkMjBmM2FmYzQwZGExNTQ4Zjc0YWQzMGU0NTRjMmMxMDcwMWE2N2YwMjNjZWQ3N2ZjMzk5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L117-L121",
+          "version": "repo-lines-v1:sha256:7923dfbd71d152c7600b0cc2f42f9dbdbdae78ede4b4d150966634734435b06d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA1ZDJiZjBmODJkOWUzZWRlNDA3OGE4OTBhZDg1ZTg5Nzc1MTljMDliMzhmY2VkNzExZmI5ZTM3OTdkYjQ0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDljMzQ4ZjU5YTI0Mzc5N2IxMTc2N2U0MjVhNWMwOGZjMjhhMGI5YzM3MzY4MjE2ZTFhYmZlYTEyMWRlODE0ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjI2YzkzYzMyODIzNmZlNmEzZWMxZTYwYWViM2I5MDZjMDIzYjZmNTFmOTA2MDdjZDRkOWI5N2Q1MmUwZTMzNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBlMGE2NmJlMWM0YmUxMDJlOTIzZWU1MTYxOTRjZGVhNjE3YzFmMDM5Njk4ZjY0ZTgxOTgwYWM3YWE2NzJmNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L152-L152",
+          "version": "repo-lines-v1:sha256:2670b91e671348359d2a0155551777fcb2f4ed055d830964ee96f424f54fe2fe:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY3MGI5MWU2NzEzNDgzNTlkMmEwMTU1NTUxNzc3ZmNiMmY0ZWQwNTVkODMwOTY0ZWU5NmY0MjRmNTRmZTJmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY3MGI5MWU2NzEzNDgzNTlkMmEwMTU1NTUxNzc3ZmNiMmY0ZWQwNTVkODMwOTY0ZWU5NmY0MjRmNTRmZTJmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTcyZTc1M2FjZjYxMmM4Mjc4YTRiMGU1YjZkNGI3MDI2ODkyMDFhYjI5NDQ2ODA4NDU3ZjIxYjRiZTk1NzczMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjFlZTNiNDFhMjNjODA1MjE4MTQ4M2QzYTM5M2IyMzQ5YzM3NzVlMDgzYzE2ZWY2NzFhYzUxZThhZTQzMGVjMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_30b5d0ff59864e19af1d58af95a0e524",
+      "statement": "In 2025 API-16 was migrated to the strategic data platform and automated reconciliation to the general ledger at legal-entity level was introduced; v1.8 (2026-03) added a GL reconciliation status flag, and data-quality exceptions on critical data elements are reported monthly to the Data and Technology Risk Committee.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L56-L59",
+          "version": "repo-lines-v1:sha256:b28fda0d93d1ed2334eb851c98f4ddc5fee374994205eba12838234c19d1062f:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDcyOTVjNmZmNWMwZWQ4ZDJlOTdmYjY4YjU3NWM0ZjhlOGY1ODg5NzlkOTczOTlhNDI1ZDYwOTllZGQ1YjAxMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzU0MDQ1MWUzMWM5MWE0NDdkMTEyMGUzOTcxMTllZDM2MDk3MDUyZmEwZWM3MmI5OGQ4N2Q1N2QyYmI2N2YxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L537-L537",
+          "version": "repo-lines-v1:sha256:513fc4553b056142c2d5eac6f14e33c3aba04cd807aa4a3be9d92840b8f8a02c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjkyYThlOTM4ZjZhYTI1ODI3OTJhMTQ2ZmEzYjlkMzFhZTYxYWZhYTVlYjMyNTgyZmI5ZDRlN2I2YTc3YzA5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQ0MTcyODI0ZDRhNTcwMWQ0YWQ2NWQ4OGIzYTkwODM5MmJlZGQ1M2M0NjJkMjVmZjIzNDYxNTUyMDFkZGQ1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_62ea4a4636df4ddc8369910c0bfb54f3",
+      "statement": "The capital response carries a status field (example value 'locked') alongside cet1, standardizedRwa and cet1Ratio in USD millions, with example Q2 2026 values of 101,200 CET1 and 668,400 standardized RWA.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L28-L48",
+          "version": "repo-lines-v1:sha256:9130bb2dbabe01e2e37cf81a7fa50bd1f219663629a37b97740bcb738d280f46:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRlNGJlYjFiZDYxOTAxMTMyNzQzZmE5OGRkYmQyNDU3Nzg3NGJjNmRkMTgxZWQ1YmJjMDBiYzM0Y2VlM2Q3MDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

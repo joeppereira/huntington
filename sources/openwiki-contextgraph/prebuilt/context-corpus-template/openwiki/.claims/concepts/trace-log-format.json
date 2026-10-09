@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1be87a821a19f64ddae2a280a460c8a1090c4b203542909adf9f7d6d7794cde6",
+  "claims": [
+    {
+      "id": "claim_741f6c33766e46c69f33a40e973fba26",
+      "statement": "The repository stores the Q&A agent's trace log as one Markdown file per conversation turn under the sessions/ directory.",
+      "evidence": [
+        {
+          "resource": "repo://README.md",
+          "version": "repo-file-v1:sha256:a3d8fe5f816a8b40d40c8c28c2ee5c7fe02241a4d3e303156491655bb455ce45"
+        }
+      ]
+    },
+    {
+      "id": "claim_5bb55bfd476b4178b1ec0d3c05a798d5",
+      "statement": "The sessions/ directory currently contains no populated sessions/<session-id>/ folders (only a .gitkeep placeholder), so the trace log schema has not yet been observed in actual session.md or turn-NNNN.md files.",
+      "evidence": [
+        {
+          "resource": "repo://sessions/.gitkeep",
+          "version": "repo-file-v1:sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T20:59:04.422Z"
+  }
+}

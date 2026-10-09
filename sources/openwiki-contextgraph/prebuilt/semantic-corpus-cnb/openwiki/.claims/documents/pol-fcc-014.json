@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f1cc72b09860d9b90336ecdc0bad5fc471550e4fa69239fc385db974cbacbb88",
+  "claims": [
+    {
+      "id": "claim_d7d9925e71e24ed185b0927071e467a9",
+      "statement": "POL-FCC-014 v3.2 is an INTERNAL-CONFIDENTIAL enterprise standard owned by Catherine Doyle (EVP, Chief BSA/AML Officer) with co-owner Michael Tran (SVP, OFAC/Sanctions Officer), approved by the Enterprise Policy Committee on 2026-02-12, effective 2026-03-01 with next review 2027-03-01.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L15-L23",
+          "version": "repo-lines-v1:sha256:47a568773085c3771cb225bfe950df86c860dac9f1271c0ee9e7930c5e8985c8:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwODQ0NDVjMThhYTJkMWU4ZmEyZDc4M2Y0YmM5Zjg3MzNmYTM2MzJlYzRkYjdkYjQyZTNlNGViYTI1NDM5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM0ZWM4ZjNhZGFiNWY2MjBlOTM4YWEwMjFhNWYwNTY5NzJkOGM4NzZjYzE3M2Q2NmVkOTdhMmQwOTA0MzcyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODE2ZTQ0MWViNjczOGIxY2E1ZGVmMWNmZDAyMWVjNzZjZjUzOTllMTFmMDZlY2JjMWZiMGMxY2U0NDM5ZWI3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_585f1ba23378448db8420370a154d56d",
+      "statement": "The standard applies across all client-facing channels: Crestline Business Online (web/mobile), APIs and host-to-host status files, notifications (email/SMS/push/in-app), Commercial Service Center scripts, relationship manager communications, downloadable reports, and third-party-shared content.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L29-L31",
+          "version": "repo-lines-v1:sha256:92ec8f390cc528ef0d1c9c3caa3517ee53d906b0d4a1c1ba3a9ea4ce5033306e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmU0NmZhMjZjNDVmMzdkMjZjYTUzY2RjMWNhZWE3ZTMwMzQzOTliZGZkMWE3ZTcxMGNkOWQ4MWExNzgyODhkNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY3ZjhmM2JlNmZlNzQyM2IxOTlhMzQyODA5ZTlmNDI1YmE3YmEyZDBmZjAyZGIzN2U1YmU3ZTk2N2I5MTFkNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGQzYThlNWU2NDBiM2FjOGU5M2M4YzM2MTg5MGZiZjJkMWE4N2FjN2JjY2Q0M2NlYTcwYTFlYTBjZjgzMWU0OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzg1NDhiMTZlMjQ0ZWQwNGQ1YWQwZmRmNTkwNzk2Y2ZmNzY1MWIxMzQwMzRlY2IzZDI1OWU3YWMxZWI2YTRkNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_55cd36bc095941368a5ab9f0424334d1",
+      "statement": "The standard defines four client disclosure tiers (P public, C client-actionable, G generic review, R restricted), and mandates that tier R be presented identically to tier G (same label, icon, color, copy, actions, and absence of timing) so clients cannot infer the nature of a sensitive review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L44-L51",
+          "version": "repo-lines-v1:sha256:de2e7d7895beb0c76c9802ac5bb4352c754a6f20c1ab7ecb7e0e495f64ead307:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzlmZDA3NDY2NTRiYjk1NDVhYjdjNzhkOTIzMjkyMTgwZjI4ODIwOTdiZGUwNTk3ZmUwNWZjOWEzM2IyZDczYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDYxNDEwYWM4YmY0NjNmNWE5NGYwZWQ1MWQ0ZTJhZmI5MGM4NTQ3YWJlNDY5NWZkYjhlNzQ3ZDZiYmI0ODJkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ0OWJkODAxNjcyNjhmZTFjODAyYWZhNTFlMmEyNmQ5ODBmMzljODEwYjU4NGFhYzk5MDU3ZWFkN2IwNmJiMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODZkYjNjYTc1NDg1NTM5NDUyYzNiZDZkYmJiMGVmOWI3ZTBjZjFlZDA4MTMxZWQ4MDdmOTIwMDE0NmEyYTJiOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L67-L67",
+          "version": "repo-lines-v1:sha256:69fa088f750de7713234492ab9b2d486060cdc457e3943ecf89a4f15d33873fd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmYTA4OGY3NTBkZTc3MTMyMzQ0OTJhYjliMmQ0ODYwNjBjZGM0NTdlMzk0M2VjZjg5YTRmMTVkMzM4NzNmZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmYTA4OGY3NTBkZTc3MTMyMzQ0OTJhYjliMmQ0ODYwNjBjZGM0NTdlMzk0M2VjZjg5YTRmMTVkMzM4NzNmZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTFlOWFmMzJiYjEzMTI1OWRlYWExODIyY2U0ZmY5NTM3Njg2ZDMzODI3ZDIyMTc5MzA5YWZkN2U5MWZkM2M1OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWUwNWQyMjk1NDMwNDNmMjQ4ZjQ5NTVhMWY1Njk2MGZmMzgxMDEwZjU4Nzk2NWMzNmUxNGU1YzNmMmFhZjRmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0b93dd15fc764577941052556e186010",
+      "statement": "Restricted-tier (R) reasons, hold codes, scores, list names, match details, analyst notes, and queue names must never be displayed, transmitted, or implied in any client-facing channel, and no estimated release time or next-steps timing may be shown for tier G or R holds per control CTRL-PAY-040.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L65-L69",
+          "version": "repo-lines-v1:sha256:6c90ea864869597b396b4ae0cbe0b66de068c88b370647a02817146980d8ec43:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQ2ZDM0ZjUyNTkyYzE1YWVhNDhmODU3YjkyNTFmMjc1MWE3MDFhN2M1ZjU3MWMxNzc3ZDcyY2MzY2RiNzU5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTIzNDhjMGYzMzhmNGE4YjRmMjUyMDM2MGU1ODc1MzhiMjQxY2QzMzlmMDdlMmZjYWZhZThiMTVmZTMzZjM0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDg2Y2FhYjgyY2U4OWQzNDhhMDFiYjNlYTc1M2E0MWRmNTc1Y2IzMzVmYTBlOGFiMTU1MzMxNDg1MzdiZmQwMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY3MGE1MGRmOTU0ZjY0YjkyMzdlY2VlYWE5OTU3YmMyNmZiZWJlY2Y0YTZlYjdlYjMyZGQ5N2M4ZTFhOGY1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_957684126a774692bc7b158a7494e5e4",
+      "statement": "Callback verification for hold HRC-02 (CALLBACK_REQUIRED) cannot be satisfied by any in-channel confirmation from the payment-initiating channel per control CTRL-PAY-018; the channel may only show that a callback is pending and let the client request one, with verification via callback to the contact on file.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L109-L110",
+          "version": "repo-lines-v1:sha256:ff1553e3eea507884446788f490ff9b5fbcb8ceaf76a606da36d8aad77c001a3:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjcwYTBiNTRkZmU4YTk2MzYwNzQ1ZmNiYzY3ZWQ3MmI5ZDc5OTA3MjBiZDU3YjE0NDU0OGNjNDk5ZDU2ZTUxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTAxNjUyYTEwOWY0Yjg1YTJjODM1ZDM4MDI3YjczOThhZTI3MDljZmUxZmE5MjcwZDQ4NDZmZDE4YzkzM2I0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWE0Yjg1OTNlYWVjZjYyOWFhZDVmOWY4YzBmNzYzYzk0YTBjNmYwYWY3ZDdiMmQwZjc0NzliNDYwMzg1ZjFlMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzA0OTJlZGVkZWZmN2UxYjA1N2I0ZmI5Mzk5MGFkNzI3ZGYwNDkzZGJiZTA2ODRkMDc4YzEwYjdiOWYxNjU4YiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L73-L73",
+          "version": "repo-lines-v1:sha256:1450a27ad8aa98c69cf7d5dd7534730c7a638e3c1c937a4ff84ca6ed180bf678:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ1MGEyN2FkOGFhOThjNjljZjdkNWRkNzUzNDczMGM3YTYzOGUzYzFjOTM3YTRmZjg0Y2E2ZWQxODBiZjY3OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ1MGEyN2FkOGFhOThjNjljZjdkNWRkNzUzNDczMGM3YTYzOGUzYzFjOTM3YTRmZjg0Y2E2ZWQxODBiZjY3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGY3MGE1MGRmOTU0ZjY0YjkyMzdlY2VlYWE5OTU3YmMyNmZiZWJlY2Y0YTZlYjdlYjMyZGQ5N2M4ZTFhOGY1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWI4MWM3YjllYjQzZjc4YzllZTAyYmU0ZWNiMTM2ZGVjZmFlMDBmNTg3MjBmMDI4NzIzZGZhN2MwMWEwMmNiMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_479c7882822f4f5b8a5e08305ff093d7",
+      "statement": "Status terminology is gated on specific payment-rail events rather than internal processing milestones: e.g., 'Delivered to beneficiary's bank' requires Fedwire acceptance (pacs.002 with OMAD), and 'Completed/Settled' requires Fedwire acceptance domestically or gpi ACCC internationally, not merely release, transmission, or SWIFT ACK/ACSP statuses.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L79-L86",
+          "version": "repo-lines-v1:sha256:b812e4526c1d0ac5ec5a9c42d03dea9155afacbb98aeb7cfddadf39e2cd52f13:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2U5MmU4YzUyMzBlZDRmMWNmYmY1OGU2MDNhODBlYzczOWE5ZDk4M2FlMWY3NzBlMzdhZGM2Y2IwMjdiMWIxYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDZkNGUyNzNmMTY0Y2Q2NTViYWI2N2ZiZWIyN2Q1ZTlhOGYxNDFjY2NmZjk2NDkwOTI1MWM4NjllMmQyNmYyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzc2M2E0NDM2OWVjNTg4YzcwZjU3ZTA3MmVjNmYxMzdiYWE3ZDRhOWNjOTIzNjY1YTg0MmVlYTIyNDc3ZDViZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmI1NDg1MTBhOTk2YWYxM2VkZTkzMDNjZGVkNjUzYjg5NTU3NjJlMDZiMjlhZDE2YmUzMGE1NjA2YjdkMDY0OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7852ce1005c34631b6225bf4e57a2c52",
+      "statement": "Status shared with a third party at a client's request is limited to amount, currency, value date, status milestones, and a reference (cboRef or UETR), excluding account numbers, fees, internal references, and hold information; sharing links must expire within 7 days, be enabled by a client administrator, and receive InfoSec (SEC-STD-22) and Privacy approval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L92-L94",
+          "version": "repo-lines-v1:sha256:5ebdbc5f61eb14e5894c62b75eb02728afa285362f605c549ee824a240c90f7a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1ZDY4ZWE1YWEyZDU1ZTU0MDdhNTRmNDU3MTUxODQ5YTQyOGEyNTkxZWZlM2NlOTdjNzE2MjkxNjExYzUxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWNjYWUxZTFhMzY2MjNhYjliZTdkZTNjNTY3YjI5MmVkMjkwZTRhOTVhMDBkMDUzYjZiYjdkYmJmZjA0NTcyZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGZmOTI1NzI1ZGUzYTA5ZDgzY2UwN2FlNGRjYWI1YjQ2ZmIyM2EyMzk4NDYyMzE1ZjI3ZDU4ZmY0MGNhYzM1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2I0OTNiNzM4NzAwN2IxMzE2NWI2NDJhMzQwNjE3NDA1ZDU4NTQyNWUxYTlhYTMxMjU3OWEyYzU0NTA1ZTc1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6af2f692b748484dba94977725e5b8aa",
+      "statement": "Client-facing predictive/insight statements (e.g., typical completion times) must use only the client's own data or DUS-07-compliant aggregated cohorts, be registered with Model Risk Management under MRM-POL-02 where applicable, carry a DRC-approved disclaimer, and never be shown for payments in tier G or R hold.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L96-L98",
+          "version": "repo-lines-v1:sha256:e99d2baf094f5a6a7951d7f4bd04314935a767e989b1c67ff71ef7cc922497f3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDQ1M2MxYWUyNTFmZjdmOGEyN2M5MjQ4ZGY1NzIyYTBkMWU2MWI1ZmU5N2U4ODVjM2NmNmQ3OGM4Nzg0Y2UyMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiOGVkMDgxMjYyOTY1NTk1ZDIwODAzYmJjMmJlYWJhN2RkZjBjNThkZTVkODY0MzdlNDAyMWQ5OWM1N2VhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDkxOTY4ZmEzMjg3MWJmOGNjMjFlMDE4ODRmNDljY2Q4NGUyYTI2Yzg3NDZjN2E2ZmY0NTQzNGZlMDAzMjc0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjgyODBlZWUwOTE4ZmRkNDkyZDA3MDJlNDg3YjkxZDkzYWJiYTAxODFlMWZkNjUxMWQ3M2QyNDJmNWM4MTYwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8c568412459c4f4c97215ab917652ee3",
+      "statement": "Appendix A maps 12 Hold/Review Codes (HRC-01 through HRC-12) to a disclosure tier, an approved copy key, and a permitted client action; HRC-07 through HRC-11 (fraud, account takeover, sanctions, AML, legal hold — all tier R) share the identical copy key COPY-HOLD-GEN-01 with HRC-12 (OPS_MANUAL_REVIEW, tier G), operationalizing the tier G/R indistinguishability requirement.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L106-L131",
+          "version": "repo-lines-v1:sha256:8beeaf78f5dccd7fe281ff8fbecb429514a021fcd0cf605a3bb3de4ec2ebd31c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NTg1OGQxY2Y2MjU5ZTMyYzhjYzI1ZTcyNjk4NTI0NzBiODIxMmNiMWZjM2U1MTY1ZDg1NGMzZGZiOWJlMzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNzhhMTBhZDkwNGRmYTRiMTgyZjM3M2YzMWE1NWU4MjAxMzAxMDcyNTI4MmRjODk3NGYyNGJkOTUwOTkxOTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk4MThmNTU5ZmVhMmRhMjNkNDM0M2JmNDY0ODQ5NzhjODYwOGFmZmEyNzQxMmMzNWRjMWYxYzA4NWQ2ZTNkNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzYjU5ODllZmMyNjhiMTZiM2EyZmIyM2RiYmMyYTk0YjU0YzE3NzE3ZTQ3MGI3MDBiNzBkOGE4NzlmODUzNzAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_cf1ff04ec38346da9d27eba79b06a2d4",
+      "statement": "The standard maintains a denylist of terms prohibited in client-facing copy (e.g., fraud, suspicious, sanctions, OFAC, watch list, AML, compliance review, investigation, flagged, security alert, risk score, law enforcement, blocked), with an exception for Sanctions Operations correspondence.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L145-L147",
+          "version": "repo-lines-v1:sha256:87df57cc6e319fd41609710b032e4544d299eccc5d31422d5a2dd63255e77665:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRiZDQ2ZGJkNzFjYTZkZjJhNDQzNmQ3YzZkZWZmMmQzMWRhYzY4NzQ0MTM2MWY2YzBiN2M0ZTc5NzdkZmM2NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQwNmYxZDQ4MjRmODMxZGZiYjZhNjgyMGU3ZTczNTU0YTBmNDU4MTVmY2MzNGM4MjZiMzVjOWYyNWI4NjRmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmJiNThmOGZiNDUxNDczOWZlNTQwZTBkYTNjZWM3Yzk0ZThjMjBmMDgzZDQxZTA5NTgwNGE5YzYzYjc1ZTUyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGJkMDU5YTBmODI5NGI3ODBkYzg5ZTk5NWJkZTI4Y2ExMzBkZTlmMjMzMzY3MTcwOWI0MjEyZGVmZGI1ZTYwZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b1f4503c71dc4ed69eeba99ae12be526",
+      "statement": "New or changed client-facing status, hold, or exception experiences require FCC Policy & Advisory review before build commitment and DRC approval of final copy; exceptions to the standard require Chief BSA/AML Officer approval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L100-L102",
+          "version": "repo-lines-v1:sha256:df3fcb6237816c88e8de3094ed2fef1d4e917b1307ab6ec0e9a7e54c2a3ddaba:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzEwNGJlM2FmZDJmNzUwNjU4Y2U1YjMyNzk1NjYyMjA3M2Y5MDRlNzVhZWIyYWU5ZmRlOTkyMzQ4Y2FmODcxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJlYTA4YzliMjViMjYwNmYzNThjMzhjNzMxY2Q1N2I3NGViYTRmZTYyOTQyMjg0NTQ4NDk4NzgwZTZiMWE3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjY1MDJjMjM0ZTMwN2JhNmE4N2FkNjZiNmJmYTA3M2E1YzU0NzU0ZDM3MTgzZTE5NTZlN2I4ZDQ0MDhjZmNjOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTgxOGY1NTlmZWEyZGEyM2Q0MzQzYmY0NjQ4NDk3OGM4NjA4YWZmYTI3NDEyYzM1ZGMxZjFjMDg1ZDZlM2Q2NCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

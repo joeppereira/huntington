@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:641348c1c7e235bc71df598a7fb448f20f3feef7fccb78c29904d19e603d67a0",
+  "claims": [
+    {
+      "id": "claim_2792cfc97cf246b9b351dad83f1aa886",
+      "statement": "API-02 Transactions API is v3.1, served at base path /transactions/v3, owned by Digital Platforms Engineering in the Retail & Commercial Banking domain, with data classification Confidential - Client Data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:5cb9ac09e0df41705e8e8fbef883dfd5a712a25e5d137c7ff3d0220b643c90c9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiMTE0MzJjMmQ1MGZmYzdhY2NhZmE0YmFkZjI4ZTJjMTRjZDI4MzAxZmUwNzM2OGYxNTQzM2JhNjJlYjEwN2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUzZWI3MTNkMzRiMmEzMzdmZjM2NGJlYmE0YzYwMzlkNjg4ODZmYTgwZTkzMDhlYjU2NDdiODRlNWFlNmVjZTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_205718b95ce94ac893df0a446fcae28e",
+      "statement": "The API exposes posted and pending transactions with merchant enrichment (category, merchant name, location) for deposit and card accounts, with up to 24 months of history.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:289f5ddecd95f32476b75045b50393019623e5a0fa98c04d2fa9972385990679:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg5ZjVkZGVjZDk1ZjMyNDc2Yjc1MDQ1YjUwMzkzMDE5NjIzZTVhMGZhOThjMDRkMmZhOTk3MjM4NTk5MDY3OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg5ZjVkZGVjZDk1ZjMyNDc2Yjc1MDQ1YjUwMzkzMDE5NjIzZTVhMGZhOThjMDRkMmZhOTk3MjM4NTk5MDY3OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjU4ZWM5MTYzZjZiOGY3Y2ZiNjA5YTNmZDBiY2E1ZjhhZjY5MTIzMTVkNzQ3ZjVjMDY3ZDcxYTNiZjRlY2I2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_623d620e6c914552acb24168d049c1ef",
+      "statement": "Access uses OAuth scopes transactions:read and transactions.enriched:read, with a rate limit of 1,000 requests/minute per client and an SLO of 99.95% availability and p95 latency of 250 ms.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L15-L17",
+          "version": "repo-lines-v1:sha256:e15de25d27bdb14bcecc859a65be0546371e09c67bb0ed2160c23299c5b9a8c7:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQ4N2Q0Y2Q5ZWNjMmNhNDc5MDJjNzA4ZDUwZjRiNzRlN2UxNDBjZmQ0ZDBjOTY0N2FhMTk2MzY5ZTgyYzAzZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGIxMTQzMmMyZDUwZmZjN2FjY2FmYTRiYWRmMjhlMmMxNGNkMjgzMDFmZTA3MzY4ZjE1NDMzYmE2MmViMTA3ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmVlOTFiZGQ5N2EzODU0MjJkN2JlYmEyMTRlYzNhMmUwMDBjNmUxZTMxNjkzYWVkZGM5ZDI4OTgyNmY2NmM2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1d6166fa0c8a49b79fe0de8908ca38e5",
+      "statement": "The API has three endpoints: GET /accounts/{accountId}/transactions (date range, status, amount filters), GET /transactions/{transactionId} (single transaction with enrichment), and POST /transactions/search (full-text and structured search across a customer's accounts).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L19-L25",
+          "version": "repo-lines-v1:sha256:99717bead28f48fcebf65ee2d0fe4ecd14c15c252ce99a47e75153038a58a141:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FkMTA3MzllOTJhNDgxY2Y1MGNhYjUyNmMzNjFlZWI3MjBhOWY2NzRhNjkzNmMwNTUyYjg2ZGViNjc2NDgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODcyZWVkZDNjZmQ2ZDNmYzY2NGEwN2MxNmIyY2I1MWY1MmFlNDI4Y2M1YTJhMzBhYzA0OTg0M2I5MTE3ZjQ3ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTI5MjQ0NmE5MjAyMmQ2YmVmMzlmZjBmMmU5ZDE1MjFkMzQ5NjUzZmIwMzA0MDAzYTA5ODBmNzBhNmI2MjIzNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0552a4cf4311487bb601e6cdf8f51078",
+      "statement": "List responses are wrapped in a data array with a nextCursor, consistent with platform-wide cursor pagination via limit and cursor parameters.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L27-L61",
+          "version": "repo-lines-v1:sha256:5d472b40d147cc6d815340de923e542cfcc4c93e16ad10eda0615fa099b5df5f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQyZGJlNTRmNDhiOGQ1ZTE3NGY4YjUyN2VjYTMzNzcwMWNjZTMzYWIxOWYxMGNjMDdhYjhlOTYzNjA4NWNkNTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L47-L47",
+          "version": "repo-lines-v1:sha256:01d9d727a7ec282aea1236a71493b57e0d7d8878500cdfde459832297bac3d59:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFkOWQ3MjdhN2VjMjgyYWVhMTIzNmE3MTQ5M2I1N2UwZDdkODg3ODUwMGNkZmRlNDU5ODMyMjk3YmFjM2Q1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFkOWQ3MjdhN2VjMjgyYWVhMTIzNmE3MTQ5M2I1N2UwZDdkODg3ODUwMGNkZmRlNDU5ODMyMjk3YmFjM2Q1OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTFmNTIxMGNkYjIxNzQyMzNiZWZjZWM2MjI4Nzk5ZGUxZDliMGY5OTliZjcwNGFkYjA1M2NlY2UzMGQ0YWEwZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjNhZTBlNzk2ZjU3NWUyMDIyOTAyZDM5MTA0ZTRkNmNkNWRhODJhMDlkMWQ4NjY3NDAzNGE3N2IyNDRmYzgzNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ee7939d562ca454e99a9d1584348c0ef",
+      "statement": "Upstream sources are the core deposit system (DDA), the card processing platform and the merchant enrichment service; downstream consumers are the mobile app, the Fraud Risk Signals API (API-08) feature store, and data aggregators.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L63-L67",
+          "version": "repo-lines-v1:sha256:026c6a99ecb122af53bd0cd6d82f2726ad4b7dfd6b8df626178327c34d1a1650:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWQ5Y2ZkMjE5OTVmNGNkMGY4ZjkyYjg2NzA1ODU4NTdjYWE3MGFlODhkZGYxYTExNGM0MzEyZmIzNTgzNWE2YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L67-L67",
+          "version": "repo-lines-v1:sha256:28f20e2f1cb44d3e6b9f2a788a37f533e0a2abbe38b2eba81e846fb3cc7912be:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhmMjBlMmYxY2I0NGQzZTZiOWYyYTc4OGEzN2Y1MzNlMGEyYWJiZTM4YjJlYmE4MWU4NDZmYjNjYzc5MTJiZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhmMjBlMmYxY2I0NGQzZTZiOWYyYTc4OGEzN2Y1MzNlMGEyYWJiZTM4YjJlYmE4MWU4NDZmYjNjYzc5MTJiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_765fff30f4d84801be3f9e381e95dbc8",
+      "statement": "Platform-wide rules apply: OAuth 2.0 with 15-minute JWT access tokens and least-privilege scopes, per-client/per-API rate limiting with Retry-After on HTTP 429, a standard JSON error format, and major versions in the path supported at least 12 months after the successor's GA.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L29-L75",
+          "version": "repo-lines-v1:sha256:3d0b61f5931366eb7ccf2018927644701e6c2a7f5f4e94772add40d8756690eb:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxNDQyMzAyNTg1YzhlYzI0MmVhZjM4YTg1ZDdmMWI3ZDM2NjYyYjYzODNlZmQ1NDViMGJkNDkzZTNiOWJhZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjAxZmQxOTQwZGI4MWMzODI4NzMzMDkxNzlmZWY4N2Y1MDk0YzY5ZmZjMTY0ODYwN2VjNjA5OTgwZDljMDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIyNmZkMDg5MzI4ZTI3MTg2Zjc5MDVkYTU5MDkxMzU2YTNiOTdkYjA5ZmEyZDRkMGRhOWMyOGVlNDk4MzJiMzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6b291307881b43d0adbbc830eb90edb4",
+      "statement": "The changelog records v3.0 (2025-04) as enrichment GA and v3.1 (2026-01) as adding merchant.location.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L69-L72",
+          "version": "repo-lines-v1:sha256:98e899df1454700869c4ae0a32405cd8f4b1803867c994c465ed0d3573f6f2a4:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGYyMmZlMjIzYWQwMDEyMDNiNzViMzMxZTU4ZGNlZGFlMjc4YWZkZTE4ZWU2MjhiYTM3MWVkZjRjZDM1Y2JhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTE4NmQ1Zjk0MGUwZWE1ZmQ0NmNhYTM2YjU5YmE5OWM1N2U3NTVlNGNmMmE2MWVjMTQ2OWIyNmFhMjE2OTUzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c13d38e98fea45bbaa2a9ee98cb5732a",
+      "statement": "In Q2 2026 the API handled 1,320 million monthly calls (22% year-on-year growth) at 99.98% availability, with mobile app, aggregators and Fraud as key consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L413-L416",
+          "version": "repo-lines-v1:sha256:05433d776d43617fe10997b872f798ddd7a44a3539131a63ac30957cd874d973:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTA1MDFjMDMzOTBhZDhiOWIyMTczZTM3ODEzMGNiNmJjOWQxM2E4MDY0NDQ5MjQ1ZGJmMzFmNTZkNjYxODdjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQ4MDc1OGNkYmYyYzU2ZDE4M2Y2MmYwNjFmYWE4NmM5Zjg5NDkwN2Q3NDY0MGYyY2NmOTFhYjliNmQxYzI3YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzhjYjZhYmI3MjU3ZTgxMjNhMTA2Yzc5YWNhMDYwMzdjMDI2MzkwMDdlYjYzMjgzZGNmMTc1YmE4OTJjZDFmYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmU2MjYxMzFjOTk4ZTY0NmVkYjc4NGYwMDU2MjIwYTdlOTRmNDQ3OTRmZDFiMGQyMmJhNDcyOGYzMGE5NDI5MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_87f8b0bbcbbe4ce8b45df04fbd194b7d",
+      "statement": "API-02 is not registered as an upstream feed for any of the Tier 1 models (MDL-ALM-014, MDL-CR-007, MDL-CAP-003) in the API-to-model lineage matrix.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1361-L1364",
+          "version": "repo-lines-v1:sha256:5953783d6f9e553b4b4db41cb18d9a59350df3627fad356a5e05c08489fe9eff:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmZlNmRmMGQ4OThjYmEyYmNiODIxNTdiODJkNDUwNmM3ZTE1ZDQ5Y2IyZTU4MTRlNzA4OTE2Mjc2ODk2ODQ0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzRkOTYyM2UxYTJhM2E2YjJmZGQzOTZjN2Y5NjhjYjVkNDM2Y2ExNjU3MTYyN2ZiZDUxMmQ0NWU5YTVmNGFmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTc1YzhjZDQ2OTQzNGU2ZjM2MGZmNjU3NmY4MmRmYWM4MGFiOTFlMjk4MDM2Mzk4NzM3OWIyYjJkZjMzYzhkOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUwOWE4MmU1YTA5YTRlZjFhYjgwNjM0YTRmMzZlYWY1ZjA1ZDMwOWJhZDI4ZGZmYWEwODM3YmMwZWZmMDU3NyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

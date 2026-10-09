@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:bac8eece570da97c9c704b129b050dff3b7b0210c3e98b631c7daa7dd41d58c1",
+  "claims": [
+    {
+      "id": "claim_530059dee05e4c1f8a0650e5832f4a89",
+      "statement": "In MDL-CR-007 the scenario PD is base annual PD × (1 + PD elasticity × (scenario peak unemployment − baseline unemployment) × 100), floored at 0, and the lifetime PD is 1 − (1 − scenario PD)^remaining life in years; lifetime PD then feeds lifetime ECL = EAD × lifetime PD × scenario LGD in ECL_Calc.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L146-L152",
+          "version": "repo-lines-v1:sha256:85cef9d216827426eb3c470e36f29e8bba78c10a83831cfdca275053a18128ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FjNmZlNWVlZDZkYjU3OGIwNzNkMGIwOTMxZjBlMjMxOWRhNDEyMjRmYTI1OThiMGUxNWQ2MjAwMmJmMmU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDU5MDQ1YTM5MmZhNzEwN2U0MTQxMzU3MWMxNTk0MTI5ZGQ3YWM1NjU0NjM3N2JlMmUwMjYxYzdmYWVjYWY2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2YxZGY3YzY0YzdkOGUzNmY4ZjRiZmU4Yjg1MWI4M2NjMTkyNGI2MDJlNzFiMGE1M2RmNmYzM2JhODE4OGMyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L277-L283",
+          "version": "repo-lines-v1:sha256:4bb40b511857e7cb2f3f175259db042c1effd3e9ec9f823a348cfe6cebd5c86c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc0YjI5NDBiMjU3ZTdlZDc5ZTc3NGUyOTg2MWIwZjc4ZmEyMzQ5NzBhYTA2ZWQ5YzU4NWNhYmNjNGM1ODYxMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTAxYTQwZGFhOTY3ZDc5NWQ3YzhiNTE0ZGJkNDJkMjcxMWFkNTE4NTJkOGU4ZWI2MWQxZjVmYmZlNGY3MDYyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2VhOTY2NTIyNjYzOTYxN2U4N2Y4NGIzNTQ0ZDYxOTVlOTZmZTVhOGY5ZGVhODMxNDk4YmMwN2RiMjAwNDQ4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFjNDg3MDQyYzZjZGEyNWRiMzY5YTY0NTJhMGQ4OGVlOTk0MGY5YzY4MTdjMmNmYjcyNzA4MWQwZjZhZDY1ZiJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L362-L366",
+          "version": "repo-lines-v1:sha256:2b9bc7f8ca1583ea94164cba1085595d4684bd48814ce635949dbcd01a9dce3f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQ1N2M5Y2FmNmZmOGUzNzRiNWViN2MzOWFkYjFjMTc0NmRlNWFiMmQ0OTQ1NDQ4Nzk4ZjNmYTQ3YTIxOGMzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU1MjQ4N2NlYWZhZWM1MTA5NDA1MzAyMDhkMjdmMjRlNDcyMmQ4OTkwOGEwMzVjZjg5NDBlYzQ4NzM0OTY1ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDE0YWQ3MDlmZTFmYTYwYTgyNjhmYWE2MmE0ODVjNzdlNzUyNTI4ZmVhYmRiMWQyNWNhNmMzMjMyNzI4NGVmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk0N2U5Njg4MzgzOWJkZTEyNDg1ZjNkNmNlODMwYmIwYTFlOTY1YWE2MzRkYjY0ZWY2Y2NhZDRiODJhNzBhNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f53bf4a9d4a640439fa8cc2c6a4d1614",
+      "statement": "The unemployment shock is anchored on the baseline scenario (Scenarios!B11 = C7), so the Baseline scenario PD equals the base annual PD, Upside lowers it and Downside raises it; e.g. Card Downside annual PD is about 0.0522 and lifetime PD about 0.0871.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L193-L193",
+          "version": "repo-lines-v1:sha256:1de2cf43256d23ed86f7dfce8c8624e0dae2a6598fbd4e3a9646f31ee34b1e35:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRlMmNmNDMyNTZkMjNlZDg2ZjdkZmNlOGM4NjI0ZTBkYWUyYTY1OThmYmQ0ZTNhOTY0NmYzMWVlMzRiMWUzNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRlMmNmNDMyNTZkMjNlZDg2ZjdkZmNlOGM4NjI0ZTBkYWUyYTY1OThmYmQ0ZTNhOTY0NmYzMWVlMzRiMWUzNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWNiOTkxNzBiZmM1OWI1ZTNiZWM4Nzk4M2VkZDkyMzEzMDQ2Nzg4MzU0ZGQ0MWE3N2Q0NmYyNzEwYzc3MDVmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzEyYzE3MWE1ODQ5ZDkxM2Q2ZGI4NzE1MGVlZWMwZTg3ODQzNTZkNjY5MmViZDZjYTU2YzBkZmY2NTU2MzM1ZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L201-L201",
+          "version": "repo-lines-v1:sha256:6608d6452c239ac6128a5bfbe37aed1b127d02f8a5ca5b7cdd8cd96778b0f24c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYwOGQ2NDUyYzIzOWFjNjEyOGE1YmZiZTM3YWVkMWIxMjdkMDJmOGE1Y2E1YjdjZGQ4Y2Q5Njc3OGIwZjI0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYwOGQ2NDUyYzIzOWFjNjEyOGE1YmZiZTM3YWVkMWIxMjdkMDJmOGE1Y2E1YjdjZGQ4Y2Q5Njc3OGIwZjI0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmJmYzU3MmVlMmM5ZWExMjEwNjNhODJlYjc3N2I2ZmEyM2EyYzU3NjBjOTY2Zjg4Y2U5MTk1YmI0NzgxOTQ0ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDY2YzA1YzVlNzEwMzhhM2IxNjhiOGY3YTZmM2YwMjcyODMzYWQzNTQ4Y2JjZDA5MTY5YzMxNWYxM2I2ZWRhNCJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L264-L271",
+          "version": "repo-lines-v1:sha256:12bae4fc45c824aaab21499f7058d8d66e18de8a38f66610fbec94fd41b6a53f:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2RlZGFhZWQ2MTQyMWU0M2Y1N2MwMjU3NWNiYWU0Y2NkMmM2Nzc0ZTA2MGQ5M2U5ZTJiYWE2MDE2ODI5MzMyYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE4MWYyNzFkMGMxODRmMTViOTI0MTUzNDJhMTkzZWU5ZTlkZWZkMjg5MGI5Yjg0N2I5NzUzZGIwOTM4Y2QzNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjJkZjFmYjI2ZDMyZGRkMjJjYjhjY2Q5YzUxYmVhNGUzMDEyNjNiNzBmZjQ5Yjk4NDEzNjk2MDEzNzA0N2Q1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2M3NjAzNjhkN2Q2Zjc5MjkyYTZiZTM2MGIzZTRlNTIxMTI2ZTAxZTRlMTIyNGRlZjFjN2I1MGRmOTMyOWY2MSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L364-L365",
+          "version": "repo-lines-v1:sha256:5d4644f3a42d0643acb826214bbbbbe1c99d48abaf752fb384090ed3465dc004:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNmYTcyN2I3NWY3MWI5NDdjZDIwMzdiMTIyM2ZhOWZjNmNkNmVjZjI0MjU3ZWE3MDJjNWIyMTlhMWU4YjIzNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODJhNzFjY2EwYjBhYThjYTYxZGMwODYxMDM4NjVhZmE5MDczMGY2Y2M3NjY4YzYwM2Q0YzBjOWZkOWI4YWMzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGE0YTczNTc2ZDI3ZGM4Y2VmODYzZmZkMzExYzc3MWIxZjRkNmEwMjlhNmNhMDFlZjA0OTc5MDVmNjdkMWExYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGZlNzBlNzQzNDkxOTNhMDAwYWY1ZGVjNmMyZGRiMDA2ZTRkNWFiMTMyNTcxM2EzY2Y1ODNmNDU2N2Y2MzllMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f3e83386332044c39b8def492709d68b",
+      "statement": "Lifetime PD uses constant-hazard compounding of one annual PD over each segment's remaining life (fractional exponents allowed), with only a single peak-unemployment figure per scenario; scenario PD has a zero floor but no upper cap in the formula, and no PD-specific control exists beyond the scenario-weight and overlay checks.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L105-L105",
+          "version": "repo-lines-v1:sha256:25080d98935df07e6d79923e57793a8fc8b0c091d8c69bf4c5a0664f3133a68b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUwODBkOTg5MzVkZjA3ZTZkNzk5MjNlNTc3OTNhOGZjOGIwYzA5MWQ4YzY5YmY0YzVhMDY2NGYzMTMzYTY4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUwODBkOTg5MzVkZjA3ZTZkNzk5MjNlNTc3OTNhOGZjOGIwYzA5MWQ4YzY5YmY0YzVhMDY2NGYzMTMzYTY4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWY0YjUwYWUwYTUxYjRlNzFhNWRmZGY4OTNkN2Q1NzNjN2Y0ZjYwYTk4ZDNmODE4NWM4YzhhMTY3NjIwNDcwMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTEwMjZlNGU4NjUxMzM1MWMzNzlmMzgzODA5M2U5ZWJiZmM1OWUzMjdjOTJjZDg3Yzk2MTI4ZDMwOGJlOGI5ZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L168-L171",
+          "version": "repo-lines-v1:sha256:816d152622d6f1e0913d5cfbd3f04fb78af5078bb93d51f5f69629b9f76ff96e:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGRiOWVlOGRmYTE0ZWNhYTllNGMyZTg2MTUyMjY2NDM3NjllMWJhM2Q4ZWI3MjU5M2EyZGUzMmVkNmIyODMxMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTY3ZmM4NGFiMDY3YTg0YjFjYzg4NTU2ZmExNjJlYzhmZTU3YjNhNjNhZTJhYWZhZjUyYmZiNmZmOWRhOTgxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjNjNzBkODgxZTgxMWY2NzZmZGVkYTJmMmY1OGQyYzAxMWE5NDk2MjBmOTgxZWM5YWI0NDNmMTEyZWFjZWE0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L186-L201",
+          "version": "repo-lines-v1:sha256:d785556a366425a64817bb3147429187aa9a553f428a8a8d04d28da7bf47a201:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyNDMwNjA4MDZiN2E3YTA1YjYxNzQ0YmUxYTliMzZhNGMwMzE1Njg5ODg4NGIyMjMzYmFhOTZiYzk4Mjc1ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2MDhkNjQ1MmMyMzlhYzYxMjhhNWJmYmUzN2FlZDFiMTI3ZDAyZjhhNWNhNWI3Y2RkOGNkOTY3NzhiMGYyNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyNWY2YjlmYzMyZTYzODQzZGJiNzVkN2EzMzM1OTU1MzBkNTRlYmM4MGM4YjdlMTkzYTdiODhlODljN2E0ZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2NmMwNWM1ZTcxMDM4YTNiMTY4YjhmN2E2ZjNmMDI3MjgzM2FkMzU0OGNiY2QwOTE2OWMzMTVmMTNiNmVkYTQifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L278-L279",
+          "version": "repo-lines-v1:sha256:b2bd767e247b679afed052bee53da947d59d5f3d74f0dcc09327e9fcf570d82f:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWVlNzdlY2ZjNjNlYzRmZGJlMGJkM2E5NmFlMzIyMzZiYjliNjYxMDQ5ZWU5ZTgzNDc0ZWY5ZjA3MWUzYzZmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGUyZTZkYTEwMTQ5NTMwOTIzMTVkOTBjOGFlMmMyZjE5ZGEyNjg3YzA4MDMzZGU3MzUzNDI4MjIxYzBiOTAyZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOThkMDg4NDY3YjVjNWQ1MmFjZjdkMDA0MGJlMWNiODA0ZmNhNGI4MmQwMjY1M2M2ZjAwNGQxMDlmNzdhYTk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjhlNWVkMGIyYjYzNWMyMDA2MTg2ZTk2OTQzNDdkYWM0ZWNhMDFmMTFlNDg2ZWM0MmJkYTcyNThmYmE5ZmM2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_625233dbbaca4961b4c711876e4c881b",
+      "statement": "PD inputs come from three sources: base annual PD and PD elasticity from API-10 pool-level parameters (refreshed quarterly), remaining life from API-11, and scenario peak unemployment from API-14 scenario set MSC-2025Q4; only unemployment drives PD while house-price and CRE-price paths affect LGD.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L154-L158",
+          "version": "repo-lines-v1:sha256:e52610f8b6a29fb8e43db704f82a24ec5947df3fd77592cd4eb78a717ef346b8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1NDMwYWQ1YzRjMzAzODc0MzJkMTk5MmNlYTQ4OTZiNDMxOGExZjA3NjRmOGYzOWFmNTQ2ZDhjZTNiMzI5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIzNDJhMGE4ODY3YzhlMGVkYjE3ZmJlNGNjZmZlYTY4N2I5Yjg0YTAyODNkNmI5NGU1MGEyZWU5N2ZhYmNmNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTYyZDUyZTQ3OGE4MGViMzBiZmY4NWExYTAzMGZjMzgxNmNmYjg0YTViMGU4M2VmMmIyZjZiOGZkYjdlYmYzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdmZmE5NWRiYzFjYzQxNDY0ODkwYmFlZmU5ZjE1YTNjMTQ1NzkxM2QxYjYwMjkwZmMxN2I2MDQ0YTU1NzY3NSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L186-L193",
+          "version": "repo-lines-v1:sha256:3e8dbd9273ff70cd08ebba6f2f34aff7c927bca2c0df685c5518d1986e126559:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTI0MzA2MDgwNmI3YTdhMDViNjE3NDRiZTFhOWIzNmE0YzAzMTU2ODk4ODg0YjIyMzNiYWE5NmJjOTgyNzVmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRlMmNmNDMyNTZkMjNlZDg2ZjdkZmNlOGM4NjI0ZTBkYWUyYTY1OThmYmQ0ZTNhOTY0NmYzMWVlMzRiMWUzNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTI1ZjZiOWZjMzJlNjM4NDNkYmI3NWQ3YTMzMzU5NTUzMGQ1NGViYzgwYzhiN2UxOTNhN2I4OGU4OWM3YTRkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzEyYzE3MWE1ODQ5ZDkxM2Q2ZGI4NzE1MGVlZWMwZTg3ODQzNTZkNjY5MmViZDZjYTU2YzBkZmY2NTU2MzM1ZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L209-L218",
+          "version": "repo-lines-v1:sha256:69f6306f9450467775c03f227f01dfc96e020269f9c4cb2158721db82b026b5f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhYzI3MjE2MjRiOTg1Zjk0ZDcxYmQwNWJlNTBjZDUwYzdkYzk5YmE0NjRkM2ZhZTM5ZDQ4ZjA3ZTMxNDA4ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxOGFkY2Q3YWE3OThkZGI5MDNhNTY0YjI4NmM1ZGYzNmVkMWI5YTA4YWY4OGE2ZWRhYmM2ZTBlY2Y2NjdjOTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM3YTIwZTIwMTFhMDc4NzNhM2E3MjQ2YTE1NGEwNWI2NGIzYjZhMjJiNzk5OGM0ZTE4YTJkZTA3MzBkOTJmYzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJhZTA2M2Y2ZTgzZThhOWYwNzliNTFhMGZhODNmYzVkNDQyYWRiMTA3ZDQ3MzY3MmIxMzg5ZjM2NTNlZTJhOTEifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L278-L283",
+          "version": "repo-lines-v1:sha256:bae9cb2752e78d49937e68c9b6cc17a4adc85f178c225ffa09dc9f8fb499c62d:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWVlNzdlY2ZjNjNlYzRmZGJlMGJkM2E5NmFlMzIyMzZiYjliNjYxMDQ5ZWU5ZTgzNDc0ZWY5ZjA3MWUzYzZmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTAxYTQwZGFhOTY3ZDc5NWQ3YzhiNTE0ZGJkNDJkMjcxMWFkNTE4NTJkOGU4ZWI2MWQxZjVmYmZlNGY3MDYyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOThkMDg4NDY3YjVjNWQ1MmFjZjdkMDA0MGJlMWNiODA0ZmNhNGI4MmQwMjY1M2M2ZjAwNGQxMDlmNzdhYTk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFjNDg3MDQyYzZjZGEyNWRiMzY5YTY0NTJhMGQ4OGVlOTk0MGY5YzY4MTdjMmNmYjcyNzA4MWQwZjZhZDY1ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_13a53c0e5df14130b1786e19496de133",
+      "statement": "Segment lifetime PDs are driven strongly by remaining life: Residential Mortgage (6.5 years, base annual PD 0.0035) has baseline lifetime PD 0.0225 and Credit Card (1.7 years, base PD 0.0374) has 0.0627, with Downside lifetime PDs of 0.0300 and 0.0871 respectively.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L209-L218",
+          "version": "repo-lines-v1:sha256:69f6306f9450467775c03f227f01dfc96e020269f9c4cb2158721db82b026b5f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhYzI3MjE2MjRiOTg1Zjk0ZDcxYmQwNWJlNTBjZDUwYzdkYzk5YmE0NjRkM2ZhZTM5ZDQ4ZjA3ZTMxNDA4ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxOGFkY2Q3YWE3OThkZGI5MDNhNTY0YjI4NmM1ZGYzNmVkMWI5YTA4YWY4OGE2ZWRhYmM2ZTBlY2Y2NjdjOTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM3YTIwZTIwMTFhMDc4NzNhM2E3MjQ2YTE1NGEwNWI2NGIzYjZhMjJiNzk5OGM0ZTE4YTJkZTA3MzBkOTJmYzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJhZTA2M2Y2ZTgzZThhOWYwNzliNTFhMGZhODNmYzVkNDQyYWRiMTA3ZDQ3MzY3MmIxMzg5ZjM2NTNlZTJhOTEifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L243-L271",
+          "version": "repo-lines-v1:sha256:cfa1b9f14eb1a3244ed504f576f0e5b113d215ffce9103fa2ee22080fd2ff591:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY5MmFlMmE5OTE4M2NlZGM2MDNkM2E0ODRlZjQzODVlMTdhOThlYmU3NmQ2Y2E5ZDAwMGMwNDhjMWJjZTRkMDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkxODFmMjcxZDBjMTg0ZjE1YjkyNDE1MzQyYTE5M2VlOWU5ZGVmZDI4OTBiOWI4NDdiOTc1M2RiMDkzOGNkMzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5NmY5NTc3ZGMyODRhYzg5NTZjYjI2OTc1YjQzMTNkOThhZDE2NDBhODExM2U0MTM0YjQ4M2VhNDMxY2NjNTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdjNzYwMzY4ZDdkNmY3OTI5MmE2YmUzNjBiM2U0ZTUyMTEyNmUwMWU0ZTEyMjRkZWYxYzdiNTBkZjkzMjlmNjEifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

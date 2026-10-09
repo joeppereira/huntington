@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:410a95381f036fd42938c9904e0b01c6db11236e805b6e0725e9721f4e8cefb3",
+  "claims": [
+    {
+      "id": "claim_2bedbf39c30e43f992d41e8a8dc3897a",
+      "statement": "FCT-1951 is a Financial Crimes Technology epic (18 points, owned by Grace Mensah, target 2026-04) that was closed Done on 2026-06-10 after piloting client attestation via the Service Center phone channel to resolve HRC-01 (DUP_SUSPECT) holds.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L159-L163",
+          "version": "repo-lines-v1:sha256:287ffb3ab43bf6c7a3651d048d8c9b5ba3b739fb9f68bcb1809b6e4d8feb3188:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDAyNzQ1YTA1M2Y1ODU4MGVhN2YxMGE2N2JlODgwMGIwZGVmYmRlMzhkMzljZjI5YmEwZDMzMWI1MmU5NjQwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI3MmU1NGExYTkwMTNhZTc2MDIwZjczMDk5MWEzMzQ4OWZkMThjOTI2NTZjOTRmYjQ0ODFjOTk5ZGVjNmJmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAzNTY4MjBmNzFhZjdkOGQzMGMwMmJmN2I5YTQ1MDczOTkxZjIwMDcwY2NkMjYyMjM2ODQ5MmY1MmIxMzEyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRiMzcxZTNmZTBkZDY3MmJlYjY0N2RhZWU5OTI3ODZiZjJjNzdmY2Q0NzZjNmJiNDlkNWMyNTBhNWIwMTI5OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8b8e3effc0a84bb8b286d9ef4a69395c",
+      "statement": "The FCT-1951 pilot achieved 82% of HRC-01 duplicate-suspect holds resolved within 30 minutes once client phone attestation was accepted as part of the hold disposition, and FCT Risk approved digital attestation for HRC-01 only, subject to step-up authentication.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L161-L163",
+          "version": "repo-lines-v1:sha256:9073eaa4cbd136eb72a76efc3f78e80e6958776858324e65729757b12512aca8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzY2MzY0MzkyMGVhZDE0ODg3MGFhYjAyZTM0Y2RkMTZhZTk2ZGI1YmY1YTU4ODMxNjJjYzgzMDhlYjA3YTNkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI3MmU1NGExYTkwMTNhZTc2MDIwZjczMDk5MWEzMzQ4OWZkMThjOTI2NTZjOTRmYjQ0ODFjOTk5ZGVjNmJmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODEyNTI1MWNhMDNlMjlhMzA1MTU4ZDhlNjg3MGVlY2QzOTIxMDliYjQxOGE0Y2FmNGIzMWFjMWNlZjQ5NGMzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRiMzcxZTNmZTBkZDY3MmJlYjY0N2RhZWU5OTI3ODZiZjJjNzdmY2Q0NzZjNmJiNDlkNWMyNTBhNWIwMTI5OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5e3623255f0445de8014772f991f8e3a",
+      "statement": "Following the FCT-1951 pilot, control CTRL-PAY-031 was updated (2026-06) to allow HRC-01 holds to be resolved by client attestation through a digital channel subject to step-up authentication of an entitled user, restricted to HRC-01 only, with attestation for amounts above $5,000,000 still requiring Wire Room release.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L96-L96",
+          "version": "repo-lines-v1:sha256:31d3648eb29f1055110005b4fadd605b41069ce841721a0b0ce1a379655696a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFkMzY0OGViMjlmMTA1NTExMDAwNWI0ZmFkZDYwNWI0MTA2OWNlODQxNzIxYTBiMGNlMWEzNzk2NTU2OTZhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFkMzY0OGViMjlmMTA1NTExMDAwNWI0ZmFkZDYwNWI0MTA2OWNlODQxNzIxYTBiMGNlMWEzNzk2NTU2OTZhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWFmNDRkMjNkNzAxYTZlODQ3Y2NlYWQyZjU0NjA5ZjFmZjYzMjdmY2YxMTgyMjk3NDFkNWQ1YWJhNTIwMmZlZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZmMzczY2E3OWVmNGU3OTZiYTgwYzYzMmMxOWM2MjQzMTJiMGFjOGRmZjQzMTY5OTdjMDc2ZmFlZmU0OWQzYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e165ed95ef184b7e9bbcd8f826884e77",
+      "statement": "Despite the CTRL-PAY-031 update authorizing digital-channel attestation for HRC-01, no digital attestation path or client attestation endpoint has actually been built: the pilot only exercised the phone channel, HMS exposes no client-facing endpoints beyond a legacy read-only PPH v1 sync, and the separate FCT-1893 client-safe hold facade proposal that could underpin such an endpoint remains deprioritized and unbuilt.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L143-L163",
+          "version": "repo-lines-v1:sha256:5e70d46960cc0f5ef9e8ee4951a43547fd90f4e1d147b54ab550c5a2f81a4a4e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlOTM5ZTM1YzVhOWY0YmM5MzgxYTZjNGUxNjA3OThkMmY2MDEyNzA1MzRiM2UwMDA5ZDAxNmM5ZTVkY2EwMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYyNzJlNTRhMWE5MDEzYWU3NjAyMGY3MzA5OTFhMzM0ODlmZDE4YzkyNjU2Yzk0ZmI0NDgxYzk5OWRlYzZiZjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4NjkyMTE2YzBiYjZiMzRkNGMzNmRmNjk2MTM1NjgwZDRkOTY0ZWNhZWMzYWExMTczMTY0MTQ0OTJmMjBiNGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU0YjM3MWUzZmUwZGQ2NzJiZWI2NDdkYWVlOTkyNzg2YmYyYzc3ZmNkNDc2YzZiYjQ5ZDVjMjUwYTViMDEyOTgifQ"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L80-L88",
+          "version": "repo-lines-v1:sha256:2106f98fbd574b8cd510cc5d07e5757a1f9796e1bc661d226e4ad0ba71f20559:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjkyNTU1YWNiOTIzNzMzMGNlMDMxZmRhYjE2YmEyNjBkMjgyYzE3NjQyOWQxNWU0Y2NhOGQ4NzRjOWM3MWNlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZmE0NTcxOTFhODBkYWUwMWQ0Y2QxZjFiZWE0MGNhMGEzMDlkZGQ0ZjlkNmU4OWE5NzI0YTM4ZGJlZjAxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRlZmE4YjdhMDVlYWQwNzFhNTc4ZTBlMmU0YmQxZGUzZjRmNTcxZmRjMmQ0NDM1OWM5NDczMDkzMjAxYWI4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ea7aee9f8c543fc9c8aa4e1aadea543",
+      "statement": "Before the FCT-1951 pilot, resolving any HMS hold (including HRC-01) required a human analyst disposition in the Investigations Workbench via POST /prsp/hms/v1/holds/{holdId}/disposition, gated by the HOLD_RELEASER role and maker-checker control CTRL-PAY-012; the pilot's phone-attestation flow still routes through this same disposition path rather than replacing it.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L82-L94",
+          "version": "repo-lines-v1:sha256:119d4f2b2422a236dd3f028e5897b7b147d1465cbcf695d4ec013ae06e00958b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ2ODc0YmI3MWUzZjcxZTBlNmFmOWIzM2MwMjg1NDVjM2ZmODljYTdlYTQ2N2Q2ZjMzMTVkYTI4MDNiMWFlZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4ZjY2MjIxMjg5M2E5ODJmNGVjNTkwZThlZGU2MTc4YTE2N2VmYzIzZTJmNDE0NDY4MGJiMDE3NDEwOTg1YWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiNjVlZjEzZjQ1ZGNlYzMyNDRiNzk0OTEzZWQ2ZWZmMDYwZjAxN2Y0ZjcxYjkzMTcwNjE4OWU5MWVkMzdmNjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc4OTgxODI2MjE2M2I4YTljZjJlNDYzNjY4MTZlMWZjODQyYTFiNmE3NDBkYjgyYmZjMTZiZmMyMjIzZDU2MzgifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

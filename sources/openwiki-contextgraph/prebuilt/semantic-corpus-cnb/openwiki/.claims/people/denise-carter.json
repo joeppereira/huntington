@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:376f475d0a43ba328de7352cad31e169a81965f5c8df18690d3c940704dabec9",
+  "claims": [
+    {
+      "id": "claim_3deb8ad89c8b4cfea67f7bf5235da317",
+      "statement": "Denise Carter is the accountable leader of the Payment Operations partner function in the PTT Organization, System Ownership & Engagement Directory (CNB-ORG-PTT-2026-06), with Luis Ramirez (Wire Investigations) and Tanya Brooks (Wire Room) named as contacts for product/design reviews touching Payment Operations.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L76",
+          "version": "repo-lines-v1:sha256:29a82c4ca27a76ecf2eb7738d8713a0123db25932946ca8cf354860648692b07:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1ZWU0NDJmZjljZWJhNTU3NWMwNzE0ZDY5OTM3Njg0MTQ5ZjJlODYyYzY0NDk1MjQyZTNmMDk1MmEzMWU1OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d54cd1ffa3e54eb88eb0e5afd7ab0a5a",
+      "statement": "Payment Operations' planning factor for cross-team engineering engagement is approximately 40 engineering hours per new client-facing workflow to build standard operating procedures (SOPs), routed through an Ops Readiness Review required four weeks before go-live.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L138",
+          "version": "repo-lines-v1:sha256:1e2fed947d50a609157df7385e3543534ad4bc415464e1c1f9efb1d8a6b1723d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8e96c216d4084eb5bac74c9ed5a8c7fa",
+      "statement": "The Investigations Workbench (SYS-IWB, Tier 2) is owned by Payment Operations Tech with Luis Ramirez as its named business owner, distinct from Denise Carter's accountability for the Payment Operations function itself.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L97",
+          "version": "repo-lines-v1:sha256:93b4c4e0c0c87506e9976fe72c26e8357b6cbe1c955f88adc0971dfab8015820:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkMmI5MDJiNTRjZDUwZWZkMWYwODNhMDI4NWJkM2M3OTI4ZjFkOGI1ZWQxMWI1ZmMzN2Y3OTE2ZTgyZDgzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNjdmM2ZiOWNlMWFhYjVhNjNhNDg3YjhhNDM1NTdhYjM0Mjc0M2YwN2U0ZTNiZGJmMGJjNmYxYThhNzZlNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MTI4YjA3ODdhMjEyNjJmYTk4NGM4M2QyMmI3Mjk0MTJjZGI3MzJkYmIxNDgxZjM1N2VjMjk4MzQ3YzczZjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1f5534b5ab9442b88cbea9d43a0ab93a",
+      "statement": "Denise Carter is one of three named approvers of PIR-2024-07, the post-implementation review of the Wire Status Lite pilot (CBO-3120) and incident INC-2024-1182, alongside Anjali Deshpande and Raymond Ortiz, which documents 1,240 delayed wires, 312 released after the Fedwire customer cutoff, and $41,800 in client compensation.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L15-L35",
+          "version": "repo-lines-v1:sha256:977ee1ba3babd701f3ed223632bed586a2665e2649401554ed1d06381e457889:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0YzhkMzkwZjkyMmMxNTYxOGMyMzUwMGQ4N2FhZGIzOTgyZjZhNTYzNWNjOWNjYWUwOTY3MTI2YWNiNTk4ZmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzZmM0MDk0YzBmODcyMjZhMzhhNjJjNzYzNDAyMjEyNDE5YjcxOWI5NTM4ODNlYjkwYjc5OGMyMjI1ZDQ4MDQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI4ZjA4ODk4MjdiNWM1MWJlZmMwNjY0N2Q2ZmVhNjllNzJkNWNmZmVlNzU5ZDI2ZDI4MmY5N2RlNzBiOTQ2ODAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU2OGY1NmM4N2QwMTM0NjU0OThmMTQ4NmI1YThjZjNkOGYwN2Q5MTE5ZTc1MDE5OGViOWU4OGY3NmExMTBiNjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_56fc94f1b87a4fe2810bcfc303c43e15",
+      "statement": "PIR-2024-07 findings that Treasury Support could not explain held wires without FCC guidance, and that 37% of surveyed pilot users misunderstood the 'Processed' status, fall within Payment Operations' domain and were endorsed by Carter's approval, with the client-facing-terminology validation action remaining open and carried forward to CBO Product.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L37-L60",
+          "version": "repo-lines-v1:sha256:ff169889b6934aa06272dd72e0d07395e41d75a336bf4c7ba9d2df2ab8534066:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1NDBkYmY2ZjM4ZTE3OTUzMjJjNDYwN2Q5NzAzMmQ0ZDA1Y2VhNmIwMWU0MDM3OTFiZjdlMzVlYjdiMjc2YjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc2ZWYxNjFiYjA0MjkxNjM5YmZmYjRlMTMxNTU3ZjRjMmIwNjJiNWZlMmMwMzJmOGQ0M2VhZDQ0MDAzZDhjYjUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQxZjBkODE4MGM5OTk0NTcwN2MxN2I5OGRmY2MxMTBjNWJlMTE5NjQxNDBiZDBiNWMwZDRhNjc5ZjBiYmI5ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM4MzQ5YWJkNDMxMDQxMWJkNjZjMmRjODJjMDRkZjdlNDM0ZDY4MjU5NGVjOGY3YjZhNGUyYTgxNDA5YTAxZDEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c9db392cb2dd4a05a4212331360afe35",
+      "statement": "Denise Carter is the registered business owner, with attestation responsibility, of EUA-TRS-0007 ('ops corridor completion dashboard'), an End-User Analytic registered in the Model Risk Management inventory in 2026-05 under MRM-POL-02 v7.0.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L66",
+          "version": "repo-lines-v1:sha256:6fbbfb3cfdc09f08cc7e81f61719b2a1c94c6b47eb1488555c6817d62039ead9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ1ZmZkMjc0NWJmNzQ4ODM2MGFiN2FiMDAwN2NhNGYyYWZlNjc5MGE1NjMyNzI2NWM0MjA3M2E2NTMwNWJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThkYzNlNWQyNGVhNjRiOGMwMDliYjdkNzlhNTkzNzRiYjM5ODc2MDliZmExYTkwZDY0MTE3OGZkMzAyN2IxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTQwMWFmNmEwYjkzNmQ1MzQ4ZmVhNTU5ODkxMDJhM2JiMzcxODU4NjdmZGUzMzMyNzRhN2IwZjRlMDJlMjZmMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_52f7fb5a350741e58558aedf03535823",
+      "statement": "Under MRM-POL-02 v7.0, an End-User Analytic (EUA) is a simple descriptive calculation with no forward-looking estimation, registered in Archer with business-owner attestation and no independent validation; if a calculation becomes a forward-looking customer-facing estimate it is reclassified as at least Tier 2, requiring independent validation and Disclosure Review Committee-approved disclaimers before client exposure.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L29-L42",
+          "version": "repo-lines-v1:sha256:fd8a9cf07e953cb92c84f0ce764a38239230bf40e684002966d739166cbd941a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU2MzUxOGMyNzFkNzdhMDkwMDVlYzI0YTk5OTc2NWM4Y2MwOWZjZjQ4MjY4ZDczNWY1ZjEzOGUyMWM0NmUyMmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMmExM2Y4OGI1NzU3ZDMxYjFjOWNmMTMxM2Q3MGYyZmNhZTkyOWNlNzE1YjcyY2FjODE4MTYyNGZkNjgwNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmMGI5ZWJhNThiNzczNjEwYmY2OGE0OGQwMmM4ZThiN2E3NGVlYmRjNjdhZGM3NzkzNjk1YjhkMjY5ZTA4ZDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjViM2U3MjViNDcyNTU0NGY4M2IyMjhiZmUzZWJlYzYyNGZlYjFlNGE0YTFiODcxYzNiNTQ4Y2YzZGRlYjhjZjcifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

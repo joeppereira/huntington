@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f16e834d7888701b853269eba286e629124c0850138b6b42737dfeb8f3e01527",
+  "claims": [
+    {
+      "id": "claim_10903c118caa48ee99c22d78dfcd14d1",
+      "statement": "Laura Kim is Director, Payments Platform Product within Payments & Treasury Technology, serving as Product Owner of PRISM Payments Hub (SYS-PPH, Volaris 9.4).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L35",
+          "version": "repo-lines-v1:sha256:f5fe7ff5500636512d3a5db3ccf2a3e3cbbe5e239afd9cc51c1e73631ea4988e:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ1ZWM2ZjQ0MGRmMzQzNzc5N2RkY2NmYzNlYTU0NGRlMTMyZTQyMzEwNzU1NjFjZDY1ZWQyNDc4YjRlZjMzOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIyZDAyNDA1NGQwM2ZlNzcyYmExMGUxZDY5ZWEzOTg0YWNiM2ViM2U5NzA5YTViNmY4YmUwZDI0M2U4YjRmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2MyZWRjNjgyMjBmMjU1ODJkNmYxMDM1MzM1NmQ4YjY2YTQ0MzRjOGY3ZDE5ZDI2YjhlODg4NWVjNzNhNmM2MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L87",
+          "version": "repo-lines-v1:sha256:ae233ba02ca2ca64b5c5d8b2986b37ca0cbf29ad002a53d8dc19b4fa53012205:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODYwNjFjZmQ3YmE2ODFhZDkyYWY4NjA4YTI2Y2M3ZjYxODI5NTQyYmYxZGQ3ZmU4NGJjMjE3YWQwMGY1ODZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDhkMGEzZjg4MGZmMzJmODU3MTdjYTYzOTQ0OTMyZThhMDQ2OThkOTVkYTkwODJhM2JhNmZlMmE0MTIxOGNiMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2NzEwOTA3MzI2NTUzNjJhNjM1MTBlMGY1OTNlNDI1ODc1N2I1MjljMTAyZWJmMTM3ZWY0M2Q5YWViOWZiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmMxY2ZlM2M5ZmVkNDM4MDI5YTJjNmE0ZTE1NWExNTE0OTRjN2ViZDk1ZGFjZDU2OGM4OTNiODgyMDExZGI2YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4bb2f263b47c4531a3b5fb71edec5d03",
+      "statement": "Laura Kim is recorded as the accountable business owner in the PTT system ownership register for SYS-PPH, SYS-PNG-FFC (Fedwire Funds Connector), SYS-PNG-GPI (Swift Alliance & gpi Connector), and the payment-data portion of SYS-TDIP.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L96",
+          "version": "repo-lines-v1:sha256:d03514dbf4821c5cd5650e3e318255cc3a941b18af48a11ee712ce5d5c5b842f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6bfc59ae78b440a18a406b6392c633e3",
+      "statement": "Payments Hub Engineering (Raymond Ortiz, Director; Kevin O'Brien EM; Sunita Rao Principal Engineer) is the owning/technical engineering team for PRISM Payments Hub, with Laura Kim as its Product Owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L47-L47",
+          "version": "repo-lines-v1:sha256:13a2193f024f4f5e83c95dd623067f4b6df6adc2c314bc8826855c51bbccf836:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNhMjE5M2YwMjRmNGY1ZTgzYzk1ZGQ2MjMwNjdmNGI2ZGY2YWRjMmMzMTRiYzg4MjY4NTVjNTFiYmNjZjgzNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNhMjE5M2YwMjRmNGY1ZTgzYzk1ZGQ2MjMwNjdmNGI2ZGY2YWRjMmMzMTRiYzg4MjY4NTVjNTFiYmNjZjgzNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGQwZTk1ZWZhZmE4MmFjZTY1MDYyYmU5ZGQzZDFiZmVmZTI5NDNlMDA1MzkwNTZhNDY2ZDhjZmFhNWJlN2QwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGEzNDE4ODkyMzcyZGRiMjhmZWY0MjA3NDdhMzg5NTUwMDBiNTMxN2Y5NGRiN2Y4ZTI1YmQwZjRlMDY4ZWM4ZCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L87-L87",
+          "version": "repo-lines-v1:sha256:08d0a3f880ff32f85717ca63944932e8a04698d95da9082a3ba6fe2a41218cb3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDhkMGEzZjg4MGZmMzJmODU3MTdjYTYzOTQ0OTMyZThhMDQ2OThkOTVkYTkwODJhM2JhNmZlMmE0MTIxOGNiMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDhkMGEzZjg4MGZmMzJmODU3MTdjYTYzOTQ0OTMyZThhMDQ2OThkOTVkYTkwODJhM2JhNmZlMmE0MTIxOGNiMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWFkNDI2Yjc1ODFjNmI3YjA3MjE2OTBlN2RmMjIzNzliNjNmYzgyYmFmNDZlNzlhMWFiMGExZmIyZjE0NjIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmMxY2ZlM2M5ZmVkNDM4MDI5YTJjNmE0ZTE1NWExNTE0OTRjN2ViZDk1ZGFjZDU2OGM4OTNiODgyMDExZGI2YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6aed274731f24ea9966a690eb6792dcf",
+      "statement": "Payments Hub Engineering roadmap demand is prioritized via the monthly Payments Platform Demand Board, with planning factor ~1 story point per 8 engineering hours and ~90% capacity committed in PI 26.4 covering Fedwire address enforcement and FedNow outbound work.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L100-L103",
+          "version": "repo-lines-v1:sha256:414b8a468c6f62d74d2ed88b0878804843a2274e4a086af063d247e5d16469d2:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIxNDBmNzQyMzJjNGI1ZGYxYzU4NjI3ZTI3N2EzOGQzZWY4YTlmOWExMzc0NTk3ODcwOWMzYmEwNWY2MGI1NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjU4MDJiMDlkYzg5OTA0YTYzNzEwMDdjYmI1NTdlZmQ4YWY0YmI5OTdkYjQ1ZGNlZWVhNmI0NDJlYTQ2NjM1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2M2NmU2MWMxNmQ3Mzk5ZjU0MjRkZDEwNWMxZGVlM2I1OWJjZWU2OWUzYTMxNDk4MDIzNmI0MzMzZjViNjIzMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L128",
+          "version": "repo-lines-v1:sha256:8cc462cf23c3aec4ce98a0c3507b5fe8831c2f482563f0f6c65609532d70f4fc:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0NTBkMGJkYWE5ZTI0NTkwNzFhZTljOGEwYjc3ZDU2NjA0ZjYzNmZjZTU3YTVmOTQ1YjdiMGU2ODI3MTE0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTI3MzcwNTBhOWRiZjc3OWI1MzBhYmVmYjNkM2Y4MGUwZTRlMzIwOTExMTllODlkNGI0NDhjMDE0YjQ0ZGNiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWZhMjFkNWUzZTNjYzk3NTBiNTU4MTE2ZWU5NWQ3NmNlOTY0ZGYyYWFhMmZlYWY5YTllMjBjNGViMGZhNTc5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDRlOGY1MzA3MzNmMTc0NmJjOTkxOGYyMTViN2Y1NTMyNWI0ZmMwNjlmMjk4ODRkMjJiOTUzMTQ3ZDJkNTBjMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c2f8ab3e7f17461a872b5550f89dad02",
+      "statement": "Effective October 1, 2026, ownership of the Swift Alliance Gateway, gpi Connector (SYS-PNG-GPI), gpi Tracker integration, and the international wire tracking roadmap (including client-facing gpi capability) moved from Payment Networks Engineering (Raj Malhotra) to Global Transaction Services Integration (Elena Vasquez, Director; Omar Siddiqui EM; Hannah Lindqvist Tech Lead), with Laura Kim named business sponsor of the wire tracking roadmap.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L26-L36",
+          "version": "repo-lines-v1:sha256:069aa118f558841f7aaff03f916f6e5b65398846e05661102ab8507b8b89f6e7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxZTdiNjIyMTY5ZDI2NDIzMWY3Mjk4OTkyYTA4MTE1MDllNWE5ZjE0MDdkODRjOWEzZjM4MWFlZmJhMmIwYTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkwZWYzMjgzZjVkNmRlZGM2OGVmMmJkYjg3NzExNzYzODhmYjA5Zjk5M2ViMGRlNjc2NzNjZjBkNGMzYWE3NjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiNTI1YWYxMWI5YjBhMDE3NDNlMzg2ZTZiNDJkMDU1ZGMyMDUxNDJkMjJjN2I2Mzk5MjViODgzZTVlYmM5MzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM4Zjg3NWI1YjI0OGE5YjVmOWMzMWNjYjgwNGU0NTIyNzViYjkwZmUwZDY1NDBlYTUwMTY1YWY2NmRlYTE4ZWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_48d80b43808d4ef9854152f60fcf6fe8",
+      "statement": "Payment Networks Engineering (Raj Malhotra) retains the Fedwire Funds Connector (SYS-PNG-FFC) and absorbs FedNow and RTP connectors from 2026-11-01, while PNE on-call remained secondary support for SYS-PNG-GPI only until 2026-12-15 pending knowledge transfer GTSI-0112.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L38-L48",
+          "version": "repo-lines-v1:sha256:2ecf6efd65fefb738d9d6a3686e51260c24594e26c4ee0e0d0e23e92c52eeec0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjY2NkMTkxZjdhNzg4YjkyNzQyODY0YjJmNDY4ZWQwYzc4YzUwYzY4YThlZTZhMTIyOWUwZmIwNjU0MmMzODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1MzUyZmE5ZTY3Yjg4NzhmOTI3NjMzMzk2MTg3NzBlMTlhMjY5NGJiMmVjYzhmY2MzMDIzNWNkNDdlOTRiZWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJjYTAyMDE0ZTkyYzE5NDI0YWRkYTUxYmNkZWQyMmI3ZjYwOTNkZDdhZDAxOTFmM2ZmYjQ1NzdjYjRjMmY0NDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU0ZTJkNjM2NDk5NzhhY2Q4ODYxNmVkZDc4ZGE4OWZmZGQ0ZTQ5MmQ4ZWY5ODdjYTkwMjAzODE3MGRhNzFhOTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_13948f6d423d4e5890e2f95efc95f567",
+      "statement": "From October 1, 2026, new requests for gpi data, Swift Tracker usage, or international wire status capabilities are raised via Jira project GTSI directed to Omar Siddiqui, rather than project PNG; GTSI owns the unfunded (for 2026) gpi Tracker Real-Time Service initiative (GTSI-0107, discovery planned 2027-Q2) and the Swift Tracker API contract renewal due 2027-01-31 (GTSI-0115).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L50-L56",
+          "version": "repo-lines-v1:sha256:66bbfa093eafbda46af6e442253e8f37fea0ec871df15f5f338b836c6ee830a0:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmY4ZTVhM2Y3MjhmNjQzMzVmMWU4NTI5ODEzMDRmNDkwMjU2ZTVlYmUwNmZkYTY2MWRkYWQ3NmFmNmEyNzJlNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3NWZlOTRlYmQzZjE1ZTQ1YjNlNTBhZmI2NDAwNDBlYzYwMTg1N2FjN2E5NjI1MjAzMDNiN2JlOWFhYTRjYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjk1YTAxMzEzZWNmOTU2Y2MxMWM4ZTU0YTg3OTZhOTZkYjc0NjVmZjU3ZDczZmY3MmViNWMzMjY5YjgxNzk4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWQ3YjczNjBjOTljODk5NjMyZmRhODE2MjNiODQ0Yjg0ZWZhZjc2OTY2OTkwYzkyZmFkY2E1OTYyYTYxNDI5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_af1f257a8d1044638e7c6dfb0a51647b",
+      "statement": "The PTT Organization & Ownership Directory (CNB-ORG-PTT-2026-06) is refreshed quarterly and organizational announcements such as CNB-MEMO-2026-09 take precedence over it until the next quarterly refresh (Q4 2026).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L22-L22",
+          "version": "repo-lines-v1:sha256:f611a656f1657f175efbfdbc2434c2692a758cecb644af055ab21b8e60fcf1a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjYxMWE2NTZmMTY1N2YxNzVlZmJmZGJjMjQzNGMyNjkyYTc1OGNlY2I2NDRhZjA1NWFiMjFiOGU2MGZjZjFhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjYxMWE2NTZmMTY1N2YxNzVlZmJmZGJjMjQzNGMyNjkyYTc1OGNlY2I2NDRhZjA1NWFiMjFiOGU2MGZjZjFhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAxM2E5MWE5ZjQ1MGZjZmY2OWZkMTBlODM5MzI5MTRhYjdiNDA4NzQ0M2RiNThlN2Q2MzQwYjc3YTBjOWRmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmI1MjVhZjExYjliMGEwMTc0M2UzODZlNmI0MmQwNTVkYzIwNTE0MmQyMmM3YjYzOTkyNWI4ODNlNWViYzkzNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L26-L26",
+          "version": "repo-lines-v1:sha256:a4c6e6df716aa24da6b8adacf7aa53f4b00fbfbe946f7784068a2a016824a446:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjNmU2ZGY3MTZhYTI0ZGE2YjhhZGFjZjdhYTUzZjRiMDBmYmZiZTk0NmY3Nzg0MDY4YTJhMDE2ODI0YTQ0NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjNmU2ZGY3MTZhYTI0ZGE2YjhhZGFjZjdhYTUzZjRiMDBmYmZiZTk0NmY3Nzg0MDY4YTJhMDE2ODI0YTQ0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_99773cc1ecd54760ab3165cbee70726c",
+      "statement": "The Payments Architecture Review Board (ARB), chaired by Chief Architect Nikhil Bose, meets monthly and requires 10 business days lead time for submissions involving new client-facing integrations to payment systems.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L100-L103",
+          "version": "repo-lines-v1:sha256:414b8a468c6f62d74d2ed88b0878804843a2274e4a086af063d247e5d16469d2:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIxNDBmNzQyMzJjNGI1ZGYxYzU4NjI3ZTI3N2EzOGQzZWY4YTlmOWExMzc0NTk3ODcwOWMzYmEwNWY2MGI1NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjU4MDJiMDlkYzg5OTA0YTYzNzEwMDdjYmI1NTdlZmQ4YWY0YmI5OTdkYjQ1ZGNlZWVhNmI0NDJlYTQ2NjM1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2M2NmU2MWMxNmQ3Mzk5ZjU0MjRkZDEwNWMxZGVlM2I1OWJjZWU2OWUzYTMxNDk4MDIzNmI0MzMzZjViNjIzMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L36-L36",
+          "version": "repo-lines-v1:sha256:0a800e54daa2f2bbe8ceb1d876717d2c5103de1ce89b6282fe9d135e4be0dc9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGE4MDBlNTRkYWEyZjJiYmU4Y2ViMWQ4NzY3MTdkMmM1MTAzZGUxY2U4OWI2MjgyZmU5ZDEzNWU0YmUwZGM5YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGE4MDBlNTRkYWEyZjJiYmU4Y2ViMWQ4NzY3MTdkMmM1MTAzZGUxY2U4OWI2MjgyZmU5ZDEzNWU0YmUwZGM5YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGFiNjJkZjY0NDkzMTIxNWUwMDQ2OTYwNDAyMmY2ZmI3MzkwZDYzOTIyYjMzMzM2MWRhNzE4ZTNhOTgzZmE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDBlOGNmYjQ2ZDJlNWExN2E4MjM3ZDRhODViMjJjOWViYjQyNmE4ZjA2Y2I1ZDlhMzMyMzY0MTBiMTU3Y2VhMiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c3a7a2e151fdda4838dfce061ea98bfd70bdeb454ab15dba066e4f0ad0d0bc4b",
+  "claims": [
+    {
+      "id": "claim_19a3d6d6230d424dad4cc45e1b38fece",
+      "statement": "Developer Platform Engineering owns API-18 (Webhooks & Event Notifications API, v1.3, /events/v1, Platform domain) and is the stated owner of the Developer Platform API Reference document (v3.6, July 2026).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-18-webhooks-event-notifications-api.md#L1-L17",
+          "version": "repo-lines-v1:sha256:50edfe5100d122faf911bd2336eaf4a99b3cc1b014d6d865aa4ec989b6517112:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1MTU1YWZhOGM2NDQwYWZhZGY2ZDQ0OWU3NjA3ODIyZTMyZGUxNjEzYmZjYzVhYTQxMGQxMTdkNzM0MWE4ZDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1-L10",
+          "version": "repo-lines-v1:sha256:1cbd1c5b12c53f3856de68e886676f3092a2e4015daad9e0ad698d9d0577b644:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZkZDNmMDllNWQ1ZmQ0Y2JjZDc0MWY4NTA4OWRlNTNhZjMzYzRmYjY0YWI0YjIyYzU3MGFmMDk5YWI0OTczYzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYwZmQwNzAxNzc4NjYwOGY4ZjEyYTFkZTVkZjZmZDRjZmI5OGRlMzc5ZTM1YWEyNjVmMDA2YmZmMWM5ODNkZGMifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L79-L98",
+          "version": "repo-lines-v1:sha256:653461ee219e8c047f9d470d5b22a00fe7154f170b9fa4f482a18f7aa1d6a9b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzZjVhOTk1MGRhZmIxZmI3MTM4ZTIwOGQ1ZmZlOWM4ZDViZWMyMTc0YjQ3YjgwMjBhYTFhMGFjZjI4OTI2NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3ZTY0MmY0YzFiMTVjNmNkZWQyMTBjZTkwYzRiYmFjMjg4MTNiNmU3OWY5MTkzZDUyMzQ1MjZmMjJmZjgyOTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0YTE0ZDRlMThhOGI1NjIxMWFiODE3ZmQzM2YzZTllYjE4ZjlmYjc4ZGVkZTgzMTBkMjM1MmI1OTQwYTA2YWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_45315c0dec2249e092d7a510fcdedaee",
+      "statement": "The team owns only API-18 among the 18 catalogued APIs; the other 17 are owned by other teams such as Digital Platforms Engineering, Global Payments Technology and Card Technology.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L79-L98",
+          "version": "repo-lines-v1:sha256:653461ee219e8c047f9d470d5b22a00fe7154f170b9fa4f482a18f7aa1d6a9b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzZjVhOTk1MGRhZmIxZmI3MTM4ZTIwOGQ1ZmZlOWM4ZDViZWMyMTc0YjQ3YjgwMjBhYTFhMGFjZjI4OTI2NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3ZTY0MmY0YzFiMTVjNmNkZWQyMTBjZTkwYzRiYmFjMjg4MTNiNmU3OWY5MTkzZDUyMzQ1MjZmMjJmZjgyOTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0YTE0ZDRlMThhOGI1NjIxMWFiODE3ZmQzM2YzZTllYjE4ZjlmYjc4ZGVkZTgzMTBkMjM1MmI1OTQwYTA2YWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2fbf9076144e47bfaa4d06ab3f870636",
+      "statement": "API-18's lineage has three upstream sources (API-03, API-04, API-06) feeding events to client systems, and each upstream API lists API-18 as a downstream consumer, so the team's delivery objective depends on events from other teams' APIs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L84-L84",
+          "version": "repo-lines-v1:sha256:2860aad46ef13d5970b88c68ef9128106bad3f516233ff8144540e8fd9280da7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg2MGFhZDQ2ZWYxM2Q1OTcwYjg4YzY4ZWY5MTI4MTA2YmFkM2Y1MTYyMzNmZjgxNDQ1NDBlOGZkOTI4MGRhNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg2MGFhZDQ2ZWYxM2Q1OTcwYjg4YzY4ZWY5MTI4MTA2YmFkM2Y1MTYyMzNmZjgxNDQ1NDBlOGZkOTI4MGRhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L64-L64",
+          "version": "repo-lines-v1:sha256:055afa45947d03569a97e78c1bde74fe916cb78ad4c27de950c773d4397bf8db:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YWZhNDU5NDdkMDM1NjlhOTdlNzhjMWJkZTc0ZmU5MTZjYjc4YWQ0YzI3ZGU5NTBjNzczZDQzOTdiZjhkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YWZhNDU5NDdkMDM1NjlhOTdlNzhjMWJkZTc0ZmU5MTZjYjc4YWQ0YzI3ZGU5NTBjNzczZDQzOTdiZjhkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-06-card-management-api.md#L74-L74",
+          "version": "repo-lines-v1:sha256:77ec44370aecd28d3f9a0a7c59f13c266cd9ea7b10a744171d6c3929068c6d14:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzdlYzQ0MzcwYWVjZDI4ZDNmOWEwYTdjNTlmMTNjMjY2Y2Q5ZWE3YjEwYTc0NDE3MWQ2YzM5MjkwNjhjNmQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzdlYzQ0MzcwYWVjZDI4ZDNmOWEwYTdjNTlmMTNjMjY2Y2Q5ZWE3YjEwYTc0NDE3MWQ2YzM5MjkwNjhjNmQxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-18-webhooks-event-notifications-api.md#L59-L63",
+          "version": "repo-lines-v1:sha256:64fd9b7dd140d36aac2b1135dd0bd20094bb63bb6fb5f7f4f66ef03bf10f14ea:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ1MGFjZWM5YWFlODI0MTA1ZmRhMjkxNDc2NWQ5NWFlNTA4YzU4NGJjNTgwY2FjZTVjMmZhZWMxMTNlZTdhMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_385ae2cd223545999e8df029c4e7d0a4",
+      "statement": "API-18 commitments: scopes events:subscribe and events:read, 100 subscription changes/hour, delivery up to 10,000 events/second, 99.95% delivery within 60 s, Confidential classification, and the replay endpoint added in v1.3 (2026-02).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-18-webhooks-event-notifications-api.md#L6-L25",
+          "version": "repo-lines-v1:sha256:73bbbf6cb1fa158ebc29b94ef3a5033844795d329a7c3bd5cb489b9167dfc32a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkMWY3YjY3ZTQ4NGUyNDcxY2YwYmZlM2E4ZjQ0Y2U1ZDEzOThkZGQ3YmYzMGUwYTkzNmVhOWZjYzUxYmZhNTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY1N2FhMWQ0NGU2ZjgwYjVjMTQ2NDJhOTM1OTBjNTZhM2ZjOGNjYTlkYzU2MTUwM2VkNDlhOWUwNmI1YWUyZmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-18-webhooks-event-notifications-api.md#L65-L67",
+          "version": "repo-lines-v1:sha256:04564f03ee4b8aded478e41b71a27cb11acf9fdf82749198abb1c6e0fb2de1f0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmE5OGI2MzQwMTZkNzJkMTc3YTdjMjk3ZDE1NWVmNGY1YTk2YWVlZDdhNTBlYzRhMmY0MmNmOGUzZDk2ZTUzOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTMxNTcwNmE1MzMxZjlkYzk2NjY3ZTBhMzE2NTI0NjQyY2E1MjdiYWUxMTU2MTRiODEzNjRkN2M5YzI4NzM5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7fca6ca90a7342d78f1d9a3d43fcd649",
+      "statement": "Platform-wide conventions set in the reference apply to API-18: OAuth 2.0 with 15-minute JWTs, least-privilege scopes, major version in the path with 12-month support after a successor, Idempotency-Key on creating POSTs retained 24 hours, cursor pagination and a shared error envelope.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L29-L75",
+          "version": "repo-lines-v1:sha256:3d0b61f5931366eb7ccf2018927644701e6c2a7f5f4e94772add40d8756690eb:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxNDQyMzAyNTg1YzhlYzI0MmVhZjM4YTg1ZDdmMWI3ZDM2NjYyYjYzODNlZmQ1NDViMGJkNDkzZTNiOWJhZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjAxZmQxOTQwZGI4MWMzODI4NzMzMDkxNzlmZWY4N2Y1MDk0YzY5ZmZjMTY0ODYwN2VjNjA5OTgwZDljMDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIyNmZkMDg5MzI4ZTI3MTg2Zjc5MDVkYTU5MDkxMzU2YTNiOTdkYjA5ZmEyZDRkMGRhOWMyOGVlNDk4MzJiMzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1ee18bfedb6545e4999765c1997cd68c",
+      "statement": "API-18 is not registered as an upstream feed of any Tier 1 model and is not among the six critical data services (API-10, 11, 12, 14, 15, 16), so a breaking change to it does not by itself trigger an MRGR review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1357-L1380",
+          "version": "repo-lines-v1:sha256:5b9e75c6bdaeb40a6036f3ee6424da4096c6ce5c70be3c9f375d9dda0b0e0957:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3NzZiZjA3ZjllZjI1OTFiZWUzMGYwYjE1OTc2MzE4NDg4YzEzYTQwOGE4NzIwMjI3YTUyYTYyOTU0MGExOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNDcxYmY5NjMyYmFlODc2ZDM0YTI4NGY2YzQ5YjhhMzc0OTI0OWRlYzQ3YTBmNTI1MmYxNzk0ZWJmOTIyYWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxNjY3MzE3YjI3ZWU0NzkyMjlmNGNjMWExZDk0ZThhYzY3NjkxNjEwODdhZGEyZjNmMmUyMzJkOThkNTkzOWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3ZDdjZDk0YTBmNmJkOTQ3MGZjNjhmMWEzMjYzOWIxNzI1ODZmNjEwZWI3YjQ0NDBkNDZiY2M3MDY0ZDU3YWMifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1417-L1424",
+          "version": "repo-lines-v1:sha256:b7bc3dd524d0cfa37c910732d16efde1445f6e8096ef5eacbdc100d7e5ed1e46:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZiNTJkMzUwYTdjOGZhNTc1NjI4YzJmODgzZWM4NTBiZTg4MjhjNjk2ZWE0ZGNiNjdhZTAwNWUxZTg3NjI1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGJiYjE3OWU2MGM4MTlhMDhiYzU1MWExMTYxYjUyNGRhNTNhYjEwNGFiODk2NzBhNmEyNTM2MWEwYTdkYzE0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGJmZGEzZDQwMTQwOWQyN2Q4MmViYTZkMTNmMDNhY2E4NDVlOWVjYTJjZmVlNGQ5OTBmOTk4ZTc2ODgzN2MyMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDgzY2U1YzhmMjQ4YWNlNjhjNjFjMzQ3OGI0OTNlYTk3MzBlMmMzNWIxNGExNzE1MWZjYThiOGVlYmFiODkxZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L16-L18",
+          "version": "repo-lines-v1:sha256:73505b1c6c07b5bf626066df74ccbf28f5b577a5a458f53bfc45c4dae6502afd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWQ3YTQ0ZjQzNmE2YjQ1ODliNTAzZGFiYWMyZWYyYjNlZmE1NWUzYTEyYjIzODQ4ZTEyNzRmMTIzMmMzMDRhZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzlmNjE4NTQ3MTEzM2JlYWZlN2E3OGU4YTU2NDY2ZmI2MWYyOWJlOWY3YWFiMjM2MmE1M2Y4MmFhYTg5ZmZkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9d566c7d3bc04a289065bd26bcb9541a",
+      "statement": "The platform has Sandbox (no SLA), Certification (masked data) and Production (SLAs apply) environments, so API-18's delivery SLO applies in Production only.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L20-L27",
+          "version": "repo-lines-v1:sha256:27ff4438d8bffafe65e842234d46b6739bdecb6078d09803ba1623001c959681:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGZmNGQ5N2U5ZDU5NDU3MTg4YzAzNTdlZDkwNWY0NTQyODE0ZWI4MGI0YjFhYTJkNTQzYzgwNzAyZDAxYjNmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY2NDUzZjdkNzFjMDU5ZDdmMzI5MGUwYzM1NjEyOTlhNmQ2NTg4NThiNDBjN2JiZmY0MDg4NGJmMGExYmEzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGZhNGExNWNhOGU1NGVlMWFmMGM0OTIwM2NkYjVmMmE5MTAzNjQ2ZjE3ZmEzOWQ0ZDAyNWQyOWE0ZTcyZjZjNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWVlOWYyNTM5NjM3OGFiMGJiYzMxYzU2M2FlNzMxMTU2NjI4ZmQxZDQxYzhmMWEyNDA2YWFjZjJlZmZlMGJhYiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

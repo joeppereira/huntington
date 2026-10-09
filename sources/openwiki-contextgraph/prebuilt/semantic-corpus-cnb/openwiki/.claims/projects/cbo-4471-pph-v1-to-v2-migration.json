@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:debe9dc2e9316b691b38986250f85b447e981b06a496a7bcb5b752dbee00a4d1",
+  "claims": [
+    {
+      "id": "claim_15b7cbbfbd3b40a5a0c20feb589446f3",
+      "statement": "CBO-4471 (\"Migrate Wire Center from PPH v1 to PPH v2 APIs\") is a 34-point Epic owned by Tom Becker, status Backlog (unscheduled) as of the 2026-10-05 Jira export, targeting SYS-CBO (cbo-wire-bff) and SYS-PPH, and is explicitly blocked by CBO-4473 while carrying a deadline of 2027-03-31 (PPH v1 sunset).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L107-L113",
+          "version": "repo-lines-v1:sha256:3368cafdb0b6b5cbfa1b9a67247e306826af7835c147b7c32d283efbadc11fdf:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwM2ExZDQ2NDI3NzQxYmQ0NjA1ZWYzZWQ4YjY2MGYyMjk5NDZlNjJmNTcwZGRkZWVlOTczMzlhYjhlOWM0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0YzMwNDhkMTdmNTdhNjAyMzliZDJlMzFjOTQ1ZGEyY2I1YjljNDBmMjE0NTgxNGY3M2U3NjVmNTMyZmQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjRjNDI4OTgxYTcwZjYxYTY5OWVjNTZiM2JhOTVmOGUwMTM2YjdlOThkM2YyZjE1NmEzNTJjMGM0Njc4MjcxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYwM2Y0YTI2OTg0MjI4YmZjMDgzMzY2NGIxODIwOGIzYjkyODJjYzI5MWVkZDNiN2M4YTczMmNkMDY0YzU1NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9980ea3a50984051b9b19e61d1ee3135",
+      "statement": "CBO-4471's 34-point sizing, per owner Tom Becker's 2026-08-30 comment, assumes reuse of the existing list/detail UI and excludes any new tracking features, and the epic requires CBO-4473 to be completed first.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L111-L113",
+          "version": "repo-lines-v1:sha256:3ab374a8b80b93dc3eea4871e715eb41362575486ef5d513eb9105754ad86f8c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTE1M2MwOTM2YTgyN2ZiNTMzZDlmNWIyYWVjZGFhZjNkNjU5ZmI3NjJlNjQ3YjYyNTUyYzJjN2IxM2IyNzJkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0YzMwNDhkMTdmNTdhNjAyMzliZDJlMzFjOTQ1ZGEyY2I1YjljNDBmMjE0NTgxNGY3M2U3NjVmNTMyZmQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWY5YWM2NTczMDlkZGUwN2E2ZjgwODU4ZWIxNGVhOWYyNTY1ZTIyYTgxN2FhMzhiNjFiMWMzNTYxM2U0OWFkYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYwM2Y0YTI2OTg0MjI4YmZjMDgzMzY2NGIxODIwOGIzYjkyODJjYzI5MWVkZDNiN2M4YTczMmNkMDY0YzU1NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_22fc0c3afc314297ab6c2d40d89b89b6",
+      "statement": "CBO-4471 is blocked by CBO-4473 (\"CES: account-filter mapping for PPH v2 search\", Story, 8 points, Backlog, owner Arjun Mehta) because PPH v2 search (EP-PPH-05) is clientId-scoped only, not account-scoped, and no mapping yet exists to translate CES entitlement data onto that search the way cbo-wire-bff currently does client-side against PPH v1 list results.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L38-L38",
+          "version": "repo-lines-v1:sha256:baa3dd9da885ca809175855ba2d8e865ffda0e3387468bcc2d52e331f45ac887:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjlmNjIzNzIwNTMwYTNhMDA5MWJkYzlmN2NmN2Q3Yjc1ZGJjNmY4ZmFlOTdkZWFiNDA1ODU0N2MyMTQzYmM4YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e4cd1f55eabd449c8058c327c3dd0012",
+      "statement": "CBO-4471 is tracked jointly with PPH-2190, the cross-consumer PPH v1 sunset tracking epic owned by Kevin O'Brien, which lists cbo-wire-bff as the only one of four tracked v1 consumers (alongside IVR, CRM, and Wire Room console) that has not started migration, with three reminders sent to the CBO Wire Center team as of 2026-09-22.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L137-L141",
+          "version": "repo-lines-v1:sha256:04068018a39909221bd96b517609deb4cee9d42a30b8ab9ebbc7b70e7a2c47aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiZmRmMjY2NmY2NGMyMjcyZDJlZmIzNzkyNTU1N2U0ZGRlZTk4NTBkYWFlZjUzNTllMTkyYzdjNTVlMDI4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNDVhYjczOWJhNDk4NWM3NTBjZmFhMDYxYjAyZTdhZTljOTkzNzU2M2Q5MjRkODVmNGZhYjAzOWVmMjI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWNkMTk4YmI0MzFiYjBkMGM5MzNjYTUyZDIyZTUwNDE2ZGRkZGE4ZGFmMTMxM2FhNzIzZGViYTljYjI2NjdiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQzYjljMWU1NjQwOTU5YmNlY2Y1ZDJlMTQzMzUzZmEwM2Q5ODg4NTVjMzFkY2RmZDc4NjE5NzA0NTU4MmRhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8e6383d1487e459ba53f079f53a5f529",
+      "statement": "The 2027-03-31 PPH v1 sunset date is driven by the PPH v1 adapter not being supported on the vendor's Volaris 9.6 platform upgrade (planned April 2027), and the Payments Architecture Review Board confirmed on 2026-09-08 that no extension beyond that date will be granted.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L137-L141",
+          "version": "repo-lines-v1:sha256:04068018a39909221bd96b517609deb4cee9d42a30b8ab9ebbc7b70e7a2c47aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiZmRmMjY2NmY2NGMyMjcyZDJlZmIzNzkyNTU1N2U0ZGRlZTk4NTBkYWFlZjUzNTllMTkyYzdjNTVlMDI4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNDVhYjczOWJhNDk4NWM3NTBjZmFhMDYxYjAyZTdhZTljOTkzNzU2M2Q5MjRkODVmNGZhYjAzOWVmMjI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWNkMTk4YmI0MzFiYjBkMGM5MzNjYTUyZDIyZTUwNDE2ZGRkZGE4ZGFmMTMxM2FhNzIzZGViYTljYjI2NjdiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQzYjljMWU1NjQwOTU5YmNlY2Y1ZDJlMTQzMzUzZmEwM2Q5ODg4NTVjMzFkY2RmZDc4NjE5NzA0NTU4MmRhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6b7f2ea7ff72461e9510cb80d43a90cb",
+      "statement": "Migrating cbo-wire-bff from PPH v1 to v2 is expected to resolve the v1 PROCESSED status collapse (four distinct v2 lifecycleState values shown as one v1 status value) that is implicated in the open CBO-4419 client complaint (linked to CMP-2026-1189) and to retire the holdReasonDesc free-text HMS leak tracked as risk FCT-2004, since PPH v2's hold object exposes only presence and holdId, never a reason.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L165-L167",
+          "version": "repo-lines-v1:sha256:1ff89d090b6bf4bd2e01243a3aa2c555b9140197e509aa8cbcaeff95c70bafb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA2OGMwYTFlNzM4MjQ2MjZjN2RmYWU2MDk0MDIwY2JmYzhjOWIzMjNkNDQyOGU5MDM2NjY5MmUxNjBiNGJjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZjZWMxOWUxOWQ5ZjAxNTJlNGYyOGYxYTZkZTBhNDMwYjI4Yzk3YTczMzU5MGYzMzkzZmFjOTUzZGJlYzM5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L106",
+          "version": "repo-lines-v1:sha256:a9f16681c783df01fad908210e986fddb962c52e09d1827c90035f3787dae453:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmRmNDcyZTFlZWVkZjg5MDI0MjI2NTQ3NzI2MjYwZTg1NzkyMTY2MTdjZjJmODc5ZWQ1ZDYxYjk5NjZlMjIwMCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

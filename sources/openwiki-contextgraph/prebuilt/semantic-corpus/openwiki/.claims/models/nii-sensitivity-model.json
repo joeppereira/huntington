@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:79c38b7274df9338003322d574e5f91c3fd7687b011a6c50f6febb5b58bdc06f",
+  "claims": [
+    {
+      "id": "claim_5d79af04c181487eb6d87940f90b1a30",
+      "statement": "MDL-ALM-014 is a Tier 1 Excel model owned by Corporate Treasury - Asset & Liability Management and independently validated by MRGR (last validated 2025-09-18, next due 2026-09-30); it projects 12-month NII under parallel rate shocks and EVE sensitivity for IRRBB reporting, feeding the Annual Report and Pillar 3.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L9-L34",
+          "version": "repo-lines-v1:sha256:3c3820a81f7c7d2f46ee49e0a8541b4d3e9a9b67f3c93459e501d20f0e713d33:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkNjM3OTliOWMyYzVkMzZjYmQ0MjgwNzg4NWZmYzBmNWMzYWNlMTdkYzk2ZTVlZmZlZTZjM2MwMmFlYzQ2YjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3Y2RmMTY0M2FlZTJkZWU0MmQ5YjVjZjU3N2EzYTIwNWM3NzQyODg1MmEyNjMxMjQxMDBkNGVkYjE0N2UyOWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMDg3MTczYWQyODI0MTliM2ViNjI5MWE4NzRiNWY0OWQyYWNmYzQ3MDY0YjcxOWFlNzc4OTk2MzM3NThjNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkwMGQwNzBiYzQyMDc5OGY1MjQxZmMxNGY5M2IyYTU4MjMzNmQ1YzQ1ODA1ZTJhNzc0YjRjNWQxNjM4Nzk2NWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_cd4de7d5116a49e18243adee50c4c548",
+      "statement": "The model consumes API-15 (balances and yields for securities, trading, deposits, repo, debt), API-11 (loan balances and repricing profiles) and API-12 (yield curve and policy rate), plus deposit betas from the annually calibrated Deposit Behaviour sub-model; Tier 1 capital comes from API-16, a dependency not listed among the README upstream feeds.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L145-L152",
+          "version": "repo-lines-v1:sha256:baffa421fa627daa2000aedaca95aa60bbf0b2e72e698f1d685f587c0f34d0cf:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgxMzNjYTFkMDUwZTBjNGI4YmQ0NjE2OGI5YmUyMjNlMDZmNWJiNTFhYWZjY2JjMzVmY2JmOGI4M2QyNjc5YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY3MGI5MWU2NzEzNDgzNTlkMmEwMTU1NTUxNzc3ZmNiMmY0ZWQwNTVkODMwOTY0ZWU5NmY0MjRmNTRmZTJmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWUzNmI1NWJiODY3N2FjNGExNTZhYzcxNmFiYjc3MWJjODA0ZmMxNzc4YmMwMGQ4MzQ3M2FlY2QxMTUxYWQ0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjFlZTNiNDFhMjNjODA1MjE4MTQ4M2QzYTM5M2IyMzQ5YzM3NzVlMDgzYzE2ZWY2NzFhYzUxZThhZTQzMGVjMCJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L227-L231",
+          "version": "repo-lines-v1:sha256:8fbabf9c443ed37383bbc15f873c9a829ed00f36bac4580f1a37ee5079acaad3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAwMmQ2OGY5NzIwZGIzNzAwOGI0NTE0ZGY5ZDI0NjRhZTI3ZTcyNDljNDRkYTNmYjEwYmZhMzk0MGQ5OTQ1NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGNlY2NhOWExMWJkODczN2Q3MzVhNmU1MTQ0MWE0MDlhMDhjYjYxZjBkMmYwNGZiN2I3MmQ0ZDRmZjQ3ODYzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGZkN2M1MjFjYjg5MTFmYmEyOWZkM2ZkMjdkZWJjZjExYmM3YTE1MmIzMjQ0YTJhNTcwYTIwMDM1ZjMzYTg1YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzhhODRhYmU4MGMyZDY4OTlkNjNhNGU3NGU4ZWQ3MjI2NDI5NzczMmIyZjVmM2JmMDc4NWFlOTUwN2ViZGY0YiJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L24-L24",
+          "version": "repo-lines-v1:sha256:bacd8b3a7111b486b7d63a313b30889bc4a31bd7a06813e74501a0c45958104d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFjZDhiM2E3MTExYjQ4NmI3ZDYzYTMxM2IzMDg4OWJjNGEzMWJkN2EwNjgxM2U3NDUwMWEwYzQ1OTU4MTA0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFjZDhiM2E3MTExYjQ4NmI3ZDYzYTMxM2IzMDg4OWJjNGEzMWJkN2EwNjgxM2U3NDUwMWEwYzQ1OTU4MTA0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzZjY2ZhZGFmMWFhZmRhMmJlMGIxYjAxOGFhMzkzMDA4NjcxYzgzN2Y5YTZjOGZjYTZlYWY4MzMyYWFkNTAxYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBhZDlhYjAxZjk4YTZiYzRiNzBlZmE4N2M2OTljYzNjYjFkNTBiMzk2M2U0ZWFmZjE5ODI3MTc1ZDIyNjgxMCJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L44-L49",
+          "version": "repo-lines-v1:sha256:d1e3a575e662cef13730283ed084d5c3b5764b7fe4333bda04953536ae9b6216:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1NDMwYWQ1YzRjMzAzODc0MzJkMTk5MmNlYTQ4OTZiNDMxOGExZjA3NjRmOGYzOWFmNTQ2ZDhjZTNiMzI5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTYxMDNiMDdmMDI3YmNhY2IxNjgxN2YzNzU2ZTc2NDhmZjE1NmIxOWU4ODU5OThhNWZmOTJiMzgwYTY4YzM5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTdlYjZiMzhkNWMxMTViYmMzOGExMGVlMTRhMTZjZDVmZDM5NDAxODM3N2U5OGZmOGQzODlmYTNiZjEzNThmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdmZmE5NWRiYzFjYzQxNDY0ODkwYmFlZmU5ZjE1YTNjMTQ1NzkxM2QxYjYwMjkwZmMxN2I2MDQ0YTU1NzY3NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a264c99375334436bd01abfd07643d5a",
+      "statement": "Assumptions sheet holds the as-of date 2025-12-31, horizon H=12 (B8), repricing midpoints 1.5 and 7.5 months (B9:B10), Board limits 7% NII (B11) and 15% EVE (B12), Tier 1 capital 110,620 (B13) and the five-point shock grid -200/-100/0/100/200 bp in A17:B21, which NII_Projection, EVE and Summary all link to; the policy rate and as-of date are not referenced by any calculation formula.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L142-L158",
+          "version": "repo-lines-v1:sha256:d690289bfbc699a8f3273313ce24aee9accb0c7dfdee942ced990e2aab6dd767:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzQwMTkxYWQ5ZDk3NzNlOWEwZjg2M2QwOTAyMzk5YTI5MTlhYTgzZjIzMmNmMjJjN2RlOTU2YTllNGJlMDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkMmJmNmQyNmE2ZWQ1Y2NmMDM5NjY1NDEwM2Q0MzA5MWExNDgwYzViZDQ5YWYxZTY5ZGY4OTAzMzQxYzM5YTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFlMzE4ZWRjYTEyMzQ5NTM5NmI3ZTZlNzQ1YmU5OWY5YzViNTQzMjc2ZTQ1YzJmMGEyNzEzNjhiMzQ0YTE5MDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZlY2I0MDg0MDY5MmY2NjI1MmY1MmUzZGQwZjg2OGYxMWQ1YTlmMmVmOThiN2VmNWMwZTgzM2ViM2IzOTFjMTcifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L266-L270",
+          "version": "repo-lines-v1:sha256:d823845165ec2149e11e93259b310317138f2f37cf708a8b738a47339404e941:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M5OWVkZDk3NTA5YjA1NTAzMDA3YmFiYTcyMjVjMGFhMzY1ZmQ3ZWU2YWFhYzUyZmY2NmQzYzY1NDIyNDYwZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2RmNWU0YTM1ZDU3NDAyNzg0MTQ1M2IyNzllMmIyZjMxZmE0ODViNjAxYTA1N2YwODkwZWZiMmNkMmY2YWIwNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2VhOTY2NTIyNjYzOTYxN2U4N2Y4NGIzNTQ0ZDYxOTVlOTZmZTVhOGY5ZGVhODMxNDk4YmMwN2RiMjAwNDQ4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDkwMGZlOGM0Mjg5OGZiODAxZjNiMDg2NjE4ZTlkNWEwZTQ4Yzk0NmY5M2QwZjg0MDYyZWZlNTFmNWEzOTc4MSJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L436-L440",
+          "version": "repo-lines-v1:sha256:ea6ba462015bb8360a698e1f610a95282b57a6e147bd63eac0f750756664fc96:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJmMjBhZTFjNDNjN2FiMjE5NmFlODNlZDUzYzZiMDYwMjA3NTU1ZWEyMDZmZGVhNWM3MGYwZjllM2E2Mzk2NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTk4MzVhNWVlMmIxMjhlYTg3ZTE3ZDIzMTk0Njg1NjQ1NzUxOTlmMTE1YzFjZWEyMThiMjY3MThmNTI1N2Y3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2VhOTY2NTIyNjYzOTYxN2U4N2Y4NGIzNTQ0ZDYxOTVlOTZmZTVhOGY5ZGVhODMxNDk4YmMwN2RiMjAwNDQ4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGM2ZGE4NjBjNTI2ZjE1OWZmMGNkMGQwMmY4OTY1ZmFhZGQ0ZjEwNDA1NDQ1NTdlMTg5OGM3YmI5MGIwZTIyYSJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L90-L99",
+          "version": "repo-lines-v1:sha256:2b59b04124c72635091c78ca8e8e5a8f97713ee28e0ed709c251f3b8bd47397d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhmNjBjM2I4ZGRjMTkzYmQ2NGQ1NjY0ZDNmODNlMDUzMGI2OGUwYjcyODJjYjE3NzU0MzIyYWU4NjYwZGQxM2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5ZGQ0ZGE1NDA0MWU4MWM1ZjdiY2U4MmZhODI2OTI5MDI5ODU4NWQxNmUxZjNlZTNkYjhkZTdhNjQwMTFkNzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlYTk2NjUyMjY2Mzk2MTdlODdmODRiMzU0NGQ2MTk1ZTk2ZmU1YThmOWRlYTgzMTQ5OGJjMDdkYjIwMDQ0ODUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMyNWQxZWY4NjRiODFhMzBkZmIxODhlN2QwNzgwMTk2NTM0NDM2MzA3Njc1NThmMDYwNjRlMzNmYzk0MjYxYWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ec28e567b55744ea8acf4dd5c3c27eeb",
+      "statement": "Balance_Sheet computes annual interest as =C*D per line, base NII in J23 as =J21-J22 (SUMIFS by Asset/Liability, 76,515.95 minus 26,279.04 = 50,236.91), and a share check in column I (=IF(ABS(SUM(E:H)-1)<0.0001,\"OK\",\"CHECK\")) that is not consumed by Summary.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L166-L223",
+          "version": "repo-lines-v1:sha256:40ad7843579791102f272c5b51bbb655cf234bbdb6e7dc8f987962830b286571:eyJzZWxlY3RlZExpbmVDb3VudCI6NTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1ZDFiYTgzZjc4MjljNWY1YTJlMTJlNDg2YzExNmJhNjhhY2MzOTkzNzVjZTNkNWY1Yzc1ZmY1ZmU5MGUxYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjMTZiYzA5OGViNzBhYTA3MDdjMDhjNWY5NzE4MWE1MWMyMzRhM2IyZWVjZDAwZDhlMmJjYjE4ZjYyNWQzNDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgyZTIwYjRiYWUzMTIxMGQ2YjUyYzZhZDJjODY2M2RhZDI2ZjY1MTg3MzI4OWYyMzMwYjY3NDkzMzFhOGIwMjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRmZDdjNTIxY2I4OTExZmJhMjlmZDNmZDI3ZGViY2YxMWJjN2ExNTJiMzI0NGEyYTU3MGEyMDAzNWYzM2E4NWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_551a0323ef794eb3b92fb036323c1dc0",
+      "statement": "Rate betas in Balance_Sheet column L are 1.0 for all assets, repo and long-term debt, 0.45 for consumer interest-bearing deposits, 0.75 for wholesale interest-bearing deposits and 0 for noninterest-bearing deposits; cell notes attribute L15:L19 to the Deposit Behaviour sub-model 2025 calibration.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L169-L181",
+          "version": "repo-lines-v1:sha256:3341ae7bf213a01793615e0a68015db84c7fefbf3a8a6e875c3e643aff67663a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmZmMwMjVmZTAwMzBmNWI2ZGFlNTAzNzJiNGJiNTU1NDRiNjRlNGI3ODkwODI1NzJjZDBlOTcyYWQyNDc0ZjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjODVkZmRiZjdkMmI5OGU3OWNlYjA2OWNjZWUxOTMxM2M3YTgzMDJkM2M1MWJmNGJkMGJjM2E0YzZiOGM0NTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgxN2JjZTYwNjAxOTRiMjA2MDk3YjE4MzdjZWU4M2RkYTVjMWJhNGVlODYzMTNkNTkyMjcxNDQ2NzIwZDljNzgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1NWQyYjgzNGZlNDgwNTM4MDJhNWMzZmQxYWY2NGJlY2Q0ZjdhZWFjMDI0MjMyNDEzNTE2NWE5YjVjZDIxODAifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L225-L231",
+          "version": "repo-lines-v1:sha256:6bfeded2139cd894047961cfffdd444222c7592251fbd68347b164601ed48b0a:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkzN2YzM2JmM2JlZjhjMjMzYzc1MmZlMmU0YjhjNWM2YTVkNmU5MmQ2ODE3NzhkZDQwMjQzOGFjMWRjMjIyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGNlY2NhOWExMWJkODczN2Q3MzVhNmU1MTQ0MWE0MDlhMDhjYjYxZjBkMmYwNGZiN2I3MmQ0ZDRmZjQ3ODYzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTNmNzAxMDZmMzFlZDc4MDhkNGZhOWYyOTBjYWQxZTAwYTQ0OGEwODhlYjI2OWU1YWEzMGU0ZmQ1NTgxNWY3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzhhODRhYmU4MGMyZDY4OTlkNjNhNGU3NGU4ZWQ3MjI2NDI5NzczMmIyZjVmM2JmMDc4NWFlOTUwN2ViZGY0YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_83856b1b5a994037bd85b4a1488cfdf6",
+      "statement": "NII_Projection computes a per-line repricing factor as share0-3m*(H-1.5)/H + share3-12m*(H-7.5)/H (only the two near buckets are used, so 1-5y and >5y shares do not affect NII) and a per-shock effect =IF(side=\"Asset\",1,-1)*balance*beta*factor*shock/10000; row 22 sums to change in NII, row 24 = base + change, row 25 = percent with a divide-by-zero guard.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L273-L274",
+          "version": "repo-lines-v1:sha256:a7780b2b4c9d27baedf44bc074dccb5a7616c89887ad5d47abd3693bbb749465:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZjMmYxZDk1OGI0YjYwOTU2MWI1NWI5Yzg2ZThmYWFhNTg4ZjMyZjQ1YTZlM2ZiZTljNzA5Y2IzODEwNmZkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzhhZTdkZWU4ZTE3ZDg3NjMwN2JhN2QyZmM5YWRiM2FmZTU0NzNjNTlhZjllMTdjZWE0ZmEzMWZlNWFhNjYyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmMzYjQxNDUwZGFmMTYxOWFiMGQ2NWQzNjE5ZDBjYTQxODFjZWE1MjJkMzhmMjJjZmVhYmNhODkwZGE4MDQxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjQyNjIzZjQzMjliOTEzMGIyY2MxMzI4MmUwNjIzYzIwZmJjNDcxYzE5ZDkyYzU3NzFmMmZkMTczMzhjNzAxYyJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L36-L43",
+          "version": "repo-lines-v1:sha256:7ceab1ffe4fd232f0f3857d713f34b4e6ac905976c9ced037ebf96f6ccdec234:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FjNmZlNWVlZDZkYjU3OGIwNzNkMGIwOTMxZjBlMjMxOWRhNDEyMjRmYTI1OThiMGUxNWQ2MjAwMmJmMmU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2ViNzAyNTc1OTNkYTA2ZjY4MmEzZGRkYTU0YTlkMjYwZDRmYzUxNGY2NDUyMzdmNWNhNzRiMDhmOGRhNjFhNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTRiMTQ3MWY1YmM4NzA1MjQyMzg4OTJjMTg3MmM5Y2QwMzVkMDhjNDI2ODNiNWE1OWI5MWNlNjc4MGQ3NWY2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjUwNTJjYTIzNGUzNTJiYmE4OWZjNTM4ZmQyZWE4OWU4ZThjZjRhZTRjNzVkMDI3ODA0ZDlhYmE4NmIxYTY5NyJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L383-L402",
+          "version": "repo-lines-v1:sha256:b6dabbb6bbb42697aab4c5a9608b349b2f5b686908c6d6a2beacf268e1c327c7:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmN2RiMzc2MTcwM2QyYmRlNGI4YzJiNDc2MGExZGQyZTlkYTFmZmM0ZDQ3ZTdkNzNjMDIxMjdjNWEyYWJkY2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyMTEwOGQ2NTE1NDBiYTI1MmU1MDdmNmQ1ZjMyNWUxOWU0OWU2YjVjOGYwOGY5NDkwMDExZWMzM2Q0ZGUzODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViNmE3N2FjNDBjYjVkOTI5ZDBiM2EzNTU5ZWVjY2Y4NTJkYzhmYzVmMDMwMDZhMDE3MTE1MjFmNDczZGVhNDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ZjJmNTY0ZDc3MTcwMjYxZjQzOTYzYzFjMzExY2MwNGU0ZDNjY2RhZTExZDRmZjYzZGY2ZTk4MWU3NGY0MDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6aaf3681cc8c44f58c99f80f132ee851",
+      "statement": "The EVE sheet uses a first-order modified-duration approximation: dollar duration E=IF(side=\"Asset\",1,-1)*balance*duration/100 (liabilities negative), per-shock change =-$E*shock/100, summed in row 22 and divided by Tier 1 capital (Assumptions!B13) in row 24; book balance serves as the PV exposure.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L406-L408",
+          "version": "repo-lines-v1:sha256:eee3f18c40c5f8323519a397030c3154bbe37793d6a3593d3f616c6593108b3d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGM1YzY0MDZmMTIzNzA1OGU4OGI1NTViNjI5OGQ0NmRhYjQwYzZlMmM3OTNjMzE4MDUzNjhjYjVmYzBmNjQzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QzNzRhOTAxMGUwNDNhZTZiOGVhMDY1YTc5MmE1YWJjNWRhNzY3YTNjMTc3YmJlNWRhOWZjN2IxNzNmNGVhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTdmMmY1NjRkNzcxNzAyNjFmNDM5NjNjMWMzMTFjYzA0ZTRkM2NjZGFlMTFkNGZmNjNkZjZlOTgxZTc0ZjQwMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNlYTIxYzRiMGYwNjg4NTZkOTJkMWU0MGFlZTE4MTU3MjQxM2ZjZWFlMTIxOGYyZjlmNDg4ZTNmOGRhM2RkOSJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L445-L446",
+          "version": "repo-lines-v1:sha256:044677094b17a7d6e062a79e1eb510f43ec0155e7f1e1422f13420fc426b0743:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWUxODk5MzAyMDlhOTRmYjRlMTcyZWQ2NTgwYmM3NWE5NWMxYWEzNzc3ZTI2MzBjOThkMzI2NjMwZjlmNGIxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2FlMWU5ZWIwNzJmNWMzYzBhM2Y1YjFmZmYwYjU5Nzc3ZjAwZWExZGI2N2FiOGM5NTE1YjA2ZWUzNTUzMzJkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDljZWM0ZjVhNzFlYTdkZjQwYTliMTYxNzBhMzM3OGJmYzQxN2E5N2U3ZGVhYTAwMDg5ZTMyMDcwNDg5YTM4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjZmZGU3NTI0Y2Q5ZDNhOTYxYjk2MzFmN2NjOWFlYTRmZDU2MjJjZjI5OGEyZTY1NDg0MTNhYzE5YmY3YWVmMyJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L581-L595",
+          "version": "repo-lines-v1:sha256:f35ebaaaa6de8776e0508cf677bbc2512ed01f1591b932a36def04bffc02e13c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIyMDdhMWVhMDBkYzViNTEwYWZkMzJhYjkxZWQ3NWFlZjQ5NTk3NTY1OTNjZTZiZmVlMmRhYzFlOTc0MzYwNGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyOWJhNjIyMjFlNzlhNjM4MDcwMTViMTJiOWYzMjliMDU0MDcyMjkyMmNiZGQwZmRkMjVmZmY0NGZkNjgxNWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmNWUxNTA1ODliNDZhNGY4YjU0MDcwMzI2MGYyNjIwZmZmNDM2NDIzN2Q2MzYyMGJlNmJmYjlmNzBhYjIyMDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d4624530607d41cda3d3ec517caf5358",
+      "statement": "Summary rows 6-10 link projected NII, NII change and percent, EVE change and EVE % of Tier 1 for each scenario, and flag BREACH only when percent change is below the negative limit (=IF(E6<-Assumptions!$B$11,...) for NII and =IF(H6<-Assumptions!$B$12,...) for EVE), a one-sided test applied to every scenario; these flags serve as ALCO limit utilisation flags.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L51-L56",
+          "version": "repo-lines-v1:sha256:eea47c35dce12be72de0fb1c150b3db9bbfabbf107dde64d6e7c1f9063143213:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGI3MTUxN2IzYThiZDNiYmIwZDY1OTY2ZDBiMDUxMGNmNjE3NGIxMmU3YjkxN2U2Yjg1MTk4ZDBiYWIzNTFhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2ViNzAyNTc1OTNkYTA2ZjY4MmEzZGRkYTU0YTlkMjYwZDRmYzUxNGY2NDUyMzdmNWNhNzRiMDhmOGRhNjFhNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjI4NTkxOTM1M2ZhMDA5N2M3OGUxOTJlMDgwOGYxM2VlZTE5NzZkOTYxZWRiMTdiOTc2N2ZjZWYzZjg5N2U5ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmZkNjIwYWNiM2E1Njg4ZDA5OTFkOGY0Y2Y5ZmQ2NGYwZjI3NTYxOWExNjZiODZmNjBmN2Y5N2YxM2ZmZTU4MiJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L88-L134",
+          "version": "repo-lines-v1:sha256:39167eeee7196aa032d7d8a86f9a5db94c3572beaf63f12196424c84c0285632:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNDA2OTVmZDAxMjUxYzI1NjdmNzg5MDE4MTAzY2VjYTcxZTk2Yjc2NjE1ZDI5NjE3YTU2NDRiOWY3MTk2ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwOWYwNzkyZDAwNzI1M2U0MGE0OTEyODViNjYzMjc4MTA2ZGExZjViYzQ1YjRjY2U2NDM3M2I0MTVjZGEyZTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlNTMyMTYxYjYyNTFiZTM3YmEyMjBjN2FhZmU5Zjc0ZjYzZjdhM2QzMTQyZjJjNDQyM2Y1ZWU4N2M1ZTJiYjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNWJlZGQ2MGJjYTY5MTFkZDQxOTBjY2RhMmJlNjc3NTRiM2M2MzZkZjU4ZWFjNzFkOTRlOTQ4MWRjYjdiYTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_91677fadb8794aa08bc95880b3ba1e4b",
+      "statement": "As of 2025-12-31 base NII is 50,236.91 $mm; NII changes by -3,016.89 (-6.01%) at Down 200 and +3,016.89 at Up 200, EVE changes by +2,737.40 (+2.47% of Tier 1) at Down 200 and -2,737.40 (-2.47%) at Up 200, all scenarios Within limit; results are exactly symmetric because the model is linear in the shock.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L77-L84",
+          "version": "repo-lines-v1:sha256:d48d2fc1137d799edce1dadcd17df8d7d0694603f1c81204b360439727709190:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRiMWIzNTZmNTM3NTE4NmU4N2Q2N2MwYTJmZTg3MTJkMjRkZDE0ODVkZjM3MTgyMzMyN2I1NGExNGRkMWJmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU0ODVmMDcyY2VjYTRlYzRlMDVlMzY2OTg4YjRiZTU2YjVkZTU3ZTljZmY5ZGVhYWM2NTcyNjcxMDQ4NGQ5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2I3ZmQ2ODQ5ZjJlMzUyOTU2MTMxZDIwZDg0MGNmNzdiM2NkMjZmNGQyMWRlMDM1MDIxYjc2ZTE3YTdhMzk0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2U1MzIxNjFiNjI1MWJlMzdiYTIyMGM3YWFmZTlmNzRmNjNmN2EzZDMxNDJmMmM0NDIzZjVlZTg3YzVlMmJiNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3bdc5dadff4741d988c0dfe221a3f6f1",
+      "statement": "Stated limitations are parallel shocks only, static balance sheet, no rate floors on deposit costs below zero and constant betas across shock sizes, with a quarterly dynamic balance-sheet simulation in the ALM engine as the compensating control; Board limits are NII decline at most 7.0% of base NII and EVE decline at most 15.0% of Tier 1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L57-L62",
+          "version": "repo-lines-v1:sha256:e9f1a84255b063ac1ebd07b75e307c2db6d8afcd92211a7a477b1625cede980f:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGU0ZDYzZTU3MjBjZTE0MDJmYWQ0ZTkyNTE2MzBlMTE4ZmJmY2NjYzA3YzVjNThlZTgyZGQ0ZThjZjI1Y2FhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjcyZWYyNDRkN2U0M2VjZmRiMDAwY2NhNDMxZDQ4OGZhZTM0NjhiYzQ5MzFkYjZhZGM1NTkyZTc1ODgzNWUzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

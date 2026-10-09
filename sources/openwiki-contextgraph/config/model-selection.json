@@ -1,0 +1,88 @@
+{
+  "comment": "Ranked model candidates per role. Picked by tools/select_model.py, which probes availability on the configured provider and chooses the first candidate that responds. When selected_at is older than review_after_days, the selection is STALE: re-research the current model landscape (price + quality) before building, update the ranking and selected_at.",
+  "selected_at": "2026-10-09",
+  "review_after_days": 120,
+  "rationale": "As of Oct 2026 the Claude cheap tier (Haiku 4.5) is the best price/quality for bulk wiki writing when available; Sonnet 5 is the balanced flagship used when Haiku is not enabled on the provider (e.g. Vertex project ailab-etg only exposes claude-sonnet-5). Opus is a last resort on cost. Revisit as new Haiku/Sonnet generations ship.",
+  "roles": {
+    "semantic_build": {
+      "env": "OPENWIKI_MODEL_ID",
+      "candidates": [
+        {
+          "name": "Claude Haiku 4.5",
+          "why": "cheap tier, good enough for page writing when the brief lists required pages",
+          "ids": {
+            "anthropic": "claude-haiku-4-5-20251001",
+            "gemini-enterprise": "claude-haiku-4-5@20251001"
+          }
+        },
+        {
+          "name": "Claude Sonnet 5",
+          "why": "balanced flagship; stronger planning/tool-use; use for quality builds",
+          "ids": {
+            "anthropic": "claude-sonnet-5",
+            "gemini-enterprise": "claude-sonnet-5"
+          }
+        },
+        {
+          "name": "Claude Opus 4.8",
+          "why": "highest quality, highest cost; only if cheaper tiers unavailable",
+          "ids": {
+            "anthropic": "claude-opus-4-8",
+            "gemini-enterprise": "claude-opus-4-8"
+          }
+        }
+      ]
+    },
+    "memory_sync": {
+      "env": "CONTEXT_OPENWIKI_MODEL_ID",
+      "candidates": [
+        {
+          "name": "Claude Haiku 4.5",
+          "why": "memory updates run often; cheapest capable tier",
+          "ids": {
+            "anthropic": "claude-haiku-4-5-20251001",
+            "gemini-enterprise": "claude-haiku-4-5@20251001"
+          }
+        },
+        {
+          "name": "Claude Sonnet 5",
+          "why": "fallback when Haiku is not enabled on the provider",
+          "ids": {
+            "anthropic": "claude-sonnet-5",
+            "gemini-enterprise": "claude-sonnet-5"
+          }
+        }
+      ]
+    },
+    "qa_agent": {
+      "env": "AGENT_MODEL_ID",
+      "candidates": [
+        {
+          "name": "Claude Haiku 4.5",
+          "why": "fast/cheap answers (6-17s target)",
+          "ids": {
+            "anthropic": "claude-haiku-4-5-20251001",
+            "gemini-enterprise": "claude-haiku-4-5@20251001"
+          }
+        },
+        {
+          "name": "Claude Sonnet 5",
+          "why": "fallback when Haiku unavailable on provider",
+          "ids": {
+            "anthropic": "claude-sonnet-5",
+            "gemini-enterprise": "claude-sonnet-5"
+          }
+        }
+      ]
+    }
+  },
+  "build_history": [
+    {
+      "corpus": "semantic-corpus-cnb",
+      "built_at": "2026-10-09",
+      "model": "claude-sonnet-5",
+      "provider": "gemini-enterprise (Vertex AI, project ailab-etg, location global)",
+      "note": "Sonnet used because it was the only Claude model enabled on the Vertex project; Haiku 4.5 returned 404 and the Anthropic API keys were credit-blocked."
+    }
+  ]
+}

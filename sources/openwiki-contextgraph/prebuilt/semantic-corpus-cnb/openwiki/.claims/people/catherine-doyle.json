@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c7e9350370fca131902e322472c8556ef272a65c11ab6f30bb4a7580cdd9575d",
+  "claims": [
+    {
+      "id": "claim_329ed0320d1a499c81bd5514a877d137",
+      "statement": "Catherine Doyle, EVP and Chief BSA/AML Officer, is named in the PTT leadership roster as the second-line owner of financial-crimes policies including POL-FCC-014.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L39",
+          "version": "repo-lines-v1:sha256:5d4b91a43a414637945b74014410be294eb5fab2b724d4e6d8a253d006f9061c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNWVjNmY0NDBkZjM0Mzc3OTdkZGNjZmMzZWE1NDRkZTEzMmU0MjMxMDc1NTYxY2Q2NWVkMjQ3OGI0ZWYzMzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxYjMzNWUxZGI3M2Q4NTFlZjc5ZDQ0OTRkMzU2ODJhZjMzN2I2MTczMTY3Y2EzMzdkNThjMDcyMGY2MmNlYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjYWNiOGZlMzRiNTdmYWZiNjU2NmQxZTFlYTFhNTNkOTllNmZhZjcxYzU0MjFiYTJmMzgyOGU0MDVhZGU0MWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlkODAzODk3ODZmMDJkZWZhODczMzNhNzJjZWNiOWVhYzQzZGY5MjE4ZmJhOTM1ZjM4ZTU2YzU1ZWViOTU1MjkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e15141d7e5e4a338854cfbc932f2d35",
+      "statement": "Catherine Doyle is listed as the accountable leader of the Financial Crimes Compliance (FCC) partner function, with Jordan Ellis (FCC Policy & Advisory), Michael Tran (OFAC), and Rebecca Stone (FIU) as the designated contacts for product/design reviews.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L76",
+          "version": "repo-lines-v1:sha256:29a82c4ca27a76ecf2eb7738d8713a0123db25932946ca8cf354860648692b07:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1ZWU0NDJmZjljZWJhNTU3NWMwNzE0ZDY5OTM3Njg0MTQ5ZjJlODYyYzY0NDk1MjQyZTNmMDk1MmEzMWU1OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f0b4d82021e94a98b725971bcbb83cc7",
+      "statement": "Compliance or policy interpretation questions that cannot be resolved between engineering managers are routed to FCC Policy & Advisory (Jordan Ellis) or the Privacy Office, not decided by engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_16b6c0cda1f6406198fc652596ab55c0",
+      "statement": "Catherine Doyle is the document owner of POL-FCC-014 v3.2 (Customer Communication of Payment Status, Holds & Exceptions Standard), co-owned with Michael Tran, SVP OFAC/Sanctions Officer; the policy was approved 2026-02-12, effective 2026-03-01, with next review 2027-03-01, and Jordan Ellis is the policy contact.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L15-L22",
+          "version": "repo-lines-v1:sha256:fdc51f5871b105344b5466e7e014f8c1fddd5439a6c18dea3444e13edb91b7fc:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwODQ0NDVjMThhYTJkMWU4ZmEyZDc4M2Y0YmM5Zjg3MzNmYTM2MzJlYzRkYjdkYjQyZTNlNGViYTI1NDM5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFhZTgwOWNkOWFhNTUzZDJlNTA3MTM1ZWU2NmRlNDM5NDNjNTczM2Q0MDQ1MWRjODAyNjg5OWNlNjU3OWRhOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODE2ZTQ0MWViNjczOGIxY2E1ZGVmMWNmZDAyMWVjNzZjZjUzOTllMTFmMDZlY2JjMWZiMGMxY2U0NDM5ZWI3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUxNzllYzhhMGM0YWY0NjdmZTk4YTY5ZjRlOTM5ZGE3NGNkZTEwYTU3MDFiZTUxZjYxNTQ5ODFhM2FkOTVjZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_65783a132b604bc49eb7572a8ffd91cb",
+      "statement": "POL-FCC-014 defines a four-tier disclosure model (P/C/G/R) for client-facing payment status, requiring tier R (restricted) holds to be presented identically to tier G (generic review) holds so clients cannot infer the nature of a review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L44-L51",
+          "version": "repo-lines-v1:sha256:de2e7d7895beb0c76c9802ac5bb4352c754a6f20c1ab7ecb7e0e495f64ead307:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzlmZDA3NDY2NTRiYjk1NDVhYjdjNzhkOTIzMjkyMTgwZjI4ODIwOTdiZGUwNTk3ZmUwNWZjOWEzM2IyZDczYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDYxNDEwYWM4YmY0NjNmNWE5NGYwZWQ1MWQ0ZTJhZmI5MGM4NTQ3YWJlNDY5NWZkYjhlNzQ3ZDZiYmI0ODJkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ0OWJkODAxNjcyNjhmZTFjODAyYWZhNTFlMmEyNmQ5ODBmMzljODEwYjU4NGFhYzk5MDU3ZWFkN2IwNmJiMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODZkYjNjYTc1NDg1NTM5NDUyYzNiZDZkYmJiMGVmOWI3ZTBjZjFlZDA4MTMxZWQ4MDdmOTIwMDE0NmEyYTJiOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L63-L69",
+          "version": "repo-lines-v1:sha256:4df81248069959a8a5ef5f7ee9b2c244a4d1765d3286767db8ae96f76d2ac6af:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTIxY2E0Y2RhYjgwZmM4NTljNzkzZTRjOWFiMTY4NTM3OGEyMWRlN2RjMzNlMjZkODc5YTg0ZWY5N2IwMGZlMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTIzNDhjMGYzMzhmNGE4YjRmMjUyMDM2MGU1ODc1MzhiMjQxY2QzMzlmMDdlMmZjYWZhZThiMTVmZTMzZjM0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY3MGE1MGRmOTU0ZjY0YjkyMzdlY2VlYWE5OTU3YmMyNmZiZWJlY2Y0YTZlYjdlYjMyZGQ5N2M4ZTFhOGY1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c29c5e2f12f44620b043447445d3fa0d",
+      "statement": "POL-FCC-014 prohibits display of restricted hold reasons, codes, scores, list names, match details, analyst notes or queue names in any client-facing channel, and forbids showing estimated release time for tier G or R holds; sanctions blocks/rejects are communicated only by Sanctions Operations.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L65-L75",
+          "version": "repo-lines-v1:sha256:713540d9a219644e755aaef920b7ed7d2ee75da0bd69b6436b095ff0ff649d40:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0NmQzNGY1MjU5MmMxNWFlYTQ4Zjg1N2I5MjUxZjI3NTFhNzAxYTdjNWY1NzFjMTc3N2Q3MmNjM2NkYjc1OTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwYTRmNzM3MDdlZTMzZmQ2OTMxYmNkOWJkNmUwZGQ5YWFhNjBkNzI3ZDA4MDFkNTA5ZDU2ZDA0NWMxOTg0OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ4NmNhYWI4MmNlODlkMzQ4YTAxYmIzZWE3NTNhNDFkZjU3NWNiMzM1ZmEwZThhYjE1NTMzMTQ4NTM3YmZkMDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc3NjNhNDQzNjllYzU4OGM3MGY1N2UwNzJlYzZmMTM3YmFhN2Q0YTljYzkyMzY2NWE4NDJlZWEyMjQ3N2Q1YmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_631070ed85fa40c1973e3de1ebc39f77",
+      "statement": "POL-FCC-014 restricts status terminology to specific network-confirmed events (e.g., Fedwire acceptance for Delivered/Completed, gpi ACCC for Credited) and prohibits using these terms before the corresponding network confirmation is received.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L77-L86",
+          "version": "repo-lines-v1:sha256:02c4cf15078950615a6b28997f2a0455c3d25985f70b061ef467564b47b7f767:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkMDliOWMyNTM3ODE5YmIzZjA4ZDUwYTY5NGQ0MjU5NWU5NmZlYTQ5MGU0OTIzMDE1NGZhMGNkNzU0MTFmNjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ2ZDRlMjczZjE2NGNkNjU1YmFiNjdmYmViMjdkNWU5YThmMTQxY2NjZmY5NjQ5MDkyNTFjODY5ZTJkMjZmMjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFiODFjN2I5ZWI0M2Y3OGM5ZWUwMmJlNGVjYjEzNmRlY2ZhZTAwZjU4NzIwZjAyODcyM2RmYTdjMDFhMDJjYjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZiNTQ4NTEwYTk5NmFmMTNlZGU5MzAzY2RlZDY1M2I4OTU1NzYyZTA2YjI5YWQxNmJlMzBhNTYwNmI3ZDA2NDkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_49e511184d1141fd8166d939ca2f173f",
+      "statement": "POL-FCC-014 limits payment status shared with third parties at a client's request to amount, currency, value date, status milestones and a reference, excludes account numbers/fees/internal references/hold information, requires links to expire within 7 days, and requires InfoSec and Privacy approval of the sharing design.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L92-L94",
+          "version": "repo-lines-v1:sha256:5ebdbc5f61eb14e5894c62b75eb02728afa285362f605c549ee824a240c90f7a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1ZDY4ZWE1YWEyZDU1ZTU0MDdhNTRmNDU3MTUxODQ5YTQyOGEyNTkxZWZlM2NlOTdjNzE2MjkxNjExYzUxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWNjYWUxZTFhMzY2MjNhYjliZTdkZTNjNTY3YjI5MmVkMjkwZTRhOTVhMDBkMDUzYjZiYjdkYmJmZjA0NTcyZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGZmOTI1NzI1ZGUzYTA5ZDgzY2UwN2FlNGRjYWI1YjQ2ZmIyM2EyMzk4NDYyMzE1ZjI3ZDU4ZmY0MGNhYzM1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2I0OTNiNzM4NzAwN2IxMzE2NWI2NDJhMzQwNjE3NDA1ZDU4NTQyNWUxYTlhYTMxMjU3OWEyYzU0NTA1ZTc1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3e35a96181e84986a67e08c74ef949e4",
+      "statement": "POL-FCC-014 requires client-facing predictive/insight statements about payment completion to use only the client's own data or DUS-07-compliant cohorts, be registered with Model Risk Management where MRM-POL-02 applies, carry a DRC-approved disclaimer, and never be shown for tier G or R holds.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L96-L98",
+          "version": "repo-lines-v1:sha256:e99d2baf094f5a6a7951d7f4bd04314935a767e989b1c67ff71ef7cc922497f3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDQ1M2MxYWUyNTFmZjdmOGEyN2M5MjQ4ZGY1NzIyYTBkMWU2MWI1ZmU5N2U4ODVjM2NmNmQ3OGM4Nzg0Y2UyMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiOGVkMDgxMjYyOTY1NTk1ZDIwODAzYmJjMmJlYWJhN2RkZjBjNThkZTVkODY0MzdlNDAyMWQ5OWM1N2VhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDkxOTY4ZmEzMjg3MWJmOGNjMjFlMDE4ODRmNDljY2Q4NGUyYTI2Yzg3NDZjN2E2ZmY0NTQzNGZlMDAzMjc0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjgyODBlZWUwOTE4ZmRkNDkyZDA3MDJlNDg3YjkxZDkzYWJiYTAxODFlMWZkNjUxMWQ3M2QyNDJmNWM4MTYwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ed368f150fd94fa8b97f6ac5e955bc67",
+      "statement": "POL-FCC-014 requires FCC Policy & Advisory review before build commitment and DRC approval of final copy for new or changed client-facing status/hold/exception experiences, and requires Chief BSA/AML Officer (Catherine Doyle) approval for exceptions to the standard.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L100-L102",
+          "version": "repo-lines-v1:sha256:df3fcb6237816c88e8de3094ed2fef1d4e917b1307ab6ec0e9a7e54c2a3ddaba:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzEwNGJlM2FmZDJmNzUwNjU4Y2U1YjMyNzk1NjYyMjA3M2Y5MDRlNzVhZWIyYWU5ZmRlOTkyMzQ4Y2FmODcxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJlYTA4YzliMjViMjYwNmYzNThjMzhjNzMxY2Q1N2I3NGViYTRmZTYyOTQyMjg0NTQ4NDk4NzgwZTZiMWE3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjY1MDJjMjM0ZTMwN2JhNmE4N2FkNjZiNmJmYTA3M2E1YzU0NzU0ZDM3MTgzZTE5NTZlN2I4ZDQ0MDhjZmNjOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTgxOGY1NTlmZWEyZGEyM2Q0MzQzYmY0NjQ4NDk3OGM4NjA4YWZmYTI3NDEyYzM1ZGMxZjFjMDg1ZDZlM2Q2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7b827ec9a2614db68decaa467a6c0d05",
+      "statement": "The FCT Change Advisory forum meets bi-weekly with a 5 business day submission lead time, requires FCC sign-off for hold/screening changes, and observes a year-end change freeze from December 15 to January 5.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L104-L104",
+          "version": "repo-lines-v1:sha256:63d027daad508af59de04bac07bc7261ca90abb2139c44a21bd1b94446269a74:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzE2YjlmMTc1MGJlOTRjNDVhMDNiNWFlYmU5MDEwMzZlM2QyZjhkN2ViOTQ0MGE3YWNhYTc3NGY1MzQyZGU2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_358216d42da24e8484e5fe0c36e9f32d",
+      "statement": "The Disclosure Review Committee (DRC) meets bi-weekly on Thursdays with a 5 business day lead time and approves client-facing copy, disclaimers and notification templates.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L116-L116",
+          "version": "repo-lines-v1:sha256:b3def72cd68c3b10f9cb95117a2ce5cd621b5580839612c883655b744564b326:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkZWY3MmNkNjhjM2IxMGY5Y2I5NTExN2EyY2U1Y2Q2MjFiNTU4MDgzOTYxMmM4ODM2NTViNzQ0NTY0YjMyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkZWY3MmNkNjhjM2IxMGY5Y2I5NTExN2EyY2U1Y2Q2MjFiNTU4MDgzOTYxMmM4ODM2NTViNzQ0NTY0YjMyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQwNzU1ODQ5NWUwODQ2M2VjZjQ4NmM4ZTMxNzM0ODI0NWZmNTY5NGM0Nzg1NmEzZDNhM2MwMmEwMmQ0Y2ZmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzNiYWExNmFiMDk2ZmY0N2Q5MDNmNjkzMDliYTU3NWU3Y2ZkZjliMjE5ZmQxNjk0ODc1YzNmYjJmNWE3Y2Q4OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_eb3f1b8d4307410bbf1eefd562de43f7",
+      "statement": "The PTT engagement directory's planning factors budget roughly 1 story point to 8 engineering hours plus 20% independent compliance testing for Financial Crimes Technology (FCT) work, and approximately 10 business days per review for FCC Policy & Advisory.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L131-L135",
+          "version": "repo-lines-v1:sha256:e54559ddb19bba6d7d6e8cb85e2563fb34364a9a557094f9d9436b37451e674d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM3YzEzOGZmMTg4YWM2Yjc2MmUxNGIyNDZmMWYwNTlhNTc3MzZlMjliZmU3YjI2OTcyMmIwMDQ2NjI2NjhjNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2RiNDlkMDY1YTA5NjAwMjExYTEyOTRkNzcxNjBiYzVhMDVlZmQzMzZmNjMxMzZlMWFlNzAzMTVkZGIzNGNhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDIwNWJhMmIxMjFlOWE0ZDQ1NDQ5OGNkNDRmYTJiNzE0MzQ3Y2VkMDgzYmI1MDBhMGE3YjQ4YzIzZTY3ZDJmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGFlODJlODRjNDY2ZTQwMjlkNmZmYzA0ZWQxYjc1N2EyNDJiOGVhZmQxNWQzMTgwMmM0NTUwM2E2ODUxZDUwZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_17144347fb1e484a81325fa5266f89f1",
+      "statement": "Financial Crimes Technology (FCT), led by Victor Petrov with Grace Mensah (EM) and Daniel Kowalski (Tech Lead, Hold Management Service), is the engineering team owning the PRSP Hold Management Service (SYS-PRSP-HMS) and PRSP SanctionScreen (SYS-PRSP-SSC), whose business owners are Rebecca Stone (FIU) and Michael Tran respectively.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L50-L50",
+          "version": "repo-lines-v1:sha256:192e25d4f5b45ea4665adeda7d1aabdb49a6ff2be34b3e3d4cf2c0175be30729:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkyZTI1ZDRmNWI0NWVhNDY2NWFkZWRhN2QxYWFiZGI0OWE2ZmYyYmUzNGIzZTNkNGNmMmMwMTc1YmUzMDcyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkyZTI1ZDRmNWI0NWVhNDY2NWFkZWRhN2QxYWFiZGI0OWE2ZmYyYmUzNGIzZTNkNGNmMmMwMTc1YmUzMDcyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTljMTUwNjlhOTM5M2NlOTI2NWIzNTRiYzYzZjExMjg2ZmUzZTY5ZDNlMjY4N2NlYTZiNmNiNTFhZTNiNTEwMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L90-L92",
+          "version": "repo-lines-v1:sha256:3ec853561a13f92a25876c2fc672fe863cea5759d6d95f3a7b8c6a58bbc16607:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3ZjBiZjdmMmUxMjA4NjM0Mzg2YjlmZjcyZjM3ODQ1ZmUyOTdkN2UwNGNhNGQxNTc4NWRkZmQyNWE4NGJkMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkYmY2NzJkYjRlNjVhM2I3OWI3NzUxYTExNDY3MzRlZjM0MTUxZDUwM2VmMTBmNGIyNjhhNDA3NWUwZjNmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlZTM1NzdlMWFmMGE4OWU2MDJiN2ZlMzgzYjAyZjQ4NWU0YmRjYmY5NzkxMzQ0ZTMxNDFmYjE4ODExMGE4YyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:cab7ce276081ee5ce07242d3a2c87a5a7d2591e064a126c2933af3e32304de76",
+  "claims": [
+    {
+      "id": "claim_c95549b08197411890ca794291909c3e",
+      "statement": "CBO Auth exposes a reusable step-up authentication endpoint, POST /cbo/auth/v2/step-up (catalog ID EP-AUTH-01, v2), supporting push notification or OTP challenges, called synchronously by cbo-wire-bff.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L44-L46",
+          "version": "repo-lines-v1:sha256:8f8c0720e7a9041c007af930c3166c6e897e728e529a7e4babf05f18fc18d0a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDllNzA3YTg3OWEyMDg5ZDg0ZjE0OTI2NjNlZGVhYTY2YTY3Yjk5NmM1NmM1N2VmNmIxOTFkMGU1YTMyNDFmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU0YWI1OTcyMTMxZDdlNDM5NzRmNWE1ZDRmN2VkODljMGZhZGQ4ODE5ZDBmYmQ5NmNhNmE2YTcwOGYzZWJmNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDlhMWQ3NTk3ZjkxZGM5MTdjOTI5NzM2ZjI3M2UwOWJmZWViOTUyYjlhZGIzZGRiYTRhOTRmYTRkNTJlOGRkOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBmZGY1MDBlMWZiNTYxMWVlZDhmNzliYmU0MDY3NzI0ZDJmY2VmNzQ3NzI4YTlmMzhjNWQ0OTQwNzBiYzViNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L60-L66",
+          "version": "repo-lines-v1:sha256:839927bcc63806e1d18f4ac01b5f268a4703dedfc70b3523fda8cad3858e9c4f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTM5NTFkNDYxYjVjY2JjYzFhZTdhODhjMjc1NWNjYmU2YjJkOWMyNWYwZjdjMGUyOTgwMGRkNjU3NTAyMDVmNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTYxYTFmYTQ2YzNmNzRkMmVhZTAzMGVmNDgyOWE4MDBjMjUxNGE1NjcyZmY0ZjIyMGY1ZmY0NjFmNGE3MmMzOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQ3ZThhYjc0OThmZDQ3YTgzYzI4MjFhZGYyN2YzN2FhNjU5OTM3NmRjZTk1YzZmMzcyZmY1MDM2MDFlZmUyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2I4YjI5YzU5ZWUyMjNmYjg1NGE0MDRmMzFhYmIzOWU3MmY4ZWI4N2Y4Yjg4Y2M3NDIzNzA3ZTU0ZTY4YTcxMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c72ca9319a24ade9a05ee7491b59aa8",
+      "statement": "In CBO Wire Center, wire release requires both step-up authentication (EP-AUTH-01) and client-configured dual approval above client thresholds; these are independent, both-required controls.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L115-L119",
+          "version": "repo-lines-v1:sha256:ede1ff782da99c4e0112eaf723cab878eb610f62fdb12d55ba3426ced67b19c6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZkNDU4MDAzNmYxMzhlMTQyMTcyNjE0MmYyZDhhMGEyMzUwOTAzMGJiMTk4NmZmZmMzMmM0NWMzNzc4MjQ3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjViZTVkNjY1ZjRhOGM3YWI2N2YyNmU1Mjg0MDdlM2I1NzIyZWY2Njg1NGZhY2YxYTg0Y2IwYTY5NjEwYTc1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBmZjEwMDJmMjM1MWZmNTQ1ZTM1NTUxZjdkMGE2NDQ4MjI2MzFmN2I4MWM2MTExODE1YjRkMTFhMWM2MWM1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWMxZGM0MWZiY2MzZDUxZmMyZmJlYWZkNDNlYzc2NzAyZDIwMTMxZGM1MzY5ZmRmZmU0NzI1N2YyZjVhZjJmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_03f85fbe87a0456b88de586f3d4ff1be",
+      "statement": "The Wire Center architecture document lists step-up authentication (CBO Auth v2) as a reusable asset, already used for wire release and reusable for other high-risk client actions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L145-L153",
+          "version": "repo-lines-v1:sha256:79f0bdc52fc5143da19bce081bfcad012d812c89957514356786bfb5e6fc642d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZlNzVkNWJlMDkwMjY3ZTRhMjhhZWIwODNiMTgxYTE2MDkzOGI4OTI1MjgxMmJmOGIyZTE5ZjFlNGIxMzE1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE3ZGQ0Y2IwMGRkYzEyODY5YTIxNzBlYmEwMDkxOTA5OTQ3MmM2NDFhMjEwOWJmYWUyYTc1NTQ5ZjcxZDRhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2JjNzI3OWY3M2I4YWJjYzE4OGE5MDNiZmVmNTJiZGNlMzAwOTVlNDY5NTNkYjNiM2I2MTk5MmI4ZDhjM2QwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0ZDRmN2M3NGUyZjNkN2JhNTIyM2IzYzM0N2Y0MjI1MWQ4YzY1ZjRkOWU4MzAzN2ZkNDcxOWNkODU0NzMxOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b2a7b45c80f14d9fb2f7851c6a42f429",
+      "statement": "POL-FCC-014 permits client digital attestation (confirm/cancel) on duplicate-suspect holds (HRC-01) via a digital channel only when using step-up authentication of an entitled user, per control CTRL-PAY-031; this is the designated future candidate reuse of EP-AUTH-01 referenced in the Wire Center architecture's purpose statement for step-up.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L106-L108",
+          "version": "repo-lines-v1:sha256:aa4b8593eaecf629aad5f9f8c0f763c94a0c6f0af7d7b2d0f7479b460385f1e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzg1ODU4ZDFjZjYyNTllMzJjOGNjMjVlNzI2OTg1MjQ3MGI4MjEyY2IxZmMzZTUxNjVkODU0YzNkZmI5YmUzNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDk0MTcyYzkxMzM0ZjQ2ZmJjYjU0NDJiODljOWQxODRiYzc1MDM0MDRkNWY1ODY1NTdmZGQ0MjhlNTg4YWJlYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTgxOGY1NTlmZWEyZGEyM2Q0MzQzYmY0NjQ4NDk3OGM4NjA4YWZmYTI3NDEyYzM1ZGMxZjFjMDg1ZDZlM2Q2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTY4NjhlMWE5MDZkNzViNGFmMmZmZmFmYzQyNmE3ZjMyY2IzYTBmMmQwNGYwYzI3YjhlZTkwYzdkZGQzNTQwNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L71-L71",
+          "version": "repo-lines-v1:sha256:e3ed2bd30eb5f1106806992978f3b883f89135f723230f1881ad7460548590b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTNlZDJiZDMwZWI1ZjExMDY4MDY5OTI5NzhmM2I4ODNmODkxMzVmNzIzMjMwZjE4ODFhZDc0NjA1NDg1OTBiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTNlZDJiZDMwZWI1ZjExMDY4MDY5OTI5NzhmM2I4ODNmODkxMzVmNzIzMjMwZjE4ODFhZDc0NjA1NDg1OTBiMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWUwNWQyMjk1NDMwNDNmMjQ4ZjQ5NTVhMWY1Njk2MGZmMzgxMDEwZjU4Nzk2NWMzNmUxNGU1YzNmMmFhZjRmNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGUwZDAyZDExNTVjYTYwMTM0YjAzZTIxNDA3YjYzNzFiMTk4Y2JiOWEzMzYzMDY1MTMzOGNhNWU5N2IyNzI1NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b4b2a565eacf4996aa0e5df421cb09eb",
+      "statement": "Digital attestation for duplicate-suspect holds (HRC-01) is capped by control CTRL-PAY-031 at amounts up to USD 5,000,000; amounts above that threshold still require Wire Room (manual) release regardless of client attestation, and as of the current baseline no digital attestation path has been built.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L161-L163",
+          "version": "repo-lines-v1:sha256:9073eaa4cbd136eb72a76efc3f78e80e6958776858324e65729757b12512aca8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzY2MzY0MzkyMGVhZDE0ODg3MGFhYjAyZTM0Y2RkMTZhZTk2ZGI1YmY1YTU4ODMxNjJjYzgzMDhlYjA3YTNkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI3MmU1NGExYTkwMTNhZTc2MDIwZjczMDk5MWEzMzQ4OWZkMThjOTI2NTZjOTRmYjQ0ODFjOTk5ZGVjNmJmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODEyNTI1MWNhMDNlMjlhMzA1MTU4ZDhlNjg3MGVlY2QzOTIxMDliYjQxOGE0Y2FmNGIzMWFjMWNlZjQ5NGMzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRiMzcxZTNmZTBkZDY3MmJlYjY0N2RhZWU5OTI3ODZiZjJjNzdmY2Q0NzZjNmJiNDlkNWMyNTBhNWIwMTI5OCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L96-L96",
+          "version": "repo-lines-v1:sha256:31d3648eb29f1055110005b4fadd605b41069ce841721a0b0ce1a379655696a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFkMzY0OGViMjlmMTA1NTExMDAwNWI0ZmFkZDYwNWI0MTA2OWNlODQxNzIxYTBiMGNlMWEzNzk2NTU2OTZhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFkMzY0OGViMjlmMTA1NTExMDAwNWI0ZmFkZDYwNWI0MTA2OWNlODQxNzIxYTBiMGNlMWEzNzk2NTU2OTZhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWFmNDRkMjNkNzAxYTZlODQ3Y2NlYWQyZjU0NjA5ZjFmZjYzMjdmY2YxMTgyMjk3NDFkNWQ1YWJhNTIwMmZlZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZmMzczY2E3OWVmNGU3OTZiYTgwYzYzMmMxOWM2MjQzMTJiMGFjOGRmZjQzMTY5OTdjMDc2ZmFlZmU0OWQzYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_125ad02d23e94afd81d72766265a4e37",
+      "statement": "External sharing of client transaction data (e.g., links/documents shared with non-users) is a distinct capability from step-up authentication and requires its own InfoSec design review under SEC-STD-22 and a Privacy Impact Assessment, independent of step-up usage.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L121-L121",
+          "version": "repo-lines-v1:sha256:adfa4de9d4fabbac138308365976c83889d9df9a3715e97cfd02f2834e1843b4:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRmYTRkZTlkNGZhYmJhYzEzODMwODM2NTk3NmM4Mzg4OWQ5ZGY5YTM3MTVlOTdjZmQwMmYyODM0ZTE4NDNiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRmYTRkZTlkNGZhYmJhYzEzODMwODM2NTk3NmM4Mzg4OWQ5ZGY5YTM3MTVlOTdjZmQwMmYyODM0ZTE4NDNiNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWI3ZGYzNWQzMzg5ODJkMTZmZjllYTM0ZmI1OTM5ZTk1N2RjZjIzOWFiZjI2NmY4MDVkNDBkMmRlZWJmNGFkOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNThlZGMzZTA1MzEwYWJhODg0NzgzNDhkNDY0MWEzZmNkZGZjYmRjMDZjNDkzYzU5NmZkMmI1OWUyNjZmYzAyNiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

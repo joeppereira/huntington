@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f3f8b037288206e47504151228953490ff6fb4be1f1797fd07ef4e40c38bfe62",
+  "claims": [
+    {
+      "id": "claim_e8cdbe111236476f865981a0cf9752d4",
+      "statement": "PRSP-HMS-3.4 is Crestline National Bank's RESTRICTED - FINANCIAL CRIMES design document (v3.4, Approved, last reviewed 2026-06-24) owned by Financial Crimes Technology (Daniel Kowalski / Grace Mensah), approved by Victor Petrov and reviewed by FCC Policy & Advisory, that defines the Hold Management Service's hold lifecycle, hold reason taxonomy, controls, interfaces and data-handling rules.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L1-L23",
+          "version": "repo-lines-v1:sha256:c993e953884a8fb6f99c08592f09ba55f185b848f53c08273d6c9060dda15d68:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0Y2QzNmY5MWI4MTQ1MmFhZWNhMjFlYjk1ZmIzNzk3YTVhYzA1OGUyMzIzZDdhNTA0YjA4NGQ4Y2UxOTk3MTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY2ZmI2OTAxMjBkZjE2MWIxNTJkYWY4MDJjZDlhNWQ3NWFiY2YzMjlhN2QxZjNlZGM1Mzc1Zjc1MDYzNjkyODEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4b2ff727b9e44e8ab64969d3c5b44335",
+      "statement": "The Hold Management Service (HMS) is the system of record for holds on outbound payments and is one of three components of the Payment Risk & Screening Platform (PRSP), alongside Sentinel Fraud Scoring (vendor model M-FCT-0021) and SanctionScreen; HMS work queues surface to Payment Operations and the FIU via the Investigations Workbench (IWB).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L24-L26",
+          "version": "repo-lines-v1:sha256:f6fb690120df161b152daf802cd9a5d75abcf329a7d1f3edc5375f7506369281:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZiOWRiZmI5ZWE1NDM4ZjgxODQxMjU3MzI1ODg1NTg5MzViNzdlY2IwNzkzYWQ5NzQ2MmJlNThhYzM0OWRiYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDExNzM4NWI2ZjM1NGNjMDk3M2YyZWQ2Y2JjYTIzMGQxMzRmZWViZDhiZTA1MWVmZTc0MTM0MDBiNzcwMjA3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODljZjZmNGYzOGVkMjhhYjdmYjJiMTM3NTk4MGNjZDEzNjBlMTk2MTNmZGVkYjljMThmYTE5M2UxM2U3ZDI4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_11c37188434c4070b62d310168ec1e65",
+      "statement": "A hold progresses through the states OPEN, IN_REVIEW, ESCALATED, RELEASED, REJECTED, BLOCKED, and EXPIRED; RELEASED/REJECTED occur via maker-checker disposition, BLOCKED moves funds to a blocked account reported to OFAC within 10 business days (31 CFR 501.603), and EXPIRED auto-cancels holds HRC-01/02/05 after the client response window.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L28-L38",
+          "version": "repo-lines-v1:sha256:3289fc66d676d11e5fff1066c372a6656b4e757edd15a85e02a56238b140704d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1OTZjYmIyZGRjZDBhODlhZWE1NDY3MTg1MzBiOGE4OGJjNDEwMWQ2MTc2OTU3Njg5MmE0MGRlYWExOGZjYWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkMzBiNWE3NzcxNTUwZTI4MzExODllNzZmMjQ0Yzc5MGRkMzdlNzhiMDY0YjE3MzE4YTZhMWY1NTk4Zjc1ODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjOWQzZmNlYTkyYjZmNjhiZmI4MTIxNDRlMGM0ZjdjMzVmZjA1MGJmZTQ1NjYyYTUzNTI2OTY3YmFiNTExOTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImExZTAyOTlhMjI4OTVjNDFiMGMxM2NhM2E2NGMwNzgwNDQzMThmMzc0ZDcxMzFmMTgxOWNjZWZkZjAxYzU4MzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c3521c6653044588da5456260b7ce00",
+      "statement": "HMS defines twelve Hold Reason Codes (HRC-01 through HRC-12), each with a disclosure tier (P/C/G/R per POL-FCC-014) and an observed share of hold volume; HRC-07 FRAUD_MODEL_HIGH, HRC-08 ATO_SUSPECT, HRC-09 SANCTIONS_REVIEW, HRC-10 AML_REVIEW and HRC-11 LEGAL_HOLD are tier R, HRC-12 OPS_MANUAL_REVIEW is tier G, HRC-04 CUTOFF_WAREHOUSED is tier P, and the remainder are tier C.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L40-L68",
+          "version": "repo-lines-v1:sha256:95994f4b2ec5fe0fe6be45d147c50e2ee5bbeb69c461f0b31cdeef665eb58d0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzZGZlMWE0MWQ4YTQ5MzNkMzFlOTJmOGYxYjVlNTdiMjRkNDUwZjU1ZTdjMTA3YzdjMjNiOTNmOWExNThmZDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2ODhiOWM1NWNmZGNjOGQ3MzdmOTZjMjFiNWM0Y2Y3MmY0MDY4ODBkZTQ4MzBmYzQ3Y2UxMGRjMzFhOWVhM2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY1YTEwNDg2MzNlZjA5ODk1MTZmN2VjNDJmZWRjZjgzNDY3ZDEwOWNlMWZiMTVjN2JkMjRiNDI4YjAzODY3OTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMyODg1MGFlYzYzNmZmYjU3NmQzYjBjMmE0MTcyZThlNjc1YzI2MzI4ZjE3OTA5MTdmNGM5MzJhMGVhOTFjMWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3497fa64cd274b52b379e42d8887b1c8",
+      "statement": "Observed HMS volume is approximately 410 holds per business day (2.6% of outbound wires), with median time-to-disposition of roughly 47 minutes for HRC-01, 2h10m for HRC-02, 1h35m for HRC-07, 3h20m for HRC-09, and 1-5 business days for HRC-10.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L70-L70",
+          "version": "repo-lines-v1:sha256:47b065ca889c7e8d8ae3d05a08852b2cc3efd2ea7d7f5925d53c5793979716de:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDVjMTEwMmI4ODAzYzM5YjRiMThlMTI1MzExZDQ0OWMxNzc5MjNhYTgzMmUwMjc4MjcxOGFmODRlZGVjNjU5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDU5MmZmODM5ODk2NjhlYTNmMzRkNzAyNDM0MTEzMTlmNTZjNzM1MmRiMTNkODhjOGMzNjhlY2IxNTc0Nzc3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5e69a611f3af4d55a9aacbb57fb707b8",
+      "statement": "HMS hold `description` and `analystNotes` fields are classified Restricted and are generated from rule templates that embed HRC mnemonics and investigative context (e.g. fraud score, sanctions match confidence); a legacy HMS-to-PPH sync feeds the PPH v1 `holdReasonDesc` field, predates ADR-PAY-021, and remains active only as a time-boxed v1 backward-compatibility exception tracked as open risk FCT-2004.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L72-L78",
+          "version": "repo-lines-v1:sha256:417834ca8b8dea07e395042dee88b5845b075b2b18891a5ae4c83821b5f2d613:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjczZWU4Y2NjYjA4NjM4YmJmYTNhNDVkMTQ2NjljZTcwZjI5MjdlNmViZGJlYmI4YzkyMmJjNmM0OTUxNjdhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkyZTFlMTg1NjNhY2Y5ZWU4NjQ1NDA3YTNmMmQ5YzA3ZGE0MTQ4ODk3N2FiMDk1MzA2MDhjYjM4YWFkNzY5NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzI4ODUwYWVjNjM2ZmZiNTc2ZDNiMGMyYTQxNzJlOGU2NzVjMjYzMjhmMTc5MDkxN2Y0YzkzMmEwZWE5MWMxZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2I2NWVmMTNmNDVkY2VjMzI0NGI3OTQ5MTNlZDZlZmYwNjBmMDE3ZjRmNzFiOTMxNzA2MTg5ZTkxZWQzN2Y2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_af742b3710244ed194d2304fa4b06836",
+      "statement": "The Kafka topic risk.hold.events.v1 is restricted to FCT and Payment Operations tooling and channel applications are not authorized consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L78-L78",
+          "version": "repo-lines-v1:sha256:d92e1e18563acf9ee8645407a3f2d9c07da41488977ab09530608cb38aad7694:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkyZTFlMTg1NjNhY2Y5ZWU4NjQ1NDA3YTNmMmQ5YzA3ZGE0MTQ4ODk3N2FiMDk1MzA2MDhjYjM4YWFkNzY5NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkyZTFlMTg1NjNhY2Y5ZWU4NjQ1NDA3YTNmMmQ5YzA3ZGE0MTQ4ODk3N2FiMDk1MzA2MDhjYjM4YWFkNzY5NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTFiNjIyYzZiMTU2OThlN2MwMzc5ZmRhODZiMWJmNWI0M2E1YWU1ODU3YWRjYTRhYmNlNTQ2OTgzMDk5NTNmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2I2NWVmMTNmNDVkY2VjMzI0NGI3OTQ5MTNlZDZlZmYwNjBmMDE3ZjRmNzFiOTMxNzA2MTg5ZTkxZWQzN2Y2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_752b8aa991154bdd8ef58e91658154ed",
+      "statement": "HMS exposes EP-HMS-01 (GET /prsp/hms/v1/holds?paymentId=, returning hrcCode/category/description/analystNotes/slaDueTs to IWB and PPH's legacy sync), EP-HMS-02 (POST /prsp/hms/v1/holds/{holdId}/disposition, IWB-only, requiring the HOLD_RELEASER role under maker-checker control CTRL-PAY-012), and EV-HMS-01 (the restricted risk.hold.events.v1 topic); no client-facing interface currently exists, and proposal FCT-1893 to add a client-view facade was deprioritized in 2025-Q3.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L80-L88",
+          "version": "repo-lines-v1:sha256:2106f98fbd574b8cd510cc5d07e5757a1f9796e1bc661d226e4ad0ba71f20559:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjkyNTU1YWNiOTIzNzMzMGNlMDMxZmRhYjE2YmEyNjBkMjgyYzE3NjQyOWQxNWU0Y2NhOGQ4NzRjOWM3MWNlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZmE0NTcxOTFhODBkYWUwMWQ0Y2QxZjFiZWE0MGNhMGEzMDlkZGQ0ZjlkNmU4OWE5NzI0YTM4ZGJlZjAxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRlZmE4YjdhMDVlYWQwNzFhNTc4ZTBlMmU0YmQxZGUzZjRmNTcxZmRjMmQ0NDM1OWM5NDczMDkzMjAxYWI4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cb930ce06d1c49b9910f029109879696",
+      "statement": "HMS defines four disposition controls: CTRL-PAY-012 (maker-checker for release/reject by HOLD_RELEASER role), CTRL-PAY-018 (out-of-band phone callback verification for HRC-02, not satisfiable via the initiating channel), CTRL-PAY-031 (since 2026-06, following the FCT-1951 pilot, HRC-01-only digital attestation with step-up authentication, capped at $5,000,000 above which Wire Room release is required), and CTRL-PAY-040 (no client-facing release-time estimate for tier G or R holds).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L90-L97",
+          "version": "repo-lines-v1:sha256:1e2534c9ba23d6c0d8aad78f1b4e1c584e504adade490ac3ee8a66fdfaf9967b:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWI3ZjIxZDg0YzVjYWRiZGNjYWYxMmY0NDhjZjE2NTI2YWM3NjY5ZDQ5NDU1ZDM3NjM3ZjlkYTk3YTYzZjExNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWFjZjQwZGYyZGI4Yjc5MThmNmIzYzVhNTcyMjk0M2I0MGFkODQ5NTgwZWNhMGM0ODIxYzkzODliYTZjOGE5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTRmNDIzNDA4MmY0NDY5NmY4OThmYzkyZjA3N2MzYTQxMjRiYmNmZjNlOTYzYjExZDQzMzgxMjUwZmQxNTIwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMxOGI3NmFmZGIzMDZkYmRmZTAxZDFkNTgxNWM5NTYyMGI5NjU5MWFlNjdmNDQxZGViOTkxYTViM2VjOGZmZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1ad5ff293c0a4c369654fb0d0c07ad3c",
+      "statement": "For sanctions-related blocks or rejects, Sanctions Operations (not channels) notifies the client in writing per the Sanctions Operations Procedure and reports to OFAC under 31 CFR 501.603 (blocked) or 501.604 (rejected); channels must never communicate screening outcomes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L99-L101",
+          "version": "repo-lines-v1:sha256:9135e432b811788277f8bdc8d15d86947c3cc5727afc4bada09f8fb3ea4ca958:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTU3YWQxNjk0OTFkMGJlZmQ4NDk2MTdjYzc5YTEyZjVjOGIyYWJiYzhhYTBmZTM5NTQ2NWZiNTk3YzM5ZjkwZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmNTBiMWY4NmUwYzRkZGIwMzhmYzhjMDljMDk0ZTI3MGNmZmRkNjZkNGM2YTFmMmEzNWRjYTc3ZThmODU3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjJjYWNjYmYzNDFiNDdmNDJjMWM5M2FiNzk0NGIwZTIzNmJlOTE4ZWU2NzA3ZjYxYmQ0YmRlNzU0Nzk5ODg0YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMzMzFhNzFjNjYzNDdhOWU4M2ZhMzk1YmQyYmI1YzdjZWFiZWY3MGQ4MDQ0Mjc4YmIzYjNkZjI1ZDNmZWY2MSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

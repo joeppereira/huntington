@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c6f332011c04cb786b02c02776f910b463160f91b8f22e48eebd3f38d7c8670c",
+  "claims": [
+    {
+      "id": "claim_43c4def925c14a3983bddd05341f08b4",
+      "statement": "Onboarding a new insight onto the Insights API follows a four-step sequence - MRM inventory registration, DUS-07 data access approvals, serving endpoint build (roughly 13-21 story points), and Disclosure Review Committee approval of client-facing wording - before it can reach production.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L116-L118",
+          "version": "repo-lines-v1:sha256:56fb5bea8e9a360ce58d6ab2b8cb336b9c8bda0944b903d480aa2bc007aa06f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkZWY3MmNkNjhjM2IxMGY5Y2I5NTExN2EyY2U1Y2Q2MjFiNTU4MDgzOTYxMmM4ODM2NTViNzQ0NTY0YjMyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk0MjMxMjkxMTRjMzZmYWQ0Y2FhMWEzYzIzMzRkYTRjMmExMDdhNWI1NmI1YzVkZTM5OGQ1NzkzNmUzZDNjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQwNzU1ODQ5NWUwODQ2M2VjZjQ4NmM4ZTMxNzM0ODI0NWZmNTY5NGM0Nzg1NmEzZDNhM2MwMmEwMmQ0Y2ZmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODc3Mzg2M2JiNzMxZjc5Njk1MGU3NTU5MTZlMjEwMmY3OWI2NmQ0NDZmMDJjZGU5YTc3ZTgwZjM4ZjVjMThjZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L80-L80",
+          "version": "repo-lines-v1:sha256:a8e6adad988dc571ad903be21a8e008015faa8deba0e7214b8154065589d6517:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzNjNjIzMjFmZTkwYjVlYTU2MmU5YjQxY2RmMDczNjM4M2Q4MTI5MDQ3MGMzZGQwOThhNDM3OTRiMmU0ZGMwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

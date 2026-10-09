@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:126918d4ed0e3cf263db7bdf90d06ee1686ef683cb124395d35eaae817c4562f",
+  "claims": [
+    {
+      "id": "claim_77ec61098f2d49c994b4bbedd56bfd11",
+      "statement": "Swift CBPR+ ISO 20022 pacs.008 became mandatory for customer credit transfers from 2025-11-22, ending MT/MX coexistence; CNB does not use the MT103 contingency conversion path, and PPH assigns the UETR (UUID v4) at release which GPI-C carries in the pacs.008 and maps Swift ACK/NAK back to PPH.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L69-L73",
+          "version": "repo-lines-v1:sha256:f5614458a680a94df23d8978c5b73b8e74e994f9ac45438db12366d04c403a46:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJkNmY3MTQ3Y2QzOGI3ZjUxNjJjZWIzNDJkYjMwZWI2Y2RlYTRjNzI4ODJhNTg0NDU3OWZkNWFkOGZiNGU2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3YmE2YjBkOWYyMzhhMGJjOWQ1NzgxYzc0MmQ4NGEyMDE5OTg4YjM4OTJmYmRhMWY1MDZjZTQ2ZTFmY2I5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGI3ZGJmN2NkODU1N2U5ODI2NDNkMzgzN2M0ODgzM2IzNjcyMjYwZmQwYjJjODNjZmUyZmY1M2FmZDc1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_46b9fb076f38430482178b7fc5f1d067",
+      "statement": "GPI-C integrates with the Swift gpi Tracker via the Swift API through the Swift Microgateway using SwiftNet PKI credentials, in batch every 4 hours (00/04/08/12/16/20 ET), pulling changed transactions for outbound UETRs from the last 30 days and upserting them into the Oracle table GPI_TRACKER_SNAPSHOT keyed by UETR.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L77-L87",
+          "version": "repo-lines-v1:sha256:383d99e392bda1d6aeee869daa168a7e82ef38e22b6870acb2f3ec659177815c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3NjAwNWI0MjE2YTE1YWJjYjMzNTc4ZGE3YTM3MDhjZDk1NzBkMzhhYjYwZTVlYTlmMzFmYjM1ZGYzODc3MWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY5OTRiN2RiZjdjZDg1NTdlOTgyNjQzZDM4MzdjNDg4MzNiMzY3MjI2MGZkMGIyYzgzY2ZlMmZmNTNhZmQ3NWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2NmQwNjllNmRjZGQ1NDgxYTQ4ZGY3MTdjMjZmNjQzZGEyNjgxOWE0YTA5NDI3N2E3MzI1MjZiZGRhNGQyZDkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_39b9a531d51943349a313a162d93cd2a",
+      "statement": "There is no internal API exposing gpi status; GPI_TRACKER_SNAPSHOT must not be exposed directly to channels, and the sanctioned consumers are Payment Operations' Investigations Workbench (IWB) and the TDIP nightly load (gpi_tracker_events).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L88-L88",
+          "version": "repo-lines-v1:sha256:0abb99c35affe5eb2a59bd41a6b40c3d9de1af4b6379550c2530ee56576004ff:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFiYjk5YzM1YWZmZTVlYjJhNTliZDQxYTZiNDBjM2Q5ZGUxYWY0YjYzNzk1NTBjMjUzMGVlNTY1NzYwMDRmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFiYjk5YzM1YWZmZTVlYjJhNTliZDQxYTZiNDBjM2Q5ZGUxYWY0YjYzNzk1NTBjMjUzMGVlNTY1NzYwMDRmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2YjBlNDU1ZDgzNzRiNmViMjAxMGQ3ZDExYzEwODYwZjg1MGY3Y2Q0MDVhYTFlZmZkNmI0NTU0YWY3OGNjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzFjZmE3NzlhZTVjZDI3NmExYzcxNjhjMzhhOTJlYWEwNTcyNGVlYzNkMDRlZTZjOWIwMjg1OWI3NWNkZWE1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_17e981ce226945f39c80db2333c1aec6",
+      "statement": "The Swift Tracker API contract permits 250,000 calls/month (renewal 2027-01-31) at ~61% current usage; a PNG-1544 request to move the GPI-C batch from 4-hour to 2-hour frequency was declined (2026-03-03) because it would exceed quota, and estimated per-payment client-channel lookups (~1.9M calls/month) would exceed the contract by ~7x, so any real-time design must use an internal change-feed rather than per-payment Tracker calls.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L133-L135",
+          "version": "repo-lines-v1:sha256:00263be13e89ea76af66a97bbaf429d9283eee22e0099e95e24302741d3f2ecf:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzlmMWY2OGI5NzcwOWI2ZWM4M2JhMjIyMjM1MWYxMzA3Mzg1NWZkMjA1OGMzNzllMjBmOWY5ODExODQzMjQzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2ZjIzOWNjN2YzYjcyMmQ3ZWM1NjRhN2VkYjgzNmMyZWE3NzNhYmQ1NGI5M2Q0NWYxZjQ0OGI1M2QyYjZlNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmVmNWNhY2YwYWFiMGJiNDdjYzUyNWY0ZWM4NGE4YmM4YzRmZjI2Nzk0ZTBiYjI2ODZjZDEwYjFiMzFiZmUyZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDI0MmY1MGNlNzY0OThlNDJlYmZlMTk4ZjE3OTJjY2E1YmM4OTc1Y2U4OTdkZDMyODQyMDJmODcwYWZjY2YyNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L90-L92",
+          "version": "repo-lines-v1:sha256:418fb701c113b34af833ad1f207a2f37a37d75a14e8f2160bc6ddae8643bdf49:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZhMjlkNTYyZmVkZmQ5ZGQwNDFhOTYyNDJhZTRmYWEyZjE1NjJkZTY4ZjBiM2FhNzU4YzE1ZTkzMmVhMTlmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzY5NjcwY2JjNjJkODg4OTQxN2JjNDQ1MjgxODgyMTNjNDg1YmE0M2Y4MWYzODFmZGU5ZWRlOTMyNjYzYzYyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1YzE3NWZmMGQwMWJlZjJmYmIyNDdmZmNhMzllYjY1YzIyYzJiMTIyOWRjZTU1NGQ1YWRmZjFkZDJiOWQ3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0NmMyZTYwNDQwZjI3MDQ5ZjgwYmYzNjhiNjg2ZWNkZTI2OGIzOGMzNmM4MzcxYWUxNTJhYjA2MDgzZjUzZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_678f9bfb831345828ae6c22345744e9d",
+      "statement": "GPI-C's gpi status vocabulary (ACSP/G000-G004, ACCC, RJCT) carries distinct tracking-continuation implications: ACSP/G000 and G002-G004 expect further updates, ACSP/G001 (forwarded to a non-gpi agent) ends tracking with no further updates even though the payment is not necessarily complete, and ACCC/RJCT are terminal outcomes with credit or return information respectively.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L94-L104",
+          "version": "repo-lines-v1:sha256:e96c3c99bd69e26d86d55b8b7a30da1ddfe6e4b76aedf83f09c72f7b788c55fe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4NWZlNzViMzQ1ZTU1Y2M5NThmYmRhNTYzYTM5YjM0ZjE0NzY2ZTE0MzVkNzNjYmJmYTQ4ZWM5Y2Y5OWY4NjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0YzMxOTIzYzljNGNmZGI3MTJhNTQwNzU2YzE5NjhjZWFjMzkwMTE3Yzk4NWU4YmNmZmNjYzIxN2IzM2MyMDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwMDQwMjhkNDQyZWIwYmY2YjM0OTI4YjBiNDBiNzliYTQ2NjMxNTZjN2I0MWNiNTAwNTg4YjZlMWZlZGY5ZWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjViNjRmNzcyMWFmNzIwNGVlMmMyY2Q5OGMzZWJlYjI4NTVlNzIzM2Y2NmM4YTU0OWJmMDU4YjUxY2ZjZjA2NmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_94b04c07e13443e6a3c1ccff92f4435a",
+      "statement": "Observed Q3-2025 outbound outcome distribution: 88% final ACCC, 8% last status ACSP/G001, 2.5% pending >24h (G002/G003/G004), 1.5% RJCT, with a median release-to-ACCC time of 2h 41min across all corridors and 34% of wires reporting at least one intermediary deduction (SHAR/CRED).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L106-L115",
+          "version": "repo-lines-v1:sha256:a17706feb6a898fa58d6a1255262a5133920d6e5f68794699e4224393f302763:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4OWNhNzYzOGQwN2EwYjYxODVhOGUyNjlhOGIwMzk2MDBjOGZkYzkxNTUzMDkyYjY4MTRiNWM4NTIxODI0N2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5NzQwMGJiMjEzYjQzNzE4NmU4MWVlZjkwMWIzZmRkM2JhYWYwYTE1MThjNjAyNGRjYzNhNGExYmFmZjBmZTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMwZmJiNjM4YTAzOWMyODMzZTU2MGUzYTQxZGY0N2U3MGI5Mzc1ODRiYmZmMzY3NWRhZWZhOWY0YzY5NWE2YTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkYTgzNWQ5NmJhYTE0NWRlZmU1MTI1ZGU5ZWYxNDY1M2Y4MTI4ZGQwNDJjOGI2NmU2OWZhZTcxYzJhZTA4MGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5a1f23c546e34f9ea0feb44837f6c59d",
+      "statement": "GPI-C shares operational posture with FFC: Saturday 22:00-02:00 ET change windows, Splunk PNG-GPI-* monitoring dashboards, and Swift Alliance Lite2 as business-continuity standby.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L125-L131",
+          "version": "repo-lines-v1:sha256:4ca5e3691f5ae934dfc9f944b3179b4bcebdd0b520521b7b65db58568829fb17:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVjZDQ3MTMwYTliNWI4YTIwYzM1MTlkMDY5ZDY3MWVkNjcxNzQxYmE5M2UwZTFkMjk4OGI2NjViN2Y4OWU1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJlYTlmZGVkNDlhYTExYTRhNTA1ZTY4Zjg0YjFmMGU2NzQ1MjExYzkxNDI2ZDk1ZDI5NDQzNjI5ZmRhODUyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzhhMDgyMTEzNzkzYzc0OGRmZGY3NjFjNjUwZTNjZmVjZGE5OTJlZTkxZGY4OWRkNDhiMGQyNzFjMTgzNTRlNCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

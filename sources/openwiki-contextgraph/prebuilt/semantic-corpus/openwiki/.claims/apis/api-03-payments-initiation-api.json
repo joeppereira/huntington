@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:76f127f695c1b3449794ff0dd15605b05c52a1bc189abf02c650e738a43d53ac",
+  "claims": [
+    {
+      "id": "claim_e4a299e193914a89bd340ec8c736fe7e",
+      "statement": "API-03 Payments Initiation API (v3.2, base path /payments/v3) is owned by Global Payments Technology, initiates ACH, book transfer and check payments individually or in bulk, and supports ISO 20022 structured remittance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L1-L17",
+          "version": "repo-lines-v1:sha256:e806dca8fc1e0d5c9fa15cc1797dda19cd85f145ae381f11b530e8d1443d87a3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlNzA4NWI0YzRmYjZiZThiNWI1NTk0M2E4ODAxZWMzYWUxMWM4OGE5YmZlOTI5NWJmYjBkNmRiNWMzNzQ1MGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b8e40bca76874576824fb45504c9651e",
+      "statement": "All payments are screened by sanctions screening and the Fraud Risk Signals API (API-08) before release.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:11b1c9b3455917ad2a0520f4a2b0e97cba11ae7d6adcce361f141a95862245c2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTFiMWM5YjM0NTU5MTdhZDJhMDUyMGY0YTJiMGU5N2NiYTExYWU3ZDZhZGNjZTM2MWYxNDFhOTU4NjIyNDVjMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTFiMWM5YjM0NTU5MTdhZDJhMDUyMGY0YTJiMGU5N2NiYTExYWU3ZDZhZGNjZTM2MWYxNDFhOTU4NjIyNDVjMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2JkODFjMzgwMTViYjU0M2M1NGU1NWM2ZWQ5YmI2ZTE1MjgyM2FiNmRhM2ZjYzMxNmJjY2YxYmNkZTM1NDBlMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L82-L84",
+          "version": "repo-lines-v1:sha256:c84223da276ef7543f12ae0340720800bb0f165e8279191423718495a067a4b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMGExZThkMDViNjUxNjUzNzM5MDNhZTQ0ZjkyZTIzNmFlOTI4Yjg1N2FlYWQxMmRlNDY1NTU0MGYyOGEwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg2MGFhZDQ2ZWYxM2Q1OTcwYjg4YzY4ZWY5MTI4MTA2YmFkM2Y1MTYyMzNmZjgxNDQ1NDBlOGZkOTI4MGRhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjlkMTM3NGYzZWY2YjAwODk0YTJmMDJlYjdlMDljNjFjYmVhMzg3ZmI2YjI3ZjdmOGM5MmFkODNiNTUzZGZiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4c8e09fc856644698c17c5964ad7108f",
+      "statement": "The API exposes four endpoints: POST /payments (requires Idempotency-Key), POST /payment-files (ISO 20022 pain.001 or CSV bulk upload), GET /payments/{paymentId} (status), and POST /payments/{paymentId}/cancel (cancel before release).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L19-L26",
+          "version": "repo-lines-v1:sha256:39795045ccde4c770cef00e3bf8c5d8195e16e5b4f20d9413aacc52671618e7f:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FkMTA3MzllOTJhNDgxY2Y1MGNhYjUyNmMzNjFlZWI3MjBhOWY2NzRhNjkzNmMwNTUyYjg2ZGViNjc2NDgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQ0NmYyNWYwZjRhNzUwNmY2ZTQzMjU4MGYyZjIxNWJiOWE3M2JkZTY0ODAyMzk4N2JjMTFlZjA2ZDgyYzhhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE3NmUyM2JhZDg0ODQwODMyY2IwYjkyN2FmMTdlZDRhMTM1OTNhMTQ1NjQ2YTA5ZjA4MWUwNTNhNDg2ZjY0ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_999d53390a3549be8e29b41c0e1c4abc",
+      "statement": "Payment status values are received, screened, released, settled and returned; cancellation is only allowed before release.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L25-L26",
+          "version": "repo-lines-v1:sha256:35fd44eee72acbe729dc57893f50dbcc7b8f7fb242182532cc817e8834de04b6:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWQ4YmQ5OTUwOGU4ZTNlMmE1OGY4OTgyNjk1MzZhZGUyZjI2MjM1Y2NlYWU3NDRkMzQzNWU3NzYxMWJmYzI5NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQ0NmYyNWYwZjRhNzUwNmY2ZTQzMjU4MGYyZjIxNWJiOWE3M2JkZTY0ODAyMzk4N2JjMTFlZjA2ZDgyYzhhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVmZTkxYWE3MGRjMTIyYjE1ODY0YTIyYTViMmUyNDAwZjljOTM3NjgzMjI2YzRlNWJlZGUwODFlZDdlNjRkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e280a8cb089948e1b7dbe8bbc34cf75f",
+      "statement": "Access requires OAuth scopes payments:write, payments:read and payments.bulk:write; limits are 300 requests/minute per client and bulk files of up to 50,000 items; SLO is 99.98% availability with p95 latency of 400 ms; data is classified Restricted - Financial Transaction.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L14-L17",
+          "version": "repo-lines-v1:sha256:297b6f17c6435a22cc155aa47c008d1e98fc6f14243170f7c2ae299c7bf53682:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTg3MDBiNzc4OGIxMGVkM2ZjYzAwNDhhZGNlMzYzNGE3MWNjYzJkY2RjOGQ5YTc1YWFlMzQzYTZhMzZmN2Y0MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU3MDg1YjRjNGZiNmJlOGI1YjU1OTQzYTg4MDFlYzNhZTExYzg4YTliZmU5Mjk1YmZiMGQ2ZGI1YzM3NDUwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWNhMmRhYTVlZDZmZDcyOWVjMTBmMTIxNjNjMWI5M2NiNTE2ZWM3NjUzZmFlZGNlNDdmZGJiNDk5YmQxZmNhOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_514ef2c73dfa4fa980c3730975d10c11",
+      "statement": "Creating a payment returns paymentId, an initial status of received, a fraudScore and an expectedSettlement date.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L28-L78",
+          "version": "repo-lines-v1:sha256:c3de765f2d2a4d7949d9952f060a43c109ebcd97160139ea46a26de100a5fefa:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkMTE5NTIzZjQ3ODkzZWFhM2Q1MTQxMDcxNGQ4OThjODI3YTdmMzY0NWMxZmVjOTgxOTlkMjgxMDM2ZDQ3OGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a8c16f5fc2d94d22842448fab3964fc7",
+      "statement": "Data lineage: upstream sources are Accounts API (API-01) for funds check, sanctions screening and Fraud Risk Signals API (API-08); downstream consumers are the ACH operator, Webhooks & Event Notifications API (API-18) and the general ledger.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L80-L84",
+          "version": "repo-lines-v1:sha256:bc21930909355ee7b44e59acc4b61f7bedf79bdb19067bd34adebf28041fea4c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg2MGFhZDQ2ZWYxM2Q1OTcwYjg4YzY4ZWY5MTI4MTA2YmFkM2Y1MTYyMzNmZjgxNDQ1NDBlOGZkOTI4MGRhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_18775ecf7ed34955a37166906ca1837c",
+      "statement": "Changelog: v3.2 (2026-05) added ISO 20022 structured remittance; v3.1 (2025-10) added the same-day ACH rail.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-03-payments-initiation-api.md#L86-L89",
+          "version": "repo-lines-v1:sha256:af4e3c4945c5f72f7b7b731b74ac16ea799a42a913a6b09e35445193e0c25a53:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFjZDY1ZGRhNDc1NzVmYWE0NGEyZGM4YzM4NzZmNGU4MDU3NmFhMDY4MzE0YWVmY2IwOGJkYzJjMzhiZjI2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWFhNGIzYTBlYjhmNTE2MWM5MGQwMzk2NTNiZDI3ZmRiZTQ2MDY0MDMzMjZhMzA5OGMyZmI5MmVjZDdkZTQ5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

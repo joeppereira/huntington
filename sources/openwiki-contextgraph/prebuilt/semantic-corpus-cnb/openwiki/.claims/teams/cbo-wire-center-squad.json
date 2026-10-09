@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e111238e5d2073ccd11d52de7ed1af75f3395240001b17bb25b58ec89797bde2",
+  "claims": [
+    {
+      "id": "claim_d7ae0849b66b4fd381703736a758b0f0",
+      "statement": "The CBO Wire Center squad is the owning team and (via Tom Becker and Lucas Ferreira) the technical-owner pair of record for SYS-CBO, the Crestline Business Online - Wire Center module, a Tier-1 (24x7-critical) system with Marcus Chen as business owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L84",
+          "version": "repo-lines-v1:sha256:741fcbe007c7bddac6599e157b1f6295b51ec23d82cb2c4495b6fe9bbe9ee033:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQyYjkwMmI1NGNkNTBlZmQxZjA4M2EwMjg1YmQzYzc5MjhmMWQ4YjVlZDExYjVmYzM3Zjc5MTZlODJkODM4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhZjBjOTRmYjhiMDE0ODAzMzAzNGZjY2E4Zjc1NGExMjk0NTI0OWQxMDM0NWZkMTE0OTNkNGU4Y2VhNjhjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWM2N2YzZmI5Y2UxYWFiNWE2M2E0ODdiOGE0MzU1N2FiMzQyNzQzZjA3ZTRlM2JkYmYwYmM2ZjFhOGE3NmU0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY0YzIyMzEwZjZlZDNiMmM0Y2I0ZjQyYzg4NTUwODdlMTUzNGE0YTIyYWI4NTM3ODM2ODU4ZDBjMGVjOGE2YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ffc809c0f9f74e99a009fc42faf5d13a",
+      "statement": "The CBO Wire Center squad is led by EM Tom Becker and Tech Lead Lucas Ferreira, with Marcus Chen as Product Owner, reporting up through Director Anjali Deshpande of Digital Treasury Channels Engineering; demand is raised via Jira project CBO and Slack channel #cbo-wire-center.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L45",
+          "version": "repo-lines-v1:sha256:20d0c82b07730b60fb48b1da37dcd3fbabf01817f3cfca5b06c7635f6ba12af3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2MDMyNWVlNjE0NWViODEzYjdjMTNmNDRmYWU3ZDVlYWUzMzM2ZDg4MWIwZDBiYmYwOWE5NGYyYjlmNzBiOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYwOGU4NjYxNzQyMGUxMGQzMWYyNmYwNzM5OWJhMzBmODY2YzZkY2MyNmFkZjMzNTE3ODIxNzk2MjQ3MzQ2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGRkZTVmZjAxMjNjNDMyN2ViMjEzZGFjNDRkMTJlMzk5MTgzZTE2NTcwY2U1N2EwMGJkZjhhNDU2YTI2OTc3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGU4ZTQ0ODU5ZGZjZGY0ZTBjNjYzZTM5ZDA4MTQ1ZmI4YjZiZjIzNjBiNzk1NGE2NGYzNjdiNDA2MDEwOGZhNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5d549625692a4e49a6e690920e8fd074",
+      "statement": "The sibling team CBO Platform & Entitlements (EM Nadia Haddad, Tech Lead Arjun Mehta) owns SYS-CBO-SPS (CBO Status Projection Service, T2) and SYS-CES (Commercial Entitlements Service, T1), both under Marcus Chen's business ownership, and is engaged via the separate Jira CBO (Platform) project and #cbo-platform with a 2-week triage cycle.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L127-L127",
+          "version": "repo-lines-v1:sha256:183e6ce6e6aabb890f43e693f3a9f34ccaf252b4da38751c5354f33537727a99:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgzZTZjZTZlNmFhYmI4OTBmNDNlNjkzZjNhOWYzNGNjYWYyNTJiNGRhMzg3NTFjNTM1NGYzMzUzNzcyN2E5OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgzZTZjZTZlNmFhYmI4OTBmNDNlNjkzZjNhOWYzNGNjYWYyNTJiNGRhMzg3NTFjNTM1NGYzMzUzNzcyN2E5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTFiMmYxODI5NzgwNGRhMTk5ZmM2YTFkM2NiMTQyM2E0YjdmNjllMzU1MThiZDAzYjJmNWE2M2I0ZTM5ZGNmZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDIwNWJhMmIxMjFlOWE0ZDQ1NDQ5OGNkNDRmYTJiNzE0MzQ3Y2VkMDgzYmI1MDBhMGE3YjQ4YzIzZTY3ZDJmOSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L85-L86",
+          "version": "repo-lines-v1:sha256:0f2a97779c6468e7a9501e0295f0eef3c59fbf029d7bf4dc95a220e69255a43d:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ1NTNmNWIxM2FhNTUwNTQ1ZjVkMjExYjNlNDI4NjE2M2QzZmU2ZTdmNGQwOTUyY2E2NWIwZGFhMzNlODI3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2MTBhYmUzOTJhNTcxMGZiYjY3NmEyMWM5ZWQ3NTFhNDdlMDFlMzY0YjM0MmQ2YjY1ZDliNjc2MTk3NTgzZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTk1ZDc1ZmM1NmIwZWY1MDY0NDQ1YWJiNDFiM2RiNjkwMTNlOWYwNDA3NjA0YjY0MGY5MjBkY2EzZjk3OGIzYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0998d07232254373ba2796cac9e2bd0c",
+      "statement": "The CBO Wire Center squad's planning factors, calibrated over the last four PIs, are ~6.5 engineering hours per story point and ~42 points/sprint velocity, with Q4-2026 (PI 27.1 lead-in) capacity reported as ~85% committed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L126",
+          "version": "repo-lines-v1:sha256:91b2f18297804da199fc6a1d3cb1423a4b7f69e35518bd03b2f5a63b4e39dcfd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0NTBkMGJkYWE5ZTI0NTkwNzFhZTljOGEwYjc3ZDU2NjA0ZjYzNmZjZTU3YTVmOTQ1YjdiMGU2ODI3MTE0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWIwNjc5YTE3OGVkYzFjNWQyMDJjMzliOTIyYTllNWJjYmExOWM1NmM5YzNhNjM3OGRlYTJiYmY1ZWRlZjJiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWZhMjFkNWUzZTNjYzk3NTBiNTU4MTE2ZWU5NWQ3NmNlOTY0ZGYyYWFhMmZlYWY5YTllMjBjNGViMGZhNTc5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZkNWFjOGJkM2FiYjZkZTM1NDllNThiYzE2YTUzNjkxZDc0NzQ4MDU3NTFiNDM3YTM3M2Q3MmRjZmMzZGVlOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c9cb47475f541019add71663a7b9892",
+      "statement": "The PTT program increment calendar sets PI 26.4 as 2026-09-07 to 2026-11-27 (complete), PI 27.1 as 2026-12-01 to 2027-03-05 with planning on 2026-11-17/18 and dependency asks due 2026-11-06, and PI 27.2 as 2027-03-15 to 2027-06-11 with planning 2027-03-02/03.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L140-L146",
+          "version": "repo-lines-v1:sha256:00fe0106bddb7fcb2a6b7facb8ca6fea83a48621a0efa6a87cded930ebcae0a9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3ZmFkZDFiMDljOWI4NGY1ZmM1MzUwNTk3M2UyMDFlMmM5ZGViN2QzZjM3MWNmYWQzMTM5NjI1Njk2NzkyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTdkMGQzMjA3NDgwYjRmMzI0YjRmNDQzMWZlYzYyNTYxYjMyNjgzM2I3MWY1N2ZkZjI5YzU3YmJmZTljOGVkOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjcwODEyMTFkZGIxM2Y3NzBkYjNiYTlhZjEzYzlmMGQ1MWVjMmQ1MjE1OTkyYTZlY2I2MDc0OTFjNDVmMTAxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGUxNDQ5ZGNiZDkyOTFjZDYzZjUyMjdjYjAxM2E0ZjAxODcxZWUzMDMwZmYwNjM4YTllN2EwYjE0MjAxYjY5OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_15ed28a820c940d3a714d09e5181c399",
+      "statement": "New client-facing integrations to payment systems require Payments Architecture Review Board (ARB) approval (monthly, 2nd Tuesday, 10-business-day lead time), and client-facing copy/notification templates require Disclosure Review Committee (DRC) sign-off (bi-weekly Thursday, 5-business-day lead time).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L114-L118",
+          "version": "repo-lines-v1:sha256:787b39c9f025496b32aa3d560699baf2668a7cb0c764b6b98d42de11a5bbe7ce:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk0MjMxMjkxMTRjMzZmYWQ0Y2FhMWEzYzIzMzRkYTRjMmExMDdhNWI1NmI1YzVkZTM5OGQ1NzkzNmUzZDNjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODc3Mzg2M2JiNzMxZjc5Njk1MGU3NTU5MTZlMjEwMmY3OWI2NmQ0NDZmMDJjZGU5YTc3ZTgwZjM4ZjVjMThjZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L104",
+          "version": "repo-lines-v1:sha256:fae4a9556939959d55ed83f0fe4df01097e395d0b7844ebc1ddd2112e9078f06:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWNjNzQ2ZTk2NGI3NmI3ZTZmMDQ1NTVjN2M5ZmRkNThhZjRkOTUyNGU2MzFiMGQ4NTQ3MzEyYmE3YjlkNDZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBjODE5NzAxMjhiMmJjOWIxYmZiOThlNjFiMWZjMWEyMjUyOGRlZDE3MThlZjQ5YWMxODVkY2JlM2Q1ZTg5NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bb2bbcdf0fc1431a996559bb0a7e3bb6",
+      "statement": "Dependency conflicts unresolved at the engineering-manager level escalate to Directors and then to the weekly (Monday) PTT Leadership Team, while compliance/policy interpretation questions are routed to FCC Policy & Advisory or the Privacy Office rather than decided by engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d55663ae27ba4a9cbd8dd82cf680f98a",
+      "statement": "CBO-4471, the 34-point epic to migrate cbo-wire-bff from PPH v1 to PPH v2 before the 2027-03-31 sunset, is owned by Tom Becker and as of the latest Jira export remained unscheduled, not placed into PI 26.4 or draft PI 27.1 despite Q4-2026 capacity already being ~85% committed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L126",
+          "version": "repo-lines-v1:sha256:91b2f18297804da199fc6a1d3cb1423a4b7f69e35518bd03b2f5a63b4e39dcfd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0NTBkMGJkYWE5ZTI0NTkwNzFhZTljOGEwYjc3ZDU2NjA0ZjYzNmZjZTU3YTVmOTQ1YjdiMGU2ODI3MTE0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWIwNjc5YTE3OGVkYzFjNWQyMDJjMzliOTIyYTllNWJjYmExOWM1NmM5YzNhNjM3OGRlYTJiYmY1ZWRlZjJiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWZhMjFkNWUzZTNjYzk3NTBiNTU4MTE2ZWU5NWQ3NmNlOTY0ZGYyYWFhMmZlYWY5YTllMjBjNGViMGZhNTc5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZkNWFjOGJkM2FiYjZkZTM1NDllNThiYzE2YTUzNjkxZDc0NzQ4MDU3NTFiNDM3YTM3M2Q3MmRjZmMzZGVlOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:ddf77b2529801c02c3583fca7b3982e7c5e7082f74ddfefbf0dbe2213e687da7",
+  "claims": [
+    {
+      "id": "claim_c361381a0534418d822fb56bbba3f7e5",
+      "statement": "The Fedwire Funds Connector (FFC, SYS-PNG-FFC) is the Fedwire-facing module of the Payment Network Gateway (PNG), built and operated by Payment Networks Engineering (PNE) under Director Raj Malhotra, with Chen Wei as Fedwire technical owner and Brian Walsh as engineering manager; support is provided by PNE on-call (T1) and #payment-networks.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L15-L26",
+          "version": "repo-lines-v1:sha256:dec48e997846eb34297af719588f606fc9a86017dfdbc4364ec480f92af6b4cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1N2ZhNjg4MTdkNmVmNTA0OGNiYjMyNTIwNDFiNTkyMTc0ZTg4MjYxZDhiMjljYzE3MzY0YWNhYTZhYWQyMDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwMjk0MWNjYjUzNTE2ZjRiN2FiN2FkMzBmYThmODUwMzA5YTJkMDJjNzJkZDVlNDA4ZjJkMzc2YTQyZDAzMDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0M2JkM2VlOTVhNjE3ZGUyODgzNTI0NmM4YmE5ZjlhMjFjMjc1YTc3NDczYTJmMmU1MjAwMjc5ZjZjYTY3ZWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJmNWFlZDljNDZiZmYwZWZkNjE2ZGQ1ZjAyYjRiODUxODg5MTE3YTBmMmI0ZGI1NjAwZjYyNTNhNDIxMmQ1ZTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_458354e0cdad43ad833230f145d4d90f",
+      "statement": "FFC connects to the Federal Reserve's Fedwire Funds Service over FedLine Direct using dual MQ channels, with Columbus as primary and Charlotte as contingency; FedLine Advantage serves as a separate business-continuity path.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L125-L131",
+          "version": "repo-lines-v1:sha256:4ca5e3691f5ae934dfc9f944b3179b4bcebdd0b520521b7b65db58568829fb17:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVjZDQ3MTMwYTliNWI4YTIwYzM1MTlkMDY5ZDY3MWVkNjcxNzQxYmE5M2UwZTFkMjk4OGI2NjViN2Y4OWU1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJlYTlmZGVkNDlhYTExYTRhNTA1ZTY4Zjg0YjFmMGU2NzQ1MjExYzkxNDI2ZDk1ZDI5NDQzNjI5ZmRhODUyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzhhMDgyMTEzNzkzYzc0OGRmZGY3NjFjNjUwZTNjZmVjZGE5OTJlZTkxZGY4OWRkNDhiMGQyNzFjMTgzNTRlNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L30-L36",
+          "version": "repo-lines-v1:sha256:156446396589d4887e4ce62f19673298f44cc008d5497ffb4645260c91720932:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQxZjc5MzU3NzhiNmI3MmNlMTEyZjUzN2JkMGFkNzVlN2I0MWEzODk2NDI3YmQzZWFkZWM0OWZkMjA5YmFkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzI3NTkwODAyMzYwMjE5MDk1Mjk5ZmU5Y2Y3MDY0ODdkMGYwMjk0YTM4ZTBhZDA2YTdhMzZmYjk1YTI1Y2Y1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmY1YWVkOWM0NmJmZjBlZmQ2MTZkZDVmMDJiNGI4NTE4ODkxMTdhMGYyYjRkYjU2MDBmNjI1M2E0MjEyZDVlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTM3MmRhMzA5YTMzZDc3MDc1YmMwNDM3NjhjMzM5ZmE5ZDEwZWU2MWFhN2U0YzhjNDIzMjI3Yjk5YTAxNzllOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_743d17eef32c4d85b84ed056b3ebbc12",
+      "statement": "Since the Federal Reserve's single-day ISO 20022 cutover on 2025-07-14 (which retired the legacy FAIM format entirely), FFC exchanges only ISO 20022 messages with the Fed: outbound pacs.008, pacs.009, pacs.004, camt.056, camt.110, and inbound pacs.008/pacs.009/pacs.004, pacs.002, and admi.002.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L32-L38",
+          "version": "repo-lines-v1:sha256:2d72276b03a208435165e1c10df272363fd71779b364586d50074553104b10cd:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODU2ZTY3OTdiYjM1ZGQzNzQ4ZTVjM2NlZjVjMmY4OTA0YTYyZjI3Y2NlNzMxMzM4ZGEwNDhmMjhiZGM2ZGE0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5YTQ1OWFlZGFkMjNjYjQ0YmVlZWQ5NTgyNzhkMDVmMjE5OThlZDNmMDcxOGFjZTc5NmU0OWU2ZGJhYzNkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2YxZmIyYWM2ZGNiNWY1N2JlMjRjZjQ3ZDQ4YTY1YWE3YzIxZWQyZjM0OTgwMzU3YzhmYTdhMDAzODFhZGM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTFmNWM3YTUzNjFlMzhmMGY3ZmI3NTA5MWE2OGQ4YWZmOTZlNGY0MDM0YjFmNWY2YzVlMDdhNWVmZWUzOGE1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7306b5feb698482dbdc5c7d63bab437a",
+      "statement": "For every accepted outbound value message, the Federal Reserve returns a pacs.002 carrying the OMAD and a Fed creation timestamp, which FFC publishes to net.fedwire.ack.v1 (EV-PNG-01); errors (admi.002, negative pacs.002) are published on the same topic keyed by IMAD since a rejected message has no OMAD.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L40-L43",
+          "version": "repo-lines-v1:sha256:db7b2972b8e12919bfe41f413e939fba226215607b0eb018fc75713089861747:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc0ZjkwYjUzY2UwNjk2ZDkxYTcwMzI5OGU5MTQ1Y2JmMDFlMTAzNWMzODQyY2RiMjgzZTEwMWM1ZGYxZGE1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM3MmRhMzA5YTMzZDc3MDc1YmMwNDM3NjhjMzM5ZmE5ZDEwZWU2MWFhN2U0YzhjNDIzMjI3Yjk5YTAxNzllOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZjYmJkMjYxOTkyZDJhZTNjYTUyM2JjMDhiNmQwZTJiMzkzZDM1MDllZGY1YmFiMmE2MzliOGMyYjQ0ZTRiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_482fea24dce14f2eb9989d3d4b2aa5ce",
+      "statement": "Acceptance by the Fedwire Funds Service constitutes final and irrevocable settlement between sending and receiving banks under Regulation J; the Federal Reserve does not report, and the pacs.002 does not confirm, that the receiving bank has credited the beneficiary's account.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L42-L43",
+          "version": "repo-lines-v1:sha256:844748b8190ba97fb4622083fdfad662ae40d9a05a742e3fd66107f8ecf04c20:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2NmQyMDcwMDEyYWNkYTkwYzNkZTdhNjhhMmZiYTgzNDY2OTc2NGRkZDM1Mjg1MGYyYjAxZjE0ZGIxZDM1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTFmNWM3YTUzNjFlMzhmMGY3ZmI3NTA5MWE2OGQ4YWZmOTZlNGY0MDM0YjFmNWY2YzVlMDdhNWVmZWUzOGE1YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZjYmJkMjYxOTkyZDJhZTNjYTUyM2JjMDhiNmQwZTJiMzkzZDM1MDllZGY1YmFiMmE2MzliOGMyYjQ0ZTRiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ac7e3315a82a467084d04ba13123643c",
+      "statement": "Observed Q3-2025 acknowledgment metrics for FFC: median Fed acknowledgment latency (send to pacs.002) of 4.2s, median PPH RELEASED-to-Fed-acceptance (incl. queueing) of 6 minutes, and Fed technical/business rejects (admi.002 / negative pacs.002) at 0.07% of messages.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L44-L48",
+          "version": "repo-lines-v1:sha256:087a5cfdba66e7665404823ab0781af10d0af2c6fc34b7f184e30a9bf1836903:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzYTA2YzQ0NjE3MjZjNTAxMTkyNDVmZWVmNjZiMDViMDg3Yjg2NmM1ZTIxZDc1NmZkMWE4Y2FiNjRjZTMxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I3MzUzOGRhOTkyYzQ1MDAzODQ1ZTlhMWQ3ZGFhNWMyYzZkOTFlMjNkMzNhM2JmMTUyNDVhYjc2ZjAzMzg5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjIzYzk0NmI0MGM5NzNiNDc3ODA0Yzg2ZWQ2NjJlODQ5ZTljZTk4NmMzZWNkYWM0MWM0ODE2MmQ2Mzk0MWE5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg0YTUzZTQ4ODk1M2RhY2YwYjY3YTE4NjdjOTkwMTA3MDExYTQ3Mjg5NWU2MDIwODAzNjA4ZGIyOTk3ZWI3NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7d94f35b87414fc89896b3d777123602",
+      "statement": "FFC produces exactly two Kafka topics, net.fedwire.ack.v1 and net.fedwire.inbound.v1, both ACL-owned by PNE with PPH as the sole authorized consumer of each.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L50-L55",
+          "version": "repo-lines-v1:sha256:d6c4861d3fcc44be0031411e70968f1453ead2600fd7878b156a7b5359831c61:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE2NTEzMDg3ZWY4NWFkZWE1ZThiYjFkZjllNmExNGE2MGJmM2VmMDBlMGQ0NjExN2VhMGM3YTNmODE3NWY3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGFlN2VhY2JjOGI0NTE5MzA1ZGU0MWM5ZWYxOWJlNzBjNjMxNDhlMGU4YjIwOTZiNThlMGVjYTkwMjk3NDdiOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWJhOTg5NmEzZjJkM2IyZDM4YjFjYTZmMzk2MzI0ZDA5ZTFjYTRjZGJmNWMyNmQ3MGFjYWJiYjg4NzI3YjUzNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzdkYjFiNjU3MDg3ODc0ZmRiOTc1YWViZDNlZWJmYjUyZTJjNTNjZTFlZjNmMmI5ZWQ3NzE0ZTE5ZDY2Y2FiYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_60bdd8173dbe4ef196658a8ff6aa52df",
+      "statement": "FFC is monitored via Splunk dashboards PNG-FFC-*, shares change windows of Saturday 22:00-02:00 ET with the rest of PNG, and uses FedLine Advantage as its FedLine Direct business-continuity contingency.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L125-L131",
+          "version": "repo-lines-v1:sha256:4ca5e3691f5ae934dfc9f944b3179b4bcebdd0b520521b7b65db58568829fb17:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVjZDQ3MTMwYTliNWI4YTIwYzM1MTlkMDY5ZDY3MWVkNjcxNzQxYmE5M2UwZTFkMjk4OGI2NjViN2Y4OWU1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJlYTlmZGVkNDlhYTExYTRhNTA1ZTY4Zjg0YjFmMGU2NzQ1MjExYzkxNDI2ZDk1ZDI5NDQzNjI5ZmRhODUyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzhhMDgyMTEzNzkzYzc0OGRmZGY3NjFjNjUwZTNjZmVjZGE5OTJlZTkxZGY4OWRkNDhiMGQyNzFjMTgzNTRlNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9b0f426f176c4a968b38ab5333d77c28",
+      "statement": "Effective 2026-10-01, per CNB-MEMO-2026-09, the Swift Alliance Gateway/gpi Connector (SYS-PNG-GPI), the Swift API gateway (Microgateway) and SwiftNet PKI service accounts, and the international wire tracking roadmap moved from Payment Networks Engineering to Global Transaction Services Integration (GTSI), while the Fedwire Funds Connector (SYS-PNG-FFC), including net.fedwire.ack.v1 and net.fedwire.inbound.v1, explicitly remained with Payment Networks Engineering under Raj Malhotra (Brian Walsh, EM).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L40",
+          "version": "repo-lines-v1:sha256:01e538038420eb85c64d1fa8ed1dc803fa5b3ee78a285076ec4621acc6f25be5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MDU5MjE1ZjBlOWZiYWMwODBlMTEzZjg2MDEwNjE1MGQ5YmRiOTQ0ZTE1ZDU3MWE0MGM1ZGI3ODRkYWM0MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjliYTI3MjQyYWNiMGY2MGFhMjhhNGRjMGVkZjJjMmYwOWNlYzBiMDQ4NDIxNTA5Y2Y2MWJkYmU1MzgwZmFmMTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkMDFhODViOGNjMmUzYjJlZWJjNTllZmY5M2QzMjU1MjU1ZjNlMGM2NzBmMGZkMjE3ZjYwMTRhZDVjYzkxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkZTljYjg4OTQ3OTY3NjU1NDBmNGE1MDlmYmZlZDNiYzZlNDlhMmZkMDg5ZDExZWQ5NWI3OWY1ZmIwNGU4NTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f652b11704774ec7aa27cc5c7eed667f",
+      "statement": "Per CNB-MEMO-2026-09, Tomasz Nowak (Senior Engineer, gpi Connector) transferred to GTSI reporting to Omar Siddiqui, and PNE on-call remains secondary support for SYS-PNG-GPI only until 2026-12-15 when knowledge transfer GTSI-0112 completes; neither change affects FFC staffing or support, since FFC did not move.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L44-L48",
+          "version": "repo-lines-v1:sha256:236c5bcb0a274aefe86abc1f4a0258103e730ecfc53157511da28cda8409f54e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM4NGVjNjM2ZjJiZjZlNWEzYmZhMjM4YzU0ZWM4ZGQzYzZmMGY4MzU4NTBhMmFkNDdlNTkwNDdiYWI5YjU2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDUzNTJmYTllNjdiODg3OGY5Mjc2MzMzOTYxODc3MGUxOWEyNjk0YmIyZWNjOGZjYzMwMjM1Y2Q0N2U5NGJlYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRlOWNiODg5NDc5Njc2NTU0MGY0YTUwOWZiZmVkM2JjNmU0OWEyZmQwODlkMTFlZDk1Yjc5ZjVmYjA0ZTg1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRlMmQ2MzY0OTk3OGFjZDg4NjE2ZWRkNzhkYTg5ZmZkZDRlNDkyZDhlZjk4N2NhOTAyMDM4MTcwZGE3MWE5NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1aa00d574ea14c3992b23efa9fd1bd59",
+      "statement": "Per CNB-MEMO-2026-09, Raj Malhotra (PNE) additionally assumes ownership of the FedNow and RTP connectors effective 2026-11-01, expanding PNE's domestic real-time-rail scope alongside its existing Fedwire Funds Connector responsibility.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L40-L43",
+          "version": "repo-lines-v1:sha256:697eb323131dea8c000d9976ccba11bb52d70504f39264f26ff704552eefe0be:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWJhMjcyNDJhY2IwZjYwYWEyOGE0ZGMwZWRmMmMyZjA5Y2VjMGIwNDg0MjE1MDljZjYxYmRiZTUzODBmYWYxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzhmODc1YjViMjQ4YTliNWY5YzMxY2NiODA0ZTQ1MjI3NWJiOTBmZTBkNjU0MGVhNTAxNjVhZjY2ZGVhMThlYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDEyMzU1NDVhNGViNmNlMDAyM2M0ZGNmMzJlZmYxMTI2MzIyMGRmMDA0NGNhOWFkYzBhMTUxNGI4ODNmMGE4YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b79396521b4345fab0f7f088e4e460d5",
+      "statement": "Following the 2026-10-01 re-org, new requests for gpi data, Swift Tracker usage, or international wire status capabilities must be raised in Jira project GTSI rather than PNG, while Fedwire-specific requests remain PNE's to triage under the PNG project.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L50-L52",
+          "version": "repo-lines-v1:sha256:86950afcb6732c6c4e8bf8327a463676493d226cc1f0d52943d2f6bfbc21d42a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmY4ZTVhM2Y3MjhmNjQzMzVmMWU4NTI5ODEzMDRmNDkwMjU2ZTVlYmUwNmZkYTY2MWRkYWQ3NmFmNmEyNzJlNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY1ZDEyOGY1ZWJhMDY0Y2ZhZTg3MDMwNGZlYzg4YjZhM2I0ZWU5MzZiZjY2YjdmOTY2YTkzNmZiNzg1Y2M5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjk1YTAxMzEzZWNmOTU2Y2MxMWM4ZTU0YTg3OTZhOTZkYjc0NjVmZjU3ZDczZmY3MmViNWMzMjY5YjgxNzk4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGExZTgxMDRkNTkwNTcyYmIxZTgwMjZmZDc1NTE4NzFhNmNlM2E3ZmU1OTUzYTk4OTRmNzYxOTFlMGJjZjI4ZCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

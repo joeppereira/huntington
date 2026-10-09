@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:526a6fb4e1eb949b31d5807145c914df227fc062a9698bd24be49c87d79249cd",
+  "claims": [
+    {
+      "id": "claim_492d5f4d83434af79d0647594627284e",
+      "statement": "TDIP runs on Snowflake (Enterprise, US-East) with dbt transformations, a Feast feature store, Amazon SageMaker for model training/batch scoring, and a low-latency serving store behind the Insights API; dataset access is governed in Collibra.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L24-L26",
+          "version": "repo-lines-v1:sha256:7da4ef09857d42d661a8423664c4eba22ed197cd925d9e12582890f733e3ad87:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1MjAwZjAyM2RkOGY0NjZjYWZlYWFkODQ1MDIxOTAxZmNhMDg5N2U2NjQxYjNhOTdjYTExYzM1ZGQxM2VjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdmNTNkYmVlMWI2OTM4Yzg3YWI4NzEyNmZkYjBkYzhiZmZjNjkyOWNmYTg1MGYyNzZlODU0MGJjYzA2MTg4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_25ccc0df0809440c915eb9e0de2511c1",
+      "statement": "Restricted datasets in TDIP require Privacy Office approval with a 15-business-day SLA, consistent with DUS-07's Collibra Data Access Request approval path for Restricted datasets.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L74-L80",
+          "version": "repo-lines-v1:sha256:bf2909299dec8002797551475360bb4461013ce2f3a66193984de7d2aa999107:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjdlZGI4NTRmNjg2NTVjMDg5NGM2MzBiNGExMDViMjVkYjQzNzliOWMzZTE1ODc5NTkxZmZhMDA3YWI3NjlhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjJmYmUwOTUyMzJkMDcwMjgxNDRkYzA4M2MzNjBkMTY2MjdiN2EzMjZkMTAyYzE5NzRiZGExY2IwMTg2NTExMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDFlNDZkNmY1NTI2OTYyMGI3ZTU3YmE5ZjkzNDk0NzQ2NmI1YzE4Zjg3MTg4ZTU5MWYwZDAxOTQ3ZDcwNGI0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDRkMDk4YmZjZTRkMGMyY2ZkNWVjMDdmOWJiY2FmZjM1NmU5Y2FmMDcyZDNlYmFkMDViYTFiZDkwNzM0Y2JkNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L26-L26",
+          "version": "repo-lines-v1:sha256:f09740f821f6d12059379db6db27484a75c4f00ef92ac0655ad2edb1a5e535af:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjBiOTE3YWJmZWM4NjYyMzAwM2VlNzNhMGJkZjE1ZDliOTUzMjRhMmNhMDI5YjBiMTFhYWUwNGY4YWQwZTM2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c6baa7ed11124b9c92ac95edee9fd960",
+      "statement": "TDIP's catalog lists six payments-domain datasets (pay_wire_txn_hist, gpi_tracker_events, fed_ack_events, dda_txn_history, client_hierarchy, cbo_wire_events), each with a distinct source system, refresh cadence, retained history, DUS-07 classification tier, and named data owner/steward.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L37",
+          "version": "repo-lines-v1:sha256:08c88537cb91c34149ae86e60f897ee77737ff4548c3768bc26fc1d5b9f00fa6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNjN2NlZWFkNjEwYjQzZTI0MDY3NWRlNGU1NzNjN2MzNzRlZWY5YTMxMzdkZGVjMjFiZTU5NDhkNjI5NWY1MzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImViM2FjYjRjYjc4NTE4ODI3MTc2ZWI5Y2I0ZjMxZGM5OTJmNTgyOTNjMmI3MWZlOGFhNjQ0Y2Q3MTQ1MzZiYmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_54e6a215594e48c3bf62cce222317439",
+      "statement": "fed_ack_events (net.fedwire.ack.v1) is not ingested into TDIP, tracked as backlog item TDA-2210, which prevents TDIP from producing Fedwire settlement/acceptance-timestamp analytics comparable to what it already computes for Swift/gpi wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L34-L34",
+          "version": "repo-lines-v1:sha256:9f0fb2dd442a67cec0fccc356d45bca2f6794d1a3a5800d364c4be7de422a06e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWYwZmIyZGQ0NDJhNjdjZWMwZmNjYzM1NmQ0NWJjYTJmNjc5NGQxYTNhNTgwMGQzNjRjNGJlN2RlNDIyYTA2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWYwZmIyZGQ0NDJhNjdjZWMwZmNjYzM1NmQ0NWJjYTJmNjc5NGQxYTNhNTgwMGQzNjRjNGJlN2RlNDIyYTA2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2NiNTYyODE0NGVkNzhiZDI0ZmE1ODRiMmE0MTc5YTE3MzkwZjM4MGFhN2U0ZTY0NDFjNjUzNjBlMGZkZWNhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWEzMTA1ZjUwOTk1ZDE0ODc4OWE3ZGQzNDU1OGMzYTMyYTI5MTY4NmU3MzI1MjdiZDVkZjllYzhiNjIxZTZjMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L39-L39",
+          "version": "repo-lines-v1:sha256:1a508f4e1a2a1b4e5e67ad2427c2c4e2c588c642a2fd527193621e2637ed2cba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE1MDhmNGUxYTJhMWI0ZTVlNjdhZDI0MjdjMmM0ZTJjNTg4YzY0MmEyZmQ1MjcxOTM2MjFlMjYzN2VkMmNiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE1MDhmNGUxYTJhMWI0ZTVlNjdhZDI0MjdjMmM0ZTJjNTg4YzY0MmEyZmQ1MjcxOTM2MjFlMjYzN2VkMmNiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWI3ZDcxMTBlOWJkN2NhMjBmOGU1ZjA5MjMzZmYxNjA4YzM5MzViZGJkMDA1MGY3OGZjN2ZlZWZlOGUzMGI5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L84-L84",
+          "version": "repo-lines-v1:sha256:0e8a6a401cedbae909bf60bbb08ffa11e253bc6aec4cbba21b73b255893f073e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU4YTZhNDAxY2VkYmFlOTA5YmY2MGJiYjA4ZmZhMTFlMjUzYmM2YWVjNGNiYmEyMWI3M2IyNTU4OTNmMDczZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU4YTZhNDAxY2VkYmFlOTA5YmY2MGJiYjA4ZmZhMTFlMjUzYmM2YWVjNGNiYmEyMWI3M2IyNTU4OTNmMDczZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTgwOWIxNTE3NDI5NDhlYjU3MjBlZGQ2NTQxYWQyYWYxNDE1MTA3ZjExYjUzNTRkNjljNzNkMWYzYjBhMThkNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_37e115865af643009b9dd77e64c2c9be",
+      "statement": "pay_wire_txn_hist.uetr is populated for Swift wires since 2018 but only for Fedwire wires since 2025-10 under ADR-PAY-023, so UETR-based cross-rail correlation of Fedwire traffic is unavailable before that date.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L39-L39",
+          "version": "repo-lines-v1:sha256:1a508f4e1a2a1b4e5e67ad2427c2c4e2c588c642a2fd527193621e2637ed2cba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE1MDhmNGUxYTJhMWI0ZTVlNjdhZDI0MjdjMmM0ZTJjNTg4YzY0MmEyZmQ1MjcxOTM2MjFlMjYzN2VkMmNiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE1MDhmNGUxYTJhMWI0ZTVlNjdhZDI0MjdjMmM0ZTJjNTg4YzY0MmEyZmQ1MjcxOTM2MjFlMjYzN2VkMmNiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWI3ZDcxMTBlOWJkN2NhMjBmOGU1ZjA5MjMzZmYxNjA4YzM5MzViZGJkMDA1MGY3OGZjN2ZlZWZlOGUzMGI5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3c6d255f6fce46d0a434325ec24e6bb5",
+      "statement": "TDIP derives three feature tables from the raw payments datasets (wire_corridor_stats_daily, beneficiary_behavior_profile, client_wire_history_features), each inheriting a classification and permitted purpose from its inputs per DUS-07's purpose-limitation rule, and each with a distinct (or absent) MRM inventory link.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L38-L40",
+          "version": "repo-lines-v1:sha256:3aaddc7c397555a338a34b6ce226481dfe6f1ec0617e50f9b12bd7338bf99880:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3MDg4NjljMzZlN2YyODU1ZWI4Yzk3NDgyNzkyMDVjMTY3ODM2YmIyOGRhZjg1YjIwYTVlNjY1OWZjNzA3YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzMzOWM2NWE4YjlkZWFjOTk5YjZhZTY0ZWJhYjIzZmVmMDFiNGFlMjcwYTBjNTMwOTQyMzQxMDA4MWM0NzY1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDMyM2I1ZDRlZDYzNWNjZjg5Y2RkYjZhODU4NmE4ZWYxNDU3MjRjNTg4MTM5ODk3YzNjNzAwYTVmYTZjOTMyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjM1ZmVmOWI3YzdlZmZmNTI1Y2Q5Njk5N2ZhMWM5NzEwZWI5ZWJmMjZhN2EwMjE5ODhhMmVhNGYzYTExNmFmZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L41-L47",
+          "version": "repo-lines-v1:sha256:2082afba3708689b0dd9e8cc06eec2f17b36425ffb27d4c65d970fba22e7b421:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmJjNmY5MDM2OGFjNDIwMGQ2NWU2ZTk1M2FmMjFjZjkxYTI0OWI3MmI4NjBhYWI1MGUyZGY4ZWY3MmE1ZGU0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_79bd6ee783554b7fbcc2a3375dc388c4",
+      "statement": "wire_corridor_stats_daily carries no suppression flag despite being built across all originating clients, and the catalog's own rolling-90-day corridor sample includes thin corridors (e.g. MXN/MX with 88 distinct clients and a 21% largest-client share, NGN/NG with 11 clients and a 38% largest-client share) that would fail DUS-07's aggregated cohort-disclosure thresholds (>=500 transactions, >=20 distinct clients, no client over 15% of volume) if shown to clients.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L46-L60",
+          "version": "repo-lines-v1:sha256:b947da52469af808271803afaf573c53290020b53d6fda6fc78b9d28d4dc089f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxOTA0YjliNmRlYTJiOTZmMGQwZTcwMmExYWNmZjBlYjI3M2FiMzdiYjZlODY5NjcyMzUxZmZiMzNhMjJkMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZTc3MTExZDQ0ZTA4YWU5MWJhZTcxMTQyZTE0MmI0MzM0MjBmZmNlYjczMjJmODkzZGMwZjU2ZGI0NGE4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkYzM0OGY0NjliYjljYmQ0ZGY0NWMxODY0M2QyYzllZTNhZjY2N2Q3N2JmMjQ0NGJkOWU0ZTc2MmE0MzQwYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ODQ1ZWJlZTQ2MWY4ZDgwOWM4MzNiNDBjZjE0MDhhODFkYTVmMTVkNThmNGRlNDlkZGJlNGNiNGNkNWU3MGQifQ"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L45-L45",
+          "version": "repo-lines-v1:sha256:b951cb52f2099d68ffed68cdfeba20c884100fee8f4893a4e275841d91b630a8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1MWNiNTJmMjA5OWQ2OGZmZWQ2OGNkZmViYTIwYzg4NDEwMGZlZThmNDg5M2E0ZTI3NTg0MWQ5MWI2MzBhOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1MWNiNTJmMjA5OWQ2OGZmZWQ2OGNkZmViYTIwYzg4NDEwMGZlZThmNDg5M2E0ZTI3NTg0MWQ5MWI2MzBhOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjk4Mzc5NWIwMzE5YTAyNjBiYTFkOTNiZWMxNjczOTMyODhmZWFkN2QzYWEyODI2OWM2NGEwNWVlMTRmZmQzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTMxZjM2NzdhYmJlMTk5ZDM2NWNhYTgyYjU1ZmIwM2IyZTVkZDkxMmRhZjIwMThiNWYyNWNkZWI1MmI1MDBlZCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L49-L69",
+          "version": "repo-lines-v1:sha256:dd561895e50f246db5d5979202f369af4d03337feb4c81bb512cd9ac1b25018c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIwMWE3ZjBiMDA3YjNkMWY0YmVkZjBkMmJjMGMwOTE0ODM2YTRjY2QyZWI0NmZmNjM5NmQzNmQzMWI3ZGZmYmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEyOTk3YzI0MGZjN2JkZTA3YWEwYjRmYjNmMDIzNzRmNDhlZWFmNjA0ZTJlZDgzNmE0MWYzNzBjZDI4NGZlMTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkzMWYzNjc3YWJiZTE5OWQzNjVjYWE4MmI1NWZiMDNiMmU1ZGQ5MTJkYWYyMDE4YjVmMjVjZGViNTJiNTAwZWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNiZWI5MTU0NzQ2ZWNlNzBhZmJlNGQ4ZDEzMGUwZDczZWYxYWMzZjcxNDQ1OGNhZDgyNDY1YWRkMzQ5OTU4NjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1728e6b0cea04035a799694792368e77",
+      "statement": "beneficiary_behavior_profile is classified Restricted - Client Confidential, permitted only for FCT fraud/mule-detection use as an input to Tier 1 model M-FCT-0034, and MRM-POL-02 bars Tier 1 financial-crimes model inputs such as this from product, marketing, or client-facing use.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L46-L46",
+          "version": "repo-lines-v1:sha256:2ab196be7cadf232c6602cd6a8ce392cfa24f43020f3931a8c5426bc2b671e4e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFiMTk2YmU3Y2FkZjIzMmM2NjAyY2Q2YThjZTM5MmNmYTI0ZjQzMDIwZjM5MzFhOGM1NDI2YmMyYjY3MWU0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFiMTk2YmU3Y2FkZjIzMmM2NjAyY2Q2YThjZTM5MmNmYTI0ZjQzMDIwZjM5MzFhOGM1NDI2YmMyYjY3MWU0ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWIzZTcyNWI0NzI1NTQ0ZjgzYjIyOGJmZTNlYmVjNjI0ZmViMWU0YTRhMWI4NzFjM2I1NDhjZjNkZGViOGNmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzQyMGI2MWM5OGExNGNkMWVhYzA5ZjNjNzAwZTE2YjRkYmE0MzVjMTVhNDI0ZGFmNGIzMmQzNWNmOTJjOWQ0MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L46-L46",
+          "version": "repo-lines-v1:sha256:4f3daf9d7cabf756023827242da37ed6f417ef09c588cc1514a325de24b6c312:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYzZGFmOWQ3Y2FiZjc1NjAyMzgyNzI0MmRhMzdlZDZmNDE3ZWYwOWM1ODhjYzE1MTRhMzI1ZGUyNGI2YzMxMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYzZGFmOWQ3Y2FiZjc1NjAyMzgyNzI0MmRhMzdlZDZmNDE3ZWYwOWM1ODhjYzE1MTRhMzI1ZGUyNGI2YzMxMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjU5Yzg1ZmM3MTA4NTFlNmNiZTJiOGFkMmFmZjM1NDkxOTI3YWJkMTY2OGM0ODc2ODYyNjMxMDk4ZTk2MGZlMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWMxNzQ3NGJjN2M2MDM0ZjJjMzk2N2Y2YWQ5MTQ2MTYyNTUxOTA2NWNhNGRhZGNiMzQwYWM0ZmQ5ZTQ1ZWY0NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0b850babf2f1429d8fba9cd7060b0f55",
+      "statement": "client_wire_history_features is an unregistered (not in MRM inventory), prototype feature table that has not been productionized, so no wire-history or corridor-insight Insights API endpoint currently exists.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L47-L47",
+          "version": "repo-lines-v1:sha256:c0e8c36c9073b94f65bb9f8acc3daf2869b0139ef29062888ac051debf8402e2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjU1YzRhYWMwMTAzODBkZmFlYmY4MWZmYzEyZTBiYTlkNjkyM2RhYThiODBjNTEyODQ2ZmVmYWIwOWE0MGI5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L78-L78",
+          "version": "repo-lines-v1:sha256:d12470653869d3681d4f706bd57b1ae96d9b6ba168ef7c939f7a3f8c98a3f1cc:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDEyNDcwNjUzODY5ZDM2ODFkNGY3MDZiZDU3YjFhZTk2ZDliNmJhMTY4ZWY3YzkzOWY3YTNmOGM5OGEzZjFjYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDEyNDcwNjUzODY5ZDM2ODFkNGY3MDZiZDU3YjFhZTk2ZDliNmJhMTY4ZWY3YzkzOWY3YTNmOGM5OGEzZjFjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjEwNjQ3OWNlNTA2NTI2MWIzY2VhMDk4ZTBmYTgwMzZiMzNiMmYyYTNjNzNjZDkzODY4Zjk3MTJlNDlhNjBhMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_14a6bcd4b6d3427ab811030028c7a023",
+      "statement": "The Insights API (established by ADR-PAY-026) serves client-facing analytical outputs by computing results inside TDIP in batch or micro-batch, publishing them to a serving store, and exposing them through versioned endpoints, with entitlement/authorization checks delegated to the calling channel rather than enforced by the Insights API itself.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L73-L73",
+          "version": "repo-lines-v1:sha256:da1ce65b6d3bb38c7869b3067eb2e0362ee7d7b9c20c073b662aecc29107a5df:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGExY2U2NWI2ZDNiYjM4Yzc4NjliMzA2N2ViMmUwMzYyZWU3ZDdiOWMyMGMwNzNiNjYyYWVjYzI5MTA3YTVkZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGExY2U2NWI2ZDNiYjM4Yzc4NjliMzA2N2ViMmUwMzYyZWU3ZDdiOWMyMGMwNzNiNjYyYWVjYzI5MTA3YTVkZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2JlYjkxNTQ3NDZlY2U3MGFmYmU0ZDhkMTMwZTBkNzNlZjFhYzNmNzE0NDU4Y2FkODI0NjVhZGQzNDk5NTg2NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWFkNDMyNWZmNTI3OGMxYmY3YzA4ZTc3NTJiY2RiODg2MDBiZDQzYTk3ZjU0YmRjYTcxMWY5NWQ5ZjU5YjY1MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_87dfa6c567e441a6a344b4da79df0f92",
+      "statement": "EP-TDIP-01 (GET /tdip/insights/v1/cash-forecast/{clientId}) is the only GA Insights API endpoint, live since 2025-09, backed by model M-TRS-0142, with p95 latency of 120 ms, and is treated as the reference implementation for future endpoints.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L75-L77",
+          "version": "repo-lines-v1:sha256:f106479ce5065261b3cea098e0fa8036b33b2f2a3c73cd93868f9712e49a60a0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUzYTBkMThjYTUwOWRiMWQzNDI1ZDUwODY0OGUwZTM0M2UzZjYyN2FmYTRjMWMwMTZmYTc4MGEwMDg4NzdlOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBlYzdkYzIwODNjNzg4MGU4OTMwMmQ5YWJmNDIyODBlMjM4ZmNlNzMxNDQxOGFmOGI3MjU4MWI1YmI4ZTFjNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2M1MjYyZDA1N2I5MGQ0M2JiYzczODhhNzViNDc1NjQyMjc1ODUzM2E5NDFjOTA3Yzg0ZDk2ZThhYjk1NzI5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjE4ZDA2NDZhYWNlYmQzYmJmMjliODAwMzQ2YWIwOWU2MTQxZGZhYzBiYmVjNzRlMzI0ZWExMWU0ZTc4YmQ3MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_44e673bb6adb4bfaa61713f15fc97d3c",
+      "statement": "Onboarding a new Insights API endpoint requires four sequential steps: MRM inventory registration per MRM-POL-02, data-access approvals per DUS-07, serving-endpoint build (typically ~13-21 story points), and Disclosure Review Committee approval of client-facing wording and disclaimers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L80-L80",
+          "version": "repo-lines-v1:sha256:a8e6adad988dc571ad903be21a8e008015faa8deba0e7214b8154065589d6517:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzNjNjIzMjFmZTkwYjVlYTU2MmU5YjQxY2RmMDczNjM4M2Q4MTI5MDQ3MGMzZGQwOThhNDM3OTRiMmU0ZGMwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_00cbffff03364ec0b05e84f050f83421",
+      "statement": "As of this catalog extract, TDIP has three known operational gaps: Fed acceptance timestamps are not ingested (TDA-2210), gpi data refreshes only nightly until TDA-2188 completes (targeted 2026-11, history starting 2025-03-01), and no sub-minute real-time serving exists for wire data (hourly is the minimum achievable freshness).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L82-L88",
+          "version": "repo-lines-v1:sha256:60996095138c66b375cef4489154f82351719b5d9bd7857ad94f0299baa7512d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRjYmE0YTQ2ZGI1NDYxNWVkMTQwMjU5NDc0ZTJkNTMwYmRkZjdjM2Y4OGNmNGY1YjI5NDhiYjEzNjRlMTJkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmY2Y4Y2E2MmE1Yjg5MWE2OTEyMzBmOTM1MzZkZWRjM2E1MTgyNDE0MWZhYzYyMmZlOWU5YzgxNzI5ZWM0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQ1NmUwNWRkNTFjYWQxZDYzMjk3ZDIzOGJiMWY2NjJiMGU3YTUyNGMyZWM5MmMxOWQ0NmJiMGU0YzU2NDVlYSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

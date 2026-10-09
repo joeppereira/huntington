@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d61fc5c3b1a059889f82b16640ce5e19781f941c1951ea3003c8e4622ce29450",
+  "claims": [
+    {
+      "id": "claim_8b18cce3fd58480dbc4f4bcd12ca298b",
+      "statement": "The internal severely adverse scenario is defined by peak/trough values: unemployment peak 10.2%, real GDP -6.4%, equities -41%, house prices -28%, CRE prices -35%, 10-year Treasury trough 0.9%, BBB spread +5.4 pp, with an instantaneous global market shock applied in the first quarter; it is delivered via API-14 as scenario set SA-2025-INT.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L449-L460",
+          "version": "repo-lines-v1:sha256:f840a6a8895789cefe9190c381bbd1aea9805c1923d87bea96ca272e3729a46d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0Yzg1ODRhNTZmNmZhOTFkZTBmMzA4ZWRkN2U2ODUxZjk2N2QwMGZhMGRkOTBmNDg2MjU4MmQyYWI0MGM4NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1YjE4MjlmNjZlNGRkNTlhMWQ4MDhjNjYwYzA3YzI1MzE4MTYyZjRiNGRmZDYxYWEzOTM2YTQ3ZjNiMTFiZjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU2YWVjYzIwNzFhYTdlOWRiYTk0YWFiMTMyYTdkY2U4OGZlMjljMGY5MDljNTZjODA0MzY4YjYzODQ3OWU4OWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0Mjk1MWEzMjMzNmY3ZTdhYTg1OGU1ZTE3MDc2MzBhYmRkZTM5MmYyYmU5ZGVkY2U2YTNjZDNhMDVhZDA5NGIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2c2030198b174986b119a9a573dc308b",
+      "statement": "API-14 (/scenarios/v1, v1.6) distributes versioned scenario sets that are locked after Scenario Committee approval, internal-only with scopes scenarios:read and scenarios:approve; the internal severely adverse set was added in v1.5 (2025-10); downstream consumers include MDL-CR-007, MDL-CAP-003 and API-10.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L25",
+          "version": "repo-lines-v1:sha256:bad4f1fc2688b694acc6b2eaaec8d6858d4964029017c32f2d221f14fe972f54:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzZGUwODAzNGJlZTdkNWMyYWMwNTBmNWE2MDJkNzIyYTQ0N2M3M2ViNTUwZTMwMWRkYzhiOTRmZjJmNWI3MGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIwMzI5OTJlOGM4YmE4ZjE3OWYzZDk3OTNmNTZiYzE1MzljNTg2MWJjZjhiZjQzMmJmYjMwYmYzZWNhMjFiZjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZjBkZjQxZjlkZTVlN2M1M2M4NzllNjFkOTFhMGQyOWI2OTBlNWUwYzdmZTgyNWZmN2U0MWI0ZGQ5OGI1NDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L93-L102",
+          "version": "repo-lines-v1:sha256:dc4a5293320279121e1800ba01effc72f2e0b4c5edefabf4b8ee3d4ace44fecc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhNzI3ZTkxOTc3Njc4MDc5YjFmMzE3NDVkOWRmMDE3NjhlOWZlMmRkOGUyN2VmNzdmNDM1M2FkYzQwMDMxZGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQyYTJhNjIxN2JjMTYxNDAwZmRjMmI4NWQyZmU0ZTU5OTMzNmEyZmNjZjcyZTZhNzBhMGU3NTQwY2Y1MjIxMjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5MWFjMzdiNjZiMTJiOTczODZiM2FiYzU0Y2JiZWJjNWM2NjVlYjVjZjc4ZDE2NjI0Y2FhYmViZGUwNmMxN2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f94f0a3bc43d406eae92aa26c0db04b3",
+      "statement": "In MDL-CAP-003 the severely adverse projection takes scenario paths from API-14 but treats PPNR, provisions, trading/counterparty losses as top-down inputs from the enterprise stress testing program; buybacks are suspended, common dividends held flat, tax benefit recognised at the 22% effective rate, and RWA growth is front-loaded then declining.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L298-L318",
+          "version": "repo-lines-v1:sha256:400a1dd45c5df5c71f2821868c05eb2e937827592bb012fcf7ccf5f661d56ba9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhYzI3MjE2MjRiOTg1Zjk0ZDcxYmQwNWJlNTBjZDUwYzdkYzk5YmE0NjRkM2ZhZTM5ZDQ4ZjA3ZTMxNDA4ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1ZjgyZjQwNzRhZTlkZWJhZWY5MDFiM2VlZjU4NTBiNTMyYTE4ODA2OWY3Y2Y3MzE5NGU4ZWZjMmQ1MDQ5MTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2NzE5Mjg3OGRkNDBkYThhZDA2ZmQ0Yjc2ZjIzNzVkNDk2ZGY1NWYzMTZmOWExZmYzNDk2NjQ3MDlhMTZhZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxMGI4ODY4OTE3NDZmYmFkZTEyNjA4OTY1ZWUyZjEyYWYzZDdiZGU3NDYyOTQ3YzUyODZlY2QyMjI4MmNkMzIifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L35-L48",
+          "version": "repo-lines-v1:sha256:630b49a0398626a08155d14c8b7a47bdb75f7d99e75a08ecceb2c85f5c526171:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhYzZmZTVlZWQ2ZGI1NzhiMDczZDBiMDkzMWYwZTIzMTlkYTQxMjI0ZmEyNTk4YjBlMTVkNjIwMDJiZjJlN2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3ZTYyYWRkMDY0ZWIxY2FhZjE3NDZhMzM2ZTk5NDAyNzIzZTEwOTk5MzhiZDQwOGFkMDRlMmUwNjFkM2EyMzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJhNzU1ZTVkZGE5ZTFlNDE5MDM3YjYwY2NiOTVlZWI0ZTJkZWViZmJkNmZjYjBjYjQzNTZhMDY5Y2VhMjM3MjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3ZmZhOTVkYmMxY2M0MTQ2NDg5MGJhZWZlOWYxNWEzYzE0NTc5MTNkMWI2MDI5MGZjMTdiNjA0NGE1NTc2NzUifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L446-L456",
+          "version": "repo-lines-v1:sha256:f56531361a1cabc4a0cabe62665bcc582f42a86bfb5879359f6dbd6179a6bd16:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwYmZjNWY1ZTgwYjgyZTEyODhmNjU3MjhjYzA1MGVmZmRlYTU0YmFmOGU5Yzc0ZWMzNTBhOGVmN2FlOGZkNzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzYTlkNDJmZmU3ZWE4MzRlY2FlYTNmY2MyZWI4MTVjMGFkNDk4ZjFlZWZiMjc2MDE2OTJiMGE4ZTQwNzIxMWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlkYzgwZTg3MThiN2RmYmQyZDY4MThlZmNlYjgxNjFjYWRlOTM3N2M0YjkwOGFlODVlMmRlOWQwNGY3ZjkxMTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_21165c7a56d64a6dbc81999462964754",
+      "statement": "Under the scenario the CET1 ratio falls from 15.14% to a minimum of 12.90% in Q3 2027 (2.24 pp decline), dips below the 13.0% management target from Q2 to Q4 2027, and stays above the 10.20% regulatory requirement, so the stress check returns YES.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L298-L318",
+          "version": "repo-lines-v1:sha256:400a1dd45c5df5c71f2821868c05eb2e937827592bb012fcf7ccf5f661d56ba9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhYzI3MjE2MjRiOTg1Zjk0ZDcxYmQwNWJlNTBjZDUwYzdkYzk5YmE0NjRkM2ZhZTM5ZDQ4ZjA3ZTMxNDA4ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1ZjgyZjQwNzRhZTlkZWJhZWY5MDFiM2VlZjU4NTBiNTMyYTE4ODA2OWY3Y2Y3MzE5NGU4ZWZjMmQ1MDQ5MTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2NzE5Mjg3OGRkNDBkYThhZDA2ZmQ0Yjc2ZjIzNzVkNDk2ZGY1NWYzMTZmOWExZmYzNDk2NjQ3MDlhMTZhZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxMGI4ODY4OTE3NDZmYmFkZTEyNjA4OTY1ZWUyZjEyYWYzZDdiZGU3NDYyOTQ3YzUyODZlY2QyMjI4MmNkMzIifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L69-L108",
+          "version": "repo-lines-v1:sha256:d67de033af9b6f508fa93023fa700748eb2d4fe7694846818f8b37d94f2bf0b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NDAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzOTc3MWEyOGNiOTkzZmZjMWU5N2VhYTU0OGVhN2E1YTBhMmVjOTNlMjk2ZWNlOWRkZmRjNDkwZTkxZTUxNDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZmUxMjFiMDljNmNhNzgyZTg4MmYzZWFhOTA4ODM4ODZjZjQ4NTZkOGFlZTE1N2ZmZDE1NjJkMGE0ODVhY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwZjk0ZjlmNTc1NmY3MjIwOTJjMmJjNTc2OWJmMzBhNGM4OTJlZTRhMjg1YmJmMmY5NGIyNmVkNTBkY2Q1YjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNWJlZGQ2MGJjYTY5MTFkZDQxOTBjY2RhMmJlNjc3NTRiM2M2MzZkZjU4ZWFjNzFkOTRlOTQ4MWRjYjdiYTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_dc2a7c63b2614ae5a6717e2c148cad1b",
+      "statement": "The indicative SCB is MAX(2.5%, peak-to-trough stressed CET1 decline + four quarters of planned dividends / starting RWA) = 2.24% + 0.94% = 3.18%, compared with a 3.2% preliminary supervisory SCB.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L92-L108",
+          "version": "repo-lines-v1:sha256:0d8b3f5025152d6ffa0d8e7279f9c311f2cadcac964a887a711a7867e1208d5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YjVkNmMzZGJlZTBmMzgzNGMxNmQ4ZTZhOGQwMzYxY2I3ZjdmZDNmNzdhM2VlNDA5NDA0YzcxYmE5YmZhNzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZmUxMjFiMDljNmNhNzgyZTg4MmYzZWFhOTA4ODM4ODZjZjQ4NTZkOGFlZTE1N2ZmZDE1NjJkMGE0ODVhY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQwMjhiNzc4MWEwYzM4OTY0MTc5ZmVjMDhlNTk4ZTc0MjcxMWQyODAxZTIxYjA1MmNiZDc0YTg2OTU2OGE5MWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNWJlZGQ2MGJjYTY5MTFkZDQxOTBjY2RhMmJlNjc3NTRiM2M2MzZkZjU4ZWFjNzFkOTRlOTQ4MWRjYjdiYTgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L274-L286",
+          "version": "repo-lines-v1:sha256:84ce03df77d9598d62b1e0a74d28a1c4c29bdb20426d74382b0ef0e481db927b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2MjMyMTUxOGRlMmYzMzRiYmIzNDc2MjdlNmNmNmU2ODg5MDJlMmFmM2VkOGZjMjVkMWQ1OGUzMmE0ZjM5MTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlOTZiNzkxM2Y0ODI0NjdhNDM0Mzc0NTI5OTU0ODE2MzY3MDM4Y2Q2MGJmYThmOWFlNGFjZDAwY2U3NmQ2M2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkYzhiZGIxMmI5NTYyNDcxMjNjNGZjNzljMDE1NTRmMmM3MGRkNTEzYWMzZmJhOTVkNzNhNWNmYWMwYWNhNTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MDFmNzI5NDU1OTY1NGZlODUxN2RjZDg1YmQ5OWY0NWZmYzAzZGZhM2Q2ZGRjZGE3ZjZkMDc1OTkyYmU0OTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f788cbae40374d6e8378d7f029c28061",
+      "statement": "Risk appetite requires a minimum stressed CET1 ratio under the internal severely adverse scenario of at least 10.2%; the Dec 2025 value was 12.6%, and the firm runs the internal scenario at least semi-annually with the model re-run each quarter.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L305-L307",
+          "version": "repo-lines-v1:sha256:4b5521e97c1ecbdafafb20b1c7988162590ff7db07c0518716d41bff690ff690:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2QxYzhhMDg4M2IwZDk1OTY1ZmE4MDZkNzIzMTAwYTQ3ZDE2ZmVkMjU4YTlhNjg0Y2E5MjdkMmFlZDJjZmZmNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDE3YmZhYmI3MzIwZGI1ODI2YWYyNWYwZWQ5MDBiMmI4YzcwM2Y4N2E2M2RlZjg2YTkzYWQ1NGU4MTk3MTZkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBjMWM0NTdhYTkyMDBjMjYyNGUwNjhkNTc3YThhNmNhOTMwOTBjM2NjNGRlZDUxMjdjMGVkZmRlNjQ1Mzg4NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L68-L71",
+          "version": "repo-lines-v1:sha256:5dd325f3a82485b7108c9d72b32f631bfb620ffa9ec9499f18cc504bf51b96b4:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhkYWZjNzMzZWQyNDllMDgzYzIwNjE0N2JhNWIyZGY4ZjFjZTJjYmY1N2FhYjk1MWFlZGFlOWYyOTExZmYwYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjk2YjUwZTA2N2Y0NzY4M2ZhMDA2NzZkZTk0OGYyY2Y5NDYxZjAzNjg3ZWFmOGVkZDc0MmM3YjBjNGM1ZGM0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMThiZTE0NzUwNTljZjI0NzMyZTRmMDY0MDc3OWRiOTg2YzlhOTE2MDg5M2M5NjI3OGIyNWIwZWM5MTZhYzg5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2JlZWUzNjMyN2ZjNTFjM2Q0MGNmYmE0Yjc3OWQxOTc1NDc1Y2IzMDA4YzU0YjUwMjYzNDZiZDk1ZjU2ZTI2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b461813cc9bb4f80a2dc77ce468d6daf",
+      "statement": "The capital workbook is simplified (no AOCI volatility or DTA threshold deductions) and stress losses are not derived in it, so scenario severity changes only affect capital results once the enterprise stress testing program refreshes loss and RWA inputs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L56-L60",
+          "version": "repo-lines-v1:sha256:bb4d9655d2159223d4fbbc6a66c40eeac81b0271c1ca714e0275c9fb29745300:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVhN2UxMzBkZTAzNGQ2ZTRiYzZkNjJkMTdkMWFkYThhNWU5MTliZWViYTUyMmQxYWNlOWNmNmI2MmMwN2IyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzJlZTJkYjY1NzI3NWYxMWExMWNhYTg0NDg2NDg1YmRkOTY5NDE0YmViNWJlZmU2MWQ0NDlhMjEzOWY5YTkyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "updatedAt": "2026-10-09T19:52:35.718Z",
+  "command": "init",
+  "model": "claude-sonnet-5",
+  "status": "interrupted",
+  "language": "en"
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e11020f1e92fab9be5e7e133d6b390c54dcf200a38a53de2fead0f54c04112cf",
+  "claims": [
+    {
+      "id": "claim_2867573ba15e4d1b977a9bcf80b87d99",
+      "statement": "CBO-3120 (\"Wire Status Lite\") was a CBO Wire Center pilot (Jan–May 2024, 60 clients, 55 points, owned by Tom Becker) that had its browser auto-refresh each visible wire's status from the PPH v1 synchronous status API (GET /pph/v1/wires/{ref}/status) every 30 seconds, with no server-side throttle or client-side backoff.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L28-L28",
+          "version": "repo-lines-v1:sha256:3038fc9c1647d6ba6f0daf761aa168ceff1c5e8b34bdbecfdaccdb0a74d759f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjZlY2RlYTA0MmQxMzAzZGU1N2IxZmExMmE4MGNhMTU2N2Y1YjA0MjM5NmFkYWJjNmJlYzU4ZGNlYzAxZDU2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUyOGI1ZTZkMTJjYjNiNTcwZTFkYzdkY2JhN2M4NzczYzlmODEwMWYwMjNmMzZjZDZkZmQxNWJjNjYyZTBlMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L24-L26",
+          "version": "repo-lines-v1:sha256:47c1705db6ff961019a77cb29b6253eeb8c9aac385661d336843d74208a8cabd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVmNjY2ZTU0NDk5MjM5NjNkODg4ODUzN2I2ODk4ZDA4MWU4ZjYwMTU3ZjE1ZDNmYmY0MTlkMmNjNjJlYWQwNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjE0YzJjN2UwZmJlZjA3ZGYyZGRlMDdiN2U1M2VjYmM1MGY3MzFkZTlkNmJhZGJlZWRlODRlYmY0NGZmOTNkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjExOWIxZDgxY2Y3YzQ2YjkwMTNjOWUyYzZkYjg4ZDg0MDU1ZjY4M2ZmOGVjYjFkNDZjMGI0NjY3NWE2NmI5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d5722f4cea6f4c53971a9e7e3654f5f7",
+      "statement": "CBO-3120's fixed-interval, no-backoff polling design against the shared PPH v1 status API, combined with month-end production wire-release traffic, caused INC-2024-1182 (85 TPS, thread-pool exhaustion, 47-minute wire-release delay) on 2024-05-31.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L188-L188",
+          "version": "repo-lines-v1:sha256:40d8e597e48ec84d6243db2a62cca864155038031955f15e77dd2923cd550016:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTIzMTE2ZTczNjI3Y2M2YjM3NGQ5OGJkNDEzYzViYTI0ZTAzZGFhNjkwOGJiYzA1NmFkMzA3YThjNTNhMWU0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDU4ZTkxMTdkYmJiMDYzZDMzMDhjYzI5NmNmMjA0ZDY0NmEwNDFjYTgwMTViMGE2YjJmYWI1ZmNmNGZiOWZiNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L26-L26",
+          "version": "repo-lines-v1:sha256:ea9e9ca0105d80c788bdcc84abdf8df81155502086cf70c3ffde45168f88af9f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTFkNGY4YzViODlmYjEyMThjMWI4MjRhZDcxMDgyYjc4YmJhMGM2ODU4MzA3NjBmMWY4OGE4YjQxZWZlZjBiMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjExOWIxZDgxY2Y3YzQ2YjkwMTNjOWUyYzZkYjg4ZDg0MDU1ZjY4M2ZmOGVjYjFkNDZjMGI0NjY3NWE2NmI5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a5e07f35f1584dd48c8cca3b6a70e31d",
+      "statement": "The CBO-3120 epic is Closed with resolution \"Won't Do\" (closed 2024-07-19), linked in Jira as \"is caused by INC-2024-1182\" and \"documented in PIR-2024-07\", and the pilot was terminated rather than resumed after the incident.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L28-L28",
+          "version": "repo-lines-v1:sha256:3038fc9c1647d6ba6f0daf761aa168ceff1c5e8b34bdbecfdaccdb0a74d759f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjZlY2RlYTA0MmQxMzAzZGU1N2IxZmExMmE4MGNhMTU2N2Y1YjA0MjM5NmFkYWJjNmJlYzU4ZGNlYzAxZDU2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUyOGI1ZTZkMTJjYjNiNTcwZTFkYzdkY2JhN2M4NzczYzlmODEwMWYwMjNmMzZjZDZkZmQxNWJjNjYyZTBlMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L26-L26",
+          "version": "repo-lines-v1:sha256:ea9e9ca0105d80c788bdcc84abdf8df81155502086cf70c3ffde45168f88af9f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTFkNGY4YzViODlmYjEyMThjMWI4MjRhZDcxMDgyYjc4YmJhMGM2ODU4MzA3NjBmMWY4OGE4YjQxZWZlZjBiMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjExOWIxZDgxY2Y3YzQ2YjkwMTNjOWUyYzZkYjg4ZDg0MDU1ZjY4M2ZmOGVjYjFkNDZjMGI0NjY3NWE2NmI5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9d4d9484e3e14c84b76cab0e5e964d16",
+      "statement": "PIR-2024-07 identified three root causes for CBO-3120's failure: polling a shared synchronous API with no client-side backoff, no capacity test at month-end volumes, and status semantics not validated with Compliance or Legal before client exposure.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L45-L51",
+          "version": "repo-lines-v1:sha256:9e71d2f93a360cfa2460e517259613f7b7db12d400b3196ac826dd19f447e343:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjFjZjVmMGIwNmRjMjM0MGRlMTYyN2U1ZWVkNmQwM2UwZjM3NzQ5MGYwZmQyNTE3ZGRhMWJiZDRkZDI1ZDQ1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjBhYmQ4ZWIyNThlMTIxY2U4OTFkOGJmMzEwOWMzZjNiOGI0YzI5OWRjMTk0NDUyMjY3NGNkZTY5MjMxNjkxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGVmN2IwNGZmYjBiOWE5YzYyZjljNzFlY2EyYzZhMTgzNjViNGFmYjI4OTNlYWI2YzY0ZDkyN2E2YmMyYjRiMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUxYWE1YTRjMzkzM2VmOTgzOWEwYjViNGYzNzgxNjM2YmI2Y2UyNDZhZTc2ZGZiY2NkOGM3ZTg1MDA4Nzk5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ed74357f909f4757823fbb18e34b851d",
+      "statement": "During the CBO-3120 pilot, 37% of surveyed users believed the PPH v1 status value \"Processed\" meant the beneficiary had received funds, and Treasury Support could not explain wire holds to clients without FCC guidance; these findings are recorded as pilot root-cause context alongside the thread-pool exhaustion.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L37-L43",
+          "version": "repo-lines-v1:sha256:c13cc30ea9aeac03b0e805756b86daeffe12820d3bfe0b608f80179424daaa42:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzU0MGRiZjZmMzhlMTc5NTMyMmM0NjA3ZDk3MDMyZDRkMDVjZWE2YjAxZTQwMzc5MWJmN2UzNWViN2IyNzZiNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwYTRiNjU5MzQ2ODQ0ZmMzMTk2ZGIwNGEyMDJlODc3MGMzM2Q5YzJhZWFhMTdiMTU0YjllNGZmY2RlNWYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFmMGQ4MTgwYzk5OTQ1NzA3YzE3Yjk4ZGZjYzExMGM1YmUxMTk2NDE0MGJkMGI1YzBkNGE2NzlmMGJiYjk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkNjk4OTVkMzlhMWRjYTliNmU5ZWZjZjJkOTA0YTllODBlMTRjYjAzM2VkMWVlMTIwYmQ3ZmY4M2ZmMmJmNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_88c14f2bd84c44d68613323c4ab35379",
+      "statement": "PIR-2024-07's action plan arising from CBO-3120/INC-2024-1182 led directly to ADR-PAY-019 (event-driven status pattern, done 2024-06) and the CBO Status Projection Service (delivered for ACH via CBO-3815 in 2025), while the action to validate client-facing status terminology with FCC and Legal remained open as of the PIR and the 2026-10-05 Jira export.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L123-L129",
+          "version": "repo-lines-v1:sha256:b98a4269ebd7df79bd67e4f14df8ca99146ecfcf518700069a8a6c3d8d399810:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYxMDgxYmI3MzlmOTM1NjY0OWE5NzY2YWRlM2QyNDg1YmYwNmIwZGZkNTNmM2I3MjdkYzVlOTdhYjAwNzBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1M2NlNDkyZTNhOTA2ODZhZDkwOTNiZGRlNTMwNjk3OGFlODUyN2QyYmZlZTY3N2RlOGYyYjA2OTFjNTdiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmMzk5NjE2OTQwMzVhZDk4Y2ZhMzEwN2IxNzBiMmI1ZWU5MzE2MzA1MDVlM2M0YzU0NzIwNzU2NGFjZjkyNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L53-L60",
+          "version": "repo-lines-v1:sha256:48e33e8afd5d89a9891ca2815cbb357d002f93967de9d8394a7e0632cdb08305:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDJiY2U5NThlYjI2ODEyMWYwYWZhNTI0NjkxOTE2YjZjNTEwODY3MjRiODc5M2RhYjM4NDIxMjNhODY5NDE2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlZjE2MWJiMDQyOTE2MzliZmZiNGUxMzE1NTdmNGMyYjA2MmI1ZmUyYzAzMmY4ZDQzZWFkNDQwMDNkOGNiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTk3MGZkNzA0MmU2M2M5ZjAwMmExM2VjZWQzZTZhZWE4YmFiZDZjNWIyNWIzYzU5MTUwOGRkMDk2MzkwN2JhMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzgzNDlhYmQ0MzEwNDExYmQ2NmMyZGM4MmMwNGRmN2U0MzRkNjgyNTk0ZWM4ZjdiNmE0ZTJhODE0MDlhMDFkMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,170 @@
+{
+ "nii": {
+  "Down 200": {
+   "shock": -200,
+   "nii": 47220.0225,
+   "delta": -3016.8875,
+   "pct": -0.0600532058998056,
+   "eve": 2737.4,
+   "eve_pct": 0.0247459772193093
+  },
+  "Down 100": {
+   "shock": -100,
+   "nii": 48728.46625,
+   "delta": -1508.44375,
+   "pct": -0.0300266029499028,
+   "eve": 1368.7,
+   "eve_pct": 0.0123729886096547
+  },
+  "Base": {
+   "shock": 0,
+   "nii": 50236.91,
+   "delta": 0,
+   "pct": 0,
+   "eve": 0,
+   "eve_pct": 0
+  },
+  "Up 100": {
+   "shock": 100,
+   "nii": 51745.35375,
+   "delta": 1508.44375,
+   "pct": 0.0300266029499028,
+   "eve": -1368.7,
+   "eve_pct": -0.0123729886096547
+  },
+  "Up 200": {
+   "shock": 200,
+   "nii": 53253.7975,
+   "delta": 3016.8875,
+   "pct": 0.0600532058998056,
+   "eve": -2737.4,
+   "eve_pct": -0.0247459772193093
+  }
+ },
+ "cecl": {
+  "Credit Card": {
+   "upside": 6894.35850500455,
+   "baseline": 7641.78869610452,
+   "downside": 10611.3884795337,
+   "modeled": 8383.18259291327,
+   "overlay": 256.81740708673,
+   "total": 8640,
+   "coverage": 0.0624277456647399
+  },
+  "Residential Mortgage": {
+   "upside": 580.955901828212,
+   "baseline": 662.267594458784,
+   "downside": 1058.80032720481,
+   "modeled": 764.965075756478,
+   "overlay": 55.034924243522,
+   "total": 820.000000000001,
+   "coverage": 0.00375114364135407
+  },
+  "Auto": {
+   "upside": 627.113819660418,
+   "baseline": 675.4135404654,
+   "downside": 868.101192569424,
+   "modeled": 723.559891935611,
+   "overlay": -33.559891935611,
+   "total": 690,
+   "coverage": 0.0106317411402157
+  },
+  "Commercial Real Estate": {
+   "upside": 1653.81957967279,
+   "baseline": 1936.20742759604,
+   "downside": 3150.43301071632,
+   "modeled": 2243.99753294747,
+   "overlay": 226.00246705253,
+   "total": 2470,
+   "coverage": 0.0251527494908351
+  },
+  "Commercial & Industrial": {
+   "upside": 2222.30704262034,
+   "baseline": 2416.2581574624,
+   "downside": 3188.95615030543,
+   "modeled": 2609.2773323469,
+   "overlay": 150.7226676531,
+   "total": 2760,
+   "coverage": 0.016
+  },
+  "Other Consumer & Wholesale": {
+   "upside": 456.207460041563,
+   "baseline": 485.108613990001,
+   "downside": 600.451064391025,
+   "modeled": 513.931118320621,
+   "overlay": 26.0688816793791,
+   "total": 540,
+   "coverage": 0.0108651911468813
+  },
+  "Total": {
+   "upside": 12434.7623088279,
+   "baseline": 13817.0440300772,
+   "downside": 19478.1302247207,
+   "modeled": 15238.9135442204,
+   "overlay": 681.08645577965,
+   "total": 15920,
+   "coverage": 0.0214468543715479
+  }
+ },
+ "cecl_sens": {
+  "100% Upside": {
+   "allowance": 13115.8487646075,
+   "delta": -2804.15123539248,
+   "pct": -0.176140152976914
+  },
+  "100% Baseline": {
+   "allowance": 14498.1304858568,
+   "delta": -1421.8695141432,
+   "pct": -0.0893134116924121
+  },
+  "100% Downside": {
+   "allowance": 20159.2166805003,
+   "delta": 4239.21668050034,
+   "pct": 0.266282454805298
+  },
+  "Probability-weighted (reported)": {
+   "allowance": 15920,
+   "delta": 0,
+   "pct": 0
+  }
+ },
+ "capital": {
+  "Starting CET1 ratio (Q2 2026)": 0.151406343506882,
+  "Ending CET1 ratio - baseline (Q3 2028)": 0.161455951841534,
+  "Minimum CET1 ratio - baseline": 0.152280086626257,
+  "Minimum CET1 ratio - severely adverse": 0.128983971546123,
+  "Peak-to-trough CET1 decline (stress)": 0.0224223719607589,
+  "Four quarters of planned dividends / starting RWA": 0.00938598498864784,
+  "Indicative stress capital buffer (SCB)": 0.0318083569494068,
+  "Regulatory CET1 requirement (current SCB)": 0.102,
+  "Regulatory CET1 requirement (indicative SCB)": 0.101808356949407,
+  "Management target": 0.13,
+  "Cumulative buybacks over horizon ($mm)": 27000,
+  "Excess CET1 vs target at Q3 2028 ($mm)": 22994.9058910998,
+  "Stress minimum above requirement?": "YES"
+ },
+ "Baseline_Projection_cet1": [
+  0.151406343506882,
+  0.152280086626257,
+  0.153218436210932,
+  0.154219682716558,
+  0.155282146314646,
+  0.156404176452379,
+  0.15758415141841,
+  0.158820477914569,
+  0.160111590633413,
+  0.161455951841534
+ ],
+ "Stress_Projection_cet1": [
+  0.151406343506882,
+  0.139170226881732,
+  0.134569143103967,
+  0.131423363570476,
+  0.129497229626027,
+  0.128983971546123,
+  0.129619228730177,
+  0.131300881084452,
+  0.133555344084941,
+  0.136276716373398
+ ]
+}

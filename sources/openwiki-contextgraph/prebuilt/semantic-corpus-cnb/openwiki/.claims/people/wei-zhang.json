@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9647db7385ee539b31212c667a25ee8996e1a97d20dbce221854aa4d54ccfeaf",
+  "claims": [
+    {
+      "id": "claim_5631041917d94f3a881fd92615654a3c",
+      "statement": "Wei Zhang is the Director, Treasury Data & Analytics at Crestline National Bank, leading the Treasury Data & Insights Platform (TDIP) engineering team listed in the PTT engineering directory, tracked under Jira project TDA and Slack channel #tdip-help, with Carlos Mendes (EM, Data Engineering) and Dr. Aisha Rahman (Lead Data Scientist) as the team's named key contacts.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L60-L64",
+          "version": "repo-lines-v1:sha256:6f06c85c5b175415d4998dfbf79615768177e9441a09730b6c8b31eef22b2d2d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVkYjg1ZjQyMzk4YjFiZThmMzFjMjgyOGZhZGI0YzQwMWI0NGE0MWExNDQ1ODdkODY4ZDI0ZTI4ZGE5ZGE0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjI3YzY3ZWUyMTliZmExMGYxNjk5M2U2ZWYyODU0ZDI1OGQ2NWQwZmEwYzRiOTE2MDUyODcxMmE1YjRiMmQxZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ef85e5c9bb7249a9bdd1129cde930548",
+      "statement": "Wei Zhang is one of the named approvers (alongside Ethan Brooks, Data Governance) of TDIP-CAT-2026.2, the published Treasury Data & Insights Platform Data Catalog Extract (Payments Domain) & Insights API, which is document-owned jointly by Carlos Mendes and Dr. Aisha Rahman.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ba7ff2eb1885278e0711f4cf6fce36662df1eb6b2108a4d280e0a3578d76a938:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmRiNTI5ZDcxMjNmYjZkYTNjZjRmNjE4NDg4MzdiNmM2YzZjOGJiZTdlYThjOTY5NGIwOTAyYmY0N2ZlZjc1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzk2N2E0ZTdkNGE1YjI5ODNiNTg2MTlkMDM0MTQxZGRjM2I1NDVjOGMyM2I0MDAxMjM2ZjgyODc1NGQxYWUxZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBiOTE3YWJmZWM4NjYyMzAwM2VlNzNhMGJkZjE1ZDliOTUzMjRhMmNhMDI5YjBiMTFhYWUwNGY4YWQwZTM2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_55d05c12ca8641568bfcef98297049db",
+      "statement": "TDIP-CAT-2026.2 catalogs TDIP's payments-domain datasets (pay_wire_txn_hist, gpi_tracker_events, dda_txn_history, client_hierarchy, cbo_wire_events, and the not-yet-ingested fed_ack_events) and feature tables (wire_corridor_stats_daily, beneficiary_behavior_profile, client_wire_history_features) with their classifications, refresh cadence, history depth, and data owners/stewards.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L47",
+          "version": "repo-lines-v1:sha256:108599ecbe8b73d4c268e7c8353050b827d0eec0b72d4a069d2fd59fcfa7ea4b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwZThjMzZjOTA3M2I5NGY2NWJiOWY4YWNjM2RhZjI4NjliMDEzOWVmMjkwNjI4ODhhYzA1MWRlYmY4NDAyZTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQzNWFiNWQyMDk3MTE5YWFkN2YwZjhmMmJmZmFhOTQ4ODZjNjNkZTU3NTIxZDhhZWNiNDRjYzc0ZjM3MTYyMjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_655ba58eb3154cf0a898cc90206a4f36",
+      "statement": "The Insights API (ADR-PAY-026) is TDIP's versioned, entitlement-checked serving layer for client-facing analytical outputs; as of TDIP-CAT-2026.2 it has a single GA endpoint, GET /tdip/insights/v1/cash-forecast/{clientId} (EP-TDIP-01), and no wire-insights endpoints exist yet. Onboarding a new insight requires MRM inventory registration (MRM-POL-02), data access approval (DUS-07), serving endpoint build, and DRC approval of client-facing wording.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L71-L80",
+          "version": "repo-lines-v1:sha256:6d260b4a8d617439aeb1597ef91e3aea78b1797c1e561fa162e0c025d38b1855:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNjQ4NzFkMWM2ZDBlZjUzOTQzNGNlN2JiODhmY2M5YmJlNDVhM2VlNDA3NWQ3ZTFkY2Y3MjkzMjhlNDA5ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE4ZTZhZGFkOTg4ZGM1NzFhZDkwM2JlMjFhOGUwMDgwMTVmYWE4ZGViYTBlNzIxNGI4MTU0MDY1NTg5ZDY1MTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3N2I5ZDg2MjdlYTE2MzRlOTY0MzNiMDA1YTgxOTFiNGFlZGZiNzllMzU0ZWRkNjQwYzBiNWVlNTNlZDhlNDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJlMjUwMjIyNjcyNDAwMWQzZjNjYzIyYzQ5NjQ4Y2JlZWM4N2E4ZTBhOWM1NmJhZThkYzliZjY0NGUxYWViM2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_51ee9a1a03b2478d9163d3fa093a6384",
+      "statement": "TDIP runs on Snowflake (Enterprise, US-East) with dbt transformations, a Feast feature store, and Amazon SageMaker for model training and batch scoring; dataset access is governed in Collibra, and Restricted datasets require Privacy Office approval with a 15-business-day SLA.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L24-L26",
+          "version": "repo-lines-v1:sha256:7da4ef09857d42d661a8423664c4eba22ed197cd925d9e12582890f733e3ad87:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1MjAwZjAyM2RkOGY0NjZjYWZlYWFkODQ1MDIxOTAxZmNhMDg5N2U2NjQxYjNhOTdjYTExYzM1ZGQxM2VjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA5NzQwZjgyMWY2ZDEyMDU5Mzc5ZGI2ZGIyNzQ4NGE3NWM0ZjAwZWY5MmFjMDY1NWFkMmVkYjFhNWU1MzVhZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdmNTNkYmVlMWI2OTM4Yzg3YWI4NzEyNmZkYjBkYzhiZmZjNjkyOWNmYTg1MGYyNzZlODU0MGJjYzA2MTg4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzYyYTY1NTNkZjAxZWNhMDAzNGI2YTM3NzBlZTkwODY4MmU3YzNiMjk2YTI4OWY1ZjVmYTcwNDQ3ZmVkMDgzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_21236cc766c448c0af417a166b2eede3",
+      "statement": "The PTT system ownership register lists SYS-TDIP (Treasury Data & Insights Platform) as owned by the TDIP team with Carlos Mendes as technical owner, Laura Kim as business owner for payment data, and a T2 support tier.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L80-L94",
+          "version": "repo-lines-v1:sha256:bfb7dad1312091dcccea40af95b63fd2a3b0ffa54d0b58312f51cf3d10d25db7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhNzNmOGIwNWY4ZDlhNzY0NDE2YWEzYmYxZTc0ZDdjMWQyYTdiMjMxNjEyZjA0ZDZkMTk2MGU5NDZkNzVhYTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjY2UxNDEwM2VlMmVjODc5N2YyMmJlNWY5MjU1MjEzYTM5ODM2NTIxYmEwZWZhYTM1NmRkN2NlMzQyOTdmNDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwYzgxOTcwMTI4YjJiYzliMWJmYjk4ZTYxYjFmYzFhMjI1MjhkZWQxNzE4ZWY0OWFjMTg1ZGNiZTNkNWU4OTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c2bb6839afd846bdaf65425ae5aec790",
+      "statement": "TDIP's planning factor is roughly 1 story point to 6 engineering hours, with demand intake via Jira TDA and dataset access requests via Collibra DAR carrying an additional 15 business days for Restricted-classified data; TDIP capacity was tracked at roughly 75% committed as of PI 27.1 planning.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L133",
+          "version": "repo-lines-v1:sha256:9fe43a92ae890e2283427c60a75f891925ffb2ac7a6f1436410e27b1da1f8270:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0NDA4OWE4OTAyYWFiMTFjY2M5OTlhZmUzMjI4YzA4MjBiN2Q2NmViMWMyYTZlY2M3NmI0NmRhZWJmZTQwNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY5NWJkNjA0NmNjNzc1MTBjNzU0ZTk3ZjE3MGQ1NTA5ZTNlN2MzNjM5YWUwODcyMGUyYTk5ODA2MjA4YTlkNGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_982d6be360724f518731f5bd531fb687",
+      "statement": "Gregory Hall (MD, CIO Payments & Treasury Technology) has leadership scope spanning channels, payments hub, networks, and data, placing the Treasury Data & Analytics team led by Wei Zhang within the same PTT executive organization as the other engineering Directors (Marcus Chen, Laura Kim, Raymond Ortiz, Raj Malhotra, Elena Vasquez, Victor Petrov, Anjali Deshpande, Sanjay Iyer).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L28-L63",
+          "version": "repo-lines-v1:sha256:91812de892451f21906a1375648c6572711124c92b004be5ee8ab93adbfb41d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MzYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMThlNDE5MjYwM2E5N2JlYWVjMDA5M2U3MzdmYzk1YTNlMmMwNjU1NmNiYzI4ZmYzZjFiODMyMjQxODMyOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk5N2RjOTMzN2Q4YTA1OWI3OTU4YzgzYWZhMjI3MjZmMDY3NmE3ZTZmYzUwYjk3OTgyYzhkNzVlYjBjY2EyNDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwZWI4ODU4NmY2YmU3NGY0NmRmYjM1NDhhOGI5ZWEwYzc5ZmE4NGM5YTkyYTg1MzhiNGY3Y2RmNWI2NjliNGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0MWJmZDVjMTBiZmJiZDQzZDRlZmM4OTM3MGViMDIzYWI2YmUwY2ZmMjc0ZjJhNDRmMmRlY2Q0MDVmYjk1MjgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f4ea1c9f4f804aaf8a00de43b2d70809",
+      "statement": "Dependency conflicts within PTT that cannot be resolved between engineering managers escalate to the respective Directors, and unresolved Director-level conflicts escalate further to the weekly PTT Leadership Team meeting (Mondays).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f17282af2d1b4f098a4412a4a6ac4693",
+      "statement": "TDIP-CAT-2026.2 lists DUS-07, MRM-POL-02, ADR-PAY-026, and PNG-TDD-6.0 as related governance documents constraining TDIP's data use, model risk, Insights API architecture, and network integration dependencies.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ba7ff2eb1885278e0711f4cf6fce36662df1eb6b2108a4d280e0a3578d76a938:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmRiNTI5ZDcxMjNmYjZkYTNjZjRmNjE4NDg4MzdiNmM2YzZjOGJiZTdlYThjOTY5NGIwOTAyYmY0N2ZlZjc1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzk2N2E0ZTdkNGE1YjI5ODNiNTg2MTlkMDM0MTQxZGRjM2I1NDVjOGMyM2I0MDAxMjM2ZjgyODc1NGQxYWUxZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBiOTE3YWJmZWM4NjYyMzAwM2VlNzNhMGJkZjE1ZDliOTUzMjRhMmNhMDI5YjBiMTFhYWUwNGY4YWQwZTM2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_be2b115b2dc0405b9b0b8aa23408ac27",
+      "statement": "TDIP has two documented freshness/coverage gaps as of TDIP-CAT-2026.2: fed_ack_events (Fed acceptance/OMAD timestamps) is not ingested (tracked as TDA-2210, backlog), and gpi_tracker_events remains on a nightly refresh cadence until TDA-2188 completes (targeted 2026-11); no sub-minute serving exists for wire data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L82-L88",
+          "version": "repo-lines-v1:sha256:60996095138c66b375cef4489154f82351719b5d9bd7857ad94f0299baa7512d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRjYmE0YTQ2ZGI1NDYxNWVkMTQwMjU5NDc0ZTJkNTMwYmRkZjdjM2Y4OGNmNGY1YjI5NDhiYjEzNjRlMTJkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmY2Y4Y2E2MmE1Yjg5MWE2OTEyMzBmOTM1MzZkZWRjM2E1MTgyNDE0MWZhYzYyMmZlOWU5YzgxNzI5ZWM0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQ1NmUwNWRkNTFjYWQxZDYzMjk3ZDIzOGJiMWY2NjJiMGU3YTUyNGMyZWM5MmMxOWQ0NmJiMGU0YzU2NDVlYSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

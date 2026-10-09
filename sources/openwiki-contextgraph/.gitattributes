@@ -1,0 +1,9 @@
+# Normalise text files, but never touch binary documents (core.autocrlf would corrupt them).
+* text=auto
+*.pdf binary
+*.xlsx binary
+*.docx binary
+*.png binary
+
+# The prebuilt semantic wiki is restored byte-for-byte: OpenWiki's claim sidecars hash source lines.
+prebuilt/** -text

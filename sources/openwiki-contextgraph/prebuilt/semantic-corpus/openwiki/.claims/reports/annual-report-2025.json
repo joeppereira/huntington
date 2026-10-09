@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d6812de24e99fc184e9947eb9cf944bceffac2296d3ec0d511586c5185484fcb",
+  "claims": [
+    {
+      "id": "claim_59a68eed068e41468f9a1fdb134be2c4",
+      "statement": "The report is a synthetic, fictional 10-K-style disclosure of Meridian Harbor Financial Corp. for fiscal year ended Dec 31, 2025, published February 2026, organized into letter, financial highlights, MD&A, segment results, balance sheet, capital/liquidity/credit/market/model/operational risk sections, financial statements, selected notes, glossary and forward-looking statements.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L1-L17",
+          "version": "repo-lines-v1:sha256:f73014b3c8a161998ec19bb5afc15579064eee53cfb015b686223ba7444826eb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk0YzBhNGY0MmQxMTVjNTk2OTlhMjI4MjM0N2EwOWQzYTA0YTkxYzlmMmYyY2M5ODA0NjNlNDc2YzllNzQ3N2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4ZjgzNWVkMjY3MTg1MjkxODM4Zjk5ZmU5NWMyZDI1NGQ2NzU5YjA1NWY3NzE4MDU3YmMyNWE5YTE0ZDYxYzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhY2YyZmE4ODg5YzE4YzMyNTVjYjgwYmIxZjFkM2MzNmI3ZTA1YThjN2Q0ZTIzNzU1MTU5NmMxOTlkNDI5ZjMifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L644-L675",
+          "version": "repo-lines-v1:sha256:1244402a9d79dcbf78e305a598bbeb9b311973cf7f616ef79d2e1b7a0dfb290b:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViZTA3NjBlOTg5ZTFlY2NkZjFkMGU2YzZlYzJkZTc1ZmU0YzY0NGM2YmFiMjU2ZTNhNTQ0NzYwYWY1NWIwMDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiZmFmOWJmOGMxZDFlMzJiZjgwMWNlYWQwZDYzOGI5Y2ZiMWU0OTY2NmFmYTQ3ODZjNjI4MzkyZGQzNzAyODUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAxN2U5YmU5ZDkxODMzOGIxNzA5ZWUwOTBmYTM2ZWEyNjI1MTg5NzAzZTE5N2JjZDY3ZWQ2ZmViNmMyYmZiOWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9b3a93b6dc744b60a4e05fa5952b9d9a",
+      "statement": "Headline FY2025 metrics: net revenue $86.1bn, net income $24.96bn, diluted EPS $16.93, ROTCE 26.4%, CET1 ratio (Standardized) 15.1% versus 14.7%, SLR 6.1%, total assets $1,418.6bn, loans $742.3bn, deposits $1,012.4bn.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L61-L88",
+          "version": "repo-lines-v1:sha256:98731ad973c2953002baf3d00fcae47da7236606072ddc8a0de22be81157822c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3MzkwYTRlY2M2YTk4ODI2NjgzZjc0YzI0ZGYzOWI0ODNmZWNkNWNjMTZlN2E3ZGM2MDhjZDBkZDkwNmRiZTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA4MjMzNzM0MjQwYTczNmIwMWI5OWVjZjYxYjgzMjYxNGRiYTlmZmI5NTc4OTJlNDJkMTc5NDkwZGJkZjFhMTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc1NTc5NWRmNTBmNTUzNmVmMWIzZTI0YzRhYWJkMzY1MTY5MjBjMTdlMjAzODk0OTQyY2NhNmYxZjY4MjZkN2YiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE1ODU0ZmU0MTU4MzEzYjU2NjVkMTRiZGQzNWNhODQxODExNmE4MzlmYjI0MTYxOGFiNGIyYzJiYjUyZmY1M2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8934f7d4cb5247bbb9278f95e6bb7062",
+      "statement": "The 10.2% Standardized CET1 requirement is the 4.5% minimum plus a 3.2% stress capital buffer (effective Oct 1, 2025 to Sep 30, 2026) plus a 2.5% G-SIB surcharge, with a zero countercyclical buffer; management targets about 13.0%; CET1 capital was $98.45bn against Standardized RWA of $652.8bn.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L279-L307",
+          "version": "repo-lines-v1:sha256:45c0ba23e16a196177377c769e59b8de28e3bbb67a4a901d202fcd2c4a48e6d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxMjZkMjE5Zjg3YjllYzQwYjNiZjI2NzQxNGRhZTVkNTU4NTZjOWEwMWU2NmZjYzIxZjNiNmI1ZjZjNGIwNWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhYmMwZjIwNDAwMDg2YzY3MDBkOGVhMTkwYmRiNzQxMGE1ZmM3ZDYxZGZhNTI2ZDNjNGRmNTJiNTlhYWI0YmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEyYWFlNWFkYTQ4MTljNTQ0NmNjNWM0OGEwODk0NzhiMDJmZDc0NDFhNmJiMDdjNjU2Mzk1NDEzNjEwOTA3MGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwYzFjNDU3YWE5MjAwYzI2MjRlMDY4ZDU3N2E4YTZjYTkzMDkwYzNjYzRkZWQ1MTI3YzBlZGZkZTY0NTM4ODcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ef14efaf52ff43588a36dd753a3a2280",
+      "statement": "The Capital Planning & Stress Projection Model (MDL-CAP-003) projects CET1, RWA and ratios over nine quarters under baseline and severely adverse scenarios, re-run quarterly, with an indicative SCB equal to peak-to-trough decline plus four quarters of dividends over starting RWA, floored at 2.5%; inputs come from the Regulatory Reporting API (API-16) and Macroeconomic Scenario API (API-14).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L283-L307",
+          "version": "repo-lines-v1:sha256:01583b55f2ac5df055a4ef175236da2d08eef999f527a290a5813d7b1b2a8541:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUzYjAyYTAyYjAxMWU0MTJmYzZhMTJiMGNlZTQwNmVjODQyMjM2N2JiYzY2YWQ1Y2U2MjdmMGYzYTNjOGRiNmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhYmMwZjIwNDAwMDg2YzY3MDBkOGVhMTkwYmRiNzQxMGE1ZmM3ZDYxZGZhNTI2ZDNjNGRmNTJiNTlhYWI0YmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI3MjUzY2ZhOGJhYWEwYWIyYjY0MDFiY2JlNTg4ZjA3NmFjYjI2Y2I1OTU1YzA1MWUyODBiNGU4NTAwMGY4ZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgwYzFjNDU3YWE5MjAwYzI2MjRlMDY4ZDU3N2E4YTZjYTkzMDkwYzNjYzRkZWQ1MTI3YzBlZGZkZTY0NTM4ODcifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L441-L451",
+          "version": "repo-lines-v1:sha256:9733e8a6daa34053a893b503f1ccba479c6a88ddea1b246f6d882e7c8b2be71e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmYzJmMWVjOTgwNWMyYTY0YzgwMzBlZjcxZDFhZDllZDUyYTE4YmU0ZDhiYTU0MzgwMmQ2ZWI4NjhhMjIxMjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwZTNjMDY2MzNkNmYxYjZlZDFhZGE1ZTJlODljOTY0ZTk4MmI4ZjZmZjZjNDBjM2ViNzdhZDY3M2NmODJmNzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFkZDllMmJjZDhmNjRmYWJlN2M1ODljODhmZjNjMDBhOTY5ZWY2NmE3NDliZGFiOTQ4NTE1NzBlZjZkNTVkY2YiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzNGY3M2MxMGI4ZjhkZmQ1NGE5ZjI5YTc5YzQ3OTUyZmUyMTEyM2YwZTNjMDdiZmE3ODA0MjJmYzlhYzg2NjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f7b46b9e31fd4da894aa2322f0f3499e",
+      "statement": "The report names three Tier 1 models that directly drive disclosed figures, each with an owner, upstream APIs and validation date: MDL-ALM-014 (APIs 12, 15, 11; validated 2025-09-18), MDL-CR-007 (APIs 10, 11, 14; 2025-11-04), MDL-CAP-003 (APIs 16, 14, 15; 2026-02-27); an upstream API schema or business-logic change triggers a model change review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L435-L451",
+          "version": "repo-lines-v1:sha256:80283b1fa13b119015e2defbdec35924154652cbf315859fae4b6ac7caff36ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExODA5NjM1ZDhjYzA5ZjI5MDI3NDk1NjFlZDAzYWU4ZGRmZDQwNDc0YmUxNTIzNWIwZjU4ZDE1MDdjNmIzYWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwZTNjMDY2MzNkNmYxYjZlZDFhZGE1ZTJlODljOTY0ZTk4MmI4ZjZmZjZjNDBjM2ViNzdhZDY3M2NmODJmNzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJlMGQ0N2Y0MWNiNTQyMmIxMTY2ZDAzMGQwM2I2OThiMDY0YTJlOWIwNjA5OTZlN2JjZmZiYWYzNTQ4ZTkyYWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzNGY3M2MxMGI4ZjhkZmQ1NGE5ZjI5YTc5YzQ3OTUyZmUyMTEyM2YwZTNjMDdiZmE3ODA0MjJmYzlhYzg2NjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ac1133358e8e475384f1d24e09f476e6",
+      "statement": "The CECL model (MDL-CR-007) estimates lifetime loss as EAD x lifetime PD x LGD under three scenarios weighted 20/50/30 (upside/baseline/downside) from API-14, with API-11 balances and remaining lives, plus qualitative overlays; the allowance is $15.92bn (2.14% of loans), and a 100% downside weight would add about $4.2bn.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L345-L353",
+          "version": "repo-lines-v1:sha256:d98037539837086c2da1802222f37e1f1e7db44dba7d1f336027886171b3d6fd:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVkNGViNTcwYzI1OGZmM2E0NGM2Y2M1NDNjZjdhMzdkNzkwN2Q4YTNkZmM0MzhiN2NmNzFiZDk3YmE3NzgyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTA5MmJiMmIxNDEwODA2N2I5NmU4NjVkYTcwZDI0ODcyNTJkNmE1NDQzNGM2ZjQxNjA1YmNkNDEzZWQwM2YwZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFhZGNmMDM2Y2JhYTc0ZjAxZDFhYjk5ZTMxZTg3OTI5MjQ4N2Q1YjFmZDM1ZjlmNDQxYzk1ZGU0YTc4ZDE1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzgyOTE4N2RlNjlkYTVkYzlhNTFmZjIzZWQxODQyYTg2OWVkYzdmMTY5YzVjZThjZTUzN2M5Y2M4MmVmZWE0YiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L363-L389",
+          "version": "repo-lines-v1:sha256:48b2b96a598e1481eebe4e3e85b43ecff5ec4218ab3e441bddf5345c5f847f7f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NzFkYWEwYTBmY2M5ZTg5MTA0YjBlN2UzOGRlZTQ3ODcxZDcxOTZmYTZkY2NmMDcyYjI1ZDI1YTQ0MDViYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI2ZjZjNmQwYzFhZjY2YmNhYjY2OTU4ZmI5MjNmYTZlN2U5MGYyNjkzMmE0YWJlYTQxMWQ5YzI5MjFhOGU0MWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzOGNiNjM3ZjJkN2FiMGMyMzgyYmFlNGFmZDY2ODFmOWY4MDNiMDM1OGQwMzEwNDQyNzVhMTcxYTQyZmMzMTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJlNDgzYzFiMDk2ZWMwNjkzODQ4ZjJlMDNiY2I0YmFiNDNjOTA1YWY0YWM5MmUzNDlkY2M5NWVmNDEzNzJmOTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_91d05955cccb41fab91d27325da14fe2",
+      "statement": "The NII Sensitivity Model (MDL-ALM-014) applies instantaneous parallel shocks to the year-end balance sheet with deposit betas of 0.45 (consumer) and 0.75 (wholesale), using API-15, API-11 and API-12; the firm is asset-sensitive (+100bp adds about $1.5bn, -200bp reduces NII by about $3.0bn or 6.0%, within a 7.0% Board limit), and base NII of $50.2bn matches the 2026 outlook.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L114-L118",
+          "version": "repo-lines-v1:sha256:c306deec534943dec589329febcd8e19d8c89b5dc05328be275922b0299a140c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWJhNTYyOGMyYzc0ZjcyNzcxNzhmZDAwMjAzMDY2ZWQ3ODRlZjY3NzYxMjJlZmQyMTNlOWU3MjU2MWY0YmM0NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWViYmMwNDUwYjU3N2U4MjZkNGIxMDc2MGQ0MmY5YzEwOGEwNGIxZGNkMWE0OGVhN2IyMmM0MDgwOWM4OGY4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGU4N2VkMDQwN2Q4ZTU1Nzg4ZDM0NzFjYzdlMDM5M2ZkZjllNDQxNDc2ZWY4YzM5YmY1MTMwNWZjY2UzNTg1NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2ZiZmU3OTkzYzg3ZGIxNTkwYjljMWRhNjY4MjcxYTAxNjQ1Y2JhMzZiZDk3MzQxNzBlZjkxMmVmN2UzMGQxNyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L411-L431",
+          "version": "repo-lines-v1:sha256:35184b11c92cd450ee464f4b136c0d9f4d9cec2a4f7218e2037c54ef08500ecc:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0MmQ0ZTQwNjMzYmNjYWM5MmFjNDZhNzNmZDIzODQ0YzQ5NzBjYjkzMzU0ZjdhYzFkNTM5ZTc5MGI4MWE3MDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiYzgyOWJmNmMwMjZiNmE0ZGNkMmM2ZjZjYTc5NjEzOGM0NDFkNDY3NWIwN2NhNGM3MjUyNmI1Mzk0OTJhYzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2MjNlNDYwMWY3Mzk3ZGEyOTkxZjZkZWIwMjEzNWMyNGIyMTIzMTM1NzI4MDJiMTRhODQ1ZjJiZDkwY2NmMTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJlMGQ0N2Y0MWNiNTQyMmIxMTY2ZDAzMGQwM2I2OThiMDY0YTJlOWIwNjA5OTZlN2JjZmZiYWYzNTQ4ZTkyYWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_dd3607308920444c94d6b35354ca8164",
+      "statement": "The Developer Platform exposes 18 production APIs (OAuth 2.0 with mutual TLS, versioned, rate-limited, SLO-monitored; 4.0bn calls per month at 99.97% availability), and the Credit Risk Scoring, Loan Servicing, Market Data, Macroeconomic Scenario, Treasury Liquidity Positions and Regulatory Reporting APIs are classified critical data services feeding Tier 1 models or regulatory reports.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L453-L459",
+          "version": "repo-lines-v1:sha256:d738fc1166bbc502d34478ed41e8dda22526782f14f5476ddfb25f9cea0814cf:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTE1Mjc4ZjhlYTM3NTE5ZmQ4MGI1ZjM5ZjA2ZTA3OWFiMTgxZTRmMGUzOTcxMDUzZWM0ZjBkZDlmNjlhYmY4NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRjYjRmMTkwNzNmNDRkMWRlMDUzMzVlZjQ2MmI5MjY2ZjNkYjRhZmI5ODYzN2E3NGI5NTBhZjIxOTUxNTY4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzA0YmRhMzRjMjkzNmQzOTk2ZDgyMmIxMjg4OWU5MmY0MTZiOWMwOTQ3NjljOTZlYzM3ZDk1Nzc3OTlhM2RjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjU2ODJmYzJlMzIzNDJlZjQwYWI2YWE5YzM2MjI2NjllN2MzZTBiNzliNTFmNjY5NDExMzczMGQzYmNiYTk2NCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L47-L47",
+          "version": "repo-lines-v1:sha256:06e76f4d71d754e65204938357ca172f4746d525abecf2f5e0a91df97cb04f9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZlNzZmNGQ3MWQ3NTRlNjUyMDQ5MzgzNTdjYTE3MmY0NzQ2ZDUyNWFiZWNmMmY1ZTBhOTFkZjk3Y2IwNGY5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZlNzZmNGQ3MWQ3NTRlNjUyMDQ5MzgzNTdjYTE3MmY0NzQ2ZDUyNWFiZWNmMmY1ZTBhOTFkZjk3Y2IwNGY5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTYxNWMyY2EwNDBmMDE3ZDQ5NDZmYjM1ZjFmYTUwMzRhN2FkZWNjNzY5MjZhNTM2NzliOTcxYjZlMDJhODM5ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTJmMWRlMDQ0NzYyOTdjYTg1NzYwMTZhMjQ5MDBkOGIzZmE1NDY5MjVjYjA4YmJjOGIwNGFmZGQ2Zjc0MzEyMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_17f8ea79ee1942458414415292fdb0f9",
+      "statement": "Liquidity positions across legal entities are aggregated daily through the Treasury Liquidity Positions API (API-15), which feeds the liquidity stress engine, ALM models and the NII model; average Q4 LCR was 116% and NSFR 128%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L317-L335",
+          "version": "repo-lines-v1:sha256:2dda6de2757e3031990e0aaa5d91243f855d955166c3d870fac8342ae12fd920:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5YzYzYjRhNWZmODk3NWFjMTBiYzRlZjY5YzA2ZjRjZWUxY2M5NjljNjQyYzQzYjhkMTE5ODhkMzg3OTY1YzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJjNjAwY2MwOGIyNGYwMDgxODhiMmU5NmM5ZjBlYmJhNjc5NDAwNjE5NzIxNTU4OTc5ZDdkNzAwMTcxNTUwZjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZmNjQ5ZTEyNDFjMjE5NzIxMTE4NWZjODRiY2ZlMjRkNDNiYzNmNmViNDI0ZWVjMjlhNWZkODJkZWMwNGIxMmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVhOThhZGFjOWE1N2I0YjBhMjhhMjFjOWFjZDBhYTRkZjJhNzJhYTAzODVmOThlM2M5Y2EwZWNiNGE0YmQ5YWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_281f1780be4542099caa924e71c2e6e0",
+      "statement": "Model risk is governed by a Model Risk Policy aligned with SR 11-7 and overseen by MRGR reporting to the Chief Risk Officer; Tier 1 models require annual independent validation, monitoring and Firmwide Model Risk Committee approval, among about 2,900 models in the inventory.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L435-L439",
+          "version": "repo-lines-v1:sha256:d67d42f53108021556872bd0e4b88a3610434430665ff9a5f97c89a19159c67a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTE4MDk2MzVkOGNjMDlmMjkwMjc0OTU2MWVkMDNhZThkZGZkNDA0NzRiZTE1MjM1YjBmNThkMTUwN2M2YjNhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI1NWQ4NDk5NDllOTQzMWY0YjU2NDU2YmM0NzIzYWZiM2E4NWFlNzk2ZTBkYTBmNmExYmU5NThiNGJhOTA2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmUwZDQ3ZjQxY2I1NDIyYjExNjZkMDMwZDAzYjY5OGIwNjRhMmU5YjA2MDk5NmU3YmNmZmJhZjM1NDhlOTJhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U0YjRmYmU4MTMwNTQ1ZDBlNGU3YzhlY2I3ZjY2MDY3YTk5YzFjNmUyOTMwZTVjYmRlYjk3MjdjNGNhZjRjYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bd684a3e80704aac996817d214664fa2",
+      "statement": "Segments: CCB, CIB and AWM plus Corporate (Treasury/CIO), which owns the NII Sensitivity and Capital Planning models; 2025 segment net income was CCB $12.3bn, CIB $10.18bn, AWM $3.58bn, Corporate -$1.1bn.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L166-L176",
+          "version": "repo-lines-v1:sha256:54fbf19c21b0be120f07a08cd92f37bd296da3a739b0b5cb5c0a469402ba962b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0NGNkM2VlNTM3M2YwYzg2OGMxMTBkMzhkMzA3NWI4M2E0NmU1OTE4ZjJmNmNlNTRmYjg4ZTBlN2Q5YjM4ZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkYmE3NmQyNGQyMGY0OGFiZDkyNDNlZWFhZTFkM2QzYTdjMDVlMDI3OGI2ZDFhMTNlMjdmNDZkMDcxMGQzNWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyNmRkOTQ1ZWNmMDBiNzFjYmZkZGY5YjViYWU1ODZjYjQ5YTEyZTA0NTIwOTRkMzM2ZThlMWRhNzMzMTIwMjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3YmQzYzM3ZDUwN2Q4OWZmZDZjNTU0ZjI4YmE3NGQ1NTI3NjI4MGY4MWQ4OGE3ZWE0NWU1MjlhMjBlZTRhYmQifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L247-L251",
+          "version": "repo-lines-v1:sha256:995bebf46ca32b6205e8521da8eea7ec6ecdd9d98eb91bbfc380759d6c0b97ed:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJhY2M0NGQ2MWI3YTRhYmRjNTNlZjcxNDU3ZTc3MWY1MDY0ZWMxNzIwYzhmY2E3NzEwOGFkNmQxOTZkMWVkYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODgzMjhhOGRhMWQ0YzIxZWMwOGU4MjBhZmZmZWIxMDA3OGM2NWI0OGE3MDdjZGM1ZGY3MzdmNGFhMTQ5ZTljMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjczMWRmYzg1MzkxYjY2NDg0YzNkODgwMjYwN2ZkMjk1MzE4NDNmZTQ2ODU2MWRmOGJkYWM0NTE1ZTk4MDBkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGRjOGJkYjEyYjk1NjI0NzEyM2M0ZmM3OWMwMTU1NGYyYzcwZGQ1MTNhYzNmYmE5NWQ3M2E1Y2ZhYzBhY2E1MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L98-L98",
+          "version": "repo-lines-v1:sha256:807e4eade7df2f4f1bd1b50c826ff75ce7d91128f70166a7edb86ae2cd1720ef:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3ZTRlYWRlN2RmMmY0ZjFiZDFiNTBjODI2ZmY3NWNlN2Q5MTEyOGY3MDE2NmE3ZWRiODZhZTJjZDE3MjBlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3ZTRlYWRlN2RmMmY0ZjFiZDFiNTBjODI2ZmY3NWNlN2Q5MTEyOGY3MDE2NmE3ZWRiODZhZTJjZDE3MjBlZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmVmMTIyYWIwNTVhYWQ0Y2ZlMjZmYzUzNzI3ZjMxYWNlNmU1MzkzMmUwNDBiNDEwOTdhZDQxYmJjNzZiY2VlYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzNjMWRhMGQ0YmU0MGQ2MDcyNjFkN2U0NjI3YmRjZmU2MGU5ZWQzMzRiYjRlNmY5ZjRmMjc3NDZjODRlNjk2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3416f621bd004fdbb72a4f81e529c6b2",
+      "statement": "The report contains presentation inconsistencies: Card NCO rate appears as 3.42%, 3.4% and 3.34% across sections, and it references a Q2 2026 earnings release despite a February 2026 publication date.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L184-L197",
+          "version": "repo-lines-v1:sha256:79f53666ca6e4d4be2ce10daf48c7776999e093e92d931cd1ecfe3c6a1fac273:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNDk5MjhiNTI3YTYxYWMwOGRkZWI3N2NiOGFlZjI2MGUxMGQxNGRkYjQ4NjQwM2JmMmVmYmU4ZTAxZGJhMDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiYzQ3MmQ2Y2MwOTViZWJiNDQ4YTg0M2Y3ZjE5Zjc3MzUzNGQzNzFkOTczNDI4ZjlhOTRjYTZjZmRiMWJkNTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBjYzJkNGU1MjA3Yzk0YjljZDljMTA4YjBmNDI0OWY1YjJmNTZkN2MwY2ZkZTEwN2UzNWY3NTIzYTZlNzkxMjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3MWE0NzVlZmZkZGY5Y2RkNThkMjM5ZDllMjFmYmFmNDA2ZDQ2MGI4MDY1OGE4NzdlYmE3NWM5ODY3NDQwOWEifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L307-L307",
+          "version": "repo-lines-v1:sha256:1abc0f20400086c6700d8ea190bdb7410a5fc7d61dfa526d3c4df52b59aab4ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2FhNDY2NDU2ODljNGJkNmRlZmMxODM0OTQ0NDA0ZWM5NDcwMjYxNDQ4MGRjMTIxMzIyYzYzMjkzMzM0NmY0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBjMWM0NTdhYTkyMDBjMjYyNGUwNjhkNTc3YThhNmNhOTMwOTBjM2NjNGRlZDUxMjdjMGVkZmRlNjQ1Mzg4NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L345-L353",
+          "version": "repo-lines-v1:sha256:d98037539837086c2da1802222f37e1f1e7db44dba7d1f336027886171b3d6fd:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVkNGViNTcwYzI1OGZmM2E0NGM2Y2M1NDNjZjdhMzdkNzkwN2Q4YTNkZmM0MzhiN2NmNzFiZDk3YmE3NzgyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTA5MmJiMmIxNDEwODA2N2I5NmU4NjVkYTcwZDI0ODcyNTJkNmE1NDQzNGM2ZjQxNjA1YmNkNDEzZWQwM2YwZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFhZGNmMDM2Y2JhYTc0ZjAxZDFhYjk5ZTMxZTg3OTI5MjQ4N2Q1YjFmZDM1ZjlmNDQxYzk1ZGU0YTc4ZDE1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzgyOTE4N2RlNjlkYTVkYzlhNTFmZjIzZWQxODQyYTg2OWVkYzdmMTY5YzVjZThjZTUzN2M5Y2M4MmVmZWE0YiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

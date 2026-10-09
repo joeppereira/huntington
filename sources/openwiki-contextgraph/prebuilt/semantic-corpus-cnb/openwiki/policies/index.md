@@ -1,0 +1,5 @@
+# Files
+
+- [DUS-07: Data Use and Client Confidentiality Standard](dus-07.md) - Privacy Office standard (v2.1, effective 2026-01-15) governing purpose limitation, cross-client confidentiality, and the aggregation thresholds that gate any cohort statistic or client-own-data insight shown to a client.
+- [MRM-POL-02: Model Risk Management Policy](mrm-pol-02.md) - Model Risk Management policy (v7.0, effective 2026-07-01) defining the Model/End-User Analytic (EUA) boundary, the Tier 1/2/3/EUA risk tiering and validation lead times, and the rule that customer-facing estimates are Tier 2 minimum while financial-crimes model outputs may never be used for product or marketing purposes.
+- [POL-FCC-014: Customer Communication of Payment Status, Holds & Exceptions Standard](pol-fcc-014.md) - Controlling enterprise policy for everything Crestline National Bank may ever show a client about wire payment status, holds and exceptions — disclosure tiers, status terminology gates, third-party sharing limits, predictive-statement conditions, and the prohibited-terms list.

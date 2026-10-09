@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:63914bb516ebea312f3c4ab53b0b3f2f91d7336a2a9e79467d76c74471714a31",
+  "claims": [
+    {
+      "id": "claim_2eb8d99933be406ea49599fbd7dbd37a",
+      "statement": "ENS is a shared, multi-tenant notification platform delivering transactional notifications across email, SMS, mobile push (CBO Mobile), and the CBO in-app inbox; producers emit a registered event type, and ENS resolves recipients from subscriptions, renders an approved template, and delivers per the user's channel preference.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L24-L26",
+          "version": "repo-lines-v1:sha256:bd0fbd92da89beceb0b9d79e156a4cc10ac96ea3ca2612936687f743c466449f:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzNTA2NGQ4OTU5ZDZhMGUzYTg4MWVlM2EyZGQ5NzJjZTg2YTU4NmEwZGMxNjM0Y2I2NWQ3ZThlZjQxN2ZiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNiYjM4NjZkYmNmOGZiMzIyZGQ4MjIzY2E3NTM2YjJmYjhlNGJkNWFkNTZmMzVkZDYyZmJkMDk4ZWEwNGY3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTBjNGY3YjgyNDhiZTc5YWM0YjVkOTk1ZTVmZTMwMGJkYWQzZjBiZmIwYzY2NDI3NmUyNTlkMmMxNzA2MWFkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTc0NWE5YWE5YzQzY2FlZjUwODYxN2Q4N2UxOTlhZWJmMjQ1OTgzMDU0NmUzMWQxYTkwZWNkNWFkZDg2ZjQzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cd1bdd98f8c248e29993797adfcf5e9f",
+      "statement": "ENS enforces platform throughput of 300 msgs/s sustained / 1,200 msgs/s burst, with the Treasury (TRS) domain capped at a 120 msgs/s quota, a 4s p95 delivery latency target for push/in-app, account-number masking to last 4 digits, and a prohibition on Restricted data in any payload or template; SMS additionally requires a TCPA consent flag and is limited to 160-character templates.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L28-L33",
+          "version": "repo-lines-v1:sha256:54e97e2a4f8b51d9b34f2192cd432f58755b9128e08dd2253dbc60704ae0481b:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmY0YmFmYWI0OTc2NjZiNmI3ZjZhZDFmNGU5MDQyNDRkMTU0M2ZiNTIzNDQ0ODg3MDU2ZDgxN2Q4ZTI5ZjQxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTFmMDM2MTAzMTE1MGI2OTBlMTYwNDczNDRhOTIyODE1MDI3OTJkMTQ0ZmQzYmRjNWRlOWM1ZDgyMmVlYjM1ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGYxMDk5YmIyN2Y1YTNhOThjZWI4MTA3NzAwMDMzMjYxNzEyMjE5YmJlOTJiMzRjMzkxYjZmM2NmZThlNGVjYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmNlNzVmNDRkYzk5ZjE1OTEyMzllYTY4ZjZhZGVmMmFhY2IzNWMwNDExYmIwMTdkNmM4NjhlNzE0MWQyMTg2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1264b32fbd144cd1a27554113ccdabb9",
+      "statement": "Onboarding a new ENS event type is a fixed five-step process (ServiceNow catalog submission, payload/recipient-resolution design, per-channel template drafting with bi-weekly Disclosure Review Committee review, ENS configuration and test at ~12 engineering hours, and producer UAT/production enablement) with a published 6-week SLA from complete submission to production; requests submitted after 2026-11-20 are scheduled after the year-end change freeze.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ba50d9789bac47aeb78c8b0be58c5016a66c7b51eeb9632461c33cf56926fe22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZDU1ZjUzNTA2NDk2YThmNmNlZjMwOGVhZTJmMTA3ZmI0ODJlZDg0ZTdmYjU3OTFjNDhhN2RiZDZkMjBlNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiZDlkYzQyMjI3MWQ0YjI3M2MxNGU0NGUwZTk1Y2ExYWI2MzBjZDc4NzFlMTc3NDliMWQ4NzNlODg3N2UxNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZjA4ODc3NmRjZGZkYmU4YTFjYjZiNjI0MDE3ZWNlNDE2MjE4OTI4OWE1OTJhMTU5MDRlMTRjN2FkYTc1ZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlMTlkMTE5YjVkMDQwZmVlZTk1YTRlMzVhYWI0ZmM1MmJmZWY2MzBkODQ5MWFkMDNhMWQyODBhOTRhOWIyY2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0262938c22c0439f86d7f1fba3785a69",
+      "statement": "ENS subscriptions are scoped per user per event type with only accountId and amount-threshold filters; ENS does not support subscribing to an individual entity (e.g. a specific paymentId), and producers needing to notify a specific pre-resolved recipient instead use the 'producer-resolved recipients' pattern (calling POST /ens/v3/notifications directly for a named user). Entity-level subscriptions are planned under ENS-1120, targeted 2027-H1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L49-L51",
+          "version": "repo-lines-v1:sha256:7b6750fc41945eae6836d5115964229ec2e5835b12941bb5e45adddb0e807434:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmYmNjYzc3OTQyOTJlYzU2YTA5ODc2YTZjNTBmODFmODQxYjYzZDJjOTQ5YmNmMzYyNzE0NGU4NjA4ZjBkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNlNWE5M2U5NDUzN2FjZjYzMGEwZmZhZTkwYWM4ODM5NmUxNzBkNGViYTgxMDVmYTcxODgxODBkMDEyOTliNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzI5ZmI2YmY4MWNkOWNlYjQxY2UwMjI5NDM0NGU5NGI1NGIzODc3Zjk5NTczMzRhOGQ0MGIwYjcxZDY4OGNmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJhMTY5OTRmOWQzZTI1NTY0YjEyNDA2ZjVhYjAxYjQ4OTgzMDM2NTQwMzk3ZDk1NTc4Y2ZiZjhkMWE5MDA3MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_50f5da7940064618b308cccc103442f7",
+      "statement": "The current Treasury (TRS) event catalog covers four live wire event types (TRS.WIRE.APPROVAL_REQUIRED, TRS.WIRE.RELEASED, TRS.WIRE.REJECTED, TRS.WIRE.INCOMING_POSTED) and two live ACH event types (TRS.ACH.STATUS_CHANGED, TRS.ACH.RETURN_RECEIVED); no event types are registered for wire network acceptance, beneficiary credit (gpi ACCC), wire returns, gpi milestones, or client action required on held wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L53-L75",
+          "version": "repo-lines-v1:sha256:b8fbc8d2de9c295824e814b04f99f12a475ebd5f85774517fae258d3bf20c8b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NDFhYzA0MTM0ODM5NWFiOTgxZTkwMGU2NWRmYjc5NzQyODNkYTMwNTU5NmFjNWE2ZjU0MGNiN2ZlNjViZDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3MTFhMjAyZTNjMDJiOTk5Y2M0NzcwNmU2NTY4ZTZlMzM5ZWRjMTI0MTFhNTcyYzljMGY2YmRiM2VjZTVlM2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI3OWZjNjM3NmI5ZjI5OTBkOWY3Mjg2MTU2MmI0MGQyZjRkMTc1OTYzYzgyYjAyNzkwMWVkMDkwZTdjYmEyYzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwYzg3NDMyNDdlNjUwNzk2NjYwZWQyOGRlMzcyMzVhNGM5ZWFkZmI1N2I4OTU3NDJlYWY3OTg2ODBjY2QxNmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2c48ef8347424267995e3cfc8858597e",
+      "statement": "ENS exposes three public APIs: POST /ens/v3/notifications (EP-ENS-01) to send a registered event with an approved template, POST /ens/v3/subscriptions (EP-ENS-02) to create a subscription with eventType + accountId filter, and GET /ens/v3/event-types?domain=TRS (EP-ENS-03) to read the TRS event-type catalog.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L77-L83",
+          "version": "repo-lines-v1:sha256:4f45975b846200812fde2391ef6afd25cb58b11f2bac4f9684677bbe291c229d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg5NzQ2MzgwN2QxNTNmZDIzZjE5OGZiODQxYzkxZjlkNTkxYmIyMWU2Njg2YzI1OGVkNmMzYTk4MmUyNGFhNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4OTFhMGYyZjgxNTVmOTk0ZTljNTMxYTA4NzFhNDA3ZDAxMGJhMTUwZTYxMzA2Zjg3NzQ1Y2U4Nzg0OWFiOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBjYjE0N2JkYmZkZGYxYjY0OTFiODkyZDllYzc1MDViYWQ3NjVmZTRhODgwYTdkYmRjMzJiNmJkY2IyZmI0NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmI4NTE2ODYxMDMxMjg0Mzk5ODE2MDlhZjZkODg2ZTBiNTA0OWM0MmUzODk4YjIyODA2ZmZkMGQwMjlmZGExMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_762665671af14835abcfc59377b520b2",
+      "statement": "ENS content rules require financial-crimes-related template copy to be FCC-approved per POL-FCC-014 Appendix B, require status wording to follow the producer's approved status terminology, and prohibit links that expose transaction data outside authenticated sessions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L85-L91",
+          "version": "repo-lines-v1:sha256:8a12edee5b51cde3ded50a2374c3e3708134d2a0463291731f658b85f806c4e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzAxM2E4NmY2ZWNlYmNkZDJiZTdiY2ZmNmNkZWI5YTgyNzU2ZDU3ZTA3MGNkOTFlMmJmOWRmMmI5YWYwMzQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk1Y2QyMWI4NTM4ZGQzMjdhYWY2YzJlMjNkMzQ1NDhjMmZjNTU1ZGUwMjkxOTk4YmRjNjUyODBiODk1NjQ2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGVjYWQ5ZWEyZjgzNTFjM2NjMzhjNGU2YjFhOWJkYzE4NmQ0MzNhMzRiMTU0NDFjM2ZhYWNiZTQyN2Y2NDllMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ5ZTFkMWJmNGM3MDJiOWI3NzhjMDdkMTA4YzU5YmMyYTc5NjMxNWZkY2UzM2I2NzIzNjc3MzkxMWJlYzA2MiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

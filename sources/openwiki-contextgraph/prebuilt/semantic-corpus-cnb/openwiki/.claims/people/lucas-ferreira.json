@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1f7d7447b2fef0381a676a61e7ad840eba11eaf32836cb0e71007cad5ddf582a",
+  "claims": [
+    {
+      "id": "claim_1334365d22754cea80b582f036ea1e36",
+      "statement": "Lucas Ferreira is the Tech Lead for the CBO Wire Center squad within Digital Treasury Channels Engineering, with Tom Becker as Engineering Manager, Marcus Chen as Product Owner, and reporting up through Director Anjali Deshpande.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L45",
+          "version": "repo-lines-v1:sha256:20d0c82b07730b60fb48b1da37dcd3fbabf01817f3cfca5b06c7635f6ba12af3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2MDMyNWVlNjE0NWViODEzYjdjMTNmNDRmYWU3ZDVlYWUzMzM2ZDg4MWIwZDBiYmYwOWE5NGYyYjlmNzBiOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYwOGU4NjYxNzQyMGUxMGQzMWYyNmYwNzM5OWJhMzBmODY2YzZkY2MyNmFkZjMzNTE3ODIxNzk2MjQ3MzQ2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGRkZTVmZjAxMjNjNDMyN2ViMjEzZGFjNDRkMTJlMzk5MTgzZTE2NTcwY2U1N2EwMGJkZjhhNDU2YTI2OTc3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGU4ZTQ0ODU5ZGZjZGY0ZTBjNjYzZTM5ZDA4MTQ1ZmI4YjZiZjIzNjBiNzk1NGE2NGYzNjdiNDA2MDEwOGZhNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f4696ee5bd114fb4bedc4f2dc30ed350",
+      "statement": "In the PTT system ownership register, Lucas Ferreira is listed as co-technical-owner (with Tom Becker) of SYS-CBO, the Crestline Business Online Wire Center module, a Tier-1 24x7-critical system with Marcus Chen as business owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L84",
+          "version": "repo-lines-v1:sha256:741fcbe007c7bddac6599e157b1f6295b51ec23d82cb2c4495b6fe9bbe9ee033:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQyYjkwMmI1NGNkNTBlZmQxZjA4M2EwMjg1YmQzYzc5MjhmMWQ4YjVlZDExYjVmYzM3Zjc5MTZlODJkODM4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhZjBjOTRmYjhiMDE0ODAzMzAzNGZjY2E4Zjc1NGExMjk0NTI0OWQxMDM0NWZkMTE0OTNkNGU4Y2VhNjhjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWM2N2YzZmI5Y2UxYWFiNWE2M2E0ODdiOGE0MzU1N2FiMzQyNzQzZjA3ZTRlM2JkYmYwYmM2ZjFhOGE3NmU0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY0YzIyMzEwZjZlZDNiMmM0Y2I0ZjQyYzg4NTUwODdlMTUzNGE0YTIyYWI4NTM3ODM2ODU4ZDBjMGVjOGE2YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4423fb0578834a7fb249f2ac7bc0dc9c",
+      "statement": "Lucas Ferreira is the document owner of CBO-ARCH-WC-4.1, the approved (v4.1, last reviewed 2026-08-20) current-state architecture document for CBO Wire Center, approved by Anjali Deshpande and Nikhil Bose.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L11-L26",
+          "version": "repo-lines-v1:sha256:f8d6b43c47b216398f345f2d44b605d30426f22b888dc2d33bcea32c2d345bb7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczYTQwN2YxMWM0NjJhYTA3OTNkOWE5YTc1MThkMTBmYjdiODUzNTJlMWQ5Mzg4YmMxMzAwZTY1YTcyY2RlZmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhYTk1ZWRjMzVkOTRlNzcwY2Q3YWIzM2Q5YzUyODViYjU2YTAwMGEzMjcwNDI4NTk5ZjhjZjQ0ZjNiM2JjZmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlODhjM2M0YjBiMjZlNjE0NmQ4Y2QzYjVkZTY0NzI3Zjc4MDc5OTZmZDYwNGM1MWJhNjE1MmFmMDQ5NmU1ZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc4ZmY2NGJmMmJlZTg2NmNlN2YyNDQ1NmQzNTI3Y2RlMDMxMmI5M2M4NWI5ZTc1NzA1MWQ3MGE5YzQ2ODEzNDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4fcda3dc057e4c8ea3a673582741c230",
+      "statement": "CBO-ARCH-WC-4.1 documents that Wire Center currently provides domestic (Fedwire) and international (Swift) wire initiation, templates, dual approval, step-up-gated release, activity list, wire detail, CSV export, and confirmation PDF, but does not provide milestone tracking, international (gpi) status, hold explanations, or client actions on held wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L24-L26",
+          "version": "repo-lines-v1:sha256:6eb4e1fbf4a28ebb51b329886e3dba84d73bfd15ce56217f8416810cbee7689e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzNTA2NGQ4OTU5ZDZhMGUzYTg4MWVlM2EyZGQ5NzJjZTg2YTU4NmEwZGMxNjM0Y2I2NWQ3ZThlZjQxN2ZiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhOTVlZGMzNWQ5NGU3NzBjZDdhYjMzZDljNTI4NWJiNTZhMDAwYTMyNzA0Mjg1OTlmOGNmNDRmM2IzYmNmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjY0MmQ5NjY2ZDg2NWI0ZWZmY2RmZWJjMTAwNjllNTBkNTM2NzdkNDhlNDllYWUxNjBmODJkMDc4MmMyYmQ0OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzhmZjY0YmYyYmVlODY2Y2U3ZjI0NDU2ZDM1MjdjZGUwMzEyYjkzYzg1YjllNzU3MDUxZDcwYTljNDY4MTM0MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_075fe69ed55f4fdeb29a583fd1356e0a",
+      "statement": "CBO-ARCH-WC-4.1 records four key constraints on Wire Center: no status polling is allowed (ADR-PAY-019, post INC-2024-1182), PPH v1 sunsets 2027-03-31 with migration tracked as unscheduled epic CBO-4471 blocked on CBO-4473, international gpi status is visible only to Payment Operations in the Investigations Workbench, and the Status Projection Service is configured for ACH only requiring a new mapping module and consumer ACL on pay.wire.lifecycle.v2 to support wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L125-L144",
+          "version": "repo-lines-v1:sha256:880fd1d951581b714d3fb0f73b7fd464fe7b2cfbc394480731734ac62ea7edac:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjMTQwYmRlZWM2NjYzZDU1ZGIwMzA1M2U1NGNiOGI4MDg2MjM0OGNhMGMzMTYxMjU4NWM1NGRlMTk4ODg0MDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU4ZWRjM2UwNTMxMGFiYTg4NDc4MzQ4ZDQ2NDFhM2ZjZGRmY2JkYzA2YzQ5M2M1OTZmZDJiNTllMjY2ZmMwMjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRiOGZhMGViNTE4MzMzZWE0MTk4NmRkM2ZkNTJiN2I0MDNhNDk1OGMzMWRmNTllNmI5MDI1N2M4NWZhNmEwMTAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4945d04faea14092aab131950c5db583",
+      "statement": "Lucas Ferreira delivered CBO-3802, the reusable Aurora DS <cbo-journey-timeline> component (13 points, Done, R25.3), a child story of the ACH Payment Tracker epic CBO-3790, which CBO-ARCH-WC-4.1 lists as a rail-agnostic reusable asset including terminal/error-state styling.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L145-L153",
+          "version": "repo-lines-v1:sha256:79f0bdc52fc5143da19bce081bfcad012d812c89957514356786bfb5e6fc642d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZlNzVkNWJlMDkwMjY3ZTRhMjhhZWIwODNiMTgxYTE2MDkzOGI4OTI1MjgxMmJmOGIyZTE5ZjFlNGIxMzE1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE3ZGQ0Y2IwMGRkYzEyODY5YTIxNzBlYmEwMDkxOTA5OTQ3MmM2NDFhMjEwOWJmYWUyYTc1NTQ5ZjcxZDRhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2JjNzI3OWY3M2I4YWJjYzE4OGE5MDNiZmVmNTJiZGNlMzAwOTVlNDY5NTNkYjNiM2I2MTk5MmI4ZDhjM2QwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0ZDRmN2M3NGUyZjNkN2JhNTIyM2IzYzM0N2Y0MjI1MWQ4YzY1ZjRkOWU4MzAzN2ZkNDcxOWNkODU0NzMxOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L30-L30",
+          "version": "repo-lines-v1:sha256:bcfe344af5dfe27469c0d85d8806951e618fc3047680fba468b6ade54c0b3b26:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNmZTM0NGFmNWRmZTI3NDY5YzBkODVkODgwNjk1MWU2MThmYzMwNDc2ODBmYmE0NjhiNmFkZTU0YzBiM2IyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmNmZTM0NGFmNWRmZTI3NDY5YzBkODVkODgwNjk1MWU2MThmYzMwNDc2ODBmYmE0NjhiNmFkZTU0YzBiM2IyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTQ0NTAzZmY2ZDUxYzQyYWIyOTgxYzAzNDczZmE1N2IyN2ZjOTM4ZGRmOWZhODk5YzJmZTJiNTVmNjg4N2M1YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDBlNjQ2ZDFiYzY4Y2U4YjEzNTc2ZWRjMjcwYjUyZDYyYmZhNjAwZTUxMTZiZjViMzU1ZjBjYTRiZWIxZWZmYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ac5a14373fa046ff98fc51a062128987",
+      "statement": "Lucas Ferreira is the assignee of CBO-4480, a 3-point discovery spike (status To Do, unscheduled as of the 2026-10-05 Jira export) scoping international wire status (gpi) visibility for clients, whose description notes gpi status is today visible only to Payment Operations in the Investigations Workbench and directs contact with Raj Malhotra (Payment Networks Engineering) about API options.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L115-L121",
+          "version": "repo-lines-v1:sha256:ab847116cb49c064f08f68a61c928705dc2d382c0edeb51ac8f3a21d0da8a52f:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2VlYjJmOWY5ODk5ZGFjOGQyY2JkMzg4MjE2YmM1MmNlMzEzNzdkZjU0NGQ5ZTllZTBmZmI1NmVmZjBkYjE2NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY4ZmIwYTBkMmFkODk3Yzk1ZWU0OWM5NWQyMTdkZDczYjRjNzY5ODAxZDM0ZTVjYjg5MWMxN2FjZTczYzgyYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzg0YmQ0Y2ZhYmFiMDEzZTE1M2ExODA0OTQ5MzNiZjY4MjBjZmVmZWQ4YmMwZDJhMjc3MTg3Y2E2YzQ2YThhMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzMyNWMyMGZlOThiMzRiMmVjZjc2NmExZGY3NTFmODdkNzk5NjMwZWY2MjI0NjgyM2YyOTFkMTU2NTU4YTU3NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L39-L39",
+          "version": "repo-lines-v1:sha256:3f5d44f811a1263aaa431073c3423e70ee902e4b2f62aa16c77497f68869ec18:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZDQ0ZjgxMWExMjYzYWFhNDMxMDczYzM0MjNlNzBlZTkwMmU0YjJmNjJhYTE2Yzc3NDk3ZjY4ODY5ZWMxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDdhODY5OTBiOTc5ZGMzMjlmMzI4YTcyYmNjZWEyMjNjYTAxZmFlZWNmNGE1ZmUxY2YxYWU4ZDMxZjRlNjNjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMxNmUwYjcwNjMyMmU4MWVlNjEwZTVhMmVlMzk2YjM1YzExZTcyODA2ZmFlM2YzOTkwYWI5M2IwOTI0YmJmMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_13f9f9ade8b8451f9a2a2ffd9c1bd3e3",
+      "statement": "In a 2026-05-14 comment on CBO-4480, Lucas Ferreira recorded that gpi status lives only in Ops IWB and that he would reach out to Raj Malhotra (PNE) about an API; as of the 2026-10-05 export no follow-up API work was yet linked, with the closest related item being GTSI-0107 (gpi Tracker Real-Time Service), an unfunded 2026 initiative planned for discovery in 2027-Q2.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L121-L121",
+          "version": "repo-lines-v1:sha256:df8fb0a0d2ad897c95ee49c95d217dd73b4c769801d34e5cb891c17ace73c82a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY4ZmIwYTBkMmFkODk3Yzk1ZWU0OWM5NWQyMTdkZDczYjRjNzY5ODAxZDM0ZTVjYjg5MWMxN2FjZTczYzgyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY4ZmIwYTBkMmFkODk3Yzk1ZWU0OWM5NWQyMTdkZDczYjRjNzY5ODAxZDM0ZTVjYjg5MWMxN2FjZTczYzgyYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjJjNDNlZTQxZGY3OTA1NWVjZmZhZTJlNjBjNjg2ZDYxOTIyYmRjZTU0OTk5M2ZlOWM0ODU5YmVkNTQ5NmYwZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzMyNWMyMGZlOThiMzRiMmVjZjc2NmExZGY3NTFmODdkNzk5NjMwZWY2MjI0NjgyM2YyOTFkMTU2NTU4YTU3NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L169-L175",
+          "version": "repo-lines-v1:sha256:a24467decb1c3caafe20ac2ecec4afa3c1b608f126e8faa2831fd11ea43acbd4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2YxYjcxMjAyYTBmNGRjYTgxNTFhOWQ4MTZiZGE3YjdlZjQzZTJlYmNiNTM1Mzk4ZGUwYjJhOTQ5NGNiNTY1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJhYzUzMTcwMDY3MjYwMWIzZTQ3MDVkMmZlMjAwMDE4YmJkZTQ5MjQxNGQ4OTA1NjgzMjcwMWYwNzViNzdlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWUyZjUwZTNhOTdjYjViMDM0OGJhMjQ4YWU2NmExZDRhNmRmNTlmMjRhZmU4YWVlOTJlNDJhMzgxM2JlNjcxOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzZlMjRhNmNhNDkwMzQyYTRjMjJiYzc5NDVjMDA0ZmYwYjkwNjgyZmYwY2E4ZDZmNmRkMGU1ZWExN2U4Y2I1MiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L58-L58",
+          "version": "repo-lines-v1:sha256:c96887d023c1cb361f8752e6d0c128fd32752d9c302a65237bd3ff391c8e9de8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ODg3ZDAyM2MxY2IzNjFmODc1MmU2ZDBjMTI4ZmQzMjc1MmQ5YzMwMmE2NTIzN2JkM2ZmMzkxYzhlOWRlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ODg3ZDAyM2MxY2IzNjFmODc1MmU2ZDBjMTI4ZmQzMjc1MmQ5YzMwMmE2NTIzN2JkM2ZmMzkxYzhlOWRlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDQ5ZjEyNmYzNmNjMDA1YzZlOTBiYTBkYmVkMzJjZjhkZGM4MWQ1NDJjODdmZmY0NGE5ZjUxZDBmNGY5YmJkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTg1YWFlZmNhZTIwNTllODAyMDg5NzVlMWU5OWFkMDc2OTg5NGMyZmM4MDZjOTE5Y2JjYzAyNmIwMTY0NDAyOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dd11de87cc9d43f0b51bd41cc88a8bfe",
+      "statement": "CBO-4419 is an open bug reporting that an international wire displayed the client-facing 'Completed' label and was subsequently returned/rejected by the beneficiary bank the next day, linked to complaint CMP-2026-1189 involving a EUR 412,600 wire where the client had already released goods based on the status shown, illustrating the client-facing gap CBO-4480 was opened to investigate.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L105",
+          "version": "repo-lines-v1:sha256:53c8e075e2a2238436ddd729cfbb94c76ca723bb718379669e7c0fd55e25e75c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIyNDQ1OGEwZDI2OWJiMTJhNjEyMDMxNTAxYmZkZmNmODc2ODI0YTM4ZWRmMzViMjMzOWQ3OTZjZjVmYWE3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MWJiYTUzOGIzYTZkYzE0MTEzMDAxMWMwNWU5NzBhZWFhMTNkOGNmOGJhZmIxMDgxNGM3M2FjMzUxMzAzYSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

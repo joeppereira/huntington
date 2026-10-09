@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:aa6c4c00a09e43d5c13d92a70da8cf2e51aa772d4a31b7dfc447f2baf618857a",
+  "claims": [
+    {
+      "id": "claim_4ed47a598061478ca5c2f3426e92f0a7",
+      "statement": "Enterprise Notification Platform is a PTT engineering team led by Director Sanjay Iyer, with Melissa Grant as Engineering Manager and Paul Henderson as onboarding owner, reachable via Jira project ENS and Slack channel #ens-onboarding.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L60-L63",
+          "version": "repo-lines-v1:sha256:799f48baf43fe9797e57caa9fc5be23e65f24deafebb0d5db30e30824fb42d22:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVkYjg1ZjQyMzk4YjFiZThmMzFjMjgyOGZhZGI0YzQwMWI0NGE0MWExNDQ1ODdkODY4ZDI0ZTI4ZGE5ZGE0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTk3ZGM5MzM3ZDhhMDU5Yjc5NThjODNhZmEyMjcyNmYwNjc2YTdlNmZjNTBiOTc5ODJjOGQ3NWViMGNjYTI0OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQxYmZkNWMxMGJmYmJkNDNkNGVmYzg5MzcwZWIwMjNhYjZiZTBjZmYyNzRmMmE0NGYyZGVjZDQwNWZiOTUyOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d260edff02544b18bedd6bdbe99ac59d",
+      "statement": "Enterprise Notification Platform is one of seven PTT engineering teams reporting to Gregory Hall (MD, CIO Payments & Treasury Technology), and uniquely owns a horizontal shared notification capability rather than a payment-processing or data domain.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L63",
+          "version": "repo-lines-v1:sha256:81a4dfa6ed9620b43af5a582fd6135fb7899f08a4a63dc7be49eb6f17cabf1b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNWVjNmY0NDBkZjM0Mzc3OTdkZGNjZmMzZWE1NDRkZTEzMmU0MjMxMDc1NTYxY2Q2NWVkMjQ3OGI0ZWYzMzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk5N2RjOTMzN2Q4YTA1OWI3OTU4YzgzYWZhMjI3MjZmMDY3NmE3ZTZmYzUwYjk3OTgyYzhkNzVlYjBjY2EyNDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjYWNiOGZlMzRiNTdmYWZiNjU2NmQxZTFlYTFhNTNkOTllNmZhZjcxYzU0MjFiYTJmMzgyOGU0MDVhZGU0MWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0MWJmZDVjMTBiZmJiZDQzZDRlZmM4OTM3MGViMDIzYWI2YmUwY2ZmMjc0ZjJhNDRmMmRlY2Q0MDVmYjk1MjgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_53487cae856742f3aca91420a255423a",
+      "statement": "In the PTT system ownership register, SYS-ENS (Enterprise Notification Service) is owned by the Enterprise Notification Platform team with Melissa Grant as technical owner, Sanjay Iyer as business owner, and a Tier 2 (business hours + on-call) support tier.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L93-L93",
+          "version": "repo-lines-v1:sha256:f837230f587b0a2c87635e8a382be490b8835c2842c599135d270d06e86dc8cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgzNzIzMGY1ODdiMGEyYzg3NjM1ZThhMzgyYmU0OTBiODgzNWMyODQyYzU5OTEzNWQyNzBkMDZlODZkYzhjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgzNzIzMGY1ODdiMGEyYzg3NjM1ZThhMzgyYmU0OTBiODgzNWMyODQyYzU5OTEzNWQyNzBkMDZlODZkYzhjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2VjODUzNTYxYTEzZjkyYTI1ODc2YzJmYzY3MmZlODYzY2VhNTc1OWQ2ZDk1ZjNhN2I4YzZhNThiYmMxNjYwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzQ3NGIxNGZjZWE1MDVjODM1ZjIxZGQ4ZmQ0ZTZlMmIzNWVlOTFlNDhjZjg2MTg2N2RjOTZmZGZiZGE0ZTI0NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_828cd59a65af45bdb10f35641e55d5de",
+      "statement": "The team owns and operates published ENS platform capacity and compliance limits: 300 msgs/s sustained throughput (1,200 msgs/s burst, 120 msgs/s Treasury/TRS quota), 4s p95 push/in-app delivery latency, SMS gated on TCPA consent with a 160-character template limit, and masking of account numbers to the last 4 digits with no Restricted-tier data in payloads or templates.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L28-L34",
+          "version": "repo-lines-v1:sha256:2a06ad4ab14e18ef6c89fff190cef8478051408dfe19805d0cb2b197af3968b8:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmY0YmFmYWI0OTc2NjZiNmI3ZjZhZDFmNGU5MDQyNDRkMTU0M2ZiNTIzNDQ0ODg3MDU2ZDgxN2Q4ZTI5ZjQxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGYxMDk5YmIyN2Y1YTNhOThjZWI4MTA3NzAwMDMzMjYxNzEyMjE5YmJlOTJiMzRjMzkxYjZmM2NmZThlNGVjYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzc0ODY1ZDNiOGY5ZDNhYjdlNjZjOWU1MzI3NjcwNjE3ZDkwODhkMDBhY2E0ZWU2NGI4ZTQ0ZDZiZjg2YTE0ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bf60874c5fa54ec988347f79b975363c",
+      "statement": "The team owns and approves document ENS-INT-3.2 (Enterprise Notification Service Integration Guide & Treasury Event Catalog, v3.2, published 2026-07-30), with Melissa Grant as document owner and Sanjay Iyer as approver.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ae72122bd10ef4ec657e757974454242ed09a22834f9180a7f50bcb72dc26ac5:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWI3MzhlYmQ4MDg1ODU3ZTRmYzRmZDdmNTcxMzNmODU0NzA5YWM4NmY4ZTRkM2YxZDFlYzVmYTQ0M2NjNmVmZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkMTgzYWMyNjQwZGIwYmNmYjZmMDA2ZmRmMjg1YWE4NmZlODkwZWQxYzNlZjY1MDM4NzhiYmZmMDI0ZThhZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODMyYTBhYTg2OWVlOGQwN2RkOGYzNzU4NDZhOWFhN2FlMzEyYzczMjY2YThiNGFhN2FiNTFiYWVmOTJiYmU3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTk4ZGY4MzQ3NDlkMjU4YWQwNDkyOTI3ODY5MzQ1YjhjZDU5YzAyYjkwNDFiNTNlNjAxNDVhNWIyNzFiNjU4MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4ea962c531744ec488a8367066a43619",
+      "statement": "The team operates a fixed five-step event-onboarding process (ServiceNow 'ENS Event Onboarding' catalog item submission; payload schema and recipient-resolution definition; template drafting and bi-weekly DRC review; ~12 ENS engineering hours of configuration and test; producer UAT and production enablement) against a published 6-week SLA.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ba50d9789bac47aeb78c8b0be58c5016a66c7b51eeb9632461c33cf56926fe22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZDU1ZjUzNTA2NDk2YThmNmNlZjMwOGVhZTJmMTA3ZmI0ODJlZDg0ZTdmYjU3OTFjNDhhN2RiZDZkMjBlNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiZDlkYzQyMjI3MWQ0YjI3M2MxNGU0NGUwZTk1Y2ExYWI2MzBjZDc4NzFlMTc3NDliMWQ4NzNlODg3N2UxNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZjA4ODc3NmRjZGZkYmU4YTFjYjZiNjI0MDE3ZWNlNDE2MjE4OTI4OWE1OTJhMTU5MDRlMTRjN2FkYTc1ZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlMTlkMTE5YjVkMDQwZmVlZTk1YTRlMzVhYWI0ZmM1MmJmZWY2MzBkODQ5MWFkMDNhMWQyODBhOTRhOWIyY2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c0137884b0b74ff2b4dd31f13a681481",
+      "statement": "The PTT engagement directory records the team's standard cross-team planning factor as ~12 ENS engineering hours per new event type, intake via ServiceNow 'ENS Event Onboarding' with a 6-week SLA, and a PI 27.1 capacity note of 'per-entity subscriptions 2027-H1' rather than a percentage-committed figure like most other PTT teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L132",
+          "version": "repo-lines-v1:sha256:3e5c5bbb464581ea1f5b6b9b0d8894df79272ec2238346e39643d349529fdb3f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiYTc1NmExN2Q1ZTU4ZTQyODkxNDc3NTg4ODc3MmU3ZjhjMGNiZGE3MTI5ZGNiMzNkZjUyYTgxOTgxNGJhYTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5Zjg0NTVhNjY1ZDZhYzBkNDczYzEzZjEwYjAxNDFhMjljYjNhOGZmZTMyYWJiMjI1MTBjOTY3OGQyMTY4MjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4b3b58e06cdf42d793c1c1838866f74f",
+      "statement": "Requests to onboard a new ENS event type submitted after 2026-11-20 are scheduled after the year-end change freeze, and because the Disclosure Review Committee meets only bi-weekly, a template requiring a second review cycle adds roughly two weeks beyond the nominal onboarding SLA.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L41-L47",
+          "version": "repo-lines-v1:sha256:b6abd378e2e8eea606b93612daa7b82efbc5b0cbf606b55bc4b9b16f2b733fad:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDliNWMzYjExY2ZjNjU4NTg4YTZjZDM4ODQ5NDg2ODEzM2Q0ZmNmMjkzNjY3ZmQzZTEwZGU5M2FjZjc3ZDY3ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJkOWRjNDIyMjcxZDRiMjczYzE0ZTQ0ZTBlOTVjYTFhYjYzMGNkNzg3MWUxNzc0OWIxZDg3M2U4ODc3ZTE2MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGZlMGQ3MzdiOTZhNmI1MDY2OTA1Mjk1OGVjMmYzNWNkZWRlNTc5OGJiNzY3M2E2NzY2MjQ2OGM3N2Y0ZjgwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGUxOWQxMTliNWQwNDBmZWVlOTVhNGUzNWFhYjRmYzUyYmZlZjYzMGQ4NDkxYWQwM2ExZDI4MGE5NGE5YjJjYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_eee19061d59e40a3abb9142c7884a3c2",
+      "statement": "The team's current ENS subscription model is scoped per user per event type with optional accountId and amount-threshold filters and does not support subscribing to an individual entity (e.g. a specific paymentId); producers needing a specific pre-resolved recipient instead use the documented 'producer-resolved recipients' workaround, with the entity-level gap tracked separately as planned initiative ENS-1120 (target 2027-H1, owned by Melissa Grant) rather than a configuration change.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L49-L51",
+          "version": "repo-lines-v1:sha256:7b6750fc41945eae6836d5115964229ec2e5835b12941bb5e45adddb0e807434:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmYmNjYzc3OTQyOTJlYzU2YTA5ODc2YTZjNTBmODFmODQxYjYzZDJjOTQ5YmNmMzYyNzE0NGU4NjA4ZjBkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNlNWE5M2U5NDUzN2FjZjYzMGEwZmZhZTkwYWM4ODM5NmUxNzBkNGViYTgxMDVmYTcxODgxODBkMDEyOTliNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzI5ZmI2YmY4MWNkOWNlYjQxY2UwMjI5NDM0NGU5NGI1NGIzODc3Zjk5NTczMzRhOGQ0MGIwYjcxZDY4OGNmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJhMTY5OTRmOWQzZTI1NTY0YjEyNDA2ZjVhYjAxYjQ4OTgzMDM2NTQwMzk3ZDk1NTc4Y2ZiZjhkMWE5MDA3MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3db85845e18043e7adf5a9070fd2abed",
+      "statement": "Cross-team dependency work for the team is raised via Jira project ENS and Slack #ens-onboarding, but new event-type registration specifically routes through the ServiceNow 'ENS Event Onboarding' catalog item rather than Jira; client-facing template changes additionally require bi-weekly Disclosure Review Committee approval (5 business days lead time) and FCC-approved copy per POL-FCC-014 Appendix B for financial-crimes-related states.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L100-L118",
+          "version": "repo-lines-v1:sha256:738a62e13e2209ca929acf59152fe415d44697874decaa5eadcfb175cee68643:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1OGE3MjNjMzIzYmZkYzA2MDI2MWQ4N2IxNzEzZWY4MTQ5MDRhZTE4ZjNkNTAwMDE2YTUyN2Q1YzJlYTdmNmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5NDIzMTI5MTE0YzM2ZmFkNGNhYTFhM2MyMzM0ZGE0YzJhMTA3YTViNTZiNWM1ZGUzOThkNTc5MzZlM2QzY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg3NzM4NjNiYjczMWY3OTY5NTBlNzU1OTE2ZTIxMDJmNzliNjZkNDQ2ZjAyY2RlOWE3N2U4MGYzOGY1YzE4Y2UifQ"
+        },
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L85-L91",
+          "version": "repo-lines-v1:sha256:8a12edee5b51cde3ded50a2374c3e3708134d2a0463291731f658b85f806c4e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzAxM2E4NmY2ZWNlYmNkZDJiZTdiY2ZmNmNkZWI5YTgyNzU2ZDU3ZTA3MGNkOTFlMmJmOWRmMmI5YWYwMzQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk1Y2QyMWI4NTM4ZGQzMjdhYWY2YzJlMjNkMzQ1NDhjMmZjNTU1ZGUwMjkxOTk4YmRjNjUyODBiODk1NjQ2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGVjYWQ5ZWEyZjgzNTFjM2NjMzhjNGU2YjFhOWJkYzE4NmQ0MzNhMzRiMTU0NDFjM2ZhYWNiZTQyN2Y2NDllMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ5ZTFkMWJmNGM3MDJiOWI3NzhjMDdkMTA4YzU5YmMyYTc5NjMxNWZkY2UzM2I2NzIzNjc3MzkxMWJlYzA2MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_514d8af7e37e470a84eb1fd504c9cd85",
+      "statement": "Dependency conflicts involving the team that cannot be resolved between engineering managers escalate first to the respective Directors, then to the weekly (Monday) PTT Leadership Team, while compliance or policy interpretation questions route instead to FCC Policy & Advisory or the Privacy Office and are not decided within the engineering escalation chain.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:015dc3875dabc7d16d8c5723d6da0ab11da14b8d9e777478ff3d226ab3d43d49",
+  "claims": [
+    {
+      "id": "claim_2ce1b486c1ce4d6ba2eae46c108a16e0",
+      "statement": "Information Security - Digital Channels is a first/second-line partner function to Payments & Treasury Technology, accountable to Farah Ali, and does not own a system in the PTT system ownership register; its engagement surface with PTT teams is the SECREV design review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L77",
+          "version": "repo-lines-v1:sha256:c7fe64a4a6d6da01855db29c521dadfd9a0a292acb5a311c64f12ee702279fff:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyOTQ3M2U0MjkwNmViOTg1NzUwYTBmYjFjOTA1MTdhZGIwNzNmNmVhNDViYmUzMzkyYWJiN2M5M2M3ZWE1NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_757ac95313474818afe3a9d682392d10",
+      "statement": "SECREV design review is required under SEC-STD-22 (Digital Channel External Sharing & Step-Up Standard) whenever a digital-channel design adds external sharing of client transaction data (links or documents shared with non-users), alongside a Privacy Impact Assessment.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L115-L123",
+          "version": "repo-lines-v1:sha256:9314e8a362dc5d298025d85bb0b858e81bff657b8e1c0af7aab9166ab91bca85:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZkNDU4MDAzNmYxMzhlMTQyMTcyNjE0MmYyZDhhMGEyMzUwOTAzMGJiMTk4NmZmZmMzMmM0NWMzNzc4MjQ3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFkNjk5YzExYmQyYzc3ZDI1MjE5MWRjZGNlNjI4OWM3ODU2NzkzMmVkMDljYjQ3OTE1ZmVjZGI5YjRhOTg4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBmZjEwMDJmMjM1MWZmNTQ1ZTM1NTUxZjdkMGE2NDQ4MjI2MzFmN2I4MWM2MTExODE1YjRkMTFhMWM2MWM1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E5Yzc3NjdiMDQwNzhmMmJmZjA4YWJjMDc1NjA5NGUzYjVhMWJkODFhYmI0ODAzZTM5NmEzNzgwZjZlYzRkNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_39a52acf724d42a591be90d820ce656d",
+      "statement": "Wire release in CBO Wire Center already requires step-up authentication (POST /cbo/auth/v2/step-up, EP-AUTH-01) on top of client-configured dual approval, and that step-up mechanism is explicitly documented as a reusable asset for other high-risk client actions, meaning future reuse again falls under SECREV/SEC-STD-22 scope.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L115-L123",
+          "version": "repo-lines-v1:sha256:9314e8a362dc5d298025d85bb0b858e81bff657b8e1c0af7aab9166ab91bca85:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZkNDU4MDAzNmYxMzhlMTQyMTcyNjE0MmYyZDhhMGEyMzUwOTAzMGJiMTk4NmZmZmMzMmM0NWMzNzc4MjQ3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFkNjk5YzExYmQyYzc3ZDI1MjE5MWRjZGNlNjI4OWM3ODU2NzkzMmVkMDljYjQ3OTE1ZmVjZGI5YjRhOTg4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBmZjEwMDJmMjM1MWZmNTQ1ZTM1NTUxZjdkMGE2NDQ4MjI2MzFmN2I4MWM2MTExODE1YjRkMTFhMWM2MWM1ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E5Yzc3NjdiMDQwNzhmMmJmZjA4YWJjMDc1NjA5NGUzYjVhMWJkODFhYmI0ODAzZTM5NmEzNzgwZjZlYzRkNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L145-L153",
+          "version": "repo-lines-v1:sha256:79f0bdc52fc5143da19bce081bfcad012d812c89957514356786bfb5e6fc642d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZlNzVkNWJlMDkwMjY3ZTRhMjhhZWIwODNiMTgxYTE2MDkzOGI4OTI1MjgxMmJmOGIyZTE5ZjFlNGIxMzE1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE3ZGQ0Y2IwMGRkYzEyODY5YTIxNzBlYmEwMDkxOTA5OTQ3MmM2NDFhMjEwOWJmYWUyYTc1NTQ5ZjcxZDRhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2JjNzI3OWY3M2I4YWJjYzE4OGE5MDNiZmVmNTJiZGNlMzAwOTVlNDY5NTNkYjNiM2I2MTk5MmI4ZDhjM2QwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0ZDRmN2M3NGUyZjNkN2JhNTIyM2IzYzM0N2Y0MjI1MWQ4YzY1ZjRkOWU4MzAzN2ZkNDcxOWNkODU0NzMxOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e18f0067818f4e55b80487fb7a02746b",
+      "statement": "A SECREV design review is planned at roughly 24-40 engineering/security hours with a 3-week SLA, as used for first-pass sizing of cross-team dependencies in PTT.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L138",
+          "version": "repo-lines-v1:sha256:1e2fed947d50a609157df7385e3543534ad4bc415464e1c1f9efb1d8a6b1723d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_72be2d0217b4417eb2a302a5af0238e4",
+      "statement": "SECREV is distinct from, and may run alongside, other PTT governance gates such as the Payments Architecture Review Board (monthly, 10 business days lead time, required for new client-facing payment-system integrations), the Privacy Impact Assessment (~4 weeks via OneTrust, Privacy Office), and the Disclosure Review Committee (approves client-facing copy and templates, bi-weekly, 5 business days lead time).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L119",
+          "version": "repo-lines-v1:sha256:c499f6cc0a8f64fefbd72820dc9df6b1c06eda8469c28ab90119fec081074d17:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzc0NmU5NjRiNzZiN2U2ZjA0NTU1YzdjOWZkZDU4YWY0ZDk1MjRlNjMxYjBkODU0NzMxMmJhN2I5ZDQ2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzgxOTcwMTI4YjJiYzliMWJmYjk4ZTYxYjFmYzFhMjI1MjhkZWQxNzE4ZWY0OWFjMTg1ZGNiZTNkNWU4OTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM1NDE0MmEwN2JhOTdiN2I5ZjljZmZlYWI1MzYwNDc2Y2ZkNTFjYjZlNzBhMDAwODA5YWU0MzA4NmNhZDY0OGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2a9323cd852c4573a0e811772c910a0d",
+      "statement": "The PTT Organization, System Ownership & Engagement Directory (CNB-ORG-PTT-2026-06, v2026.2, published 2026-06-15) is refreshed quarterly and organizational announcements issued between refreshes take precedence over its contents, so SECREV's contact and planning factors should be reconfirmed against the latest refresh for active planning.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L24-L26",
+          "version": "repo-lines-v1:sha256:f18489a719daa45bf0bb0ee7107579a71558b11b153d102f8492d9de6cb3ce58:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTE4NDc5MmJmOWZjMWQ1MThhMjJlNTUxZDQ5ZTU2NDdkN2JhMjY5NTUzMTEyMmZhYWI4Y2I1ZGMyMWU5MmVmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjNmU2ZGY3MTZhYTI0ZGE2YjhhZGFjZjdhYTUzZjRiMDBmYmZiZTk0NmY3Nzg0MDY4YTJhMDE2ODI0YTQ0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzkzM2I4YzI2NGVlMTkyNDc0YjJlMWE2MzAzMDVhZmU0MGE2NDY1MDcwZDZmNTlkMjJlNjc2OTIxZDkxN2EyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

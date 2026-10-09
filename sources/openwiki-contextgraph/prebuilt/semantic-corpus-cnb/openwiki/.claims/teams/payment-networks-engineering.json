@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a47007b001d9ca809a1c7dd03006a3dbce9b681bfbf1a35bd0403cbea5d0f7ba",
+  "claims": [
+    {
+      "id": "claim_c07720c5eb62448882f17841fc4897c1",
+      "statement": "Payment Networks Engineering (PNE) is an engineering team within Payments & Treasury Technology at Crestline National Bank, led by Director Raj Malhotra, with Brian Walsh (EM) and Chen Wei (Tech Lead) as the named Fedwire contacts.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L44-L49",
+          "version": "repo-lines-v1:sha256:bf78cf4cf6b6de8a798d33096bab17897a7f468314ec8cf17390b0b5106124bc:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODMxZmUzYzA0ZGY3YTk2MzY3MDQ4OTdhYjhhNzZjYzU5Zjc3M2MzNGJmYTY4NjBmMmEyYzAyZTYwYTAzMzgzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTU4MDA4ZDhlNDBiNmMyM2Y5Nzk0YTFmMDAwM2ZiZWRjYzgzMzk3NTNjOGE0OWMxOTM5YzA5ZTk3NmU2NWUyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmE1NzcxOWIwOGU2YzljNTA5MTVhZDBkNjMyZTZkNDVhYjk1YmM3ZWQwMDc3MGYwYzYxNzgzMWY1NTczY2M3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmJlYzM3OWE4MmRkODY2OTIyZGMwNGUzYzRhMjUwOGYxOGI2NTEzYTU1NDdlZWRkNWVhMmRmYWQ3NTdlZWNiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_36463874ae804ca9af7d08e9495be8c4",
+      "statement": "PNE owns and operates the Fedwire Funds Connector (SYS-PNG-FFC), a Tier 1 24x7-critical system, with Laura Kim as business owner; PNE is listed as technical owner alongside Brian Walsh and Chen Wei.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L88-L89",
+          "version": "repo-lines-v1:sha256:5c2a9d96b026ad98ea50d91ca0b365f5dcc9aa4d0a4e15af098539001b0af798:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE2NWYwODZkNmU2MjNhZDA3M2FiN2M4OWYzM2VhZmQ4ODU1MTM5NWRmMmQ0Y2E1ZWFmZmY5MGZmM2I1ZjJhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ExM2UzNDFkYTEyZWEzZGU2NDk0YWVmNTU4MzNhNTFkMmUxY2UwNjJkMjUwMjEyZDI4MjUyYmVmZDQ2MTc0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY0YzIyMzEwZjZlZDNiMmM0Y2I0ZjQyYzg4NTUwODdlMTUzNGE0YTIyYWI4NTM3ODM2ODU4ZDBjMGVjOGE2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2VjODUzNTYxYTEzZjkyYTI1ODc2YzJmYzY3MmZlODYzY2VhNTc1OWQ2ZDk1ZjNhN2I4YzZhNThiYmMxNjYwNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_72a0bbcdcf8647b3b3191e922d3c2e51",
+      "statement": "Effective 2026-10-01, CNB-MEMO-2026-09 transferred PNE's Swift Alliance Gateway/gpi Connector (SYS-PNG-GPI) and gpi Tracker integration, Swift API gateway (Microgateway) and SwiftNet PKI service accounts, and the international wire tracking roadmap to Global Transaction Services Integration (GTSI), while the Fedwire Funds Connector (SYS-PNG-FFC), including net.fedwire.ack.v1 and net.fedwire.inbound.v1, explicitly remained with PNE under Raj Malhotra (Brian Walsh, EM).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L42",
+          "version": "repo-lines-v1:sha256:406e7d21cd3cf4c002098b353c16d1226deed5affc7638754b2be98026f52e59:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MDU5MjE1ZjBlOWZiYWMwODBlMTEzZjg2MDEwNjE1MGQ5YmRiOTQ0ZTE1ZDU3MWE0MGM1ZGI3ODRkYWM0MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwYmUyNzdiY2JjMjAyOWZhZDA4YjhmODBmNzAxNTZhMDE0MWMwOWZjMGY2NTAyOTJkOTEzYzgwNzlhNzQxMjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkMDFhODViOGNjMmUzYjJlZWJjNTllZmY5M2QzMjU1MjU1ZjNlMGM2NzBmMGZkMjE3ZjYwMTRhZDVjYzkxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFkZjkyZWNjOTVmZDVlMzFmN2Y3NGFlNTIyNTZjNWZlOTg2NGIxMDQzYmRlMmQ3YjBiNDBmMWMzMTRjYjk5MTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_be2836a7f5fb42f0ab3c461d882ca626",
+      "statement": "Raj Malhotra (PNE) additionally assumed ownership of the FedNow and RTP connectors from 2026-11-01, a change bundled into CNB-MEMO-2026-09 alongside, but organizationally unrelated to, the Swift/gpi transfer to GTSI.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L42-L42",
+          "version": "repo-lines-v1:sha256:e0be277bcbc2029fad08b8f80f70156a0141c09fc0f650292d913c8079a74127:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBiZTI3N2JjYmMyMDI5ZmFkMDhiOGY4MGY3MDE1NmEwMTQxYzA5ZmMwZjY1MDI5MmQ5MTNjODA3OWE3NDEyNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBiZTI3N2JjYmMyMDI5ZmFkMDhiOGY4MGY3MDE1NmEwMTQxYzA5ZmMwZjY1MDI5MmQ5MTNjODA3OWE3NDEyNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjUxYWE3MzdiNWYxNmUwMDM1MmNjODU4YTU1MWQ1Y2I5ODQ3ODQ3ZTFhYWQ4ZDhmZGRkOGU5ZWU5MTUyYTIyYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWRmOTJlY2M5NWZkNWUzMWY3Zjc0YWU1MjI1NmM1ZmU5ODY0YjEwNDNiZGUyZDdiMGI0MGYxYzMxNGNiOTkxNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_920cd913db2641d39f1f4ac765b2cfe9",
+      "statement": "Tomasz Nowak (Senior Engineer, gpi Connector) transferred from PNE to GTSI reporting to Omar Siddiqui, and PNE on-call remains secondary support for SYS-PNG-GPI only until 2026-12-15 when knowledge transfer under GTSI-0112 completes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L46-L48",
+          "version": "repo-lines-v1:sha256:453c908c653fa34b52aa56f5cac2ce360adf3d97dbb019369e83231b6715bfcf:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWEzNWMwYTYzZjQ0ODM0Y2UyZTc0MjE2YTY5MmNkOTdjMGU5ZjJmZTYzMTI1YzI2MmUyNzNlYTU5MjVjZDJjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDUzNTJmYTllNjdiODg3OGY5Mjc2MzMzOTYxODc3MGUxOWEyNjk0YmIyZWNjOGZjYzMwMjM1Y2Q0N2U5NGJlYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWRmOTJlY2M5NWZkNWUzMWY3Zjc0YWU1MjI1NmM1ZmU5ODY0YjEwNDNiZGUyZDdiMGI0MGYxYzMxNGNiOTkxNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTRlMmQ2MzY0OTk3OGFjZDg4NjE2ZWRkNzhkYTg5ZmZkZDRlNDkyZDhlZjk4N2NhOTAyMDM4MTcwZGE3MWE5NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_533c12e11dc04c3aa4eeb8219c30506e",
+      "statement": "From 2026-10-01, new requests for gpi data, Swift Tracker usage, or international wire status capabilities must be raised in Jira project GTSI directed to Omar Siddiqui rather than PNE's PNG project; pre-existing PNG gpi tickets are triaged by GTSI during knowledge transfer and no new PNG tickets for gpi topics should be opened.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L50-L52",
+          "version": "repo-lines-v1:sha256:86950afcb6732c6c4e8bf8327a463676493d226cc1f0d52943d2f6bfbc21d42a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmY4ZTVhM2Y3MjhmNjQzMzVmMWU4NTI5ODEzMDRmNDkwMjU2ZTVlYmUwNmZkYTY2MWRkYWQ3NmFmNmEyNzJlNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY1ZDEyOGY1ZWJhMDY0Y2ZhZTg3MDMwNGZlYzg4YjZhM2I0ZWU5MzZiZjY2YjdmOTY2YTkzNmZiNzg1Y2M5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjk1YTAxMzEzZWNmOTU2Y2MxMWM4ZTU0YTg3OTZhOTZkYjc0NjVmZjU3ZDczZmY3MmViNWMzMjY5YjgxNzk4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGExZTgxMDRkNTkwNTcyYmIxZTgwMjZmZDc1NTE4NzFhNmNlM2E3ZmU1OTUzYTk4OTRmNzYxOTFlMGJjZjI4ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_74b53f1752da461ca018a7dd69d98b9d",
+      "statement": "Per the PTT Organization & Ownership Directory (CNB-ORG-PTT-2026-06, published 2026-06-15), PNE's engagement model uses Jira project PNG and Slack #payment-networks, a planning factor of about 1 story point per 8 engineering hours, change windows Saturday 22:00-02:00 ET, and PI 27.1 capacity reported at roughly 80% committed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L129-L129",
+          "version": "repo-lines-v1:sha256:c81661967298c01852a6e4c1c129dd182fd1fbaad9666b67e64bb9758d037593:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgxNjYxOTY3Mjk4YzAxODUyYTZlNGMxYzEyOWRkMTgyZmQxZmJhYWQ5NjY2YjY3ZTY0YmI5NzU4ZDAzNzU5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgxNjYxOTY3Mjk4YzAxODUyYTZlNGMxYzEyOWRkMTgyZmQxZmJhYWQ5NjY2YjY3ZTY0YmI5NzU4ZDAzNzU5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQ5NTFmOTE5M2Q1YWE3ODE1NjA1ZjVmMDM2M2I3YzUzMDYzOWM2ZTE3M2ZjYTljOTljZDVkOTFjZjlkODE1OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmQ0MjE2Y2NjNDE3NDZlOTE2YTM3MzU2MDc3ZmIxNjkzNzYxMDU2NjhjNTg4MzM1MTI4Y2Y1NzVmMTAxNGIxMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L48-L48",
+          "version": "repo-lines-v1:sha256:6d13a87bde0a0f7867c012cdc0c539ba99422b1bfba5db53b897abd86d7165be:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQzNWQ4OGY1NWNmOWUwMTZkNWRmZmMxNzBmNGVkNjdkNzU5NjI5ODcyODg1NTExYTgzY2M3MTQ3YjNhYTRlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmUwNDllYzU5YjUxYjk1YzAzYzA5ZDlhYWExNWNiZDljYjJmODI2ZjM0MjFlYzBiM2Q5NTJmMmNlNWY0MWRmYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9236fd985c6743c294677487cf29f697",
+      "statement": "The PTT Organization & Ownership Directory (CNB-ORG-PTT-2026-06, v2026.2, published 2026-06-15) predates the 2026-10-01 and 2026-11-01 realignment and still lists both SYS-PNG-FFC and SYS-PNG-GPI under PNE, with its Q4 2026 refresh expected to incorporate the changes; organizational announcements issued between refreshes take precedence over the directory.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L21-L22",
+          "version": "repo-lines-v1:sha256:e7466580bfcb6b1c8507984bf9ee0b98df7fbbfdeafb6ddf255e8f963466ffe5:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZThjNzc1OTZlNzc1NDlhNzk4NmMzNzc1Njc4ODg5MjJjOTFjY2QwYmNjZTJjNTM4MzQyMDQzOTU1NmYwMmY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjYxMWE2NTZmMTY1N2YxNzVlZmJmZGJjMjQzNGMyNjkyYTc1OGNlY2I2NDRhZjA1NWFiMjFiOGU2MGZjZjFhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTQyZDZhZTA1MDY1MmEyNWQ5MjJmMmE5ZWQ5YTJhYjU5NWQ0NDVlYzFkM2MyNWQwMTE3YjVmZDk1MjBhODgyMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmI1MjVhZjExYjliMGEwMTc0M2UzODZlNmI0MmQwNTVkYzIwNTE0MmQyMmM3YjYzOTkyNWI4ODNlNWViYzkzNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L20-L26",
+          "version": "repo-lines-v1:sha256:50e3da8767051f92b6c023bab1b6e96e31932aebfcd08f9a54b6cfedd6d33cae:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjg5MGNkMmUzMjkzMjEwNTc4OTNhYjFiZDgzODJkNjdmNmRkZDUwYzVjNzAyMDdlMjBlNTI1N2ExMDY0ODc5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjNmU2ZGY3MTZhYTI0ZGE2YjhhZGFjZjdhYTUzZjRiMDBmYmZiZTk0NmY3Nzg0MDY4YTJhMDE2ODI0YTQ0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjQxNmE4YWZiMWRhYWE0ZDBjNGE5MjNjZjZiODQ4MDVhMjQ2Y2E3NDBlMGFiZWUxODZjZjY2MGZlNWQ0ZjFkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L88-L89",
+          "version": "repo-lines-v1:sha256:5c2a9d96b026ad98ea50d91ca0b365f5dcc9aa4d0a4e15af098539001b0af798:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE2NWYwODZkNmU2MjNhZDA3M2FiN2M4OWYzM2VhZmQ4ODU1MTM5NWRmMmQ0Y2E1ZWFmZmY5MGZmM2I1ZjJhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ExM2UzNDFkYTEyZWEzZGU2NDk0YWVmNTU4MzNhNTFkMmUxY2UwNjJkMjUwMjEyZDI4MjUyYmVmZDQ2MTc0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY0YzIyMzEwZjZlZDNiMmM0Y2I0ZjQyYzg4NTUwODdlMTUzNGE0YTIyYWI4NTM3ODM2ODU4ZDBjMGVjOGE2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2VjODUzNTYxYTEzZjkyYTI1ODc2YzJmYzY3MmZlODYzY2VhNTc1OWQ2ZDk1ZjNhN2I4YzZhNThiYmMxNjYwNyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:7ac8467384a169d67b57dbe8e643677e491e2ff0a7b913754e0393042f649233",
+  "claims": [
+    {
+      "id": "claim_726267a0527042f68be506bd63367676",
+      "statement": "SanctionScreen (SYS-PRSP-SSC) is a Tier-1 system within the Payment Risk & Screening Platform (PRSP) that performs OFAC and other sanctions-list screening, with Grace Mensah (EM, FCT - PRSP) as technical owner and Michael Tran (SVP, OFAC/Sanctions Officer) as business owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L90-L92",
+          "version": "repo-lines-v1:sha256:3ec853561a13f92a25876c2fc672fe863cea5759d6d95f3a7b8c6a58bbc16607:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3ZjBiZjdmMmUxMjA4NjM0Mzg2YjlmZjcyZjM3ODQ1ZmUyOTdkN2UwNGNhNGQxNTc4NWRkZmQyNWE4NGJkMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkYmY2NzJkYjRlNjVhM2I3OWI3NzUxYTExNDY3MzRlZjM0MTUxZDUwM2VmMTBmNGIyNjhhNDA3NWUwZjNmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlZTM1NzdlMWFmMGE4OWU2MDJiN2ZlMzgzYjAyZjQ4NWU0YmRjYmY5NzkxMzQ0ZTMxNDFmYjE4ODExMGE4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L24-L27",
+          "version": "repo-lines-v1:sha256:315a5a631e84ebfdb36a8d48ef422f9b04d206e5e41e379914f4f2b227ee992a:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZiOWRiZmI5ZWE1NDM4ZjgxODQxMjU3MzI1ODg1NTg5MzViNzdlY2IwNzkzYWQ5NzQ2MmJlNThhYzM0OWRiYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDExNzM4NWI2ZjM1NGNjMDk3M2YyZWQ2Y2JjYTIzMGQxMzRmZWViZDhiZTA1MWVmZTc0MTM0MDBiNzcwMjA3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGVmMTA5NjdiY2IxMDVlNzgxNzczOTQyNTUwZDIwMmRiYzQ3ZmI2YWEzZGE3Y2Y0MzkwYmJlMDU5OGM5YWVjZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5621e6e4a35b4a41b8f5c1764bf336ad",
+      "statement": "PRISM Payments Hub (PPH) performs a synchronous call to PRSP (SanctionScreen and Sentinel) during its Screening processing stage; this stage has a typical duration of 1-20 seconds in PPH's canonical SCREENING lifecycle state, and a hit causes HMS to create a hold while PPH transitions the payment to HELD.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L108-L110",
+          "version": "repo-lines-v1:sha256:fa0c1a110c0ec2463fb4a9a90e31befc095af4f57c313f725a2fbcc597d1b9f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIwMDk2YmQ4MWZiYWFhNjIwMGI2M2IxZmFiYTliYzIzYjJhNTZlMjA1MjY0ZmMzZGE0NzJhYWM4NzdkZWM3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQxMDYwZmUwYjRmMTZmYmY5NDA4MWNmZmU0MmVhNmM4MzM0OTAwMTY5NTUyNTFkYmNmNmUwMDM0NjJhZTIxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzZiMzMyMzViNmUwYjdlODBmZTU4ODJlYmQ2MTZjNzNjNjcxMjg4M2M2Yzk0OGUzZGZmNWU4NTIxNzFiNjYwOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdiODQzZDAxNjhkOTJkNzUwMTU3MmY0MjE3MzJiMTAyNmI3OGI2ZDA5OGFjNDYzNzM5YzUwZGEyOTFiODYzMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L44-L44",
+          "version": "repo-lines-v1:sha256:2b172b0b42fd72fffffc48a7dead47a31d3d7a0df3e7d2f6e54f1016586332ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIxNzJiMGI0MmZkNzJmZmZmZmM0OGE3ZGVhZDQ3YTMxZDNkN2EwZGYzZTdkMmY2ZTU0ZjEwMTY1ODYzMzJlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIxNzJiMGI0MmZkNzJmZmZmZmM0OGE3ZGVhZDQ3YTMxZDNkN2EwZGYzZTdkMmY2ZTU0ZjEwMTY1ODYzMzJlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWNjZmY5ZDY5OTY2ODJmNzQ2NTQzNzYxZWFjOTRjNzM4YTZkMTM5NTZlYTFmYTRiZmQ2ZjA1Yjk4MzYzZTlhZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDJlMGMxNjZmMzg2MzNhNjgxY2MyNjMwNmM3Y2ExOTEwOGQzNjgwMjNlNmYwZDc1OWZkOWMxMmJiNzNmODQ2YSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L56-L61",
+          "version": "repo-lines-v1:sha256:4d0e5f84262e0f9aa15aa2d077db1d3ea96b98ea570bb4398c211d5082a07a14:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWYwMzQ3ODgzODUwMjkwNDVkMGE1MTg0OTlmYTVkY2Q1NTBjMTBjZmQ5ZGZjM2U3YTczMzU2YTBhODk5MmUxMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjJkYTQxODczY2MyMTRlNjlkZTAzODE4YTM1MmUwMWNjOGZjOTQ0NTdlODQ3ZjFmYWE1MDE4YzM3ZjNjYjA4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTUyNDdhMzEwZmEyYzJmOGE3MjgyNGYyYTU4Y2I1YTc0NDViNTdjNTI5N2EwMzhhZDAwZDdmMDk5NjQ0MDEzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2RlYzM1ODBlY2ZjMDc0ODRhZmRjMTZlODk0Y2FlYTJiOTcxZGY1ODk5MGZkNmFkNTczZGVhYTk0MWVjZTljZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e6a2736ad6884c598524629aff793020",
+      "statement": "A SanctionScreen potential match is the sole upstream source of hold-reason code HRC-09 (SANCTIONS_REVIEW), tier R, pending L1/L2 Sanctions Operations analyst review, accounting for about 7% of HMS holds by volume with a median time to disposition of roughly 3 hours 20 minutes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L44-L54",
+          "version": "repo-lines-v1:sha256:a0ca4391206df31d5ec9160da8321bb87d54342f69b6b3cb763b351e29478834:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhhZTBmZTA2NmU3ZTU2YmEwNTY5NGY1OGJiNzhiZTE4ZGFkZjczZDJhZTVkNTQ3Mzk3OWZlMmI2M2NmZjUwYTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBlMzdjNjY5MTUxNDRiOTRmZWRmMzI1ZTI3MjY0YTkwN2UxMjBiM2EwMWI2NDQzNTdmOWNiNzlkN2EyMDFlZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0MDIwM2Y1YzdjZmIxMTc2OWI4OGIyMTJmYzRjY2MyMWJmNmNkOTM4ZjhlNDNmMGU0OTRiOWI5NzBhYjM2OTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZiZjIzNTM5ODU0MmU0Y2JhMDkzNTA3OWRiMjgxODEyZGFiOTdjYWUxODViZTg2N2ZhYzcwYjk5NDAyMTk3NGIifQ"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L70-L70",
+          "version": "repo-lines-v1:sha256:47b065ca889c7e8d8ae3d05a08852b2cc3efd2ea7d7f5925d53c5793979716de:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDVjMTEwMmI4ODAzYzM5YjRiMThlMTI1MzExZDQ0OWMxNzc5MjNhYTgzMmUwMjc4MjcxOGFmODRlZGVjNjU5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDU5MmZmODM5ODk2NjhlYTNmMzRkNzAyNDM0MTEzMTlmNTZjNzM1MmRiMTNkODhjOGMzNjhlY2IxNTc0Nzc3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a8f0e8fcf88b47efa75e76e7439151b1",
+      "statement": "Where a sanctions-driven hold is dispositioned as an OFAC block, HMS enters its BLOCKED state, funds are moved to a blocked account, and the block is reported to OFAC within 10 business days (31 CFR 501.603); sanctions rejects carry a parallel reporting obligation under 31 CFR 501.604, both executed by Sanctions Operations rather than by SanctionScreen or engineering.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L36-L37",
+          "version": "repo-lines-v1:sha256:39535041c8cc2d99b66c088d86e7324695c08d525da6b98bf32b3a4284a9d38d:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTAzMGMwYzJhYjdiOWM3YzJhMmZlMzEyNDdhN2E4Yjk5MWE4YWY3Y2Y0YTU2NTQ2ZGIzOTE2OWY2YzY2ZTAwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYzYWI2NWRlNjRlZmRjZDZlNGMwMjlkOWU2N2FjMTU5OGFiZWVmOTQ4MTJkYWNjMzMyOWUxYjZhMzM3MmQ2ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTY0ZmIwMjZlODU1NjI0YmVkZDA2ZmE4YmU0Mzc5NjRkOTIxMDY4YTU5NDgyY2E1Njk1YTMzNjdjMjZiZjllNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTFkZmIxY2JmZjc4ODRkZTUzZjc3MWQyNGQ4MjcwMDliYjVhYjQxODZkMGZkNTg1NDVmOWM4NDAxMThmN2UwNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L99-L101",
+          "version": "repo-lines-v1:sha256:9135e432b811788277f8bdc8d15d86947c3cc5727afc4bada09f8fb3ea4ca958:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTU3YWQxNjk0OTFkMGJlZmQ4NDk2MTdjYzc5YTEyZjVjOGIyYWJiYzhhYTBmZTM5NTQ2NWZiNTk3YzM5ZjkwZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmNTBiMWY4NmUwYzRkZGIwMzhmYzhjMDljMDk0ZTI3MGNmZmRkNjZkNGM2YTFmMmEzNWRjYTc3ZThmODU3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjJjYWNjYmYzNDFiNDdmNDJjMWM5M2FiNzk0NGIwZTIzNmJlOTE4ZWU2NzA3ZjYxYmQ0YmRlNzU0Nzk5ODg0YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMzMzFhNzFjNjYzNDdhOWU4M2ZhMzk1YmQyYmI1YzdjZWFiZWY3MGQ4MDQ0Mjc4YmIzYjNkZjI1ZDNmZWY2MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1afac348e5514ba28b72536a45ea50fe",
+      "statement": "POL-FCC-014 mandates that sanctions blocks and rejects be communicated only by Sanctions Operations per procedure, never by any client-facing channel, API, or notification, and Appendix C prohibits client-facing use of terms such as 'sanctions', 'OFAC', 'watch list', and 'screening hit'; this is stricter than the general tier R/G indistinguishability rule that otherwise applies to restricted holds.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L63-L75",
+          "version": "repo-lines-v1:sha256:9696a0832d08702f2b972f4628bcc8103f5bcd96f3847b5e9e415cf4c1bd7487:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyMWNhNGNkYWI4MGZjODU5Yzc5M2U0YzlhYjE2ODUzNzhhMjFkZTdkYzMzZTI2ZDg3OWE4NGVmOTdiMDBmZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwYTRmNzM3MDdlZTMzZmQ2OTMxYmNkOWJkNmUwZGQ5YWFhNjBkNzI3ZDA4MDFkNTA5ZDU2ZDA0NWMxOTg0OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlODhjM2M0YjBiMjZlNjE0NmQ4Y2QzYjVkZTY0NzI3Zjc4MDc5OTZmZDYwNGM1MWJhNjE1MmFmMDQ5NmU1ZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc3NjNhNDQzNjllYzU4OGM3MGY1N2UwNzJlYzZmMTM3YmFhN2Q0YTljYzkyMzY2NWE4NDJlZWEyMjQ3N2Q1YmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4220769ce5444a40875ce1c79e4674f2",
+      "statement": "No client self-service resolution path exists for HRC-09 sanctions holds: the only production client-attestation flow (CTRL-PAY-031) is scoped exclusively to HRC-01, and the proposed client-facing hold-status facade (FCT-1893) was deprioritized in 2025-Q3 and was never built.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L88-L96",
+          "version": "repo-lines-v1:sha256:9b77b6b57f287ea1274fc6b4756c91d59a706915cbedad5977e23ec9bae984e4:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFkMzY0OGViMjlmMTA1NTExMDAwNWI0ZmFkZDYwNWI0MTA2OWNlODQxNzIxYTBiMGNlMWEzNzk2NTU2OTZhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDE3ZmM0MzQ1N2Q1MWZhYTIwNGZiZmMyZjllOThjNzIyMzRhNzI3ZWFlY2FmMzEyNzJiMmE2MWUwNDY2ODJmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZmMzczY2E3OWVmNGU3OTZiYTgwYzYzMmMxOWM2MjQzMTJiMGFjOGRmZjQzMTY5OTdjMDc2ZmFlZmU0OWQzYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c83b2a36af2b4bdfbb73287115731252",
+      "statement": "The source corpus contains no dedicated SanctionScreen design document, API catalog, or match-logic specification; SanctionScreen's documented behavior is derived entirely from its role in PPH's screening stage, HMS's hold-creation handoff, and POL-FCC-014's sanctions-communication rules.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L22-L22",
+          "version": "repo-lines-v1:sha256:bd7739bc18e2eb77e8bb9075e5607414d40bae9179ff75e3d6bb44f445b344ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQ3NzM5YmMxOGUyZWI3N2U4YmI5MDc1ZTU2MDc0MTRkNDBiYWU5MTc5ZmY3NWUzZDZiYjQ0ZjQ0NWIzNDRlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQ3NzM5YmMxOGUyZWI3N2U4YmI5MDc1ZTU2MDc0MTRkNDBiYWU5MTc5ZmY3NWUzZDZiYjQ0ZjQ0NWIzNDRlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTU4YmUzYzEyNDk4MGY2MzUwNjc1MTIzOTMzMTU2NTNmZDgwODEyOGFhM2I1MDRiODAxNDJkOWQ5OGVmNzY4YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L22-L22",
+          "version": "repo-lines-v1:sha256:98641674f4fcd319268fd97feb02298785edaa932c68ff154b5b30b38ba81ca9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQxNGI4ODJiYjVhNTAyNzU3MmJiMTYwN2M3NTg4MzAwNzI3YzExZDdjYWM3MTNmZTg5NTg0M2I5OWZlNTk4ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_eb183778003344a3bde86661cd2a3115",
+      "statement": "Sentinel Fraud Scoring (SYS-PRSP-SEN) is SanctionScreen's sibling system within PRSP, invoked in the same synchronous PPH Screening call but feeding a separate hold-reason code (HRC-07, FRAUD_MODEL_HIGH) rather than HRC-09.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L91-L92",
+          "version": "repo-lines-v1:sha256:8936e680f880cce6acce00886fad1789773e89a67b63a744676fcf6419ceba2a:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWQyNGNhNWE2YTg3YzRlM2Y5YzQ1MDNhYmZhNWI0ZjYxZjUzZDU5YmQ0YmNlYWI3MDA5MWMwYjcwM2Q4OWVjOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkYmY2NzJkYjRlNjVhM2I3OWI3NzUxYTExNDY3MzRlZjM0MTUxZDUwM2VmMTBmNGIyNjhhNDA3NWUwZjNmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmMxY2ZlM2M5ZmVkNDM4MDI5YTJjNmE0ZTE1NWExNTE0OTRjN2ViZDk1ZGFjZDU2OGM4OTNiODgyMDExZGI2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlZTM1NzdlMWFmMGE4OWU2MDJiN2ZlMzgzYjAyZjQ4NWU0YmRjYmY5NzkxMzQ0ZTMxNDFmYjE4ODExMGE4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L26-L26",
+          "version": "repo-lines-v1:sha256:7f8d80372a218ed37d3e097adbd937ee73e34624aba6df265042f434b91c23b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODljZjZmNGYzOGVkMjhhYjdmYjJiMTM3NTk4MGNjZDEzNjBlMTk2MTNmZGVkYjljMThmYTE5M2UxM2U3ZDI4NiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L52-L54",
+          "version": "repo-lines-v1:sha256:7d792fb029000245960797152bb51d6ee7f80bc0a4c5814a965d74d3293f5f78:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmI2ZDNlNmMwMDViOTQ5YTc2ZDAzNGQ0ZDVhNDQ0M2MyNjEyMDViZDgzMzY5YTg5MTIyM2IzOTNhNzAwNGNlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUzN2M2NjkxNTE0NGI5NGZlZGYzMjVlMjcyNjRhOTA3ZTEyMGIzYTAxYjY0NDM1N2Y5Y2I3OWQ3YTIwMWVmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2I1NDQyZTAzZDg1ZjZkYTJjYjNkNWQxNzJlODk1MjRkNTJmMmViNWMxNWIyODY3MzJjMDI3NTUzYzI2M2VhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmJmMjM1Mzk4NTQyZTRjYmEwOTM1MDc5ZGIyODE4MTJkYWI5N2NhZTE4NWJlODY3ZmFjNzBiOTk0MDIxOTc0YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7755c6b98e814a67a14f8c5f046c41f0",
+      "statement": "Any SanctionScreen screening-logic or threshold change must go through the bi-weekly FCT Change Advisory forum with required FCC sign-off, is planned at roughly 1 story point ≈ 8 engineering hours plus a 20% allowance for independent compliance testing, and observes a year-end change freeze from December 15 to January 5.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L104-L104",
+          "version": "repo-lines-v1:sha256:63d027daad508af59de04bac07bc7261ca90abb2139c44a21bd1b94446269a74:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzE2YjlmMTc1MGJlOTRjNDVhMDNiNWFlYmU5MDEwMzZlM2QyZjhkN2ViOTQ0MGE3YWNhYTc3NGY1MzQyZGU2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L131-L131",
+          "version": "repo-lines-v1:sha256:a37c138ff188ac6b762e14b246f1f059a57736e29bfe7b269722b004662668c5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM3YzEzOGZmMTg4YWM2Yjc2MmUxNGIyNDZmMWYwNTlhNTc3MzZlMjliZmU3YjI2OTcyMmIwMDQ2NjI2NjhjNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM3YzEzOGZmMTg4YWM2Yjc2MmUxNGIyNDZmMWYwNTlhNTc3MzZlMjliZmU3YjI2OTcyMmIwMDQ2NjI2NjhjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDIwNWJhMmIxMjFlOWE0ZDQ1NDQ5OGNkNDRmYTJiNzE0MzQ3Y2VkMDgzYmI1MDBhMGE3YjQ4YzIzZTY3ZDJmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTJhYTNiY2QzNjgyNTFiZGYyNzcyMmM4YTE0ZGRhYTI0YmI1Y2U5ZTM0MWIwNzVlN2RjYzhlMDA3MmY2ZmM4YyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

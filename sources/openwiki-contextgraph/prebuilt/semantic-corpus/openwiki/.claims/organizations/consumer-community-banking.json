@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f2f1638b49b18b245148e9a026d2a734ab7f6c5e85cb18bacd1e390674135919",
+  "claims": [
+    {
+      "id": "claim_221cccd8e4de45ddaac3d34d73109071",
+      "statement": "CCB is one of three reportable segments of Meridian Harbor (with CIB and AWM, plus a Corporate segment) and offers deposit, investment, lending and payments products to consumers and small businesses through Banking & Wealth Management, Home Lending, Card Services and Auto, serving 74 million customers via 4,180 branches, 15,900 ATMs and digital channels.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L180-L180",
+          "version": "repo-lines-v1:sha256:be95c03ea668900a22b7d718355d053ac9ba3d59e954cce3eca82338ea1fa1a1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmU5NWMwM2VhNjY4OTAwYTIyYjdkNzE4MzU1ZDA1M2FjOWJhM2Q1OWU5NTRjY2UzZWNhODIzMzhlYTFmYTFhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmU5NWMwM2VhNjY4OTAwYTIyYjdkNzE4MzU1ZDA1M2FjOWJhM2Q1OWU5NTRjY2UzZWNhODIzMzhlYTFmYTFhMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDdiZDNjMzdkNTA3ZDg5ZmZkNmM1NTRmMjhiYTc0ZDU1Mjc2MjgwZjgxZDg4YTdlYTQ1ZTUyOWEyMGVlNGFiZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGNjMmQ0ZTUyMDdjOTRiOWNkOWMxMDhiMGY0MjQ5ZjViMmY1NmQ3YzBjZmRlMTA3ZTM1Zjc1MjNhNmU3OTEyOSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L98-L98",
+          "version": "repo-lines-v1:sha256:807e4eade7df2f4f1bd1b50c826ff75ce7d91128f70166a7edb86ae2cd1720ef:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3ZTRlYWRlN2RmMmY0ZjFiZDFiNTBjODI2ZmY3NWNlN2Q5MTEyOGY3MDE2NmE3ZWRiODZhZTJjZDE3MjBlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3ZTRlYWRlN2RmMmY0ZjFiZDFiNTBjODI2ZmY3NWNlN2Q5MTEyOGY3MDE2NmE3ZWRiODZhZTJjZDE3MjBlZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmVmMTIyYWIwNTVhYWQ0Y2ZlMjZmYzUzNzI3ZjMxYWNlNmU1MzkzMmUwNDBiNDEwOTdhZDQxYmJjNzZiY2VlYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzNjMWRhMGQ0YmU0MGQ2MDcyNjFkN2U0NjI3YmRjZmU2MGU5ZWQzMzRiYjRlNmY5ZjRmMjc3NDZjODRlNjk2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ef3f574ce7848faa0b2cede36531d67",
+      "statement": "In FY2025 CCB produced $40.8B of net revenue and $12.3B of net income (6.8% growth), roughly half of Firm net income of $24.96B, with a 30% ROE on $40.0B of average allocated equity versus 21% for the Firm; segment capital is allocated on standalone risk profile including Standardized requirements, stress capital buffer and G-SIB surcharge.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L166-L176",
+          "version": "repo-lines-v1:sha256:54fbf19c21b0be120f07a08cd92f37bd296da3a739b0b5cb5c0a469402ba962b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0NGNkM2VlNTM3M2YwYzg2OGMxMTBkMzhkMzA3NWI4M2E0NmU1OTE4ZjJmNmNlNTRmYjg4ZTBlN2Q5YjM4ZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkYmE3NmQyNGQyMGY0OGFiZDkyNDNlZWFhZTFkM2QzYTdjMDVlMDI3OGI2ZDFhMTNlMjdmNDZkMDcxMGQzNWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyNmRkOTQ1ZWNmMDBiNzFjYmZkZGY5YjViYWU1ODZjYjQ5YTEyZTA0NTIwOTRkMzM2ZThlMWRhNzMzMTIwMjUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3YmQzYzM3ZDUwN2Q4OWZmZDZjNTU0ZjI4YmE3NGQ1NTI3NjI4MGY4MWQ4OGE3ZWE0NWU1MjlhMjBlZTRhYmQifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L186-L198",
+          "version": "repo-lines-v1:sha256:811d2939a2329a152fb9020baf25e372ada5cddfaa804a7fa2aa4c7952ba801a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk0NWI5YWNiOTcwNDhlMjAyOTQ2MWEyNjdmYjVkZjkyMGJhYmJlZWU0ZWZlMzQyZGMxNGU1MDZkOWRlMjY1NWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNjk5YWFhMjI2OTQ5Y2ExYzNmN2QzOTkwNTA3YWNkMjFiZDIwYzAwZTlhNzJmY2M5OTU4MzBjY2RjZGNlZTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlhY2IzYjY4MDUwZWUzZjk2YWUxNzBiYjEwM2FlNTQ3MjQ0MmE2NDk4OGQ5ZTQxYmI1NWE4YzE1ZGQ5ZjZhZjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3ZDQ0ZDFlYjhmOWZlNzE4NmNiYTdiMDEyNzJhMGNmODk4YWNmNDVhM2QzMmM3ZGIxNTY0ZDcyNDQ0MjBjYjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_eb10ee142031402ab077611ad39b13eb",
+      "statement": "CCB FY2025 growth was driven by higher Card net interest income and card spend, partly offset by deposit margin compression; noninterest expense grew 2.9% versus revenue 4.7%, and provision rose 10.2% to $5.96B.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L182-L198",
+          "version": "repo-lines-v1:sha256:1f483373868b364b9fb044de1d5e45bdfb50935c29e0722652a0e94abd4373cc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjMzQzODlmNmUzNTNiN2M3ZGE0NzFjNjVhNzliYTFmYzkwOTlhM2ViZDMyMjBmNWFkMmM5YTgxOTNjODQyY2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNjk5YWFhMjI2OTQ5Y2ExYzNmN2QzOTkwNTA3YWNkMjFiZDIwYzAwZTlhNzJmY2M5OTU4MzBjY2RjZGNlZTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBjYjUyNDlkOGEyMTU1NTU0ZTYyNTYzNzc5MTQ2NTAyZmZiOGZmYTkwN2M3NTdhYmI3YjE1MjU5MDgyMjg2OGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3ZDQ0ZDFlYjhmOWZlNzE4NmNiYTdiMDEyNzJhMGNmODk4YWNmNDVhM2QzMmM3ZGIxNTY0ZDcyNDQ0MjBjYjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f0080f6f92f148edb23ac046289bdc80",
+      "statement": "In 2Q26 CCB reported net income of $3.21B (up 6.6% YoY, 1.9% QoQ) on revenue of $10.52B (up 4.3% YoY), with period-end Card loans of $145.6B (up 8.9% YoY) and card sales volume of $412.3B; Card Services & Auto revenue grew 11% YoY while Banking & Wealth Management revenue fell 2% on deposit margin compression.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L146-L167",
+          "version": "repo-lines-v1:sha256:819247fccff3b376a0e07a6e569a131e4e2e39dd5243336b846df090ac89686e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNiN2IxNWNmYjAzNDAwOWU1MzJmZmJjYTBkMTQ0MTIyOGUxMGNmNTFhNGU5NmY1YzA1MDAzOWEzYTNmZWM0NmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1ZGJmZGFlMTZkZjZhNTU1Zjk3OGEwY2VlZjc0NzgzNDQ1ZTM5NmEwYTA4YjUxODE5MWViZmMyZjcwYzExYWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE1ODU0ZmU0MTU4MzEzYjU2NjVkMTRiZGQzNWNhODQxODExNmE4MzlmYjI0MTYxOGFiNGIyYzJiYjUyZmY1M2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3MWQ3M2JiNmY2NzNjZGNjZWFkYTIxNzU4YzgwNDdiNzRhNzRmYzk0ZjM0MjU2ZGYxMzI4NjQ1MzgwMTRiMTEifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L57-L69",
+          "version": "repo-lines-v1:sha256:b127e40f0faa15d05cd1a5af487b890c7c26b59544a1a7ca06be10f860bb35b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0N2ViZGZlNjc3ZGY1ODYyMmI4YzdiMWJiOTE2MDAzYjZlNDkyYzE0YzMyNGQ1YjEwYTE5N2MyMTY0MWQ3NTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4NTM0YWI4YWFjM2MxNGU1NjdhNzEzNTk5NThiMzhjMTRjMzQ2MGMwOGVjYWViMDJkOWYyNDNhZjEzMWRkYjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEwZTYxY2VlM2ZjMDE4ZTkxZDY4Y2M4MTg5ZDdiYTZmODk3YTAyYTZmYTI4YjgzZDc1MWE5YjkwYzg1NzkxNWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ1YmEzYmE0NDg4ZTk1OGJhZGEzZmYzOWMwODEwNTA5ODNjNDU3NDFhNjQ4NTI2OTkxYjY0MWM0OWJhMGViOGIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_de240ca75fed49789f44c9895b909c36",
+      "statement": "Card is CCB's main credit-cost driver: the Card NCO rate rose from 3.18% (2024) to 3.42% (2025) and to 3.58% in 2Q26; FY2025 segment provision reflected $4.6B Card NCOs and a $600M reserve build, and Card accounted for $1,270M of $1,650M of Firm NCOs in 2Q26, while Home Lending NCOs were only $40M in 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L184-L184",
+          "version": "repo-lines-v1:sha256:3a49928b527a61ac08ddeb77cb8aef260e10d14ddb486403bf2efbe8e01dba05:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E0OTkyOGI1MjdhNjFhYzA4ZGRlYjc3Y2I4YWVmMjYwZTEwZDE0ZGRiNDg2NDAzYmYyZWZiZThlMDFkYmEwNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E0OTkyOGI1MjdhNjFhYzA4ZGRlYjc3Y2I4YWVmMjYwZTEwZDE0ZGRiNDg2NDAzYmYyZWZiZThlMDFkYmEwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGNjMmQ0ZTUyMDdjOTRiOWNkOWMxMDhiMGY0MjQ5ZjViMmY1NmQ3YzBjZmRlMTA3ZTM1Zjc1MjNhNmU3OTEyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2ZmYTFkYjEyNDc2YzE4NGEyNmNjMGU2ZmFmODY0NjI1ZmUzNmViYmNiNDYzNDA0NDQ4YmU4MzUxNTg3ZTQxNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L598-L606",
+          "version": "repo-lines-v1:sha256:d0f98cf9746e366bc23125a82fd52b272da73b57b08411954c3e3788c6cb605f:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E5MGYxMGEyOTM1Yzc5ZmU0MTMxMDEwZjlhMTllZmRmMTAzYmVhZTQ2YTk2Y2JkOGIxZGE4NGE4OGViYzFiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFjM2YyMWM2YWI4OTYzZmQ4NjQ2NWIyNjQ5NzQ3MjI4ZmU1ZmNmNTRiNzVmM2FlN2FhN2Y3YzAzZGE1N2Y4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzllNjNkYmNlZmJhYWRkNTY0MDNkMmY1ZTgzNTk3ZDkxYTc1ODEyMTNkN2M2OGRmZjA4NGY2MDBlYTQzZmFkMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjJiYmY2MDU4ZmM1NWNlMDlmMTE3NmU0MDAwMjEzMWJlZDNkNzc1OWZiMzM1YWZkYmNmZTZmN2E3YTExOWQ0MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L254-L262",
+          "version": "repo-lines-v1:sha256:cd82aa16e3f7980149dc3f6bd780037acc2481ac07aedf25a97461ed85b7985a:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDlkYTExMDY4MGUzNjkwY2ViZjhlOTVjMTE3MzYxMGI4MTI3ZmFlMWI3ZTdkMDJlZTZhZThjN2RhZDdhNjViNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFlZmJkNWMyY2Q2YjE5Y2E4NjlkNTVjYWVlNWU0YmFiZjI4YjA2ZGJmMmMzZTY5Mjc1NmY2MzUyNTE5NTE2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTYyMjExNzRkNTkxZDRkMzM2YTU2ZWY2ZTI4MWUwMGEyYTM0ZDZlNDEyMjQ1OWY5NWNlY2ZlYTJiMTgzNDUzZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWVhNmJkNzg1ODIxYmFhOGNmNTgwY2FhMzI5YzZhNTY2NzcxNmM0MDUwYzE5YjcwY2RmZDc2N2VlYTA5NzIxZSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L340-L349",
+          "version": "repo-lines-v1:sha256:56ed583cabf5141d16d457a1b3bd5f87dbdba329ad85d451e303a6ea783dc86a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlNDQyMzEyYzBiNmFlOTViYmQ1NjUwYjUxZjZjM2Y2YWFiNGM0ZjgzNzkwZWI0ZjZlNzZmYmIyZjhiMjIwZDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0NDYwZWVkM2NkZjczZmRmN2UyNzQ5ZTliOGQ4YzRkN2Y0MzJjMTRiODdiMjc2OGU5OTdkZjNkNWE4NmVjNmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc5ODcxZDkyOTUyYzJlZjE5NTQxMzIwNTc4ZmI4ODkwYmRkZDBlNmVkN2M3ODliY2Q1ZGRmZmVhY2ZmNDNiOTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjMmEzZmY0NzcyMzAzZWJjYjBjODVlZGI5YzQ2ODZiMzdhMzdiZmQxYWE4NmIxYzA1MzU4M2IzZjFhZDdjNGMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5a7785b80f2441f3a1192a5ae58e9142",
+      "statement": "The Card allowance was $8,640M (6.24% of Card loans; $8,383M modeled plus $257M qualitative overlay) at year-end 2025, driven mainly by loan growth and macroeconomic scenario weights, and management says it covers almost two years of current charge-offs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L377-L385",
+          "version": "repo-lines-v1:sha256:0713330e8c19805a3fc568c8e95d9f5ba320979f9a319650fe8d70132f46a1e2:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQ3MGI5MmU3YThkZjk3ZmNhNGVhZGI0Mjg2ZjZlMjFjMzYwZGNhYjNlNDUwYTMxZDYzM2Q0NjMzM2RlZjY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlOTMxZjcxYzU1ZjRkZjgyYjZmMWNlZmFjNzBiZWUyOTkwNDExOTY1ZGMxNDg3MjZmYzdmMDQ0ZmMwNDY4MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDdlNTljNTI1N2ZhZGQyMWU4ZGFiNTU5OTkyZTMyMDNmY2UxOGQyMTE0Y2ZjODgwNjliZDJkNTA3ZDM4MTk2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZjY2M0ZDkyYjNhN2YyNjYxNjU2Mjk4MWRhNjMzYzY4MDI5ODBlYzBhNTJhZmJjY2I0NmJkNWYzOGUzMWIzYiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L446-L450",
+          "version": "repo-lines-v1:sha256:19f19098bcd11ad294cf625d6479cfc7c3d156e2d96668459e0727ae404dd803:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIwNTVlYmViYTEzYjYyZmE5ZjUyNmI1YWIyMjY3NWIxODRjOGUyNWQ5Y2E5NzEyZjZhNWUxZTQyOTRhZDUwMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM5NWY1NGEyZjhlYWM1MTI3NjQ3YmRkOTI4YTcxMDM4OTg1OWUyYTU2YTg3NzRjNzE4YmVmZjgwMTRlMGMwOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOThmODdkOTdjMTY1ODhmODdhNWRlM2Y0M2Q4ZjY5ZDEyMDE0NTY5ZjEyMzU2NmI5M2Y5ZTgyNDQ1OTU0ZjRkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2EyYmRiNWE5Y2JkN2U5ZTljNGI3YzI0NTJkNWM2NTllOTAxNWRlOWFiNWQ4OThiNDAxNDQyOTE4YzQ0MDJjNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ec051402fe34435dad4054dbe1980321",
+      "statement": "Management guides to a full-year 2026 Card NCO rate of about 3.6% (unchanged between January and the Q2 2026 release), and the Board risk-appetite ceiling for the annual Card NCO rate is 4.5%, against which the FY2025 rate of 3.42% was 'Within'.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L116-L116",
+          "version": "repo-lines-v1:sha256:e8611612576acd287a8214db3debbca61bae635fad020bba3b4cc8a65c8d8d14:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTg2MTE2MTI1NzZhY2QyODdhODIxNGRiM2RlYmJjYTYxYmFlNjM1ZmFkMDIwYmJhM2I0Y2M4YTY1YzhkOGQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTg2MTE2MTI1NzZhY2QyODdhODIxNGRiM2RlYmJjYTYxYmFlNjM1ZmFkMDIwYmJhM2I0Y2M4YTY1YzhkOGQxNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2M4MzhiNzQ2NzNkMTFiNGY0NzZmZDdjMGFiZDljYTlhNDU0MDhiZmQxZDkyMGUwMzljMTJjMTUyN2U4ODlhNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjAzMzFhMGFjMTNhNTQ3ZGU5MTUzNTY2NmI3YzM0MmY0MjBkMjM4MzVjMTY5OGZhOWM2ZWI3Zjc0YTE0OGYxYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L66-L77",
+          "version": "repo-lines-v1:sha256:9c94b3944a60e48ae2c4f31c10d419e9e12c80c47b55a232187ed9a0fb676c55:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhNjUzZmFlNzdmN2E4OTExMjgwYjg1NGU4MjFmZDAzNGRkYzM0MmMzMmMyNjQ0MzNmNjc0OTRkN2E3ZTM4NjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhODZjNWVmODEzNzEwYTI0Mjg5ODVhNDBkYTU1YWQ3ZWYxMDhmMDZkNzlkMDg4NDJhMmMxYjI3MWUwNDQ0YzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjViZmMxNWU1YjE4MWJmMDEwZjk4ZDc4ZDk4ZTlmMTUwY2Q3ODFkZTQ5MmZjMDc1MTA3MzFlOWNmM2JmZDllZTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmYWZjZWQxZGEwMGI4ZDM0OTI4MWY1YzI1NDQxZjNhNjgwY2Q0MDE2OGJlMTMzMTI0OGFjM2IyNmZmOGViM2EifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L51-L51",
+          "version": "repo-lines-v1:sha256:b3cedd8ffd90c9c8490253fbf726cbbbae5550d308d42ff50130185b85ca65d9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNjZWRkOGZmZDkwYzljODQ5MDI1M2ZiZjcyNmNiYmJhZTU1NTBkMzA4ZDQyZmY1MDEzMDE4NWI4NWNhNjVkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNjZWRkOGZmZDkwYzljODQ5MDI1M2ZiZjcyNmNiYmJhZTU1NTBkMzA4ZDQyZmY1MDEzMDE4NWI4NWNhNjVkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQ5MDdlNzI2YzM3MGQ1ZDc1YTI5NmI0ZWI4ZjNkNTA3MDJkODM4YTI3ZDMyNTlhOGNhZTA0ZjViMTUzMTE5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGZhNDQ3YWM2MjMyZGJiNGZiOGM3NTM5NzA1YzFiMjZlMTQ1YTE5NjU0MmM4MmY5YzQ5ODU0MDA5MTE1MzY5NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1f89d7f7e8314d379dc4a2821c3eaf5d",
+      "statement": "The FY2025 Card NCO rate appears as 3.42% in the CCB discussion and Pillar 3 risk appetite table but 3.34% (4,620/138,400) in the credit-risk loan table; the quarterly Card NCO rate is defined as annualized Card NCOs divided by average Card loans.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L184-L184",
+          "version": "repo-lines-v1:sha256:3a49928b527a61ac08ddeb77cb8aef260e10d14ddb486403bf2efbe8e01dba05:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E0OTkyOGI1MjdhNjFhYzA4ZGRlYjc3Y2I4YWVmMjYwZTEwZDE0ZGRiNDg2NDAzYmYyZWZiZThlMDFkYmEwNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E0OTkyOGI1MjdhNjFhYzA4ZGRlYjc3Y2I4YWVmMjYwZTEwZDE0ZGRiNDg2NDAzYmYyZWZiZThlMDFkYmEwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGNjMmQ0ZTUyMDdjOTRiOWNkOWMxMDhiMGY0MjQ5ZjViMmY1NmQ3YzBjZmRlMTA3ZTM1Zjc1MjNhNmU3OTEyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2ZmYTFkYjEyNDc2YzE4NGEyNmNjMGU2ZmFmODY0NjI1ZmUzNmViYmNiNDYzNDA0NDQ4YmU4MzUxNTg3ZTQxNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L345-L353",
+          "version": "repo-lines-v1:sha256:d98037539837086c2da1802222f37e1f1e7db44dba7d1f336027886171b3d6fd:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVkNGViNTcwYzI1OGZmM2E0NGM2Y2M1NDNjZjdhMzdkNzkwN2Q4YTNkZmM0MzhiN2NmNzFiZDk3YmE3NzgyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTA5MmJiMmIxNDEwODA2N2I5NmU4NjVkYTcwZDI0ODcyNTJkNmE1NDQzNGM2ZjQxNjA1YmNkNDEzZWQwM2YwZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFhZGNmMDM2Y2JhYTc0ZjAxZDFhYjk5ZTMxZTg3OTI5MjQ4N2Q1YjFmZDM1ZjlmNDQxYzk1ZGU0YTc4ZDE1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzgyOTE4N2RlNjlkYTVkYzlhNTFmZjIzZWQxODQyYTg2OWVkYzdmMTY5YzVjZThjZTUzN2M5Y2M4MmVmZWE0YiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L528-L528",
+          "version": "repo-lines-v1:sha256:d79827151da3ace9edc764809ce99a4758c97e1fa3d8a0d1d7d8b50ee852eabe:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDc5ODI3MTUxZGEzYWNlOWVkYzc2NDgwOWNlOTlhNDc1OGM5N2UxZmEzZDhhMGQxZDdkOGI1MGVlODUyZWFiZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDc5ODI3MTUxZGEzYWNlOWVkYzc2NDgwOWNlOTlhNDc1OGM5N2UxZmEzZDhhMGQxZDdkOGI1MGVlODUyZWFiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVjOTZhMDI3NTI1NWYzZmExN2M0YjVhMmU2YjY5NjdjMTYwNGJlNjE2NDJjN2RmODkxNTYyZDY5NDk5ZGM0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjNlYjgzOWMwM2QwNWVmYWQ4NzFkMGNlMTUzOGNiZjZkN2VlMjA1MDk2ZmYwZTdhOWIxYjRlNzIyNzNiNDI3NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5476d41f4bc242cda6e6d0ddab22c893",
+      "statement": "CCB consumer credit decisions run through the Credit Decisioning API (API-09), which combines bureau data, behavior scores and Fraud Risk Signals API (API-08) signals; expected lifetime losses on new Card balances are reserved via the CECL model (MDL-CR-007), which takes PD/LGD from the Credit Risk Scoring API (API-10), balances from API-11 and scenarios from API-14.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L341-L341",
+          "version": "repo-lines-v1:sha256:ae7e94e2a92be0cf306986b20c78743d4236142cf3e9bb9a1a8558bdee444aa1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWU3ZTk0ZTJhOTJiZTBjZjMwNjk4NmIyMGM3ODc0M2Q0MjM2MTQyY2YzZTliYjlhMWE4NTU4YmRlZTQ0NGFhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWU3ZTk0ZTJhOTJiZTBjZjMwNjk4NmIyMGM3ODc0M2Q0MjM2MTQyY2YzZTliYjlhMWE4NTU4YmRlZTQ0NGFhMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTNlOTM0YWNhZGNjNzc4ZTlhZTY3MjU5YWFhOGM5Y2E1MWU5OGJjZTZiMzkyZjdmMjMyODk5YmYzNmNmOTZjNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzFhZGNmMDM2Y2JhYTc0ZjAxZDFhYjk5ZTMxZTg3OTI5MjQ4N2Q1YjFmZDM1ZjlmNDQxYzk1ZGU0YTc4ZDE1OCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L365-L367",
+          "version": "repo-lines-v1:sha256:e2b86905b198ad7614d2714a8d3e03f5942aa89f1b24a5dd55e41a73c49efae2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDg5ZTc1OGVjMjAwZTdhNTU1NTM2YjJkMWNkMmNiYThkMTNhZWFhOWEyYWFhNjA5MGRmM2I0NTIyNjViZWM1NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZiOWI5MjVhM2RkMTg4NmFmM2M0M2I1Y2Y2ZTNlZTM0MWE3YWViNTgxZDIyNTY4ZTQxY2FlM2U5OGI1ZmQyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmE1NGZiMDVlYWU4NWI1YjljNTJlM2ZkMjYzZGRjZjNjZTBlMzAxNWJlMzA5MTRiOTkyYWYyZmIwMzY3ODg5NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcyOGExODJkM2ZhMzJhMTUxNWVjZWM5NTY0MmZhMTg1YzZlMDhhMDQxNmYzMzE5MjY3YjdhMzc2YWVmNzJiMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L169-L169",
+          "version": "repo-lines-v1:sha256:d2807e9239902fae88ac768448f31802319b06e6bde8596fd8af0451a80ddcb2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI4MDdlOTIzOTkwMmZhZTg4YWM3Njg0NDhmMzE4MDIzMTliMDZlNmJkZTg1OTZmZDhhZjA0NTFhODBkZGNiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI4MDdlOTIzOTkwMmZhZTg4YWM3Njg0NDhmMzE4MDIzMTliMDZlNmJkZTg1OTZmZDhhZjA0NTFhODBkZGNiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmRhMzg3MWM5YTFhMzcxMWRhZWI2OGJmNDUzOTU0ZDU1NWFiMTQyOTU1NDBjNzlkMWY0NmUwOGM0ZjBiZDJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2VlMGU1MTM1YmRhYWUwYjE5MjM2MTZlNTk0M2ZiMWQ0ZTAzY2RlZjg4MGQ5NTZiZTg2YTA2ZTJiNTc1OTRiMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L351-L351",
+          "version": "repo-lines-v1:sha256:4f74db993c45caff3989c3ab016cbf726a881cb67433aae493d77d235033bac2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3NGRiOTkzYzQ1Y2FmZjM5ODljM2FiMDE2Y2JmNzI2YTg4MWNiNjc0MzNhYWU0OTNkNzdkMjM1MDMzYmFjMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3NGRiOTkzYzQ1Y2FmZjM5ODljM2FiMDE2Y2JmNzI2YTg4MWNiNjc0MzNhYWU0OTNkNzdkMjM1MDMzYmFjMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjc3MGU4M2NlNzFmYjdkNGU5MjE4ZDA4N2YxMDMzZTFjNzE0MmEzYjIzZWEyYTkyYWJkYmRiNzQ3OGZjYzc4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTEwNjlkMzk2NGI5MTZkMWJiYmQ0ZWQwOGFkNGY5M2EyZTdhOTZhMDA0YmZkODJkMmI4OTNhMzY1ODYyYjZkOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9a0dd02e73984820bd71eacdb329cb76",
+      "statement": "Consumer app account and transaction data are served through the Accounts and Transactions APIs, also offered to aggregators; these and other APIs feeding Tier 1 models are under change management such that an upstream API schema or logic change triggers a model change review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L200-L200",
+          "version": "repo-lines-v1:sha256:f1893c7bed978069662de316bf7dc8dd51108286f6a9d0bace62c850431fa1aa:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjE4OTNjN2JlZDk3ODA2OTY2MmRlMzE2YmY3ZGM4ZGQ1MTEwODI4NmY2YTlkMGJhY2U2MmM4NTA0MzFmYTFhYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjE4OTNjN2JlZDk3ODA2OTY2MmRlMzE2YmY3ZGM4ZGQ1MTEwODI4NmY2YTlkMGJhY2U2MmM4NTA0MzFmYTFhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmYxZGM3ZmI0NGJiNmNjMTU0MzA5NzI4ZWQ1ODU2MWQ3OTcyZmU1ZWUxZGM4NmE4MjliY2UzOGYxOWZjOTk1YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjAzZDFkZWFiYmQ3M2JkYjM2OTFkY2M3ZWZmZjY2MThkYTg0Yzg3NzUyOTFlZWQ3MTEzMzdkMjcwZmE0NWQzYyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L439-L439",
+          "version": "repo-lines-v1:sha256:d255d849949e9431f4b56456bc4723afb3a85ae796e0da0f6a1be958b4ba9064:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI1NWQ4NDk5NDllOTQzMWY0YjU2NDU2YmM0NzIzYWZiM2E4NWFlNzk2ZTBkYTBmNmExYmU5NThiNGJhOTA2NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI1NWQ4NDk5NDllOTQzMWY0YjU2NDU2YmM0NzIzYWZiM2E4NWFlNzk2ZTBkYTBmNmExYmU5NThiNGJhOTA2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjNhMmYzYzI0NmQ1Njg3N2IyNzhiZmZmY2FjYThjZjRhYzY1ZjFhOTgwNjk2NWRiZWMyNmQwZDljOGM1MzYxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U0YjRmYmU4MTMwNTQ1ZDBlNGU3YzhlY2I3ZjY2MDY3YTk5YzFjNmUyOTMwZTVjYmRlYjk3MjdjNGNhZjRjYiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L413-L421",
+          "version": "repo-lines-v1:sha256:af9d7e141acbc4f8b614f50288e61b07e2a311e13e32748091a4a41491cdbd43:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTA1MDFjMDMzOTBhZDhiOWIyMTczZTM3ODEzMGNiNmJjOWQxM2E4MDY0NDQ5MjQ1ZGJmMzFmNTZkNjYxODdjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTE5ZWM3ZWVhYWRkYmQ0MDEyNjJiNDgwYTM0OWEzYmRjM2ViYzhiNTc2ZDkxYjgzMDZlOGMxOGRkYmY1NWRiMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzhjYjZhYmI3MjU3ZTgxMjNhMTA2Yzc5YWNhMDYwMzdjMDI2MzkwMDdlYjYzMjgzZGNmMTc1YmE4OTJjZDFmYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWFkMmEyYTZiNzYyMTk2M2JiOTc1NWY0ZTZhY2U4MjYwYTQwZjllYzNiZGViMTVlOTg1NjVkZjljZjJiNTI4ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6bce453ba5d5451e8c60756617d19b52",
+      "statement": "CCB's deposit base is central to Firm funding (about 66% of Firm deposits are consumer and small-business), and 2026 NII outlook drivers combine Card loan growth (about +$1.1B) against deposit margin compression from lower rates (about -$1.0B) and migration to higher-yielding deposit products (about -$0.4B), with management naming deposit mix as the bigger swing factor.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L331-L331",
+          "version": "repo-lines-v1:sha256:428232da948a99604d53a231c6931cc8dc3e08929e31551300cf538563036f33:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDI4MjMyZGE5NDhhOTk2MDRkNTNhMjMxYzY5MzFjYzhkYzNlMDg5MjllMzE1NTEzMDBjZjUzODU2MzAzNmYzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDI4MjMyZGE5NDhhOTk2MDRkNTNhMjMxYzY5MzFjYzhkYzNlMDg5MjllMzE1NTEzMDBjZjUzODU2MzAzNmYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2FlNDhlNWQwMzNlNDhiYTIwYTMxYzRjY2M2MjUzYmQwNWFjZjVhYzExODc3YTY3NjI5MTA4YWRiMWYxOWM5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTJjODkyMmExYjI4MDdjYjI5MWRjOTcyMGYzNDE5ZjEyNGIwOTc3ZmM0YzgwZGEwMmQ4ZDI4ODgyZWVhYzMxNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L401-L401",
+          "version": "repo-lines-v1:sha256:9ab8061e546b7017648081d0a0f5d4858a848c0b85deb6a3a4960c340e59a296:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiODA2MWU1NDZiNzAxNzY0ODA4MWQwYTBmNWQ0ODU4YTg0OGMwYjg1ZGViNmEzYTQ5NjBjMzQwZTU5YTI5NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiODA2MWU1NDZiNzAxNzY0ODA4MWQwYTBmNWQ0ODU4YTg0OGMwYjg1ZGViNmEzYTQ5NjBjMzQwZTU5YTI5NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZhZDNlNzVjMzgwMzUxNWZlYzVhMGRkN2EyMDNmZTBhZTRlOTRlOGM0YmExMTVhZGM1YmQ3ZDk5NGJhMjQwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzFhZGNmMDM2Y2JhYTc0ZjAxZDFhYjk5ZTMxZTg3OTI5MjQ4N2Q1YjFmZDM1ZjlmNDQxYzk1ZGU0YTc4ZDE1OCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L438-L438",
+          "version": "repo-lines-v1:sha256:fd83afb7e2fcef87c340f60fb5e414b16f6dfb2da70da6f6a811a28860522395:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmQ4M2FmYjdlMmZjZWY4N2MzNDBmNjBmYjVlNDE0YjE2ZjZkZmIyZGE3MGRhNmY2YTgxMWEyODg2MDUyMjM5NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmQ4M2FmYjdlMmZjZWY4N2MzNDBmNjBmYjVlNDE0YjE2ZjZkZmIyZGE3MGRhNmY2YTgxMWEyODg2MDUyMjM5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUwNWYwOGJlOWY2NDI2ODE2OTQ3MjMxOTZjMGRjNzljNzFmN2Q3OTJlZDZiODQxZGM4YTMxNjJjOWQyYjgwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTkwYjFiOTJkMDgzOGY1MzgzN2Q4MjY2OGNiNWRkZmVkOGM5MjNmNmE5ODJhMDRlMDA0MWNkOGQ1MjlmMTE2OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a8dabcdaac23463cae8b45a2bd3079d8",
+      "statement": "Retail credit risk RWA was $196.8B (30.1% of Standardized RWA) with Card contributing +$9.8B of 2025 credit RWA growth; Advanced RWA grew less than Standardized because internal Card PD/LGD estimates reflect high credit quality of new originations.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L135-L151",
+          "version": "repo-lines-v1:sha256:96eb734be0a83865ece9e9c12b4a4d3f9b69a5215a223937d77079165ae8fb6e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MTg4NjBjZTQ2YmQ4MzFjNDBlZDAxNjM5NWIzZjRiZGRkM2ZlMGQ2ZTY0NjIzNjdkN2FiNjRiMmU5YzFjM2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4YmEwMmRkMDYzYzFiMWJlNTkyMjRhZjg0NjNiMDExNTY4NTIzNGU1YmE5N2FiMjhkMWQzYmNkNTI4ZjQ0M2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk2MjFlZWJkYjMwMGRjZDhjMDc1OGI1OGE1YzQ1ZWQ1YTE5OGU2ZDk5ZGQ3NmYyNWFlOGI2MTkwZTA5YjkzOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0OTljMDA4OGUzZmMxMzkxYjUwOTU4YzJhMjY4ZjE4YTA1NjU1OGY3YzA1ZmY4OTNjMGUyY2I1YTFmM2QxMjgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L168-L168",
+          "version": "repo-lines-v1:sha256:a7db67a8e773f0adae3aa34f6152182e7025fa3a25f7cbd81cf91199d98333b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdkYjY3YThlNzczZjBhZGFlM2FhMzRmNjE1MjE4MmU3MDI1ZmEzYTI1ZjdjYmQ4MWNmOTExOTlkOTgzMzNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdkYjY3YThlNzczZjBhZGFlM2FhMzRmNjE1MjE4MmU3MDI1ZmEzYTI1ZjdjYmQ4MWNmOTExOTlkOTgzMzNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmI2ZDQxNzNmNDZlY2VmZjE0MzU5MDg4MGUxNGE1MTViZjVhOWMzZDZlNWFkNzc5ZWE1ZDkxYTg2YTUyMzMwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJjZTZhMzE2ZWRkMDRmNGMwM2JkZTIwOWE5NzYzNmYyZDI2N2NhN2Y1MjIxYjY1ZDkwZTJkMTQ0NmEwZTVkMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6154c0170e284bcdb861e872d04aa7db",
+      "statement": "Credit cards accrue interest until charged off at 180 days whereas other consumer loans go to nonaccrual at 90 days past due, so Card nonaccrual is shown as nil and Card 90+ day past-due was $1,633M at year-end 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L574-L574",
+          "version": "repo-lines-v1:sha256:033845acdbc597bbb063a140cb8d95c0887c2588128e196e71ac2f00c94dbb9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDMzODQ1YWNkYmM1OTdiYmIwNjNhMTQwY2I4ZDk1YzA4ODdjMjU4ODEyOGUxOTZlNzFhYzJmMDBjOTRkYmI5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDMzODQ1YWNkYmM1OTdiYmIwNjNhMTQwY2I4ZDk1YzA4ODdjMjU4ODEyOGUxOTZlNzFhYzJmMDBjOTRkYmI5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzY4YTc4ZmRlMjQ1ZTE4MmMyMzJjYjA4ZTliMjNmMGI4NzA0MjY0MjI2NzkxZmIyZDg1M2I1NDE1YWU2NmYyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWY0ODdhZWExOTdhMjk5ZmU0NTFiMWE3ZWFlYTEzMzgxOGYyMWUzMzhhZWIyYTgyODEyYzM5NzZiNzZjZGMxZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L289-L289",
+          "version": "repo-lines-v1:sha256:95306e0399a4a6cf6c0fb82df2d3bf6f28b25131680e1e8c08e708b6b6a90e63:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTUzMDZlMDM5OWE0YTZjZjZjMGZiODJkZjJkM2JmNmYyOGIyNTEzMTY4MGUxZThjMDhlNzA4YjZiNmE5MGU2MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTUzMDZlMDM5OWE0YTZjZjZjMGZiODJkZjJkM2JmNmYyOGIyNTEzMTY4MGUxZThjMDhlNzA4YjZiNmE5MGU2MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2EwZDNmMzQ1NTE0MWE4YTBkOTcyZDBkN2NlYWVlNjkwZTdhNGVmNzRhMTIzYWZhODdhOWI5OTBlMzgwNTNlNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA3OWVjZDMzYTFlZTIyOGYyOTcyM2FkNWNlNjZlMGYyNDE5MDk5MjFiZTI0NDVmNWY4ZGYzM2Q3NmVlNjI2MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b0548caf3c894fd5b26fd1ede9e12f5a",
+      "statement": "CCB's digital and branch footprint: active mobile users grew from 57.9M to 61.4M in 2025 and to 63.0M in 2Q26, digital share of new deposit accounts rose from 79% to 81%, and the branch network is expanding (112 opened and 64 closed in 2025; 31 opened in 2Q26).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L198-L200",
+          "version": "repo-lines-v1:sha256:271a475effddf9cdd58d239d9e21fbaf406d460b80658a877eba75c98674409a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2OTlhYWEyMjY5NDljYTFjM2Y3ZDM5OTA1MDdhY2QyMWJkMjBjMDBlOWE3MmZjYzk5NTgzMGNjZGNkY2VlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjE4OTNjN2JlZDk3ODA2OTY2MmRlMzE2YmY3ZGM4ZGQ1MTEwODI4NmY2YTlkMGJhY2U2MmM4NTA0MzFmYTFhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTg2YjI2ZDVkNDQ1NWVjMWM1OTEyMTE3N2YwMTc1MjIwOWJjMjkxMDQyYTE2YjBlMDQzNTc2NjYwNzE3NTYwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjAzZDFkZWFiYmQ3M2JkYjM2OTFkY2M3ZWZmZjY2MThkYTg0Yzg3NzUyOTFlZWQ3MTEzMzdkMjcwZmE0NWQzYyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L41-L41",
+          "version": "repo-lines-v1:sha256:455c37ee90304dd93bcc09772a3b95171f01a1f08e5e3d24eb4345f9f281e420:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU1YzM3ZWU5MDMwNGRkOTNiY2MwOTc3MmEzYjk1MTcxZjAxYTFmMDhlNWUzZDI0ZWI0MzQ1ZjlmMjgxZTQyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU1YzM3ZWU5MDMwNGRkOTNiY2MwOTc3MmEzYjk1MTcxZjAxYTFmMDhlNWUzZDI0ZWI0MzQ1ZjlmMjgxZTQyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTE0MWUwZTU5NTVkOTJkNjNiZTBhMDM2NDQyM2RhZjU4MDdjOGFlMTM5ODUzYjNjNWQ1MmQwYTBjOTI5OGI2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTU2ZmYzZmVhMzI1YWM2ZDFkMmU4ZDNiNGM5ZjVlNmU4MmY4NDdhZGE2YTIwOTBjMGU0OTc0Y2IwYzgwYWNjMyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L165-L165",
+          "version": "repo-lines-v1:sha256:b429926b5923451fcacdc33a56cdef5d05386fff8fe89bcf95659bae00939aba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyOTkyNmI1OTIzNDUxZmNhY2RjMzNhNTZjZGVmNWQwNTM4NmZmZjhmZTg5YmNmOTU2NTliYWUwMDkzOWFiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjQyOTkyNmI1OTIzNDUxZmNhY2RjMzNhNTZjZGVmNWQwNTM4NmZmZjhmZTg5YmNmOTU2NTliYWUwMDkzOWFiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTVhNWY5NGJiNWUwYWRhNjBkYzg1YTQ4YzYzNGJkMDhmZjVkODViNGJkNmFmNWIzNWFlMWI0YzRjZTExMDdkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmRhMzg3MWM5YTFhMzcxMWRhZWI2OGJmNDUzOTU0ZDU1NWFiMTQyOTU1NDBjNzlkMWY0NmUwOGM0ZjBiZDJkMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L171-L171",
+          "version": "repo-lines-v1:sha256:f9980e12dec2b727ec2c8f1fc37077c73af29794f39406c1375251371796c932:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjk5ODBlMTJkZWMyYjcyN2VjMmM4ZjFmYzM3MDc3YzczYWYyOTc5NGYzOTQwNmMxMzc1MjUxMzcxNzk2YzkzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjk5ODBlMTJkZWMyYjcyN2VjMmM4ZjFmYzM3MDc3YzczYWYyOTc5NGYzOTQwNmMxMzc1MjUxMzcxNzk2YzkzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTcxZDczYmI2ZjY3M2NkY2NlYWRhMjE3NThjODA0N2I3NGE3NGZjOTRmMzQyNTZkZjEzMjg2NDUzODAxNGIxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTQ5OWMwMDg4ZTNmYzEzOTFiNTA5NThjMmEyNjhmMThhMDU2NTU4ZjdjMDVmZjg5M2MwZTJjYjVhMWYzZDEyOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

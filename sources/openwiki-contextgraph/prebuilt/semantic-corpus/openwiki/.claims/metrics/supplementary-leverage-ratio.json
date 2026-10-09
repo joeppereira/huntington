@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:ca0b923633fde2d008b1e0d4f40a54c3880715554b22669bb29d261eefb9d25e",
+  "claims": [
+    {
+      "id": "claim_ec732583aa4c4e7cac89a252ca250ca0",
+      "statement": "SLR is Tier 1 capital divided by total leverage exposure (on-balance-sheet assets plus certain off-balance-sheet exposures); at 31 Dec 2025 it was 6.10% (110,620 over 1,812,000).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L285-L297",
+          "version": "repo-lines-v1:sha256:708be7d6edac02b0affbf9e106f847b6f037081ebaa6129a2034652c0cd4b23b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkZmM0YTc5NWE5MjhkNTgwZjc0MTVkOTJjM2UwY2Q1ODRkOTI5NmU5M2YxMzhlNWEyNjQxYmY3NjFhZDgwMDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlZjY0Y2ZhN2IyZmZjMDU3MjRhYWVmNmQyYzRjMTZiZTYxODZlOTQ5YjFjY2I2YmIyNTVjNmQ1YzI2NzA4ZjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlYmYzZmQwNjUyOGJmNGI4YTViYjJhMmJiYTViYjQxN2I5OWNhMzdjODAwMDVlNDNkYjdkYTg5YTg0MjFhNDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZhY2Q2YjE2NmZhOGJkYTA2OWE2NWJkZWQ1NGNmZDY4NDZhNDg3NzkyMzlhMDFkZDYyN2E1YWI4YmM4MTUwNGEifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L198-L212",
+          "version": "repo-lines-v1:sha256:4d18aa23bd7ad22ceac7b38d3a3f468c6e9b013865129f7e313a31f3a427354b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMDg5MmFhMzcwOWVkZjQyYTU2NjQ1YWY3NzBjMzExODRlZTdiMDQ2NGQ2OTU2ZWE0OGJkOWVhZmVkMmQ2ZGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0NWYzZmUyMmE1ODE1NWYxYWM5ODY1NmM3NmE5MTI4YzAxZTU1OTY5ODU0M2MyYjQzNTNjOTc0YzhjMzcxMzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwM2QxZGVhYmJkNzNiZGIzNjkxZGNjN2VmZmY2NjE4ZGE4NGM4Nzc1MjkxZWVkNzExMzM3ZDI3MGZhNDVkM2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYxNGEzNDdjY2RiYjY2YjQ3MzU5MmEzOTBjZWY2ZWVhNDA0NmIwZWQwOGFmM2IyNzI0ZmUyZjNiMWI3M2FjODAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_28aa12e64d7f46d0bd02a279365249d8",
+      "statement": "Total leverage exposure at 31 Dec 2025 is built from on-balance-sheet assets 1,418,560, less 19,000 deductions, plus derivatives 98,600, SFTs 142,500 and off-balance-sheet exposures after CCFs 171,340, summing to 1,812,000.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L202-L211",
+          "version": "repo-lines-v1:sha256:cbe260740ca7d57b8d5c81b1f885f25d76a36b2a0331d1ec20ca71ffb0afe45c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2YjJkNjhmMmMwMWVmNjA2NWRhMDk5N2EzYTIzZGE1MTAzOWYwMzAwZjBmNTExMjg5MzQ4ZjQ1ZTRmOTI1NWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjNDkwMGU1MjNmMzdlZWMwOWVhODY4NmUwNjcxODg4NWI3NTdmNTNjMGExNGVjN2MxMWI0YjhkMjA0YmEwZjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZjExYTVjOThhYjA2YzNlNmY0ODU3YjE5Nzc1ZWVmODRlZmQ1ZmE3N2YwZGMzYjk1MmRjOGY1ODRjYmMyMWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk1MzI4ZGQ1MjM5Yjc1MWZiZjYyZTUwYzkzZTM4YzA3NTE5M2ViOTM3NzRhY2U0MzBhMjU3YmRhNWE0ZTMwODMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_10c27a9eecab4e2084d63607f24eef69",
+      "statement": "The SLR was 6.1% at year-end 2024 and 2025 (+2 bps), with Tier 1 capital up 4.5% and leverage exposure up 4.1% (1,741,000 to 1,812,000); the Tier 1 leverage ratio was 7.9% in both years (7.91% in 2025).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L285-L297",
+          "version": "repo-lines-v1:sha256:708be7d6edac02b0affbf9e106f847b6f037081ebaa6129a2034652c0cd4b23b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkZmM0YTc5NWE5MjhkNTgwZjc0MTVkOTJjM2UwY2Q1ODRkOTI5NmU5M2YxMzhlNWEyNjQxYmY3NjFhZDgwMDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlZjY0Y2ZhN2IyZmZjMDU3MjRhYWVmNmQyYzRjMTZiZTYxODZlOTQ5YjFjY2I2YmIyNTVjNmQ1YzI2NzA4ZjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlYmYzZmQwNjUyOGJmNGI4YTViYjJhMmJiYTViYjQxN2I5OWNhMzdjODAwMDVlNDNkYjdkYTg5YTg0MjFhNDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZhY2Q2YjE2NmZhOGJkYTA2OWE2NWJkZWQ1NGNmZDY4NDZhNDg3NzkyMzlhMDFkZDYyN2E1YWI4YmM4MTUwNGEifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L210-L212",
+          "version": "repo-lines-v1:sha256:18e81260198829bf7776f60f7e91da7d44fafa5eeacf2ca3c9617d67a1a58125:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTg0NjQzMjI5ZDEyM2M1NTQwYzliNmQwYTRmNjYwMjYyNTk2NTY5MTM2NWE0YThkYTgzNGU2ODYwNWRkYWFiOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ1ZjNmZTIyYTU4MTU1ZjFhYzk4NjU2Yzc2YTkxMjhjMDFlNTU5Njk4NTQzYzJiNDM1M2M5NzRjOGMzNzEzMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmY3ZGEyZmNkYTg2MTk5ZDc5MjdkZjMxOWM3MjIwZGVkZTc3ZDJiMDI3NWIwZGMyZmQ3MDY3MDhlMmExOWRmOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjE0YTM0N2NjZGJiNjZiNDczNTkyYTM5MGNlZjZlZWE0MDQ2YjBlZDA4YWYzYjI3MjRmZTJmM2IxYjczYWM4MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_560904a6503d404abd43b6bea2b64211",
+      "statement": "At 2Q26 the SLR was 6.1%, flat on a rounded basis versus 1Q26 with a -3 bps change; the supplement does not give 2Q26 Tier 1 capital or leverage exposure.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L77-L110",
+          "version": "repo-lines-v1:sha256:8ab53de66de3afd681630dfe89e3897385840721ffc05b6d16f380925178b7ec:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAyNGYwY2FiN2RjMWIxZGQzNGZiNjkzNTNlYzk4NzhiOWRkMjVmNzc1NTQ0M2VmZmE1N2E4NmQxZDNiNzA2YjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlMTM2NjQyZDBjZDA2OWYyMGI0NjA3N2VjZmY5OTQ4ZGMyODRkNTRkZDRlZDc1YTc0NDJhNTZlMzIwMWZhYjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVmMWY5MGM4ZmI1NWUzM2ZkNTE2YTZmMjAwM2YyMTJmNzU3YjExOWZlN2RlYjFmZDM5NDUyMDhkMTkwMzM4NTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NTc5NWRmNTBmNTUzNmVmMWIzZTI0YzRhYWJkMzY1MTY5MjBjMTdlMjAzODk0OTQyY2NhNmYxZjY4MjZkN2YifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a594cebec9c140e0afb53e8890c2ab04",
+      "statement": "As a G-SIB MHFC faces a 3.0% minimum SLR plus a 2.0% enhanced buffer, for an effective 5.0% requirement; the Tier 1 leverage minimum is 4.0%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L200-L200",
+          "version": "repo-lines-v1:sha256:508effcfeb61b83466c91dadb8c10dc6055fbe37136fa463ef584c087e4a596b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA4ZWZmY2ZlYjYxYjgzNDY2YzkxZGFkYjhjMTBkYzYwNTVmYmUzNzEzNmZhNDYzZWY1ODRjMDg3ZTRhNTk2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA4ZWZmY2ZlYjYxYjgzNDY2YzkxZGFkYjhjMTBkYzYwNTVmYmUzNzEzNmZhNDYzZWY1ODRjMDg3ZTRhNTk2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWYwMzJjMzE5NDMzNzg0NTdiZmI1NWI0ZmEyYzkzNzM5MjdhY2UyNmNkNGJhYTFiYTAzZjMxY2ExOGFmYWZjNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODQ0NzY5Mjk2NTA0YjJmYmY5ZWUxMDg4NzQ3NDdhYWI3NTRjMGZmMTQwZDkxYWE1ZThmOTAzNjkzZDk3ODUyNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b613c2745fa04e40b0cd3e5f7cd3318d",
+      "statement": "The Board-approved risk appetite framework sets an internal SLR limit of at least 5.5% (status Within at 6.1% for 31 Dec 2025), 50 bps stricter than the 5.0% regulatory requirement.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L200-L200",
+          "version": "repo-lines-v1:sha256:508effcfeb61b83466c91dadb8c10dc6055fbe37136fa463ef584c087e4a596b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA4ZWZmY2ZlYjYxYjgzNDY2YzkxZGFkYjhjMTBkYzYwNTVmYmUzNzEzNmZhNDYzZWY1ODRjMDg3ZTRhNTk2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA4ZWZmY2ZlYjYxYjgzNDY2YzkxZGFkYjhjMTBkYzYwNTVmYmUzNzEzNmZhNDYzZWY1ODRjMDg3ZTRhNTk2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWYwMzJjMzE5NDMzNzg0NTdiZmI1NWI0ZmEyYzkzNzM5MjdhY2UyNmNkNGJhYTFiYTAzZjMxY2ExOGFmYWZjNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODQ0NzY5Mjk2NTA0YjJmYmY5ZWUxMDg4NzQ3NDdhYWI3NTRjMGZmMTQwZDkxYWE1ZThmOTAzNjkzZDk3ODUyNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L64-L77",
+          "version": "repo-lines-v1:sha256:74c019405ec33b0287cb19abe6f127b54a9da097a15d9caf5941a71b6165abfe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmYjIwNDY1MDkwOWYxNGQ1ZjJkNjkyOTFiMDE5MjUxYTA5YTQzMzNjODJlNDNjNTI0YjlkZjdhYmMwMmE1NmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhODZjNWVmODEzNzEwYTI0Mjg5ODVhNDBkYTU1YWQ3ZWYxMDhmMDZkNzlkMDg4NDJhMmMxYjI3MWUwNDQ0YzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzOGVjZDQ4NGIxZmRlN2ZiMGQzNTcwOTdhNTlkNjBmODQ0ZTY3NDZjNGJhMmFjYmI0ODI3ZDA0ZWViNTQzNDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmYWZjZWQxZGEwMGI4ZDM0OTI4MWY1YzI1NDQxZjNhNjgwY2Q0MDE2OGJlMTMzMTI0OGFjM2IyNmZmOGViM2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ec46013658e24276a417bf9fa75463e2",
+      "statement": "Leverage exposure components and the SLR are served by the Regulatory Reporting API (API-16) GET /leverage/{asOf} endpoint, the governed, GL-reconciled golden source for Pillar 3 (Sections 3, 4, 5, 13).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L1-L30",
+          "version": "repo-lines-v1:sha256:99f179beb9dbd31d2aa5a79c86781ffee80be550afaae7eb00fd644262cab3a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc2YzZiMjQ4N2RhMzg3ZTE4N2FjY2Y3NWJmZDYyZjhlOGFkZWZlYjMyM2MwMTUwNmE2ZjM4YzdlYWFiMzRlZWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFjYmQyNDBjYmM2OGEyZDZiNzE2MDdlMDFjNzI5NWMyNTcyM2ZkZDM4Y2NlOTM5MmFmNjNkOGNhMzFmNzY0NDYifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L533-L533",
+          "version": "repo-lines-v1:sha256:f15f1e581a863105e8af2c44236d953d50d20fcf4cf71c189c97facff60ef6fe:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjE1ZjFlNTgxYTg2MzEwNWU4YWYyYzQ0MjM2ZDk1M2Q1MGQyMGZjZjRjZjcxYzE4OWM5N2ZhY2ZmNjBlZjZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjE1ZjFlNTgxYTg2MzEwNWU4YWYyYzQ0MjM2ZDk1M2Q1MGQyMGZjZjRjZjcxYzE4OWM5N2ZhY2ZmNjBlZjZmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzY1ZjdmNDI2YmVhNWFjMjA3NjFmNGQzZGI1OWViOTUxMzk1MmNhMjExNTZkNTljYzQyMDc3YWZjNzE2OWRlNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjkyYThlOTM4ZjZhYTI1ODI3OTJhMTQ2ZmEzYjlkMzFhZTYxYWZhYTVlYjMyNTgyZmI5ZDRlN2I2YTc3YzA5MSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

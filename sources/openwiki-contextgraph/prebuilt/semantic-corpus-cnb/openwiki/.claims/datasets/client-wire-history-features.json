@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:0c4772cbc6d194c39efc1fa73a612eef34dbcd3c3cf97fb4b169e8b05862257d",
+  "claims": [
+    {
+      "id": "claim_396d0b65377346d594dc6b40cb1ed40a",
+      "statement": "client_wire_history_features is a TDIP feature table at grain of originating client x beneficiary key, derived from pay_wire_txn_hist and gpi_tracker_events, classified Confidential - Client, marked prototype (not productionized), with MRM link recorded as 'Not registered', and features: count, median release-to-ACCC, p90, and last_seen.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L41-L47",
+          "version": "repo-lines-v1:sha256:2082afba3708689b0dd9e8cc06eec2f17b36425ffb27d4c65d970fba22e7b421:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmJjNmY5MDM2OGFjNDIwMGQ2NWU2ZTk1M2FmMjFjZjkxYTI0OWI3MmI4NjBhYWI1MGUyZGY4ZWY3MmE1ZGU0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7b4316ab27ba4d5fb13f34143e06e126",
+      "statement": "The TDIP Insights API inventory records no endpoints for wire history or corridor insights and explicitly states that client_wire_history_features is a prototype filling that gap.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L71-L78",
+          "version": "repo-lines-v1:sha256:9ff2dbdad8a7a92fcfad966003ef7f62003fb76109462ce26ef3430ae6317e3c:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ2NDg3MWQxYzZkMGVmNTM5NDM0Y2U3YmI4OGZjYzliYmU0NWEzZWU0MDc1ZDdlMWRjZjcyOTMyOGU0MDlmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDEyNDcwNjUzODY5ZDM2ODFkNGY3MDZiZDU3YjFhZTk2ZDliNmJhMTY4ZWY3YzkzOWY3YTNmOGM5OGEzZjFjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTc3YjlkODYyN2VhMTYzNGU5NjQzM2IwMDVhODE5MWI0YWVkZmI3OWUzNTRlZGQ2NDBjMGI1ZWU1M2VkOGU0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_51edb94c0a244880bfc17e0ce8f48f1f",
+      "statement": "Onboarding a new TDIP insight to production requires, in order: MRM inventory registration per MRM-POL-02, data access approvals per DUS-07, a serving-endpoint build (~13-21 story points typical), and Disclosure Review Committee (DRC) approval of client-facing wording and disclaimers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L80-L80",
+          "version": "repo-lines-v1:sha256:a8e6adad988dc571ad903be21a8e008015faa8deba0e7214b8154065589d6517:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzNjNjIzMjFmZTkwYjVlYTU2MmU5YjQxY2RmMDczNjM4M2Q4MTI5MDQ3MGMzZGQwOThhNDM3OTRiMmU0ZGMwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e99f7f9cc0304468aae3bc673743d8ba",
+      "statement": "gpi_tracker_events is populated from GPI_TRACKER_SNAPSHOT by GPI-C via the Swift Tracker API over SwiftNet and only carries status/ACCC data for outbound international (Swift) wires assigned a UETR; domestic Fedwire acceptance events (net.fedwire.ack.v1) are not ingested into TDIP (backlog TDA-2210), so client_wire_history_features' release-to-ACCC completion-time features cannot currently be computed for a client's domestic Fedwire wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L75-L88",
+          "version": "repo-lines-v1:sha256:1f0395eab4407be1919e76a4e6adf03a2e25c07170a4c4f314773c29a1e5de6b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMDZhZmE0OTU1ZTc4ZDdjMDE3NWRjYjJkMjg0ZjAxM2JiNGU3ZmM3NTI2NmQ2ZmJiYmE3MTUxNDRjNzM4M2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYmI5OWMzNWFmZmU1ZWIyYTU5YmQ0MWE2YjQwYzNkOWRlMWFmNGI2Mzc5NTUwYzI1MzBlZTU2NTc2MDA0ZmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhOWY0MWJhNTgyZDA1NzJjYzQ4MmIxYTlkYjkwOWUwN2E4MDQwNDY3YzU2Yjg5ZjA0MmI3ZDgzMmYyNWYyMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMxY2ZhNzc5YWU1Y2QyNzZhMWM3MTY4YzM4YTkyZWFhMDU3MjRlZWMzZDA0ZWU2YzliMDI4NTliNzVjZGVhNWMifQ"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L83-L84",
+          "version": "repo-lines-v1:sha256:20b9c3147551ed0ed04ef6171774539fab03c4a48a691a3c63d20bbe15644239:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2Y2FiZGRiMmI2ZjI3ZjY0OWUzODZhNjY1NzMzMzExZWYzYjRkMDY2MzU5MDdjMWM1ZjJmYTU3NGJmZTI5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDE3NGI1ZjFlMzJlNzc5NjcxMzdlYzg1NDczMDA0OTZlY2RkMmQ5M2JkNDc0ZGI1NjYwZDM0MTYxZmQwZmMyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2UyMTg0ZWRkNjU3ZjlhOTg5N2NhZDAxZDBkNzZlNDY1Yjg4NmI1YTViYjYwOWUzOTYyNDZhN2RjOWI2ZGNlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzRkNjU1MTE4NDM5OWE0ODI4YzViNzJjYjUyMmU2NmQ0NDdiOTgxNDA5NDQ3NzVjY2Q2Y2NlYTBjMjcxMGE0NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L34-L39",
+          "version": "repo-lines-v1:sha256:aa2b5832231d7fea5344e6757567035ce6f855d629651fb0cdd005c2741dcb4a:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWYwZmIyZGQ0NDJhNjdjZWMwZmNjYzM1NmQ0NWJjYTJmNjc5NGQxYTNhNTgwMGQzNjRjNGJlN2RlNDIyYTA2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE1MDhmNGUxYTJhMWI0ZTVlNjdhZDI0MjdjMmM0ZTJjNTg4YzY0MmEyZmQ1MjcxOTM2MjFlMjYzN2VkMmNiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2NiNTYyODE0NGVkNzhiZDI0ZmE1ODRiMmE0MTc5YTE3MzkwZjM4MGFhN2U0ZTY0NDFjNjUzNjBlMGZkZWNhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a75f1733c221425c922899d23f17eba9",
+      "statement": "gpi_tracker_events refreshes nightly at 05:00 ET (moving to hourly once TDA-2188 completes, targeted 2026-11) with history available only since 2025-03-01, which bounds the freshness and historical depth of client_wire_history_features more tightly than its other input, pay_wire_txn_hist, which refreshes hourly via CDC and retains 7 years of history.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L39",
+          "version": "repo-lines-v1:sha256:a66d31dc7d096ccfcde1dbdd7c2d32374c92748aa489e3d1fcf689238f27ff09:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhNTA4ZjRlMWEyYTFiNGU1ZTY3YWQyNDI3YzJjNGUyYzU4OGM2NDJhMmZkNTI3MTkzNjIxZTI2MzdlZDJjYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmNjc0MWU1MmVlZTlhZTRhZWVjOWYyMWFlN2JiODQzOWQ1ZmUxM2YwY2EwNjE4ZTU5ZmNlYzNhNjI1ODhhZjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ebac1da0f3074311a85163ee5c73cd2a",
+      "statement": "MRM-POL-02 defines End-User Analytics (EUAs) as simple descriptive calculations (counts, medians, percentages over historical data with no forward-looking estimation), requiring only Archer registration and business-owner attestation (~2 weeks), versus Tier 2 customer-facing estimates (forward-looking values shown to clients) which require independent validation (10-14 weeks typical, 160-240 validator hours); the inventory already lists a comparable registered EUA, EUA-TRS-0007 (Ops corridor completion dashboard), while client_wire_history_features itself has no MRM registration of any kind.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L29-L42",
+          "version": "repo-lines-v1:sha256:fd8a9cf07e953cb92c84f0ce764a38239230bf40e684002966d739166cbd941a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU2MzUxOGMyNzFkNzdhMDkwMDVlYzI0YTk5OTc2NWM4Y2MwOWZjZjQ4MjY4ZDczNWY1ZjEzOGUyMWM0NmUyMmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMmExM2Y4OGI1NzU3ZDMxYjFjOWNmMTMxM2Q3MGYyZmNhZTkyOWNlNzE1YjcyY2FjODE4MTYyNGZkNjgwNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmMGI5ZWJhNThiNzczNjEwYmY2OGE0OGQwMmM4ZThiN2E3NGVlYmRjNjdhZGM3NzkzNjk1YjhkMjY5ZTA4ZDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjViM2U3MjViNDcyNTU0NGY4M2IyMjhiZmUzZWJlYzYyNGZlYjFlNGE0YTFiODcxYzNiNTQ4Y2YzZGRlYjhjZjcifQ"
+        },
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L66",
+          "version": "repo-lines-v1:sha256:6fbbfb3cfdc09f08cc7e81f61719b2a1c94c6b47eb1488555c6817d62039ead9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ1ZmZkMjc0NWJmNzQ4ODM2MGFiN2FiMDAwN2NhNGYyYWZlNjc5MGE1NjMyNzI2NWM0MjA3M2E2NTMwNWJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThkYzNlNWQyNGVhNjRiOGMwMDliYjdkNzlhNTkzNzRiYjM5ODc2MDliZmExYTkwZDY0MTE3OGZkMzAyN2IxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTQwMWFmNmEwYjkzNmQ1MzQ4ZmVhNTU5ODkxMDJhM2JiMzcxODU4NjdmZGUzMzMyNzRhN2IwZjRlMDJlMjZmMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L47-L47",
+          "version": "repo-lines-v1:sha256:c0e8c36c9073b94f65bb9f8acc3daf2869b0139ef29062888ac051debf8402e2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjU1YzRhYWMwMTAzODBkZmFlYmY4MWZmYzEyZTBiYTlkNjkyM2RhYThiODBjNTEyODQ2ZmVmYWIwOWE0MGI5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_296e7b99aa6941fc866fad12e61aa53b",
+      "statement": "DUS-07 Section 6 permits using a client's own historical transactions to generate insights shown to that client, giving as its own example 'the typical time for that client's past wires to a given beneficiary to complete,' subject to a minimum of 5 comparable transactions and disclosure of count and period - a materially lighter compliance bar than DUS-07 Section 5's cross-client cohort aggregation thresholds (500+ transactions, 20+ distinct originating clients, no client over 15% of volume, monthly refresh, DRC-approved wording) that would apply to a cross-client table such as wire_corridor_stats_daily.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L46-L60",
+          "version": "repo-lines-v1:sha256:b947da52469af808271803afaf573c53290020b53d6fda6fc78b9d28d4dc089f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxOTA0YjliNmRlYTJiOTZmMGQwZTcwMmExYWNmZjBlYjI3M2FiMzdiYjZlODY5NjcyMzUxZmZiMzNhMjJkMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZTc3MTExZDQ0ZTA4YWU5MWJhZTcxMTQyZTE0MmI0MzM0MjBmZmNlYjczMjJmODkzZGMwZjU2ZGI0NGE4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkYzM0OGY0NjliYjljYmQ0ZGY0NWMxODY0M2QyYzllZTNhZjY2N2Q3N2JmMjQ0NGJkOWU0ZTc2MmE0MzQwYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ODQ1ZWJlZTQ2MWY4ZDgwOWM4MzNiNDBjZjE0MDhhODFkYTVmMTVkNThmNGRlNDlkZGJlNGNiNGNkNWU3MGQifQ"
+        },
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L62-L72",
+          "version": "repo-lines-v1:sha256:3f6f35e288f0265e4076102e458c82e4c3c78c0b01048f4ebe9bf2fbd55c1519:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmNDhmMWU4OTljZWM2M2Y5NGViNTMzMGQ1ZDBkZjI4Y2MxNTRmNTFiNTI2Nzc4MzM5MGFiYjE3YzJhNjJiZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU2YzVkYmQzN2EyZWIwMGIzOTlkMDQwZWQ4ZWYyNDRhMDcwMmI1MTc4MTJkYjgyYWNhNTkwMzRiOTM5YjQ4NzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY3Yjk3YWYyZGM4MjQyM2U2NTEzN2NjMzRjY2Q5MWVhOTNkMzI5N2M1NWNmM2MwYjc0NTM3M2E4ZGJmZjljNTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNiZTQ0MWYxMWMyZGY1OTExZTQxZjg2NGQ4MDYxZmM5NTE2OTdkNjhiY2QxMDcwNDI1OTAyMjAzMTNlNzcxNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_632e9d0a4e8c47faaf5597428f6afb70",
+      "statement": "DUS-07 Section 4's cross-client confidentiality rule prohibits using information about one client's or counterparty's account behavior to generate content shown to a different client, even when presented as a pattern or typical value, which constrains any client-facing use of client_wire_history_features to the originating client's own aggregated history rather than beneficiary-side statistics pooled across unrelated clients.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L42-L44",
+          "version": "repo-lines-v1:sha256:44f7824b941688d5f85ce2d547a0511eba13b594fd82035be0155bafc25e0643:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM3NDc4M2MyMjViZjNmMjdjY2FhMWY4YzFlZDI1NjRlNmE0M2VjYzdkZWI1MWIwYjQwMzM0MmZlNGUwZTI3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU2ZTU3MGI5NGUzNWRiMzkyZGRlNzYxODkzYzljNDRjMjJjMjMwNmFkMTY2MGRmYWZmMjBhMWRhNWEwYTE0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzNhNDYzZDczYjQ4NmFhMDYwN2E2ZjRhZjNiMTMzMTdmYWU4ZTg0YmUzNzJhMDYyZjBjZjAxZDI0ZjdlZWUwYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBlOTAzY2ZmMjE1ZGZiYTNkMjAzNTYyNDEyZDM1YmViMjcxMzE5MzhlOWUyMTYxZjRlNmViYjY4YmIzYWE3MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1b570f0b0b544951850745a5bf4e988f",
+      "statement": "The TDIP catalog distinguishes three MRM-link states across its three Payments-domain feature tables: wire_corridor_stats_daily has an affirmative 'None (descriptive)' determination, beneficiary_behavior_profile is a registered input to Tier 1 model M-FCT-0034, and client_wire_history_features is simply 'Not registered,' meaning no MRM review has occurred.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L43-L47",
+          "version": "repo-lines-v1:sha256:ce5ce7ac6307a3543acb25acd2ca8ef847473a4c05e6ab400564cd0beca1a5d4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg0MTNmOGFjMWMxODc1ZmQ2MDRjOGFjN2U3NmM0MGE0M2EyZTNlMjcxMDgxMGNkODg4NzA2ZjQwNzFmYzc1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

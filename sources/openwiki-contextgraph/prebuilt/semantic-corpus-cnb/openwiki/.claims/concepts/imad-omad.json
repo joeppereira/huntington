@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:7df9207913df0180b6ee1cf76fb8506ae4507d1ca82c5855e6d43fc93591864b",
+  "claims": [
+    {
+      "id": "claim_da40ab6311f54a32a4a5ac15c37a8115",
+      "statement": "IMAD (Input Message Accountability Data) is assigned by PPH as the Fedwire sender at release, when it builds the outbound pacs.008/pacs.009 message, and is exposed in the v1 API as the fedRef field (null for Swift wires) and in the v2 API as identifiers.imad.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L59-L65",
+          "version": "repo-lines-v1:sha256:262545969f1479c6013a8c5ceec0bd82f26e0d6cb5a396c0e90fad402754c1dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFhYjhkYzA4ZTVhZDNjYjlmNDdjNmEzZmYyNmVkYTE2ZDFmYTFjNTE1NmM5YjJkZjI0NGIyN2ZjMjRhZGY3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ3M2YzODhkNTViMzk2MTE4ZGMxZjUxNmJiMzQ4NWYwNjVkZTQzMmI3ZTNmNDg5YTljNjk2NDU3N2Q5ZDNkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L103-L105",
+          "version": "repo-lines-v1:sha256:e14dbf6f2dcaa19ce128b338d2bc7d692516b13206e24b0771451227caa750af:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWEyOWY0NmM0ZDZjNjVlZDZjYzA4OGRlMGYxMmM4M2ZlN2JmOThlMTAzNDY3ZWU1ZTQxY2I5MDE4MDA1NGFlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTBhNDE1ZGUwM2NlNzcyZGQ3OTM5NTNmODY3YmU0ZDVmOTMzNjg4YzAwN2JkNTlmYTUxYmVkMjdjYjI5M2Q1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDdiZTI2ZWMyNzkyZjRlMTY1YWI5OGFjZjMzMTVkYmRjMDViMDc1NDI2YzY4Zjg4ZjQ3Mzc4YmM1MDQ2ODgwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQ4MGE0MzFhMGMzOGE1NDU2ZGQ0MmZjNjA2ZjUwN2NlZmJkMzc3MWUxMGQ0MWQwMTFlNmQzNmVkMzA5MjYxZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_27ae8bdc35fc4793a79cdfddb57d76c5",
+      "statement": "OMAD (Output Message Accountability Data) is assigned by the Federal Reserve and returned in the pacs.002 acknowledgment for each accepted value message, together with a Fed creation timestamp; the Fedwire Funds Connector publishes this acknowledgment to the net.fedwire.ack.v1 Kafka topic.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L40-L42",
+          "version": "repo-lines-v1:sha256:3467d3152bab3b5f0dd073ec1a83cab4e83a170214f2053a1f65d147fe529852:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc0ZjkwYjUzY2UwNjk2ZDkxYTcwMzI5OGU5MTQ1Y2JmMDFlMTAzNWMzODQyY2RiMjgzZTEwMWM1ZGYxZGE1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2NmQyMDcwMDEyYWNkYTkwYzNkZTdhNjhhMmZiYTgzNDY2OTc2NGRkZDM1Mjg1MGYyYjAxZjE0ZGIxZDM1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM3MmRhMzA5YTMzZDc3MDc1YmMwNDM3NjhjMzM5ZmE5ZDEwZWU2MWFhN2U0YzhjNDIzMjI3Yjk5YTAxNzllOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjc1OTAxMmMxZTViOWZhZjlhYmMxMGI2MWViOTIyMzMwMjZiNDI2MWZiMDliY2YyZGY4NWM3ZjUwMmVhNDdjNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_724673d033124765a3222daddf680d83",
+      "statement": "OMAD is available only via net.fedwire.ack.v1 and the v2 REST field identifiers.omad; the legacy v1 API's fedRef field carries IMAD only, and OMAD (and UETR) are not available in v1 at all.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L103-L105",
+          "version": "repo-lines-v1:sha256:197a35f30c01573057ef22d77559f61b78ba6dcd6646731a8a9ccc08f950052a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzE2ZGVkNmE3NzJiYzMyOWM2MDcxY2EyNzExYjEzMmZiOGU5ZGRiOGI4NzlmZTI4YmZkOTQ2ZDVkZmNmMmQ0MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWY3ZDlhYTJmODYzNjVjYTJhZGEyZGMxZTk0ZDBlY2RjOTQ4OTI5ODlhYmExNGZlNzllNjZjNmZhN2RjNmI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzJjN2JlZGQyMGYzNGI2NjRjN2JhMGRhNGViMGY1OTc5OTEzMjI3ZTZmYzlkODBjYjk2NTMyOGY0YzkzOGQwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ3MzVmMDY5MTM1NjYwYWViMTYzMWUxYjIyZTNmYjQ1NTQwZmJkM2Q5N2U1OTMwMGUxNTU1YzYzZWNiZWM3YiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L59-L65",
+          "version": "repo-lines-v1:sha256:262545969f1479c6013a8c5ceec0bd82f26e0d6cb5a396c0e90fad402754c1dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFhYjhkYzA4ZTVhZDNjYjlmNDdjNmEzZmYyNmVkYTE2ZDFmYTFjNTE1NmM5YjJkZjI0NGIyN2ZjMjRhZGY3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ3M2YzODhkNTViMzk2MTE4ZGMxZjUxNmJiMzQ4NWYwNjVkZTQzMmI3ZTNmNDg5YTljNjk2NDU3N2Q5ZDNkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L103-L105",
+          "version": "repo-lines-v1:sha256:e14dbf6f2dcaa19ce128b338d2bc7d692516b13206e24b0771451227caa750af:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWEyOWY0NmM0ZDZjNjVlZDZjYzA4OGRlMGYxMmM4M2ZlN2JmOThlMTAzNDY3ZWU1ZTQxY2I5MDE4MDA1NGFlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTBhNDE1ZGUwM2NlNzcyZGQ3OTM5NTNmODY3YmU0ZDVmOTMzNjg4YzAwN2JkNTlmYTUxYmVkMjdjYjI5M2Q1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDdiZTI2ZWMyNzkyZjRlMTY1YWI5OGFjZjMzMTVkYmRjMDViMDc1NDI2YzY4Zjg4ZjQ3Mzc4YmM1MDQ2ODgwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQ4MGE0MzFhMGMzOGE1NDU2ZGQ0MmZjNjA2ZjUwN2NlZmJkMzc3MWUxMGQ0MWQwMTFlNmQzNmVkMzA5MjYxZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dd7b3a1200014470889ae6685d343c62",
+      "statement": "Fed technical/business rejects are published via admi.002 or a negative pacs.002 carrying the IMAD reference (not an OMAD), since a rejected message was never accepted by the Fed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L40-L42",
+          "version": "repo-lines-v1:sha256:3467d3152bab3b5f0dd073ec1a83cab4e83a170214f2053a1f65d147fe529852:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc0ZjkwYjUzY2UwNjk2ZDkxYTcwMzI5OGU5MTQ1Y2JmMDFlMTAzNWMzODQyY2RiMjgzZTEwMWM1ZGYxZGE1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2NmQyMDcwMDEyYWNkYTkwYzNkZTdhNjhhMmZiYTgzNDY2OTc2NGRkZDM1Mjg1MGYyYjAxZjE0ZGIxZDM1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM3MmRhMzA5YTMzZDc3MDc1YmMwNDM3NjhjMzM5ZmE5ZDEwZWU2MWFhN2U0YzhjNDIzMjI3Yjk5YTAxNzllOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjc1OTAxMmMxZTViOWZhZjlhYmMxMGI2MWViOTIyMzMwMjZiNDI2MWZiMDliY2YyZGY4NWM3ZjUwMmVhNDdjNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e7a67e610fa2487a8f019561ce738076",
+      "statement": "Acceptance of a value message by the Fedwire Funds Service (carrying OMAD) constitutes final and irrevocable interbank settlement under Regulation J / UCC Article 4A, but does not confirm that the receiving bank has credited the beneficiary's account.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L40-L42",
+          "version": "repo-lines-v1:sha256:3467d3152bab3b5f0dd073ec1a83cab4e83a170214f2053a1f65d147fe529852:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc0ZjkwYjUzY2UwNjk2ZDkxYTcwMzI5OGU5MTQ1Y2JmMDFlMTAzNWMzODQyY2RiMjgzZTEwMWM1ZGYxZGE1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM2NmQyMDcwMDEyYWNkYTkwYzNkZTdhNjhhMmZiYTgzNDY2OTc2NGRkZDM1Mjg1MGYyYjAxZjE0ZGIxZDM1MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM3MmRhMzA5YTMzZDc3MDc1YmMwNDM3NjhjMzM5ZmE5ZDEwZWU2MWFhN2U0YzhjNDIzMjI3Yjk5YTAxNzllOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjc1OTAxMmMxZTViOWZhZjlhYmMxMGI2MWViOTIyMzMwMjZiNDI2MWZiMDliY2YyZGY4NWM3ZjUwMmVhNDdjNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L88-L95",
+          "version": "repo-lines-v1:sha256:0e075ddaf74fe14ef25d7654439b547f620a93a40fb689563c40fbfb4f7605d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1NGRmYTQ4ZDE4ZGNhMDE0NTc1MDliOWMwMTdlMDQ1OWU5YzAxNmEzYTNhMjI5ODk2OWJmYjI2Y2U1MTc5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQxMjgwOTViYTdiZDI4MTljYWU2NTQ1OWI3ODg4Y2U0ZTBlZDA3NWI4ZDYxYjM4NTg3MDUzYzI4YjZmMGRiZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGU1MDI3ZTBhMGY5ODRjMzUxNjRmNGE3NzE1ODQ5NmVhMDRlZDJlNWFhNmUzMDM1NzIwN2MxNTJhYjAyNWZjMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9deb4f931d334b5aad136b27592fb61a",
+      "statement": "PPH v1's status field collapses the four distinct v2 lifecycle states RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED and COMPLETED into a single value, PROCESSED, so v1 consumers cannot distinguish a merely-released wire from one accepted/settled by the Fed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L52-L53",
+          "version": "repo-lines-v1:sha256:e88a80fa3c8a2aaa9cbc12457c77261414ca46ee0ffb2d4fed6945a8f1a4a46a:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdiYzFiMGJlMTkyYjkxZjI4ZmM4Njk5ZjRjNzQzMzU2M2I2ZDdmNjZmMmY1ZTM3ODJiYjk2YWZkZjY0N2ZkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODNmZGRhN2I4YjM5MGRhYzkxMTllZjIwMWY2NDMzMzhiNzY3MGZkOGMyZDIyNWQ0MTI5ZGQ0YWEwY2ExNzhmZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDdhM2EzNGNjYzdjZWI1YmFjYzUwMTdmYThjOGFhZDIxYWFkNWZhODRmNjA1NTk5MzM4M2I2MmRiZmY2NWZhNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L76-L86",
+          "version": "repo-lines-v1:sha256:b80659f5240008cd2708b7f999f0b7e470051f1ccaf13998907be58566090da8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiYjRlNzVkZjliNjY5MmZiMDkyMjRmNzkxM2RiMDg5NDJiZWQzY2VjNDk0ZDdhNDcwNDE0OGY0Nzc0NTEwMTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlMDRmNjJkMjAyYzI2N2MzNTJkMDA5MjAzN2YzZTMwYmRkY2IyZDE0MzIzNWU4N2ZiMjE2YzczYzBmMjlkODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxMGU5MWMxZTdjNmNhZmFiMWI0MDA0NzU4MDkyYjVkOWJhODJkYjE5OWM0MGZmZDk2MzU1Zjc0NjQzMzI5N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyNzM5ODUzZThiYjdkNmZkNmIwYTNlYWU5YjY1OWRlYzBjOWM0ZjVhZmE2ODQ0NTkyOWI0MDk4OTBiMDU5OWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7f03a68df681447886618ca890781e5f",
+      "statement": "The v2 stateHistory timestamp recorded for NETWORK_ACCEPTED is the time PPH processed the Fed's acknowledgment, not the Federal Reserve's own creation timestamp carried inside the pacs.002; the authoritative Fed timestamp exists only alongside OMAD on net.fedwire.ack.v1, and no current v2 API field surfaces it.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L104-L104",
+          "version": "repo-lines-v1:sha256:6649051049956aff2af4229df38cfabf64fe89e3c0724767cb7c81df86f0335d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY0OTA1MTA0OTk1NmFmZjJhZjQyMjlkZjM4Y2ZhYmY2NGZlODllM2MwNzI0NzY3Y2I3YzgxZGY4NmYwMzM1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY0OTA1MTA0OTk1NmFmZjJhZjQyMjlkZjM4Y2ZhYmY2NGZlODllM2MwNzI0NzY3Y2I3YzgxZGY4NmYwMzM1ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWI5ODczYWE2NzVhNzE0MTg5NzRhNDY3ODU5ZjBmZTc3NDBmM2Y3ZTA0YWNiODRlZmEwNmU0ZTA3YjVjNjcxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDYwNDZjZGFkZGNkNTJiZDAwNzRiYzczZDdlNWJjODFlN2U1ZDQ5ZjQ1OTczMDU0ZDA5ODkyZWUxZDNlOTYxYyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L95-L95",
+          "version": "repo-lines-v1:sha256:43621ff66bd6446df12a923201bf65a7fe669afae5865192d1927016cafaa0b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk2YzYxOWEyYmY1NjE4ZGJmMGEzMTU5ZTNhNTI2ODRkNDAxMTVhNDhhYzZmZTFlMzY1Y2Q3OTE4NzMxYjI4ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGU1MDI3ZTBhMGY5ODRjMzUxNjRmNGE3NzE1ODQ5NmVhMDRlZDJlNWFhNmUzMDM1NzIwN2MxNTJhYjAyNWZjMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_27af08e046174e0e96f0f54f45d7d517",
+      "statement": "Backlog item PPH-2207 proposes adding a v2 settlement object (fedSettlementTs sourced from pacs.002/OMAD, plus a rail-specific settlementStatus) to close the Fed-timestamp/OMAD gap, but it has no product sponsor and is parked in the backlog.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L131-L135",
+          "version": "repo-lines-v1:sha256:9535704a0377bd5dd4a2083ee63fba3bc7a2a73a31f6ad6ba758326bd7f42455:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZjZTBjYjk2OTQ0YTc3MDQyMWY2NTZkNGI1NTlmMmIyOWY5MjA2NDVhN2NhMDJkZThiMjhmNTA1MmM1Yjg0MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDFkNWFlMjNmZjBlNzdmODc3YjhkY2UyZDEyZDcxMTYxZGI3NjQ5ZTZlNmEyZGRhZDQxZmNiODgzMTUyMTRiYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTA1Nzc1NWJkNTZiZDc4YWZkYjBlN2Y4YjY4ZDk0ZmM2NDk4YzNkZTE4ZmM4ZTc4NjU5MzA3NDI4NDczMzliYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTc5ZTc3MTNhODIxN2RkMzkzYThjNzE1OGU3NTQwMDBlMDllNjlmOTFiOTRkNmRjYWJlODEwMDg2OTg3YWI5MSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L104-L104",
+          "version": "repo-lines-v1:sha256:6649051049956aff2af4229df38cfabf64fe89e3c0724767cb7c81df86f0335d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY0OTA1MTA0OTk1NmFmZjJhZjQyMjlkZjM4Y2ZhYmY2NGZlODllM2MwNzI0NzY3Y2I3YzgxZGY4NmYwMzM1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY0OTA1MTA0OTk1NmFmZjJhZjQyMjlkZjM4Y2ZhYmY2NGZlODllM2MwNzI0NzY3Y2I3YzgxZGY4NmYwMzM1ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWI5ODczYWE2NzVhNzE0MTg5NzRhNDY3ODU5ZjBmZTc3NDBmM2Y3ZTA0YWNiODRlZmEwNmU0ZTA3YjVjNjcxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDYwNDZjZGFkZGNkNTJiZDAwNzRiYzczZDdlNWJjODFlN2U1ZDQ5ZjQ1OTczMDU0ZDA5ODkyZWUxZDNlOTYxYyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L129-L129",
+          "version": "repo-lines-v1:sha256:57ce8c6667e36cb40e05e26d745b4da929256c2d7f7087199ed31b04718b035a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTdjZThjNjY2N2UzNmNiNDBlMDVlMjZkNzQ1YjRkYTkyOTI1NmMyZDdmNzA4NzE5OWVkMzFiMDQ3MThiMDM1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTdjZThjNjY2N2UzNmNiNDBlMDVlMjZkNzQ1YjRkYTkyOTI1NmMyZDdmNzA4NzE5OWVkMzFiMDQ3MThiMDM1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODVmYTUwY2MyNmI1ZjYwMWRiYWQ3MTNlOGVhMDQ5MjhkZDk5Yzg0NGNlNjdiNjgzNzM0MzU3NTkxMjFkNTZiZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmRlODJiZTUyZWU3Yzk1OTAyY2Q5OGY1NmMzNGY3YzI4MzZiODM1YTM1YmIwNjA4NzQxOWVhMzdmMGE3YmNlNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8f4a431312db459fb6ca0d119202f321",
+      "statement": "CBO Wire Center derives its 'Completed' label (renamed from 'Processed' in R26.1) from the PPH v1 PROCESSED status and displays the IMAD on the wire-detail screen without persisting it, while never storing OMAD because it is not available in v1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L84-L105",
+          "version": "repo-lines-v1:sha256:c077dc536ff77c78dd1720b5dfda55ea7ceb2c69a877dc8205a02c9df4d3fc32:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5NDVhNTFhYjRiMTJmMzU2ODQyNDdkOTcxM2M2MTliMDgxZWI4YWNiMDEzZjkzMjU4MWMzZjUxODczODRjYzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmN2Q5YWEyZjg2MzY1Y2EyYWRhMmRjMWU5NGQwZWNkYzk0ODkyOTg5YWJhMTRmZTc5ZTY2YzZmYTdkYzZiOTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkYTY5ZjBjZGUzNDNmYjBkYmVmMDY1NjVmNDI5MjQ3NDVmNmVjOTRiYzgxNWZlNmIxYmEwNDVhNjMwMzBhZTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhkNzM1ZjA2OTEzNTY2MGFlYjE2MzFlMWIyMmUzZmI0NTU0MGZiZDNkOTdlNTkzMDBlMTU1NWM2M2VjYmVjN2IifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f6089baee25744e5a34b0671004e67d2",
+      "statement": "Ingestion of net.fedwire.ack.v1 (the Fed acceptance / OMAD signal) into the data platform for settlement-time analytics is tracked as a backlog story blocked on a Kafka ACL from Payment Networks Engineering, with no business sponsor identified.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L177-L181",
+          "version": "repo-lines-v1:sha256:750847b5a86a94169f0e794681866ae9a594a7a8e5aa84e6c6a921ff31a24693:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzExNjZiOTVlM2E2NTE0M2E5NWMxMTkyMTg4ZmQwNWQyMjAzODBlMGJmMDhjYzdiZmFiYThlOTc2MWY1NzcxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjdlZmNiZWY0OGNjZDRkZDQzNTA4NjYxMmM1MmU1ZTA3MDE4NGVmMGQxODlhNWQ0ZDlhYTBmNmEyYjM1ZGY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWZmYzMyZTc5MWRmM2Q4ZWYwZWU4ODA3OGNhNjY4ZDQ4NTY4MmY1NjExYjczZTI0ZTBjMmUzNTFhZjZiZDVhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjliM2JlNWNlZDQzNzllYzg2MTJiNDczMzk2MGYyYTkzYWJhNzI4M2NmOWE3MWNhZTE2MmNiZmYzNGY0MzEwYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_41a0b6b35bde4268849339cf3a09b912",
+      "statement": "A client complaint (CMP-2026-1189) cited reliance on a 'Completed' status for an international wire that was later rejected, triggering an open regulatory complaint review and illustrating the risk of collapsed, OMAD-free status values misleading clients about finality.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L183-L188",
+          "version": "repo-lines-v1:sha256:ecc285eaf96f70a87269e9fd8bd08794a7428e3e4c02205b208bc0937ec2ee52:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmE3ZmZkNWQ0Mjc2OTlhYzQxMDhkNTgzOTBkOTI4YzJjZGVjMzhlZmRhOTkwODc3MTNlOWI4NmNlZTcxMzI5ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc2MGUwNzkxMjlkYjczMjg1YTk2MjA4MzJjNWE2YmNjNDhjN2ZhYTJiOTYzNWI0NDk3MzhiNTA1MGI5MTFlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDU4ZTkxMTdkYmJiMDYzZDMzMDhjYzI5NmNmMjA0ZDY0NmEwNDFjYTgwMTViMGE2YjJmYWI1ZmNmNGZiOWZiNiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9d3d4a1785ab065ef3571deb1f522b81f17d33a6924fbc301ea4839215e250a7",
+  "claims": [
+    {
+      "id": "claim_7c96327e2c6040c28191a78c661c6aa1",
+      "statement": "API-08 (v4.0, base path /fraud/v4) is an internal-only fraud scoring API owned by Fraud Strategy Engineering; it returns a 0-1 score, decision and reason codes using gradient-boosted and graph-based models, requires OAuth scope fraud:score, and is classified Restricted - Internal.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L1-L17",
+          "version": "repo-lines-v1:sha256:01780262eb4dd8ef5fdb2560c33c4cf984f48614c19ab0292e1bef672974cbcc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0MjgxYmVlOWE3OTIwYjJlNjYwN2IxOTdjNWU0MzBjOTQ4NmE3ZWFlYWU1NDkyYWMzOGYxM2Y3NTUxZTU2NTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7235314910814fe08b4f78b21b17a26f",
+      "statement": "API-08 exposes POST /scores (score authorization, payment, login or account-change events), POST /feedback (report confirmed fraud or false positive for model retraining) and GET /reason-codes (reference list).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L19-L25",
+          "version": "repo-lines-v1:sha256:ae3f4f3179e2778612d5b507cd32ff9af55839074169ddc05163f5890d609da4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FkMTA3MzllOTJhNDgxY2Y1MGNhYjUyNmMzNjFlZWI3MjBhOWY2NzRhNjkzNmMwNTUyYjg2ZGViNjc2NDgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ0ZWFhMmRhZGE4M2JhZjQ0MzViODZlMmExMGExOWQwNzY3Y2Y4MDYyNzE5M2Q5MGRiMDgzNTNhODAwYWY0MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiZGQ0ZTJjZjJlMDY5MTVhNDExOTMxNGI4ZDQxMmVkMTgxMjJiMjQ5YjQ1MDU5ZDRlODQxZGQ3YTI4ZmM2ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_712c24d9404b4e58b1ac1af2ca957bce",
+      "statement": "The scoring example sends an Idempotency-Key header and eventType/amount/accountId/deviceId/payee fields, and returns score, decision (approve) and a reasons array of reason codes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L27-L61",
+          "version": "repo-lines-v1:sha256:9eec25cf970a4bdbf3f456f8d880ffc458a7a74e85aa0efc9ac62605fd15fd40:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhYzc2MTIxZjA3YjBlNmY0MWQ0ODkxNDdiOTdiODAyNzM5NzljNzI0OWQ5YTAwYWM2NjJkZGZjMmUwZTBmMWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_12c63955e80a405a943676b971638680",
+      "statement": "Performance envelope: average decision latency under 35 ms, p99 SLO 60 ms, 99.99% availability, and an aggregate limit of 50,000 requests/second for internal callers only.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L4-L17",
+          "version": "repo-lines-v1:sha256:ef3d401e46c3c23cef66eddfaddd1ee2acfe1f7cfa0397ec252835b4f09c3711:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0ZDYxZGJkNDA3NzU3Y2Q3OWZjYmM2MmY5ODg5OTFmNWVjZWY2Mzc5MzgzMGY4MzdhMjBjZjU5YzY0ODY5ODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0MjgxYmVlOWE3OTIwYjJlNjYwN2IxOTdjNWU0MzBjOTQ4NmE3ZWFlYWU1NDkyYWMzOGYxM2Y3NTUxZTU2NTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZhMTVkNzk4MzliMzJiZjJlNWNjOTVhMTY1Y2YwMWQ3NWNmMGNkZTE1YTgzZmIyODM4ODIxN2ZlYzZiMWI1NWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_76a38d6feb954954bf9c4b6fbf119994",
+      "statement": "API-08's upstream inputs are the API-02 Transactions feature store, device intelligence and consortium fraud data; its downstream consumers are API-03, API-04, API-05, API-09 and operational risk loss data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L63-L67",
+          "version": "repo-lines-v1:sha256:8dfa257d01d75ec5ae59e9dd76a4f95a667b648c84077416707007bdad173b3e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhmMjBlMmYxY2I0NGQzZTZiOWYyYTc4OGEzN2Y1MzNlMGEyYWJiZTM4YjJlYmE4MWU4NDZmYjNjYzc5MTJiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L535-L535",
+          "version": "repo-lines-v1:sha256:3574dd07e067321736b2e07081c516a8a8fd5e8aa776a5afd2d05377dd102604:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU3NGRkMDdlMDY3MzIxNzM2YjJlMDcwODFjNTE2YThhOGZkNWU4YWE3NzZhNWFmZDJkMDUzNzdkZDEwMjYwNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU3NGRkMDdlMDY3MzIxNzM2YjJlMDcwODFjNTE2YThhOGZkNWU4YWE3NzZhNWFmZDJkMDUzNzdkZDEwMjYwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTVjMTU0NDFjZjA1YThkOTdmYjE1NzFkMmQ0ZTBlNjhmODE1NzU5OTNkNzQwMGJlOTAyNjJjOTI3M2I4NzdlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGE1MDVkNmMyZjY5Nzc4MTBjYWRiODhmNTA1ZjRmNjY0MTYxMjFhZWMzMDA1NGUyNTZlZDg5MmZhMTI1ZTI1OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ba0a50717d7e414a810d81c947dc79d1",
+      "statement": "API-08 sits in the critical path of card authorizations, real-time payments and wires: each is scored before release, with about 690 million calls per month in 2Q26 (up 24% YoY) at 99.99% availability.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L465-L465",
+          "version": "repo-lines-v1:sha256:483129213ad3c3508379db52789d9f746b714efae2e2b5697c3f3d5f770338e8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDgzMTI5MjEzYWQzYzM1MDgzNzlkYjUyNzg5ZDlmNzQ2YjcxNGVmYWUyZTJiNTY5N2MzZjNkNWY3NzAzMzhlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDgzMTI5MjEzYWQzYzM1MDgzNzlkYjUyNzg5ZDlmNzQ2YjcxNGVmYWUyZTJiNTY5N2MzZjNkNWY3NzAzMzhlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDM4YTc2NzhiZTk5ODEyMWFlYzcyMTQ5YWM2ZWNmNTdjZDQyZTZiOGI2MjdlZDM5MDcxNGZkZmY3N2M3M2NkNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDliNTBhNzk5MTc4MGJmYWFmZjAyMmM1M2MwNTFjYTczY2E1NDc3MmVmM2ViMTlhM2IzYjBlMTYzNGRlZDU3NiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L198-L198",
+          "version": "repo-lines-v1:sha256:2ae73c0845515a000c3e06e4d30e5713969b7aa8b3c15a988cec116171aa51fb:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFlNzNjMDg0NTUxNWEwMDBjM2UwNmU0ZDMwZTU3MTM5NjliN2FhOGIzYzE1YTk4OGNlYzExNjE3MWFhNTFmYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFlNzNjMDg0NTUxNWEwMDBjM2UwNmU0ZDMwZTU3MTM5NjliN2FhOGIzYzE1YTk4OGNlYzExNjE3MWFhNTFmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTZlNGNhYTU2YThkMTFlMzIxNTZiMjNiMjg2OWNhNzAwZWVkM2VjMDllMWQ5MTJiOTU1MGQ0YzNmNTlhNTlkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM3ZDAwNjc1OTQ5MTZkMDIyZGViOGNhZTM1ZDJlMjZmMDFlYmM3Y2EyYWM1ODMwYzc2MjJkNzE1NGNjOGEzYiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L421-L421",
+          "version": "repo-lines-v1:sha256:a19ec7eeaaddbd401262b480a349a3bdc3ebc8b576d91b8306e8c18ddbf55db1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTE5ZWM3ZWVhYWRkYmQ0MDEyNjJiNDgwYTM0OWEzYmRjM2ViYzhiNTc2ZDkxYjgzMDZlOGMxOGRkYmY1NWRiMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTE5ZWM3ZWVhYWRkYmQ0MDEyNjJiNDgwYTM0OWEzYmRjM2ViYzhiNTc2ZDkxYjgzMDZlOGMxOGRkYmY1NWRiMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODYyMzkxNGU2NjNlODE2NDk4ODViNTA4MTEyMmUyYzFmNDQwZGEwMTJkMjNlY2IzMmMzYzc0YTVkZjU4ZTNhMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWFkMmEyYTZiNzYyMTk2M2JiOTc1NWY0ZTZhY2U4MjYwYTQwZjllYzNiZGViMTVlOTg1NjVkZjljZjJiNTI4ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a37b57c11f814e199fab1f5125118ce6",
+      "statement": "v4.0 (2025-12) added graph features and new reason codes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L69-L71",
+          "version": "repo-lines-v1:sha256:a6f2646894e49f88b1c847d935a17395ab3a888e60c189e3f203303582aad3c1:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjk2MTE5OTlhN2VhMTJjY2FkN2I2N2FlNTg5Y2Y1OThhYjM2MmVhOGM2Njk3YTZmNmZiODE0NDdmY2I4OTQ3NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmFlMjVkZGNmMDk1OTJjOTQ4Y2QzZjIzZjU2YTI2M2I5NTUwYzM4N2NhM2E5MGJlM2U1ZjgyZmMyZGM0Zjk0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

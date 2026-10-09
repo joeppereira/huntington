@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6561499825fd4c1637e1e3d197d698579f6a90ffadb9d4fc8e1385b4e4765d28",
+  "claims": [
+    {
+      "id": "claim_1cc17acdc99340e7932bc8e58b02bcf5",
+      "statement": "The Chief Financial Officer chairs the Capital Governance Committee, which oversees capital planning, the CCAR submission and contingency capital planning; the CFO is not named in the report sources.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L283-L283",
+          "version": "repo-lines-v1:sha256:53b02a02b011e412fc6a12b0cee406ec8422367bbc66ad5ce627f0f3a3c8db6a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTNiMDJhMDJiMDExZTQxMmZjNmExMmIwY2VlNDA2ZWM4NDIyMzY3YmJjNjZhZDVjZTYyN2YwZjNhM2M4ZGI2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTNiMDJhMDJiMDExZTQxMmZjNmExMmIwY2VlNDA2ZWM4NDIyMzY3YmJjNjZhZDVjZTYyN2YwZjNhM2M4ZGI2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjcyNTNjZmE4YmFhYTBhYjJiNjQwMWJjYmU1ODhmMDc2YWNiMjZjYjU5NTVjMDUxZTI4MGI0ZTg1MDAwZjhmMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjMzZTg3NDk3YmJiMjFiMmFjNmIzYTliYzM5NzM0MmYzMGUyNzFjMzM2N2FhMzg0MTA1NzZhMWE3MDdkMzViYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3773634ce0a34c208432d3d1c7977a5d",
+      "statement": "The Capital Governance Committee owns the outputs of the Capital Planning & Stress Projection Model (MDL-CAP-003) and oversees the capital plan and capital actions, while the model itself is owned by Corporate Treasury - Capital Management and the Board approves Capital Policy and risk appetite.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L283-L283",
+          "version": "repo-lines-v1:sha256:53b02a02b011e412fc6a12b0cee406ec8422367bbc66ad5ce627f0f3a3c8db6a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTNiMDJhMDJiMDExZTQxMmZjNmExMmIwY2VlNDA2ZWM4NDIyMzY3YmJjNjZhZDVjZTYyN2YwZjNhM2M4ZGI2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTNiMDJhMDJiMDExZTQxMmZjNmExMmIwY2VlNDA2ZWM4NDIyMzY3YmJjNjZhZDVjZTYyN2YwZjNhM2M4ZGI2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjcyNTNjZmE4YmFhYTBhYjJiNjQwMWJjYmU1ODhmMDc2YWNiMjZjYjU5NTVjMDUxZTI4MGI0ZTg1MDAwZjhmMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjMzZTg3NDk3YmJiMjFiMmFjNmIzYTliYzM5NzM0MmYzMGUyNzFjMzM2N2FhMzg0MTA1NzZhMWE3MDdkMzViYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L85-L85",
+          "version": "repo-lines-v1:sha256:9c63cdd644d75f6aea4de7bca23da894bd14457fd227efdce4bc0b34588faef7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM2M2NkZDY0NGQ3NWY2YWVhNGRlN2JjYTIzZGE4OTRiZDE0NDU3ZmQyMjdlZmRjZTRiYzBiMzQ1ODhmYWVmNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM2M2NkZDY0NGQ3NWY2YWVhNGRlN2JjYTIzZGE4OTRiZDE0NDU3ZmQyMjdlZmRjZTRiYzBiMzQ1ODhmYWVmNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWY4Y2Y0OTE5ZmUwMGFjZTM3MDNmYWRjODlmNDcxZTViNzg5MGZmMmU2ZjVlYjlmYTE5M2UyMDE5NGU1MzZiZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGU2MGQ5OGJjZTVmMGI0ZDYxYjRmZjAyY2E4YWViOGJhZjdhMWZhNzRhZGMzOWVlYWViZDkyZDI4NDI1YjNjNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_397065df73934c4398f38c4e68583764",
+      "statement": "The capital model is re-run quarterly and yields a baseline CET1 path, a severely adverse path with buybacks suspended and dividends flat, and an indicative SCB (peak-to-trough decline plus four quarters of dividends, floored at 2.5%); the current SCB is 3.2% and the indicative is 3.18%, consistent with the preliminary supervisory SCB.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L301-L307",
+          "version": "repo-lines-v1:sha256:97a5357f57879012bd227bd7e392d9aee7aca5fd2cf2f59fdacadd81c7cf8b00:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDQ2Y2YzZTAyOGRkYTMzYjAzY2M3ZThiZGQyZmFiYjJiYzlkYzIxNTM0MjBmYzA4MmUwZTk5ZTI2YzNkYWFiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmFjZDZiMTY2ZmE4YmRhMDY5YTY1YmRlZDU0Y2ZkNjg0NmE0ODc3OTIzOWEwMWRkNjI3YTVhYjhiYzgxNTA0YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBjMWM0NTdhYTkyMDBjMjYyNGUwNjhkNTc3YThhNmNhOTMwOTBjM2NjNGRlZDUxMjdjMGVkZmRlNjQ1Mzg4NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L282-L282",
+          "version": "repo-lines-v1:sha256:42a829ca0e2f27d91d2413791e062cd021960370cccc692fc3a3762d75e8b428:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhODI5Y2EwZTJmMjdkOTFkMjQxMzc5MWUwNjJjZDAyMTk2MDM3MGNjY2M2OTJmYzNhMzc2MmQ3NWU4YjQyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhODI5Y2EwZTJmMjdkOTFkMjQxMzc5MWUwNjJjZDAyMTk2MDM3MGNjY2M2OTJmYzNhMzc2MmQ3NWU4YjQyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E4MjUyZTNmMWE2NzRlYjRkZGQwMzFlYmU3NDdiZTUxZTIwZWI0MWY3NGI4NTA3YWIyZDhiNTA0MGU5NjEzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjgzYzI0ODIzODQ2OTliYTQ2YTIzZjZmYTg3OTE4OTQ2NmU2MzkzNjU4ZTU4NWRjNjczNDllNzY5ZTJlNTMyZiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L81-L81",
+          "version": "repo-lines-v1:sha256:a3bc57a579a80142c8ea9024b76a97a193e56869a5d6d99b0f0dd7b10b774c7d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTNiYzU3YTU3OWE4MDE0MmM4ZWE5MDI0Yjc2YTk3YTE5M2U1Njg2OWE1ZDZkOTliMGYwZGQ3YjEwYjc3NGM3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTNiYzU3YTU3OWE4MDE0MmM4ZWE5MDI0Yjc2YTk3YTE5M2U1Njg2OWE1ZDZkOTliMGYwZGQ3YjEwYjc3NGM3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI5ZGU1MDk5OWExNWQzM2QzMGY1MmEzYTlhNzJlNWZjM2UxODU5NjYwM2RjNDc3MDhlMGEwY2IzOWU3NDgwZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjM4ZWNkNDg0YjFmZGU3ZmIwZDM1NzA5N2E1OWQ2MGY4NDRlNjc0NmM0YmEyYWNiYjQ4MjdkMDRlZWI1NDM0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8b735886c5794b2cabe7552ea2e9895c",
+      "statement": "The earnings-call Q&A speaker Rajiv N. Castellano is given no title in the sources and answers capital-deployment questions, saying the buyback pace will be revisited after the final SCB is confirmed in August; he is not identified as the CFO.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L438-L438",
+          "version": "repo-lines-v1:sha256:fd83afb7e2fcef87c340f60fb5e414b16f6dfb2da70da6f6a811a28860522395:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmQ4M2FmYjdlMmZjZWY4N2MzNDBmNjBmYjVlNDE0YjE2ZjZkZmIyZGE3MGRhNmY2YTgxMWEyODg2MDUyMjM5NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmQ4M2FmYjdlMmZjZWY4N2MzNDBmNjBmYjVlNDE0YjE2ZjZkZmIyZGE3MGRhNmY2YTgxMWEyODg2MDUyMjM5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUwNWYwOGJlOWY2NDI2ODE2OTQ3MjMxOTZjMGRjNzljNzFmN2Q3OTJlZDZiODQxZGM4YTMxNjJjOWQyYjgwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTkwYjFiOTJkMDgzOGY1MzgzN2Q4MjY2OGNiNWRkZmVkOGM5MjNmNmE5ODJhMDRlMDA0MWNkOGQ1MjlmMTE2OCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L456-L456",
+          "version": "repo-lines-v1:sha256:f05d5fd4970c1ea56bc19b79e06c6452241c1e69b7e3cdbdbda377cb1f3c7983:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA1ZDVmZDQ5NzBjMWVhNTZiYzE5Yjc5ZTA2YzY0NTIyNDFjMWU2OWI3ZTNjZGJkYmRhMzc3Y2IxZjNjNzk4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA1ZDVmZDQ5NzBjMWVhNTZiYzE5Yjc5ZTA2YzY0NTIyNDFjMWU2OWI3ZTNjZGJkYmRhMzc3Y2IxZjNjNzk4MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDEwNjkwN2U0M2E2YmFiNmExNTVhMWNhMWI2MWNjOTA1MWE0YjFjYjVhYzZkMWRjZTJiOGY4M2FiZmYzODBmOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGE0YTNlZTQzY2NiNzdhMTg4ODcxYzcwNTA1MDE3MzFjYTk0NjY2NDBhYzA0ZDU4YTllYWUzZmQxZjAzOTFhNiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

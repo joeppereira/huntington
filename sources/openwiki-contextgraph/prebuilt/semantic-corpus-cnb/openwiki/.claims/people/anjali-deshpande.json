@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:4e14c9007809eb163cb579129f7ed92931fa395facda0f3cbf98f21cde29379d",
+  "claims": [
+    {
+      "id": "claim_8466f15588a44ca3813ff92d142804d4",
+      "statement": "Anjali Deshpande is Director, Digital Treasury Channels Engineering, reporting to Gregory Hall (MD, CIO Payments & Treasury Technology), and is the accountable engineering leader for the CBO Wire Center squad and CBO Platform & Entitlements teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L46",
+          "version": "repo-lines-v1:sha256:1168b5c06a2c337c9874d4e0f87ef28deaccd095c24d392cfc981d0774bfbd94:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNWVjNmY0NDBkZjM0Mzc3OTdkZGNjZmMzZWE1NDRkZTEzMmU0MjMxMDc1NTYxY2Q2NWVkMjQ3OGI0ZWYzMzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2NGRiOGNhMWE3ZjEzZDllYzUzNjYwMWY4ODQ3NzkwODAwYTA2NzZjMDBiM2Q3NTQ1ZDBhNTllYjY5ZjFhNzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjYWNiOGZlMzRiNTdmYWZiNjU2NmQxZTFlYTFhNTNkOTllNmZhZjcxYzU0MjFiYTJmMzgyOGU0MDVhZGU0MWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5YzE1MDY5YTkzOTNjZTkyNjViMzU0YmM2M2YxMTI4NmZlM2U2OWQzZTI2ODdjZWE2YjZjYjUxYWUzYjUxMDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_02aa71d8ae284636937eedc38d19cfa6",
+      "statement": "Anjali Deshpande's engineering accountability for Wire Center and platform systems is organizationally distinct from Marcus Chen's business/product ownership (Director, Digital Treasury Product, Product Owner for CBO Wire Center and Payments & Transfers).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L46",
+          "version": "repo-lines-v1:sha256:1168b5c06a2c337c9874d4e0f87ef28deaccd095c24d392cfc981d0774bfbd94:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNWVjNmY0NDBkZjM0Mzc3OTdkZGNjZmMzZWE1NDRkZTEzMmU0MjMxMDc1NTYxY2Q2NWVkMjQ3OGI0ZWYzMzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2NGRiOGNhMWE3ZjEzZDllYzUzNjYwMWY4ODQ3NzkwODAwYTA2NzZjMDBiM2Q3NTQ1ZDBhNTllYjY5ZjFhNzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjYWNiOGZlMzRiNTdmYWZiNjU2NmQxZTFlYTFhNTNkOTllNmZhZjcxYzU0MjFiYTJmMzgyOGU0MDVhZGU0MWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5YzE1MDY5YTkzOTNjZTkyNjViMzU0YmM2M2YxMTI4NmZlM2U2OWQzZTI2ODdjZWE2YjZjYjUxYWUzYjUxMDMifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L96",
+          "version": "repo-lines-v1:sha256:d03514dbf4821c5cd5650e3e318255cc3a941b18af48a11ee712ce5d5c5b842f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5bd402f39391462096b22081d6554964",
+      "statement": "Anjali Deshpande is a named approver, alongside Nikhil Bose (Chief Architect), of CBO-ARCH-WC-4.1, the approved (v4.1, last reviewed 2026-08-20) current-state architecture document for the CBO Wire Center module.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L15-L22",
+          "version": "repo-lines-v1:sha256:a7438bc52e0290094787e3c1dfd5f5b8073fc972858c006ff4e4b7736d5ff127:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTljOTJjZGM1ZTAwZDdkMzk1Njc5NDdlYjE1ZmI2N2NhMGExZDI5NDgwNmQ0ZDY5NjczMjdjYWViYzUxMmUwMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWI0MjJlMjU3N2JlOWJkN2ZjYjcyNDlmOTBjOTQ1ZGFlOTFiNjNlODY3NjZlMmRjN2ZiMWVmY2EzZTAyNWUyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNkNmRmY2RlYTFiZjRlOTA3ODhiMmRlMWY0NDRjMGU4ZWQ2MjcxNWUyOTEzY2YwM2Y5MDI2MTEzYTNlNDI4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTk4ZGY4MzQ3NDlkMjU4YWQwNDkyOTI3ODY5MzQ1YjhjZDU5YzAyYjkwNDFiNTNlNjAxNDVhNWIyNzFiNjU4MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cf3e4f0e76e34e4bb6cd81b1fecb5504",
+      "statement": "Anjali Deshpande is a named approver, alongside Raymond Ortiz and Denise Carter, of PIR-2024-07, the final (v1.1) post-implementation review of the Wire Status Lite pilot (CBO-3120) and incident INC-2024-1182, which found that browser polling of the PPH v1 status API at month-end drove ~85 TPS, exhausted the PPH thread pool, and delayed wire release for 47 minutes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L15-L26",
+          "version": "repo-lines-v1:sha256:522b3066e1a8133ce63f5d0d014cea298a22c6895d32e3e36b81a5d96d261c68:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0YzhkMzkwZjkyMmMxNTYxOGMyMzUwMGQ4N2FhZGIzOTgyZjZhNTYzNWNjOWNjYWUwOTY3MTI2YWNiNTk4ZmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVhOWU5Y2EwMTA1ZDgwYzc4OGJkY2M4NGFiZGY4ZGY4MTE1NTUwMjA4NmNmNzBjM2ZmZGU0NTE2OGY4OGFmOWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI4ZjA4ODk4MjdiNWM1MWJlZmMwNjY0N2Q2ZmVhNjllNzJkNWNmZmVlNzU5ZDI2ZDI4MmY5N2RlNzBiOTQ2ODAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYxMTliMWQ4MWNmN2M0NmI5MDEzYzllMmM2ZGI4OGQ4NDA1NWY2ODNmZjhlY2IxZDQ2YzBiNDY2NzVhNjZiOWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b2e7517cba1e42a5ab7e039fa98a1b42",
+      "statement": "PIR-2024-07's remediation actions include adoption of an event-driven (non-polling) wire status pattern that became ADR-PAY-019, directly producing the no-polling constraint later documented as a current-state constraint in CBO-ARCH-WC-4.1 (which Deshpande also approved).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L125-L129",
+          "version": "repo-lines-v1:sha256:8ec6de8500175bc3faf2163322a52f5f186b2d117a23df6b9bfe6c3bea033ad2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGMxNDBiZGVlYzY2NjNkNTVkYjAzMDUzZTU0Y2I4YjgwODYyMzQ4Y2EwYzMxNjEyNTg1YzU0ZGUxOTg4ODQwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2U4ZmZmMmE4MWIwMGIxMGVjZDNiZjJhNTVhYjY2Y2QyZmYxMGNjMTBlOGNhMDBlY2RkYzJiZGIxOWIzOWQ4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNThlZGMzZTA1MzEwYWJhODg0NzgzNDhkNDY0MWEzZmNkZGZjYmRjMDZjNDkzYzU5NmZkMmI1OWUyNjZmYzAyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWFmY2UwMTlhM2Q5NGFmYzEwMTI3MzIxZTc5ZTc1NTMzOTc5M2E1Y2FjMjczYmEzOTg0NDkwMjAzNWMyNTU4NCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L53-L60",
+          "version": "repo-lines-v1:sha256:48e33e8afd5d89a9891ca2815cbb357d002f93967de9d8394a7e0632cdb08305:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDJiY2U5NThlYjI2ODEyMWYwYWZhNTI0NjkxOTE2YjZjNTEwODY3MjRiODc5M2RhYjM4NDIxMjNhODY5NDE2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlZjE2MWJiMDQyOTE2MzliZmZiNGUxMzE1NTdmNGMyYjA2MmI1ZmUyYzAzMmY4ZDQzZWFkNDQwMDNkOGNiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTk3MGZkNzA0MmU2M2M5ZjAwMmExM2VjZWQzZTZhZWE4YmFiZDZjNWIyNWIzYzU5MTUwOGRkMDk2MzkwN2JhMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzgzNDlhYmQ0MzEwNDExYmQ2NmMyZGM4MmMwNGRmN2U0MzRkNjgyNTk0ZWM4ZjdiNmE0ZTJhODE0MDlhMDFkMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:51987d64dc592c09667ff329b7dcac21f49e110b98d65560343cebe5d887917d",
+  "claims": [
+    {
+      "id": "claim_52d2c500fc5042e4887d94eed5f2f46f",
+      "statement": "Jenna Ross holds the ARB Secretariat function for Crestline National Bank's Payments Architecture Review Board and is recorded as the document owner of ARB-PAY-REG-2026Q3 (version 2026-Q3, Published, 2026-09-12), the combined ADR register and decision minutes extract, which was approved by Nikhil Bose, Chief Architect - Payments & Treasury, as ARB Chair.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L15-L22",
+          "version": "repo-lines-v1:sha256:bbe3420669fdbf660d41075cf4da766401db71d5aef23b30fd50d866a6f80f00:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg1OWZjOTFjMzdhM2ZjYzE4OTE4MGRjNjM3MDg5MjhlMjIzZmU5M2Q5Y2RiZmYxNTBlMzJlYjI3YjE2NjM4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM3NjdiMDVhMjY4OTA1NjkwY2ZjOGE2MDNjMDNiMDFmMTdjYzM5Y2VhYmU2NDUyN2Q0OTFlN2QyNWI0NTMxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmEwNDYyZTQyMDc2NGZiMTEyYWIzYjIwYjNkNDczOWI4YmUzMGYyZDFjYzVjMjNkNGJhMDJiNWY4ZTc5ZjBkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDQzYmRiOWFlMDA0MDUyYjgyZThhY2I0MGM0YTA0YjdjM2Y0NGQ5NTNjYzMyOGU1YWNjMTExYThhYTJhODcwMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c7e5e72d8bf496e9d46bf9e5c69d7c7",
+      "statement": "ARB-PAY-REG-2026Q3 is classified INTERNAL - CONFIDENTIAL and marked 'uncontrolled when printed'; it sets the ARB's forward meeting cadence (next sessions 2026-11-10 and 2026-12-08) and requires submissions 10 business days prior via the ARB intake form, reflecting the secretariat-run scheduling and intake process.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L71-L71",
+          "version": "repo-lines-v1:sha256:379d39a2c2d5d59d99301e76b568a5ad8de5967435ce40daee18e3c3b9d4c159:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc5ZDM5YTJjMmQ1ZDU5ZDk5MzAxZTc2YjU2OGE1YWQ4ZGU1OTY3NDM1Y2U0MGRhZWUxOGUzYzNiOWQ0YzE1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc5ZDM5YTJjMmQ1ZDU5ZDk5MzAxZTc2YjU2OGE1YWQ4ZGU1OTY3NDM1Y2U0MGRhZWUxOGUzYzNiOWQ0YzE1OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmJkNzg2ZGVmZjdkYmQyZWNlYjA0NDU5ZWE0NzE1MDFkMGZlNmFmOWVlNjgyZjZlYWIzNDMwN2IzOTA0YzE0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZkODcxMGJmNGUwYjA4ZmYxMGM4MDgxZjQwZDQyZDkwZjBiMDcxNjY3OGZkY2E5YThmODI3ODAyYWI0ZjAyNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L9-L21",
+          "version": "repo-lines-v1:sha256:88d27e860667c4369457457a2dcd6ce051cad781f85abbbcbc2de17e1f336b08:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZlYzRmOWNiODliNzMwYjEyZjg4ZmQ3MGEwMDNkMjdiY2U1ZTQ5N2VkZDYxZTA5YzE3ZWE2N2Q0NTExYzczOTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5MjE0YjIzYzk3YzQ2MzAzZWI0MGU4NDVlMTk1MWJmNjU1ZmZmYjU4ZGI4NzBkZTA0MTU2ZjZiMzcxY2Y5NzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhNDk5NDllNzEwOTJjZGEwOWU3MDNhZGRkMjE4NzIyNjZjNzM5OTE3ZjYxMzI4NmUwNTJiNmEzODllMTgzNzgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBkMmI2NTQzOThkODFmOWViYjZjYTc1NGJhNmVmM2ZhYTRkMmEzYWRhOThjMDEwNjRiOWQ2NjIyODA3YzQ5NTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d9d918c110034137b0194514ff1d8eea",
+      "statement": "Individual ADRs and minutes items within ARB-PAY-REG-2026Q3 are attributed to subject-matter owners distinct from the document owner Jenna Ross: PPH v1 sunset (Kevin O'Brien), gpi real-time service funding decision (Elena Vasquez), status projection reuse (Arjun Mehta), and structured address enforcement (Raymond Ortiz).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L52-L69",
+          "version": "repo-lines-v1:sha256:13a3da53bc85fa731650894f80390836cac3343ed8b53d041df5a704679d2569:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyYmZkNGE5NGFjNTRlM2ZhZWJhNDNmZTU3YjdlM2JjY2FmNjQ5NGMxOGMwZGI0OTY5N2VjNTk4YzViOTdhMjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMzOTBhOGRiMzM2Mzk3YTVmYTdjY2Q2MzNkNjU0NTE4MTlkYzMzMGZjODI0NTExZjQ2MDQ3YTY3NzY5ZDVmODEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhlNjZiMDcwZTJkOGFmZjM1YzNiMmQzZjVkMTllMmNlODg3ZjdhOTZjZTk3Y2IwNjJkMzRjYzUzYTlmZjlhZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdkYThmMzI3NDMxMjBiY2UwMGI0ZTYxZDIxYWI1NmUzNjVmN2U5OWIyNWNlYWI3OWFjNGM2NGI5OTIzNjdjYmQifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

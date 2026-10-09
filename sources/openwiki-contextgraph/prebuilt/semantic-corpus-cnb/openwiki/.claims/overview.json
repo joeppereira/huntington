@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c90c6b8baacbf1b7614c76230af6d33103e4ffeb6b483ba92098ff81579094dd",
+  "claims": [
+    {
+      "id": "claim_a842b7b7c43f4fffb864dd4e5650aed7",
+      "statement": "CBO Wire Center (the commercial digital banking channel) submits wires to PRISM Payments Hub (PPH) exclusively through PPH v1 REST APIs (POST /pph/v1/wires, GET /pph/v1/wires status and list) and does not use PPH v2 APIs, gpi data, HMS APIs, or TDIP Insights.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L41-L56",
+          "version": "repo-lines-v1:sha256:14912d6f944690950f70c45d832e37e71c4d61236fde5cbdee297ab0f9fcf8f0:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgyZTU3Y2E0NTUzZjgzYmFhNTY1ZjBlMjZlNTg3NjMwMTI1ZWQxZGMwMmYwMmYzNWNlZjJkNGFkY2Y0NjhlNzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI0N2U4YWI3NDk4ZmQ0N2E4M2MyODIxYWRmMjdmMzdhYTY1OTkzNzZkY2U5NWM2ZjM3MmZmNTAzNjAxZWZlMjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_54dd66cb96a443518e04e82438c3d6aa",
+      "statement": "PPH orchestrates the wire lifecycle by validating and enriching instructions, calling PRSP (SanctionScreen + Sentinel) synchronously for screening, performing funds control against the Core Deposit Platform, and then releasing to the Payment Network Gateway (Fedwire Funds Connector or Swift Alliance/gpi Connector) for transmission.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L24-L52",
+          "version": "repo-lines-v1:sha256:4d3fa81c9be62e33e6b98a72e2a03e0c787e5ed0a9d2d4dc788d2514ce20cee4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExMzUwNjRkODk1OWQ2YTBlM2E4ODFlZTNhMmRkOTcyY2U4NmE1ODZhMGRjMTYzNGNiNjVkN2U4ZWY0MTdmYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmNmYzZTdhZjIxNDdhNDY1MGIxZTY3YjY2ZTNmNjhlOTU4YjcxMWVlMDc1MjZiZmMxOWYyODNiYjQxMDQ3NDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJkNTU2OTAzZTE5MmY3NDAzNWMyOTAwNTViYWU5YTRjNTg4YzI5MTA0YTcyNDJiMjQ2ZjFjOTYxZDA3ZTFmZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk1MjQ3YTMxMGZhMmMyZjhhNzI4MjRmMmE1OGNiNWE3NDQ1YjU3YzUyOTdhMDM4YWQwMGQ3ZjA5OTY0NDAxM2IifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_56dd92b82ee54593a847d59a82038d03",
+      "statement": "The Payment Network Gateway has two rail-specific modules: the Fedwire Funds Connector (SYS-PNG-FFC) and the Swift Alliance & gpi Connector (SYS-PNG-GPI), both historically owned by Payment Networks Engineering (PNE).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L24-L28",
+          "version": "repo-lines-v1:sha256:ab82a32de5ae3775b4013c0940c7b88874630711b176399ebb37eabfe9a36f1a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQyMjE4MWIxZTA5ZjVlMjg5Njg5MTFkZGU2MTBjNWQ1NWY0YmJiZDkwODFhYzg3YmQ5NDlhNjZlNzBjMWY0YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjEzMWQ3NjVkZjIxZTc1MTVmMDk3OGE0Njg4OWM1ZDBmNTgwNjcyYjdlMmY2MWMzMDlkMTcyNzM2NmFjZGRkMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTU1OTE0ZGQxMDY2OTlmMDkwZmVkOTI0ZDY2MzAzMTk1NGJjZTU1ZmM5MGI1YTg4YjE0M2IyNmQyODUxZTMxNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2YxZmIyYWM2ZGNiNWY1N2JlMjRjZjQ3ZDQ4YTY1YWE3YzIxZWQyZjM0OTgwMzU3YzhmYTdhMDAzODFhZGM0NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_eff856a7837641b5bad2adca3f596962",
+      "statement": "Effective 2026-10-01, ownership of the Swift Alliance gateway, the gpi Connector, SwiftNet PKI service accounts, and the international wire tracking roadmap moved from Payment Networks Engineering to Global Transaction Services Integration (GTSI); the Fedwire Funds Connector remained with PNE, which additionally took on FedNow/RTP connector ownership from 2026-11-01.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L42",
+          "version": "repo-lines-v1:sha256:406e7d21cd3cf4c002098b353c16d1226deed5affc7638754b2be98026f52e59:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MDU5MjE1ZjBlOWZiYWMwODBlMTEzZjg2MDEwNjE1MGQ5YmRiOTQ0ZTE1ZDU3MWE0MGM1ZGI3ODRkYWM0MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwYmUyNzdiY2JjMjAyOWZhZDA4YjhmODBmNzAxNTZhMDE0MWMwOWZjMGY2NTAyOTJkOTEzYzgwNzlhNzQxMjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkMDFhODViOGNjMmUzYjJlZWJjNTllZmY5M2QzMjU1MjU1ZjNlMGM2NzBmMGZkMjE3ZjYwMTRhZDVjYzkxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFkZjkyZWNjOTVmZDVlMzFmN2Y3NGFlNTIyNTZjNWZlOTg2NGIxMDQzYmRlMmQ3YjBiNDBmMWMzMTRjYjk5MTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_05f7253d7c6b40ed83d9361dba26e7a5",
+      "statement": "PPH's v1 status API collapses the v2 canonical states RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED, and COMPLETED into a single v1 value PROCESSED, so v1 consumers cannot distinguish a merely-released wire from one acknowledged by the network or closed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L61-L65",
+          "version": "repo-lines-v1:sha256:d4501b71b5b2ea48a7d8ba67b23dba2212f30b0cee810786d5ee39e203037bb5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E5NTZiMGZjODg5NzFkMjBmZmQ3NzQ4MTU5NzgyZWMwZGRjNzQzMmJkNzY3YWRhNzgyOTU3ZjMyYjU4ZGQ5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWJhNDVmNTczNDRiMDIyYmVmOTg3Zjk3YzBiYTQ4MGI0MWU5NTE2YjliMmRiNzgwMzY4MzVjNjgyZWE4NDQ0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L84-L86",
+          "version": "repo-lines-v1:sha256:21738d3037172c3ba6816e77abf591c6152ee6ae1e7ab488a7c1e382e9d03f23:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjk2Y2VmNTZiNWUxOWRkYmI5NmM0MTkzYzljNmVlNDU1YzU2OGM5YjIyNzBmMTZmZTQ2MDQ2NTQzYWZmMjhmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGUwNGY2MmQyMDJjMjY3YzM1MmQwMDkyMDM3ZjNlMzBiZGRjYjJkMTQzMjM1ZTg3ZmIyMTZjNzNjMGYyOWQ4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGZjNDU0MjVmNWU0NjQxZTY4M2UyMjQyZTcyMmI0YTYyODhhNmFjMjk2Njc5ZTEzMThmNWMyOGNhYzNhN2Q0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTI3Mzk4NTNlOGJiN2Q2ZmQ2YjBhM2VhZTliNjU5ZGVjMGM5YzRmNWFmYTY4NDQ1OTI5YjQwOTg5MGIwNTk5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1dc553eccb3c441eba25c8d2866f8e68",
+      "statement": "CBO Wire Center maps the PPH v1 PROCESSED status to the client-facing label 'Completed' (replacing the earlier label 'Processed' in release R26.1 per story CBO-4402), even though PROCESSED does not confirm beneficiary credit for either Fedwire or Swift wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L80-L94",
+          "version": "repo-lines-v1:sha256:67cc6b29dfe95db511d67a7247e4f2dba3e837cd94d59a891b6400c2013e571c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3YzI1YTI4YTczMWI1MjRlMzNhNmM0YjAxMDMxOTc0Yzk3N2IzZmViZDUyNGM4M2Q5ZjFhNWQwMzk2OTQxZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJjNjI1NmJiYzIyZTg5MmU5Njk4NmNlOTY5ZjBjNWFmOGQ5MDFjYjgzM2M1NjY4ZTVkZTM3MjdkZmU2NGZmMTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUzOTJlOGRlOWZjY2JmNmMyZjVlM2ZjYjY2Y2E3M2I1NmEwMGI3YjE3OTQ2MDgxNDVkZGZkZDdiZTgwZDRiMjgifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L83-L97",
+          "version": "repo-lines-v1:sha256:2484eed45dcfaa97a82d89ba262520c00a209fdce7aa2a2ad873cd01a2904f8f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5ZDZmODkwMGNhYjY1NDRhNjBlZDRmMWYxNGJhNjUxZTM2M2ZlZTFlODg1OWU2MjcwNDY1NjZmMzFjY2E4NmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0ZmI1NDIwODIzY2FhOWRiNGUzZmU4Zjk4NzNlNWFmOWQzMDAwZTJkNDFkNWE3YmI3NDgwZjEzZjdjY2I5ZTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNTFiZWI0NDRiNGZiZWEyYTNlYTU2NjVhYTg4YzkzZWQyYzQ0M2YwYTU3ZGJkYzQyMDgwMTczM2Y5ZWJlZGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlZDI2MmY2OTZkMDkxZGE4NTdiNWNmNDFlN2UyNTQyNzU2NWY4MDg4ZmQ4MmRiM2FjZWJhNzE0NzllN2M1MzIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_269d72ed3eff4b4488d8fd0593310ee6",
+      "statement": "A 2024 client survey from the Wire Status Lite pilot found 37% of surveyed users believed the status label meaning 'Processed' indicated the beneficiary had received the funds, and a 2026 client complaint (CBO-4419 / CMP-2026-1189) shows a wire displayed 'Completed' at release before the beneficiary bank rejected it the next day.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L105",
+          "version": "repo-lines-v1:sha256:53c8e075e2a2238436ddd729cfbb94c76ca723bb718379669e7c0fd55e25e75c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIyNDQ1OGEwZDI2OWJiMTJhNjEyMDMxNTAxYmZkZmNmODc2ODI0YTM4ZWRmMzViMjMzOWQ3OTZjZjVmYWE3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MWJiYTUzOGIzYTZkYzE0MTEzMDAxMWMwNWU5NzBhZWFhMTNkOGNmOGJhZmIxMDgxNGM3M2FjMzUxMzAzYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L37-L43",
+          "version": "repo-lines-v1:sha256:c13cc30ea9aeac03b0e805756b86daeffe12820d3bfe0b608f80179424daaa42:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzU0MGRiZjZmMzhlMTc5NTMyMmM0NjA3ZDk3MDMyZDRkMDVjZWE2YjAxZTQwMzc5MWJmN2UzNWViN2IyNzZiNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwYTRiNjU5MzQ2ODQ0ZmMzMTk2ZGIwNGEyMDJlODc3MGMzM2Q5YzJhZWFhMTdiMTU0YjllNGZmY2RlNWYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFmMGQ4MTgwYzk5OTQ1NzA3YzE3Yjk4ZGZjYzExMGM1YmUxMTk2NDE0MGJkMGI1YzBkNGE2NzlmMGJiYjk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkNjk4OTVkMzlhMWRjYTliNmU5ZWZjZjJkOTA0YTllODBlMTRjYjAzM2VkMWVlMTIwYmQ3ZmY4M2ZmMmJmNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ecd54483a354cf9a8a7a57f4330945c",
+      "statement": "ADR-PAY-019 requires channel status integrations to be event-driven rather than polling PPH; this decision followed INC-2024-1182, in which the Wire Status Lite pilot's 30-second auto-refresh drove roughly 85 TPS to the PPH v1 status API at month-end, exhausted its thread pool, and delayed wire release for 47 minutes, delaying 1,240 wires and causing 312 to miss the Fedwire customer cutoff.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L34-L36",
+          "version": "repo-lines-v1:sha256:1f35aa53be2f9b72dd8b1c998aa1932b987c28459a606949eef4cce03bb1b7c2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzkyM2QyOWVjNTg2ZTI3ZjZjYmI2Zjg4NzcyNjMxYWNlOTJhNjc0MTNhZWU4OGVlODcxYmM4N2FjMmMyYThiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM1YThmYzFiZGI1OTJlN2Y3OGE3MjIwZTY0ZmE3ZGVhMWFhNDA5MGJlODE0MzYyNmUwZDk5MWYxOTVjOTBlZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVmMTY5ZWZkZDQ1MTFlNmU2YjFmYWQyMjE3YmI3OGJjYWQzOTJjZjJmMTg4MzlhMzc3ZDhiOTI1NTBlMTVmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWUyYjk1ZmY4N2Q5ZjczN2NlZWNlNjI0Zjk1MzViYjE5MmQ3NDNjY2IyODg3NDliMGRlMTNkN2UxZDk1YWUxNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L24-L34",
+          "version": "repo-lines-v1:sha256:cbab715e73d2c3ca245f93e432ae97a95214a9affe9da24612552ef5ae876176:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1ZjY2NmU1NDQ5OTIzOTYzZDg4ODg1MzdiNjg5OGQwODFlOGY2MDE1N2YxNWQzZmJmNDE5ZDJjYzYyZWFkMDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNjMjRhM2EyM2E1YTVkNGVmMzRiZmRiMzc2MzFlYzQ3NWRiODEwNWM2MTk4MmM3NWIxODlkM2JkZjUyNzZhNzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxNGMyYzdlMGZiZWYwN2RmMmRkZTA3YjdlNTNlY2JjNTBmNzMxZGU5ZDZiYWRiZWVkZTg0ZWJmNDRmZjkzZDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAzMjIzMjZjNDI0ODkwYWJjOGE4YmEzZTc3ZTU1MDM3MTg1MjY2NGY4NDdiNmY5YjYxZjRhNzczNGRkM2ZlOGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4b550776e944483d9f61ba7b2c92ca7b",
+      "statement": "CBO Wire Center is limited to user-initiated, throttled status refresh (1 request per 60 seconds per wire) against the PPH v1 status endpoint and performs no background polling, per ADR-PAY-019.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L125-L129",
+          "version": "repo-lines-v1:sha256:8ec6de8500175bc3faf2163322a52f5f186b2d117a23df6b9bfe6c3bea033ad2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGMxNDBiZGVlYzY2NjNkNTVkYjAzMDUzZTU0Y2I4YjgwODYyMzQ4Y2EwYzMxNjEyNTg1YzU0ZGUxOTg4ODQwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2U4ZmZmMmE4MWIwMGIxMGVjZDNiZjJhNTVhYjY2Y2QyZmYxMGNjMTBlOGNhMDBlY2RkYzJiZGIxOWIzOWQ4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNThlZGMzZTA1MzEwYWJhODg0NzgzNDhkNDY0MWEzZmNkZGZjYmRjMDZjNDkzYzU5NmZkMmI1OWUyNjZmYzAyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWFmY2UwMTlhM2Q5NGFmYzEwMTI3MzIxZTc5ZTc1NTMzOTc5M2E1Y2FjMjczYmEzOTg0NDkwMjAzNWMyNTU4NCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L60-L64",
+          "version": "repo-lines-v1:sha256:f7edfbef746f77cb545da0a8f270af48c872c8abb631dadf65b318ee9f9728ca:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTM5NTFkNDYxYjVjY2JjYzFhZTdhODhjMjc1NWNjYmU2YjJkOWMyNWYwZjdjMGUyOTgwMGRkNjU3NTAyMDVmNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGNhMWJiZDQ2YjliMmRiM2Y3OGIxYzYwOTE0NTQwNDcxOTU1N2FmNTcyZTM1NzA5NWUwOTZlMjMxZDYwNGFmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQ3ZThhYjc0OThmZDQ3YTgzYzI4MjFhZGYyN2YzN2FhNjU5OTM3NmRjZTk1YzZmMzcyZmY1MDM2MDFlZmUyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2M5YTk1Y2NjM2Y0YmIzZTgwNmRkM2Q4MmUyZTk0NmFiMzdjZmRhNjA0Zjc0N2Y3OGRkZjg4MjIyNjhmNzc5MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3e4f5de825f64528a0eb5b1c5d0036be",
+      "statement": "PPH's v1 APIs are scheduled for sunset on 2027-03-31 with no extensions (confirmed by the Payments Architecture Review Board on 2026-09-08) because the upcoming Volaris 9.6 upgrade removes the v1 adapter; of the four known v1 consumers, CBO Wire Center's migration (epic CBO-4471, 34 points) is unscheduled and blocked on a prerequisite entitlements mapping story (CBO-4473), which is also unscheduled.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L50-L55",
+          "version": "repo-lines-v1:sha256:dd91c787e7424443efdc896792b83c787e37b240a6de58257cbd1e9263858b65:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGIxY2JkNDViMDI5NGY1YWMwOWFiNTIzNTdkNTFmOTEyYWFlOTNlNmI5MzA0YTIwNjczNzY3MTE3ZWJhNGJhOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRmMDU3YjViMDcwNjkyNjY4NDg3NDIxOWRkZWMyM2ZlNmQ1OTkzZjhlZWEwOWRjNWYwNTVkOGUxNWQ2OGI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODZhZDkxZWUxNDc1M2I1YWE2NTJhNzcxODA4ZjVlZTRkNzExZDc3YmUwNDY1ZGJjOGJmNmNlYWUzZmQ2ZTJkYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2IzOTEwOTE1MzA0ZTE0OWVmNWQ2YTFlMDE2NGUxZjdkN2YwNjI5MzRlNDcyNGJjYzc0Mzg2MGU2OGYwOWYxZCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L24-L35",
+          "version": "repo-lines-v1:sha256:94d37ef95782339b9e7094642d8ea2f4eaa66ce74be978c4594a5b25b57db5b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0ZmY0YjU0NmJjZWI4NmQwMjNiMWYwZjNhMDBkNTAxZjA0OWNhY2YxYWEyNTAzZTcxMjNhMTRiMTE3N2FkNWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMwZjg1MjcyMDdhMzE1ZWYwNjdjNzZiZThhODVlMWZiNjU5NDI2NWJiNzY2NzkxYjY1YzA3ZWYzM2Y0MTE2ZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNiY2RmYTFhYTAzODYzNWMzNTYwN2M0ZGQ5ZWQ2ZWFiMWY0NTZjNzYxOTEzNmJmMWI4MjUwNjllOTNmMzA5YjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEwYWEzZTU1MDU2NTRkNDk4Mzc4Y2IwMjAwNTM1ODMwNjQwMDBmODZkZDM1MzViMmExN2FjN2YzYTMzMDhlZDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6191bd1f096d4d37bd4ea14c27e4189b",
+      "statement": "International (Swift gpi) tracking data is produced only by a 4-hour batch pull from the Swift Tracker API into the Oracle table GPI_TRACKER_SNAPSHOT; there is no internal API for gpi status, and the snapshot must not be exposed directly to client channels.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L75-L88",
+          "version": "repo-lines-v1:sha256:1f0395eab4407be1919e76a4e6adf03a2e25c07170a4c4f314773c29a1e5de6b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMDZhZmE0OTU1ZTc4ZDdjMDE3NWRjYjJkMjg0ZjAxM2JiNGU3ZmM3NTI2NmQ2ZmJiYmE3MTUxNDRjNzM4M2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYmI5OWMzNWFmZmU1ZWIyYTU5YmQ0MWE2YjQwYzNkOWRlMWFmNGI2Mzc5NTUwYzI1MzBlZTU2NTc2MDA0ZmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhOWY0MWJhNTgyZDA1NzJjYzQ4MmIxYTlkYjkwOWUwN2E4MDQwNDY3YzU2Yjg5ZjA0MmI3ZDgzMmYyNWYyMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMxY2ZhNzc5YWU1Y2QyNzZhMWM3MTY4YzM4YTkyZWFhMDU3MjRlZWMzZDA0ZWU2YzliMDI4NTliNzVjZGVhNWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e6d898c6517949cf90e9e8dbf43e7ea6",
+      "statement": "A request to increase gpi Tracker batch frequency from 4 hours to 2 hours (PNG-1544) was declined because it would exceed the contracted Swift Tracker API quota of 250,000 calls/month; a client-facing per-payment lookup design was estimated at roughly 1.9 million calls/month, about 7x the contract, so any real-time design must use an internal change-feed rather than per-payment calls.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L133-L135",
+          "version": "repo-lines-v1:sha256:00263be13e89ea76af66a97bbaf429d9283eee22e0099e95e24302741d3f2ecf:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzlmMWY2OGI5NzcwOWI2ZWM4M2JhMjIyMjM1MWYxMzA3Mzg1NWZkMjA1OGMzNzllMjBmOWY5ODExODQzMjQzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2ZjIzOWNjN2YzYjcyMmQ3ZWM1NjRhN2VkYjgzNmMyZWE3NzNhYmQ1NGI5M2Q0NWYxZjQ0OGI1M2QyYjZlNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmVmNWNhY2YwYWFiMGJiNDdjYzUyNWY0ZWM4NGE4YmM4YzRmZjI2Nzk0ZTBiYjI2ODZjZDEwYjFiMzFiZmUyZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDI0MmY1MGNlNzY0OThlNDJlYmZlMTk4ZjE3OTJjY2E1YmM4OTc1Y2U4OTdkZDMyODQyMDJmODcwYWZjY2YyNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L90-L92",
+          "version": "repo-lines-v1:sha256:418fb701c113b34af833ad1f207a2f37a37d75a14e8f2160bc6ddae8643bdf49:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZhMjlkNTYyZmVkZmQ5ZGQwNDFhOTYyNDJhZTRmYWEyZjE1NjJkZTY4ZjBiM2FhNzU4YzE1ZTkzMmVhMTlmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzY5NjcwY2JjNjJkODg4OTQxN2JjNDQ1MjgxODgyMTNjNDg1YmE0M2Y4MWYzODFmZGU5ZWRlOTMyNjYzYzYyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1YzE3NWZmMGQwMWJlZjJmYmIyNDdmZmNhMzllYjY1YzIyYzJiMTIyOWRjZTU1NGQ1YWRmZjFkZDJiOWQ3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0NmMyZTYwNDQwZjI3MDQ5ZjgwYmYzNjhiNjg2ZWNkZTI2OGIzOGMzNmM4MzcxYWUxNTJhYjA2MDgzZjUzZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f85dad4a6fc14ddf9f6a111cc445d44c",
+      "statement": "The Payments Architecture Review Board has not approved direct channel exposure of the gpi snapshot table, and a real-time gpi tracking service (GTSI-0107 / GTRS) is unfunded for 2026 with discovery deferred to 2027-Q2.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L67-L67",
+          "version": "repo-lines-v1:sha256:7b4ee1c1bb428270053402672d151d7f4f96fec43435048a230113900301c655:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZTRmMmVkNGQ1ZTJmYWI4NTc0NmU0MDE4Mzg2OTllMGY0YmE1NmVmOWFmNjk1YzZmMzE4ODQ5OWQ1MDNkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmJkNzg2ZGVmZjdkYmQyZWNlYjA0NDU5ZWE0NzE1MDFkMGZlNmFmOWVlNjgyZjZlYWIzNDMwN2IzOTA0YzE0MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L54-L56",
+          "version": "repo-lines-v1:sha256:11e00a12917a45d0c2a3e0c9838d29fd8117f72c4d0c28698e247ce0cfe13d0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QyYTg3ODQ3M2UxM2Q4MDE2MTQyYzM3ZjVhZDVkNGM0OGE2NmYyNzYyYTNjNzBkNGI2M2M0ODY4ZThkNjRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3NWZlOTRlYmQzZjE1ZTQ1YjNlNTBhZmI2NDAwNDBlYzYwMTg1N2FjN2E5NjI1MjAzMDNiN2JlOWFhYTRjYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjljMTAwNjVhNGY2YTI4MDJiOWMzNzM0MmM2YTEwY2JkMmM3MjZiMjUxNWZiMmQ3ZjE1OWQ1NDBmODI2ZjBjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWQ3YjczNjBjOTljODk5NjMyZmRhODE2MjNiODQ0Yjg0ZWZhZjc2OTY2OTkwYzkyZmFkY2E1OTYyYTYxNDI5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b6eb9b888ea947c185566738d7707c4b",
+      "statement": "ADR-PAY-021 confines hold reason codes, descriptions, scores, and analyst notes to the financial-crimes trust boundary; PPH's v2 API exposes only hold.isHeld and hold.holdId, never a reason, and any client-facing hold explanation must come from an FCT-owned, FCC-approved facade returning disclosure tier and approved copy rather than raw reasons.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L38-L40",
+          "version": "repo-lines-v1:sha256:c8d677a33290573aa826e7fd4b7df5371c019bfddffe7c6cd8118863c079d690:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWIxNjA0ZDQ5ODAyODkzZGRlNDlkMWYwZjYwOGE1M2VmM2JlMzcwNGIzOTA2NmE0ZjgxYjRlNjQwNTY3YmM4YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTBmNDllZTBkZjRmZGZmOGRhNmQ1OTgwODQ5ZmVlNTgwNDBmNjY3MzkxMGJjNWU4NjBjNzI2YWU5ZjlhOTQzNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjdiNjU5ZjE5ZDg5NTQzZDY5MTYyYjY3ZmI1MGUxNGI4MTVlOWRhMjY1ODU0NTJiYzY0MGU1YjlhYmNmMjQzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGYyNDQ1NzIxNzFhZTcxNTdjZDUzY2UyM2E0ZmNiY2FiNDFkMGZjMTcwY2UxYmU3ZDIxZWU3YjFjNTlhNzI4NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L108-L110",
+          "version": "repo-lines-v1:sha256:fa0c1a110c0ec2463fb4a9a90e31befc095af4f57c313f725a2fbcc597d1b9f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIwMDk2YmQ4MWZiYWFhNjIwMGI2M2IxZmFiYTliYzIzYjJhNTZlMjA1MjY0ZmMzZGE0NzJhYWM4NzdkZWM3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQxMDYwZmUwYjRmMTZmYmY5NDA4MWNmZmU0MmVhNmM4MzM0OTAwMTY5NTUyNTFkYmNmNmUwMDM0NjJhZTIxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzZiMzMyMzViNmUwYjdlODBmZTU4ODJlYmQ2MTZjNzNjNjcxMjg4M2M2Yzk0OGUzZGZmNWU4NTIxNzFiNjYwOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdiODQzZDAxNjhkOTJkNzUwMTU3MmY0MjE3MzJiMTAyNmI3OGI2ZDA5OGFjNDYzNzM5YzUwZGEyOTFiODYzMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_84cfcfa476fc4a019c9dd974c4b172c5",
+      "statement": "POL-FCC-014 requires tier G (generic review) and tier R (restricted: fraud, account takeover, sanctions, AML, legal hold) holds to be presented identically to clients, with no estimated release time or next-step timing shown for either tier, so that a client cannot infer the nature of the review; only tier C (client-actionable) holds carry an approved explanation and permitted client action.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L104-L131",
+          "version": "repo-lines-v1:sha256:128251074780063dae372c92f6da039abe07147948a0f522c071012a53df6dc6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmOWFmYzBjMjUxM2UwZGY0YWFmMDA4OWU3NWVhNjU2OTNlZTEyMzM3ZmM2NTJiNjRkNDZkMDE3YjZiMzUzMGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNzhhMTBhZDkwNGRmYTRiMTgyZjM3M2YzMWE1NWU4MjAxMzAxMDcyNTI4MmRjODk3NGYyNGJkOTUwOTkxOTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2NTM2ZmY3MDMxMjRlZjE3YmJiYmY5MDY4YzUwNTAzMjRiM2QyN2VmZDZkOTIyYzNlMDU3YjhmZjlkMzhkYmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzYjU5ODllZmMyNjhiMTZiM2EyZmIyM2RiYmMyYTk0YjU0YzE3NzE3ZTQ3MGI3MDBiNzBkOGE4NzlmODUzNzAifQ"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L44-L71",
+          "version": "repo-lines-v1:sha256:d5bf7c4cc99211825468d3f258b179b3a62615ed3ac2280f1a1ecac74bf2cfa0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZmQwNzQ2NjU0YmI5NTQ1YWI3Yzc4ZDkyMzI5MjE4MGYyODgyMDk3YmRlMDU5N2ZlMDVmYzlhMzNiMmQ3M2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzZWQyYmQzMGViNWYxMTA2ODA2OTkyOTc4ZjNiODgzZjg5MTM1ZjcyMzIzMGYxODgxYWQ3NDYwNTQ4NTkwYjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFkNDliZDgwMTY3MjY4ZmUxYzgwMmFmYTUxZTJhMjZkOTgwZjM5YzgxMGI1ODRhYWM5OTA1N2VhZDdiMDZiYjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRlMGQwMmQxMTU1Y2E2MDEzNGIwM2UyMTQwN2I2MzcxYjE5OGNiYjlhMzM2MzA2NTEzMzhjYTVlOTdiMjcyNTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_41ea332054e74f35bfe7a583e0b2448e",
+      "statement": "A proposed Client-Safe Hold Status Facade (FCT-1893, 21 points) that would have returned only disclosure tier, approved copy key, and permitted client actions was deprioritized in 2025-Q3, so no client-facing hold-reason API exists today.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L61-L61",
+          "version": "repo-lines-v1:sha256:1130b678a244016097340b49c7531585d6f1eb7f203ec07285630dca071c824d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzMGI2NzhhMjQ0MDE2MDk3MzQwYjQ5Yzc1MzE1ODVkNmYxZWI3ZjIwM2VjMDcyODU2MzBkY2EwNzFjODI0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTEzMGI2NzhhMjQ0MDE2MDk3MzQwYjQ5Yzc1MzE1ODVkNmYxZWI3ZjIwM2VjMDcyODU2MzBkY2EwNzFjODI0ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTUzZGU1OThhM2QwMTgwYmM2MGFiZjJkYjhkMzI0ZTczM2I3NzgyNTBlYzMyMmFmZWQ4OGVmM2UxYjI5OGI3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGUxZmJhNzRkNjE1NmY0YjdmMzczNjA0NmYxNzRhMzRjNzdhOTE2ZmEwODZlZWEwZjQxOGFhNzhhYTA0YTYwNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L86-L88",
+          "version": "repo-lines-v1:sha256:fccd57e8ee4759e25c3f7bb4573498099402e31ed1b5734ab552453760084cf9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGIyZTkyOWIzMGQwOWVkNmEzMzY5YzM3ZmUyMDBlZTdmM2U1MWNjYTdiMTAxMWFkYzgwOGYzMjZlMDU2MTQ4OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzUwNDI2Nzc2ZDI3ZjU5ZWNhYjk3YTgyZDM0M2E4M2QyMDE4ZmRlYjQwNmQxOTYzYTI1ZjE4ZTA1YmFkYzYxZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRlZmE4YjdhMDVlYWQwNzFhNTc4ZTBlMmU0YmQxZGUzZjRmNTcxZmRjMmQ0NDM1OWM5NDczMDkzMjAxYWI4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_de57bf3b603e446285260c912a6f8365",
+      "statement": "PPH still synchronizes HMS's free-text hold description into the legacy v1 field holdReasonDesc for backward compatibility with the Wire Room console; this sync predates ADR-PAY-021, is tracked as open risk FCT-2004 for leaking Restricted-tier text to v1 consumers, and is not present in the v2 API.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L63-L65",
+          "version": "repo-lines-v1:sha256:f545e37d15347befb7b877d9913acba8c0ee5507af3aaba82258c3692a05a2af:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ5NTA0ODZkYzVlMjIzOTgxYjI0YTE1ZWUwOWRjNzI4OTI4YjljZTY4NzRjMzVhNDBiOWZlMGQ1OGNlZDA5OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2QyYTk2MmFhZDA0MDVjZGFhYTZjZmM3NmY2YjJmYTVhYWE1NDJmNTdmNWNjNzRmZGExMjQ4ZmFmYmIzNjcyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L74-L77",
+          "version": "repo-lines-v1:sha256:f3a2c90e1fac06ca064c4df6e488401843e4a5efd3bd2355fef7e0f2b0cab532:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNjY2ZiOTI1ZmIwZTc3NzMwYmE4NjM1MjcxMTJlMzI1NjA0YmFjMGYwNzQ3MzM4OTA3YWJjZmE5YWU5ZDVjYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDU5MmZmODM5ODk2NjhlYTNmMzRkNzAyNDM0MTEzMTlmNTZjNzM1MmRiMTNkODhjOGMzNjhlY2IxNTc0Nzc3ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQzOTE2ZmZmOGQ5ZTkyYTU0ZGI1ZGZjMjNhYTBlN2JhNWIxNWRjMjE3MWY1YzY3YzM5MzBiZDY0ZDJlMDdmZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a8a3ed0054874db3aae8f311f25356b2",
+      "statement": "CBO Wire Center story CBO-4388, in progress for release R26.21 (production 2026-10-22) with its feature flag defaulting ON, populates a client-visible tooltip on held wires directly from the PPH v1 holdReasonDesc field, and UAT samples showed Restricted-tier HMS text (e.g. fraud model score and sanctions match detail) appearing in that tooltip.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L71-L79",
+          "version": "repo-lines-v1:sha256:d0cbfaa57a9a08aa1111bde780a105a704ba1fb74642b1f966e939910568765b:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTU4NTIyMTU5MWFiZmVmNDRlYjA1ZmFjOGM5MGFjZThiMjg4MGViODQ1YzcyZmRkMGU4ZmUyMjA4M2YwNTExYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY3NzUzMGM5NjFiYjY4NzI5MzI4NzAyYjY2Yjg2ZjYwMGVjOGI0ODlmMDcxYTA4MTdmZTQ4NDc2NzYxZmY2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGU1MWJlYjQ0NGI0ZmJlYTJhM2VhNTY2NWFhODhjOTNlZDJjNDQzZjBhNTdkYmRjNDIwODAxNzMzZjllYmVkYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a532c7d76dd048559f39e53f04a0c97c",
+      "statement": "Payments Hub Engineering (Director Raymond Ortiz) owns PPH, Payment Networks Engineering (Director Raj Malhotra) owns the Fedwire Funds Connector, the CBO Wire Center squad (Director Anjali Deshpande, Product Owner Marcus Chen) owns the CBO channel, and Financial Crimes Technology (Director Victor Petrov) owns the Hold Management Service; new client-facing integrations to payment systems require Payments ARB review with a 10-business-day submission lead time.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L50",
+          "version": "repo-lines-v1:sha256:acdf5e2393f9e6e279adbf96949cb3cd27c0c3f88a3f052d4cea979563cfcbe3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NjAzMjVlZTYxNDVlYjgxM2I3YzEzZjQ0ZmFlN2Q1ZWFlMzMzNmQ4ODFiMGQwYmJmMDlhOTRmMmI5ZjcwYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5MmUyNWQ0ZjViNDVlYTQ2NjVhZGVkYTdkMWFhYmRiNDlhNmZmMmJlMzRiM2UzZDRjZjJjMDE3NWJlMzA3MjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZGU1ZmYwMTIzYzQzMjdlYjIxM2RhYzQ0ZDEyZTM5OTE4M2UxNjU3MGNlNTdhMDBiZGY4YTQ1NmEyNjk3N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyY2VhMWE4ZGZjNWI0YTVjNGUwMDExYWI3Y2NkMTgxZGI0OGM0NmZhNDRiNjllY2E4ZDk4MWQyOGJlNTEzMDAifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L104",
+          "version": "repo-lines-v1:sha256:fae4a9556939959d55ed83f0fe4df01097e395d0b7844ebc1ddd2112e9078f06:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWNjNzQ2ZTk2NGI3NmI3ZTZmMDQ1NTVjN2M5ZmRkNThhZjRkOTUyNGU2MzFiMGQ4NTQ3MzEyYmE3YjlkNDZmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBjODE5NzAxMjhiMmJjOWIxYmZiOThlNjFiMWZjMWEyMjUyOGRlZDE3MThlZjQ5YWMxODVkY2JlM2Q1ZTg5NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:76be63c11457c401b4c7eca714a1a75e923fdd2ec556fdfd6cc803dfeb6f53bc",
+  "claims": [
+    {
+      "id": "claim_69bc1ebd06c24ad68fb7a3ee35c4502f",
+      "statement": "MHFC's Standardized CET1 requirement of 10.2% is the sum of the 4.5% regulatory minimum, a 3.2% stress capital buffer (effective October 1, 2025), and a 2.5% G-SIB surcharge, with the countercyclical buffer at 0%; the Q2 2026 supplement and the capital planning model use the same additive stack.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L131-L141",
+          "version": "repo-lines-v1:sha256:4400768ad7db7031408e18478cf4be53779cf18ae7f43e81a0611d6bcdcce07b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhODhlODA3ZTc2MjgwZGIyODNmYWFkM2ViMWU0NjE2YWY2ZDRkMjFjYmQ2MmUxMjkyMGFlNWU2YzRlZjUwODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhODE2NTFkNTI3NzBlMThlMzUzYzI1NmJhNTI1NmRjN2MzMDQ2ZmUzMTU1MjRhOGIzMTJhOTg2OTZkYWQ1YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA1N2Y4NWRkZGYyMDJiYjc2MTRhZWRiNjVhOGRlZWFiNjg1MWNlZjRjMjE4ZDY2MzAxNjVkMjcxMzk5MDFhM2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3OWI1ZTM5NTJjNjJjY2Y5MDlkNWE3ZDU2OWU1NmE5ODU1NjVjYjI2MDQ3ZDVkMDAxNjYwMWQwMDU2MWYwMmMifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L299-L301",
+          "version": "repo-lines-v1:sha256:b2b408e73e5443a1251281b52e8b50ec37bd4439a35e282544a48afaaaeb4ee0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzY2MjdmYzMzZTQxMTU4MjdhNTMyNTk0NWY5OWEzYzIwNGQ5ODkwZmE2NjU0OWMyNDQ5MTA0YjZiODUwNzgxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDQ2Y2YzZTAyOGRkYTMzYjAzY2M3ZThiZGQyZmFiYjJiYzlkYzIxNTM0MjBmYzA4MmUwZTk5ZTI2YzNkYWFiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGNkMzQ4ZWI2Zjc0NGQzZjE3YmI0OGYyMTMxZTY2ZjBhYzc1MmM3OTQ1NzA1YmIwZTA3NWRmZGRjNjBjM2JiMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDE3YmZhYmI3MzIwZGI1ODI2YWYyNWYwZWQ5MDBiMmI4YzcwM2Y4N2E2M2RlZjg2YTkzYWQ1NGU4MTk3MTZkMCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L288-L295",
+          "version": "repo-lines-v1:sha256:5879db3f807d8bf53cb23deb21e55beeb70ef11f242339c0d326e90c02451715:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWQyZDVkYjIwMWEzYWM0YjI5YWE1ZmFkY2FiMWNkNWY5NjdkYmJjNzk0MjU0ZDIwZDYxNmU3Nzc0YTg5N2EyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODY3YzdiMjBjODQyNjdkMGFkMzhiMDU4MmNhNDVjMmEyNWY2NzJjNDhkYTk4NDM1MTc5NmJjYjc1MTYyMjhkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTFiNDg5ZDljOTlmOWUwMWZjOTc2ZTFhZjUyMGQzOTQwN2Y1Y2MxNzI5ZjZhMGI4NmQ4YWM4NDg1NjM3YmM2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTJhYWU1YWRhNDgxOWM1NDQ2Y2M1YzQ4YTA4OTQ3OGIwMmZkNzQ0MWE2YmIwN2M2NTYzOTU0MTM2MTA5MDcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ae57bff45e2b4dc9b351ad11259cc120",
+      "statement": "The Pillar 3 report defines the Standardized capital conservation buffer requirement as SCB (3.2%) plus G-SIB surcharge (2.5%) plus countercyclical buffer (0%), giving the 5.7% required, whereas under the Advanced approaches the buffer is 2.5% plus the G-SIB surcharge and countercyclical buffer; the same table lists CET1, Tier 1 and Total capital requirements of 10.2%, 11.7% and 13.7%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L186-L194",
+          "version": "repo-lines-v1:sha256:8814413ebfecb35a6c67291d9fc18f64295e16f2a8663fcfbe1b79af0a961510:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWZjNjYzNzk2YjM5YmRmNzIwODIyYjlkMjk2OGQzNzk5YTM1N2U2YjcxOTcwYjBkZDg5OTRkMjQ5NTAwNzNhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzdiOTFhNTAyMzlmODgwNGUzNTVjYTA3YzE1N2U2NmVjOWMwYWYzMjM2Y2I5YjY2NDBjYTY3YzQ5Mzk1YjBmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTI2ZGQ5NDVlY2YwMGI3MWNiZmRkZjliNWJhZTU4NmNiNDlhMTJlMDQ1MjA5NGQzMzZlOGUxZGE3MzMxMjAyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjAzZDFkZWFiYmQ3M2JkYjM2OTFkY2M3ZWZmZjY2MThkYTg0Yzg3NzUyOTFlZWQ3MTEzMzdkMjcwZmE0NWQzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_52f052f92ca840ea9055bdbb018289c3",
+      "statement": "The capital planning model (MDL-CAP-003) holds the G-SIB surcharge as a flat 2.5% input labelled 'Method 2'. It adds it to the SCB and 4.5% minimum to form the requirement and tests the severely adverse minimum CET1 (12.90%) against it, but it does not feed the SCB calculation, which is peak-to-trough decline plus planned dividends over RWA, floored at 2.5%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L131-L141",
+          "version": "repo-lines-v1:sha256:4400768ad7db7031408e18478cf4be53779cf18ae7f43e81a0611d6bcdcce07b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhODhlODA3ZTc2MjgwZGIyODNmYWFkM2ViMWU0NjE2YWY2ZDRkMjFjYmQ2MmUxMjkyMGFlNWU2YzRlZjUwODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhODE2NTFkNTI3NzBlMThlMzUzYzI1NmJhNTI1NmRjN2MzMDQ2ZmUzMTU1MjRhOGIzMTJhOTg2OTZkYWQ1YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA1N2Y4NWRkZGYyMDJiYjc2MTRhZWRiNjVhOGRlZWFiNjg1MWNlZjRjMjE4ZDY2MzAxNjVkMjcxMzk5MDFhM2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3OWI1ZTM5NTJjNjJjY2Y5MDlkNWE3ZDU2OWU1NmE5ODU1NjVjYjI2MDQ3ZDVkMDAxNjYwMWQwMDU2MWYwMmMifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L75-L108",
+          "version": "repo-lines-v1:sha256:120422934de73c12589c688117818586c38ca8bddcb71c3410c4486f7a4740a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzQwMTkxYWQ5ZDk3NzNlOWEwZjg2M2QwOTAyMzk5YTI5MTlhYTgzZjIzMmNmMjJjN2RlOTU2YTllNGJlMDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZmUxMjFiMDljNmNhNzgyZTg4MmYzZWFhOTA4ODM4ODZjZjQ4NTZkOGFlZTE1N2ZmZDE1NjJkMGE0ODVhY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2ZmYwZjcyNjQxYTRkZDRlMTk3NTA0YTQ1MGI2MTQ4MjhkYTMxZmI5ZWIzOGRmNDliYjk3OTlhOWE0MGE2NDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNWJlZGQ2MGJjYTY5MTFkZDQxOTBjY2RhMmJlNjc3NTRiM2M2MzZkZjU4ZWFjNzFkOTRlOTQ4MWRjYjdiYTgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L303-L307",
+          "version": "repo-lines-v1:sha256:846824711c78abb673bd128cf1ef667d20b4cf7118781dbae21fbed087511a73:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDk4OGQzMGRlMmRhZThmMGI5MTQwYTAxMDhiYThiZmU5MDU1ZjU1ZmU3MjViNjFhYjQzMGNmNzIxMjNjOGQ1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFlOTk5NTc4OGFlZTQ1ZTM4N2I5NDI5ZGZmZjAwYzRlY2IwMzJmMzlkMzQ1ODc2MDI0ZGI2YzVjMmM5YTNmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBjMWM0NTdhYTkyMDBjMjYyNGUwNjhkNTc3YThhNmNhOTMwOTBjM2NjNGRlZDUxMjdjMGVkZmRlNjQ1Mzg4NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_29dd1438879642e6ad12e98001b95c6e",
+      "statement": "MHFC's risk appetite and capital plan are anchored to the requirement including the surcharge: a stressed CET1 floor of 10.2%, baseline CET1 floor and management target of 13.0%, against reported Standardized CET1 of about 15.1%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L64-L77",
+          "version": "repo-lines-v1:sha256:74c019405ec33b0287cb19abe6f127b54a9da097a15d9caf5941a71b6165abfe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmYjIwNDY1MDkwOWYxNGQ1ZjJkNjkyOTFiMDE5MjUxYTA5YTQzMzNjODJlNDNjNTI0YjlkZjdhYmMwMmE1NmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNhODZjNWVmODEzNzEwYTI0Mjg5ODVhNDBkYTU1YWQ3ZWYxMDhmMDZkNzlkMDg4NDJhMmMxYjI3MWUwNDQ0YzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzOGVjZDQ4NGIxZmRlN2ZiMGQzNTcwOTdhNTlkNjBmODQ0ZTY3NDZjNGJhMmFjYmI0ODI3ZDA0ZWViNTQzNDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNmYWZjZWQxZGEwMGI4ZDM0OTI4MWY1YzI1NDQxZjNhNjgwY2Q0MDE2OGJlMTMzMTI0OGFjM2IyNmZmOGViM2EifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L274-L295",
+          "version": "repo-lines-v1:sha256:cd5c4d9bc996e1b4e45cd2f8812b0ba19126b4a147f2573111dde7395b4a67f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2MjMyMTUxOGRlMmYzMzRiYmIzNDc2MjdlNmNmNmU2ODg5MDJlMmFmM2VkOGZjMjVkMWQ1OGUzMmE0ZjM5MTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2N2M3YjIwYzg0MjY3ZDBhZDM4YjA1ODJjYTQ1YzJhMjVmNjcyYzQ4ZGE5ODQzNTE3OTZiY2I3NTE2MjI4ZGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkYzhiZGIxMmI5NTYyNDcxMjNjNGZjNzljMDE1NTRmMmM3MGRkNTEzYWMzZmJhOTVkNzNhNWNmYWMwYWNhNTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyYWFlNWFkYTQ4MTljNTQ0NmNjNWM0OGEwODk0NzhiMDJmZDc0NDFhNmJiMDdjNjU2Mzk1NDEzNjEwOTA3MGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f0eaafc9043148968a98e2dacb1f170c",
+      "statement": "As a G-SIB, MHFC is also subject to a 3.0% minimum supplementary leverage ratio plus a 2.0% enhanced SLR buffer (5.0% effective), and segment capital allocation incorporates Standardized requirements, the SCB and the G-SIB surcharge.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L166-L168",
+          "version": "repo-lines-v1:sha256:85f8c864cf6ce419f7a4f94ec865048921ce2890ca15666a2e4d309debc05123:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQ0Y2QzZWU1MzczZjBjODY4YzExMGQzOGQzMDc1YjgzYTQ2ZTU5MThmMmY2Y2U1NGZiODhlMGU3ZDliMzhlMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQwYWZiZjY5YzVkYWIyODM0ZjAzMGUzNzAzMDVlYTg3ODk5MDIwODZhNjQzYzc1ZWEwZTgzY2M3ZjAyZmZiYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTI2ZGQ5NDVlY2YwMGI3MWNiZmRkZjliNWJhZTU4NmNiNDlhMTJlMDQ1MjA5NGQzMzZlOGUxZGE3MzMxMjAyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzA1MjUzNGNiNjkxZDNlOTQzOGNjNTQ1Mjc1OTBlNWY2MzY4OWFmZDE2YjY3ZWNjMTVjZmYwYmIyNzk2NDJkMyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L198-L200",
+          "version": "repo-lines-v1:sha256:1dce78e2cfaef4522ab03e9aaafbed772dc291f689a922ceae344b8446fd5bc9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjEwODkyYWEzNzA5ZWRmNDJhNTY2NDVhZjc3MGMzMTE4NGVlN2IwNDY0ZDY5NTZlYTQ4YmQ5ZWFmZWQyZDZkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA4ZWZmY2ZlYjYxYjgzNDY2YzkxZGFkYjhjMTBkYzYwNTVmYmUzNzEzNmZhNDYzZWY1ODRjMDg3ZTRhNTk2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjAzZDFkZWFiYmQ3M2JkYjM2OTFkY2M3ZWZmZjY2MThkYTg0Yzg3NzUyOTFlZWQ3MTEzMzdkMjcwZmE0NWQzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODQ0NzY5Mjk2NTA0YjJmYmY5ZWUxMDg4NzQ3NDdhYWI3NTRjMGZmMTQwZDkxYWE1ZThmOTAzNjkzZDk3ODUyNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fac7ac6b1f3e4ff8a53ac4c9095b8d0d",
+      "statement": "At December 31, 2025 MHFC's Standardized capital conservation buffer was 10.58% versus the 5.7% required (which includes the 2.5% G-SIB surcharge), with no limitations on distributions or discretionary bonus payments and eligible retained income of $23.9 billion.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L194-L194",
+          "version": "repo-lines-v1:sha256:37b91a50239f8804e355ca07c157e66ec9c0af3236cb9b6640ca67c49395b0fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzdiOTFhNTAyMzlmODgwNGUzNTVjYTA3YzE1N2U2NmVjOWMwYWYzMjM2Y2I5YjY2NDBjYTY3YzQ5Mzk1YjBmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzdiOTFhNTAyMzlmODgwNGUzNTVjYTA3YzE1N2U2NmVjOWMwYWYzMjM2Y2I5YjY2NDBjYTY3YzQ5Mzk1YjBmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmMyZjk1YTQ1Yjk4ZDI2NmNlMDBiODYzMjE3NTg2MzBmMTc5OTg1MDA5YmUxOTIyZTk4Njg3NmI5MjViMmRiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjAzZDFkZWFiYmQ3M2JkYjM2OTFkY2M3ZWZmZjY2MThkYTg0Yzg3NzUyOTFlZWQ3MTEzMzdkMjcwZmE0NWQzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ea1a04fa484b4eda890913640604e15e",
+      "statement": "The Annual Report glossary defines the G-SIB surcharge as an additional CET1 buffer applied to global systemically important banks; the reports provide no derivation of the 2.5% beyond the capital planning model's 'Method 2' label.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L133-L133",
+          "version": "repo-lines-v1:sha256:80f2397d165a3050ce6828dd9455ccec5f229f4048cb02a13be619f3f9fb6efe:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODBmMjM5N2QxNjVhMzA1MGNlNjgyOGRkOTQ1NWNjZWM1ZjIyOWY0MDQ4Y2IwMmExM2JlNjE5ZjNmOWZiNmVmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODBmMjM5N2QxNjVhMzA1MGNlNjgyOGRkOTQ1NWNjZWM1ZjIyOWY0MDQ4Y2IwMmExM2JlNjE5ZjNmOWZiNmVmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2JmZDYwNDcxMzYyMzM0MDhmNDA5NWM2MjBiODM4MzFkZDcwNzQxMjBjMDdlOTI1NGVlYjhiNTZlOWQyZWZmZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJlYjRiNjRmYTM1MzI0OTc0ZWYxODZkNTIyODU4NjA3NDNiMTJlOTI4OWIzYTJlMzQ3ZWIyMTYwMTgwZmY4OCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L654-L654",
+          "version": "repo-lines-v1:sha256:a15c789d69f91c0e8e86f638c94053d738de2d080b14ccc1a1905dcd358ec832:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTE1Yzc4OWQ2OWY5MWMwZThlODZmNjM4Yzk0MDUzZDczOGRlMmQwODBiMTRjY2MxYTE5MDVkY2QzNThlYzgzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTE1Yzc4OWQ2OWY5MWMwZThlODZmNjM4Yzk0MDUzZDczOGRlMmQwODBiMTRjY2MxYTE5MDVkY2QzNThlYzgzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2M2NGZkYjkyZTI1YWMwODRlYzM0ZWFkZGEwNmIzMDEwMDhiODc0Y2E1NzEzOGE0OTZkMzMzOWM4NGQzN2FmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzI2NDM1NTE2YTU3YTdiZjg1MGVkNGJkNDllOGZmMGQyMjAzNWI4N2U4YmZlN2E3NmUwMWIwZGVmYjlmZjA3YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_730f91ee3e314e8ca706bade2a81bc18",
+      "statement": "The capital planning model's indicative-SCB requirement (3.18% SCB) is 10.18% versus 10.20% for the current 3.2% SCB, with the G-SIB surcharge held at 2.5% in both; the SCB is 3.2% for October 1, 2025 through September 30, 2026.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L102-L104",
+          "version": "repo-lines-v1:sha256:d37e4803fd7d92239fbdf1cc594a1936cfb7f1d19d5bc6b50c53fcccb46e015c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWEyZDE0N2I3YmU5NTcyYjdjYmI0Njk0ZGJiMzEwMzNlODY4Zjg2YzJhN2I4ZjEwMWNkNTJlNzgxOTRkMGMxOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTNlYjdiZmM0Y2NmZmQ0NTJiNGM1ZDYzMThhZGUxZjM4NDljYWM3ZWQxMWRkNDJlNzY5MTg2N2Q4YjgzMDExNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTU0MDhjNGRmYzFhM2I0YjNmNTYxNzc0MDM5OTA2ZWQ3ODQ4NzNlNTZlOGI3MjgyNjQ5NzIxMzVkZjU2MGNkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTYxZjk2OTAxOWJhNGI5OWVlMzJkYTNkOWE4NjQzOGY4N2ZmZjU4ZmVkMDFjNmM3NGQ3YWRiN2I3OTQ3MjZjMCJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L84-L86",
+          "version": "repo-lines-v1:sha256:f09a8edf1365ff5f836ee1178e28ae220901fc5f0b2f762984f5a6934caf27b4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2U5MDY2NWUyM2UxZjc2OGRiNGJjYTQ3MDRhODYxMTFlMDJlMmE4NmUwYTBkODkyNzQ1MGFlNGFlNzBlM2NjYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQxOTlkOWUwY2M3Mjk0YWFiY2YxYzZmYmEwNjI3NTc2ZjdmMzMxYTY5ZDY4MjcxNmEyNmJjN2YwMjJlODM4MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2RlNTdhMGQ3YzdjZjAzNDIzYjU5MDU1NzI0ZTQ3ZmMxOTgyNjkzMjkwZTZmMmJhOTI2ZDYwNjJmOTBkNzc3MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTIzZDM3NDI5ZTI5ODUzNjFhNjFiN2EyNTNiNWI1YmYzNGRhMWU3MTVlNDFlYTc2M2ZlYjAzNDA3Mjk3NDQ3MCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L305-L305",
+          "version": "repo-lines-v1:sha256:cd1c8a0883b0d95965fa806d723100a47d16fed258a9a684ca927d2aed2cfff4:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2QxYzhhMDg4M2IwZDk1OTY1ZmE4MDZkNzIzMTAwYTQ3ZDE2ZmVkMjU4YTlhNjg0Y2E5MjdkMmFlZDJjZmZmNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2QxYzhhMDg4M2IwZDk1OTY1ZmE4MDZkNzIzMTAwYTQ3ZDE2ZmVkMjU4YTlhNjg0Y2E5MjdkMmFlZDJjZmZmNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDE3YmZhYmI3MzIwZGI1ODI2YWYyNWYwZWQ5MDBiMmI4YzcwM2Y4N2E2M2RlZjg2YTkzYWQ1NGU4MTk3MTZkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTk1MjU0NTk0NmI5NjdlNDE2ODAxZGUxNGIyODY2Zjg0YTE5YzNjZDk4MDQ3Mzg0ZjE2N2MxOGUwMDU3ZTlkYiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T02:29:31.666Z"
+  }
+}

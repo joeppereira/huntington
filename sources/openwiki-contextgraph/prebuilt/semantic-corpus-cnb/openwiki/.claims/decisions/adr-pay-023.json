@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:2b120b17a9d15e921144ee9b4cdf882bab922de952bf954a227f56bf1646ecdd",
+  "claims": [
+    {
+      "id": "claim_77c2c028a20141d2af5e96dde9caa48f",
+      "statement": "ADR-PAY-023, accepted 2025-09-09 by the Payments Architecture Review Board, designates UETR as the canonical end-to-end correlation id for all outbound wires and applies to PPH, gateways, channels, and TDIP.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L31-L44",
+          "version": "repo-lines-v1:sha256:539daf32c995378db9afe29bfb66c5e782c73a1088f8fc3deef85d0b4127e5a7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkxYTRjOGRjOGM4MjU4YmE5NzczODg0MjdlYmZjNDIzYmM1MjBhNzgzYzZiYmM2ZTBjYjMzZDIyZjM4ZTFiYjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZThhMzc5NzBkMTg3NjNiOWIzZGUzMDM0MGVjMzNmMTA1MmU0YTdkYzk1OTNjNzM0ZmJmYzY3MWIwNzE2ZmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBhMWVhMjBkODc2NDNiOGNmMmY0ZTA3MzdmNzg0YWFiMjk5MTY2OTE3OTMyMTE2Mjg0ZDliNGRjMDhhODVhN2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJjZWM5MDlmYjU0ODhlODMwOWE3ZjVlMWZkMjc2ZTYxNmM2Y2VlZDJlYmRlOThhOWMxYWQ3ZmNhZDNlNTgwY2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6a548d0845b847e08ad32eef0b9a5a62",
+      "statement": "Under ADR-PAY-023, PPH assigns a UETR to every outbound wire at release, including Fedwire pacs.008 messages, not only Swift CBPR+ wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L42-L44",
+          "version": "repo-lines-v1:sha256:74dd468cb4e808559fb18a5e97528354b022937574809a3792179d8832162fb4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3N2E3MTk2ZmMwMDgyYmZiMzI0YTkyMTExYzdlZTZjMDgzMGE2MzVkZmM3YzY4MGNiNjA4NDNjNjIxNGQ0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRlOGEzNzk3MGQxODc2M2I5YjNkZTMwMzQwZWMzM2YxMDUyZTRhN2RjOTU5M2M3MzRmYmZjNjcxYjA3MTZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmUwZWFiZTFjYzcxOTkyODk0MGM0YTA3MDllMjdjNjI2MTk5MzVkMDIwN2U1NTJiZGY1ZTYwNWIzYThkMDY2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmNlYzkwOWZiNTQ4OGU4MzA5YTdmNWUxZmQyNzZlNjE2YzZjZWVkMmViZGU5OGE5YzFhZDdmY2FkM2U1ODBjYyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L105-L105",
+          "version": "repo-lines-v1:sha256:10a415de03ce772dd793953f867be4d5f933688c007bd59fa51bed27cb293d54:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTBhNDE1ZGUwM2NlNzcyZGQ3OTM5NTNmODY3YmU0ZDVmOTMzNjg4YzAwN2JkNTlmYTUxYmVkMjdjYjI5M2Q1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTBhNDE1ZGUwM2NlNzcyZGQ3OTM5NTNmODY3YmU0ZDVmOTMzNjg4YzAwN2JkNTlmYTUxYmVkMjdjYjI5M2Q1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGZmZDYxMjBlZmIzYzdlM2E2ZTEzOWRkNWJiMWZjNjc3ZTIxZmJkNDU4ZjQwMDFkMjZjYWE5ZGI4ZDU1MTE3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQ4MGE0MzFhMGMzOGE1NDU2ZGQ0MmZjNjA2ZjUwN2NlZmJkMzc3MWUxMGQ0MWQwMTFlNmQzNmVkMzA5MjYxZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L48-L48",
+          "version": "repo-lines-v1:sha256:222494fbd35922729097c38223d2b4b2b29f2c24cc9dd6e9009ea2838bd9ba0a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIyNDk0ZmJkMzU5MjI3MjkwOTdjMzgyMjNkMmI0YjJiMjlmMmMyNGNjOWRkNmU5MDA5ZWEyODM4YmQ5YmEwYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIyNDk0ZmJkMzU5MjI3MjkwOTdjMzgyMjNkMmI0YjJiMjlmMmMyNGNjOWRkNmU5MDA5ZWEyODM4YmQ5YmEwYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDJlMGMxNjZmMzg2MzNhNjgxY2MyNjMwNmM3Y2ExOTEwOGQzNjgwMjNlNmYwZDc1OWZkOWMxMmJiNzNmODQ2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGUzYjYzMmRlYWZiODA2NDFhMjc3ZmJjZGEwYzZiZWZiM2VjODFhY2E4N2Q0YTBiZmZiZjJhNDlmZGNiYzVjNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_efa32d0f591a41d4aed539021d7bae77",
+      "statement": "Consumers needing to correlate a PPH payment with Swift gpi data must obtain UETR from the v2 API or v2 lifecycle events; legacy v1 consumers do not receive UETR at all.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L42-L44",
+          "version": "repo-lines-v1:sha256:74dd468cb4e808559fb18a5e97528354b022937574809a3792179d8832162fb4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3N2E3MTk2ZmMwMDgyYmZiMzI0YTkyMTExYzdlZTZjMDgzMGE2MzVkZmM3YzY4MGNiNjA4NDNjNjIxNGQ0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRlOGEzNzk3MGQxODc2M2I5YjNkZTMwMzQwZWMzM2YxMDUyZTRhN2RjOTU5M2M3MzRmYmZjNjcxYjA3MTZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmUwZWFiZTFjYzcxOTkyODk0MGM0YTA3MDllMjdjNjI2MTk5MzVkMDIwN2U1NTJiZGY1ZTYwNWIzYThkMDY2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmNlYzkwOWZiNTQ4OGU4MzA5YTdmNWUxZmQyNzZlNjE2YzZjZWVkMmViZGU5OGE5YzFhZDdmY2FkM2U1ODBjYyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L97-L106",
+          "version": "repo-lines-v1:sha256:ea23ef2c4f42c936de062beca162eac894af0795b48f20c49f8f94b6a6e64f84:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkYmEzYzM0MGMyZjg1YWVjOWIyMjYxMzE2N2YwOTc1MzQxZDRkOTU5YzliYTk2M2U1ZTM2ZjhhNjgzNGIyNTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwNGNiZDA0OThiZmFmYzI0ZmM2MzQ0ZDliYTQ1YmQ1M2I5NjFkMzMwMWQ2OTM2YjU3ZDIxZTI5NmQxMjI1ZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxZjk3NDIzOGZmN2Y1ZTYyMmM2MzQ2YmM5MzFmMzg4NDM2MDZlYWNlNmM3OTVhNzZlNWY0MjQ4ZGVlMDBjOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY1NmM1ZjEwNGU1OTdhOTZiMzA1MjYyYjgwNmZhNGVhMGJkYjU0ZjM0M2FhMmI3M2M0MzU4MWZlMmJlOTlmYTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e2def7e01f544fde84edee21bba4978f",
+      "statement": "Universal Fedwire UETR assignment under ADR-PAY-023 was implemented operationally in 2025-10, one month after the ADR's acceptance; TDIP's pay_wire_txn_hist.uetr column is populated for Swift wires from 2018 onward but for Fedwire wires only from 2025-10 onward.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L42-L44",
+          "version": "repo-lines-v1:sha256:74dd468cb4e808559fb18a5e97528354b022937574809a3792179d8832162fb4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3N2E3MTk2ZmMwMDgyYmZiMzI0YTkyMTExYzdlZTZjMDgzMGE2MzVkZmM3YzY4MGNiNjA4NDNjNjIxNGQ0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRlOGEzNzk3MGQxODc2M2I5YjNkZTMwMzQwZWMzM2YxMDUyZTRhN2RjOTU5M2M3MzRmYmZjNjcxYjA3MTZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmUwZWFiZTFjYzcxOTkyODk0MGM0YTA3MDllMjdjNjI2MTk5MzVkMDIwN2U1NTJiZGY1ZTYwNWIzYThkMDY2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmNlYzkwOWZiNTQ4OGU4MzA5YTdmNWUxZmQyNzZlNjE2YzZjZWVkMmViZGU5OGE5YzFhZDdmY2FkM2U1ODBjYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7d055f36a4e94c359faf470559eacd1e",
+      "statement": "PPH v1's lifecycle status model has no field carrying UETR, and this gap is not planned to be backfilled, consistent with the PPH v1 API sunset (Volaris 9.6 removes the v1 adapter, no extension beyond 2027-03-31).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L42-L55",
+          "version": "repo-lines-v1:sha256:8c848cc645a54586bec6d21dd7c4ce00b25a09df38a2046ff15851b478c0dccd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiNzdhNzE5NmZjMDA4MmJmYjMyNGE5MjExMWM3ZWU2YzA4MzBhNjM1ZGZjN2M2ODBjYjYwODQzYzYyMTRkNDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFkZjA1N2I1YjA3MDY5MjY2ODQ4NzQyMTlkZGVjMjNmZTZkNTk5M2Y4ZWVhMDlkYzVmMDU1ZDhlMTVkNjhiOTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJlMGVhYmUxY2M3MTk5Mjg5NDBjNGEwNzA5ZTI3YzYyNjE5OTM1ZDAyMDdlNTUyYmRmNWU2MDViM2E4ZDA2NjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNiMzkxMDkxNTMwNGUxNDllZjVkNmExZTAxNjRlMWY3ZDdmMDYyOTM0ZTQ3MjRiY2M3NDM4NjBlNjhmMDlmMWQifQ"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L97-L106",
+          "version": "repo-lines-v1:sha256:ea23ef2c4f42c936de062beca162eac894af0795b48f20c49f8f94b6a6e64f84:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkYmEzYzM0MGMyZjg1YWVjOWIyMjYxMzE2N2YwOTc1MzQxZDRkOTU5YzliYTk2M2U1ZTM2ZjhhNjgzNGIyNTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwNGNiZDA0OThiZmFmYzI0ZmM2MzQ0ZDliYTQ1YmQ1M2I5NjFkMzMwMWQ2OTM2YjU3ZDIxZTI5NmQxMjI1ZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxZjk3NDIzOGZmN2Y1ZTYyMmM2MzQ2YmM5MzFmMzg4NDM2MDZlYWNlNmM3OTVhNzZlNWY0MjQ4ZGVlMDBjOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY1NmM1ZjEwNGU1OTdhOTZiMzA1MjYyYjgwNmZhNGVhMGJkYjU0ZjM0M2FhMmI3M2M0MzU4MWZlMmJlOTlmYTYifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

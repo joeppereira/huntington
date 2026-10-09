@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:042f5f312a74d158ebad4a2308cfb98e6e1490611f64e1cf59ffb495347e5813",
+  "claims": [
+    {
+      "id": "claim_e9bb42debace4ea3a816410df41cb4fb",
+      "statement": "The Federal Reserve cut Fedwire Funds Service over to ISO 20022 messaging in a single-day implementation on 2025-07-14, retiring the legacy FAIM message format with no coexistence period.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L30-L38",
+          "version": "repo-lines-v1:sha256:7f4ffd6ecf195f950e15299f576f7f9734a612fad1bf8c25da64f9f71b713f3e:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQxZjc5MzU3NzhiNmI3MmNlMTEyZjUzN2JkMGFkNzVlN2I0MWEzODk2NDI3YmQzZWFkZWM0OWZkMjA5YmFkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5YTQ1OWFlZGFkMjNjYjQ0YmVlZWQ5NTgyNzhkMDVmMjE5OThlZDNmMDcxOGFjZTc5NmU0OWU2ZGJhYzNkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmY1YWVkOWM0NmJmZjBlZmQ2MTZkZDVmMDJiNGI4NTE4ODkxMTdhMGYyYjRkYjU2MDBmNjI1M2E0MjEyZDVlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTFmNWM3YTUzNjFlMzhmMGY3ZmI3NTA5MWE2OGQ4YWZmOTZlNGY0MDM0YjFmNWY2YzVlMDdhNWVmZWUzOGE1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e5e38e48cfdd41f09907d625388bf5dc",
+      "statement": "Since the 2025-07-14 ISO 20022 cutover, the Fedwire Funds Connector (FFC) sends pacs.008, pacs.009, pacs.004, camt.056 and camt.110 outbound, and receives pacs.008/pacs.009/pacs.004 (published to net.fedwire.inbound.v1), pacs.002 acknowledgments, and admi.002 error messages inbound over FedLine Direct.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L30-L38",
+          "version": "repo-lines-v1:sha256:7f4ffd6ecf195f950e15299f576f7f9734a612fad1bf8c25da64f9f71b713f3e:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQxZjc5MzU3NzhiNmI3MmNlMTEyZjUzN2JkMGFkNzVlN2I0MWEzODk2NDI3YmQzZWFkZWM0OWZkMjA5YmFkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWM5YTQ1OWFlZGFkMjNjYjQ0YmVlZWQ5NTgyNzhkMDVmMjE5OThlZDNmMDcxOGFjZTc5NmU0OWU2ZGJhYzNkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmY1YWVkOWM0NmJmZjBlZmQ2MTZkZDVmMDJiNGI4NTE4ODkxMTdhMGYyYjRkYjU2MDBmNjI1M2E0MjEyZDVlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTFmNWM3YTUzNjFlMzhmMGY3ZmI3NTA5MWE2OGQ4YWZmOTZlNGY0MDM0YjFmNWY2YzVlMDdhNWVmZWUzOGE1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b9d5df66ee9b4f99aa9888efdaeaf71e",
+      "statement": "For each accepted Fedwire value message, the Federal Reserve returns a pacs.002 carrying the OMAD and a Fed-generated creation timestamp; FFC publishes accepted acknowledgments to net.fedwire.ack.v1 and publishes admi.002 errors keyed by the original IMAD.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L40-L43",
+          "version": "repo-lines-v1:sha256:db7b2972b8e12919bfe41f413e939fba226215607b0eb018fc75713089861747:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc0ZjkwYjUzY2UwNjk2ZDkxYTcwMzI5OGU5MTQ1Y2JmMDFlMTAzNWMzODQyY2RiMjgzZTEwMWM1ZGYxZGE1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM3MmRhMzA5YTMzZDc3MDc1YmMwNDM3NjhjMzM5ZmE5ZDEwZWU2MWFhN2U0YzhjNDIzMjI3Yjk5YTAxNzllOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZjYmJkMjYxOTkyZDJhZTNjYTUyM2JjMDhiNmQwZTJiMzkzZDM1MDllZGY1YmFiMmE2MzliOGMyYjQ0ZTRiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5fe0cd7192cc4f26a6554106f5e0ce42",
+      "statement": "Acceptance by the Fedwire Funds Service constitutes final and irrevocable interbank settlement under Regulation J (and UCC Article 4A), crediting the receiving bank's Federal Reserve master account; it does not constitute or report credit to the beneficiary's account at the receiving bank.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L40-L43",
+          "version": "repo-lines-v1:sha256:db7b2972b8e12919bfe41f413e939fba226215607b0eb018fc75713089861747:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc0ZjkwYjUzY2UwNjk2ZDkxYTcwMzI5OGU5MTQ1Y2JmMDFlMTAzNWMzODQyY2RiMjgzZTEwMWM1ZGYxZGE1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM3MmRhMzA5YTMzZDc3MDc1YmMwNDM3NjhjMzM5ZmE5ZDEwZWU2MWFhN2U0YzhjNDIzMjI3Yjk5YTAxNzllOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZjYmJkMjYxOTkyZDJhZTNjYTUyM2JjMDhiNmQwZTJiMzkzZDM1MDllZGY1YmFiMmE2MzliOGMyYjQ0ZTRiNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L88-L95",
+          "version": "repo-lines-v1:sha256:0e075ddaf74fe14ef25d7654439b547f620a93a40fb689563c40fbfb4f7605d8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1NGRmYTQ4ZDE4ZGNhMDE0NTc1MDliOWMwMTdlMDQ1OWU5YzAxNmEzYTNhMjI5ODk2OWJmYjI2Y2U1MTc5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQxMjgwOTViYTdiZDI4MTljYWU2NTQ1OWI3ODg4Y2U0ZTBlZDA3NWI4ZDYxYjM4NTg3MDUzYzI4YjZmMGRiZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGU1MDI3ZTBhMGY5ODRjMzUxNjRmNGE3NzE1ODQ5NmVhMDRlZDJlNWFhNmUzMDM1NzIwN2MxNTJhYjAyNWZjMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d906082804544f3aa0491bb2c0c6b4d1",
+      "statement": "Q3-2025 Fedwire acknowledgment metrics observed by PNE: median Fed ack latency of 4.2s (send to pacs.002), median 6 minutes from PPH RELEASED to Fed acceptance including queueing, and 0.07% technical/business reject rate (admi.002 or negative pacs.002).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L44-L49",
+          "version": "repo-lines-v1:sha256:cb1812c54f2d5a1cd6fcd81f366faf53eed4484e91a7e803d63482d1f4d79563:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzYTA2YzQ0NjE3MjZjNTAxMTkyNDVmZWVmNjZiMDViMDg3Yjg2NmM1ZTIxZDc1NmZkMWE4Y2FiNjRjZTMxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjIzYzk0NmI0MGM5NzNiNDc3ODA0Yzg2ZWQ2NjJlODQ5ZTljZTk4NmMzZWNkYWM0MWM0ODE2MmQ2Mzk0MWE5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDg4OTY0MWYxZWY5Mjk4NGNlOWZjMGFiYWNkMTkyYjk4ZDM4YjFiODM2ZWE4OTAzZDNlOWRjNDIxOTYwZTA1MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f165d7656ab24ad9a3d482aa6ef4958b",
+      "statement": "net.fedwire.ack.v1 and net.fedwire.inbound.v1 are both produced by FFC, consumed only by PPH, and access-controlled by Payment Networks Engineering (PNE).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L50-L56",
+          "version": "repo-lines-v1:sha256:d4d5af0fd3edd6e7d10dcc8a877bb4171f0f0b52ff495b55e7c9b6003ead19c0:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE2NTEzMDg3ZWY4NWFkZWE1ZThiYjFkZjllNmExNGE2MGJmM2VmMDBlMGQ0NjExN2VhMGM3YTNmODE3NWY3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWJhOTg5NmEzZjJkM2IyZDM4YjFjYTZmMzk2MzI0ZDA5ZTFjYTRjZGJmNWMyNmQ3MGFjYWJiYjg4NzI3YjUzNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTNjOGQ1ZWU4MjNmZmIxNGZjYTA4YTE3Yzg4OWRlNDJhYjg3OWU2MjIwMDEzOWJhOTY3NzUyYzU1YjI5ODc3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3129be290e314d40bc0fffd3b408272d",
+      "statement": "The Fedwire operating day runs 9:00 p.m. ET (prior calendar day) to 7:00 p.m. ET; the Fedwire third-party customer transfer cutoff is 6:00 p.m. ET with later items warehoused under hold reason HRC-04; CBO enforces an earlier same-day domestic wire cutoff of 5:30 p.m. ET.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L112-L118",
+          "version": "repo-lines-v1:sha256:b310eebcdf84fc367c85b7716275b736f58c2fb7c65f9b01f237418bfed757a4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2QwYTRiN2I5MzFkMjQ2ZGY2MjRkYzg1NjA4YmE1Mjk3YjY2NDhkZmNiMzAzZDhlMTA0NzgxMjVlMTgwYTU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMwZDNjOTRjMDk2NjZlYzdlNWI2N2Y1YmE2MDk5ZGRkOWYwYTEzNTg4Y2Q4YWFjMjA1Y2U0NzIyNWFiZWUxYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjExNmE3ZjRiMzExMGUzZDIwODc1YTFmMzRhNjhlMDI5MWExNWNiOWQxOTAwOGIyZmJiNDZlZWU0NmY1NTEzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGQ4NzY1NmMyNmExZTBkNDEzYjZmMGIyNGJlYjk0N2UzMWFjNWE0NjM1YjBlYjk1YzRlNGM5ZGQ3YzlmNDllYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1663a7448be342f39238e2e5086209b4",
+      "statement": "PPH's v2 lifecycle models the Fedwire leg as RELEASED -> SENT_TO_NETWORK -> NETWORK_ACCEPTED (on Fed pacs.002 positive ack) or NETWORK_REJECTED (admi.002/negative pacs.002), then COMPLETED, with possible later transition to RETURNED on a pacs.004.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L54-L83",
+          "version": "repo-lines-v1:sha256:fe959f59a4c9193850c9329f96b0e9b0dee89db60bf681e8209d7555f9c5042c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNDBhODBmYTk2M2E2NWQ3ZjViZTU2MTIzMjA0M2ZhNjQzMzUyMDIyZDA3NTQ5ODM4NTE3N2I1OWY0NmFiNWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2MjhjYWMyOGIwNGY1OGY1YzdiM2ExNWMzYzUyMDA1N2JlMjhmNzYzMDY1ODc5NDBjMWZhMGQ0ZDA3MDE0NDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIxNzM4ZDMwMzcxNzJjM2JhNjgxNmU3N2FiZjU5MWM2MTUyZWU2YWUxZTdhYjQ4OGE3YzFlMzgyZTlkMDNmMjMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_364de0c3f1cd47c79dcc44dc2e84ffe3",
+      "statement": "The v2 stateHistory timestamp recorded for NETWORK_ACCEPTED is the time PPH processed the acknowledgment, not the Federal Reserve's creation timestamp in the pacs.002; the authoritative Fed timestamp and OMAD are carried only on net.fedwire.ack.v1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L95-L96",
+          "version": "repo-lines-v1:sha256:0f173507210838b6f38067c78e363696329b734b39f0b82987d5d4d7d54cb7c5:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDM2MjFmZjY2YmQ2NDQ2ZGYxMmE5MjMyMDFiZjY1YTdmZTY2OWFmYWU1ODY1MTkyZDE5MjcwMTZjYWZhYTBiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk2YzYxOWEyYmY1NjE4ZGJmMGEzMTU5ZTNhNTI2ODRkNDAxMTVhNDhhYzZmZTFlMzY1Y2Q3OTE4NzMxYjI4ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDRmOWIwMTU4NWE3NDg3YzJkZWFhZDRmZjA3NDljM2FlZjdkM2IyZTM1MThiOTJlZDcwYTU3MDM5OWVjNjNiNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_376b172576064c9aa81451fb111fb50a",
+      "statement": "The legacy v1 PPH status API collapses RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED and COMPLETED into a single PROCESSED value, so v1 consumers cannot distinguish a merely-released wire from one acknowledged/settled by the network.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L84-L86",
+          "version": "repo-lines-v1:sha256:21738d3037172c3ba6816e77abf591c6152ee6ae1e7ab488a7c1e382e9d03f23:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjk2Y2VmNTZiNWUxOWRkYmI5NmM0MTkzYzljNmVlNDU1YzU2OGM5YjIyNzBmMTZmZTQ2MDQ2NTQzYWZmMjhmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGUwNGY2MmQyMDJjMjY3YzM1MmQwMDkyMDM3ZjNlMzBiZGRjYjJkMTQzMjM1ZTg3ZmIyMTZjNzNjMGYyOWQ4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGZjNDU0MjVmNWU0NjQxZTY4M2UyMjQyZTcyMmI0YTYyODhhNmFjMjk2Njc5ZTEzMThmNWMyOGNhYzNhN2Q0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTI3Mzk4NTNlOGJiN2Q2ZmQ2YjBhM2VhZTliNjU5ZGVjMGM5YzRmNWFmYTY4NDQ1OTI5YjQwOTg5MGIwNTk5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8cc1f6db0c75415dbab01a87f5aa933f",
+      "statement": "For Swift CBPR+ wires, the SwiftNet delivery ACK for pacs.008 has no settlement implication (unlike Fedwire's pacs.002); settlement occurs later via correspondent nostro/vostro accounts and beneficiary credit is known only from a Swift gpi ACCC status if reported.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L88-L93",
+          "version": "repo-lines-v1:sha256:12e961c8e61d6d4b5251847f2d0b8e3e785c34cd8cef4d08c8bd1f86299c02c7:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1NGRmYTQ4ZDE4ZGNhMDE0NTc1MDliOWMwMTdlMDQ1OWU5YzAxNmEzYTNhMjI5ODk2OWJmYjI2Y2U1MTc5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQ0MDdmNjUxMThmYzFmYTcyYzM3ZGIzNzgyOGRmMGFlOGJmZDBiYjEyOTQ5YjI1Y2FmNzBhMWU0ZjY1ZDc5YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDQxMjgwOTViYTdiZDI4MTljYWU2NTQ1OWI3ODg4Y2U0ZTBlZDA3NWI4ZDYxYjM4NTg3MDUzYzI4YjZmMGRiZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjFmOTc0MjM4ZmY3ZjVlNjIyYzYzNDZiYzkzMWYzODg0MzYwNmVhY2U2Yzc5NWE3NmU1ZjQyNDhkZWUwMGM5MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ba4894e5a3e3492daf843e6923219742",
+      "statement": "Structured/hybrid postal address enforcement becomes mandatory for Fedwire and Swift CBPR+ instructions starting November 2026, and is expected to increase repair-queue (REPAIR, hold reason HRC-06) volume.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L132-L134",
+          "version": "repo-lines-v1:sha256:2fa65ab0bb46c8ce0637b73511e4294d9ab47e5f38cf89a5fe8e84ac3ca7ca2a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmVkZWIxYWYyNDYzYTZjNWU5Yjk1YjhjZTIwYjI0YzY3MTVkZGFiYzFhYTQ4Y2U5NWYxZTQxYmNkOGQ4YzMxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFmODMwMTMzZGRmOTg2MWQ4ZGRiOTE2YzVhZmVkYWU1YzY0MTdiZTdmMDNkYjYyZjA0N2U4Mjc1MmIxMjgxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWJhM2QzYTEzMmY0YzY0MjI1OTBmNDZlZTI5NTVjNGI3ZTlkNjc0NjdiNzBlY2Q5MjUwOThiMjRkOTVkMzU4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjE3YjVmYzA2NjkyZDcyOGJiZmVlZjBmYmNlMjAxYWU5MjliYjM4YTNhNzMwODdiNmQyOTk4N2QxMjVjZjcxYiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L42-L42",
+          "version": "repo-lines-v1:sha256:eaf4267eacfb758d6e741f6ffe1df365be053c5d953b0254b8a8547d32a1f645:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWFmNDI2N2VhY2ZiNzU4ZDZlNzQxZjZmZmUxZGYzNjViZTA1M2M1ZDk1M2IwMjU0YjhhODU0N2QzMmExZjY0NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWFmNDI2N2VhY2ZiNzU4ZDZlNzQxZjZmZmUxZGYzNjViZTA1M2M1ZDk1M2IwMjU0YjhhODU0N2QzMmExZjY0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTIyZTNhMGVlMmRhZmIxMDk0OTQ0YjgxNWNiODRjY2Q5MjA5MmJmZjZjOTcyMmI0ZTgyNDA1MWQyNTFiMDgxYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQyZWU2YTY0YWM4NDU1Y2JjMjgwNjY4ZjRmYzlkMDQ4MGM0MzdlOTBkNTQxZjYwN2Y3NTYxMTE1OGFhZjM1OCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

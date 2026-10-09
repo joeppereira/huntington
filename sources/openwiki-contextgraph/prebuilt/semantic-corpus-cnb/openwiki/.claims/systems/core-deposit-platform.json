@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f73ff629e44be6953a8d5963f2def3daafc745cccc95223a78219c36396eea98",
+  "claims": [
+    {
+      "id": "claim_83ee37e14439455592b278b1ea9b0f47",
+      "statement": "SYS-CDP (Core Deposit Platform) is registered as a Tier 1 (24x7 critical) system owned by the Deposits Technology team, with Mark Sullivan as business owner; unlike other T1 systems in the PTT register it has no individually named technical owner, EM, or Jira/Slack channel.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L96",
+          "version": "repo-lines-v1:sha256:d03514dbf4821c5cd5650e3e318255cc3a941b18af48a11ee712ce5d5c5b842f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_73ee16ddc6924f579d1e576e00e80f60",
+      "statement": "Deposits Technology/CDP is not listed among PTT's own engineering teams (CBO, Payments Hub, PNE, GTSI, FCT, ENS, TDIP); CDP appears only in the system register and via the separate 'Deposits Data Ownership' partner function (accountable: Mark Sullivan), indicating CDP is organizationally a partner system to PTT rather than a PTT-engineered one.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L96",
+          "version": "repo-lines-v1:sha256:dbc39c0a96bda25988fa6896e5448e9561f0bbd064fb0491c2e70f9d8c701de2:eyJzZWxlY3RlZExpbmVDb3VudCI6NTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NjAzMjVlZTYxNDVlYjgxM2I3YzEzZjQ0ZmFlN2Q1ZWFlMzMzNmQ4ODFiMGQwYmJmMDlhOTRmMmI5ZjcwYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZGU1ZmYwMTIzYzQzMjdlYjIxM2RhYzQ0ZDEyZTM5OTE4M2UxNjU3MGNlNTdhMDBiZGY4YTQ1NmEyNjk3N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_234a94043a3740b7b6b004429e68ebdc",
+      "statement": "PRISM Payments Hub (PPH) performs funds control as step 4 of its 7-stage wire processing pipeline by issuing a memo debit against the Core Deposit Platform; insufficient available funds create an HRC-05 hold that auto-retries until the 5:30 p.m. ET same-day domestic cutoff.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L112-L119",
+          "version": "repo-lines-v1:sha256:bf23141ead6c08349a3a1e05abade4b2b09f338c3e0b9b01031f2a6862be8937:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2QwYTRiN2I5MzFkMjQ2ZGY2MjRkYzg1NjA4YmE1Mjk3YjY2NDhkZmNiMzAzZDhlMTA0NzgxMjVlMTgwYTU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjExNmE3ZjRiMzExMGUzZDIwODc1YTFmMzRhNjhlMDI5MWExNWNiOWQxOTAwOGIyZmJiNDZlZWU0NmY1NTEzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDFjOWI4MWNjMWViMDM3N2UwNTY1YTA1NDMzZTUyODI3NjM0NjZmZDFjM2UyYjQ2YzUyZmFiY2I4OTg3NWE1ZCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L38-L50",
+          "version": "repo-lines-v1:sha256:74c4ce030aa717872b02fcda5767a44c9ff916b694cdd2e1257dd746b4cdc96f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhM2U2NDNjOGRjYTExNTc5YjI2OTIxN2YwMDM4OWZiZjVlM2ZmZGYwMWUzY2VmOTQ3ODg0NTcxMGFlOWFkMDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4ODNmZDg4YTRjZDI2MTk4Njg4NzVkNDk4M2JhNDc4MDU3MTljMDY1YTZjZmQ3ZmEzNDQwY2JhNjQ0Yjg1OTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYwZjY4OWQzM2NhNmYzM2ViOGNjMzU0MzMxMGZmZDU4ZmFhMmI3ZGYxY2JhOTgzMTJiZjEyNjY4NjZjYTdmYTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI2MjhjYWMyOGIwNGY1OGY1YzdiM2ExNWMzYzUyMDA1N2JlMjhmNzYzMDY1ODc5NDBjMWZhMGQ0ZDA3MDE0NDIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5bb27a0f99bd4e958b7dfd7825765d21",
+      "statement": "PPH's canonical v2 lifecycle includes a dedicated FUNDS_CONTROL state ('Awaiting available balance'), which the legacy v1 status model collapses into the coarser PENDING value shown to consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L54-L86",
+          "version": "repo-lines-v1:sha256:bde107894ff96b385e7ce3462c846a6a6c16cc21f3e0a22fa2e5c8c6d84c8dbf:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEzNDBhODBmYTk2M2E2NWQ3ZjViZTU2MTIzMjA0M2ZhNjQzMzUyMDIyZDA3NTQ5ODM4NTE3N2I1OWY0NmFiNWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlMDRmNjJkMjAyYzI2N2MzNTJkMDA5MjAzN2YzZTMwYmRkY2IyZDE0MzIzNWU4N2ZiMjE2YzczYzBmMjlkODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI2MjhjYWMyOGIwNGY1OGY1YzdiM2ExNWMzYzUyMDA1N2JlMjhmNzYzMDY1ODc5NDBjMWZhMGQ0ZDA3MDE0NDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyNzM5ODUzZThiYjdkNmZkNmIwYTNlYWU5YjY1OWRlYzBjOWM0ZjVhZmE2ODQ0NTkyOWI0MDk4OTBiMDU5OWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8c48076f94a54bbebd25919abe5e5612",
+      "statement": "Hold reason HRC-05 (FUNDS_PENDING) is owned and tracked by the Hold Management Service (HMS, part of PRSP), is tier C (client-actionable), represents about 14% of all payment holds, and auto-cancels (EXPIRED) if funds are not confirmed before the client response window closes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L28-L50",
+          "version": "repo-lines-v1:sha256:c5b59946cb508adc4f49665243efebcce18e106e10029b9037d689c01a722a61:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg1OTZjYmIyZGRjZDBhODlhZWE1NDY3MTg1MzBiOGE4OGJjNDEwMWQ2MTc2OTU3Njg5MmE0MGRlYWExOGZjYWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1NDg1YjUwM2E3Y2IyMzRjNDIzZDdlZWRiNTE0YTk4MzQ1NWJkOGE3YjNjYjM1ZDIyNjExNmFhOWY2NTliMDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjOWQzZmNlYTkyYjZmNjhiZmI4MTIxNDRlMGM0ZjdjMzVmZjA1MGJmZTQ1NjYyYTUzNTI2OTY3YmFiNTExOTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjVlYWY1NWIyOTFhOTdkMWE1NTA0Njc5YzA2Y2MxOWNjNjg5ZmYwNjZjNTM2ZTMxYTRkNDc2N2JjNjE2YTA2YjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0354faebb1a94ab38eba18d569eb8357",
+      "statement": "The client-facing copy for HRC-05 is COPY-HOLD-FUND-01 ('This wire is waiting for available funds. It will be retried until 5:30 p.m. ET.'), and the only permitted client action is funding the account; no digital attestation/override exists for this hold type.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L104-L141",
+          "version": "repo-lines-v1:sha256:7ca7032614e3ab352b69f23ba7227326f2b7137e50a7f68efa44958cfd26404b:eyJzZWxlY3RlZExpbmVDb3VudCI6MzgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmOWFmYzBjMjUxM2UwZGY0YWFmMDA4OWU3NWVhNjU2OTNlZTEyMzM3ZmM2NTJiNjRkNDZkMDE3YjZiMzUzMGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0MzVhODJmODhkMzY5YzU0MGU4MmE5ODA4YTc3NTY0MTAxNjlkMTExYzY1MTRhMmQ4NWY5MTk0MTgzY2ZlNTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2NTM2ZmY3MDMxMjRlZjE3YmJiYmY5MDY4YzUwNTAzMjRiM2QyN2VmZDZkOTIyYzNlMDU3YjhmZjlkMzhkYmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJiYjU4ZjhmYjQ1MTQ3MzlmZTU0MGUwZGEzY2VjN2M5NGU4YzIwZjA4M2Q0MWUwOTU4MDRhOWM2M2I3NWU1MmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_64260096d6b64fdf88ef7a78f155b45d",
+      "statement": "Core Deposit Platform (CDP) is the registered producer of the ENS event TRS.WIRE.INCOMING_POSTED ('Incoming wire posted to DDA', template TPL-WIRE-IN-03), the only live Treasury-domain ENS event produced directly by CDP rather than by CBO/CBO SPS.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L53-L61",
+          "version": "repo-lines-v1:sha256:e0efcedee550035ee33d1251d834abaf4cae0891733903c90ef7eb366a39b9a7:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzg0MWFjMDQxMzQ4Mzk1YWI5ODFlOTAwZTY1ZGZiNzk3NDI4M2RhMzA1NTk2YWM1YTZmNTQwY2I3ZmU2NWJkNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc5ZmM2Mzc2YjlmMjk5MGQ5ZjcyODYxNTYyYjQwZDJmNGQxNzU5NjNjODJiMDI3OTAxZWQwOTBlN2NiYTJjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWM2OTIyZWQ5MDRlYWMyNmRhOWY2OGYxYjFiYjFmZWJjYzEzZWNkMjA4NzJiMGZmNDAxNjM3YzMzYjY4YWZlMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ffcb6a56847a4ad099414d2f9e1ee773",
+      "statement": "The dda_txn_history dataset is sourced daily from the Core Deposit Platform, retains 7 years of history, and is classified Restricted - Client Confidential, the only Restricted-tier dataset among the six payments-domain datasets in the TDIP catalog; it is owned by Mark Sullivan / Deposits Data Engineering.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L39",
+          "version": "repo-lines-v1:sha256:a66d31dc7d096ccfcde1dbdd7c2d32374c92748aa489e3d1fcf689238f27ff09:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhNTA4ZjRlMWEyYTFiNGU1ZTY3YWQyNDI3YzJjNGUyYzU4OGM2NDJhMmZkNTI3MTkzNjIxZTI2MzdlZDJjYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmNjc0MWU1MmVlZTlhZTRhZWVjOWYyMWFlN2JiODQzOWQ1ZmUxM2YwY2EwNjE4ZTU5ZmNlYzNhNjI1ODhhZjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a13b1687e67046e092df57428d6652b9",
+      "statement": "DUS-07 classifies account-level activity in deposit systems as Restricted - Client Confidential, a narrower and more sensitive tier than the Confidential - Client tier applied to wire-payment datasets, and this classification underlies dda_txn_history's Restricted rating.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L29-L36",
+          "version": "repo-lines-v1:sha256:94abbcc5548df607f507bacc34d66e9e9e19737aaea8dc682f5070fac18977fb:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTI5MzcxYTFhMTNiMzI2ZWNhNmQ2OWM1NGQxYzZiNDExYmE4MjkyY2U1MzEzZDZjOTVjNzdjMTQ5ZmZiYzY3ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJiOWIwMzZmNzhlYWJlZGY5NzljODIyYzM4ZWUxNzg1NzMyMGJmNjliNmM3NDMxMTllN2IzNDgyMTJhZTdhNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWQ0ZjY0MWE3MDZjMmNkMWVjMmU4NmMwYjEyMjY5Y2QyYzUxZDk4N2I0NzJjYjQzNWY5NzM3MjI2MWFlNjJkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQzZTY5ZjJjMjM5ODFlYjA5OWNhYTcwYzVmOTRjMzE5MjhiMjM3NjYyNDkyMWQyYjU0NDYxODQ3YWFjYWVmZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_32c332bafe364648a2f19c0a470c0c17",
+      "statement": "dda_txn_history's only documented downstream consumer is the beneficiary_behavior_profile feature table (joined with pay_wire_txn_hist), which is itself Restricted - Client Confidential and whose sole registered permitted purpose is supplying mule-risk features to financial-crimes model M-FCT-0034; no feature table or Insights API endpoint reads dda_txn_history for client-facing or product purposes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L41-L47",
+          "version": "repo-lines-v1:sha256:2082afba3708689b0dd9e8cc06eec2f17b36425ffb27d4c65d970fba22e7b421:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmJjNmY5MDM2OGFjNDIwMGQ2NWU2ZTk1M2FmMjFjZjkxYTI0OWI3MmI4NjBhYWI1MGUyZGY4ZWY3MmE1ZGU0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L75-L78",
+          "version": "repo-lines-v1:sha256:6a6b1196659c581618e2f4785c778ab87483b3e978dbabe9afb2ebf3b9d88b0a:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUzYTBkMThjYTUwOWRiMWQzNDI1ZDUwODY0OGUwZTM0M2UzZjYyN2FmYTRjMWMwMTZmYTc4MGEwMDg4NzdlOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDEyNDcwNjUzODY5ZDM2ODFkNGY3MDZiZDU3YjFhZTk2ZDliNmJhMTY4ZWY3YzkzOWY3YTNmOGM5OGEzZjFjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2M1MjYyZDA1N2I5MGQ0M2JiYzczODhhNzViNDc1NjQyMjc1ODUzM2E5NDFjOTA3Yzg0ZDk2ZThhYjk1NzI5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c8688eeee844d6eaa91fac4a23ae104",
+      "statement": "Access to Restricted TDIP datasets such as dda_txn_history requires Privacy Office approval via the Collibra Data Access Request (DAR) process with a published 15-business-day SLA, and feature tables built on Restricted inputs inherit the most restrictive input's permitted purpose per DUS-07.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L38-L41",
+          "version": "repo-lines-v1:sha256:b978ce5c6d129355a6adc2212d62bd17a2107b9ea964031411c996fd79baa622:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3MDg4NjljMzZlN2YyODU1ZWI4Yzk3NDgyNzkyMDVjMTY3ODM2YmIyOGRhZjg1YjIwYTVlNjY1OWZjNzA3YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDMyM2I1ZDRlZDYzNWNjZjg5Y2RkYjZhODU4NmE4ZWYxNDU3MjRjNTg4MTM5ODk3YzNjNzAwYTVmYTZjOTMyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDRmNzgyNGI5NDE2ODhkNWY4NWNlMmQ1NDdhMDUxMWViYTEzYjU5NGZkODIwMzViZTAxNTViYWZjMjVlMDY0MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L74-L80",
+          "version": "repo-lines-v1:sha256:bf2909299dec8002797551475360bb4461013ce2f3a66193984de7d2aa999107:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjdlZGI4NTRmNjg2NTVjMDg5NGM2MzBiNGExMDViMjVkYjQzNzliOWMzZTE1ODc5NTkxZmZhMDA3YWI3NjlhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjJmYmUwOTUyMzJkMDcwMjgxNDRkYzA4M2MzNjBkMTY2MjdiN2EzMjZkMTAyYzE5NzRiZGExY2IwMTg2NTExMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDFlNDZkNmY1NTI2OTYyMGI3ZTU3YmE5ZjkzNDk0NzQ2NmI1YzE4Zjg3MTg4ZTU5MWYwZDAxOTQ3ZDcwNGI0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDRkMDk4YmZjZTRkMGMyY2ZkNWVjMDdmOWJiY2FmZjM1NmU5Y2FmMDcyZDNlYmFkMDViYTFiZDkwNzM0Y2JkNyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

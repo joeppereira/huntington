@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:8825bbe3ba9136b45a146f03ee7e795fd156e06b35c7895d9b0453ea067a1a0c",
+  "claims": [
+    {
+      "id": "claim_d3cd7e57b1b148dbbc9702cd238e0efa",
+      "statement": "DUS-07 v2.1 'Data Use & Client Confidentiality Standard' is an Approved Privacy Office standard at Crestline National Bank, owned by Rachel Goldberg (Chief Privacy Officer), approved by the Data Governance Council on 2026-01-08, and effective 2026-01-15, classified INTERNAL - CONFIDENTIAL and marked 'Uncontrolled when printed'.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L15-L22",
+          "version": "repo-lines-v1:sha256:e76effa8e3fd7e5c97b34e41c2809b1749a4ee7b9bb77195719c62d1bc25101e:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM4M2Y0NzM1OWI3YzQzZjg0Y2Q4MmZhMTIzZGFiZmRmY2FkY2Y5NmQ0OWQ1MzZmYWU2MTZhODI2YWZhNDU1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAzOWEzMDU2M2VlMDllMzdjNzlkZjAyNmYzMjVmY2JkMjc1YzY0YmY2ODA3Njg3M2M3Zjg1NDI4MWZlZTA4YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDgzZTNhYzk4ZmQ3YzFjMWE2ZjA2ZmYzNWRlYjAzNWZmNGNkMDA4MDMxYzYwYzNmNzlkZjQyOWQ4ZDZmZGYyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzAyNjJkYmYzMDQ0MDk2OWUxYjgyOGUzODkyMWVlMzIwMDA4NWRlYjg5YTQ5ZjlhNGJiYWNkYzFjNWQ5YTRmMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L64-L64",
+          "version": "repo-lines-v1:sha256:6969b093100c6bc3994f15d1798c7d062bd00c09f366b8cb294de60d7c59fb48:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjk2OWIwOTMxMDBjNmJjMzk5NGYxNWQxNzk4YzdkMDYyYmQwMGMwOWYzNjZiOGNiMjk0ZGU2MGQ3YzU5ZmI0OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjk2OWIwOTMxMDBjNmJjMzk5NGYxNWQxNzk4YzdkMDYyYmQwMGMwOWYzNjZiOGNiMjk0ZGU2MGQ3YzU5ZmI0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTc4NDVlYmVlNDYxZjhkODA5YzgzM2I0MGNmMTQwOGE4MWRhNWYxNWQ1OGY0ZGU0OWRkYmU0Y2I0Y2Q1ZTcwZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDcyMzZiNTI4ODNlNTdmOGM1NTkzMThkNDIwZTI0MDdiMjlmODIxMmM5OGViZjk3Zjk2YzFiNDhmYTI0ZmM5NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3e44ff467a0a4ef8bdd96623b1474e33",
+      "statement": "DUS-07 applies to both consumer and commercial clients: consumer data is additionally governed by GLBA privacy provisions, and commercial client data is protected by Treasury Management Services Agreement section 14 contractual confidentiality.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L27-L27",
+          "version": "repo-lines-v1:sha256:c2469b2642efc3bb2d37ee04b7c9797758c2c9bd0445e7f92e888f077e8301ef:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzI0NjliMjY0MmVmYzNiYjJkMzdlZTA0YjdjOTc5Nzc1OGMyYzliZDA0NDVlN2Y5MmU4ODhmMDc3ZTgzMDFlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzI0NjliMjY0MmVmYzNiYjJkMzdlZTA0YjdjOTc5Nzc1OGMyYzliZDA0NDVlN2Y5MmU4ODhmMDc3ZTgzMDFlZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWY2OTNlOTZkYjU2NWEyYzg4ODViNGU0MWU0ZDA4NjMyMTg5Nzg3MDJjOThiOTM3MTNmYzM3YjNkYzc1NmQ3NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_48bb0c4da7de48dba067970e34323522",
+      "statement": "Ethan Brooks, Data Governance Lead for the Commercial Bank, is the named standard contact for DUS-07 and the Privacy Office contact to whom compliance/policy-interpretation questions about it are escalated.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L150-L150",
+          "version": "repo-lines-v1:sha256:2b213d7676f80d3f21baf51358f6e8c709fb7b17bac5143917544cbd6cc3c0d0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGUxNDQ5ZGNiZDkyOTFjZDYzZjUyMjdjYjAxM2E0ZjAxODcxZWUzMDMwZmYwNjM4YTllN2EwYjE0MjAxYjY5OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L75-L75",
+          "version": "repo-lines-v1:sha256:2046230cd0e0510d1bd62a38b1e55a4836c17d4da0c9692f960b84a0222b743e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjA0NjIzMGNkMGUwNTEwZDFiZDYyYTM4YjFlNTVhNDgzNmMxN2Q0ZGEwYzk2OTJmOTYwYjg0YTAyMjJiNzQzZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjA0NjIzMGNkMGUwNTEwZDFiZDYyYTM4YjFlNTVhNDgzNmMxN2Q0ZGEwYzk2OTJmOTYwYjg0YTAyMjJiNzQzZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmI1M2Y2YjY3NDNhNDViZWIwN2ExMmUyZDJkZjI0YzZiYmUwNDQ1NDUxYjljOThmMjJkZTkyOTJhZjM2MTgzZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjNhZWJlYzAyNDI5YWVlOTM0ZDM3NGU3Mjc3MjFmNzhjOGVmNWNjNGU1ZGIwMjhhNmIwNjhiNWM4MDhmODViNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L22-L22",
+          "version": "repo-lines-v1:sha256:d039a30563ee09e37c79df026f325fcbd275c64bf68076873c7f854281fee08a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAzOWEzMDU2M2VlMDllMzdjNzlkZjAyNmYzMjVmY2JkMjc1YzY0YmY2ODA3Njg3M2M3Zjg1NDI4MWZlZTA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAzOWEzMDU2M2VlMDllMzdjNzlkZjAyNmYzMjVmY2JkMjc1YzY0YmY2ODA3Njg3M2M3Zjg1NDI4MWZlZTA4YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTVlYjBhOWRkMDJmYmUzOWZhNmFlMmIzMjIzOTVhZTcxNmMxYTFjNWYxMzA3NjRiZDE5MzRkZDQ1ZGM2NDI4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzAyNjJkYmYzMDQ0MDk2OWUxYjgyOGUzODkyMWVlMzIwMDA4NWRlYjg5YTQ5ZjlhNGJiYWNkYzFjNWQ5YTRmMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a7b8be24de43497d81e7aff26c265360",
+      "statement": "The PTT Organization & Ownership Directory (CNB-ORG-PTT-2026-06) independently confirms Rachel Goldberg, Chief Privacy Officer, as owner of DUS-07.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L39-L39",
+          "version": "repo-lines-v1:sha256:e1b335e1db73d851ef79d4494d35682af337b6173167ca337d58c0720f62cec1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFiMzM1ZTFkYjczZDg1MWVmNzlkNDQ5NGQzNTY4MmFmMzM3YjYxNzMxNjdjYTMzN2Q1OGMwNzIwZjYyY2VjMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFiMzM1ZTFkYjczZDg1MWVmNzlkNDQ5NGQzNTY4MmFmMzM3YjYxNzMxNjdjYTMzN2Q1OGMwNzIwZjYyY2VjMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2MyZWRjNjgyMjBmMjU1ODJkNmYxMDM1MzM1NmQ4YjY2YTQ0MzRjOGY3ZDE5ZDI2YjhlODg4NWVjNzNhNmM2MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ4MDM4OTc4NmYwMmRlZmE4NzMzM2E3MmNlY2I5ZWFjNDNkZjkyMThmYmE5MzVmMzhlNTZjNTVlZWI5NTUyOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b43b9079005f4fdfaa80d7d32dfd50b9",
+      "statement": "DUS-07's related documents are POL-FCC-014, MRM-POL-02, and TDIP-CAT-2026.2, each of which in turn lists DUS-07 as a related document.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L23-L23",
+          "version": "repo-lines-v1:sha256:fcd5a960bd1a11abedb09863c506f5b464508b1520fc2faecae5b2ed732d35f8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNkNWE5NjBiZDFhMTFhYmVkYjA5ODYzYzUwNmY1YjQ2NDUwOGIxNTIwZmMyZmFlY2FlNWIyZWQ3MzJkMzVmOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNkNWE5NjBiZDFhMTFhYmVkYjA5ODYzYzUwNmY1YjQ2NDUwOGIxNTIwZmMyZmFlY2FlNWIyZWQ3MzJkMzVmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQ0ZTg3NTU3ZWFjMmNiNjk3ZjEyZTU5MGQ5NDQxNGM1NDBjZDg5MGFjZmY1MzgxYTI5MzRlZGU3NDdkZmQ2ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L23-L23",
+          "version": "repo-lines-v1:sha256:efb858e215ad1323691fb0b3762ff21987b3e18c91748c3f7b61e64af2734f5f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWZiODU4ZTIxNWFkMTMyMzY5MWZiMGIzNzYyZmYyMTk4N2IzZTE4YzkxNzQ4YzNmN2I2MWU2NGFmMjczNGY1ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWZiODU4ZTIxNWFkMTMyMzY5MWZiMGIzNzYyZmYyMTk4N2IzZTE4YzkxNzQ4YzNmN2I2MWU2NGFmMjczNGY1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTlkYTNjNzY3ZDhlMzdmYWM5NDEzNTFiOTJiNjlhNDUwYTY0NWFhNTlhODVkZmU1NzE4ZDMxZjM2NWIzYzljMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQxMmQxMmU5MWExNWU4MTM1MmJjMGFjYTZiYTdhYjczZDdmYTJjNDMwMWEwNDg5Y2EwYjNmZGMxMzIwYWRhOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L23-L23",
+          "version": "repo-lines-v1:sha256:034ec8f3adab5f620e938aa021a5f056972d8c876cc173d66ed97a2d09043725:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM0ZWM4ZjNhZGFiNWY2MjBlOTM4YWEwMjFhNWYwNTY5NzJkOGM4NzZjYzE3M2Q2NmVkOTdhMmQwOTA0MzcyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM0ZWM4ZjNhZGFiNWY2MjBlOTM4YWEwMjFhNWYwNTY5NzJkOGM4NzZjYzE3M2Q2NmVkOTdhMmQwOTA0MzcyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIwNzVmZDJlNDYwMjkyMmMyMDcyMTNlOGIxZTg1YzQ3NGQzNDczMDRhYjFhNDAxZWRmZjZkZGJkMTdjNmQzNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L22-L22",
+          "version": "repo-lines-v1:sha256:e682f9556cf76f93a64e163713c765af9a2fcc8b8f000d7f0ea874fe09fff373:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MmY5NTU2Y2Y3NmY5M2E2NGUxNjM3MTNjNzY1YWY5YTJmY2M4YjhmMDAwZDdmMGVhODc0ZmUwOWZmZjM3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmQ4OGIxNjc2MjhjNzE0ZWYzNDEwMTg1YmVmMjU3MTg2ODRlMmIzM2I1MTM4ZmM1Mzk1MDI1YzNkMTVkODU3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjBiOTE3YWJmZWM4NjYyMzAwM2VlNzNhMGJkZjE1ZDliOTUzMjRhMmNhMDI5YjBiMTFhYWUwNGY4YWQwZTM2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0ee1e6aa19fc4645a8e535de809e6236",
+      "statement": "POL-FCC-014 incorporates DUS-07 Section 5's aggregation thresholds by requiring client-facing timing insights to use only the requesting client's own data or aggregated cohorts meeting DUS-07 Section 5, plus MRM registration, DRC-approved disclaimer, and no display for tier G/R holds.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L98-L98",
+          "version": "repo-lines-v1:sha256:62b8ed081262965595d20803bbc2beaba7ddf0c58de5d86437e4021d99c57ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiOGVkMDgxMjYyOTY1NTk1ZDIwODAzYmJjMmJlYWJhN2RkZjBjNThkZTVkODY0MzdlNDAyMWQ5OWM1N2VhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJiOGVkMDgxMjYyOTY1NTk1ZDIwODAzYmJjMmJlYWJhN2RkZjBjNThkZTVkODY0MzdlNDAyMWQ5OWM1N2VhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2I0OTNiNzM4NzAwN2IxMzE2NWI2NDJhMzQwNjE3NDA1ZDU4NTQyNWUxYTlhYTMxMjU3OWEyYzU0NTA1ZTc1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjgyODBlZWUwOTE4ZmRkNDkyZDA3MDJlNDg3YjkxZDkzYWJiYTAxODFlMWZkNjUxMWQ3M2QyNDJmNWM4MTYwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_04be96c4493046b2a5160eaaa9dcadef",
+      "statement": "TDIP's insight-onboarding process names DUS-07 as the source of the data-access approval step (step 2), alongside MRM-POL-02 registration and DRC wording approval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L80-L80",
+          "version": "repo-lines-v1:sha256:a8e6adad988dc571ad903be21a8e008015faa8deba0e7214b8154065589d6517:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYThlNmFkYWQ5ODhkYzU3MWFkOTAzYmUyMWE4ZTAwODAxNWZhYThkZWJhMGU3MjE0YjgxNTQwNjU1ODlkNjUxNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzNjNjIzMjFmZTkwYjVlYTU2MmU5YjQxY2RmMDczNjM4M2Q4MTI5MDQ3MGMzZGQwOThhNDM3OTRiMmU0ZGMwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmUyNTAyMjI2NzI0MDAxZDNmM2NjMjJjNDk2NDhjYmVlYzg3YThlMGE5YzU2YmFlOGRjOWJmNjQ0ZTFhZWIzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1a3348b91aae4007a8004f64dad8ec60",
+      "statement": "DUS-07's extract defines seven sections: Purpose, Classification summary, Purpose limitation, Cross-client confidentiality, Aggregated cohort statistics shown to clients, Use of a client's own data, and Approvals.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L25-L82",
+          "version": "repo-lines-v1:sha256:bc66c07fff80487143bd37847950ac93d617b584d62efa8f56c75d614ae3ab9e:eyJzZWxlY3RlZExpbmVDb3VudCI6NTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExODQ3OTJiZjlmYzFkNTE4YTIyZTU1MWQ0OWU1NjQ3ZDdiYTI2OTU1MzExMjJmYWFiOGNiNWRjMjFlOTJlZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhY2QwNzA3YWQ5OTdlZTQ3YjA5YWFkMWNkOWFhYWM5Zjc3NWFlMjY0MDE2MzcwYzkxOGExMDI1Yzg1MzQ5YWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEwMDlmODVhNzEzYzhlMjU3M2ViYzNhMzc3NTIzNTllOWY1NGFkODkwZGFkOTNiNTI1NzhmZjJiYzRlM2E3MGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8f6dbd880ae94efaa48203f621d0ced4",
+      "statement": "The Disclosure Review Committee (DRC), chaired by Patricia Moore of Legal - Treasury & Payments, must approve wording and disclaimers before DUS-07-compliant aggregated cohort statistics are shown to clients.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L73-L73",
+          "version": "repo-lines-v1:sha256:5ba1e367ba8218d988388865bad9d708e140c8713c4f460072b93bc96044378b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWJhMWUzNjdiYTgyMThkOTg4Mzg4ODY1YmFkOWQ3MDhlMTQwYzg3MTNjNGY0NjAwNzJiOTNiYzk2MDQ0Mzc4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWJhMWUzNjdiYTgyMThkOTg4Mzg4ODY1YmFkOWQ3MDhlMTQwYzg3MTNjNGY0NjAwNzJiOTNiYzk2MDQ0Mzc4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjg2MjI0YjllMThiNjY4NWY1ZTQ3OTE4NWJjMDkzYzQ4YmE4YzEwMjc2YmJlNjZiZGM5N2IzMTc5ZjYwNmFjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2QyMWNkZTNhYjgyYzg5ZGRjNTI3N2M4YzNjNmRiNGYxNzMzODAxMzYyNzQ5OTgzMTgyNTMwMTAxYTE4ODRiNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L58-L58",
+          "version": "repo-lines-v1:sha256:fe01958843d2289fd7022ce6f0d7e200409f4dbcef2e11553df2167cdd1eff3a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmUwMTk1ODg0M2QyMjg5ZmQ3MDIyY2U2ZjBkN2UyMDA0MDlmNGRiY2VmMmUxMTU1M2RmMjE2N2NkZDFlZmYzYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmUwMTk1ODg0M2QyMjg5ZmQ3MDIyY2U2ZjBkN2UyMDA0MDlmNGRiY2VmMmUxMTU1M2RmMjE2N2NkZDFlZmYzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTk1ZGIxZDZkNTcxMGU3Mjg4YzJlNDE3NjAxM2EwNTVmZjNiODFjNzA0NGVmMjg2YzIwM2EwMzQyNzZhYjI1MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdiOTdhZjJkYzgyNDIzZTY1MTM3Y2MzNGNjZDkxZWE5M2QzMjk3YzU1Y2YzYzBiNzQ1MzczYThkYmZmOWM1OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7171f0da17974a5da1b6c2dfaece8a48",
+      "statement": "DUS-07 requires access to Restricted-classified datasets to be approved jointly by the data owner and the Privacy Office via Collibra's Data Access Request (DAR) workflow with a 15-business-day SLA, new client-facing uses of client data to undergo a Privacy Impact Assessment (~4 weeks), and use of financial-crimes data outside FCC purposes to require joint Privacy Office/FCC approval and is generally not approved.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L74-L80",
+          "version": "repo-lines-v1:sha256:bf2909299dec8002797551475360bb4461013ce2f3a66193984de7d2aa999107:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjdlZGI4NTRmNjg2NTVjMDg5NGM2MzBiNGExMDViMjVkYjQzNzliOWMzZTE1ODc5NTkxZmZhMDA3YWI3NjlhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjJmYmUwOTUyMzJkMDcwMjgxNDRkYzA4M2MzNjBkMTY2MjdiN2EzMjZkMTAyYzE5NzRiZGExY2IwMTg2NTExMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDFlNDZkNmY1NTI2OTYyMGI3ZTU3YmE5ZjkzNDk0NzQ2NmI1YzE4Zjg3MTg4ZTU5MWYwZDAxOTQ3ZDcwNGI0NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDRkMDk4YmZjZTRkMGMyY2ZkNWVjMDdmOWJiY2FmZjM1NmU5Y2FmMDcyZDNlYmFkMDViYTFiZDkwNzM0Y2JkNyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

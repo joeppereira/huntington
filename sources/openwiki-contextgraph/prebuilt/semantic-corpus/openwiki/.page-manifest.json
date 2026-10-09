@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "pages": {
+    "/openwiki/apis/api-01-accounts-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:f9c87c5d4d4e7aae1d1149fb13b317a950eb54a230bfdc782c8616d8cdccac64",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-02-transactions-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:641348c1c7e235bc71df598a7fb448f20f3feef7fccb78c29904d19e603d67a0",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-03-payments-initiation-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:76f127f695c1b3449794ff0dd15605b05c52a1bc189abf02c650e738a43d53ac",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-04-real-time-payments-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:85469c409d3aa95c42fa846695b0da47853bd7801d03d86f78ffcbd368cb226b",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-05-wire-transfer-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:d5b80ba6e8173d7f0ae46a02ab6505c737ad7eaee94e717525a786ccdac5e42f",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-06-card-management-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:76f055c04ed03c9d0e5ccb0e53a7ddb1901b9a4bc7b6faf3fe7d6f9966a409be",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-07-customer-identity-kyc-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:8e82e791f68729b239cc0e57dd6c10df5c9839c9776240ea050a2e672f0ca13e",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-08-fraud-risk-signals-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:9d3d4a1785ab065ef3571deb1f522b81f17d33a6924fbc301ea4839215e250a7",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-09-credit-decisioning-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:a0f4d5fe0d22bf22e1d2de2cd2584eabfeb6b245ed9548f0ddebec9069fdf8b9",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-10-credit-risk-scoring-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:9ac4ad2244a767b8598cec84dd58da934dd2e92fcbf3e9d687de3ae5438b059c",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-11-loan-servicing-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:2a44ee3ad43d97dd728a0c4ff3926831a2e753e74e26c717e78944971ff5abf5",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-12-market-data-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:620eb77a6ce1e56e0930a2a76c4685dc01aba76731b60ba669213459aab7e11f",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-13-fx-rates-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:fc2a28130c47f5c1d0962919d0c23007b2990a264485303c11b0ec5177273e44",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-14-macroeconomic-scenario-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:a2273c474b9fc919eb20b665d5dd6150437a382069058bfe70efb273a8024d31",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-15-treasury-liquidity-positions-api.md": {
+      "pageVersion": "sha256:63ed50efd74ea57047a57268b1be60bd3309621436e377a643a4ebebc727f591",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/apis/api-16-regulatory-reporting-api.md": {
+      "pageVersion": "sha256:8889636415499b36ce01b220b1148aef448752b7d67fedb53341831675662481",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/apis/api-17-statements-documents-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:55df57ad99de0308986a5080ce53d6813df6bb02aee669f97f9ffef13d078607",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/api-18-webhooks-event-notifications-api.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:b59370e2259cf9f21abd6e3bcb91a5caabe2a43c2fd1cd6c1c1253782deefaa4",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/apis/developer-platform-overview.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:1b5c133c7f47f245ba7f174626b6b6904a138c0d5c4fd2e8db1d41d85f41ffb7",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/concepts/basel-iii-pillar-3.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:4f56ee790e6794f117441a24d84bbb2d6ab893512e61a2a80cb62c1b3af5d21a",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/concepts/bcbs-239.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:7c248a4cf55f1dddf02ffe8e33363dc8d974c08d89b203162628b3824009d161",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/concepts/cecl.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:df848a655140c7b11c69fd9b3236544b03037519538ddad59406b52c8264897e",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/concepts/economic-value-of-equity.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:faed8d0f98371fac04edfa061dd41108b8c14329f977728e5abb4d0dfbc8023f",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/concepts/gsib-surcharge.md": {
+      "pageVersion": "sha256:76be63c11457c401b4c7eca714a1a75e923fdd2ec556fdfd6cc803dfeb6f53bc",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/concepts/irrbb.md": {
+      "pageVersion": "sha256:2c4d7fb06ce329c59a857e255abc4fea7c08424c8aa5142f6cf94e32100c31e2",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/concepts/model-risk-sr-11-7.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:ec6020587dc396dee39768c3eacefaf88c6ee1754b3f70c46f8c604146014d67",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/concepts/stress-capital-buffer.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:0a5ff23a1d71232b4ea84370962553bd782b8d5971f8a4ec790678fc13a10351",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/allowance-for-credit-losses.md": {
+      "pageVersion": "sha256:9f0ae8fe556c046aed9ef5e54a7914ffcc5350140798eb7698c4ab86aebfda11",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/metrics/cet1-ratio.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:c46b201f8437b58622f9da38aa796ab6ab09810da5344846605b1701aacf94f9",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/liquidity-coverage-ratio.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:8f4ea52e28205f9bc88b9f89587c5eb9fc3ac4180e2f2001f2d0665106c0eb44",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/net-charge-offs.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:a9761178083ab2f1423f99d50e91e2ffb44e24ab0d4f614996cc2481f5e3e279",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/net-income-and-eps.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:c63d47295529a6f272fd57b0465d6705745625656a798d540855e472177e056e",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/net-interest-income.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:155c0f769e7de551dda2aa6e7cf2df9f5207d95b838915e14f2f2b24c54b30e8",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/net-stable-funding-ratio.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:63ff0c08d590eccc3cfaaf1ea33c6ba7a171612a56b245f0d8db4b838207484d",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/risk-weighted-assets.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:3d1889e58959391b6ccd9c29db0ab81ef9ff440a4c7eff4fef12ac13a1e90b45",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/supplementary-leverage-ratio.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:ca0b923633fde2d008b1e0d4f40a54c3880715554b22669bb29d261eefb9d25e",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/metrics/value-at-risk.md": {
+      "pageVersion": "sha256:f71c5f8d403cb310642814191e6affb21595b849bfaf8374b1b4423aae8884c3",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/models/capital-planning-model.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:056fb44d34ec47d947171f0d7f65c22373cc1099831db446aa83ad979ac87f1f",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/cecl-allowance-model.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:65f44be4b620d2a9e908b7208ddf01945e8f505c06013896f203033881fa0e07",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/capital-baseline-projection.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:3b5eb4b81606fa24eedece84f4ca022f79a25455f91f88920bcb450219dca5ad",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/capital-stress-projection.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:f39a41420ab97ff7369b6ea3666d2b36077bdb9353d5693a829688c5b5ed66d4",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/cecl-lgd-and-ead.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:fa11ff17d3b0d593924dc9b9147342f1aa4d5181ccb773805b2dbbdb8827238f",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/cecl-lifetime-pd.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:bac8eece570da97c9c704b129b050dff3b7b0210c3e98b631c7daa7dd41d58c1",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/cecl-qualitative-overlay.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:cfda7ae5ad776fd52ddb83be507c44130d9fc891f72a4d9c4695c7e18e13c6cb",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/cecl-scenario-weighting.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:9705d4ca8aee95a2dfdc1f42d3524567860da62fc29e35066849fe226d68dd8e",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/eve-modified-duration.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:b200b72c1186005dd7e9a2d856deb08500b7c31000a6f631d33a45ffdef10149",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/indicative-stress-capital-buffer.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:e6fceedc04442626ad22fd98ff54aeeb0bbef52bb551b02d7bed7a60a26b9bbf",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/models/components/nii-rate-shock-projection.md": {
+      "pageVersion": "sha256:ff5b85a047f54ce0fb0916b07593330f1182b3a1c4db8594e440454aaf36532f",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/models/components/nii-repricing-and-deposit-betas.md": {
+      "pageVersion": "sha256:9f38813c9d5a5d9ea7be3ca2bd1996e4d9d3032e8a83fb80f22fb0f996f5f833",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/models/nii-sensitivity-model.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:79c38b7274df9338003322d574e5f91c3fd7687b011a6c50f6febb5b58bdc06f",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/organizations/asset-wealth-management.md": {
+      "pageVersion": "sha256:fee7d216c41ada6866ca41b0e9ea586b380f85fa9a388a5792e6c504e8500e09",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/organizations/commercial-investment-bank.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:2d53d1fb842f3be73fb8bcb6e4d3c71c7d4775da1a91ce7f004a21d3c975943b",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/organizations/consumer-community-banking.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:f2f1638b49b18b245148e9a026d2a734ab7f6c5e85cb18bacd1e390674135919",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/organizations/corporate.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:d2e8a27aa537ab172975456a1469da0ef3fe7f713fa81454ee0df7a53da7a915",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/organizations/meridian-harbor-financial-corp.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:96ce23a21d0ecfd54d06568a6326d1361e8571877b09f1fb90c99266e4d8297d",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/overview.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:5fe4a41267ed4f5cee2be8d1885da309b3d71f11d105834898874e0b7d5b2deb",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/people/chief-executive-officer.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:18f48517beaa326781791059a5d2c43223f051f58a78bca05a8b741530fa0453",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/people/chief-financial-officer.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:6561499825fd4c1637e1e3d197d698579f6a90ffadb9d4fc8e1385b4e4765d28",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/people/chief-risk-officer.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:57d021b6506d93ea320f83d2bfea26efc869b86b2efba4ad05d77800503de7f0",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/people/chief-technology-officer.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:3b59726b2e4580be0f586600a367edfbe0b8c34cc2f6abb5b621c399acd4b5e3",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/people/treasurer.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:b4edc2d09040808e6e0e153edaebcbfb0a44ed20b9d7c84323684d62602f6797",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/quickstart.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:706cccfbca0e16b833a6c4685cd2346549845f5f804e6627bbc0836ab1197eca",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/reports/annual-report-2025.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:d6812de24e99fc184e9947eb9cf944bceffac2296d3ec0d511586c5185484fcb",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/reports/pillar3-disclosures-2025.md": {
+      "pageVersion": "sha256:bddb40484845d1d9f80e8a9b21923c6b7228ef27cc2f140092de111775f80eff",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/reports/q2-2026-earnings-supplement.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:e343f76e83f3cb1ad88f055d36643ccad86e62ac2a324f712da9280969e4c1f4",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/scenarios/internal-severely-adverse.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:d61fc5c3b1a059889f82b16640ce5e19781f941c1951ea3003c8e4622ce29450",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/scenarios/macro-scenarios-msc-2025q4.md": {
+      "pageVersion": "sha256:9fae2cd2bff3c149253d683cdb40cf8db93f970eee97d254df96a46be63d124b",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "0dfa384a-2b4a-4292-b6c1-8c9895253fec",
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c"
+    },
+    "/openwiki/scenarios/parallel-rate-shocks.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:b327b1369528d742c3438572daff52821eeed26e6432290f7a30ac238ef0e8c2",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/card-technology.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:5c529165bba893620ef6a04d2d2b3b3a05e6ab726157ef93a10e69eadf2b0e29",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/consumer-wholesale-credit-risk-allowance-methodology.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:c2a74be3ed44434ef0f3443ef2cbd4c33343381b6358a672d5861d4bb40caf57",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/corporate-treasury-alm.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:43ea19d20e8ba90e984380df70de04c49eeec5a25e56f11abe11de01ddc21a4c",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/corporate-treasury-capital-management.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:cfb9cb700589cf1ea7ef2b4143c970a96397f4f68d1a864ff6de2399f80ab550",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/credit-platforms-engineering.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:5a450e4d975c9f7d6600d2a73afdc8fa6ba9819aac7297dfe660b1312ef273b5",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/developer-platform-engineering.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:c3a7a2e151fdda4838dfce061ea98bfd70bdeb454ab15dba066e4f0ad0d0bc4b",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/digital-platforms-engineering.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:d14bfe5a31d5dc1cc1bbb47a3f187d95ec117b578b713dd13877a87ac6b65bc8",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/finance-technology.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:b4c2d41104d54dd96575d86ab151a92dfb85c0f9903959121d9514c5b2a3c1f7",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/fraud-strategy-engineering.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:a1b4bf575bde05bbefd153d9e660f6950690c7b625a0d72ca57c52ae740ed600",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/global-payments-technology.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:0bc022179813253e95ce2e868c1aa0d49ae095e24e8400d4f11ea951e08cd042",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/kyc-platform.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:289424c7091d56c9a88b46bd5ec5bb621b8b6c8680cd61ac9105dd1f7d061ee7",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/lending-platforms-engineering.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:963696599ab91c62e8d3493c5b9b154b4b152590a2f7ba6c6218133a46e69004",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/market-data-services.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:cba403162169d873cb5a4e68ad517f657c801aa3ed79fa3e560c395da21908d9",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/model-risk-governance-review.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:734eaeac0981260cb29330c276037921484b67e557a96ea98646576b7714b6b2",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/risk-analytics-engineering.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:e0b4047849a93fee7b13027b9afe60ab3a0f7a98d817f0b488181912a0fc8d13",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/teams/treasury-technology.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:31594e6d913afdd64d16ff1ad8ef63ef4601f349eb36f47af393e83953264d12",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/workflows/api-to-model-to-report-lineage.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:267e672c498ec911263598133517ac5f5faecbbd8acaf0106e7196ba4ebe1a57",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/workflows/capital-and-rate-sensitivity-flow.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:e7e10acf267521e1913dbbb9221b4d0453a2d82eed1de338a8bd28a9adbf3ab2",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    },
+    "/openwiki/workflows/cecl-allowance-calculation-flow.md": {
+      "gitHead": "afc1c7a8af238a3ee77447a333252415f2518dfc",
+      "sourceFingerprint": "sha256:4c5faeb2076511543ba6d0fc3ee079141a1480ed6f2b6952998faf2aa85f1d7c",
+      "pageVersion": "sha256:2718b86f9336c3eb4946f13475ab8552455a4143f09ded5b0271422169dc046a",
+      "completedBy": "openwiki/0.7.0",
+      "completedRunId": "646a7d1e-a5bd-4fda-b627-e650178ea684"
+    }
+  }
+}

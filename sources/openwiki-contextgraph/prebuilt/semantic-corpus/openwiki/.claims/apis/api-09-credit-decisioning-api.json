@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a0f4d5fe0d22bf22e1d2de2cd2584eabfeb6b245ed9548f0ddebec9069fdf8b9",
+  "claims": [
+    {
+      "id": "claim_d6b087c0005747e299c8f4073bdd571e",
+      "statement": "API-09 (v2.2, base path /credit-decisions/v2, owned by Credit Platforms Engineering, Credit Origination domain) returns approve/decline/refer decisions with credit line and pricing tier for consumer and small-business applications, combining bureau attributes, internal behaviour scores and fraud signals.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L1-L17",
+          "version": "repo-lines-v1:sha256:cf7c69f9281e4d16903aafca4847c06fe10ad4d1cd7bd0d60735fd044c90a6f7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3YWRmYjY0ZDA1MDkzNTUwZTEzNzRlOGMzZjhkZDgwZjE0OTlhNjYxNjdlNTI2NzM0ZjRlODAzNDYzNWJkNWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b428fa368dd64567ac913f156725feca",
+      "statement": "Decisions are logged for fair-lending monitoring and adverse-action notices.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:1a02252550c298203d9b49859cbf9d5544efab9b277fed59e5dbe0edd93f8b6e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWEwMjI1MjU1MGMyOTgyMDNkOWI0OTg1OWNiZjlkNTU0NGVmYWI5YjI3N2ZlZDU5ZTVkYmUwZWRkOTNmOGI2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWEwMjI1MjU1MGMyOTgyMDNkOWI0OTg1OWNiZjlkNTU0NGVmYWI5YjI3N2ZlZDU5ZTVkYmUwZWRkOTNmOGI2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjJkMDU0YzA3MDViNmU4NDIyMTg0OGJkMDNlYzg2ZWI2MDhkOGVlMTVmZTcyNGEzNDgxNDBjMmMxMjAyYzI5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L69-L71",
+          "version": "repo-lines-v1:sha256:24baa4ef055d9fb6b2681ed03b162af3b943954e6943e065eaa1606ce98955c9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMGExZThkMDViNjUxNjUzNzM5MDNhZTQ0ZjkyZTIzNmFlOTI4Yjg1N2FlYWQxMmRlNDY1NTU0MGYyOGEwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTljMmNjMWQxNzRmY2EwMmQ5MGY1ZTEzM2FlMzAzMGI4MzhkNzJkZjY2NDU3ZDJjMjdiNzdlMWExODU0ODY1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjlkMTM3NGYzZWY2YjAwODk0YTJmMDJlYjdlMDljNjFjYmVhMzg3ZmI2YjI3ZjdmOGM5MmFkODNiNTUzZGZiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_998454d510d648e2807bbefa70db29f9",
+      "statement": "The API exposes three endpoints: POST /applications to submit and receive a decision, GET /applications/{id} to retrieve decision, reason codes and offered terms, and POST /applications/{id}/counteroffer to accept a counteroffer.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L19-L25",
+          "version": "repo-lines-v1:sha256:f660cb7e5dc1d7adb9f51fd959e671e481af592b41a3b2ae5258e44f77b42498:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FkMTA3MzllOTJhNDgxY2Y1MGNhYjUyNmMzNjFlZWI3MjBhOWY2NzRhNjkzNmMwNTUyYjg2ZGViNjc2NDgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDhlM2NmNDAxMjc1MjY2MTYyM2U2ZWZjOWVmZmVlZmQzMDZiMzZmMDczYmFhMTJkODVhZjBiYzQxZDg3ZDI5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTY2MWVhYmEzM2QyYTk0ODlmMzM5M2JmOTNlZDAwNzAzZTllOTlhMGY3NTY5ZGZjZmMxNGI5ODQ4MmYzOGEyMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9bbb065f849e4363a1cd6626f430472a",
+      "statement": "Operating envelope: rate limit is 400 requests/minute per channel; SLO is 99.95% availability with p95 latency 900 ms; data is classified Restricted - Credit; scopes are credit.decisions:write and credit.decisions:read; intended consumers are Card, Auto and small-business origination channels plus point-of-sale partners in sandbox.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L10-L17",
+          "version": "repo-lines-v1:sha256:f4afe8150f08bfd29b22af7aa5e4b5e03dce4ad938c966a2d4dac8c4cd6a031f:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmViM2QwMTBkMzhjZTU4NWQ3Njk4MDYxNWRjOWNkMGI2ODE0NjczNjMyZjFmYThkOTZiM2I3OGQ5NTg2NjQ0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTdhZGZiNjRkMDUwOTM1NTBlMTM3NGU4YzNmOGRkODBmMTQ5OWE2NjE2N2U1MjY3MzRmNGU4MDM0NjM1YmQ1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWU0YWJkN2EzNDhkY2QwYWFiMzE0ZTZiMTQxOTIzYjk1MzE1ZmU0NGQ0MTNjY2I0YTA4OGE4ZmY5YWFkZTM0ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b25839324b1d4a079197c1b1afbf59dc",
+      "statement": "The application request carries an Idempotency-Key header and a body with product, applicant attributes (income, housing) and a bureauConsentToken; the response returns id, decision, creditLine, apr, pdBand and reasonCodes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L27-L65",
+          "version": "repo-lines-v1:sha256:0e875b26691c9da748a88988ad2943e5b63c8a8af5eaf0c7cf178ea0f002ff1d:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmODIwZmYwY2VlMmNhOGQwMDFiZjljMjg3MGY0NDg1ZmIxYjhhYTA2NGRjNDkxOTA1OTc5M2QzMjQ4YjA0ZWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_02cabe80ebf64795a2121005d9a02595",
+      "statement": "Upstream sources are credit bureaus, Fraud Risk Signals API (API-08), Credit Risk Scoring API (API-10) and Customer Identity & KYC API (API-07); downstream consumers are Card and Auto origination systems, Loan Servicing API (API-11) on booking, and fair-lending monitoring.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L67-L67",
+          "version": "repo-lines-v1:sha256:28f20e2f1cb44d3e6b9f2a788a37f533e0a2abbe38b2eba81e846fb3cc7912be:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhmMjBlMmYxY2I0NGQzZTZiOWYyYTc4OGEzN2Y1MzNlMGEyYWJiZTM4YjJlYmE4MWU4NDZmYjNjYzc5MTJiZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhmMjBlMmYxY2I0NGQzZTZiOWYyYTc4OGEzN2Y1MzNlMGEyYWJiZTM4YjJlYmE4MWU4NDZmYjNjYzc5MTJiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L67-L71",
+          "version": "repo-lines-v1:sha256:2e13941e84f658c6e16ee5a38aa0b4928c8bd327e48d4472e9458dbf2b290b4c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTljMmNjMWQxNzRmY2EwMmQ5MGY1ZTEzM2FlMzAzMGI4MzhkNzJkZjY2NDU3ZDJjMjdiNzdlMWExODU0ODY1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L54-L58",
+          "version": "repo-lines-v1:sha256:8e4160efe485ea7ff2fa9a94e79f3125ad8b7a31e03a9d86dd5a504c64c236d2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRkOTJhMTM0YjM3YTk5Njk3OTk2YmNhMDlkZmQxN2RkNWRjOTk1N2ZiMDBjZTdmZWZmNDU5YjE1YWEzYjk4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_38f41331ed764f22ba07c695e03e6cce",
+      "statement": "API-10 is rate-limited to 60 requests/minute, owned by Risk Analytics Engineering, and lists API-09 as a downstream consumer.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L56-L58",
+          "version": "repo-lines-v1:sha256:caa847b197dbf89cb0d943a30a23b86e05211c420a75934c272103d0518ce695:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMGExZThkMDViNjUxNjUzNzM5MDNhZTQ0ZjkyZTIzNmFlOTI4Yjg1N2FlYWQxMmRlNDY1NTU0MGYyOGEwMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRkOTJhMTM0YjM3YTk5Njk3OTk2YmNhMDlkZmQxN2RkNWRjOTk1N2ZiMDBjZTdmZWZmNDU5YjE1YWEzYjk4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjlkMTM3NGYzZWY2YjAwODk0YTJmMDJlYjdlMDljNjFjYmVhMzg3ZmI2YjI3ZjdmOGM5MmFkODNiNTUzZGZiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:d0674751e0cb6525ac358ec769a588ff19f7c8c4c000dcd4ac536b0682720851:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjNzRjZDZhNDAxMGZjNGU1OWY4ZWVmZTk5ODQ5OTYyNTI2OTE2NTNiNjQyMjBhM2IyNTQ5MTU5MTY0Nzk3NTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5ODVlYjI2NTMyYjJjMTBmNjQ0ZjhkMmQ1ZTY1YTZhMjBjMGQ5NDZlNWZhMWNkMWE0ZWI5YjliZjVmZDYwZTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f999c178ccaa42ec80f0c0773690367a",
+      "statement": "In the Pillar 3 BCBS 239 lineage table, API-09 provides origination decisions and scorecard outputs for credit monitoring, indirect to CECL model MDL-CR-007, supporting disclosure Section 6; corporate reports say consumer credit decisions use API-09 automated scorecards while wholesale decisions are made by credit officers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L341-L341",
+          "version": "repo-lines-v1:sha256:ae7e94e2a92be0cf306986b20c78743d4236142cf3e9bb9a1a8558bdee444aa1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWU3ZTk0ZTJhOTJiZTBjZjMwNjk4NmIyMGM3ODc0M2Q0MjM2MTQyY2YzZTliYjlhMWE4NTU4YmRlZTQ0NGFhMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWU3ZTk0ZTJhOTJiZTBjZjMwNjk4NmIyMGM3ODc0M2Q0MjM2MTQyY2YzZTliYjlhMWE4NTU4YmRlZTQ0NGFhMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTNlOTM0YWNhZGNjNzc4ZTlhZTY3MjU5YWFhOGM5Y2E1MWU5OGJjZTZiMzkyZjdmMjMyODk5YmYzNmNmOTZjNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzFhZGNmMDM2Y2JhYTc0ZjAxZDFhYjk5ZTMxZTg3OTI5MjQ4N2Q1YjFmZDM1ZjlmNDQxYzk1ZGU0YTc4ZDE1OCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L216-L216",
+          "version": "repo-lines-v1:sha256:c3b5096594e7c6f72558ba36317746562f7388eac0f8e66f62f24ee0803c8125:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzNiNTA5NjU5NGU3YzZmNzI1NThiYTM2MzE3NzQ2NTYyZjczODhlYWMwZjhlNjZmNjJmMjRlZTA4MDNjODEyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzNiNTA5NjU5NGU3YzZmNzI1NThiYTM2MzE3NzQ2NTYyZjczODhlYWMwZjhlNjZmNjJmMjRlZTA4MDNjODEyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjE0YTM0N2NjZGJiNjZiNDczNTkyYTM5MGNlZjZlZWE0MDQ2YjBlZDA4YWYzYjI3MjRmZTJmM2IxYjczYWM4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWViMDdmNWI2YjU4ZDFhYzA3NjQxNDY1MzA1YzJkYTU2NjZiMjQ0MjcxYWQ0MWU3MDFmMjM3ZTlkZDM3YWE0NiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L534-L534",
+          "version": "repo-lines-v1:sha256:f39e3a8e506ab9e1460ef34b46771f4a4478c396296d6d56589b2593aabfa07d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjM5ZTNhOGU1MDZhYjllMTQ2MGVmMzRiNDY3NzFmNGE0NDc4YzM5NjI5NmQ2ZDU2NTg5YjI1OTNhYWJmYTA3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjM5ZTNhOGU1MDZhYjllMTQ2MGVmMzRiNDY3NzFmNGE0NDc4YzM5NjI5NmQ2ZDU2NTg5YjI1OTNhYWJmYTA3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVjNDI1NmM1NzU5NGVlYmU3NWQ5YzM3MjdhNWE3NGFhNTcyY2Q2MGRlZDRhYWZmYzUzYmYxOTk5N2I2OTU2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzRkNjM2NTFhY2I5NzQxY2E3ZTQ4OThkMmVkNjczZjIxMGViOThiOTkzZDJmZTNjNjgzOWViNzI2OTdmZTJmMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a6c0814e8e994848846c4c5560c3eab5",
+      "statement": "New card account decisions go through API-09, and expected lifetime losses on the booked balances are reserved through the CECL model.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L169-L169",
+          "version": "repo-lines-v1:sha256:d2807e9239902fae88ac768448f31802319b06e6bde8596fd8af0451a80ddcb2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI4MDdlOTIzOTkwMmZhZTg4YWM3Njg0NDhmMzE4MDIzMTliMDZlNmJkZTg1OTZmZDhhZjA0NTFhODBkZGNiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI4MDdlOTIzOTkwMmZhZTg4YWM3Njg0NDhmMzE4MDIzMTliMDZlNmJkZTg1OTZmZDhhZjA0NTFhODBkZGNiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmRhMzg3MWM5YTFhMzcxMWRhZWI2OGJmNDUzOTU0ZDU1NWFiMTQyOTU1NDBjNzlkMWY0NmUwOGM0ZjBiZDJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2VlMGU1MTM1YmRhYWUwYjE5MjM2MTZlNTk0M2ZiMWQ0ZTAzY2RlZjg4MGQ5NTZiZTg2YTA2ZTJiNTc1OTRiMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_40c5dc3a589844ffb74f320cfd8cf4e3",
+      "statement": "Changelog: v2.1 (2025-09) added small-business applications; v2.2 (2026-05) added the point-of-sale sandbox.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-09-credit-decisioning-api.md#L73-L76",
+          "version": "repo-lines-v1:sha256:166f45f7d2c8bff6043ecb92ea0f3cabd0b33834f2e6beb8209d70b13fb71755:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDMwOWEwYjYzY2UxNWE1NzNlYTc0ZDY1OTMzMWE2NWNhMzgwNTZjOWI2YmE5YTllNjRkMmQxNTEyZTgxYWVhNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTMzN2VlY2Q3MjQ2MTY2YzE4N2FlYzgxODc5ZWRiMmJiZjFhNGJlYmEzNmYyYmM0MGEzMGNjYWNkMTNhMTZjOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

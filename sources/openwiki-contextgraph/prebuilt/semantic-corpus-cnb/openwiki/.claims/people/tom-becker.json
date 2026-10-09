@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:60d8a3333d6d8b342f974ed55b63d336c91977ceeef0fbae8870ff173ccfb12d",
+  "claims": [
+    {
+      "id": "claim_29596d4b91c4456f99cae42cc9213539",
+      "statement": "Tom Becker is the Engineering Manager for the CBO Wire Center squad within Digital Treasury Channels Engineering, working alongside Tech Lead Lucas Ferreira and Product Owner Marcus Chen, reporting up through Director Anjali Deshpande.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L45",
+          "version": "repo-lines-v1:sha256:20d0c82b07730b60fb48b1da37dcd3fbabf01817f3cfca5b06c7635f6ba12af3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2MDMyNWVlNjE0NWViODEzYjdjMTNmNDRmYWU3ZDVlYWUzMzM2ZDg4MWIwZDBiYmYwOWE5NGYyYjlmNzBiOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYwOGU4NjYxNzQyMGUxMGQzMWYyNmYwNzM5OWJhMzBmODY2YzZkY2MyNmFkZjMzNTE3ODIxNzk2MjQ3MzQ2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGRkZTVmZjAxMjNjNDMyN2ViMjEzZGFjNDRkMTJlMzk5MTgzZTE2NTcwY2U1N2EwMGJkZjhhNDU2YTI2OTc3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGU4ZTQ0ODU5ZGZjZGY0ZTBjNjYzZTM5ZDA4MTQ1ZmI4YjZiZjIzNjBiNzk1NGE2NGYzNjdiNDA2MDEwOGZhNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4a3ab0b2dd7f4643ac3fed8561e3b674",
+      "statement": "Tom Becker is listed as co-technical owner (with Lucas Ferreira) of SYS-CBO, the Crestline Business Online Wire Center module, a Tier-1 24x7-critical system whose business owner is Marcus Chen.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L84",
+          "version": "repo-lines-v1:sha256:741fcbe007c7bddac6599e157b1f6295b51ec23d82cb2c4495b6fe9bbe9ee033:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQyYjkwMmI1NGNkNTBlZmQxZjA4M2EwMjg1YmQzYzc5MjhmMWQ4YjVlZDExYjVmYzM3Zjc5MTZlODJkODM4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhZjBjOTRmYjhiMDE0ODAzMzAzNGZjY2E4Zjc1NGExMjk0NTI0OWQxMDM0NWZkMTE0OTNkNGU4Y2VhNjhjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWM2N2YzZmI5Y2UxYWFiNWE2M2E0ODdiOGE0MzU1N2FiMzQyNzQzZjA3ZTRlM2JkYmYwYmM2ZjFhOGE3NmU0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY0YzIyMzEwZjZlZDNiMmM0Y2I0ZjQyYzg4NTUwODdlMTUzNGE0YTIyYWI4NTM3ODM2ODU4ZDBjMGVjOGE2YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b1a6aac5a97a4eaf88ac9d710345e083",
+      "statement": "Tom Becker is the document owner/author of PIR-2024-07, the post-implementation review of the Wire Status Lite pilot (CBO-3120) and INC-2024-1182, facilitated by Enterprise Architecture and approved by Anjali Deshpande, Raymond Ortiz, and Denise Carter.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L15-L22",
+          "version": "repo-lines-v1:sha256:7dce6ceac1307f9550ac0affd4ce793165a805abb8fcae169f69c12a6a7c0063:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDRjOGQzOTBmOTIyYzE1NjE4YzIzNTAwZDg3YWFkYjM5ODJmNmE1NjM1Y2M5Y2NhZTA5NjcxMjZhY2I1OThmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJhOGM3OTg4OTEwZjIyYzcxZTUwMzZkOTdlZDNiNWMyOTI1YjU0YzM3M2ZhZTEzNjUwMzhjOTVjZjJmNWU5MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjhmMDg4OTgyN2I1YzUxYmVmYzA2NjQ3ZDZmZWE2OWU3MmQ1Y2ZmZWU3NTlkMjZkMjgyZjk3ZGU3MGI5NDY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTFkNGY4YzViODlmYjEyMThjMWI4MjRhZDcxMDgyYjc4YmJhMGM2ODU4MzA3NjBmMWY4OGE4YjQxZWZlZjBiMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5f2c296789db49bfbbe576ccc323f909",
+      "statement": "Wire Status Lite (CBO-3120, 55 points, assigned to Tom Becker) piloted auto-refreshing wire status for 60 CBO clients from January-May 2024 by polling the PPH v1 status API every 30 seconds per wire; on 2024-05-31 combined pilot and production load drove ~85 TPS, exhausting the PPH v1 thread pool and delaying wire release 47 minutes (INC-2024-1182), after which the pilot was terminated and the epic closed as Won't Do.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L28-L28",
+          "version": "repo-lines-v1:sha256:3038fc9c1647d6ba6f0daf761aa168ceff1c5e8b34bdbecfdaccdb0a74d759f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjZlY2RlYTA0MmQxMzAzZGU1N2IxZmExMmE4MGNhMTU2N2Y1YjA0MjM5NmFkYWJjNmJlYzU4ZGNlYzAxZDU2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUyOGI1ZTZkMTJjYjNiNTcwZTFkYzdkY2JhN2M4NzczYzlmODEwMWYwMjNmMzZjZDZkZmQxNWJjNjYyZTBlMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L24-L26",
+          "version": "repo-lines-v1:sha256:47c1705db6ff961019a77cb29b6253eeb8c9aac385661d336843d74208a8cabd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVmNjY2ZTU0NDk5MjM5NjNkODg4ODUzN2I2ODk4ZDA4MWU4ZjYwMTU3ZjE1ZDNmYmY0MTlkMmNjNjJlYWQwNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjE0YzJjN2UwZmJlZjA3ZGYyZGRlMDdiN2U1M2VjYmM1MGY3MzFkZTlkNmJhZGJlZWRlODRlYmY0NGZmOTNkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjExOWIxZDgxY2Y3YzQ2YjkwMTNjOWUyYzZkYjg4ZDg0MDU1ZjY4M2ZmOGVjYjFkNDZjMGI0NjY3NWE2NmI5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7de5aa367fb948e490f3621c00c256de",
+      "statement": "PIR-2024-07 quantifies impact as 1,240 wires delayed, 312 released after the 6:00 p.m. ET Fedwire cutoff, 14 clients compensated $41,800, and no regulatory notification required; it identifies three root causes (unthrottled polling against a shared synchronous API, no month-end capacity testing, status semantics not validated with Compliance/Legal).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L28-L35",
+          "version": "repo-lines-v1:sha256:fe074407839fd331189b7b2809338c4ee513b6e599547aa968351919c79a00a8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQyZjAyMzY5YzFhMDBkYTNkZmUzODNiNzIzYzcwNzRlZjU3MjkxNjE2NjY2YTY0MTlmOWI1ODM3YzdkODI1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNmYzQwOTRjMGY4NzIyNmEzOGE2MmM3NjM0MDIyMTI0MTliNzE5Yjk1Mzg4M2ViOTBiNzk4YzIyMjVkNDgwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDliZmFjMzBiNmY5NTVlNTA0N2Y4YTQ2MTNiMWE5OTdjMzQ1ZDBkN2QzNGFmOTg3MjFlMzA1NDJiZTdkNjcwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY4ZjU2Yzg3ZDAxMzQ2NTQ5OGYxNDg2YjVhOGNmM2Q4ZjA3ZDkxMTllNzUwMTk4ZWI5ZTg4Zjc2YTExMGI2MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L45-L51",
+          "version": "repo-lines-v1:sha256:9e71d2f93a360cfa2460e517259613f7b7db12d400b3196ac826dd19f447e343:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjFjZjVmMGIwNmRjMjM0MGRlMTYyN2U1ZWVkNmQwM2UwZjM3NzQ5MGYwZmQyNTE3ZGRhMWJiZDRkZDI1ZDQ1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjBhYmQ4ZWIyNThlMTIxY2U4OTFkOGJmMzEwOWMzZjNiOGI0YzI5OWRjMTk0NDUyMjY3NGNkZTY5MjMxNjkxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGVmN2IwNGZmYjBiOWE5YzYyZjljNzFlY2EyYzZhMTgzNjViNGFmYjI4OTNlYWI2YzY0ZDkyN2E2YmMyYjRiMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUxYWE1YTRjMzkzM2VmOTgzOWEwYjViNGYzNzgxNjM2YmI2Y2UyNDZhZTc2ZGZiY2NkOGM3ZTg1MDA4Nzk5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bb1c5ebf47744d1e8c93efe22f768e6d",
+      "statement": "Of PIR-2024-07's four remediation actions, three were completed (PPH v1 rate-limited to 20 TPS, event-driven pattern adopted as ADR-PAY-019, reusable Status Projection Service delivered for ACH in 2025 as CBO-3815), while the action to validate client-facing status terminology with FCC and Legal before any future tracking feature remains open and carried forward.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L53-L60",
+          "version": "repo-lines-v1:sha256:48e33e8afd5d89a9891ca2815cbb357d002f93967de9d8394a7e0632cdb08305:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDJiY2U5NThlYjI2ODEyMWYwYWZhNTI0NjkxOTE2YjZjNTEwODY3MjRiODc5M2RhYjM4NDIxMjNhODY5NDE2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlZjE2MWJiMDQyOTE2MzliZmZiNGUxMzE1NTdmNGMyYjA2MmI1ZmUyYzAzMmY4ZDQzZWFkNDQwMDNkOGNiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTk3MGZkNzA0MmU2M2M5ZjAwMmExM2VjZWQzZTZhZWE4YmFiZDZjNWIyNWIzYzU5MTUwOGRkMDk2MzkwN2JhMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzgzNDlhYmQ0MzEwNDExYmQ2NmMyZGM4MmMwNGRmN2U0MzRkNjgyNTk0ZWM4ZjdiNmE0ZTJhODE0MDlhMDFkMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_be7705e0af924c15a6f8f2dac8eee113",
+      "statement": "Tom Becker is the assignee of CBO-4419, an Open, unscheduled bug about an international wire for Halvorsen Industrial Supply (EUR 412,600) shown as 'Completed' on 2026-09-16 then rejected by the beneficiary bank (RJCT AC04) on 2026-09-17, linked to complaint CMP-2026-1189, with root cause still TBD as of the 2026-10-05 export.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L106",
+          "version": "repo-lines-v1:sha256:a9f16681c783df01fad908210e986fddb962c52e09d1827c90035f3787dae453:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmRmNDcyZTFlZWVkZjg5MDI0MjI2NTQ3NzI2MjYwZTg1NzkyMTY2MTdjZjJmODc5ZWQ1ZDYxYjk5NjZlMjIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fe05add53ffb49cf854f7659460ba273",
+      "statement": "Tom Becker owns CBO-4471, a 34-point, unscheduled (Backlog) epic to migrate Wire Center from PPH v1 to PPH v2 APIs (replacing /pph/v1 calls in cbo-wire-bff) that must complete before the 2027-03-31 PPH v1 sunset; it is tracked as a consumer line item under PPH-2190, which as of 2026-09-22 listed cbo-wire-bff as the one sunset consumer not yet started (versus IVR migrated, CRM in progress).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L107-L113",
+          "version": "repo-lines-v1:sha256:3368cafdb0b6b5cbfa1b9a67247e306826af7835c147b7c32d283efbadc11fdf:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwM2ExZDQ2NDI3NzQxYmQ0NjA1ZWYzZWQ4YjY2MGYyMjk5NDZlNjJmNTcwZGRkZWVlOTczMzlhYjhlOWM0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0YzMwNDhkMTdmNTdhNjAyMzliZDJlMzFjOTQ1ZGEyY2I1YjljNDBmMjE0NTgxNGY3M2U3NjVmNTMyZmQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjRjNDI4OTgxYTcwZjYxYTY5OWVjNTZiM2JhOTVmOGUwMTM2YjdlOThkM2YyZjE1NmEzNTJjMGM0Njc4MjcxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYwM2Y0YTI2OTg0MjI4YmZjMDgzMzY2NGIxODIwOGIzYjkyODJjYzI5MWVkZDNiN2M4YTczMmNkMDY0YzU1NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L137-L141",
+          "version": "repo-lines-v1:sha256:04068018a39909221bd96b517609deb4cee9d42a30b8ab9ebbc7b70e7a2c47aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiZmRmMjY2NmY2NGMyMjcyZDJlZmIzNzkyNTU1N2U0ZGRlZTk4NTBkYWFlZjUzNTllMTkyYzdjNTVlMDI4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNDVhYjczOWJhNDk4NWM3NTBjZmFhMDYxYjAyZTdhZTljOTkzNzU2M2Q5MjRkODVmNGZhYjAzOWVmMjI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWNkMTk4YmI0MzFiYjBkMGM5MzNjYTUyZDIyZTUwNDE2ZGRkZGE4ZGFmMTMxM2FhNzIzZGViYTljYjI2NjdiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQzYjljMWU1NjQwOTU5YmNlY2Y1ZDJlMTQzMzUzZmEwM2Q5ODg4NTVjMzFkY2RmZDc4NjE5NzA0NTU4MmRhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bf353f361d364a0eaa6eb6874298d73a",
+      "statement": "CBO-4471 depends on CBO-4473 (CES account-filter mapping for PPH v2 search, owned by Arjun Mehta, also unscheduled); Tom Becker's 2026-08-30 comment notes the 34-point sizing assumes reuse of existing list/detail UI and excludes new tracking features, and that the epic was not yet placed in PI 26.4 or the PI 27.1 draft.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L109-L113",
+          "version": "repo-lines-v1:sha256:078de1763a81628055eb62979d0dd197387324432b8f843996eaac8236f892f6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTBiMmFjMDQyZGVjZDMyNGNlOWEwYzg3ZTc4YmFkZGRlZDNlZDI3NzdkNTZlNDM5ZTA2NTNjNDE0ZTljMWRhMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0YzMwNDhkMTdmNTdhNjAyMzliZDJlMzFjOTQ1ZGEyY2I1YjljNDBmMjE0NTgxNGY3M2U3NjVmNTMyZmQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTY1MWJiYTUzOGIzYTZkYzE0MTEzMDAxMWMwNWU5NzBhZWFhMTNkOGNmOGJhZmIxMDgxNGM3M2FjMzUxMzAzYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYwM2Y0YTI2OTg0MjI4YmZjMDgzMzY2NGIxODIwOGIzYjkyODJjYzI5MWVkZDNiN2M4YTczMmNkMDY0YzU1NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L38-L38",
+          "version": "repo-lines-v1:sha256:baa3dd9da885ca809175855ba2d8e865ffda0e3387468bcc2d52e331f45ac887:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjlmNjIzNzIwNTMwYTNhMDA5MWJkYzlmN2NmN2Q3Yjc1ZGJjNmY4ZmFlOTdkZWFiNDA1ODU0N2MyMTQzYmM4YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_da898905637a40d38d9ea868c0eb8bac",
+      "statement": "FCT-2004 records that PPH v1's holdReasonDesc field exposes free-text HMS analyst notes to channel consumers, raised to both Sunita Rao (PPH) and Tom Becker (CBO) with no remediation decision made as of 2026-05-27, noting the v1 sunset (delivered by CBO-4471) may make the issue moot.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L165-L167",
+          "version": "repo-lines-v1:sha256:1ff89d090b6bf4bd2e01243a3aa2c555b9140197e509aa8cbcaeff95c70bafb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA2OGMwYTFlNzM4MjQ2MjZjN2RmYWU2MDk0MDIwY2JmYzhjOWIzMjNkNDQyOGU5MDM2NjY5MmUxNjBiNGJjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZjZWMxOWUxOWQ5ZjAxNTJlNGYyOGYxYTZkZTBhNDMwYjI4Yzk3YTczMzU5MGYzMzkzZmFjOTUzZGJlYzM5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_00c2fc205a1445b6b9ea09e08437556a",
+      "statement": "Demand for the CBO Wire Center squad Tom Becker manages is sized at roughly 1 story point ≈ 6.5 engineering hours with ~42 points/sprint velocity, and PI 27.1 capacity was tracked at ~85% committed as of the 2026-06 PTT directory.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L126",
+          "version": "repo-lines-v1:sha256:91b2f18297804da199fc6a1d3cb1423a4b7f69e35518bd03b2f5a63b4e39dcfd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0NTBkMGJkYWE5ZTI0NTkwNzFhZTljOGEwYjc3ZDU2NjA0ZjYzNmZjZTU3YTVmOTQ1YjdiMGU2ODI3MTE0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWIwNjc5YTE3OGVkYzFjNWQyMDJjMzliOTIyYTllNWJjYmExOWM1NmM5YzNhNjM3OGRlYTJiYmY1ZWRlZjJiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWZhMjFkNWUzZTNjYzk3NTBiNTU4MTE2ZWU5NWQ3NmNlOTY0ZGYyYWFhMmZlYWY5YTllMjBjNGViMGZhNTc5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZkNWFjOGJkM2FiYjZkZTM1NDllNThiYzE2YTUzNjkxZDc0NzQ4MDU3NTFiNDM3YTM3M2Q3MmRjZmMzZGVlOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

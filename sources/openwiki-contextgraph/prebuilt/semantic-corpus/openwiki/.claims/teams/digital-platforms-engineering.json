@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d14bfe5a31d5dc1cc1bbb47a3f187d95ec117b578b713dd13877a87ac6b65bc8",
+  "claims": [
+    {
+      "id": "claim_871b42086b524409a90edf88a8599a15",
+      "statement": "Digital Platforms Engineering is the listed owning team for exactly three Developer Platform APIs: API-01 Accounts (v3.4, /accounts/v3), API-02 Transactions (v3.1, /transactions/v3) and API-17 Statements & Documents (v1.4, /documents/v1). API-01 and API-02 sit in Retail & Commercial Banking, and API-17 in Client Servicing.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:8776e3ea3fc884d7a143459e4724c9e3fa7bb7392cbb8e437b54bf07008e3815:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1YzM2NGU2Y2Y5N2U3ZTQ5OTY5ODk2ZTdhMjQ0YjU1MWE0NmM3ZmI1YTdmYmJlNTRlZmI1MWFlNjE4MzUzZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgzMGI3NWMxMTIwNDdmMDgwNDBlZjFhYWIwZmMwMGQwZThjMDgxNzcyNGI0M2RiNDMwZjE0ZjEyMWNkNzc1ZjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:5cb9ac09e0df41705e8e8fbef883dfd5a712a25e5d137c7ff3d0220b643c90c9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiMTE0MzJjMmQ1MGZmYzdhY2NhZmE0YmFkZjI4ZTJjMTRjZDI4MzAxZmUwNzM2OGYxNTQzM2JhNjJlYjEwN2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUzZWI3MTNkMzRiMmEzMzdmZjM2NGJlYmE0YzYwMzlkNjg4ODZmYTgwZTkzMDhlYjU2NDdiODRlNWFlNmVjZTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:a4c9819afb5b1cad08b4f0de6d8567255a4116dbe1a6b952a24886fd0a46fdce:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3YWU0Nzk2NWFiZjEzZTU0YmRiOWZiZTZhNzA0ODlmMTRkMjVmYWM2MzI3ODU3NTIxODdmMzJhYjZiZWI0N2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMmNjNmIxMmJjMzBiOTM4NDYwZmJkZGE3NDQ4NWMxMjE5ODVmZWRjNTMyZDVmMzViZTllNDc0ZDMyYjQ2NDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L79-L98",
+          "version": "repo-lines-v1:sha256:653461ee219e8c047f9d470d5b22a00fe7154f170b9fa4f482a18f7aa1d6a9b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzZjVhOTk1MGRhZmIxZmI3MTM4ZTIwOGQ1ZmZlOWM4ZDViZWMyMTc0YjQ3YjgwMjBhYTFhMGFjZjI4OTI2NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3ZTY0MmY0YzFiMTVjNmNkZWQyMTBjZTkwYzRiYmFjMjg4MTNiNmU3OWY5MTkzZDUyMzQ1MjZmMjJmZjgyOTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0YTE0ZDRlMThhOGI1NjIxMWFiODE3ZmQzM2YzZTllYjE4ZjlmYjc4ZGVkZTgzMTBkMjM1MmI1OTQwYTA2YWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a46819f4a6504bb8b64887062d1c6d41",
+      "statement": "The team's commitments differ per API: API-01 has 1,200 req/min per client (burst 200/s) and a 99.95% monthly availability and p95 180 ms SLO; API-02 has 1,000 req/min and 99.95% / p95 250 ms; API-17 has 300 req/min and 99.9% availability with no latency target. All three are classified Confidential - Client Data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:8776e3ea3fc884d7a143459e4724c9e3fa7bb7392cbb8e437b54bf07008e3815:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ1YzM2NGU2Y2Y5N2U3ZTQ5OTY5ODk2ZTdhMjQ0YjU1MWE0NmM3ZmI1YTdmYmJlNTRlZmI1MWFlNjE4MzUzZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgzMGI3NWMxMTIwNDdmMDgwNDBlZjFhYWIwZmMwMGQwZThjMDgxNzcyNGI0M2RiNDMwZjE0ZjEyMWNkNzc1ZjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:5cb9ac09e0df41705e8e8fbef883dfd5a712a25e5d137c7ff3d0220b643c90c9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhiMTE0MzJjMmQ1MGZmYzdhY2NhZmE0YmFkZjI4ZTJjMTRjZDI4MzAxZmUwNzM2OGYxNTQzM2JhNjJlYjEwN2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUzZWI3MTNkMzRiMmEzMzdmZjM2NGJlYmE0YzYwMzlkNjg4ODZmYTgwZTkzMDhlYjU2NDdiODRlNWFlNmVjZTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:a4c9819afb5b1cad08b4f0de6d8567255a4116dbe1a6b952a24886fd0a46fdce:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3YWU0Nzk2NWFiZjEzZTU0YmRiOWZiZTZhNzA0ODlmMTRkMjVmYWM2MzI3ODU3NTIxODdmMzJhYjZiZWI0N2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMmNjNmIxMmJjMzBiOTM4NDYwZmJkZGE3NDQ4NWMxMjE5ODVmZWRjNTMyZDVmMzViZTllNDc0ZDMyYjQ2NDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_12033c3dfea24640944b6e3e5b04ed78",
+      "statement": "API-01 exposes four read-only GET endpoints (account list, detail, balances, holders). Balances return current, available and ledger values with an as-of timestamp and, since v3.4, a holds field; holders are returned with masked PII.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L19-L66",
+          "version": "repo-lines-v1:sha256:0c3f1809fab276583260e83e1614a139d46e6bde78787f0d53d2edc89dc7914f:eyJzZWxlY3RlZExpbmVDb3VudCI6NDgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZDEwNzM5ZTkyYTQ4MWNmNTBjYWI1MjZjMzYxZWViNzIwYTlmNjc0YTY5MzZjMDU1MmI4NmRlYjY3NjQ4MjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmM2QwMzdhZGNhYjM0OTgzMTk3MzgyNzAwMzAxMDQ4YmNjYjgyNThlNDAyZTQxOWQ2ZTBkZWU1NmMzODcwMzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIyMjZhNGQzODBiODBhYjNlNTE2ZTk2YmUzZDNmMjAxY2NjZDA1N2Y5N2M0ZjVlYzQwZWRlMDlmNWU3Y2YxZTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQyNjZkNzJkMzcyYzIzNGRjYTIzNWRmMTI2ZGU1MmU4ZjU1Y2FhOWMwYjUxY2Q1MDhmNDMxMTZlZmJiNTkxNWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d125ad42ef394a878aaf79ff2d1512f3",
+      "statement": "API-02 provides posted and pending transactions with merchant enrichment for deposit and card accounts, up to 24 months of history, via two GET endpoints and a POST /transactions/search; merchant.location was added in v3.1 and enrichment reached GA in v3.0.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L4-L25",
+          "version": "repo-lines-v1:sha256:2f596e8f765df8648b27a9c476f00a676df81f31476360d7f8019da02040d6cf:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4OWY1ZGRlY2Q5NWYzMjQ3NmI3NTA0NWI1MDM5MzAxOTYyM2U1YTBmYTk4YzA0ZDJmYTk5NzIzODU5OTA2NzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3MmVlZGQzY2ZkNmQzZmM2NjRhMDdjMTZiMmNiNTFmNTJhZTQyOGNjNWEyYTMwYWMwNDk4NDNiOTExN2Y0N2YiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY1OGVjOTE2M2Y2YjhmN2NmYjYwOWEzZmQwYmNhNWY4YWY2OTEyMzE1ZDc0N2Y1YzA2N2Q3MWEzYmY0ZWNiNmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L69-L72",
+          "version": "repo-lines-v1:sha256:98e899df1454700869c4ae0a32405cd8f4b1803867c994c465ed0d3573f6f2a4:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGYyMmZlMjIzYWQwMDEyMDNiNzViMzMxZTU4ZGNlZGFlMjc4YWZkZTE4ZWU2MjhiYTM3MWVkZjRjZDM1Y2JhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTE4NmQ1Zjk0MGUwZWE1ZmQ0NmNhYTM2YjU5YmE5OWM1N2U3NTVlNGNmMmE2MWVjMTQ2OWIyNmFhMjE2OTUzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1b6dd24b19844770a6714681271ce781",
+      "statement": "API-17 lists statements by period, serves statements, tax forms and notices as PDF by documentId, and is the team's only API that writes state, via PUT /preferences for paperless preferences; tax forms were added in v1.4.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L4-L25",
+          "version": "repo-lines-v1:sha256:1a2cb5bd355a5ee72ff0a4c757ced60a922bd6aeb1b00f017474e78c9ce6ea93:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiNjJhYzNkMmQxZGQ5OGIyMzVjOWNhNGIwNzNjMmNkZjNjOTZmZjdkNjFiYjk3OTI2NWNjOGMwYTA5YmY2MjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBjMmQ0ZDM1MjZhYjIzNzFiOTJlYmMxZGU4ODNiNTgzMDI2MzIzZGE3YTEwOGU3MTMzNmNhZWJmZWJhNjk0OTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU0YjM3ZmNjOGMwZDQ5NDljOGVlOGY3MTI2ZjRhMzZjYjEyY2Q2NDgyNGFiN2VmZWZhZThkMWIyZDljNDZlNDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L57-L59",
+          "version": "repo-lines-v1:sha256:484e78eb07937bebbbbb882d394565a2918a80b5ec18eca1f0ae3f4150904b69:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjU3Y2U4YzFmMjViNDFmZGExNzkyZWY0YTAxYzhkMjI1OWJiY2FmNmMwZTFjM2VlN2Y1M2U3OGM1MTA2OTVkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjU1MjRiZTBmZTBkYThhNGE5OTRmZGM0Nzc3ZGM3ODY3NzRiOWQ1MmFjMjdhNTI2MjllNWM5ZDdjZDIxYTBmNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7daefc235e404bd4a1e64b651d4016e3",
+      "statement": "The team's APIs depend on each other and on shared upstreams: API-01 and API-02 both draw on the core deposit system (DDA) and the card processing platform; API-01 also draws on Loan Servicing API-11, and API-02 on a merchant enrichment service; API-17 takes upstream data from API-01 plus a document archive, and API-01 lists API-17 as a downstream consumer.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L58-L62",
+          "version": "repo-lines-v1:sha256:f91776fdafe6b6e3e97b69f7e5e0acb4a92f1a112c2bd92b86e0cd31547c63c5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTE0NjdlZDhkZWZhNjc1YjFiNzZhYTNmNWMzMDEwOWJjZTkwMjY1ZGNmZWJhZDZmOWYyZTA2ZTVhYzFjNDhjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L63-L67",
+          "version": "repo-lines-v1:sha256:026c6a99ecb122af53bd0cd6d82f2726ad4b7dfd6b8df626178327c34d1a1650:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWQ5Y2ZkMjE5OTVmNGNkMGY4ZjkyYjg2NzA1ODU4NTdjYWE3MGFlODhkZGYxYTExNGM0MzEyZmIzNTgzNWE2YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L51-L55",
+          "version": "repo-lines-v1:sha256:f0dd19f3a7e9157ff3a55be60bd1b976d92d8950819262c4ad4b22e13fcbbd7c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWJhNTJhY2NjOWJmOTkwYzVjN2Q4MzcyNWU2ZmNjYjlkNWRmMjJlYmRkMDFmNTQ2MTY3ZjNlMjYxMTljZmY2NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_40719a03075840c98410d47d96a0df16",
+      "statement": "API-02 feeds the Fraud Risk Signals API (API-08) feature store, which API-08 lists as an upstream source, and Fraud Strategy is a named consumer of API-02, so transaction or enrichment changes affect fraud scoring as well as client apps.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L13-L13",
+          "version": "repo-lines-v1:sha256:dde0c0a05939365aa7c2a9a8257dcb672d3eb927b3340c6d5b81cf1a28c47081:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGRlMGMwYTA1OTM5MzY1YWE3YzJhOWE4MjU3ZGNiNjcyZDNlYjkyN2IzMzQwYzZkNWI4MWNmMWEyOGM0NzA4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGRlMGMwYTA1OTM5MzY1YWE3YzJhOWE4MjU3ZGNiNjcyZDNlYjkyN2IzMzQwYzZkNWI4MWNmMWEyOGM0NzA4MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGM1N2YwMjQ1ZTEzMDEzM2RkNTU4MTk1NGYxYzUwMmY2Yzg2OWY5YzE2Y2YxZTA5OGM1N2Y3MTQwMGQ3NTk2MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzc5NjVlMTA4MzY5MDI3ZmJkYTQwNmU3OTdkMDAyYjBjNjg3Mjk4NWRhNjYwYThiM2FmYzk1NTk2YmM1ODc4MCJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L63-L67",
+          "version": "repo-lines-v1:sha256:026c6a99ecb122af53bd0cd6d82f2726ad4b7dfd6b8df626178327c34d1a1650:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWQ5Y2ZkMjE5OTVmNGNkMGY4ZjkyYjg2NzA1ODU4NTdjYWE3MGFlODhkZGYxYTExNGM0MzEyZmIzNTgzNWE2YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-08-fraud-risk-signals-api.md#L67-L67",
+          "version": "repo-lines-v1:sha256:28f20e2f1cb44d3e6b9f2a788a37f533e0a2abbe38b2eba81e846fb3cc7912be:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhmMjBlMmYxY2I0NGQzZTZiOWYyYTc4OGEzN2Y1MzNlMGEyYWJiZTM4YjJlYmE4MWU4NDZmYjNjYzc5MTJiZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjhmMjBlMmYxY2I0NGQzZTZiOWYyYTc4OGEzN2Y1MzNlMGEyYWJiZTM4YjJlYmE4MWU4NDZmYjNjYzc5MTJiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fa03517d55cb418e8ae94339acc40b28",
+      "statement": "In Q2 2026 API-01 handled 1,140 million calls per month (18% YoY, 99.99% availability) and API-02 handled 1,320 million (22% YoY, 99.98%), against a platform total of 4.4 billion calls per month; API-17 is not reported in the earnings supplement table.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L411-L424",
+          "version": "repo-lines-v1:sha256:ce59946e1b740970fb27e8a3d58586facd6ac7c067617f49567a213177310431:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVhYzc4ZmVkODI1MzBhZWU0NjcwY2VmZDg3NTZiNmQ1Zjc0ZTI1NDNmYmQ1Zjc2YmMyMjA5ZTdhMzdkNGM4NDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNmI5ZjkxYWE0N2NlNDJjZjljNDE4OTQwYzZkNzczYzBhMzQ0NGZjN2MzMTk1MDYwOWViNWIwZjMxODQwMmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2NGU1ODBhNmZkN2FiZjdiNzFkMTMwODcxOTQ5MGVhNmE3M2JmNDQ0MDA1Y2E1MjYxMWZkZDI1MzI2NTZmOWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU4ZDE2NjRiMzc3ZGU3Y2NjN2NmMGVkNjRkMDExNWYyNTc2YzQ4NTcyNzg0NTA2NDdmMDcxZmEyZjAyZDM5YzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_40cb0c938e9d495fa3f315e06ee90f15",
+      "statement": "None of the team's APIs is marked as an upstream feed to Tier 1 models in the API-to-model lineage matrix, and none appears in the Appendix C critical data services escalation list (API-10, 11, 12, 14, 15, 16), so the BCBS 239 critical-data-service controls are not documented as applying to them.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1357-L1380",
+          "version": "repo-lines-v1:sha256:5b9e75c6bdaeb40a6036f3ee6424da4096c6ce5c70be3c9f375d9dda0b0e0957:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3NzZiZjA3ZjllZjI1OTFiZWUzMGYwYjE1OTc2MzE4NDg4YzEzYTQwOGE4NzIwMjI3YTUyYTYyOTU0MGExOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFkNDcxYmY5NjMyYmFlODc2ZDM0YTI4NGY2YzQ5YjhhMzc0OTI0OWRlYzQ3YTBmNTI1MmYxNzk0ZWJmOTIyYWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxNjY3MzE3YjI3ZWU0NzkyMjlmNGNjMWExZDk0ZThhYzY3NjkxNjEwODdhZGEyZjNmMmUyMzJkOThkNTkzOWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3ZDdjZDk0YTBmNmJkOTQ3MGZjNjhmMWEzMjYzOWIxNzI1ODZmNjEwZWI3YjQ0NDBkNDZiY2M3MDY0ZDU3YWMifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L14-L18",
+          "version": "repo-lines-v1:sha256:7c1f81a46f393f50bdfb312bf3efc9d6e8c17674bf4653b7855cbe4ec7d47472:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTk1ZTlmMTFlOTgyZjYwOTBjNWJjMTgxNmZhODc4MmM2NTE2MzNmYzcxZDI3OGNjMDA0YjQ1Y2M3ODFlM2VhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjBmZDA3MDE3Nzg2NjA4ZjhmMTJhMWRlNWRmNmZkNGNmYjk4ZGUzNzllMzVhYTI2NWYwMDZiZmYxYzk4M2RkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1417-L1424",
+          "version": "repo-lines-v1:sha256:b7bc3dd524d0cfa37c910732d16efde1445f6e8096ef5eacbdc100d7e5ed1e46:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZiNTJkMzUwYTdjOGZhNTc1NjI4YzJmODgzZWM4NTBiZTg4MjhjNjk2ZWE0ZGNiNjdhZTAwNWUxZTg3NjI1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGJiYjE3OWU2MGM4MTlhMDhiYzU1MWExMTYxYjUyNGRhNTNhYjEwNGFiODk2NzBhNmEyNTM2MWEwYTdkYzE0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGJmZGEzZDQwMTQwOWQyN2Q4MmViYTZkMTNmMDNhY2E4NDVlOWVjYTJjZmVlNGQ5OTBmOTk4ZTc2ODgzN2MyMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDgzY2U1YzhmMjQ4YWNlNjhjNjFjMzQ3OGI0OTNlYTk3MzBlMmMzNWIxNGExNzE1MWZjYThiOGVlYmFiODkxZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_484a8e20f076414294b7c29b841275f7",
+      "statement": "Platform-wide rules apply to the team's APIs: OAuth 2.0 with client credentials plus mutual TLS for servers and authorization code with PKCE for customer-facing use, 15-minute JWT tokens, cursor pagination, rate-limit headers with Retry-After on 429, a standard error object, and path-based major versions supported for at least 12 months after the successor reaches GA.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L29-L75",
+          "version": "repo-lines-v1:sha256:3d0b61f5931366eb7ccf2018927644701e6c2a7f5f4e94772add40d8756690eb:eyJzZWxlY3RlZExpbmVDb3VudCI6NDcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxNDQyMzAyNTg1YzhlYzI0MmVhZjM4YTg1ZDdmMWI3ZDM2NjYyYjYzODNlZmQ1NDViMGJkNDkzZTNiOWJhZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjAxZmQxOTQwZGI4MWMzODI4NzMzMDkxNzlmZWY4N2Y1MDk0YzY5ZmZjMTY0ODYwN2VjNjA5OTgwZDljMDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIyNmZkMDg5MzI4ZTI3MTg2Zjc5MDVkYTU5MDkxMzU2YTNiOTdkYjA5ZmEyZDRkMGRhOWMyOGVlNDk4MzJiMzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5Y2U1NDk0Njg4N2I1ODY4MDEyNjdiYzE2ZTU2ZjFmMTczOGRiMWVkZjA0YTk4MTcyNjYzM2E1NzdiN2IzMzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5d56c8f95cc144d4a16dae7526fd7ea8",
+      "statement": "The change history shows additive minor releases: API-01 v3.4 (2026-03) holds field, v3.2 (2025-07) cursor pagination and v2 sunset on 2025-12-31; API-02 v3.1 (2026-01) merchant.location and v3.0 (2025-04) enrichment GA; API-17 v1.4 (2025-12) tax forms.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-01-accounts-api.md#L64-L68",
+          "version": "repo-lines-v1:sha256:627d352f2c1286ac26164b21437db66b5e4c952c8a0aac07d16f6cb3625a41b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIwMWQ1ZWZkYTc0MzE0MDM1MGNmZTlkYTk5ODE2NDcyNThmMWJhZTJiZjZlMGY4NmYyZGVkNGZkMmQ3MzBjZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdhYjNlZTg0MThkMGQxOTYxNjM0ODc5YjI5NWY1YzEwZTBmMmIzODIyNzIwMTVmNTE0OGMyMWU5MGExMTdmYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-02-transactions-api.md#L69-L72",
+          "version": "repo-lines-v1:sha256:98e899df1454700869c4ae0a32405cd8f4b1803867c994c465ed0d3573f6f2a4:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGYyMmZlMjIzYWQwMDEyMDNiNzViMzMxZTU4ZGNlZGFlMjc4YWZkZTE4ZWU2MjhiYTM3MWVkZjRjZDM1Y2JhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTE4NmQ1Zjk0MGUwZWE1ZmQ0NmNhYTM2YjU5YmE5OWM1N2U3NTVlNGNmMmE2MWVjMTQ2OWIyNmFhMjE2OTUzMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L57-L59",
+          "version": "repo-lines-v1:sha256:484e78eb07937bebbbbb882d394565a2918a80b5ec18eca1f0ae3f4150904b69:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjU3Y2U4YzFmMjViNDFmZGExNzkyZWY0YTAxYzhkMjI1OWJiY2FmNmMwZTFjM2VlN2Y1M2U3OGM1MTA2OTVkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjU1MjRiZTBmZTBkYThhNGE5OTRmZGM0Nzc3ZGM3ODY3NzRiOWQ1MmFjMjdhNTI2MjllNWM5ZDdjZDIxYTBmNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

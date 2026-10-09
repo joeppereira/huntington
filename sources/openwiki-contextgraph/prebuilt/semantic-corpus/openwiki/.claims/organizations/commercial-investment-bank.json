@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:2d53d1fb842f3be73fb8bcb6e4d3c71c7d4775da1a91ce7f004a21d3c975943b",
+  "claims": [
+    {
+      "id": "claim_5104c32c52794acdba16078c886f3d53",
+      "statement": "CIB is one of three reportable segments of Meridian Harbor (with CCB and AWM, plus a Corporate segment). It was formed in January 2025 by combining corporate and investment banking with commercial banking, and the integration of the former Commercial Banking segment was completed in 2025. It covers investment banking, markets, securities services, global payments and lending.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L206-L206",
+          "version": "repo-lines-v1:sha256:118c3db1c45b1b0055e5be5b74c0711f412780fc5f25a77efdf1b656bfc20fec:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTE4YzNkYjFjNDViMWIwMDU1ZTViZTViNzRjMDcxMWY0MTI3ODBmYzVmMjVhNzdlZmRmMWI2NTZiZmMyMGZlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTE4YzNkYjFjNDViMWIwMDU1ZTViZTViNzRjMDcxMWY0MTI3ODBmYzVmMjVhNzdlZmRmMWI2NTZiZmMyMGZlYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDc1YjcyMDJlZmFmNzY2ZWI2MDRkOWE2ZTM4NGU0NDQwYTAyMzA3OTUzNjkyODVkMTMxYTgyOTk4MmE1YmEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMzODY5MzI5YjVmNTk3ZmM0YjU1M2Y4Y2Y5OGNjM2FmOThhNWNjMjJkMTAzNGRiNzUxMDlkNWVmOTliYWVhOSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L43-L43",
+          "version": "repo-lines-v1:sha256:3d1c0d80013ecb461e6c444ae408b053ee7a476e8ce99970f3065abd547b2b48:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2QxYzBkODAwMTNlY2I0NjFlNmM0NDRhZTQwOGIwNTNlZTdhNDc2ZThjZTk5OTcwZjMwNjVhYmQ1NDdiMmI0OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2QxYzBkODAwMTNlY2I0NjFlNmM0NDRhZTQwOGIwNTNlZTdhNDc2ZThjZTk5OTcwZjMwNjVhYmQ1NDdiMmI0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWY2ODEwMGJjNjQxNTY2NDMxZWY2MDMyMDlmZTQ1YjE0MjA5ZjhjYWU0YzhjZmE4ODJlNTI1Yjg1YzYxNTMzMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYxNWMyY2EwNDBmMDE3ZDQ5NDZmYjM1ZjFmYTUwMzRhN2FkZWNjNzY5MjZhNTM2NzliOTcxYjZlMDJhODM5ZSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L98-L98",
+          "version": "repo-lines-v1:sha256:807e4eade7df2f4f1bd1b50c826ff75ce7d91128f70166a7edb86ae2cd1720ef:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3ZTRlYWRlN2RmMmY0ZjFiZDFiNTBjODI2ZmY3NWNlN2Q5MTEyOGY3MDE2NmE3ZWRiODZhZTJjZDE3MjBlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODA3ZTRlYWRlN2RmMmY0ZjFiZDFiNTBjODI2ZmY3NWNlN2Q5MTEyOGY3MDE2NmE3ZWRiODZhZTJjZDE3MjBlZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmVmMTIyYWIwNTVhYWQ0Y2ZlMjZmYzUzNzI3ZjMxYWNlNmU1MzkzMmUwNDBiNDEwOTdhZDQxYmJjNzZiY2VlYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzNjMWRhMGQ0YmU0MGQ2MDcyNjFkN2U0NjI3YmRjZmU2MGU5ZWQzMzRiYjRlNmY5ZjRmMjc3NDZjODRlNjk2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dff68d890bab441fb967bc0488a97c66",
+      "statement": "For 2025 CIB reported net revenue of $32,450M, net income of $10,180M (up 6.5%), ROE of 18% on $54.0B average allocated equity, investment banking fees of $6,840M, Markets revenue of $17,920M, and provision of $820M. Its net income reconciles with the other segments to firmwide $24,960M.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L168-L176",
+          "version": "repo-lines-v1:sha256:88960541c97f73fe0f5b97fe5dac33915f26fdbcc28ff1c35aa2acc106a56a59:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQwYWZiZjY5YzVkYWIyODM0ZjAzMGUzNzAzMDVlYTg3ODk5MDIwODZhNjQzYzc1ZWEwZTgzY2M3ZjAyZmZiYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRiYTc2ZDI0ZDIwZjQ4YWJkOTI0M2VlYWFlMWQzZDNhN2MwNWUwMjc4YjZkMWExM2UyN2Y0NmQwNzEwZDM1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTgxZjAzZjIwMzViZTQxNmZkYWJiZmY2M2ZhNDU0MzUzODQwZTRiMTUyOWVhYWZjNjc3ZWU1MzY4NzQxOGQxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdiZDNjMzdkNTA3ZDg5ZmZkNmM1NTRmMjhiYTc0ZDU1Mjc2MjgwZjgxZDg4YTdlYTQ1ZTUyOWEyMGVlNGFiZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L206-L224",
+          "version": "repo-lines-v1:sha256:de219a50a467f8307903f5c92e3a4e2dfe8f8806b17488627468363d0ff10d9e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExOGMzZGIxYzQ1YjFiMDA1NWU1YmU1Yjc0YzA3MTFmNDEyNzgwZmM1ZjI1YTc3ZWZkZjFiNjU2YmZjMjBmZWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0NmRlYTY4YTliOWRkYjBlMGZmZWFjZGFhZmRhMmM1M2M0NTYwNjJiZTJiZWI4ODBlMTY3NWFmMzU4YjEyYWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ3NWI3MjAyZWZhZjc2NmViNjA0ZDlhNmUzODRlNDQ0MGEwMjMwNzk1MzY5Mjg1ZDEzMWE4Mjk5ODJhNWJhMzEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjczODYwM2M5NGRjNTRkM2ExNjk4OTc5NDJkODg5YWM3ZGQ1NzQ1NjZlYWI4MGVmY2FkOGViNjY0ZGM3MzNlMGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ade60b953f454f95a686e2ea7eae1f75",
+      "statement": "CIB 2Q26 net income was $2,740M (down 5.2% sequentially, up 9.2% year-on-year) on net revenue of $8,480M. The sequential decline is driven by Markets revenue falling to $4,610M from a seasonally strong, record-derivatives 1Q26, while investment banking fees rose to $1,820M. Payments revenue was $2.5B and real-time payment volume rose 64%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L175-L200",
+          "version": "repo-lines-v1:sha256:d322b8d90218d7198799784cc0338c8b8d6cb12e0a500453a211c4cff6d0edbf:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwNzZkNGI5YTQ2ZGY2MDc4NmRkYTlkYjAzMmVmMzU0ODNhMjQyNzJkZjIxZmM5OWIxY2E5YTcyYmRlODc5ZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIwN2Y2ZGE5YmM4ZmJhMzNhZWQ1NzI3MTY1OWU3NzJjMTM3MjZlNjc1OGJhNWYzYTJkMTBkMDM4YzIwNzk5YmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE0OTljMDA4OGUzZmMxMzkxYjUwOTU4YzJhMjY4ZjE4YTA1NjU1OGY3YzA1ZmY4OTNjMGUyY2I1YTFmM2QxMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkyNmRkOTQ1ZWNmMDBiNzFjYmZkZGY5YjViYWU1ODZjYjQ5YTEyZTA0NTIwOTRkMzM2ZThlMWRhNzMzMTIwMjUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L57-L71",
+          "version": "repo-lines-v1:sha256:0eceb17c7a6acc678ae57d7b3cc43d7ed59388bf4465aa68bafad2366c53f3ef:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0N2ViZGZlNjc3ZGY1ODYyMmI4YzdiMWJiOTE2MDAzYjZlNDkyYzE0YzMyNGQ1YjEwYTE5N2MyMTY0MWQ3NTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkMjNmMGU4NWJkZjZmMTA2ODBlZGY4MTNhNGZhMWVjMTk0MzY3MzQxM2ZlYmZhMjZhOGUxNWNjYzBiNzcyZTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImEwZTYxY2VlM2ZjMDE4ZTkxZDY4Y2M4MTg5ZDdiYTZmODk3YTAyYTZmYTI4YjgzZDc1MWE5YjkwYzg1NzkxNWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY5ODdhNjYwOGZjNzNlMWE5ODBlYTBhOGJhNjJlYThhYWE3MWNmMDQ4YmYxMGMwNThhNDA2NGVkNmY0OTk4MDcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b4b6cfae8c744c359d6fb6e1232788fe",
+      "statement": "CIB payments growth depends on the Developer Platform APIs. The Payments Initiation API (API-03) and Real-Time Payments API (API-04) are integrated with the top five middle-market ERP platforms, and each payment is screened by the Fraud Risk Signals API (API-08) before release. The Wire Transfer API (API-05) serves CIB clients.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L465-L465",
+          "version": "repo-lines-v1:sha256:483129213ad3c3508379db52789d9f746b714efae2e2b5697c3f3d5f770338e8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDgzMTI5MjEzYWQzYzM1MDgzNzlkYjUyNzg5ZDlmNzQ2YjcxNGVmYWUyZTJiNTY5N2MzZjNkNWY3NzAzMzhlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDgzMTI5MjEzYWQzYzM1MDgzNzlkYjUyNzg5ZDlmNzQ2YjcxNGVmYWUyZTJiNTY5N2MzZjNkNWY3NzAzMzhlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDM4YTc2NzhiZTk5ODEyMWFlYzcyMTQ5YWM2ZWNmNTdjZDQyZTZiOGI2MjdlZDM5MDcxNGZkZmY3N2M3M2NkNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDliNTBhNzk5MTc4MGJmYWFmZjAyMmM1M2MwNTFjYTczY2E1NDc3MmVmM2ViMTlhM2IzYjBlMTYzNGRlZDU3NiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L190-L198",
+          "version": "repo-lines-v1:sha256:99f54726d581e8b4a4529b9062d74895202d5a9ae6661c82588bbda982399f9c:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUwYjk0NGIxYjBjZTZjYzRlZGM3NjJkYmQyMjdjZWNjMzAwYTA4YjBkMGMyY2EzMzE1NzgzMWY3YTI3MWJiZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFlNzNjMDg0NTUxNWEwMDBjM2UwNmU0ZDMwZTU3MTM5NjliN2FhOGIzYzE1YTk4OGNlYzExNjE3MWFhNTFmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzU1NjVkZTY1Yzc5M2VjYzJmYmU4MzI3MzNjMWZmMDg2MWVlZWFhZmY1ZjQzMWU2MGRhM2U0ZWYxMWEyMDEyMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM3ZDAwNjc1OTQ5MTZkMDIyZGViOGNhZTM1ZDJlMjZmMDFlYmM3Y2EyYWM1ODMwYzc2MjJkNzE1NGNjOGEzYiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L413-L424",
+          "version": "repo-lines-v1:sha256:cbebffb2e3c873e7177ca0dc2a2fbaa94a5ead7e44cb85382bd6941e92ffb138:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwNTAxYzAzMzkwYWQ4YjliMjE3M2UzNzgxMzBjYjZiYzlkMTNhODA2NDQ0OTI0NWRiZjMxZjU2ZDY2MTg3Y2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNmI5ZjkxYWE0N2NlNDJjZjljNDE4OTQwYzZkNzczYzBhMzQ0NGZjN2MzMTk1MDYwOWViNWIwZjMxODQwMmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc4Y2I2YWJiNzI1N2U4MTIzYTEwNmM3OWFjYTA2MDM3YzAyNjM5MDA3ZWI2MzI4M2RjZjE3NWJhODkyY2QxZmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU4ZDE2NjRiMzc3ZGU3Y2NjN2NmMGVkNjRkMDExNWYyNTc2YzQ4NTcyNzg0NTA2NDdmMDcxZmEyZjAyZDM5YzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4f9647d59f594e438795d4c92a3d00c8",
+      "statement": "VaR is disclosed on two non-comparable bases. Management VaR in the Annual Report is 95% 1-day by historical simulation (2025 average total 50, 3 backtesting exceptions). Regulatory VaR in Pillar 3 is 99% 10-day (2025 average 160, 2 firmwide exceptions, below the five-exception threshold for a higher multiplier). The sources give no CIB-only VaR; it is a firmwide measure.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L397-L409",
+          "version": "repo-lines-v1:sha256:93b7ca419841d2f11772aeb33265232043b8cc9b451c6ef92c4fa5c01bb89a10:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyZWE4NjBlN2E3MTQ3ZGVhY2FmNWZiYzAyNjE0NDI1MzlmNmZlMWEyMDFhZTEwNDA2Y2JhZTg0MDQ0NTIyY2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY5MzJlOTg0ZTlhNjVhNzk4Mzc2OTVjMjg1OWIwMTdjODA2YjczYzZkNjQzYTJhYjUxNDhiMDFjMjNjNjRmMjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNiOTgxY2VkMTUwYjNlZWQ4YzZhZThjNWZiY2EwZWQwYTRiYTU4Njg2NDZlMDdkOWFlZTgzYjU5ZDBiOTFmOGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE2MmU1NmFmOTNjOTc4N2MwZWY1YzMxMmRkZjA2MjgwMzYxZTg1ZWIyZTkwMmQxM2RlYzFjNDk5ZmUyMGYxZDgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L365",
+          "version": "repo-lines-v1:sha256:ef6ea804ee6c657c8d4f14fe1560f7cdf8a0895e142df42e910838b6ec9f04ad:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjZTg4M2Q1ZGY5MzBmZmY3NDdiNmRkMWI2OWYxNzBjNmY5ZjQ1YTE2ZDA2YTVmYWIwZmZkNjExMjYyOWQ4NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2MDY2ZWY4N2FjZTNhNzczOWM2OGFhZjBkZmUzNzg2MzI1NDZkN2Q3ZDU4Zjc0Yzg1MTQyOTRjODU1ZDcwMGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUyNGI2MmVhYzViMDJiNjY2NWJlMWMwYTFkNTZhZTcxOWRmMTdiZTUzYmU5YTExMWI5MmY2MjhlYWM2MGRiNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIwMGE2ZjdmZTE5YzY3YzM0NWEyZjBkMGFmZGYzMDM4M2IwZDViNDMyYTllYTBjYTU1YTQwNDljNTExYmRhYmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7bc6762e4b8542ba99b10ed6ac81751e",
+      "statement": "Trading valuation and market-risk model inputs come from the Market Data API (API-12) and FX Rates API (API-13), which are designated BCBS 239 critical data elements and validated independently by the Valuation Control Group. Regulatory VaR, stressed VaR, IRC, the comprehensive risk measure and standardized specific risk make up market risk RWA of $54.2B at year end 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L395-L397",
+          "version": "repo-lines-v1:sha256:46cdb28c272722e70020a5035f3688f527fe0f60c734e8794232ec3db85d8b37:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVkOGIwMDE0MTU3OGQ2ZTQ0Mjc3NjE5MmM2NGJhYTdhZTA4NjJmZWM2MTZjNDI0ZjE5MzBlYzRhMWZkYmMwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBmMmJmZTA3YjIyYjVmMWNjMTQwN2Y5MGQ5YzkyNDA2NDlhZjQ3ZDgxMTIxOTY4ZGE0ZjY4ZjQxZWFhOWY4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlOWQ4YWI3NDlkMDAzZTU1OTM2NDMxZGNmOWZjZWQyZGQ0M2VjNWIzZGY3ODg4NGVhODA3YzJjN2QxOThkNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L355",
+          "version": "repo-lines-v1:sha256:e65d0e809e6ca711fcfc0c42420164b959e389d8003f15ca48b4fd7284581e02:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjZTg4M2Q1ZGY5MzBmZmY3NDdiNmRkMWI2OWYxNzBjNmY5ZjQ1YTE2ZDA2YTVmYWIwZmZkNjExMjYyOWQ4NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4OGMxYTllNGY2OWMzMzEyMDVmMWE3OWZlNTRlYTE4NDQ5NjgwMWE1ZGIwMWU5ZjlhNmIzZjIzNjM1NjI4ZTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUyNGI2MmVhYzViMDJiNjY2NWJlMWMwYTFkNTZhZTcxOWRmMTdiZTUzYmU5YTExMWI5MmY2MjhlYWM2MGRiNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRmMjA1N2RiM2EwNWI2NGI2OTQ2MjhmY2Y4OWZiZDIxMjE4ODJhZmU1ZGNmNWE2Nzg5Y2Q5OWEyYjYxMDQ0OGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_107cc5a1a78141a4b040b3e12ec19b6a",
+      "statement": "Office CRE is the main credit concern in CIB. 2025 net charge-offs were concentrated in office CRE and a few consumer-discretionary C&I names. In 2Q26 office net charge-offs were $90M, criticized office loans were $3.1B (down from $3.6B), and office allowance coverage was 9.8%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L210-L210",
+          "version": "repo-lines-v1:sha256:f8447fe4e54dc0995cba12ab2aac72e1a6424072d046b67d5e540d74e4e30b6c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg0NDdmZTRlNTRkYzA5OTVjYmExMmFiMmFhYzcyZTFhNjQyNDA3MmQwNDZiNjdkNWU1NDBkNzRlNGUzMGI2YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg0NDdmZTRlNTRkYzA5OTVjYmExMmFiMmFhYzcyZTFhNjQyNDA3MmQwNDZiNjdkNWU1NDBkNzRlNGUzMGI2YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTMzODY5MzI5YjVmNTk3ZmM0YjU1M2Y4Y2Y5OGNjM2FmOThhNWNjMjJkMTAzNGRiNzUxMDlkNWVmOTliYWVhOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2ZmYTFkYjEyNDc2YzE4NGEyNmNjMGU2ZmFmODY0NjI1ZmUzNmViYmNiNDYzNDA0NDQ4YmU4MzUxNTg3ZTQxNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L194-L200",
+          "version": "repo-lines-v1:sha256:59d93444f73a1b2dcb495609e300444c965dd3e325bb424903230b9cc19d74c3:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVjOGRjZGNjYjVjN2EzMjFmMDBkYTcyMWQyZjhhNTI0YjdiYjQwYzdlZmMyOGY0ZGZlYzhhZTI5ZGJhMTRlZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjA3ZjZkYTliYzhmYmEzM2FlZDU3MjcxNjU5ZTc3MmMxMzcyNmU2NzU4YmE1ZjNhMmQxMGQwMzhjMjA3OTliYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTUyOTAzZGM2MThkNWRlNGY4YmVkMWIxZDg4NGZmMTBjMmQyOTYyZTg2YmQ4YzdhMjg4ZDIyM2EwMjg4MTE4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTI2ZGQ5NDVlY2YwMGI3MWNiZmRkZjliNWJhZTU4NmNiNDlhMTJlMDQ1MjA5NGQzMzZlOGUxZGE3MzMxMjAyNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

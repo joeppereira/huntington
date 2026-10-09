@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:63ed50efd74ea57047a57268b1be60bd3309621436e377a643a4ebebc727f591",
+  "claims": [
+    {
+      "id": "claim_2b8f794b9d514947ad10a9b986ae467a",
+      "statement": "API-15 (v2.1, base path /treasury/v2) is a read-only, internal-only Restricted data service owned by Treasury Technology, with three GET endpoints: /positions/balance-sheet/{asOf}, /hqla/{asOf} and /cash/intraday, protected by scopes treasury.positions:read and treasury.hqla:read and a 120 requests/minute limit.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-15-treasury-liquidity-positions-api.md#L4-L25",
+          "version": "repo-lines-v1:sha256:f0cdc803b3351dcc5a984f0668ea4b39db40f1087f90e38646c2cd2bdaae89e6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiNTc1YzY5OGYxODdjNzExOTZmNTgzZDkxOGQ4ODQ1ZGQzM2E2ZDVkNDQxMWE0ZjhkYzkzMDM5YzI5NmVhNjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2NzJhMDE3NmRhODQ1OTM1ODM3OTA0NDlkZGM1YjcwMzczNzY3MTNiNDM1MGFlMzg3NDJjZDdjYWM5NDdhZWEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjllNmE0NGJjZTYxNjQ3MmYwYmJlODZiNzA3NmI5ZmU5MGNjZTI1YzUyMTY1OWI4Mzg0Y2VkMTA4ZWUwYzI4MzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5dd56b09a4694fd384c0dc672571a731",
+      "statement": "API-15 has an SLO of 99.95% availability with end-of-day positions published by 21:00 ET.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-15-treasury-liquidity-positions-api.md#L17-L17",
+          "version": "repo-lines-v1:sha256:75e728b4ea3fdb2db33daf0b177a2f53964d2baa12aebb279e90cc86f27a5218:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzVlNzI4YjRlYTNmZGIyZGIzM2RhZjBiMTc3YTJmNTM5NjRkMmJhYTEyYWViYjI3OWU5MGNjODZmMjdhNTIxOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzVlNzI4YjRlYTNmZGIyZGIzM2RhZjBiMTc3YTJmNTM5NjRkMmJhYTEyYWViYjI3OWU5MGNjODZmMjdhNTIxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjVjZjk0NzJmMjlkMzBiZGI1NDA0NmE4NDYxMTQ5MmI2ZTZmYmFlMDA1NWVjYWQwZDIwOTgxNDBjOGIzYzg1OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b75b41b198814814b857eeb4312f4627",
+      "statement": "API-15 aggregates data from the general ledger, payments rails (RTP, wires), securities custody and deposit systems, and feeds the NII Sensitivity Model MDL-ALM-014 (balances, yields), MDL-CAP-003 (liquidity constraints), the LCR and NSFR calculators and the liquidity stress testing engine.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-15-treasury-liquidity-positions-api.md#L47-L51",
+          "version": "repo-lines-v1:sha256:18dc5a422e623c166c5d433f106259e139315aa826e6f01cdd0f318cfb457581:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM1YTdiZjE4YzM1NjIyNWYxZTM5OTliNTM3YmMyMmYwODVjOGFmZThiYjE0YTdjMzVmNTA5NTNlNjdmYTY5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L45-L47",
+          "version": "repo-lines-v1:sha256:c39b6856c6f5bccfc4bdd60d1bd0e6a6776038348eceda9ffdddd296118de976:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgxZjU2ZjBjYWFkYmUzMTA1MWMyMGI0MGJhODdkZTBmNjE2NTI3ZTkzYjU3Nzg2YzdjZjNmZGNjN2VjMDMxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThlNTg2YWE5Nzc2YjhmNTY1MTE5OGVjZGU1YTQ4YWIyNDVkZTI0OWQwMDg3ZjQ3ZGQyMjYyOThlOWQyNzU2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmM2ODYwMmI2MDY4NzIwNWIzM2I4Zjg2MDYzYjNkMTFhZGZjOTA3NTQwMTBmZmJmMDU1M2QyMjEwMzUwY2M4NiJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L44-L47",
+          "version": "repo-lines-v1:sha256:34fe9c7f2e2228fa89b9f7f7466d94f1b3b857474f09c682e1d31b42c75fa11e:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1NDMwYWQ1YzRjMzAzODc0MzJkMTk5MmNlYTQ4OTZiNDMxOGExZjA3NjRmOGYzOWFmNTQ2ZDhjZTNiMzI5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwMmUxZTVlNjk2NGUxMzQzYTE0YWM3NzZkZTAxOTY4ZjNkNGVlYTk0MjM4M2IwNzZiYjJlNzcyNjFmNWViZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTdlYjZiMzhkNWMxMTViYmMzOGExMGVlMTRhMTZjZDVmZDM5NDAxODM3N2U5OGZmOGQzODlmYTNiZjEzNThmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjI4NTkxOTM1M2ZhMDA5N2M3OGUxOTJlMDgwOGYxM2VlZTE5NzZkOTYxZWRiMTdiOTc2N2ZjZWYzZjg5N2U5ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0826f4f2b1af4f228eaa20cc98d0d8d4",
+      "statement": "The balance-sheet endpoint returns per-line balance, units, cost/yield and modifiedDuration (duration field added in v2.1 for EVE); the NII Sensitivity Model uses month-end balances and yields from API-15 and its EVE calculation relies on modified duration.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-15-treasury-liquidity-positions-api.md#L23-L55",
+          "version": "repo-lines-v1:sha256:18461f3e4fe23a439c7fed0e582296422957ba9adfc80a72d1bd7c93636d9732:eyJzZWxlY3RlZExpbmVDb3VudCI6MzMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4ZTNlMzM2ZTQ2NjVjMzhhZWNhOTBiMWQ5YTg3N2E1YTY1NzVjYzhiODlmNGVjYmZjYTQ5ZWJlNjQxY2QyYTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1NmVkMmIzNjQwNGI3YTNmN2I1ZjE3ZjQ5M2Y4NTBkYzAwY2U1ODE1NTgwZWIzMThkNjQ2MTk5N2UwODAwYzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlYTdjMDZhNzY4OGI1ZmEzOGMxNTk3OWQxZTgyYmU2MjljMmVkYzM3YmQ3Y2EzOGRlMTNmNDJhNTNkZmQyZjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L41-L47",
+          "version": "repo-lines-v1:sha256:195032c7aefbd29dc9ab59b35ff75ad6b0109a1af75f82636405a3fb0f7628ea:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGEyNmYzNDEwNTI3ZjAyMzRlZjBiYjcyMmJhNDI5MTNiODM5MjVmY2IyNDZkNzQwNWI5NDRmMmE0MmUyNWM5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwMmUxZTVlNjk2NGUxMzQzYTE0YWM3NzZkZTAxOTY4ZjNkNGVlYTk0MjM4M2IwNzZiYjJlNzcyNjFmNWViZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmQ2YjJjNjlhMGYwMjNjZWYzMWY2OGFkN2MwNjVmZWUwNjJlYWEyMjIwZDU2YWQ3ZmY5MjkxYjU0YzhiNTg0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjI4NTkxOTM1M2ZhMDA5N2M3OGUxOTJlMDgwOGYxM2VlZTE5NzZkOTYxZWRiMTdiOTc2N2ZjZWYzZjg5N2U5ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_99b8c252caf24dbba0225200365ea7f3",
+      "statement": "API-15 is classified as a critical data service under BCBS 239 because it feeds Tier 1 models; breaking changes trigger MRGR model change review, and incidents escalate to the Data and Technology Risk Committee with 24x7 coverage during quarter close.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1413-L1413",
+          "version": "repo-lines-v1:sha256:372848668d414fe2716d965e8c90bafaa5853fbe30eed2bfc269e88f4e5c7d3a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzcyODQ4NjY4ZDQxNGZlMjcxNmQ5NjVlOGM5MGJhZmFhNTg1M2ZiZTMwZWVkMmJmYzI2OWU4OGY0ZTVjN2QzYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzcyODQ4NjY4ZDQxNGZlMjcxNmQ5NjVlOGM5MGJhZmFhNTg1M2ZiZTMwZWVkMmJmYzI2OWU4OGY0ZTVjN2QzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjFjOWUzOTJmNDUwY2FiOGYzMGRmNzNkYjBiMzUwYWQ3NDFiYzRlMTMzYTI1NDA5ZDFiMzhjMzRlMDFkOGM5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGJmZGEzZDQwMTQwOWQyN2Q4MmViYTZkMTNmMDNhY2E4NDVlOWVjYTJjZmVlNGQ5OTBmOTk4ZTc2ODgzN2MyMSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1423-L1423",
+          "version": "repo-lines-v1:sha256:7a5e3c6873ee9aac5238cce281c91b1b6b56911b1b42c86d34f80f3340b682d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmNhNDcwNTY0YTFmZWVmMTdjNjc1NDJhN2M5YTgxYmNjOGYwMTYxMzdhZWRkNDMyNTA2NjFjNTNkNmQyMzY1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2QwZGRmYjE1OWE5MDhjNzc4OTBkOWYxMmZmYmQ3M2UxYjJjZDBlNGM1YWE0ODM4NjcxZTQ1ODk2YjE3MmFkMCJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L18-L18",
+          "version": "repo-lines-v1:sha256:1911fe2b741a3143411f7afb253d43080ad46591d44c2882658a55dbd0bc0329:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTNjZDcyNGIxNmM2YTI5NmI1N2UxMzJiNmIzNmZmOWE2NjUxMjJlODMxYzQzYjIxNDQ4NzAxMDUzY2ZiNDNiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4ea6c0f6cc3449e6b9c475e10d35ed05",
+      "statement": "API-15 is served only from the internal private-network host https://internal.api.mhfc.example alongside the other restricted risk and finance APIs, using OAuth 2.0 client credentials with mutual TLS and 15-minute JWT tokens.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L27-L31",
+          "version": "repo-lines-v1:sha256:685b65295ea7a7458e0a1b83218a19ba2e7011a6edae5aec0d38f7cb4924bfb7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY2NDUzZjdkNzFjMDU5ZDdmMzI5MGUwYzM1NjEyOTlhNmQ2NTg4NThiNDBjN2JiZmY0MDg4NGJmMGExYmEzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjAxODdmMDNmNjkxMmU1ZGJmYzEzYWIwNTk4NzlhZjVhMzA2OTEwYzk3OTQxZWFmYzU1OGM5MzU0NGJhMTM4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjg4NDBkYjQ1ZjA0ZWNjYmQ5MjljOWFlYTgxZmM3YTY3NzUwZTg0ZmM3OGQ2ZjY2MGEwNzQ3YzM5MjBhMGU0ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTNiMTAyZTQyNDFjMTljNDBjYWRiYThhYWVmYTY1Y2U4ZmZhMDIxOTZkYWU1MDg4OGQ0Mzc0MGQ2NTg5OWJlNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a0896f2c94e94908ae5ebe86bcc18c26",
+      "statement": "In the NII Sensitivity Model's Balance_Sheet sheet, the rows fed by API-15 are deposits with banks and fed funds sold, investment securities, trading assets, consumer, wholesale and noninterest-bearing deposits, repo and short-term borrowings and long-term debt, while the loan lines come from API-11; API-15 therefore supplies only the balance, rate and duration side of the model, alongside API-11 repricing profiles and API-12 curves.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L166-L185",
+          "version": "repo-lines-v1:sha256:fc0d07278417341745f558532e3bf6e71c0eb83c4c7fb1460d5c80c38e4ec292:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1ZDFiYTgzZjc4MjljNWY1YTJlMTJlNDg2YzExNmJhNjhhY2MzOTkzNzVjZTNkNWY1Yzc1ZmY1ZmU5MGUxYTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3NjljYjFlMDljNWJjMmQxNWZkMTVjZDhjZTVmMzJkY2M1MzNmMzg4NmQ0NjFlMTNiYTNhZWUyMTg0MGQ5ZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgyZTIwYjRiYWUzMTIxMGQ2YjUyYzZhZDJjODY2M2RhZDI2ZjY1MTg3MzI4OWYyMzMwYjY3NDkzMzFhOGIwMjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNiM2VlYTBmM2JiMTcwYjAwN2EzODIxN2VhM2MzNmQyMGU3NTM4NzZiZDUzNGZhZmE1Y2U3NjVhODA2ZTE3OWYifQ"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L44-L49",
+          "version": "repo-lines-v1:sha256:d1e3a575e662cef13730283ed084d5c3b5764b7fe4333bda04953536ae9b6216:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1NDMwYWQ1YzRjMzAzODc0MzJkMTk5MmNlYTQ4OTZiNDMxOGExZjA3NjRmOGYzOWFmNTQ2ZDhjZTNiMzI5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTYxMDNiMDdmMDI3YmNhY2IxNjgxN2YzNzU2ZTc2NDhmZjE1NmIxOWU4ODU5OThhNWZmOTJiMzgwYTY4YzM5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTdlYjZiMzhkNWMxMTViYmMzOGExMGVlMTRhMTZjZDVmZDM5NDAxODM3N2U5OGZmOGQzODlmYTNiZjEzNThmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdmZmE5NWRiYzFjYzQxNDY0ODkwYmFlZmU5ZjE1YTNjMTQ1NzkxM2QxYjYwMjkwZmMxN2I2MDQ0YTU1NzY3NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_96c789a28f7444fdab96e5c9bd184090",
+      "statement": "MDL-CAP-003 uses API-15 only to cross-check liquidity constraints on distributions; its starting CET1 and RWA come from API-16 and its scenario paths from API-14.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L43-L48",
+          "version": "repo-lines-v1:sha256:03e9050cb363e939f47276cd347bbaac010bc7a62efe71b564addb1a669fc071:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1NDMwYWQ1YzRjMzAzODc0MzJkMTk5MmNlYTQ4OTZiNDMxOGExZjA3NjRmOGYzOWFmNTQ2ZDhjZTNiMzI5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTdlNjJhZGQwNjRlYjFjYWFmMTc0NmEzMzZlOTk0MDI3MjNlMTA5OTkzOGJkNDA4YWQwNGUyZTA2MWQzYTIzNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjg0NjA3YTExYzU1ZDVmZTgwZDg5M2U4OGY5ZDIxNDNhMTg5OTFlZGNhNmEyYWZhNTg3NGEyZWU3MTNjOGY5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdmZmE5NWRiYzFjYzQxNDY0ODkwYmFlZmU5ZjE1YTNjMTQ1NzkxM2QxYjYwMjkwZmMxN2I2MDQ0YTU1NzY3NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6a09a815a19c42788cfacfc3addd55ec",
+      "statement": "The Pillar 3 disclosures state that API-15 provides legal-entity-level views of HQLA, encumbrance and contractual cash flows to the liquidity stress testing engine, the LCR and NSFR calculators and the ALM models, and map API-15 (HQLA, cash flows, balance sheet positions) to MDL-ALM-014, MDL-CAP-003 and LCR/NSFR in disclosure sections 11 and 12.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L439-L439",
+          "version": "repo-lines-v1:sha256:668cec3ab099c36f5327715c00f92895d059ef318a7dee158fb4ec347ee7035f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY4Y2VjM2FiMDk5YzM2ZjUzMjc3MTVjMDBmOTI4OTVkMDU5ZWYzMThhN2RlZTE1OGZiNGVjMzQ3ZWU3MDM1ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY4Y2VjM2FiMDk5YzM2ZjUzMjc3MTVjMDBmOTI4OTVkMDU5ZWYzMThhN2RlZTE1OGZiNGVjMzQ3ZWU3MDM1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjcyYWM0NjQ3MzEwMjg4MGZjM2ViZmIwZjViNDVjODlkNGUxNTM1MGU4OGZiNWEwY2RhMjYzYWMwZDk0MmRiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmU0ODNjMWIwOTZlYzA2OTM4NDhmMmUwM2JjYjRiYWI0M2M5MDVhZjRhYzkyZTM0OWRjYzk1ZWY0MTM3MmY5NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L523-L532",
+          "version": "repo-lines-v1:sha256:930750098a6d88ee3e87211c903f2c6fe756da4c690353ec8c59f25b12d39f78:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhM2UxMjgwMDlhOWYzNjhkZGNjNjkwMGVlN2NlYjVmZDEzMjkzZDEwNWYxYzFlNDRjOWViODY1YTNhNDYzZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczOTFhM2U3OTYyYjYzMWI1ZjYyZGYxY2Q4NmI5NGZlNjQ0NTdmM2Y1Y2JhYzQ1MDA0NmMyODBjYTU1NjkyOWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkwZjhkODQ5MGJhY2RjNzUzMWJlNGUzNGU1ZGQ4YzBhMGY3YjUzYjNiZjM5OTM2ODk2YTAxNjQ0NzI3MDkxZjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljMzU4MDBiNjFmMDMxZmUyYTEwYTA5MzA5ZDgwNDAyNzcyOWY3ZDFjZmNlOGJiNzQwMmFmMmE0NDc4NWE5NzcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c9fb2d166c804f929077e5d82a85f66d",
+      "statement": "The Annual Report says liquidity positions across all legal entities are aggregated daily through API-15, which publishes intraday cash, collateral and HQLA positions to the liquidity stress testing engine and ALM models and supplies balance sheet positions to the NII Sensitivity Model; the Q2 2026 Earnings Supplement says the HQLA and cash flow projections behind its LCR detail (average 2Q26 LCR of 115%) are compiled daily from API-15.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L321-L321",
+          "version": "repo-lines-v1:sha256:c35299b3fe84c6bbd0b557e73d771933c1d223b6faa7350c145f49464780e60b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzM1Mjk5YjNmZTg0YzZiYmQwYjU1N2U3M2Q3NzE5MzNjMWQyMjNiNmZhYTczNTBjMTQ1ZjQ5NDY0NzgwZTYwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzM1Mjk5YjNmZTg0YzZiYmQwYjU1N2U3M2Q3NzE5MzNjMWQyMjNiNmZhYTczNTBjMTQ1ZjQ5NDY0NzgwZTYwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGJkNTg2NGVjMzc3ZTRlMjUwYWRmYTZiN2E5MzA5MDc0MWJkMzU1MWYwZGE1OGZmOGY0ODE0OGE5ZmM5NGU1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODVlMTgxZTlhZmU1NDM2MTVkN2M3NmY4ZjMyOGQwMjkxNjU5YzMzNmZlZGFmN2FkOGYxMTA4OGIwOTFkZDAyMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L372-L388",
+          "version": "repo-lines-v1:sha256:0373945fd65eb5b1b86bb1c210bf0077dcb87a5dd391c741d43f98586923f49e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNGI5NDQyMDBhZGNmOTIyMDVjYWNhN2NhZjQ4YTU1NGRkZTk3ODRkN2FhYmU0NTVjZTIzMGQzODQ3ZDc1NzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0NzIzY2IwMmY4ZGMwZjk1NzZlM2YwODIwMDJkNWIxNjBiNzViZjg4NzE1MmI0ZjVmZDg1YzhkM2FkNmMyMjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZmNjQ5ZTEyNDFjMjE5NzIxMTE4NWZjODRiY2ZlMjRkNDNiYzNmNmViNDI0ZWVjMjlhNWZkODJkZWMwNGIxMmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwZTRkN2JiZTQxYTNhM2FiNmUxZmJhZTYyNWY5YjM3ZjRkMTAzNzNhODk1NjNlMjUzNGFjYTRiYWI1ZWMzOTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d1692f47d2154e90ab091604d262a971",
+      "statement": "API-04 (Real-Time Payments) lists API-15 as a downstream consumer for intraday cash, and API-05 (Wire Transfer) also lists API-15 as a downstream consumer, which corresponds to the payments-rails upstream in API-15's lineage.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-04-real-time-payments-api.md#L64-L64",
+          "version": "repo-lines-v1:sha256:055afa45947d03569a97e78c1bde74fe916cb78ad4c27de950c773d4397bf8db:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YWZhNDU5NDdkMDM1NjlhOTdlNzhjMWJkZTc0ZmU5MTZjYjc4YWQ0YzI3ZGU5NTBjNzczZDQzOTdiZjhkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU1YWZhNDU5NDdkMDM1NjlhOTdlNzhjMWJkZTc0ZmU5MTZjYjc4YWQ0YzI3ZGU5NTBjNzczZDQzOTdiZjhkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L71-L71",
+          "version": "repo-lines-v1:sha256:aad5e5b00544b1d91fe224e354f2c1f7f1b1c5901b53e5aaba14d35049f440d2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFkNWU1YjAwNTQ0YjFkOTFmZTIyNGUzNTRmMmMxZjdmMWIxYzU5MDFiNTNlNWFhYmExNGQzNTA0OWY0NDBkMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFkNWU1YjAwNTQ0YjFkOTFmZTIyNGUzNTRmMmMxZjdmMWIxYzU5MDFiNTNlNWFhYmExNGQzNTA0OWY0NDBkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T02:29:31.666Z"
+  }
+}

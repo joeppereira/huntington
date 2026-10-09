@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:851099ca489e3b17648cc32a8ae82e2fe8ef342400ed83a9acb91433c1843519",
+  "claims": [
+    {
+      "id": "claim_17facb32525648bf858a6b8838ee921d",
+      "statement": "On 2024-05-31 (month-end), Wire Status Lite pilot polling (60 clients, browser refresh every 30 seconds per visible wire) combined with production wire-release status refreshes drove approximately 85 TPS against the PPH v1 status API, exhausting its thread pool and delaying wire release 47 minutes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L24-L26",
+          "version": "repo-lines-v1:sha256:47c1705db6ff961019a77cb29b6253eeb8c9aac385661d336843d74208a8cabd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVmNjY2ZTU0NDk5MjM5NjNkODg4ODUzN2I2ODk4ZDA4MWU4ZjYwMTU3ZjE1ZDNmYmY0MTlkMmNjNjJlYWQwNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE5ZTljYTAxMDVkODBjNzg4YmRjYzg0YWJkZjhkZjgxMTU1NTAyMDg2Y2Y3MGMzZmZkZTQ1MTY4Zjg4YWY5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjE0YzJjN2UwZmJlZjA3ZGYyZGRlMDdiN2U1M2VjYmM1MGY3MzFkZTlkNmJhZGJlZWRlODRlYmY0NGZmOTNkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjExOWIxZDgxY2Y3YzQ2YjkwMTNjOWUyYzZkYjg4ZDg0MDU1ZjY4M2ZmOGVjYjFkNDZjMGI0NjY3NWE2NmI5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3c84ee3cbbfd472591448040e616d680",
+      "statement": "INC-2024-1182 impact included 1,240 wires delayed, 312 wires released after the 6:00 p.m. ET Fedwire customer cutoff requiring next-day value, and compensation of $41,800 to 14 clients for interest claims; no regulatory notification was required because no data was exposed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L28-L35",
+          "version": "repo-lines-v1:sha256:fe074407839fd331189b7b2809338c4ee513b6e599547aa968351919c79a00a8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQyZjAyMzY5YzFhMDBkYTNkZmUzODNiNzIzYzcwNzRlZjU3MjkxNjE2NjY2YTY0MTlmOWI1ODM3YzdkODI1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNmYzQwOTRjMGY4NzIyNmEzOGE2MmM3NjM0MDIyMTI0MTliNzE5Yjk1Mzg4M2ViOTBiNzk4YzIyMjVkNDgwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDliZmFjMzBiNmY5NTVlNTA0N2Y4YTQ2MTNiMWE5OTdjMzQ1ZDBkN2QzNGFmOTg3MjFlMzA1NDJiZTdkNjcwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY4ZjU2Yzg3ZDAxMzQ2NTQ5OGYxNDg2YjVhOGNmM2Q4ZjA3ZDkxMTllNzUwMTk4ZWI5ZTg4Zjc2YTExMGI2MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d83cf0e027ea4a58b35310bacb10f725",
+      "statement": "PIR-2024-07 identified three root causes for INC-2024-1182: a polling architecture against a shared synchronous API with no client-side backoff, no capacity test at month-end volumes, and status semantics that were not validated with Compliance or Legal before client exposure.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L45-L51",
+          "version": "repo-lines-v1:sha256:9e71d2f93a360cfa2460e517259613f7b7db12d400b3196ac826dd19f447e343:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjFjZjVmMGIwNmRjMjM0MGRlMTYyN2U1ZWVkNmQwM2UwZjM3NzQ5MGYwZmQyNTE3ZGRhMWJiZDRkZDI1ZDQ1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjBhYmQ4ZWIyNThlMTIxY2U4OTFkOGJmMzEwOWMzZjNiOGI0YzI5OWRjMTk0NDUyMjY3NGNkZTY5MjMxNjkxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGVmN2IwNGZmYjBiOWE5YzYyZjljNzFlY2EyYzZhMTgzNjViNGFmYjI4OTNlYWI2YzY0ZDkyN2E2YmMyYjRiMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUxYWE1YTRjMzkzM2VmOTgzOWEwYjViNGYzNzgxNjM2YmI2Y2UyNDZhZTc2ZGZiY2NkOGM3ZTg1MDA4Nzk5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e80127f00b46422fac9669897049c529",
+      "statement": "Corrective actions from INC-2024-1182 were: rate-limiting the PPH v1 status API to 20 TPS shared (done 2024-06, owner PPH), adopting an event-driven status pattern that became ADR-PAY-019 (done 2024-06, owner Enterprise Architecture), building a reusable CBO status projection service (delivered for ACH in 2025 via CBO-3815), and validating client-facing status terminology with FCC and Legal before future tracking features (left open, carried forward).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L53-L60",
+          "version": "repo-lines-v1:sha256:48e33e8afd5d89a9891ca2815cbb357d002f93967de9d8394a7e0632cdb08305:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDJiY2U5NThlYjI2ODEyMWYwYWZhNTI0NjkxOTE2YjZjNTEwODY3MjRiODc5M2RhYjM4NDIxMjNhODY5NDE2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzZlZjE2MWJiMDQyOTE2MzliZmZiNGUxMzE1NTdmNGMyYjA2MmI1ZmUyYzAzMmY4ZDQzZWFkNDQwMDNkOGNiNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTk3MGZkNzA0MmU2M2M5ZjAwMmExM2VjZWQzZTZhZWE4YmFiZDZjNWIyNWIzYzU5MTUwOGRkMDk2MzkwN2JhMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzgzNDlhYmQ0MzEwNDExYmQ2NmMyZGM4MmMwNGRmN2U0MzRkNjgyNTk0ZWM4ZjdiNmE0ZTJhODE0MDlhMDFkMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7e07a03cf3764f0ea9a35ff810881a24",
+      "statement": "The Wire Status Lite pilot (CBO-3120) was closed as 'Won't Do' as a direct result of being the cause of INC-2024-1182, and this closure plus the incident are documented together in PIR-2024-07.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L186-L188",
+          "version": "repo-lines-v1:sha256:a023860014dc8e31fd2078895e9a78bcfa4e53068b3040e4c8ccbf0fd26c737c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODMxZmUzYzA0ZGY3YTk2MzY3MDQ4OTdhYjhhNzZjYzU5Zjc3M2MzNGJmYTY4NjBmMmEyYzAyZTYwYTAzMzgzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTIyYmIzMmI4ZWM4MzBlOWYxYWM4NDMxNDFkNjA2OTAzNDQzOTI1NTJjYmU5N2E0MGU4MmJkODZlOTE3Y2U5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDU4ZTkxMTdkYmJiMDYzZDMzMDhjYzI5NmNmMjA0ZDY0NmEwNDFjYTgwMTViMGE2YjJmYWI1ZmNmNGZiOWZiNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L28-L28",
+          "version": "repo-lines-v1:sha256:3038fc9c1647d6ba6f0daf761aa168ceff1c5e8b34bdbecfdaccdb0a74d759f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjZlY2RlYTA0MmQxMzAzZGU1N2IxZmExMmE4MGNhMTU2N2Y1YjA0MjM5NmFkYWJjNmJlYzU4ZGNlYzAxZDU2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUyOGI1ZTZkMTJjYjNiNTcwZTFkYzdkY2JhN2M4NzczYzlmODEwMWYwMjNmMzZjZDZkZmQxNWJjNjYyZTBlMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_39b4f946a4d548078b046d2b96b95914",
+      "statement": "The event-driven status pattern mandated by ADR-PAY-019 in response to INC-2024-1182 was first delivered for ACH (not wires): CBO-3815 built a Kafka-consumer Status Projection Service (SPS) reading into a Postgres read model served via /cbo/sps/v1, consumed by the ACH Payment Tracker (CBO-3790) in 2025, while Wire Center's migration off PPH v1 remains a separate, unscheduled epic (CBO-4471) ahead of the 2027-03-31 PPH v1 sunset.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L123-L129",
+          "version": "repo-lines-v1:sha256:b98a4269ebd7df79bd67e4f14df8ca99146ecfcf518700069a8a6c3d8d399810:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYxMDgxYmI3MzlmOTM1NjY0OWE5NzY2YWRlM2QyNDg1YmYwNmIwZGZkNTNmM2I3MjdkYzVlOTdhYjAwNzBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1M2NlNDkyZTNhOTA2ODZhZDkwOTNiZGRlNTMwNjk3OGFlODUyN2QyYmZlZTY3N2RlOGYyYjA2OTFjNTdiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmMzk5NjE2OTQwMzVhZDk4Y2ZhMzEwN2IxNzBiMmI1ZWU5MzE2MzA1MDVlM2M0YzU0NzIwNzU2NGFjZjkyNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L29-L31",
+          "version": "repo-lines-v1:sha256:f528b5e6d12cb3b570e1dc7dcba7c8773c9f8101f023f36cd6dfd15bc662e0e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGI1NzJhYjg3MTVjMjBjZDNhZTJlZjliNGIxODcyNmUzMDU5ZWRjM2NlYzdjMjQ0ZTc2ZDFmMTRmNDAwNmQ1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM5ZjFiNGIyNzYzNGE4MzEyZThjMGExMDI5ZmVkZmZhNmUwMGE0YWMzOGM5OGFmMjhlYjJhOTdmNTdkZjc1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAzZWNkZDg4NGVkMzkzZDcwODYzMjA2ZDAyZjZkZjA2OTU0NzA1OGUxZjIzZjIxMGY3NWI2NDAzMzVmMTk2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIxY2MyZjJmOGNjOWYxMTJhZjE2YWU0ZDgxMWNhYThmNDE2MDFmMDc1MmZjYTk4ODk1MmJjODMwMzc4ZjAyNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_790248b617e148549acba7f6dd6ee56d",
+      "statement": "A survey of Wire Status Lite pilot users found 37% believed the status 'Processed' meant the beneficiary had already received funds, users most valued knowing the wire left CNB and the Fed reference and international credit timing, and users could not get hold-reason explanations from Treasury Support without FCC guidance, which motivated the still-open action to validate client-facing status terminology with FCC and Legal.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L37-L43",
+          "version": "repo-lines-v1:sha256:c13cc30ea9aeac03b0e805756b86daeffe12820d3bfe0b608f80179424daaa42:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzU0MGRiZjZmMzhlMTc5NTMyMmM0NjA3ZDk3MDMyZDRkMDVjZWE2YjAxZTQwMzc5MWJmN2UzNWViN2IyNzZiNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwYTRiNjU5MzQ2ODQ0ZmMzMTk2ZGIwNGEyMDJlODc3MGMzM2Q5YzJhZWFhMTdiMTU0YjllNGZmY2RlNWYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFmMGQ4MTgwYzk5OTQ1NzA3YzE3Yjk4ZGZjYzExMGM1YmUxMTk2NDE0MGJkMGI1YzBkNGE2NzlmMGJiYjk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkNjk4OTVkMzlhMWRjYTliNmU5ZWZjZjJkOTA0YTllODBlMTRjYjAzM2VkMWVlMTIwYmQ3ZmY4M2ZmMmJmNCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

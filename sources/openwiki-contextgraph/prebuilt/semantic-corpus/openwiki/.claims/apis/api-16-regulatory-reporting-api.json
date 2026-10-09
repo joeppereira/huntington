@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:8889636415499b36ce01b220b1148aef448752b7d67fedb53341831675662481",
+  "claims": [
+    {
+      "id": "claim_898575c0704e4ffcb98bcd31093c5dac",
+      "statement": "API-16 Regulatory Reporting API (v1.8, base path /regulatory/v1, owned by Finance Technology) provides governed regulatory capital, RWA, leverage exposure and report line items (FR Y-9C, FFIEC 101, FR Y-15) reconciled to the general ledger at legal-entity level, and is the golden source for Pillar 3.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L1-L17",
+          "version": "repo-lines-v1:sha256:ff417da0106845648ccf724c11faeaffb1ee630355a3f247ad8166a90fbd38e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYTMxNWEzNTQ1ODBmZTYzOWI2ZTdhOTQ1MGQxZDM1MTc2NzRmZmUwNmM3ODExZmM5ZTZkZTg1NzExYjVlYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a651f3f6206e421ab35c7ff30fa48b3c",
+      "statement": "API-16 exposes four read-only GET endpoints (/capital/{asOf}, /rwa/{asOf}?approach=, /leverage/{asOf}, /reports/{reportId}/{asOf}), requires the regulatory:read scope, is limited to 20 requests/minute, is internal-only with Restricted - Internal classification, and is served from the private-network internal risk & finance environment.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L6-L26",
+          "version": "repo-lines-v1:sha256:f0eb453ec2735ade4c6787e0aaf330a3b0d099665c1b26043b6f0285daeabf3d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExMDc3NTk5NzczNGE2MThhZjkyY2UxNjlmY2Y5YTkxNThmNzk1MjRlNzM0ODZiMzU5ZmY2MGRiYzQwYmEyYjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk4MzEwYTU2MTJjMTMxZmQ4YjYzZGFiYmNmNTQxZGFiN2I2Mjg1MDQ2YmFlMzQwNTY2MzhkMzA0MTdlMDJlY2EiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L27-L27",
+          "version": "repo-lines-v1:sha256:df6453f7d71c059d7f3290e0c3561299a6d658858b40c7bbff40884bf0a1ba37:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY2NDUzZjdkNzFjMDU5ZDdmMzI5MGUwYzM1NjEyOTlhNmQ2NTg4NThiNDBjN2JiZmY0MDg4NGJmMGExYmEzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY2NDUzZjdkNzFjMDU5ZDdmMzI5MGUwYzM1NjEyOTlhNmQ2NTg4NThiNDBjN2JiZmY0MDg4NGJmMGExYmEzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjg4NDBkYjQ1ZjA0ZWNjYmQ5MjljOWFlYTgxZmM3YTY3NzUwZTg0ZmM3OGQ2ZjY2MGEwNzQ3YzM5MjBhMGU0ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWVlOWYyNTM5NjM3OGFiMGJiYzMxYzU2M2FlNzMxMTU2NjI4ZmQxZDQxYzhmMWEyNDA2YWFjZjJlZmZlMGJhYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8c32dc59ec6f404da1b25192d8cde9dc",
+      "statement": "The SLO is 99.9% availability with quarter-end data locked by day 25; the capital response carries a status field (e.g. locked) and units (USD millions).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L17-L48",
+          "version": "repo-lines-v1:sha256:7214db162acceff95aba5d26a1c4c90852da16c4a71bddbfb5261086b91fcc91:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYTMxNWEzNTQ1ODBmZTYzOWI2ZTdhOTQ1MGQxZDM1MTc2NzRmZmUwNmM3ODExZmM5ZTZkZTg1NzExYjVlYmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxZjhkOTczZTRiNDE3ZDc3OGRjZmE3ZmFkZTczOGZjYTg4OWJjNjk2N2IyOGFiOGI3N2ViNTI5ZDc5NGRmYTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6ec48460dbf24fd38f8521c21f5acea0",
+      "statement": "API-16 data lineage: upstream are the general ledger, RWA calculation engines and FX Rates API (API-13); downstream are the Capital Planning & Stress Projection Model MDL-CAP-003 (starting CET1 and RWA), FR Y-9C and FFIEC 101 filings, Pillar 3 disclosures, and the NII model's Tier 1 capital input.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L50-L54",
+          "version": "repo-lines-v1:sha256:f04720e10c872a95a46c200c6e6c97f6d785ede3cc066c481f55531ca4d24ee0:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I2NmNjZGE0NDBkMjBmM2FmYzQwZGExNTQ4Zjc0YWQzMGU0NTRjMmMxMDcwMWE2N2YwMjNjZWQ3N2ZjMzk5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L45-L47",
+          "version": "repo-lines-v1:sha256:c39b6856c6f5bccfc4bdd60d1bd0e6a6776038348eceda9ffdddd296118de976:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgxZjU2ZjBjYWFkYmUzMTA1MWMyMGI0MGJhODdkZTBmNjE2NTI3ZTkzYjU3Nzg2YzdjZjNmZGNjN2VjMDMxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThlNTg2YWE5Nzc2YjhmNTY1MTE5OGVjZGU1YTQ4YWIyNDVkZTI0OWQwMDg3ZjQ3ZGQyMjYyOThlOWQyNzU2NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmM2ODYwMmI2MDY4NzIwNWIzM2I4Zjg2MDYzYjNkMTFhZGZjOTA3NTQwMTBmZmJmMDU1M2QyMjEwMzUwY2M4NiJ9"
+        },
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L152-L152",
+          "version": "repo-lines-v1:sha256:2670b91e671348359d2a0155551777fcb2f4ed055d830964ee96f424f54fe2fe:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY3MGI5MWU2NzEzNDgzNTlkMmEwMTU1NTUxNzc3ZmNiMmY0ZWQwNTVkODMwOTY0ZWU5NmY0MjRmNTRmZTJmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY3MGI5MWU2NzEzNDgzNTlkMmEwMTU1NTUxNzc3ZmNiMmY0ZWQwNTVkODMwOTY0ZWU5NmY0MjRmNTRmZTJmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTcyZTc1M2FjZjYxMmM4Mjc4YTRiMGU1YjZkNGI3MDI2ODkyMDFhYjI5NDQ2ODA4NDU3ZjIxYjRiZTk1NzczMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjFlZTNiNDFhMjNjODA1MjE4MTQ4M2QzYTM5M2IyMzQ5YzM3NzVlMDgzYzE2ZWY2NzFhYzUxZThhZTQzMGVjMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5428e21413d44ee9a7356bef4a062eeb",
+      "statement": "MDL-CAP-003 uses API-16 for starting CET1 capital (101,200 $mm) and starting standardized RWA (668,400 $mm) for Q2 2026, then projects forward with scenario paths from API-14 and liquidity checks from API-15.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L119-L120",
+          "version": "repo-lines-v1:sha256:9a31c942ad02028aeab032e58bcc493ebe73a175a5d1c665e585a853978d9006:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmI5M2I2MTQ2NDJiN2RlMjZkNzU5OGQ5Y2Y3NTIwOTc2NjJmYWFmNDA4ZmNlOWE3ZDdiZDI5YzgwYmJlYmI2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI5YWNjMmFlMjIzMzI5MDFkYmU5YTU3YzVhNDhhYWEzNGU2NDIxMTE4YWFhY2Y2YmFlOTcyZjBmYzJiZDIxMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWUzNmI1NWJiODY3N2FjNGExNTZhYzcxNmFiYjc3MWJjODA0ZmMxNzc4YmMwMGQ4MzQ3M2FlY2QxMTUxYWQ0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZkZTQ2ODdiZmRhOGU1ZGQzZTc0ODIwNDU1MmI3YTQ1ZTJmZmQ3ODIzMWQ4OGNjZjI2NTY5YzA5ODcxMzE5NSJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L36-L47",
+          "version": "repo-lines-v1:sha256:fa56c12bc2cd5b63bf7c246a3ddd813219794293513f33a1dcc73ac23550f379:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlYjcwMjU3NTkzZGEwNmY2ODJhM2RkZGE1NGE5ZDI2MGQ0ZmM1MTRmNjQ1MjM3ZjVjYTc0YjA4ZjhkYTYxYTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU4ZTU4NmFhOTc3NmI4ZjU2NTExOThlY2RlNWE0OGFiMjQ1ZGUyNDlkMDA4N2Y0N2RkMjI2Mjk4ZTlkMjc1NjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM2MDc4NDVlOTk3NjVmZjM5ZTkxOWI2MzI4ZTRkZWQ3ZTExMGYzMThmY2M0OWVlNGE3ZDMyNzJmYTk3ZDZlNDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjNjg2MDJiNjA2ODcyMDViMzNiOGY4NjA2M2IzZDExYWRmYzkwNzU0MDEwZmZiZjA1NTNkMjIxMDM1MGNjODYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c57df6cc98824ee7a5874ee58db1720a",
+      "statement": "API-16 is a BCBS 239 critical data service with named data owners, data-quality rules, enhanced change management and model-inventory registration, so breaking changes automatically trigger an MRGR model change review; escalation is via the Data and Technology Risk Committee, 24x7 during quarter close.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1423-L1423",
+          "version": "repo-lines-v1:sha256:7a5e3c6873ee9aac5238cce281c91b1b6b56911b1b42c86d34f80f3340b682d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmNhNDcwNTY0YTFmZWVmMTdjNjc1NDJhN2M5YTgxYmNjOGYwMTYxMzdhZWRkNDMyNTA2NjFjNTNkNmQyMzY1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2QwZGRmYjE1OWE5MDhjNzc4OTBkOWYxMmZmYmQ3M2UxYjJjZDBlNGM1YWE0ODM4NjcxZTQ1ODk2YjE3MmFkMCJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L18-L18",
+          "version": "repo-lines-v1:sha256:1911fe2b741a3143411f7afb253d43080ad46591d44c2882658a55dbd0bc0329:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTNjZDcyNGIxNmM2YTI5NmI1N2UxMzJiNmIzNmZmOWE2NjUxMjJlODMxYzQzYjIxNDQ4NzAxMDUzY2ZiNDNiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3bb5cb2b07bb43d5a307581a388c9e51",
+      "statement": "API-16 delivers the same governed data used to prepare the Pillar 3 disclosures and the FR Y-9C, and automated reconciliation to the general ledger at legal-entity level was introduced with the 2025 migration to the strategic data platform; v1.8 (2026-03) added a GL reconciliation status flag.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L56-L59",
+          "version": "repo-lines-v1:sha256:b28fda0d93d1ed2334eb851c98f4ddc5fee374994205eba12838234c19d1062f:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDcyOTVjNmZmNWMwZWQ4ZDJlOTdmYjY4YjU3NWM0ZjhlOGY1ODg5NzlkOTczOTlhNDI1ZDYwOTllZGQ1YjAxMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzU0MDQ1MWUzMWM5MWE0NDdkMTEyMGUzOTcxMTllZDM2MDk3MDUyZmEwZWM3MmI5OGQ4N2Q1N2QyYmI2N2YxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L116-L116",
+          "version": "repo-lines-v1:sha256:316b273c8a03470e312bc51b14a14117ccbf312005338cf1adfed5ad82fb0107:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzE2YjI3M2M4YTAzNDcwZTMxMmJjNTFiMTRhMTQxMTdjY2JmMzEyMDA1MzM4Y2YxYWRmZWQ1YWQ4MmZiMDEwNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzE2YjI3M2M4YTAzNDcwZTMxMmJjNTFiMTRhMTQxMTdjY2JmMzEyMDA1MzM4Y2YxYWRmZWQ1YWQ4MmZiMDEwNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmUzOTY1NGIzODU4MDk5YWI4MjQxNTQ1ODBjZmZjZGY2N2MxMGI0ZjQ3MjAxYjhhZjBiNjgwYzllY2RiZWVkYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWQ0YmYzNmUwMDAzZmYyYWM5NjEzZmRhY2VlZTlmMDE5ZDIwZDQxYjkyOGMxNTljZjhhN2M5NWFhZjAyNTU4MSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L537-L537",
+          "version": "repo-lines-v1:sha256:513fc4553b056142c2d5eac6f14e33c3aba04cd807aa4a3be9d92840b8f8a02c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjkyYThlOTM4ZjZhYTI1ODI3OTJhMTQ2ZmEzYjlkMzFhZTYxYWZhYTVlYjMyNTgyZmI5ZDRlN2I2YTc3YzA5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQ0MTcyODI0ZDRhNTcwMWQ0YWQ2NWQ4OGIzYTkwODM5MmJlZGQ1M2M0NjJkMjVmZjIzNDYxNTUyMDFkZGQ1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7ed9f1533f5b4bc69c02a717959d2951",
+      "statement": "Q2 2026 API-16 usage was about 0.4 million calls per month (+3% YoY) at 99.90% availability, with the capital model, FR Y-9C and Pillar 3 as key consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L424-L424",
+          "version": "repo-lines-v1:sha256:3a6b9f91aa47ce42cf9c418940c6d773c0a3444fc7c31950609eb5b0f318402a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E2YjlmOTFhYTQ3Y2U0MmNmOWM0MTg5NDBjNmQ3NzNjMGEzNDQ0ZmM3YzMxOTUwNjA5ZWI1YjBmMzE4NDAyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E2YjlmOTFhYTQ3Y2U0MmNmOWM0MTg5NDBjNmQ3NzNjMGEzNDQ0ZmM3YzMxOTUwNjA5ZWI1YjBmMzE4NDAyYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2VlYzk5NzQ0NGM2NWZkNmVmNmFiNTNhZDkxNTljMTFmNjIyNGExZjAyMzM5ZTY4ZjhkOTYwMmFjNjE1NDdkYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNThkMTY2NGIzNzdkZTdjY2M3Y2YwZWQ2NGQwMTE1ZjI1NzZjNDg1NzI3ODQ1MDY0N2YwNzFmYTJmMDJkMzljOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_94dfdd3da4144f7d9017da1b7680762e",
+      "statement": "API-16's four endpoints are all read-only GETs under /regulatory/v1, and its documented capital response carries asOf, cet1, standardizedRwa, cet1Ratio, units (USD millions) and a status field (locked) that reflects the day-25 quarter-end data lock.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L17-L48",
+          "version": "repo-lines-v1:sha256:7214db162acceff95aba5d26a1c4c90852da16c4a71bddbfb5261086b91fcc91:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYTMxNWEzNTQ1ODBmZTYzOWI2ZTdhOTQ1MGQxZDM1MTc2NzRmZmUwNmM3ODExZmM5ZTZkZTg1NzExYjVlYmEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxZjhkOTczZTRiNDE3ZDc3OGRjZmE3ZmFkZTczOGZjYTg4OWJjNjk2N2IyOGFiOGI3N2ViNTI5ZDc5NGRmYTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_87c74e980c0d4ab099629b831f73a23d",
+      "statement": "The Q2 2026 earnings supplement states that the Firm's estimated regulatory capital ratios are subject to finalization in the FR Y-9C filing, which is prepared from data delivered by API-16; the same supplement reports a Standardized CET1 ratio of 15.1% and an SLR of 6.1% for Q2 2026.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L520-L520",
+          "version": "repo-lines-v1:sha256:5734b01b03830915ac670fe901750eca8f168356845cbbf74c9ca1d6fbfea82d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTczNGIwMWIwMzgzMDkxNWFjNjcwZmU5MDE3NTBlY2E4ZjE2ODM1Njg0NWNiYmY3NGM5Y2ExZDZmYmZlYTgyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTczNGIwMWIwMzgzMDkxNWFjNjcwZmU5MDE3NTBlY2E4ZjE2ODM1Njg0NWNiYmY3NGM5Y2ExZDZmYmZlYTgyZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjRjYzkxOGZjNGJiZGU4ZWM2OTRiYjIyMDFhYTNhYjk3NzZhMTdiZmRiYTJjZDY4ODFjZDhmNTc2MzkyOWJhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWIxYjZmZDgyODM0ZDRlNDI1ZDk2NDEwOTcwYTkzM2NmMTkwODRmYjMxZGRlZjUxYTljYjEzYTgzMzNiZjNkMCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L77-L79",
+          "version": "repo-lines-v1:sha256:5e42f7cf9409d2e31b677b315d9c5a53420d634962b465b6aac466e3034f24ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDI0ZjBjYWI3ZGMxYjFkZDM0ZmI2OTM1M2VjOTg3OGI5ZGQyNWY3NzU1NDQzZWZmYTU3YTg2ZDFkM2I3MDZiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWIwZjkxNWQzOWM2ZjEwYTY0NGFlNmIyMmUyNWEyNWU5NDk5ZDFkZjgzYTg0NzVkOWY4ZjM4NjUzMWUzNDIzNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWYxZjkwYzhmYjU1ZTMzZmQ1MTZhNmYyMDAzZjIxMmY3NTdiMTE5ZmU3ZGViMWZkMzk0NTIwOGQxOTAzMzg1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjRlYzg3YTkxMTQwMzkzOTIyOTIwODYzNWFlZDk4MDAzYjJhYWRkZmIzNDBhOTA3YzZjODhjYWRmNTFlMzE3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b4677c29a0cd42d9a7c728b3ea65948d",
+      "statement": "The 2025 Pillar 3 report's BCBS 239 mapping ties API-16 (regulatory capital, RWA, leverage exposure) to MDL-CAP-003, FR Y-9C and Pillar 3 and to disclosure sections 3, 4, 5 and 13, whereas liquidity data (HQLA, cash flows, balance sheet positions) and the LCR/NSFR calculators are fed by API-15, not API-16.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L525-L533",
+          "version": "repo-lines-v1:sha256:ea0c9f9712dd127e0510045d72ce7cd1963715b2ca7139314917f712784ee3b3:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDg5YjJhMDdiMTBhMDhhYjU3MzUxYmE1Y2Q1YmQ1ZWU3Njg2NzliYzU0ZGViNWFkZGRkYjVlYTU2MzRlYmZkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjE1ZjFlNTgxYTg2MzEwNWU4YWYyYzQ0MjM2ZDk1M2Q1MGQyMGZjZjRjZjcxYzE4OWM5N2ZhY2ZmNjBlZjZmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGRiOTExYmIxZmEwNjQ0NmJiYTc0ZTY0NGZmZDA4YWJlMzI4NmFkOWVmOWNiYTA4ODE3MDBjN2E4MTAyNzVmYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjkyYThlOTM4ZjZhYTI1ODI3OTJhMTQ2ZmEzYjlkMzFhZTYxYWZhYTVlYjMyNTgyZmI5ZDRlN2I2YTc3YzA5MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_372a6ff5862d44809395885d30558a3a",
+      "statement": "The NII sensitivity model takes Tier 1 capital (110,620 $mm at YE2025) from API-16 as an input, alongside an EVE limit expressed as a percentage of Tier 1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/nii-sensitivity-model.md#L151-L152",
+          "version": "repo-lines-v1:sha256:0f9d172b88847461c0daf9d194b62dd942fdece617a19136e6d8a909a7ac8dc4:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzE1ZjFlYjJhNDY0MGQwNzY5YjkxNjJiNzZkMGIxNDFhMDFkZDQ5ZmUwNjVhY2U3MzlhYjE0YmIwNTA1ZWE5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjY3MGI5MWU2NzEzNDgzNTlkMmEwMTU1NTUxNzc3ZmNiMmY0ZWQwNTVkODMwOTY0ZWU5NmY0MjRmNTRmZTJmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWViNzRkMGUzOGY5NWViZGJiYTAzNzAzNTY1NTU0N2EzZmJiMzAwOGY1YjQyMGJjNGE2ZDFjMTlkNDRmZjU2NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjFlZTNiNDFhMjNjODA1MjE4MTQ4M2QzYTM5M2IyMzQ5YzM3NzVlMDgzYzE2ZWY2NzFhYzUxZThhZTQzMGVjMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f6ea74c1644c4d1fa6f4b4ea3a9a8468",
+      "statement": "Data-quality exceptions on critical data elements, including API-16 outputs, are reported monthly to the Data and Technology Risk Committee; the 2025 Pillar 3 report states no exception had a material impact on reported capital ratios in 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L537-L537",
+          "version": "repo-lines-v1:sha256:513fc4553b056142c2d5eac6f14e33c3aba04cd807aa4a3be9d92840b8f8a02c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZmM0NTUzYjA1NjE0MmMyZDVlYWM2ZjE0ZTMzYzNhYmEwNGNkODA3YWE0YTNiZTlkOTI4NDBiOGY4YTAyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjkyYThlOTM4ZjZhYTI1ODI3OTJhMTQ2ZmEzYjlkMzFhZTYxYWZhYTVlYjMyNTgyZmI5ZDRlN2I2YTc3YzA5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQ0MTcyODI0ZDRhNTcwMWQ0YWQ2NWQ4OGIzYTkwODM5MmJlZGQ1M2M0NjJkMjVmZjIzNDYxNTUyMDFkZGQ1YyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T02:29:31.666Z"
+  }
+}

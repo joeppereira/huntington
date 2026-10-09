@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c452f94a654a40904320a94af2719f61778c1fa4ba3b2aa8143b0e94eb903ee0",
+  "claims": [
+    {
+      "id": "claim_8b08270e857d469ba5d396a18b97b4ac",
+      "statement": "CES is one of two upstream sources (with CIF) feeding the TDIP client_hierarchy dataset, which refreshes daily; this batch path is distinct from EP-CES-01's synchronous per-request role in Wire Center, so CES entitlement changes reach client_hierarchy-based analytics up to a day later than they take effect for live authorization.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L36-L36",
+          "version": "repo-lines-v1:sha256:38a2924a95803536403af2ac9e2b348e53a443d3d1baff891dae90d252a7ed85:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhMjkyNGE5NTgwMzUzNjQwM2FmMmFjOWUyYjM0OGU1M2E0NDNkM2QxYmFmZjg5MWRhZTkwZDI1MmE3ZWQ4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhMjkyNGE5NTgwMzUzNjQwM2FmMmFjOWUyYjM0OGU1M2E0NDNkM2QxYmFmZjg5MWRhZTkwZDI1MmE3ZWQ4NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmYxNTQyZDgzYTFlNDNjNTVmODEwM2IzZTBjYTQ2NmY2ZTc1M2M5NmY4NGRlNTIxNmU1ZmJlNzIyMGUwZTUxZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmIxN2VkNGJjZDc0MjJkYzYzNjliZDg4Y2E0YzQzY2VmMTg0MTNkOTBlNzE3MGIzNDdiZjllMWY3ODM0YWI4NiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

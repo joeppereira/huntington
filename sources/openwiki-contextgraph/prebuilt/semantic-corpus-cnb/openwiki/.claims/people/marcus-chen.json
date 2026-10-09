@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e9d85c16ea01600b5a40972d4e5080eeb614c086d9e9c7be928c8ee90df43881",
+  "claims": [
+    {
+      "id": "claim_45482f545a854e9892bed0a99b270325",
+      "statement": "Marcus Chen holds the title Director, Digital Treasury Product within Payments & Treasury Technology (PTT) at Crestline National Bank, and is listed in the PTT leadership directory as Product Owner, CBO Wire Center and Payments & Transfers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L28-L34",
+          "version": "repo-lines-v1:sha256:1ba2a9cacdb61fe9ff440b24e13578bd1e972240d4b5469a4fd04572219535a3:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWYxOGU0MTkyNjAzYTk3YmVhZWMwMDkzZTczN2ZjOTVhM2UyYzA2NTU2Y2JjMjhmZjNmMWI4MzIyNDE4MzI5YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjVlNzMyNTk2MzQ1MWJjODU0OGI3ODY4YzVlYzVjZThkNzA5ZTM1YjcwOThmZmM3Y2U0OGU3ZjM4MzEwN2U5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBlYjg4NTg2ZjZiZTc0ZjQ2ZGZiMzU0OGE4YjllYTBjNzlmYTg0YzlhOTJhODUzOGI0ZjdjZGY1YjY2OWI0ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTQ5N2QwZTJjMDAxM2Y0YzBmYWEyM2FmNjU0MDdlNTRlYzliYjAzNDM2MDQzNDAxN2YzMDI0NjVmNzFkYjUxMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_35c9b513258e42149d07c68ed2b7e450",
+      "statement": "Marcus Chen is the named business owner of record (not technical owner) for SYS-CBO (CBO Wire Center module, T1), SYS-CBO-SPS (CBO Status Projection Service, T2), and SYS-CES (Commercial Entitlements Service, T1) in the PTT system ownership register, with technical ownership held separately by Tom Becker/Lucas Ferreira, Arjun Mehta, and Nadia Haddad respectively.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L96",
+          "version": "repo-lines-v1:sha256:94a541e3f9bfd7a49d68075cae13cdd9db2c100412eca16a10fba77b8013840c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkMmI5MDJiNTRjZDUwZWZkMWYwODNhMDI4NWJkM2M3OTI4ZjFkOGI1ZWQxMWI1ZmMzN2Y3OTE2ZTgyZDgzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNjdmM2ZiOWNlMWFhYjVhNjNhNDg3YjhhNDM1NTdhYjM0Mjc0M2YwN2U0ZTNiZGJmMGJjNmYxYThhNzZlNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0cbd4b0871d24d3f909ed1641157c022",
+      "statement": "Marcus Chen is a key contact (Product Owner) listed for the Digital Treasury Channels - CBO Wire Center squad, led by Director Anjali Deshpande, alongside Tom Becker (EM) and Lucas Ferreira (Tech Lead); Jira project CBO / Slack #cbo-wire-center.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L45",
+          "version": "repo-lines-v1:sha256:20d0c82b07730b60fb48b1da37dcd3fbabf01817f3cfca5b06c7635f6ba12af3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2MDMyNWVlNjE0NWViODEzYjdjMTNmNDRmYWU3ZDVlYWUzMzM2ZDg4MWIwZDBiYmYwOWE5NGYyYjlmNzBiOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYwOGU4NjYxNzQyMGUxMGQzMWYyNmYwNzM5OWJhMzBmODY2YzZkY2MyNmFkZjMzNTE3ODIxNzk2MjQ3MzQ2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGRkZTVmZjAxMjNjNDMyN2ViMjEzZGFjNDRkMTJlMzk5MTgzZTE2NTcwY2U1N2EwMGJkZjhhNDU2YTI2OTc3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGU4ZTQ0ODU5ZGZjZGY0ZTBjNjYzZTM5ZDA4MTQ1ZmI4YjZiZjIzNjBiNzk1NGE2NGYzNjdiNDA2MDEwOGZhNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a2fa8f9503934bc2a86c7a54f777b21b",
+      "statement": "The CBO Wire Center squad's planning factor is roughly 1 story point to 6.5 engineering hours with ~42 points/sprint velocity, intake via Jira project CBO with PO prioritization, and PI 27.1 capacity reported at ~85% committed.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L126",
+          "version": "repo-lines-v1:sha256:56fbe4f844f0afabc24ff194bd5d1f36c21ec63f48b928624bd4c307c89b33f6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjcwMWYxNjFjYWZlNTRhZDk3MDNhYmZmYzkwMDRkZjRhMThjMzBlMTg0M2ZkMGQzOGE5ZTc4NTcyMWQ1ODI1OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWIwNjc5YTE3OGVkYzFjNWQyMDJjMzliOTIyYTllNWJjYmExOWM1NmM5YzNhNjM3OGRlYTJiYmY1ZWRlZjJiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzNiYWExNmFiMDk2ZmY0N2Q5MDNmNjkzMDliYTU3NWU3Y2ZkZjliMjE5ZmQxNjk0ODc1YzNmYjJmNWE3Y2Q4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZkNWFjOGJkM2FiYjZkZTM1NDllNThiYzE2YTUzNjkxZDc0NzQ4MDU3NTFiNDM3YTM3M2Q3MmRjZmMzZGVlOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6fc489b3f6954463b2113d518a2d115c",
+      "statement": "Marcus Chen personally exported the Jira Cloud saved filter 'WT-discovery' (document JIRA-EXP-2026-10-05) on 2026-10-05 08:14 ET, scoping wire-related issues updated since 2024-01-01 across the CBO, PPH, PNG, GTSI, FCT, ENS, and TDA Jira projects; the document owner field records it as 'Exported by Marcus Chen (Product Owner, CBO Wire Center)'.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L11-L22",
+          "version": "repo-lines-v1:sha256:2fe49963f95ce62d46658f4dd451100c4da405310b1c9ae83d0a4a0190fea870:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmMjdiNzg0YmFmNmZhOTUyMzFjZWY2MTU3YmJiMmViOGI0ZjhlMGMwMDBmMTc3YjA1NzRjNDNiMjEyNjI2ZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3N2ViMzYzMWQyZjFlY2JiODg3ZWZiYzc4ZTQyYTZlYTNmZGViMjZmZGM0OTMzMzE0MDkxMWNiNjRjODYyMmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlODhjM2M0YjBiMjZlNjE0NmQ4Y2QzYjVkZTY0NzI3Zjc4MDc5OTZmZDYwNGM1MWJhNjE1MmFmMDQ5NmU1ZmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjYjgzNmY4Y2VlY2NlMWMxMGI0NDczNzkyZjI3MWFhODgzNTg1NjIzNThkNDdjODA1YTE1OWM5ODE3ZWI2ZDYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5854909490844d2b9cd552810af421d2",
+      "statement": "Marcus Chen is recorded as the assignee/owner of record for the CBO-3790 'ACH Payment Tracker' epic (89 points, Done, released R25.4/2025-11), which delivered a timeline/status-notification feature for ACH payments including the reusable <cbo-journey-timeline> component (CBO-3802) and the Kafka-consumer-backed Status Projection Service (CBO-3815).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L29-L31",
+          "version": "repo-lines-v1:sha256:f528b5e6d12cb3b570e1dc7dcba7c8773c9f8101f023f36cd6dfd15bc662e0e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGI1NzJhYjg3MTVjMjBjZDNhZTJlZjliNGIxODcyNmUzMDU5ZWRjM2NlYzdjMjQ0ZTc2ZDFmMTRmNDAwNmQ1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM5ZjFiNGIyNzYzNGE4MzEyZThjMGExMDI5ZmVkZmZhNmUwMGE0YWMzOGM5OGFmMjhlYjJhOTdmNTdkZjc1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAzZWNkZDg4NGVkMzkzZDcwODYzMjA2ZDAyZjZkZjA2OTU0NzA1OGUxZjIzZjIxMGY3NWI2NDAzMzVmMTk2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIxY2MyZjJmOGNjOWYxMTJhZjE2YWU0ZDgxMWNhYThmNDE2MDFmMDc1MmZjYTk4ODk1MmJjODMwMzc4ZjAyNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d57b898448b7434386e9fb9476b8f84f",
+      "statement": "Marcus Chen commented on CBO-4402 ('Map PPH v1 status PROCESSED to client label Completed', Done, R26.1/2026-02) that clients found the legacy 'Processed' label confusing and that 'Completed' tested better in a six-client survey, motivating the relabeling.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L83-L97",
+          "version": "repo-lines-v1:sha256:2484eed45dcfaa97a82d89ba262520c00a209fdce7aa2a2ad873cd01a2904f8f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE5ZDZmODkwMGNhYjY1NDRhNjBlZDRmMWYxNGJhNjUxZTM2M2ZlZTFlODg1OWU2MjcwNDY1NjZmMzFjY2E4NmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0ZmI1NDIwODIzY2FhOWRiNGUzZmU4Zjk4NzNlNWFmOWQzMDAwZTJkNDFkNWE3YmI3NDgwZjEzZjdjY2I5ZTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlNTFiZWI0NDRiNGZiZWEyYTNlYTU2NjVhYTg4YzkzZWQyYzQ0M2YwYTU3ZGJkYzQyMDgwMTczM2Y5ZWJlZGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlZDI2MmY2OTZkMDkxZGE4NTdiNWNmNDFlN2UyNTQyNzU2NWY4MDg4ZmQ4MmRiM2FjZWJhNzE0NzllN2M1MzIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_61423a9f0ed44aaf9449d2e63db6271c",
+      "statement": "The 'Completed' client-facing label change (CBO-4402) is implicated in CBO-4419, an open bug/complaint where an international wire displayed 'Completed' on 2026-09-16 before the beneficiary bank rejected it (ISO 20022 reason AC04) the next day; the client had already shipped goods, and the issue is linked to open regulatory complaint CMP-2026-1189.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L185-L188",
+          "version": "repo-lines-v1:sha256:952dad864d4302ac5cc7ef0f1292c13b2d80d73eb463e0a7c448178235e027b9:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDcxMTU5Y2NiMTViYjg0ZmM4MTY1OTdhYmQxZGVkYWI3M2JkMDdiMTBkODA2NTI2NjRhZDA5ODkyYmUwOTlmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBkOGU1OTdlNDhlYzg0ZDYyNDNkYjJhNjJjY2E4NjQxNTUwMzgwMzE5NTVmMTVlNzdkZDI5MjNjZDU1MDAxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjliM2JlNWNlZDQzNzllYzg2MTJiNDczMzk2MGYyYTkzYWJhNzI4M2NmOWE3MWNhZTE2MmNiZmYzNGY0MzEwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDU4ZTkxMTdkYmJiMDYzZDMzMDhjYzI5NmNmMjA0ZDY0NmEwNDFjYTgwMTViMGE2YjJmYWI1ZmNmNGZiOWZiNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L36-L36",
+          "version": "repo-lines-v1:sha256:66fa16158f30910f618d8f4aa88b9406d6dd7fb535cb1d535d9c6e9fb99d1324:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjZmYTE2MTU4ZjMwOTEwZjYxOGQ4ZjRhYTg4Yjk0MDZkNmRkN2ZiNTM1Y2IxZDUzNWQ5YzZlOWZiOTlkMTMyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjZmYTE2MTU4ZjMwOTEwZjYxOGQ4ZjRhYTg4Yjk0MDZkNmRkN2ZiNTM1Y2IxZDUzNWQ5YzZlOWZiOTlkMTMyNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWFhMjlhNTY4NDU1ZjczZDZlYzdkMGRlNzg1OTdiNmM4M2JiNTY5NWI3NDNkZDg5N2ZjYTBlZmFhYTc3MDk0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjRiZTJjMjk0NjA3OGI5MjFiM2FmODMzZjc3NDcyYzEzNGUyODA4OTI4YzVhNzU0NjFhMjAyYmQxOTIzN2YwZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L99-L106",
+          "version": "repo-lines-v1:sha256:a9f16681c783df01fad908210e986fddb962c52e09d1827c90035f3787dae453:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDYxYzA4MzMxYzYyM2JiNzM4ZWYxMTQ4NmQ1MjIxMDk2M2Q2YjlkYWUyYzIyODI5NTA1ZTNiYTA1MDg2M2UzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRkOTRmNDUxOWNjZGQwYTRhNDY5NjA4MzI3MzhjNTllOTYwYzJlNzBlNTMzODk2NTIyMGYyNTNjN2NkNWJkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmRmNDcyZTFlZWVkZjg5MDI0MjI2NTQ3NzI2MjYwZTg1NzkyMTY2MTdjZjJmODc5ZWQ1ZDYxYjk5NjZlMjIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ad2502e25f1840bb822bf31cad6a769c",
+      "statement": "CBO-4471 ('Migrate Wire Center from PPH v1 to PPH v2 APIs', Epic, 34 points, Backlog/unscheduled) must complete before the PPH v1 API's 2027-03-31 sunset (no extension per ARB decision 2026-09-08) but as of the 2026-10-05 export was not placed in a program increment and is blocked on CES account-filter mapping work (CBO-4473), a prioritization decision within the CBO Wire Center Product Owner's scope.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L107-L113",
+          "version": "repo-lines-v1:sha256:3368cafdb0b6b5cbfa1b9a67247e306826af7835c147b7c32d283efbadc11fdf:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTgwM2ExZDQ2NDI3NzQxYmQ0NjA1ZWYzZWQ4YjY2MGYyMjk5NDZlNjJmNTcwZGRkZWVlOTczMzlhYjhlOWM0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI0YzMwNDhkMTdmNTdhNjAyMzliZDJlMzFjOTQ1ZGEyY2I1YjljNDBmMjE0NTgxNGY3M2U3NjVmNTMyZmQ3OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjRjNDI4OTgxYTcwZjYxYTY5OWVjNTZiM2JhOTVmOGUwMTM2YjdlOThkM2YyZjE1NmEzNTJjMGM0Njc4MjcxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYwM2Y0YTI2OTg0MjI4YmZjMDgzMzY2NGIxODIwOGIzYjkyODJjYzI5MWVkZDNiN2M4YTczMmNkMDY0YzU1NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L137-L141",
+          "version": "repo-lines-v1:sha256:04068018a39909221bd96b517609deb4cee9d42a30b8ab9ebbc7b70e7a2c47aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiZmRmMjY2NmY2NGMyMjcyZDJlZmIzNzkyNTU1N2U0ZGRlZTk4NTBkYWFlZjUzNTllMTkyYzdjNTVlMDI4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmExNDVhYjczOWJhNDk4NWM3NTBjZmFhMDYxYjAyZTdhZTljOTkzNzU2M2Q5MjRkODVmNGZhYjAzOWVmMjI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWNkMTk4YmI0MzFiYjBkMGM5MzNjYTUyZDIyZTUwNDE2ZGRkZGE4ZGFmMTMxM2FhNzIzZGViYTljYjI2NjdiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQzYjljMWU1NjQwOTU5YmNlY2Y1ZDJlMTQzMzUzZmEwM2Q5ODg4NTVjMzFkY2RmZDc4NjE5NzA0NTU4MmRhMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L37-L38",
+          "version": "repo-lines-v1:sha256:c45e0aa9c681965a8c3db33b6f6322a741d5d160c2aa204b7d4fd53edd9c83b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWIyMTM2MjA4MTM0MTZjMGQ3NDY5N2FlZjkwMTM0OGJmN2IwZTM4OTcxMzNiMTU2OWE1Njk5OGFlNTQ1OTRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhM2RkOWRhODg1Y2E4MDkxNzU4NTViYTJkOGU4NjVmZmRhMGUzMzg3NDY4YmNjMmQ1MmUzMzFmNDVhYzg4NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmE2NWY2MDg1OTkxNzdjODQyZmRiNWZjODNlMDE3MjA1OThjYmYyMTAwODg0MDI1ZTk0ZjZjYWNmMzBkMGFiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTcyODg5MGI4ZGQxMmZlYjgyYTkzZjhkMGY3MDExYjFlM2RlNDg0ODQ5MDFlZjAwMmFlMGY5MDRiYjZiNzY3YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bacef91ed0e94fd7b3121ef1440632d2",
+      "statement": "CBO-4388 (in-progress Sprint 26.20 story populating a client-facing hold-reason tooltip from PPH v1's holdReasonDesc field, feature flag WC_HOLD_TOOLTIP default ON, targeted for production 2026-10-22) collides with the open, unresolved FCT-2004 risk, which flags that holdReasonDesc can expose HMS Hold Reason Code values and financial-crimes analyst free text to channel consumers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L165-L167",
+          "version": "repo-lines-v1:sha256:1ff89d090b6bf4bd2e01243a3aa2c555b9140197e509aa8cbcaeff95c70bafb8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA2OGMwYTFlNzM4MjQ2MjZjN2RmYWU2MDk0MDIwY2JmYzhjOWIzMjNkNDQyOGU5MDM2NjY5MmUxNjBiNGJjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM0OWZhZDQ0ZWI2YmI4OTUzNzZlNzQ3N2RkMWY1NWFjYzBlNGY2MmMzNzY2MmFhNGZmNjdlOTExNjljYWZmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZjZWMxOWUxOWQ5ZjAxNTJlNGYyOGYxYTZkZTBhNDMwYjI4Yzk3YTczMzU5MGYzMzkzZmFjOTUzZGJlYzM5MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRmNGEzOTljNzI4NDI0Yjc1NDJlYmY0Y2E0NGViN2IwZTRhNGY5YjczMzQ3OWFlM2ZhYjk1OGI5MDgwYmY0MCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L34-L34",
+          "version": "repo-lines-v1:sha256:5a63460cc3a47bd028e8254ffe4886cb595ff6d38e4a3a0798915b82eecfaeca:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWE2MzQ2MGNjM2E0N2JkMDI4ZTgyNTRmZmU0ODg2Y2I1OTVmZjZkMzhlNGEzYTA3OTg5MTViODJlZWNmYWVjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWE2MzQ2MGNjM2E0N2JkMDI4ZTgyNTRmZmU0ODg2Y2I1OTVmZjZkMzhlNGEzYTA3OTg5MTViODJlZWNmYWVjYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDBlNjQ2ZDFiYzY4Y2U4YjEzNTc2ZWRjMjcwYjUyZDYyYmZhNjAwZTUxMTZiZjViMzU1ZjBjYTRiZWIxZWZmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjlmNjIzNzIwNTMwYTNhMDA5MWJkYzlmN2NmN2Q3Yjc1ZGJjNmY4ZmFlOTdkZWFiNDA1ODU0N2MyMTQzYmM4YSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L63-L63",
+          "version": "repo-lines-v1:sha256:67d6a57937689dd583209404ef088c1bf3567cbb87070e53d86295c20d6dc608:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkNmE1NzkzNzY4OWRkNTgzMjA5NDA0ZWYwODhjMWJmMzU2N2NiYjg3MDcwZTUzZDg2Mjk1YzIwZDZkYzYwOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmM0MzYwYzlmZTM3ZDY4Y2NlZWYyNTAwYzk2MWU0NGI0M2RkYjRkMzE2MDJmN2RhNzU1ZWRmZmI2ZDlkOGU2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L71-L79",
+          "version": "repo-lines-v1:sha256:d0cbfaa57a9a08aa1111bde780a105a704ba1fb74642b1f966e939910568765b:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTU4NTIyMTU5MWFiZmVmNDRlYjA1ZmFjOGM5MGFjZThiMjg4MGViODQ1YzcyZmRkMGU4ZmUyMjA4M2YwNTExYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY3NzUzMGM5NjFiYjY4NzI5MzI4NzAyYjY2Yjg2ZjYwMGVjOGI0ODlmMDcxYTA4MTdmZTQ4NDc2NzYxZmY2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGU1MWJlYjQ0NGI0ZmJlYTJhM2VhNTY2NWFhODhjOTNlZDJjNDQzZjBhNTdkYmRjNDIwODAxNzMzZjllYmVkYSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

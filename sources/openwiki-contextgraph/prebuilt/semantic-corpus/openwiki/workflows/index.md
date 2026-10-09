@@ -1,0 +1,5 @@
+# Files
+
+- [API to Model to Report Lineage](api-to-model-to-report-lineage.md) - End-to-end lineage of how Developer Platform APIs feed the three Tier 1 models (MDL-CR-007, MDL-ALM-014, MDL-CAP-003), which metrics those models produce, and which reports disclose them. Built from each API's Data lineage table and cross-checked against the model READMEs and the report model inventories.
+- [Capital Projection and Rate Sensitivity Flows](capital-and-rate-sensitivity-flow.md) - End-to-end walkthrough of how the Capital Planning model turns inputs into CET1 paths and an indicative SCB, and how the NII Sensitivity model turns parallel rate shocks into NII and EVE changes. Includes the answer to "what happens to NII if rates fall 200 bp".
+- [CECL Allowance Calculation Flow](cecl-allowance-calculation-flow.md) - End-to-end walkthrough of how CECL_Allowance_Model.xlsx (MDL-CR-007) turns API-sourced inputs and three macro scenarios into the reported $15,920mm allowance, naming each sheet, key cell and formula, through to the Note 6 disclosure.

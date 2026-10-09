@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:caecab1e229a827ec2fb408ac4f816230287ee4e0a74b49357aab8cbe4ba8322",
+  "claims": [
+    {
+      "id": "claim_ecf247a3eb184516827257cfc25aab4c",
+      "statement": "CNB-ORG-PTT-2026-06 is the Payments & Treasury Technology org/ownership directory, version 2026.2 (Published, quarterly refresh), owned by the PTT Business Management Office (BMO) and approved by Gregory Hall (MD, CIO Payments & Treasury Technology), published 2026-06-15 with next refresh scheduled 2026-12 (Q4).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L15-L22",
+          "version": "repo-lines-v1:sha256:951f0a8933a260518f245cc9aa705930c2c0abb982d72e87e0a496c866c9648f:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTkzZmY0ZmZkODkxMjNjZDIyMDhhMDdkOGZhNzU3NGI1ZGRhNmE1NWUxYzU1NzhkM2IzYjIyZjY4Mjk1NTcxMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQ3NzM5YmMxOGUyZWI3N2U4YmI5MDc1ZTU2MDc0MTRkNDBiYWU5MTc5ZmY3NWUzZDZiYjQ0ZjQ0NWIzNDRlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2U3ZTFlOWM3ZDhhMjZmZTBkN2Q4Njk4N2M4YmU3ZDU3MjU0ODg2MTIxOTZhMGYzYjllZTZkM2IyNjM2OGJiYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_574f5c6993db435dbc6c94decfedd3f2",
+      "statement": "The directory states that organizational announcements issued between its quarterly refreshes take precedence over the directory's contents, making it a baseline rather than a real-time org record.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L24-L26",
+          "version": "repo-lines-v1:sha256:f18489a719daa45bf0bb0ee7107579a71558b11b153d102f8492d9de6cb3ce58:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTE4NDc5MmJmOWZjMWQ1MThhMjJlNTUxZDQ5ZTU2NDdkN2JhMjY5NTUzMTEyMmZhYWI4Y2I1ZGMyMWU5MmVmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTRjNmU2ZGY3MTZhYTI0ZGE2YjhhZGFjZjdhYTUzZjRiMDBmYmZiZTk0NmY3Nzg0MDY4YTJhMDE2ODI0YTQ0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzkzM2I4YzI2NGVlMTkyNDc0YjJlMWE2MzAzMDVhZmU0MGE2NDY1MDcwZDZmNTlkMjJlNjc2OTIxZDkxN2EyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_39e727f99f2742a2b10dd7e4f2cea3d1",
+      "statement": "The system ownership register (Section 4) assigns each PTT system a technical owner (accountable engineering manager/lead), a business owner (accountable product or data owner), and a support tier of T1 (24x7 critical), T2 (business hours + on-call), or T3 (business hours); most client-facing payment systems (CBO Wire Center, CES, PPH, both Payment Network Gateway connectors, and all PRSP components) are Tier 1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L96",
+          "version": "repo-lines-v1:sha256:94a541e3f9bfd7a49d68075cae13cdd9db2c100412eca16a10fba77b8013840c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkMmI5MDJiNTRjZDUwZWZkMWYwODNhMDI4NWJkM2M3OTI4ZjFkOGI1ZWQxMWI1ZmMzN2Y3OTE2ZTgyZDgzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNjdmM2ZiOWNlMWFhYjVhNjNhNDg3YjhhNDM1NTdhYjM0Mjc0M2YwN2U0ZTNiZGJmMGJjNmYxYThhNzZlNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2e6dc0197e594e15b4f62782a674adce",
+      "statement": "Governance forums gating PTT changes include the Payments Architecture Review Board (monthly, 10 business days lead time, required for new client-facing payment integrations), FCT Change Advisory (bi-weekly, 5 business days, requires FCC sign-off for hold/screening changes, with a year-end freeze Dec-15 to Jan-05), and MRM Tier 2 model validation (10-14 weeks plus queue).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L118",
+          "version": "repo-lines-v1:sha256:783ccf007e4ab9afdd88a61537b60ae7bb2d10dafbdd5b194666c8801445d395:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzc0NmU5NjRiNzZiN2U2ZjA0NTU1YzdjOWZkZDU4YWY0ZDk1MjRlNjMxYjBkODU0NzMxMmJhN2I5ZDQ2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5NDIzMTI5MTE0YzM2ZmFkNGNhYTFhM2MyMzM0ZGE0YzJhMTA3YTViNTZiNWM1ZGUzOThkNTc5MzZlM2QzY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzgxOTcwMTI4YjJiYzliMWJmYjk4ZTYxYjFmYzFhMjI1MjhkZWQxNzE4ZWY0OWFjMTg1ZGNiZTNkNWU4OTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg3NzM4NjNiYjczMWY3OTY5NTBlNzU1OTE2ZTIxMDJmNzliNjZkNDQ2ZjAyY2RlOWE3N2U4MGYzOGY1YzE4Y2UifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d2ae060af2fe404cbaef77d16f0cb583",
+      "statement": "Section 6 of the directory provides per-team planning factors (e.g. story-point-to-hour ratios, per-event/per-review effort estimates) and intake routes calibrated from the trailing four program increments, with point-in-time capacity notes for PI 27.1 showing Payments Hub Engineering at ~90% committed, the highest reported commitment level.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L138",
+          "version": "repo-lines-v1:sha256:1e2fed947d50a609157df7385e3543534ad4bc415464e1c1f9efb1d8a6b1723d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4ca75f6021ba4c9fbee8cf430ae4772c",
+      "statement": "Unresolved dependency conflicts escalate from engineering managers to Directors to the weekly (Monday) PTT Leadership Team, while compliance or policy-interpretation questions are routed separately to FCC Policy & Advisory or the Privacy Office rather than decided by engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

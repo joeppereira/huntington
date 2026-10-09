@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c09529242767c677943eeb29ed26501176854068d1d82619d93985025e28d13e",
+  "claims": [
+    {
+      "id": "claim_1204172ee9c54d1485df340ee9e5d901",
+      "statement": "Danielle Okafor holds the title EVP, Head of Treasury Management Products, and is named in the PTT leadership roster as the business owner of Treasury Management (TM) products, including Crestline Business Online (CBO).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L33",
+          "version": "repo-lines-v1:sha256:e96b1921580123093711b1d5793d0b81005cd201d4d43cd11022b2a56d157d75:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ1ZWM2ZjQ0MGRmMzQzNzc5N2RkY2NmYzNlYTU0NGRlMTMyZTQyMzEwNzU1NjFjZDY1ZWQyNDc4YjRlZjMzOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjMTM2YTJhMzQ0YjNmZTk1NmJlYjM4ZjdmYTRkZjYxOWM2ODg1ZTIwYjI4ZWE2YmYyNjcyMGM4OTBlYjMwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTAxZjEwZTUxMWYwZDQzM2RhYzhlOTVlNmZmZTYyN2U1MDRjZmE5M2JlOWY4NWJiYzNlYmU3MGQ2ODRjMDhkZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fb27ace050554024a12403d8ab4f6f38",
+      "statement": "Okafor is listed in PTT's leadership roster as a peer of Gregory Hall (MD, CIO Payments & Treasury Technology), reflecting that TM product business ownership and PTT engineering delivery are organized as separate, parallel leadership lines.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L30-L33",
+          "version": "repo-lines-v1:sha256:e96b1921580123093711b1d5793d0b81005cd201d4d43cd11022b2a56d157d75:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ1ZWM2ZjQ0MGRmMzQzNzc5N2RkY2NmYzNlYTU0NGRlMTMyZTQyMzEwNzU1NjFjZDY1ZWQyNDc4YjRlZjMzOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjMTM2YTJhMzQ0YjNmZTk1NmJlYjM4ZjdmYTRkZjYxOWM2ODg1ZTIwYjI4ZWE2YmYyNjcyMGM4OTBlYjMwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWNhY2I4ZmUzNGI1N2ZhZmI2NTY2ZDFlMWVhMWE1M2Q5OWU2ZmFmNzFjNTQyMWJhMmYzODI4ZTQwNWFkZTQxZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTAxZjEwZTUxMWYwZDQzM2RhYzhlOTVlNmZmZTYyN2U1MDRjZmE5M2JlOWY4NWJiYzNlYmU3MGQ2ODRjMDhkZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2b432b71d0d24506b2c836b3d7dfe1dd",
+      "statement": "Marcus Chen, Director of Digital Treasury Product, reports under Okafor's TM portfolio and is the named Product Owner for CBO Wire Center and Payments & Transfers, and is listed as business owner of record for SYS-CBO, SYS-CBO-SPS, and SYS-CES.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L34-L34",
+          "version": "repo-lines-v1:sha256:b5e7325963451bc8548b7868c5ec5ce8d709e35b7098ffc7ce48e7f383107e93:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjVlNzMyNTk2MzQ1MWJjODU0OGI3ODY4YzVlYzVjZThkNzA5ZTM1YjcwOThmZmM3Y2U0OGU3ZjM4MzEwN2U5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjVlNzMyNTk2MzQ1MWJjODU0OGI3ODY4YzVlYzVjZThkNzA5ZTM1YjcwOThmZmM3Y2U0OGU3ZjM4MzEwN2U5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWVkMDcwNmQ1N2ZjMDQxODY1MjA2OTA2ZDA4ZTFhOWM5MjgyZjczMjQyZDlhMjg1NjI2NzM4NmFhYTM1ZGRhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTQ5N2QwZTJjMDAxM2Y0YzBmYWEyM2FmNjU0MDdlNTRlYzliYjAzNDM2MDQzNDAxN2YzMDI0NjVmNzFkYjUxMCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L84-L86",
+          "version": "repo-lines-v1:sha256:5ad426b7581c6b7b0721690e7df22379b63fc82baf46e79a1ab0a1fb2f146201:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzhhZjBjOTRmYjhiMDE0ODAzMzAzNGZjY2E4Zjc1NGExMjk0NTI0OWQxMDM0NWZkMTE0OTNkNGU4Y2VhNjhjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2MTBhYmUzOTJhNTcxMGZiYjY3NmEyMWM5ZWQ3NTFhNDdlMDFlMzY0YjM0MmQ2YjY1ZDliNjc2MTk3NTgzZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTUzYTVkMzIwNmVmZDhjOGQ0ZmNjNjEzNzgzOWVhZDg0YjhlN2I5YWY1OTJjNzg3ODZmMTgxZTAxMTlhMWQ2MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_33b5aa3b815f431184f50aa9f0182a81",
+      "statement": "Okafor is not named as technical owner of any PTT system; the system ownership register distinguishes technical owner (engineering manager/lead) from business owner (product/data owner) for each system, and CBO-related business ownership is delegated to Marcus Chen rather than held directly by Okafor.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L86",
+          "version": "repo-lines-v1:sha256:0e15a820b6a2864e61417d617d33bcf54a52523a5e9119a4444b1e62d5e034ed:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQyYjkwMmI1NGNkNTBlZmQxZjA4M2EwMjg1YmQzYzc5MjhmMWQ4YjVlZDExYjVmYzM3Zjc5MTZlODJkODM4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2MTBhYmUzOTJhNTcxMGZiYjY3NmEyMWM5ZWQ3NTFhNDdlMDFlMzY0YjM0MmQ2YjY1ZDliNjc2MTk3NTgzZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWM2N2YzZmI5Y2UxYWFiNWE2M2E0ODdiOGE0MzU1N2FiMzQyNzQzZjA3ZTRlM2JkYmYwYmM2ZjFhOGE3NmU0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1c393e404dcc48d7ba6deb7a4ceed56e",
+      "statement": "Client-facing changes to CBO payment-status communication that Okafor's Treasury Management Products organization sponsors require additional sign-off from second-line governance partners: FCC Policy & Advisory review and Disclosure Review Committee approval under POL-FCC-014 (owned by Catherine Doyle), and Model Risk Management registration for predictive/estimated completion-time statements (owned by Jonathan Price).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L37-L38",
+          "version": "repo-lines-v1:sha256:0972f328b3fd3c25c5b6ab2f515be4c130a3505e929f3da82db2fc7e5f483a5d:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDExYThmYWIzMDBjOTI5OWRiODhiZjQ5YTgzMjJiOTY1MmY0MjI4ZjcyZDcyYzNjOGM4Y2JiMzgxMmU2MjM3MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzljYzcwZjY1YjJkZWFkYzg2NTU1ZWQ1OTgyYzU0ZDc5YTU3NDZhYjdhMGNiNGI5OWZhOThiNGU2MzdjMTdmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTAxZjEwZTUxMWYwZDQzM2RhYzhlOTVlNmZmZTYyN2U1MDRjZmE5M2JlOWY4NWJiYzNlYmU3MGQ2ODRjMDhkZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzFkZjk0YjhjMWU1MjUzYjU1NDUwMGVjMGJlZjYzYjEwMWMwMzY4M2Y2MGY3YmJmMmRlZWY1MGI1MTkwZjQxZCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L69-L70",
+          "version": "repo-lines-v1:sha256:2b56ea618afdf50c392e66ad27ac0ebfdccf4947a2b9526049b8ba84a878332a:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkxOTY3ZWM2YzQ1M2YwNDU3NmIxZTA2Y2FjYWVmOWMzMjZlMzIwYTlhNDEzZGRmZmU2ODY4ZDRjNDg2MDk5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkzZmY3MjBkYTkwOTQxNjdiYWFjMjNiNDU2ZGRhZWQ5YjcwMWU1ZjRhNzU1OWU3MDIwNmUzYzExM2Q2YTg3ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGE1MmIyN2Y3Njg5ZWUyYWUwODA4ZjY2YmZmNWZhZjFiZGIwNzBhOTk0MmI2ZGZhYWNlOWU5ZDBhZDg2NjBjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmE4ZDM3ZmMyOTZjNWJmMDEyMmRhM2EzMzE1ZGJkYTQ3YTA4Njg4ZTdlODFkNWYwZDUwYjdmNjY1ODUzMDZlOSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

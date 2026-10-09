@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:31d7a5836a6443c8b0281d66ee5bec20eba3070599ad168da4dd0daa43af2331",
+  "claims": [
+    {
+      "id": "claim_aeb2e28cbf884e89936fc27db1eb955e",
+      "statement": "ENS-INT-3.2 is the published Enterprise Notification Service integration guide (v3.2, Published 2026-07-30), owned by Melissa Grant (EM, Enterprise Notification Service) and approved by Sanjay Iyer (Director, Enterprise Notification Platform), classified INTERNAL - CONFIDENTIAL, and related to CBO-ARCH-WC-4.1, POL-FCC-014, and ENS-1120.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ae72122bd10ef4ec657e757974454242ed09a22834f9180a7f50bcb72dc26ac5:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWI3MzhlYmQ4MDg1ODU3ZTRmYzRmZDdmNTcxMzNmODU0NzA5YWM4NmY4ZTRkM2YxZDFlYzVmYTQ0M2NjNmVmZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkMTgzYWMyNjQwZGIwYmNmYjZmMDA2ZmRmMjg1YWE4NmZlODkwZWQxYzNlZjY1MDM4NzhiYmZmMDI0ZThhZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODMyYTBhYTg2OWVlOGQwN2RkOGYzNzU4NDZhOWFhN2FlMzEyYzczMjY2YThiNGFhN2FiNTFiYWVmOTJiYmU3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTk4ZGY4MzQ3NDlkMjU4YWQwNDkyOTI3ODY5MzQ1YjhjZDU5YzAyYjkwNDFiNTNlNjAxNDVhNWIyNzFiNjU4MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_302e65e2cb1a4fd88bbf0a0fd165ee48",
+      "statement": "ENS delivers transactional notifications across email, SMS, mobile push (CBO Mobile), and the CBO in-app inbox, resolving recipients from subscriptions and rendering approved templates per user channel preference, with throughput of 300 msg/s sustained (1,200 msg/s burst, 120 msg/s Treasury domain quota), p95 push/in-app latency of 4s, TCPA-consent-gated 160-character SMS templates, and masking of account numbers to last 4 digits with no Restricted data in payloads/templates.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L24-L33",
+          "version": "repo-lines-v1:sha256:caca81b1fa752e198deaa62d2058fb22fbd2bc2f3b566295c0f28ed60a6d614c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExMzUwNjRkODk1OWQ2YTBlM2E4ODFlZTNhMmRkOTcyY2U4NmE1ODZhMGRjMTYzNGNiNjVkN2U4ZWY0MTdmYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExZjAzNjEwMzExNTBiNjkwZTE2MDQ3MzQ0YTkyMjgxNTAyNzkyZDE0NGZkM2JkYzVkZTljNWQ4MjJlZWIzNWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkwYzRmN2I4MjQ4YmU3OWFjNGI1ZDk5NWU1ZmUzMDBiZGFkM2YwYmZiMGM2NjQyNzZlMjU5ZDJjMTcwNjFhZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZjZTc1ZjQ0ZGM5OWYxNTkxMjM5ZWE2OGY2YWRlZjJhYWNiMzVjMDQxMWJiMDE3ZDZjODY4ZTcxNDFkMjE4NjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_87c1d9130d044ffe9e141d8d79658bd0",
+      "statement": "Onboarding a new ENS event type is a five-step process (ServiceNow 'ENS Event Onboarding' catalog item owned by Paul Henderson; payload/recipient-resolution definition; bi-weekly Disclosure Review Committee template approval; ~12 ENS engineering hours of configuration/testing; producer UAT and production enablement) with a 6-week SLA from complete submission to production, and requests submitted after 2026-11-20 are deferred past the year-end change freeze.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ba50d9789bac47aeb78c8b0be58c5016a66c7b51eeb9632461c33cf56926fe22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZDU1ZjUzNTA2NDk2YThmNmNlZjMwOGVhZTJmMTA3ZmI0ODJlZDg0ZTdmYjU3OTFjNDhhN2RiZDZkMjBlNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiZDlkYzQyMjI3MWQ0YjI3M2MxNGU0NGUwZTk1Y2ExYWI2MzBjZDc4NzFlMTc3NDliMWQ4NzNlODg3N2UxNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZjA4ODc3NmRjZGZkYmU4YTFjYjZiNjI0MDE3ZWNlNDE2MjE4OTI4OWE1OTJhMTU5MDRlMTRjN2FkYTc1ZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlMTlkMTE5YjVkMDQwZmVlZTk1YTRlMzVhYWI0ZmM1MmJmZWY2MzBkODQ5MWFkMDNhMWQyODBhOTRhOWIyY2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_09e9080ea1de47679819cba8e80c6dc0",
+      "statement": "ENS subscriptions are created per user for a given event type with optional accountId and amount-threshold filters; ENS does not support subscribing to an individual entity (e.g. a specific paymentId) today, with entity-level subscriptions planned under initiative ENS-1120 for 2027-H1; producers with their own recipient lists may instead send directly to a named user ('producer-resolved recipients' pattern).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L49-L51",
+          "version": "repo-lines-v1:sha256:7b6750fc41945eae6836d5115964229ec2e5835b12941bb5e45adddb0e807434:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmYmNjYzc3OTQyOTJlYzU2YTA5ODc2YTZjNTBmODFmODQxYjYzZDJjOTQ5YmNmMzYyNzE0NGU4NjA4ZjBkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNlNWE5M2U5NDUzN2FjZjYzMGEwZmZhZTkwYWM4ODM5NmUxNzBkNGViYTgxMDVmYTcxODgxODBkMDEyOTliNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzI5ZmI2YmY4MWNkOWNlYjQxY2UwMjI5NDM0NGU5NGI1NGIzODc3Zjk5NTczMzRhOGQ0MGIwYjcxZDY4OGNmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJhMTY5OTRmOWQzZTI1NTY0YjEyNDA2ZjVhYjAxYjQ4OTgzMDM2NTQwMzk3ZDk1NTc4Y2ZiZjhkMWE5MDA3MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_adb791fad30f4818b997487488a76bb2",
+      "statement": "The live Treasury (TRS) event catalog registered with ENS consists of TRS.WIRE.APPROVAL_REQUIRED, TRS.WIRE.RELEASED, TRS.WIRE.REJECTED, and TRS.WIRE.INCOMING_POSTED (produced by CBO/CDP, keyed to PPH v1 wire status transitions for RELEASED/REJECTED), plus TRS.ACH.STATUS_CHANGED and TRS.ACH.RETURN_RECEIVED (produced by CBO SPS, live since 2025-11); no event types are registered for wire network acceptance, beneficiary credit (gpi ACCC), wire returns, gpi milestones, or client-action-required states on held wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L53-L75",
+          "version": "repo-lines-v1:sha256:b8fbc8d2de9c295824e814b04f99f12a475ebd5f85774517fae258d3bf20c8b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NDFhYzA0MTM0ODM5NWFiOTgxZTkwMGU2NWRmYjc5NzQyODNkYTMwNTU5NmFjNWE2ZjU0MGNiN2ZlNjViZDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3MTFhMjAyZTNjMDJiOTk5Y2M0NzcwNmU2NTY4ZTZlMzM5ZWRjMTI0MTFhNTcyYzljMGY2YmRiM2VjZTVlM2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI3OWZjNjM3NmI5ZjI5OTBkOWY3Mjg2MTU2MmI0MGQyZjRkMTc1OTYzYzgyYjAyNzkwMWVkMDkwZTdjYmEyYzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwYzg3NDMyNDdlNjUwNzk2NjYwZWQyOGRlMzcyMzVhNGM5ZWFkZmI1N2I4OTU3NDJlYWY3OTg2ODBjY2QxNmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_451a7e449a574befb99597dce2906757",
+      "statement": "ENS exposes three producer/subscriber-facing v3 APIs: POST /ens/v3/notifications (EP-ENS-01, send a registered event type with an approved template), POST /ens/v3/subscriptions (EP-ENS-02, create a subscription with eventType and accountId filter), and GET /ens/v3/event-types?domain=TRS (EP-ENS-03, retrieve the event-type catalog for a domain).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L77-L83",
+          "version": "repo-lines-v1:sha256:4f45975b846200812fde2391ef6afd25cb58b11f2bac4f9684677bbe291c229d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg5NzQ2MzgwN2QxNTNmZDIzZjE5OGZiODQxYzkxZjlkNTkxYmIyMWU2Njg2YzI1OGVkNmMzYTk4MmUyNGFhNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4OTFhMGYyZjgxNTVmOTk0ZTljNTMxYTA4NzFhNDA3ZDAxMGJhMTUwZTYxMzA2Zjg3NzQ1Y2U4Nzg0OWFiOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTBjYjE0N2JkYmZkZGYxYjY0OTFiODkyZDllYzc1MDViYWQ3NjVmZTRhODgwYTdkYmRjMzJiNmJkY2IyZmI0NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmI4NTE2ODYxMDMxMjg0Mzk5ODE2MDlhZjZkODg2ZTBiNTA0OWM0MmUzODk4YjIyODA2ZmZkMGQwMjlmZGExMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0d8070a422d74215a8a4fbb6ed547530",
+      "statement": "ENS content rules require financial-crimes-related templates to use FCC-approved copy per POL-FCC-014 Appendix B, require status wording in templates to follow each producer's own approved status terminology, and prohibit links that expose transaction data outside authenticated sessions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L85-L91",
+          "version": "repo-lines-v1:sha256:8a12edee5b51cde3ded50a2374c3e3708134d2a0463291731f658b85f806c4e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzAxM2E4NmY2ZWNlYmNkZDJiZTdiY2ZmNmNkZWI5YTgyNzU2ZDU3ZTA3MGNkOTFlMmJmOWRmMmI5YWYwMzQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk1Y2QyMWI4NTM4ZGQzMjdhYWY2YzJlMjNkMzQ1NDhjMmZjNTU1ZGUwMjkxOTk4YmRjNjUyODBiODk1NjQ2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGVjYWQ5ZWEyZjgzNTFjM2NjMzhjNGU2YjFhOWJkYzE4NmQ0MzNhMzRiMTU0NDFjM2ZhYWNiZTQyN2Y2NDllMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ5ZTFkMWJmNGM3MDJiOWI3NzhjMDdkMTA4YzU5YmMyYTc5NjMxNWZkY2UzM2I2NzIzNjc3MzkxMWJlYzA2MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5d11714af51d422481a0ed6917877435",
+      "statement": "CBO integrates with ENS via a reusable 'ENS producer library' shipped in cbo-commons 3.x that wraps templated sends with masking helpers over the ENS v3 APIs, and CBO's cbo-wire-bff backend-for-frontend calls POST /ens/v3/notifications (EP-ENS-01) to produce TRS.WIRE.* events.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L153-L153",
+          "version": "repo-lines-v1:sha256:917dd4cb00ddc12869a2170eba00919099472c641a2109bfae2a75549f71d4ac:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE3ZGQ0Y2IwMGRkYzEyODY5YTIxNzBlYmEwMDkxOTA5OTQ3MmM2NDFhMjEwOWJmYWUyYTc1NTQ5ZjcxZDRhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE3ZGQ0Y2IwMGRkYzEyODY5YTIxNzBlYmEwMDkxOTA5OTQ3MmM2NDFhMjEwOWJmYWUyYTc1NTQ5ZjcxZDRhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmM3MjBiYWM4YzM4MWE4YWZkNWIwMWYxYjZmYmM3ZjQ0ODBjNDgzNzQzZGQwMWY3YWEzYzYzMDE1OTQxOGIzMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0ZDRmN2M3NGUyZjNkN2JhNTIyM2IzYzM0N2Y0MjI1MWQ4YzY1ZjRkOWU4MzAzN2ZkNDcxOWNkODU0NzMxOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L78-L78",
+          "version": "repo-lines-v1:sha256:99009007c09ee6cec7dfd9af5e49f6a80d698131dcddadab284f3297194a4eb5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTkwMDkwMDdjMDllZTZjZWM3ZGZkOWFmNWU0OWY2YTgwZDY5ODEzMWRjZGRhZGFiMjg0ZjMyOTcxOTRhNGViNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTkwMDkwMDdjMDllZTZjZWM3ZGZkOWFmNWU0OWY2YTgwZDY5ODEzMWRjZGRhZGFiMjg0ZjMyOTcxOTRhNGViNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmQ0NzYwOWM1NDdhMDMzOGIwYjc5Yzg2NmIyNDAxNTMyNGNlYTdmOTFjM2QwZjQzNGYxYzViNzZjYTg0NTE5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWQ3MjgxNDEwNWE1NjgyYWJhODEzMTM2ZmQ4YTU3MWYwZjRjNzAwZjNkMmNiNzJjMGRkNzhlYWIzMzg1ZDgxNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4a9f7ae3a7ac42fdb24d9dd9faf22bc5",
+      "statement": "The Enterprise Notification Service is tracked as system SYS-ENS (tier T2) under the Enterprise Notification Platform group, with Melissa Grant as engineering owner, Sanjay Iyer as director-level owner, and Paul Henderson owning event onboarding; the platform directory also records the ~12 ENS-hour onboarding cost, the 6-week SLA via the ServiceNow 'ENS Event Onboarding' process, and per-entity subscriptions as a 2027-H1 gap.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L132-L132",
+          "version": "repo-lines-v1:sha256:2ba756a17d5e58e428914775888772e7f8c0cbda7129dcb33df52a819814baa6:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmJhNzU2YTE3ZDVlNThlNDI4OTE0Nzc1ODg4NzcyZTdmOGMwY2JkYTcxMjlkY2IzM2RmNTJhODE5ODE0YmFhNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmJhNzU2YTE3ZDVlNThlNDI4OTE0Nzc1ODg4NzcyZTdmOGMwY2JkYTcxMjlkY2IzM2RmNTJhODE5ODE0YmFhNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDRlOGY1MzA3MzNmMTc0NmJjOTkxOGYyMTViN2Y1NTMyNWI0ZmMwNjlmMjk4ODRkMjJiOTUzMTQ3ZDJkNTBjMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTlmODQ1NWE2NjVkNmFjMGQ0NzNjMTNmMTBiMDE0MWEyOWNiM2E4ZmZlMzJhYmIyMjUxMGM5Njc4ZDIxNjgyMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L62-L62",
+          "version": "repo-lines-v1:sha256:3725d100c266f4f4474c071af7a411f25ecaaaf7ae0682bce10ada3a1443ba3c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzcyNWQxMDBjMjY2ZjRmNDQ3NGMwNzFhZjdhNDExZjI1ZWNhYWFmN2FlMDY4MmJjZTEwYWRhM2ExNDQzYmEzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzcyNWQxMDBjMjY2ZjRmNDQ3NGMwNzFhZjdhNDExZjI1ZWNhYWFmN2FlMDY4MmJjZTEwYWRhM2ExNDQzYmEzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUxMjg3YzY0OTc5MmM5MzI1YjlhMWQ4NDc3MWFjYTk0ZDFlMTQ5ZDBhMmI5ZGU2M2EyNDIyNDgwYTk5OTllMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBmMmM1NWRlN2VjNDRjYmIxZWU5OTVkNTRlNDc4MzE2YTM0OGY4MjI1MTg5NWUxNTI1ZjU5OGE2ZTBjMGM5MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L93-L93",
+          "version": "repo-lines-v1:sha256:f837230f587b0a2c87635e8a382be490b8835c2842c599135d270d06e86dc8cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgzNzIzMGY1ODdiMGEyYzg3NjM1ZThhMzgyYmU0OTBiODgzNWMyODQyYzU5OTEzNWQyNzBkMDZlODZkYzhjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgzNzIzMGY1ODdiMGEyYzg3NjM1ZThhMzgyYmU0OTBiODgzNWMyODQyYzU5OTEzNWQyNzBkMDZlODZkYzhjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2VjODUzNTYxYTEzZjkyYTI1ODc2YzJmYzY3MmZlODYzY2VhNTc1OWQ2ZDk1ZjNhN2I4YzZhNThiYmMxNjYwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzQ3NGIxNGZjZWE1MDVjODM1ZjIxZGQ4ZmQ0ZTZlMmIzNWVlOTFlNDhjZjg2MTg2N2RjOTZmZGZiZGE0ZTI0NyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

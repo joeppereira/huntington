@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:7cc7edf2b317b3e84fccc0011456bb93222d7323c96907ce6d2b79b37bda30bd",
+  "claims": [
+    {
+      "id": "claim_04dc399aeb9843d290928d0c842f1a9b",
+      "statement": "This repository is the trace log of a question-answering agent that answers questions about a fictional bank, Meridian Harbor Financial Corp., using a separate semantic wiki, rather than being application source code itself.",
+      "evidence": [
+        {
+          "resource": "repo://README.md",
+          "version": "repo-file-v1:sha256:a3d8fe5f816a8b40d40c8c28c2ee5c7fe02241a4d3e303156491655bb455ce45"
+        }
+      ]
+    },
+    {
+      "id": "claim_cf76ff252aff466b81f2e7343890c7e6",
+      "statement": "As of this writing, sessions/ contains no session folders or turn-NNNN.md files; it holds only a placeholder sessions/.gitkeep, so no Session, Turn, Decision, ToolCall, SourceReference, Topic, OpenQuestion, or UserIntent pages have yet been generated from real trace data.",
+      "evidence": [
+        {
+          "resource": "repo://sessions/.gitkeep",
+          "version": "repo-file-v1:sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T20:59:04.422Z"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:53fd07a271ed0896e3785bb13d6e1acfc1dc6c650984aa99d12e4f22ef2b3e75",
+  "claims": [
+    {
+      "id": "claim_b3c6942a0ee34578b755dc6942bb51dc",
+      "statement": "ARB-PAY-REG-2026Q3 is the Payments Architecture Review Board's 2026-Q3 published register extract (status 2026-Q3/Published, effective 2026-09-12), owned by ARB Secretariat member Jenna Ross and approved by ARB Chair Nikhil Bose (Chief Architect, Payments & Treasury), classified INTERNAL-CONFIDENTIAL, and explicitly binding on channel, payments, and data teams rather than advisory.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L7-L22",
+          "version": "repo-lines-v1:sha256:b507438ecd95c2eff936c4f2163d062a078bc25b7887fe7d1ed1c4f84dc0385e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1NjA4N2NiNThiZDYxZThmNWI5YmM5MzI0YjRlMmZkZGEwMWFkZWJiZDZmNjhlMTY0OGUzYzhlNjNkNmEzNjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjNzY3YjA1YTI2ODkwNTY5MGNmYzhhNjAzYzAzYjAxZjE3Y2MzOWNlYWJlNjQ1MjdkNDkxZTdkMjViNDUzMWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc5NTViYjk2ZGZjODFlYjI4YWVjNmVjOTJiNWU2YTZmYzRjZDFiMTgyYTIwZmRjM2ZjZDVmOGVhOTY1OWQyNzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0M2JkYjlhZTAwNDA1MmI4MmU4YWNiNDBjNGEwNGI3YzNmNDRkOTUzY2MzMjhlNWFjYzExMWE4YWEyYTg3MDEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_52ba487565274630924518c2b63c5156",
+      "statement": "The ARB-PAY-REG-2026Q3 extract lists its related documents as PIR-2024-07, PPH-API-CAT-2026.3, and TDIP-CAT-2026.2, which are referenced for context (incident follow-up, PPH API catalog, TDIP catalog) but are not reproduced in the register itself.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L22-L22",
+          "version": "repo-lines-v1:sha256:1c767b05a268905690cfc8a603c03b01f17cc39ceabe64527d491e7d25b4531f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM3NjdiMDVhMjY4OTA1NjkwY2ZjOGE2MDNjMDNiMDFmMTdjYzM5Y2VhYmU2NDUyN2Q0OTFlN2QyNWI0NTMxZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM3NjdiMDVhMjY4OTA1NjkwY2ZjOGE2MDNjMDNiMDFmMTdjYzM5Y2VhYmU2NDUyN2Q0OTFlN2QyNWI0NTMxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTQ3MzI5MDI0ZjUzMWUyMTE0MDlmYWZjOTJjZjcyNjJmYmFhZGZlMjcyMjI1YTJkNDY0YTMxNWRjMzk0MDNhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDQzYmRiOWFlMDA0MDUyYjgyZThhY2I0MGM0YTA0YjdjM2Y0NGQ5NTNjYzMyOGU1YWNjMTExYThhYTJhODcwMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9bfbc30b8dd94a289dc67128d82a48c1",
+      "statement": "Section 1 of the register lists five currently Accepted ADRs binding on payments-adjacent teams: ADR-PAY-017 (Kafka integration backbone, 2023-11-07, all payment systems), ADR-PAY-019 (event-driven channel status, 2024-06-11, all channels), ADR-PAY-021 (hold reason confidentiality, 2025-04-08, PPH v2/channels/data), ADR-PAY-023 (UETR as correlation id, 2025-09-09, PPH/gateways/channels/TDIP), and ADR-PAY-026 (analytics via TDIP Insights API, 2026-05-12, channels/TDIP).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L26-L48",
+          "version": "repo-lines-v1:sha256:c155cb86b496a3fdc12cb1fe337c96dca95b82f578fdf9205852e02b29309004:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI2YzAwNjZlNTA2OGJmYzg1N2E1M2U5MTkwZjM0NjQyNWZkNzU5MzBkYzA2YjY2YWIzMDBlOTU0N2EyOGQzMGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZDgyMGIzMmI0MTcwZjBiYTJlNTIzNjg0ZTFmYWMzZTI3ZGI4MmQwNWQ4OTA1MmI0ZThhMmE0OGJlN2MwZWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ0M2JkYjlhZTAwNDA1MmI4MmU4YWNiNDBjNGEwNGI3YzNmNDRkOTUzY2MzMjhlNWFjYzExMWE4YWEyYTg3MDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhlNjZiMDcwZTJkOGFmZjM1YzNiMmQzZjVkMTllMmNlODg3ZjdhOTZjZTk3Y2IwNjJkMzRjYzUzYTlmZjlhZjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_043e0b3d03594c45b1c7331ad97b6da3",
+      "statement": "The 2026-09-08 ARB minutes extract decided that Volaris 9.6 removes the PPH v1 adapter with no extension beyond 2027-03-31, requiring remaining v1 consumers to present migration plans at the 2026-11-10 ARB session (owner: Kevin O'Brien); this decision time-boxes the legacy v1 exceptions carved out separately by ADR-PAY-021 (holdReasonDesc) and ADR-PAY-023 (no UETR for v1).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L52-L55",
+          "version": "repo-lines-v1:sha256:c2829af66b9003e8ff7b6ee839fc1ab3c114bf16c72cdc75b6f0d6285fc82d7a:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJiZmQ0YTk0YWM1NGUzZmFlYmE0M2ZlNTdiN2UzYmNjYWY2NDk0YzE4YzBkYjQ5Njk3ZWM1OThjNWI5N2EyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRmMDU3YjViMDcwNjkyNjY4NDg3NDIxOWRkZWMyM2ZlNmQ1OTkzZjhlZWEwOWRjNWYwNTVkOGUxNWQ2OGI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGU2NmIwNzBlMmQ4YWZmMzVjM2IyZDNmNWQxOWUyY2U4ODdmN2E5NmNlOTdjYjA2MmQzNGNjNTNhOWZmOWFmMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2IzOTEwOTE1MzA0ZTE0OWVmNWQ2YTFlMDE2NGUxZjdkN2YwNjI5MzRlNDcyNGJjYzc0Mzg2MGU2OGYwOWYxZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_14a11d51a33d438aa39157eba8ff3d84",
+      "statement": "The 2026-09-08 minutes record that a proposed real-time Swift gpi tracking service (GTRS / GTSI-0107, owner Elena Vasquez) was not funded for 2026, and the board explicitly declined to approve interim direct exposure of the GPI_TRACKER_SNAPSHOT dataset to channels, stating any read-only quota-isolated service for that purpose would itself require separate ARB review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L67-L67",
+          "version": "repo-lines-v1:sha256:7b4ee1c1bb428270053402672d151d7f4f96fec43435048a230113900301c655:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I0ZWUxYzFiYjQyODI3MDA1MzQwMjY3MmQxNTFkN2Y0Zjk2ZmVjNDM0MzUwNDhhMjMwMTEzOTAwMzAxYzY1NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVhZTRmMmVkNGQ1ZTJmYWI4NTc0NmU0MDE4Mzg2OTllMGY0YmE1NmVmOWFmNjk1YzZmMzE4ODQ5OWQ1MDNkZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmJkNzg2ZGVmZjdkYmQyZWNlYjA0NDU5ZWE0NzE1MDFkMGZlNmFmOWVlNjgyZjZlYWIzNDMwN2IzOTA0YzE0MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d6fa57349ffa46e0ae223c472e5dd127",
+      "statement": "The 2026-09-08 minutes reaffirmed the Status Projection Service (SPS) pattern, established under ADR-PAY-019, as the reference pattern for client-facing status of any payment type, not only wires (owner: Arjun Mehta), and noted structured address enforcement by PPH and gateways remained on track for November 2026 with an expected increase in repair holds (owner: Raymond Ortiz).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L68-L69",
+          "version": "repo-lines-v1:sha256:5753fa9f51fbbae2d17bfabccfd14c88da912f292ee7f91312fdc63fa7a982a8:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgyNWYwZmNmN2ViZjljNWM4YWRjZTcxYzk4N2Y5NWRkZDJhNzQ5MzliNTJjZGE0ZTFkZWU2ZDM0YTJmZDE1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzM5MGE4ZGIzMzYzOTdhNWZhN2NjZDYzM2Q2NTQ1MTgxOWRjMzMwZmM4MjQ1MTFmNDYwNDdhNjc3NjlkNWY4MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWM0N2I4ZTQ0OTBmOWViMjAxNzE2YWY0NDUzNjhhYjIyY2M3MDlkOGExZTgwZDZlMDA4MmI2ODZiYjlkNGIyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2RhOGYzMjc0MzEyMGJjZTAwYjRlNjFkMjFhYjU2ZTM2NWY3ZTk5YjI1Y2VhYjc5YWM0YzY0Yjk5MjM2N2NiZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c47a4e74b5434b5488600c6b5d4d85a5",
+      "statement": "The ARB's forward meeting cadence per this register extract is sessions on 2026-11-10 and 2026-12-08, with submissions due 10 business days prior via the ARB intake form.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L71-L71",
+          "version": "repo-lines-v1:sha256:379d39a2c2d5d59d99301e76b568a5ad8de5967435ce40daee18e3c3b9d4c159:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc5ZDM5YTJjMmQ1ZDU5ZDk5MzAxZTc2YjU2OGE1YWQ4ZGU1OTY3NDM1Y2U0MGRhZWUxOGUzYzNiOWQ0YzE1OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc5ZDM5YTJjMmQ1ZDU5ZDk5MzAxZTc2YjU2OGE1YWQ4ZGU1OTY3NDM1Y2U0MGRhZWUxOGUzYzNiOWQ0YzE1OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmJkNzg2ZGVmZjdkYmQyZWNlYjA0NDU5ZWE0NzE1MDFkMGZlNmFmOWVlNjgyZjZlYWIzNDMwN2IzOTA0YzE0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZkODcxMGJmNGUwYjA4ZmYxMGM4MDgxZjQwZDQyZDkwZjBiMDcxNjY3OGZkY2E5YThmODI3ODAyYWI0ZjAyNCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

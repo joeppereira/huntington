@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:ebc6537f4ca8f1de16e5b24c21e8555fbaf55b7c29dc9e0b86b69163ac1921a9",
+  "claims": [
+    {
+      "id": "claim_5ebd3c03f7644baf941172d56ec7051f",
+      "statement": "Financial Crimes Technology (FCT) is a Payments & Treasury Technology (PTT) engineering team, Jira project FCT / Slack #fct-prsp, led by Victor Petrov (Director) with Grace Mensah (EM) and Daniel Kowalski (Tech Lead, Hold Management Service) as named key contacts.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L50",
+          "version": "repo-lines-v1:sha256:acdf5e2393f9e6e279adbf96949cb3cd27c0c3f88a3f052d4cea979563cfcbe3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NjAzMjVlZTYxNDVlYjgxM2I3YzEzZjQ0ZmFlN2Q1ZWFlMzMzNmQ4ODFiMGQwYmJmMDlhOTRmMmI5ZjcwYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE5MmUyNWQ0ZjViNDVlYTQ2NjVhZGVkYTdkMWFhYmRiNDlhNmZmMmJlMzRiM2UzZDRjZjJjMDE3NWJlMzA3MjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZGU1ZmYwMTIzYzQzMjdlYjIxM2RhYzQ0ZDEyZTM5OTE4M2UxNjU3MGNlNTdhMDBiZGY4YTQ1NmEyNjk3N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyY2VhMWE4ZGZjNWI0YTVjNGUwMDExYWI3Y2NkMTgxZGI0OGM0NmZhNDRiNjllY2E4ZDk4MWQyOGJlNTEzMDAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_698f1f79daeb44e09344d29986829472",
+      "statement": "FCT owns all three Tier 1 (T1) systems of the Payment Risk & Screening Platform (PRSP): Hold Management Service (SYS-PRSP-HMS, business owner Rebecca Stone/FIU), Sentinel Fraud Scoring (SYS-PRSP-SEN, business owner Fraud Strategy/FCC, vendor model), and SanctionScreen (SYS-PRSP-SSC, business owner Michael Tran/OFAC), with Grace Mensah as technical owner of all three and Daniel Kowalski co-owning HMS.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L90-L92",
+          "version": "repo-lines-v1:sha256:3ec853561a13f92a25876c2fc672fe863cea5759d6d95f3a7b8c6a58bbc16607:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3ZjBiZjdmMmUxMjA4NjM0Mzg2YjlmZjcyZjM3ODQ1ZmUyOTdkN2UwNGNhNGQxNTc4NWRkZmQyNWE4NGJkMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkYmY2NzJkYjRlNjVhM2I3OWI3NzUxYTExNDY3MzRlZjM0MTUxZDUwM2VmMTBmNGIyNjhhNDA3NWUwZjNmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjIwODQ2MGVmYjdmNDRkM2IyN2I0ZjllMjZkZTlhMDY0MDE4ZjQ1MGYxZGQxYTc1MDZiM2IzM2UzMzhmNDZlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlZTM1NzdlMWFmMGE4OWU2MDJiN2ZlMzgzYjAyZjQ4NWU0YmRjYmY5NzkxMzQ0ZTMxNDFmYjE4ODExMGE4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_938fa7c1a09140d391374a4b2f66609d",
+      "statement": "The FCT Change Advisory forum meets bi-weekly with a 5 business day submission lead time, and FCC sign-off is required for hold/screening changes; a year-end change freeze runs from December 15 through January 5.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L100-L104",
+          "version": "repo-lines-v1:sha256:cedf70a1ef327776fe9ae6b7139ac2d3edff58f920b8d56cfd11600a9037735d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4YTcyM2MzMjNiZmRjMDYwMjYxZDg3YjE3MTNlZjgxNDkwNGFlMThmM2Q1MDAwMTZhNTI3ZDVjMmVhN2Y2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjU4MDJiMDlkYzg5OTA0YTYzNzEwMDdjYmI1NTdlZmQ4YWY0YmI5OTdkYjQ1ZGNlZWVhNmI0NDJlYTQ2NjM1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1b35f2d2977f4d0ab7f0e054cc805071",
+      "statement": "FCT's engineering planning factor is 1 story point ≈ 8 hours plus a 20% independent compliance testing allowance, with intake routed through FCT Change Advisory plus FCC sign-off; FCT capacity was reported at roughly 80% committed for PI 27.1.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L124-L131",
+          "version": "repo-lines-v1:sha256:a90484a0eb37c32d38329283cca0e9781b3b882322189ff39134445477ad5eae:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2M0NTBkMGJkYWE5ZTI0NTkwNzFhZTljOGEwYjc3ZDU2NjA0ZjYzNmZjZTU3YTVmOTQ1YjdiMGU2ODI3MTE0MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM3YzEzOGZmMTg4YWM2Yjc2MmUxNGIyNDZmMWYwNTlhNTc3MzZlMjliZmU3YjI2OTcyMmIwMDQ2NjI2NjhjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWZhMjFkNWUzZTNjYzk3NTBiNTU4MTE2ZWU5NWQ3NmNlOTY0ZGYyYWFhMmZlYWY5YTllMjBjNGViMGZhNTc5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTJhYTNiY2QzNjgyNTFiZGYyNzcyMmM4YTE0ZGRhYTI0YmI1Y2U5ZTM0MWIwNzVlN2RjYzhlMDA3MmY2ZmM4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a762b84735584e48b58f0ef88e366dd2",
+      "statement": "Financial Crimes Compliance (FCC) is accountable to Catherine Doyle (EVP, Chief BSA/AML Officer), with Jordan Ellis as the FCC Policy & Advisory contact for product/design reviews; Model Risk Management (MRM) is accountable to Jonathan Price.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L70",
+          "version": "repo-lines-v1:sha256:fb945689d044a28becf3109c96b3fe2fb75179566ee00069ec2f40a8ce34851b:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWUwNGNiYWM0MWE5MjMxMTk1ZTgzYzk2MDRiMTRhZDZmNzg2MTczZjI1YWJjN2QyM2UzZDMyNTQ1ZDQxYzgwNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkzZmY3MjBkYTkwOTQxNjdiYWFjMjNiNDU2ZGRhZWQ5YjcwMWU1ZjRhNzU1OWU3MDIwNmUzYzExM2Q2YTg3ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzBjOWY2NzFiNDViMGMyMjc3ZmRlMTQ4N2JjNGEyOTc4NmNiZjA0ZGM4NjlhOWUzMGE5YzI2NWI5M2VjZjBmYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmE4ZDM3ZmMyOTZjNWJmMDEyMmRhM2EzMzE1ZGJkYTQ3YTA4Njg4ZTdlODFkNWYwZDUwYjdmNjY1ODUzMDZlOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ea97cce3b91847939ac44bc0e0186b1e",
+      "statement": "Dependency conflicts unresolved between engineering managers escalate to Directors and then the PTT Leadership Team; compliance or policy interpretation questions route to FCC Policy & Advisory (Jordan Ellis) or the Privacy Office, not to engineering teams.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c90c542669cc4551bba58e65f1f7efa6",
+      "statement": "The Hold Management Service (HMS) is the system of record for holds placed on outbound payments by screening, fraud, funds-control and operational controls, part of PRSP alongside Sentinel Fraud Scoring (MRM ID M-FCT-0021) and SanctionScreen, with HMS work queues surfaced to Payment Operations and the FIU via the Investigations Workbench (IWB).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L24-L26",
+          "version": "repo-lines-v1:sha256:f6fb690120df161b152daf802cd9a5d75abcf329a7d1f3edc5375f7506369281:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZiOWRiZmI5ZWE1NDM4ZjgxODQxMjU3MzI1ODg1NTg5MzViNzdlY2IwNzkzYWQ5NzQ2MmJlNThhYzM0OWRiYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDExNzM4NWI2ZjM1NGNjMDk3M2YyZWQ2Y2JjYTIzMGQxMzRmZWViZDhiZTA1MWVmZTc0MTM0MDBiNzcwMjA3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODljZjZmNGYzOGVkMjhhYjdmYjJiMTM3NTk4MGNjZDEzNjBlMTk2MTNmZGVkYjljMThmYTE5M2UxM2U3ZDI4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1b62061dec8e439e84d364774fdf70c8",
+      "statement": "Victor Petrov is the named approver of PRSP-HMS-3.4 (the HMS design and hold reason taxonomy document), with Jordan Ellis of FCC Policy & Advisory as reviewer, and document owners Daniel Kowalski (Tech Lead) and Grace Mensah (EM).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L15-L22",
+          "version": "repo-lines-v1:sha256:6069ed8a3ceee635b2e43e4e1c367d6f0705313644281a802811986ae5b88d3d:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTdjOGQ3OWMxOGE5OTZmOGQ2OTczNTRiMjE5YTU2OGRiZWU2OTk3MWZjOTcwMmVkYTk4MTc0YTkxYWYxN2FiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTg2NDE2NzRmNGZjZDMxOTI2OGZkOTdmZWIwMjI5ODc4NWVkYWE5MzJjNjhmZjE1NGI1YjMwYjM4YmE4MWNhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc2NjYyODczYzY3MTFmYmVjNzQxN2QwMDc1ZTQ4NWEwYTZiMzgyNjczMTBiMzg3YWNjYWY4ZTFlMzkzMjZlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e174c261a4dd476db172dcec238bb370",
+      "statement": "New client-facing integrations to payment systems require review by the Payments Architecture Review Board (ARB), chaired by Nikhil Bose (Chief Architect, Payments & Treasury); new or changed models must be registered in the MRM model inventory before development, with Tier 2 validation taking 10-14 weeks plus queue; new uses of client data in client-facing features require a Privacy Impact Assessment (PIA), roughly 4 weeks.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L100-L118",
+          "version": "repo-lines-v1:sha256:738a62e13e2209ca929acf59152fe415d44697874decaa5eadcfb175cee68643:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1OGE3MjNjMzIzYmZkYzA2MDI2MWQ4N2IxNzEzZWY4MTQ5MDRhZTE4ZjNkNTAwMDE2YTUyN2Q1YzJlYTdmNmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5NDIzMTI5MTE0YzM2ZmFkNGNhYTFhM2MyMzM0ZGE0YzJhMTA3YTViNTZiNWM1ZGUzOThkNTc5MzZlM2QzY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg3NzM4NjNiYjczMWY3OTY5NTBlNzU1OTE2ZTIxMDJmNzliNjZkNDQ2ZjAyY2RlOWE3N2U4MGYzOGY1YzE4Y2UifQ"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L36-L36",
+          "version": "repo-lines-v1:sha256:0a800e54daa2f2bbe8ceb1d876717d2c5103de1ce89b6282fe9d135e4be0dc9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGE4MDBlNTRkYWEyZjJiYmU4Y2ViMWQ4NzY3MTdkMmM1MTAzZGUxY2U4OWI2MjgyZmU5ZDEzNWU0YmUwZGM5YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGE4MDBlNTRkYWEyZjJiYmU4Y2ViMWQ4NzY3MTdkMmM1MTAzZGUxY2U4OWI2MjgyZmU5ZDEzNWU0YmUwZGM5YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGFiNjJkZjY0NDkzMTIxNWUwMDQ2OTYwNDAyMmY2ZmI3MzkwZDYzOTIyYjMzMzM2MWRhNzE4ZTNhOTgzZmE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDBlOGNmYjQ2ZDJlNWExN2E4MjM3ZDRhODViMjJjOWViYjQyNmE4ZjA2Y2I1ZDlhMzMyMzY0MTBiMTU3Y2VhMiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

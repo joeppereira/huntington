@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:0177fa2565718d29b9ff8557e9e2dc5b8e0eddce0daf4cb428fdab34b23e250a",
+  "claims": [
+    {
+      "id": "claim_18ce022f8f5749aeaa192137a7cd4bb9",
+      "statement": "Michael Tran is SVP, OFAC/Sanctions Officer at Crestline National Bank and is listed in the PTT organization directory's partner-functions table as the Financial Crimes Compliance (FCC) contact for OFAC matters, alongside Jordan Ellis (FCC Policy & Advisory) and Rebecca Stone (FIU), under Catherine Doyle's second-line accountability.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L69-L69",
+          "version": "repo-lines-v1:sha256:d91967ec6c453f04576b1e06cacaef9c326e320a9a413ddffe6868d4c4860998:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkxOTY3ZWM2YzQ1M2YwNDU3NmIxZTA2Y2FjYWVmOWMzMjZlMzIwYTlhNDEzZGRmZmU2ODY4ZDRjNDg2MDk5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkxOTY3ZWM2YzQ1M2YwNDU3NmIxZTA2Y2FjYWVmOWMzMjZlMzIwYTlhNDEzZGRmZmU2ODY4ZDRjNDg2MDk5OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGE1MmIyN2Y3Njg5ZWUyYWUwODA4ZjY2YmZmNWZhZjFiZGIwNzBhOTk0MmI2ZGZhYWNlOWU5ZDBhZDg2NjBjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjg2MjI0YjllMThiNjY4NWY1ZTQ3OTE4NWJjMDkzYzQ4YmE4YzEwMjc2YmJlNjZiZGM5N2IzMTc5ZjYwNmFjNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5150e5258b084ffa91e148069daa8ca6",
+      "statement": "Michael Tran is named co-owner of POL-FCC-014 v3.2 (Customer Communication of Payment Status, Holds & Exceptions Standard), alongside primary document owner Catherine Doyle, EVP, Chief BSA/AML Officer.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L15-L23",
+          "version": "repo-lines-v1:sha256:47a568773085c3771cb225bfe950df86c860dac9f1271c0ee9e7930c5e8985c8:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwODQ0NDVjMThhYTJkMWU4ZmEyZDc4M2Y0YmM5Zjg3MzNmYTM2MzJlYzRkYjdkYjQyZTNlNGViYTI1NDM5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM0ZWM4ZjNhZGFiNWY2MjBlOTM4YWEwMjFhNWYwNTY5NzJkOGM4NzZjYzE3M2Q2NmVkOTdhMmQwOTA0MzcyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODE2ZTQ0MWViNjczOGIxY2E1ZGVmMWNmZDAyMWVjNzZjZjUzOTllMTFmMDZlY2JjMWZiMGMxY2U0NDM5ZWI3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjMwNjBhMmRmZjI3ZGZlOTY1YjE4ZjNhZWEzYjM5ZWExOGFlNzk4MGU0MWJkNWNlNGIzY2M0ZmM0MjU0YTNmNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a250f8b66cf44fb68920553027e3c604",
+      "statement": "POL-FCC-014 restricts sanctions-related disclosure: tier R holds (including sanctions) must be presented identically to generic tier G reviews, sanctions blocks/rejects may only be communicated by Sanctions Operations per procedure, and terms such as 'sanctions' and 'OFAC' are explicitly prohibited from client-facing copy; exceptions to the standard require Chief BSA/AML Officer approval rather than the co-owner's.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L100-L102",
+          "version": "repo-lines-v1:sha256:df3fcb6237816c88e8de3094ed2fef1d4e917b1307ab6ec0e9a7e54c2a3ddaba:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzEwNGJlM2FmZDJmNzUwNjU4Y2U1YjMyNzk1NjYyMjA3M2Y5MDRlNzVhZWIyYWU5ZmRlOTkyMzQ4Y2FmODcxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJlYTA4YzliMjViMjYwNmYzNThjMzhjNzMxY2Q1N2I3NGViYTRmZTYyOTQyMjg0NTQ4NDk4NzgwZTZiMWE3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjY1MDJjMjM0ZTMwN2JhNmE4N2FkNjZiNmJmYTA3M2E1YzU0NzU0ZDM3MTgzZTE5NTZlN2I4ZDQ0MDhjZmNjOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTgxOGY1NTlmZWEyZGEyM2Q0MzQzYmY0NjQ4NDk3OGM4NjA4YWZmYTI3NDEyYzM1ZGMxZjFjMDg1ZDZlM2Q2NCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L145-L147",
+          "version": "repo-lines-v1:sha256:87df57cc6e319fd41609710b032e4544d299eccc5d31422d5a2dd63255e77665:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRiZDQ2ZGJkNzFjYTZkZjJhNDQzNmQ3YzZkZWZmMmQzMWRhYzY4NzQ0MTM2MWY2YzBiN2M0ZTc5NzdkZmM2NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQwNmYxZDQ4MjRmODMxZGZiYjZhNjgyMGU3ZTczNTU0YTBmNDU4MTVmY2MzNGM4MjZiMzVjOWYyNWI4NjRmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmJiNThmOGZiNDUxNDczOWZlNTQwZTBkYTNjZWM3Yzk0ZThjMjBmMDgzZDQxZTA5NTgwNGE5YzYzYjc1ZTUyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGJkMDU5YTBmODI5NGI3ODBkYzg5ZTk5NWJkZTI4Y2ExMzBkZTlmMjMzMzY3MTcwOWI0MjEyZGVmZGI1ZTYwZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L44-L51",
+          "version": "repo-lines-v1:sha256:de2e7d7895beb0c76c9802ac5bb4352c754a6f20c1ab7ecb7e0e495f64ead307:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzlmZDA3NDY2NTRiYjk1NDVhYjdjNzhkOTIzMjkyMTgwZjI4ODIwOTdiZGUwNTk3ZmUwNWZjOWEzM2IyZDczYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDYxNDEwYWM4YmY0NjNmNWE5NGYwZWQ1MWQ0ZTJhZmI5MGM4NTQ3YWJlNDY5NWZkYjhlNzQ3ZDZiYmI0ODJkOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ0OWJkODAxNjcyNjhmZTFjODAyYWZhNTFlMmEyNmQ5ODBmMzljODEwYjU4NGFhYzk5MDU3ZWFkN2IwNmJiMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODZkYjNjYTc1NDg1NTM5NDUyYzNiZDZkYmJiMGVmOWI3ZTBjZjFlZDA4MTMxZWQ4MDdmOTIwMDE0NmEyYTJiOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a16baf76ef7f4ac5926c335748e3bad2",
+      "statement": "Michael Tran is the named business owner of SYS-PRSP-SSC (PRSP - SanctionScreen), a Tier-1 system whose technical owner is Grace Mensah (Engineering Manager, Financial Crimes Technology - PRSP).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L92-L92",
+          "version": "repo-lines-v1:sha256:67dbf672db4e65a3b79b7751a1146734ef34151d503ef10f4b268a4075e0f3f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkYmY2NzJkYjRlNjVhM2I3OWI3NzUxYTExNDY3MzRlZjM0MTUxZDUwM2VmMTBmNGIyNjhhNDA3NWUwZjNmMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdkYmY2NzJkYjRlNjVhM2I3OWI3NzUxYTExNDY3MzRlZjM0MTUxZDUwM2VmMTBmNGIyNjhhNDA3NWUwZjNmMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDllNjU5MDZiYWFjMzE3NmI4NWEwMjAwYzJhOGM1NWY1NmZjZjM0N2YwZDA0NjJkNmFkMWJjOTUyZDc1ZGM5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlZTM1NzdlMWFmMGE4OWU2MDJiN2ZlMzgzYjAyZjQ4NWU0YmRjYmY5NzkxMzQ0ZTMxNDFmYjE4ODExMGE4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_edf48aca490a4bdabd35e3452b1cd995",
+      "statement": "SanctionScreen is part of the Payment Risk & Screening Platform (PRSP) performing OFAC and other sanctions-list screening; a synchronous screening call to SanctionScreen and Sentinel during outbound wire processing can produce a hit that creates a Hold Management Service hold and moves the payment to the HELD state.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L44-L44",
+          "version": "repo-lines-v1:sha256:2b172b0b42fd72fffffc48a7dead47a31d3d7a0df3e7d2f6e54f1016586332ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIxNzJiMGI0MmZkNzJmZmZmZmM0OGE3ZGVhZDQ3YTMxZDNkN2EwZGYzZTdkMmY2ZTU0ZjEwMTY1ODYzMzJlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIxNzJiMGI0MmZkNzJmZmZmZmM0OGE3ZGVhZDQ3YTMxZDNkN2EwZGYzZTdkMmY2ZTU0ZjEwMTY1ODYzMzJlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWNjZmY5ZDY5OTY2ODJmNzQ2NTQzNzYxZWFjOTRjNzM4YTZkMTM5NTZlYTFmYTRiZmQ2ZjA1Yjk4MzYzZTlhZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDJlMGMxNjZmMzg2MzNhNjgxY2MyNjMwNmM3Y2ExOTEwOGQzNjgwMjNlNmYwZDc1OWZkOWMxMmJiNzNmODQ2YSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L26-L26",
+          "version": "repo-lines-v1:sha256:7f8d80372a218ed37d3e097adbd937ee73e34624aba6df265042f434b91c23b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Y4ZDgwMzcyYTIxOGVkMzdkM2UwOTdhZGJkOTM3ZWU3M2UzNDYyNGFiYTZkZjI2NTA0MmY0MzRiOTFjMjNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGQxNGMzNjE1Mjg1NTUwNGVlOWZiY2FmM2QwZDY2YTMzYjg2ZmUxMTA5MDI2Y2M0Y2ZjODQ2MzJlZWRkNzIwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODljZjZmNGYzOGVkMjhhYjdmYjJiMTM3NTk4MGNjZDEzNjBlMTk2MTNmZGVkYjljMThmYTE5M2UxM2U3ZDI4NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_60aadcb69d4f48adbd7164205cc60567",
+      "statement": "A SanctionScreen potential match corresponds to hold reason code HRC-09 (SANCTIONS_REVIEW), a tier-R hold pending L1/L2 review, accounting for about 7% of HMS holds with a median disposition time of roughly 3 hours 20 minutes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L54-L54",
+          "version": "repo-lines-v1:sha256:0e37c66915144b94fedf325e27264a907e120b3a01b644357f9cb79d7a201ef0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUzN2M2NjkxNTE0NGI5NGZlZGYzMjVlMjcyNjRhOTA3ZTEyMGIzYTAxYjY0NDM1N2Y5Y2I3OWQ3YTIwMWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUzN2M2NjkxNTE0NGI5NGZlZGYzMjVlMjcyNjRhOTA3ZTEyMGIzYTAxYjY0NDM1N2Y5Y2I3OWQ3YTIwMWVmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWVhZjU1YjI5MWE5N2QxYTU1MDQ2NzljMDZjYzE5Y2M2ODlmZjA2NmM1MzZlMzFhNGQ0NzY3YmM2MTZhMDZiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmJmMjM1Mzk4NTQyZTRjYmEwOTM1MDc5ZGIyODE4MTJkYWI5N2NhZTE4NWJlODY3ZmFjNzBiOTk0MDIxOTc0YiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L70-L70",
+          "version": "repo-lines-v1:sha256:47b065ca889c7e8d8ae3d05a08852b2cc3efd2ea7d7f5925d53c5793979716de:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdiMDY1Y2E4ODljN2U4ZDhhZTNkMDVhMDg4NTJiMmNjM2VmZDJlYTdkN2Y1OTI1ZDUzYzU3OTM5Nzk3MTZkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDVjMTEwMmI4ODAzYzM5YjRiMThlMTI1MzExZDQ0OWMxNzc5MjNhYTgzMmUwMjc4MjcxOGFmODRlZGVjNjU5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDU5MmZmODM5ODk2NjhlYTNmMzRkNzAyNDM0MTEzMTlmNTZjNzM1MmRiMTNkODhjOGMzNjhlY2IxNTc0Nzc3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2744ce2939704fc198a96a6512acc27a",
+      "statement": "There is currently no client-facing interface to Hold Management Service hold data; a proposed Client-Safe Hold Status Facade (FCT-1893) was deprioritized in 2025-Q3, so any SanctionScreen-driven hold status exposed to clients in the future would need to satisfy POL-FCC-014's tier-R rules.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L88-L88",
+          "version": "repo-lines-v1:sha256:8209034d719079e3260217a5fd2548b0e374119969d2b5296fe9452d00cf91fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODIwOTAzNGQ3MTkwNzllMzI2MDIxN2E1ZmQyNTQ4YjBlMzc0MTE5OTY5ZDJiNTI5NmZlOTQ1MmQwMGNmOTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDE3ZmM0MzQ1N2Q1MWZhYTIwNGZiZmMyZjllOThjNzIyMzRhNzI3ZWFlY2FmMzEyNzJiMmE2MWUwNDY2ODJmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmRlZmE4YjdhMDVlYWQwNzFhNTc4ZTBlMmU0YmQxZGUzZjRmNTcxZmRjMmQ0NDM1OWM5NDczMDkzMjAxYWI4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8f02d699d4144496884c14d456e109a2",
+      "statement": "Where sanctions screening contributes to an OFAC blocking determination, the Hold Management Service enters the BLOCKED state, funds are moved to a blocked account, and the block is reported to OFAC within 10 business days per 31 CFR 501.603.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md#L37-L37",
+          "version": "repo-lines-v1:sha256:4f3ab65de64efdcd6e4c029d9e67ac1598abeef94812dacc3329e1b6a3372d6f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYzYWI2NWRlNjRlZmRjZDZlNGMwMjlkOWU2N2FjMTU5OGFiZWVmOTQ4MTJkYWNjMzMyOWUxYjZhMzM3MmQ2ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYzYWI2NWRlNjRlZmRjZDZlNGMwMjlkOWU2N2FjMTU5OGFiZWVmOTQ4MTJkYWNjMzMyOWUxYjZhMzM3MmQ2ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzA2NTMwZDg2ODRmZGFmN2FmOWJlNjEwNjFmZWEzMzNkYzk3ODY1MzQ3ZDU0NTkwZjczNzljYWMzOTM4ZDY3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTFkZmIxY2JmZjc4ODRkZTUzZjc3MWQyNGQ4MjcwMDliYjVhYjQxODZkMGZkNTg1NDVmOWM4NDAxMThmN2UwNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a2244a5aa1e5412ebbd54639cdc3111d",
+      "statement": "Changes touching sanctions screening or hold handling systems must pass through the bi-weekly FCT Change Advisory forum, which requires Financial Crimes Compliance sign-off and observes a year-end change freeze from December 15 to January 5.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L104-L104",
+          "version": "repo-lines-v1:sha256:63d027daad508af59de04bac07bc7261ca90abb2139c44a21bd1b94446269a74:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkMDI3ZGFhZDUwOGFmNTlkZTA0YmFjMDdiYzcyNjFjYTkwYWJiMjEzOWM0NGEyMWJkMWI5NDQ0NjI2OWE3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzE2YjlmMTc1MGJlOTRjNDVhMDNiNWFlYmU5MDEwMzZlM2QyZjhkN2ViOTQ0MGE3YWNhYTc3NGY1MzQyZGU2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJjZWExYThkZmM1YjRhNWM0ZTAwMTFhYjdjY2QxODFkYjQ4YzQ2ZmE0NGI2OWVjYThkOTgxZDI4YmU1MTMwMCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

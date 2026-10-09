@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:056fb44d34ec47d947171f0d7f65c22373cc1099831db446aa83ad979ac87f1f",
+  "claims": [
+    {
+      "id": "claim_d499934f3e6744d097f1cc8b54ba2f93",
+      "statement": "MDL-CAP-003 is a Tier 1 Excel model owned by Corporate Treasury - Capital Management and independently validated by MRGR (last validation 2026-02-27, next due 2027-02-28). It projects CET1 capital, RWA and ratios over nine quarters (Q3 2026 to Q3 2028) from Q2 2026 actuals under baseline and severely adverse scenarios to size distributions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L9-L33",
+          "version": "repo-lines-v1:sha256:6bd47f8cfa7546ee4a8057005d4e304bba7494855058b135da0d6d5ee0e92e02:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmNGM3OTk5MWMyNTgxZWZkNDBjNTg1YzhjOGM3ZDcwZGJiYmY0Y2JmMmMyNDNlNjgzNzg0NzVhYjM4OTllZDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0MTRjZWE5ZTcyNTVjNGIzMjcwZGQ2NTBiMWQ1NmUzMTRlMTZjZjc3ZTRkYzczZjk3YjQ1NWQ5Y2UyODg4ODQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMDg3MTczYWQyODI0MTliM2ViNjI5MWE4NzRiNWY0OWQyYWNmYzQ3MDY0YjcxOWFlNzc4OTk2MzM3NThjNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkwMGQwNzBiYzQyMDc5OGY1MjQxZmMxNGY5M2IyYTU4MjMzNmQ1YzQ1ODA1ZTJhNzc0YjRjNWQxNjM4Nzk2NWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_611859bb4758423d873ee43b120369af",
+      "statement": "Starting CET1 capital (101,200) and standardized RWA (668,400) come from API-16 Regulatory Reporting API, stress scenario paths from API-14 Macroeconomic Scenario API, and distribution liquidity constraints are cross-checked against API-15; the distribution plan is approved by the Board Capital Committee. Outputs feed the Annual Report (Capital Risk Management) and Pillar 3 (Capital Planning and Stress Testing).",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L119-L120",
+          "version": "repo-lines-v1:sha256:9a31c942ad02028aeab032e58bcc493ebe73a175a5d1c665e585a853978d9006:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmI5M2I2MTQ2NDJiN2RlMjZkNzU5OGQ5Y2Y3NTIwOTc2NjJmYWFmNDA4ZmNlOWE3ZDdiZDI5YzgwYmJlYmI2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI5YWNjMmFlMjIzMzI5MDFkYmU5YTU3YzVhNDhhYWEzNGU2NDIxMTE4YWFhY2Y2YmFlOTcyZjBmYzJiZDIxMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWUzNmI1NWJiODY3N2FjNGExNTZhYzcxNmFiYjc3MWJjODA0ZmMxNzc4YmMwMGQ4MzQ3M2FlY2QxMTUxYWQ0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2ZkZTQ2ODdiZmRhOGU1ZGQzZTc0ODIwNDU1MmI3YTQ1ZTJmZmQ3ODIzMWQ4OGNjZjI2NTY5YzA5ODcxMzE5NSJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L22-L26",
+          "version": "repo-lines-v1:sha256:4b325406e296fa2724e0d82cffe9edc2d4241f36dd562619e09000d35a0f9f01:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU5Y2EzNjNjNzM4MmQ4YWYwYzRjYzU5NjIxNjhmNjliMzUwOTQ1MmIyMzgxYTdkOTI1NzM0YmVkMWQ2YjM1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTRiZTNjMmQ0MWZjOTEzMjM3YTY2MGYxMTgwZTA0ODc5Nzg2NjlkYjBhNjA2ZTkwMDI1OTU4ZDAwOWYwMjcyZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjJmNjQxMDQ3YTI0NzEzMmNkMzYzMTVlYzZlY2NjMDBlZjM1NGM1NzQxOGIwMmZjYWY3Njg2MTNiZmMzYjhiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWY4YzgzNjUwZDg5ZGQwOGIyMTE4ZTNmMTNkOWY3OTIwMzllNTViZGJkMDY0MTg5OWQxN2YzMWY3MmE0ZDExZCJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L43-L48",
+          "version": "repo-lines-v1:sha256:03e9050cb363e939f47276cd347bbaac010bc7a62efe71b564addb1a669fc071:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1NDMwYWQ1YzRjMzAzODc0MzJkMTk5MmNlYTQ4OTZiNDMxOGExZjA3NjRmOGYzOWFmNTQ2ZDhjZTNiMzI5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTdlNjJhZGQwNjRlYjFjYWFmMTc0NmEzMzZlOTk0MDI3MjNlMTA5OTkzOGJkNDA4YWQwNGUyZTA2MWQzYTIzNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjg0NjA3YTExYzU1ZDVmZTgwZDg5M2U4OGY5ZDIxNDNhMTg5OTFlZGNhNmEyYWZhNTg3NGEyZWU3MTNjOGY5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdmZmE5NWRiYzFjYzQxNDY0ODkwYmFlZmU5ZjE1YTNjMTQ1NzkxM2QxYjYwMjkwZmMxN2I2MDQ0YTU1NzY3NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1f0be67373a6407ba28a83ae52222018",
+      "statement": "The baseline projection rolls CET1 forward as beginning CET1 plus net income (6,600 growing 0.8% per quarter) minus preferred dividends, common dividends (prior-quarter shares x $1.15) and buybacks (3,000 per quarter), plus other movements (-150); buybacks retire shares at a flat $262 price and RWA grows 1% per quarter, raising the CET1 ratio from 15.14% to 16.15% by Q3 2028.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L116-L135",
+          "version": "repo-lines-v1:sha256:d07c0c964b94c5db7688c1a3107fbbfa3a71b988227ed01298d08ac86a2f09b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzQwMTkxYWQ5ZDk3NzNlOWEwZjg2M2QwOTAyMzk5YTI5MTlhYTgzZjIzMmNmMjJjN2RlOTU2YTllNGJlMDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM4OGQ1ZjQ2MWRlZGE5YmI2MWI0NTUzOWMzYmQxODU4MjZkNjAyMmVhY2U2MGQ5OWE1Mzc4NzZhNzQxNTQ1YmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY5NjlmZjhkMDY1NzIwYzBiN2FjMTI5YmMxY2M0Nzg0NzIwNjUzM2M4OWQzZDAwMDRlMDk2OTJkMTYzNWQwNjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc2MDdmMTU3ZTllMDk4ZjFkYmQ4ZDVlMDI4MzdiODI4ZDUzZjMxZDkwMGNjZjA5MDYyNDk3ZTQ0YTE4ZTAzODkifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L168-L290",
+          "version": "repo-lines-v1:sha256:3d1eedc47b6f468755fa4ea7c26043d31fa9e22bddfd5c01b34bac38060e3c35:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIzLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiIyYjQwNjk1ZmQwMTI1MWMyNTY3Zjc4OTAxODEwM2NlY2E3MWU5NmI3NjYxNWQyOTYxN2E1NjQ0YjlmNzE5NmQ3IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJkY2FkYmU3ZWE2YzQ1MTljZmZiY2UxYWNkZjgyN2JhODAxZGY1OGJkNjhlN2I2MjIyZDRiYTg5MzMyMGY5NmI4IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJlMDliY2RmODZiMTRmY2U5MTZkMjA1ZWE2OGZiMmViYjI5OGJhOTUzYWMxMDZkMDMzNzE1Njg4NDNhYWY5YmUwIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJjMmU2MmNhODg0MTdlOGMwODZhMmFiMDIwMzlhMjJlZmViNDc2NzJmOTYzYTgwNzU4OTg4NzMyMjliZjUwNTM0In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_6688d80d546d46b790dbc4b68365573f",
+      "statement": "The stress projection builds pre-tax income as PPNR minus provisions minus trading and counterparty losses (SUM(C7:C9)), taxes it at the 22% effective rate with a tax benefit recognised on losses, suspends buybacks (hard-coded 0, CCAR convention), holds common dividends flat at 1,588.15 per quarter because the share count does not shrink, and applies scenario RWA growth; the stress CET1 ratio bottoms at 12.90% in Q3 2027 and recovers to 13.63% by Q3 2028.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L298-L456",
+          "version": "repo-lines-v1:sha256:95a789ca2037a4f9fe7d763dca1fec97d74a876c16d9190c38b15c7004b2b5e8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTU5LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI2YWMyNzIxNjI0Yjk4NWY5NGQ3MWJkMDViZTUwY2Q1MGM3ZGM5OWJhNDY0ZDNmYWUzOWQ0OGYwN2UzMTQwOGZiIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJkM2E5ZDQyZmZlN2VhODM0ZWNhZWEzZmNjMmViODE1YzBhZDQ5OGYxZWVmYjI3NjAxNjkyYjBhOGU0MDcyMTFkIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJlNjcxOTI4NzhkZDQwZGE4YWQwNmZkNGI3NmYyMzc1ZDQ5NmRmNTVmMzE2ZjlhMWZmMzQ5NjY0NzA5YTE2YWQ3IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MCwiZm9sbG93aW5nQ29udGV4dEhhc2giOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1In0"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L40-L40",
+          "version": "repo-lines-v1:sha256:8640f5f49850f014997bb252b72eb4d4d9dca353d1d35da11aa71e47b180c4f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY0MGY1ZjQ5ODUwZjAxNDk5N2JiMjUyYjcyZWI0ZDRkOWRjYTM1M2QxZDM1ZGExMWFhNzFlNDdiMTgwYzRmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODY0MGY1ZjQ5ODUwZjAxNDk5N2JiMjUyYjcyZWI0ZDRkOWRjYTM1M2QxZDM1ZGExMWFhNzFlNDdiMTgwYzRmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODhkY2E3ZDZiYjg2OTZjNDVmY2VjMDBmODE2ODE2YmZjN2U2Mzk1OGE3ODg4MjU2M2YxZDQ5MjQ0MDA5YmIwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2JiMjZmNGYzMzQ5MGQ3ODhlMTRhNmJlNjNhMTI0YTk1Y2ZhZWFkMDJlYWYwYTVkNjFkYjg2OGM2ZDA3MzdiOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_32f3925b60c640fa8581f0d49beb4381",
+      "statement": "Indicative SCB is computed in Summary!B12 as MAX(0.025, B10+B11), where B10 is starting CET1 ratio minus minimum stressed CET1 ratio (2.24%) and B11 is the first four baseline quarters of common dividends divided by starting RWA (0.94%); the result is 3.18%, floored at 2.5%, slightly below the current 3.20% SCB.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L132-L132",
+          "version": "repo-lines-v1:sha256:4a61acb12ee910d9f36173375d66fd108fc86b07e6259f2c410bf0b3a5804b3f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGE2MWFjYjEyZWU5MTBkOWYzNjE3MzM3NWQ2NmZkMTA4ZmM4NmIwN2U2MjU5ZjJjNDEwYmYwYjNhNTgwNGIzZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGE2MWFjYjEyZWU5MTBkOWYzNjE3MzM3NWQ2NmZkMTA4ZmM4NmIwN2U2MjU5ZjJjNDEwYmYwYjNhNTgwNGIzZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzQ2YjEwYzg5NjUyZDIzMjc1ZWQ4MzQ4MWZlNWZjOWU3ZTE5MjI4M2VjY2MwMmI0NjRmM2VmYTU3MjE2Y2ViNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGRlNmMzOThlNTBjNzlmNjQ1YjZhNjBmYzE1M2FlMGRkM2Y5NjZlZmExMmVmNDE5ZTlmODA5YWRmYTU5ZTYyNiJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L41-L41",
+          "version": "repo-lines-v1:sha256:9ab7af7bf33bc9b60c7bd904a9d7f72067851c6d5b3ae7b473e77c86d5923c28:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiN2FmN2JmMzNiYzliNjBjN2JkOTA0YTlkN2Y3MjA2Nzg1MWM2ZDViM2FlN2I0NzNlNzdjODZkNTkyM2MyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiN2FmN2JmMzNiYzliNjBjN2JkOTA0YTlkN2Y3MjA2Nzg1MWM2ZDViM2FlN2I0NzNlNzdjODZkNTkyM2MyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDRhNDJhZjc0MTkxODMzOGJjYzY1ODQ5NzA0YmY5YTVlMTlkZjA2OGM5MjM5YWRmM2I1NGRjNzUyMmQwODFkMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L75-L108",
+          "version": "repo-lines-v1:sha256:120422934de73c12589c688117818586c38ca8bddcb71c3410c4486f7a4740a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzQwMTkxYWQ5ZDk3NzNlOWEwZjg2M2QwOTAyMzk5YTI5MTlhYTgzZjIzMmNmMjJjN2RlOTU2YTllNGJlMDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZmUxMjFiMDljNmNhNzgyZTg4MmYzZWFhOTA4ODM4ODZjZjQ4NTZkOGFlZTE1N2ZmZDE1NjJkMGE0ODVhY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2ZmYwZjcyNjQxYTRkZDRlMTk3NTA0YTQ1MGI2MTQ4MjhkYTMxZmI5ZWIzOGRmNDliYjk3OTlhOWE0MGE2NDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNWJlZGQ2MGJjYTY5MTFkZDQxOTBjY2RhMmJlNjc3NTRiM2M2MzZkZjU4ZWFjNzFkOTRlOTQ4MWRjYjdiYTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bb0db2686c414894b553363535811d37",
+      "statement": "The regulatory CET1 requirement is the sum of the 4.5% minimum, the SCB and the 2.5% G-SIB surcharge (Assumptions!B23 = B18+B19+B20 = 10.20% at the current 3.20% SCB; 10.18% at the indicative SCB in Summary!B14), versus a 13.0% management target set by the Board Capital Committee.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L103-L105",
+          "version": "repo-lines-v1:sha256:9fc873496cd0bf2512c1ff4de1892dcb3d42d27ddeabe0f7f58285ac91368206:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FjMTJiZDNiNmNiMGEyZmVjYjY0NTI2MjA0ZjJkZjgyMDFmMzJiNmFmMjc4NzM2M2RmZGYxNDkzMjJmZGQyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTI4NDE1M2IxNmFlMmU2ZTEzOTM0NmUxMzMxMWYwYmZjZjEwMGZiNGMwMjRkNzk5OGM1NjdhMjJmYmJiZjdjNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDA1ZWI4NzRmZTg5ZjhhNWM2ZDUwMTY4Zjk4MDA2Nzc5OWExNDZmMzY3MzM2NTFjNTU1NTNiZDc0YTUwZTQ2NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTk0ZTI4MDgyNDFiOTA3YWI3NTdmNWQzYTEwNmM2MjY4Y2Q5NDMzMWQyMzM0ZTYyMjExNzllM2UxZDc2YWZkYiJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L131-L141",
+          "version": "repo-lines-v1:sha256:4400768ad7db7031408e18478cf4be53779cf18ae7f43e81a0611d6bcdcce07b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhODhlODA3ZTc2MjgwZGIyODNmYWFkM2ViMWU0NjE2YWY2ZDRkMjFjYmQ2MmUxMjkyMGFlNWU2YzRlZjUwODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhODE2NTFkNTI3NzBlMThlMzUzYzI1NmJhNTI1NmRjN2MzMDQ2ZmUzMTU1MjRhOGIzMTJhOTg2OTZkYWQ1YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA1N2Y4NWRkZGYyMDJiYjc2MTRhZWRiNjVhOGRlZWFiNjg1MWNlZjRjMjE4ZDY2MzAxNjVkMjcxMzk5MDFhM2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3OWI1ZTM5NTJjNjJjY2Y5MDlkNWE3ZDU2OWU1NmE5ODU1NjVjYjI2MDQ3ZDVkMDAxNjYwMWQwMDU2MWYwMmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f7843389cca6444da7f789bd36b2098b",
+      "statement": "The Summary pass/fail check (B18) compares the minimum stressed CET1 ratio with the current-SCB requirement (B13), returning YES or 'NO - capital action required'; it does not test the 13% management target, which the stress path breaches in Q2 2027 to Q4 2027 (negative headroom), and the indicative SCB is not fed back into Assumptions!B19.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L108-L108",
+          "version": "repo-lines-v1:sha256:3afe121b09c6ca782e882f3eaa90883886cf4856d8aee157ffd1562d0a485acd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FmZTEyMWIwOWM2Y2E3ODJlODgyZjNlYWE5MDg4Mzg4NmNmNDg1NmQ4YWVlMTU3ZmZkMTU2MmQwYTQ4NWFjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FmZTEyMWIwOWM2Y2E3ODJlODgyZjNlYWE5MDg4Mzg4NmNmNDg1NmQ4YWVlMTU3ZmZkMTU2MmQwYTQ4NWFjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTYxZjk2OTAxOWJhNGI5OWVlMzJkYTNkOWE4NjQzOGY4N2ZmZjU4ZmVkMDFjNmM3NGQ3YWRiN2I3OTQ3MjZjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGI1YmVkZDYwYmNhNjkxMWRkNDE5MGNjZGEyYmU2Nzc1NGIzYzYzNmRmNThlYWM3MWQ5NGU5NDgxZGNiN2JhOCJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L132-L141",
+          "version": "repo-lines-v1:sha256:b934940d31e09c88351f84b6ac0770149fadd2027a95edb30b2b2fa7c1850e10:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRhNjFhY2IxMmVlOTEwZDlmMzYxNzMzNzVkNjZmZDEwOGZjODZiMDdlNjI1OWYyYzQxMGJmMGIzYTU4MDRiM2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhODE2NTFkNTI3NzBlMThlMzUzYzI1NmJhNTI1NmRjN2MzMDQ2ZmUzMTU1MjRhOGIzMTJhOTg2OTZkYWQ1YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM0NmIxMGM4OTY1MmQyMzI3NWVkODM0ODFmZTVmYzllN2UxOTIyODNlY2NjMDJiNDY0ZjNlZmE1NzIxNmNlYjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3OWI1ZTM5NTJjNjJjY2Y5MDlkNWE3ZDU2OWU1NmE5ODU1NjVjYjI2MDQ3ZDVkMDAxNjYwMWQwMDU2MWYwMmMifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L317-L318",
+          "version": "repo-lines-v1:sha256:59dc38e7dc621f6fa1bc496256b5be19a0219f71b094fc5bf185e083bb86d69d:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOThmNmMzNTVlYjljNjBhYzYzYzU0NTE3NDkzYTlhYmYxYjg3NzMxMzU3Y2RiNmQyZTZlMjU0NzE5Y2Q2NzJmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDVmODJmNDA3NGFlOWRlYmFlZjkwMWIzZWVmNTg1MGI1MzJhMTg4MDY5ZjdjZjczMTk0ZThlZmMyZDUwNDkxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmE5NzhmNmYzOTEwYzdlNmU3MDZmODcxMzkyOGQzNzJjOTk1MmRjY2U3NTFkMTk1NDUxZTZiZDJjYjMzMWFhOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDEwYjg4Njg5MTc0NmZiYWRlMTI2MDg5NjVlZTJmMTJhZjNkN2JkZTc0NjI5NDdjNTI4NmVjZDIyMjgyY2QzMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_66240a812f4049acaa31982210d449a4",
+      "statement": "Baseline outputs include excess CET1 over the management target at Q3 2028 of 22,994.91 ($mm), presented as additional distribution capacity, and cumulative baseline buybacks of 27,000 ($mm) over the horizon.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L106-L107",
+          "version": "repo-lines-v1:sha256:9dad36b347ac91c648f1ab50eca0eeef928bafd1dff78ac52751156b445ce81a:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmUwNDRhMDQzZWQwNmQ1N2MwNzE4MDIxZmM3Njc2ODE2YzU3OGI0ZjFhOWU3NDA3YWYzYjE3Njg5NGYwOTdmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGNjMmJhMWE5MmU0NDFmN2FlMmI0YTY4OGNjODFjMTVjZmUxZDgzMWQxYmFhZGM4ZWQzOTgyZDJiOGUyYTRjMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWZjODczNDk2Y2QwYmYyNTEyYzFmZjRkZTE4OTJkY2IzZDQyZDI3ZGRlYWJlMGY3ZjU4Mjg1YWM5MTM2ODIwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg1MjlhMDkyZjIyYjFhYjI1YjM0OTA3ZmM5NDZlNTlhNzA0YTMwMzBiNzI3MDVjZTlmZjNlZjI3MzkwZmZiNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L88-L89",
+          "version": "repo-lines-v1:sha256:3106d2ff4b7854c9a4ba50a3a4d89a9ad44051e3cf9cdda203177fe0ef4bd43d:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTFhNTEwZDA1OGYxZmI3OGNmZDkyMzJlYjcxYTZlMzE4MWYxNmY1YjA5N2ExNGQyYzA4ZjA3YzFhNGEzMzg3OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDExNzc3ZWEwMDBkMjRlMGI1OGRiOWNlNzlhZjg4MmU4MTNmNzljODhhYzk4YWI1ZjY1ZWQ4ZDBhM2JhNGIxMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzQ4ODQyNjQ0OTk0MTNlNDIzZjNlMTM0MjY4ZmMzYTQ4ZjU3ODNjZTYzOGVjODVlZjJlNmVlOTQzMDgxMzFlNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjA3MGMxNTUzYTQwNDY1MTBkMjJlYzA0MTg4MmM0YjhmMmEyNDMwMDMxMTcwZTkwNDk3OWEyYjMxNzdhNTNjYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2420623e56d74d0298a5a3b4f63fa449",
+      "statement": "Known limitations: no AOCI volatility modelling and no deferred-tax-asset threshold deductions (only a flat -150 per quarter other CET1 movement), and stress losses are top-down inputs from the enterprise stress testing program rather than computed in the workbook.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L135-L135",
+          "version": "repo-lines-v1:sha256:388d5f461deda9bb61b45539c3bd185826d6022eace60d99a537876a741545bc:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzg4ZDVmNDYxZGVkYTliYjYxYjQ1NTM5YzNiZDE4NTgyNmQ2MDIyZWFjZTYwZDk5YTUzNzg3NmE3NDE1NDViYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzg4ZDVmNDYxZGVkYTliYjYxYjQ1NTM5YzNiZDE4NTgyNmQ2MDIyZWFjZTYwZDk5YTUzNzg3NmE3NDE1NDViYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTFhMDg3Y2EyMjkyZGI0ZGIwNWNmNjljNmI3ZmYxYjJhMDE2NWY4OTRlMWMwNWU4YTVlMDhiODQxMDBjNGIxOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzYwN2YxNTdlOWUwOThmMWRiZDhkNWUwMjgzN2I4MjhkNTNmMzFkOTAwY2NmMDkwNjI0OTdlNDRhMThlMDM4OSJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L56-L60",
+          "version": "repo-lines-v1:sha256:bb4d9655d2159223d4fbbc6a66c40eeac81b0271c1ca714e0275c9fb29745300:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVhN2UxMzBkZTAzNGQ2ZTRiYzZkNjJkMTdkMWFkYThhNWU5MTliZWViYTUyMmQxYWNlOWNmNmI2MmMwN2IyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzJlZTJkYjY1NzI3NWYxMWExMWNhYTg0NDg2NDg1YmRkOTY5NDE0YmViNWJlZmU2MWQ0NDlhMjEzOWY5YTkyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c46b201f8437b58622f9da38aa796ab6ab09810da5344846605b1701aacf94f9",
+  "claims": [
+    {
+      "id": "claim_c3d5b76199a843eb876b0008be90ce67",
+      "statement": "The Standardized CET1 ratio is MHFC's binding capital ratio; CET1 capital (98,450 at 31 Dec 2025) is derived from common equity less goodwill, intangibles, DTAs, pension assets and other deductions, and AOCI on AFS securities is included as a Category I firm.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L640-L640",
+          "version": "repo-lines-v1:sha256:1ddd76e3465303e1ca87f206a0af4f398f6f4aeba6b895d460939df76d38d74a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRkZDc2ZTM0NjUzMDNlMWNhODdmMjA2YTBhZjRmMzk4ZjZmNGFlYmE2Yjg5NWQ0NjA5MzlkZjc2ZDM4ZDc0YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWRkZDc2ZTM0NjUzMDNlMWNhODdmMjA2YTBhZjRmMzk4ZjZmNGFlYmE2Yjg5NWQ0NjA5MzlkZjc2ZDM4ZDc0YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTdmNTA4NTkxZGI3ZmVlZWVmMmViZjljZWYwNWE4OGQ1ZWFkM2RiNWRlMGI1MGJhOThkOTIxZWM5NjM5ZWY3NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDE3ZTliZTlkOTE4MzM4YjE3MDllZTA5MGZhMzZlYTI2MjUxODk3MDNlMTk3YmNkNjdlZDZmZWI2YzJiZmI5YSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L97-L116",
+          "version": "repo-lines-v1:sha256:ff26c92a65eb6122a63f153c43b8d3c32db25df02a0d4bc5bb6f49f719807b76:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRjYmRhNWI2YzQ5NDkwZmZiYmNlOGE2MmE1Y2I5ZTY4NTE0ODFmYTgyODhhMWNiNjVlYjk1MWYwNWQ4MjZiMTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxNmIyNzNjOGEwMzQ3MGUzMTJiYzUxYjE0YTE0MTE3Y2NiZjMxMjAwNTMzOGNmMWFkZmVkNWFkODJmYjAxMDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM1Y2ExZTI4NmFlYzg1M2M1MzQ4M2MyYzY1YThmMmZiYWQ3MjhmMmZhYzU0YjRiMGFmM2E3ZmRjYzNkMmQ1ODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkNGJmMzZlMDAwM2ZmMmFjOTYxM2ZkYWNlZWU5ZjAxOWQyMGQ0MWI5MjhjMTU5Y2Y4YTdjOTVhYWYwMjU1ODEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_925afee5e59e49bfb0dd219597aa1760",
+      "statement": "Reported Standardized CET1 ratios: 14.7% at Dec 2024, 15.08% at Dec 2025 (98,450 / 652,800), and 15.14% at 30 Jun 2026 (101,200 / 668,400); the ratio was flat at 15.1% in 2Q26 as earnings were offset by distributions and 1.1% RWA growth.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L285-L297",
+          "version": "repo-lines-v1:sha256:708be7d6edac02b0affbf9e106f847b6f037081ebaa6129a2034652c0cd4b23b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkZmM0YTc5NWE5MjhkNTgwZjc0MTVkOTJjM2UwY2Q1ODRkOTI5NmU5M2YxMzhlNWEyNjQxYmY3NjFhZDgwMDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlZjY0Y2ZhN2IyZmZjMDU3MjRhYWVmNmQyYzRjMTZiZTYxODZlOTQ5YjFjY2I2YmIyNTVjNmQ1YzI2NzA4ZjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlYmYzZmQwNjUyOGJmNGI4YTViYjJhMmJiYTViYjQxN2I5OWNhMzdjODAwMDVlNDNkYjdkYTg5YTg0MjFhNDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZhY2Q2YjE2NmZhOGJkYTA2OWE2NWJkZWQ1NGNmZDY4NDZhNDg3NzkyMzlhMDFkZDYyN2E1YWI4YmM4MTUwNGEifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L188-L192",
+          "version": "repo-lines-v1:sha256:bc21c2bb6c379c9e608324ad11ffcf11da6cf0f1bb05cda2f963cd5ad153b880:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWJiZDg0MzIxMWQ2YzkzYWUxZmMxMzk0ZTc2N2QwODE2NjBiZTJlOGIxMGE0NDA4ZGE4NmQ2ODBkODE1YWI2OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGE0NjA5NTdmNzBmYzFjN2VhYzkxN2Q2MjA2ODNmN2YzZTZjNWNmYWYzODUxMGVhMDk2MzkzNmViZGJhOGVkOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGU4YTRlMjJhZTdmNDA3NGZkYTgwNTY0MTNkNjZlNDYzODRlYWNlMmJiZTE3ZjE3NWVmYTljNDY1Y2NhN2JmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjgyMWZlYjhmMWViY2JhMjY2M2M2MWFkNmM4NzEzM2MxYzNkMTUyMjdlMmQ2ZmVhMmVlNzlhYWMyNWFiMzBjNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L276-L276",
+          "version": "repo-lines-v1:sha256:78caf3034961c3270388c73a341988176a0550f7e13221c4cf861253159e85dd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzhjYWYzMDM0OTYxYzMyNzAzODhjNzNhMzQxOTg4MTc2YTA1NTBmN2UxMzIyMWM0Y2Y4NjEyNTMxNTllODVkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzhjYWYzMDM0OTYxYzMyNzAzODhjNzNhMzQxOTg4MTc2YTA1NTBmN2UxMzIyMWM0Y2Y4NjEyNTMxNTllODVkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTViMDllZjZhYTY1ZGJlMmZkMDNjNWU1MGU0YmNlODAxODRiNTI3OTY5MmFkODVlNzY3ZTZiNWIzNzM2MzcxZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTM3ZDlmMGYzYWEyMDA1YTc2ODI3ZDk1Mzk0NTkxZmJlNzI1ZDRjYmNkMWQ1OGNiZTQ1MmZlNGU2ODgyZWY5NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L79-L108",
+          "version": "repo-lines-v1:sha256:64ab626a7d46c7aa789a94ae900e0db665bb72cbf9d8b2b117273a3fe1870a2f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiMGY5MTVkMzljNmYxMGE2NDRhZTZiMjJlMjVhMjVlOTQ5OWQxZGY4M2E4NDc1ZDlmOGYzODY1MzFlMzQyMzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk0NTViMmU2NzYzODBkM2Y2ZDlkOTlkMWY4ZTYyYjA2YWU3YjMzNTAzZTYwMmJhOThjZGFlN2Y1MTYxMWQwNDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlYjk1ZjE4MGY4OGU5MWY1YjJlMGIyNjFjYmNkOTEzZDBlMjUxMjA1YTM4OGQ2ODFjOTg1ZGQwZjQ5ZWM1ZTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc2NjI2OGIwMzMzMjNlNjdiZTFkODRjYzgzNmJmZjNlYmNmNWU0MzU0MWYzMmQ2NGUwNzdmMTI1Njk0NjRiYWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9b5f5a2df78248baa5489bf049ae467d",
+      "statement": "The CET1 requirement is 10.2%: 4.5% minimum plus 3.2% SCB (effective 1 Oct 2025 to 30 Sep 2026) plus 2.5% G-SIB surcharge plus 0% countercyclical buffer; management targets 13.0%, set by the Board Capital Committee.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L131-L135",
+          "version": "repo-lines-v1:sha256:05cd0d0bc703f28ba64e69bd4285708bd3cc62660672ea6a7b5ef1af39044da4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGE4OGU4MDdlNzYyODBkYjI4M2ZhYWQzZWIxZTQ2MTZhZjZkNGQyMWNiZDYyZTEyOTIwYWU1ZTZjNGVmNTA4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzg4ZDVmNDYxZGVkYTliYjYxYjQ1NTM5YzNiZDE4NTgyNmQ2MDIyZWFjZTYwZDk5YTUzNzg3NmE3NDE1NDViYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDU3Zjg1ZGRkZjIwMmJiNzYxNGFlZGI2NWE4ZGVlYWI2ODUxY2VmNGMyMThkNjYzMDE2NWQyNzEzOTkwMWEzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzYwN2YxNTdlOWUwOThmMWRiZDhkNWUwMjgzN2I4MjhkNTNmMzFkOTAwY2NmMDkwNjI0OTdlNDRhMThlMDM4OSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L301-L305",
+          "version": "repo-lines-v1:sha256:c93f22718041eaad338aa8ceaa46fc57175267d112b5ca86ffac5aaf5480693d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDQ2Y2YzZTAyOGRkYTMzYjAzY2M3ZThiZGQyZmFiYjJiYzlkYzIxNTM0MjBmYzA4MmUwZTk5ZTI2YzNkYWFiNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2QxYzhhMDg4M2IwZDk1OTY1ZmE4MDZkNzIzMTAwYTQ3ZDE2ZmVkMjU4YTlhNjg0Y2E5MjdkMmFlZDJjZmZmNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmFjZDZiMTY2ZmE4YmRhMDY5YTY1YmRlZDU0Y2ZkNjg0NmE0ODc3OTIzOWEwMWRkNjI3YTVhYjhiYzgxNTA0YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTk1MjU0NTk0NmI5NjdlNDE2ODAxZGUxNGIyODY2Zjg0YTE5YzNjZDk4MDQ3Mzg0ZjE2N2MxOGUwMDU3ZTlkYiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L288-L295",
+          "version": "repo-lines-v1:sha256:5879db3f807d8bf53cb23deb21e55beeb70ef11f242339c0d326e90c02451715:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWQyZDVkYjIwMWEzYWM0YjI5YWE1ZmFkY2FiMWNkNWY5NjdkYmJjNzk0MjU0ZDIwZDYxNmU3Nzc0YTg5N2EyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODY3YzdiMjBjODQyNjdkMGFkMzhiMDU4MmNhNDVjMmEyNWY2NzJjNDhkYTk4NDM1MTc5NmJjYjc1MTYyMjhkZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTFiNDg5ZDljOTlmOWUwMWZjOTc2ZTFhZjUyMGQzOTQwN2Y1Y2MxNzI5ZjZhMGI4NmQ4YWM4NDg1NjM3YmM2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTJhYWU1YWRhNDgxOWM1NDQ2Y2M1YzQ4YTA4OTQ3OGIwMmZkNzQ0MWE2YmIwN2M2NTYzOTU0MTM2MTA5MDcwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_069333dd098a4333996031ede4d55ee4",
+      "statement": "The risk appetite framework sets CET1 limits of at least 13.0% for the baseline Standardized ratio (15.08% at Dec 2025) and at least 10.2% for the minimum stressed ratio under the internal severely adverse scenario (12.6% at Dec 2025).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L66-L71",
+          "version": "repo-lines-v1:sha256:bafa4a0cf3631f38069b42006d18a1b45c6aa30bf22122ba53a5c4bdc3d2d20c:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmE2NTNmYWU3N2Y3YTg5MTEyODBiODU0ZTgyMWZkMDM0ZGRjMzQyYzMyYzI2NDQzM2Y2NzQ5NGQ3YTdlMzg2NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjk2YjUwZTA2N2Y0NzY4M2ZhMDA2NzZkZTk0OGYyY2Y5NDYxZjAzNjg3ZWFmOGVkZDc0MmM3YjBjNGM1ZGM0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWJmYzE1ZTViMTgxYmYwMTBmOThkNzhkOThlOWYxNTBjZDc4MWRlNDkyZmMwNzUxMDczMWU5Y2YzYmZkOWVlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2JlZWUzNjMyN2ZjNTFjM2Q0MGNmYmE0Yjc3OWQxOTc1NDc1Y2IzMDA4YzU0YjUwMjYzNDZiZDk1ZjU2ZTI2NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5a84dc4774e848d2a03526e57aa5d24c",
+      "statement": "MDL-CAP-003 rolls CET1 capital forward quarterly over nine quarters (Q3 2026 to Q3 2028) as prior capital plus net income minus preferred and common dividends and buybacks plus other movements, rolls RWA forward by a growth rate, and computes the ratio as capital over RWA; starting capital and RWA come from API-16 and scenario paths from API-14.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L224-L262",
+          "version": "repo-lines-v1:sha256:6bdb25b6f7e7cd74a4b48cea93c8af738038f14c758c925efa48d73b6058b95c:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjZTYwYTkzZjFjMjRjMjgxMDczNzZmZTk4N2RmNGViYjU4MTBiYjk0MjE2Mjc2ZjFhMDg4YTQ3ZjYwOTBmZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlmN2U2MzU4OTg1MzQ5ZDhmMGYyZjE4ZjQ3MTE5Y2Q2MTllN2UyZWJmMTdjNWYzM2RkNTU0NGRiZjA3MjIzZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY5MmI0MmQ4ZDRhOTk3YzE0YTZmMTBiZmU4ODE1MjY1ZGM1MDkwMjdkOTU1NTcyYmYxMTNiNjYzMDk5YjI0NzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwYTk2OGNmODA5YWU1MGZjZDBiYjg4YzcyZGI5MDM2YjY1ZTg4MzYxZTI4N2YyZjk4YTVkNzUyZjM0ZDIzNGMifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L9-L48",
+          "version": "repo-lines-v1:sha256:007dd7429966b135ed504d77ccd46f7c3c26cbd3cafcefd50676963e68d97996:eyJzZWxlY3RlZExpbmVDb3VudCI6NDAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJmNGM3OTk5MWMyNTgxZWZkNDBjNTg1YzhjOGM3ZDcwZGJiYmY0Y2JmMmMyNDNlNjgzNzg0NzVhYjM4OTllZDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3ZTYyYWRkMDY0ZWIxY2FhZjE3NDZhMzM2ZTk5NDAyNzIzZTEwOTk5MzhiZDQwOGFkMDRlMmUwNjFkM2EyMzQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMDg3MTczYWQyODI0MTliM2ViNjI5MWE4NzRiNWY0OWQyYWNmYzQ3MDY0YjcxOWFlNzc4OTk2MzM3NThjNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3ZmZhOTVkYmMxY2M0MTQ2NDg5MGJhZWZlOWYxNWEzYzE0NTc5MTNkMWI2MDI5MGZjMTdiNjA0NGE1NTc2NzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f35ee79dbc5848e9b675f49bfaee0d8c",
+      "statement": "Under the severely adverse projection, pre-tax income is PPNR minus provisions minus trading and counterparty losses, tax benefits on losses are recognized at the 22% effective rate, buybacks are suspended, common dividends are held flat, and RWA follows a scenario growth path (+2.2% initially, turning negative from Q4 2027).",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L298-L318",
+          "version": "repo-lines-v1:sha256:400a1dd45c5df5c71f2821868c05eb2e937827592bb012fcf7ccf5f661d56ba9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhYzI3MjE2MjRiOTg1Zjk0ZDcxYmQwNWJlNTBjZDUwYzdkYzk5YmE0NjRkM2ZhZTM5ZDQ4ZjA3ZTMxNDA4ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1ZjgyZjQwNzRhZTlkZWJhZWY5MDFiM2VlZjU4NTBiNTMyYTE4ODA2OWY3Y2Y3MzE5NGU4ZWZjMmQ1MDQ5MTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2NzE5Mjg3OGRkNDBkYThhZDA2ZmQ0Yjc2ZjIzNzVkNDk2ZGY1NWYzMTZmOWExZmYzNDk2NjQ3MDlhMTZhZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxMGI4ODY4OTE3NDZmYmFkZTEyNjA4OTY1ZWUyZjEyYWYzZDdiZGU3NDYyOTQ3YzUyODZlY2QyMjI4MmNkMzIifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L333-L350",
+          "version": "repo-lines-v1:sha256:b1ecff168bac298128e778113db55645296d3841cf2313d9290998aec9f1f038:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyYmVhODNjZTQ5NDlmYWQxYmUzYjgzMzk5NjNlYjg3ZmUwMjE2ZDQ5NTgxOGFkYzAzMjFmNmI0NzRkM2E2MmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0Yzk3YjQ4MmZjZDcxN2QxODlmYTdhY2M5ZmVlODhiMDU5NTk5OTA1MWZjZDliZTMzMWEzYWJhNjNjNGFkYTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJhMjFhNDExMmUyMWNkOTg3ZDFjZmZjMjBhYTMzODc1YjMyMTRhZjAxNDI1MDZhMmQxMTc0MGI3MzdhNWY3NGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImIxMmQ4NWUyYWRjMGZmMzgwNmFmM2M0MjgyZTUwMmM1OWMxMWJlNDc0MWRjMTIxNmE1NzBkMDAwMWUyYjUxYTcifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L446-L456",
+          "version": "repo-lines-v1:sha256:f56531361a1cabc4a0cabe62665bcc582f42a86bfb5879359f6dbd6179a6bd16:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEwYmZjNWY1ZTgwYjgyZTEyODhmNjU3MjhjYzA1MGVmZmRlYTU0YmFmOGU5Yzc0ZWMzNTBhOGVmN2FlOGZkNzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzYTlkNDJmZmU3ZWE4MzRlY2FlYTNmY2MyZWI4MTVjMGFkNDk4ZjFlZWZiMjc2MDE2OTJiMGE4ZTQwNzIxMWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlkYzgwZTg3MThiN2RmYmQyZDY4MThlZmNlYjgxNjFjYWRlOTM3N2M0YjkwOGFlODVlMmRlOWQwNGY3ZjkxMTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L447-L447",
+          "version": "repo-lines-v1:sha256:7f1ceee8f88bfe0b3a2e9f36cd7d34f65a34e6e878fdbf944d54ddc73eed5d66:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxY2VlZThmODhiZmUwYjNhMmU5ZjM2Y2Q3ZDM0ZjY1YTM0ZTZlODc4ZmRiZjk0NGQ1NGRkYzczZWVkNWQ2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxY2VlZThmODhiZmUwYjNhMmU5ZjM2Y2Q3ZDM0ZjY1YTM0ZTZlODc4ZmRiZjk0NGQ1NGRkYzczZWVkNWQ2NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2VmZWMzZGIwN2JmOTVhYThiY2JiNDgzN2JiNWU2YmUwMDllNGFlMTI2YzQ5ZmY1MWI4NzAwNGM5MGNkZGYyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmQyNjQ5OTM1ZDdjNzVhYmQ0ZDYxYTQ5NmE5ZTk3NjhjYmU1MjFmNDlmNTc4ZGFiNWY0MjFjYTJhODFhZTlkZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_10559f3ed4554d29ad13682e180ced83",
+      "statement": "In the 30 Jun 2026 model run the baseline CET1 ratio rises from 15.14% to 16.15% by Q3 2028 after 27,000 of buybacks, with about 22,995 of excess capital over the 13.0% target; the severely adverse minimum is 12.90% in Q3 2027 (a 2.24-point peak-to-trough decline), ending at 13.63%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L312-L316",
+          "version": "repo-lines-v1:sha256:fc6ee0e955f41919ed88a47c871934178c03f0a808321f94958fd2356f7f0150:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWMxZGY1YzUxYWU2NTM5NDEzYmM1MThiNjUyMjNkYThlMTExMzdkYzVkNDFjNjdhNTcyMjU2NTA5OWRkNTRlYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTY0NWE4NDYxNzlkMWZjZmEyYzY3MDI2MTEzOGI1OGE3NzQ3NGMyOTg2NDk5MTdhMTAxYjJkZjA4ZWUxMDE3NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVhZjc0YjI5Mzc0MjU4YmVhNGY3NGIzMTBlZTA1MzM1NWJkYWNjMDAyN2M3OGQ5ZTBhMDE1MzEyNjMyZWM4NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2M5ZmY5ZDY0NjVmMjMyNTQ3OTdlOGMwN2RmMDU3YjI5NTg5YmZhYTc1YTI3OGVlM2E0M2Q5ZmU4ZjNiZDE1NCJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L75-L108",
+          "version": "repo-lines-v1:sha256:120422934de73c12589c688117818586c38ca8bddcb71c3410c4486f7a4740a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzQwMTkxYWQ5ZDk3NzNlOWEwZjg2M2QwOTAyMzk5YTI5MTlhYTgzZjIzMmNmMjJjN2RlOTU2YTllNGJlMDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZmUxMjFiMDljNmNhNzgyZTg4MmYzZWFhOTA4ODM4ODZjZjQ4NTZkOGFlZTE1N2ZmZDE1NjJkMGE0ODVhY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2ZmYwZjcyNjQxYTRkZDRlMTk3NTA0YTQ1MGI2MTQ4MjhkYTMxZmI5ZWIzOGRmNDliYjk3OTlhOWE0MGE2NDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNWJlZGQ2MGJjYTY5MTFkZDQxOTBjY2RhMmJlNjc3NTRiM2M2MzZkZjU4ZWFjNzFkOTRlOTQ4MWRjYjdiYTgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L276-L286",
+          "version": "repo-lines-v1:sha256:6dd019408caae683d6ab438fec79a77571466e06abc0c3e4ac7835fb62d131e7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2FmMzAzNDk2MWMzMjcwMzg4YzczYTM0MTk4ODE3NmEwNTUwZjdlMTMyMjFjNGNmODYxMjUzMTU5ZTg1ZGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlOTZiNzkxM2Y0ODI0NjdhNDM0Mzc0NTI5OTU0ODE2MzY3MDM4Y2Q2MGJmYThmOWFlNGFjZDAwY2U3NmQ2M2UiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU1YjA5ZWY2YWE2NWRiZTJmZDAzYzVlNTBlNGJjZTgwMTg0YjUyNzk2OTJhZDg1ZTc2N2U2YjViMzczNjM3MWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE4MDFmNzI5NDU1OTY1NGZlODUxN2RjZDg1YmQ5OWY0NWZmYzAzZGZhM2Q2ZGRjZGE3ZjZkMDc1OTkyYmU0OTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5f6db2bef73e4b7695e6c14d0f1bf74a",
+      "statement": "Under stress the CET1 ratio stays above the 10.2% requirement in every quarter (the model flags YES), but headroom against the 13.0% management target is negative in Q2 to Q4 2027 because the 12.90% minimum is below the target.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L108-L108",
+          "version": "repo-lines-v1:sha256:3afe121b09c6ca782e882f3eaa90883886cf4856d8aee157ffd1562d0a485acd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FmZTEyMWIwOWM2Y2E3ODJlODgyZjNlYWE5MDg4Mzg4NmNmNDg1NmQ4YWVlMTU3ZmZkMTU2MmQwYTQ4NWFjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FmZTEyMWIwOWM2Y2E3ODJlODgyZjNlYWE5MDg4Mzg4NmNmNDg1NmQ4YWVlMTU3ZmZkMTU2MmQwYTQ4NWFjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTYxZjk2OTAxOWJhNGI5OWVlMzJkYTNkOWE4NjQzOGY4N2ZmZjU4ZmVkMDFjNmM3NGQ3YWRiN2I3OTQ3MjZjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGI1YmVkZDYwYmNhNjkxMWRkNDE5MGNjZGEyYmU2Nzc1NGIzYzYzNmRmNThlYWM3MWQ5NGU5NDgxZGNiN2JhOCJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L315-L318",
+          "version": "repo-lines-v1:sha256:dafaf680aea4fcfdf45f353193819fa7c9ac68e812de43613a7902751df96488:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDQ1NzZlODc3OTIzNzE4OTBlZGZlNTViY2JlYmQ0OWVkOTQ0NmNkOWJlN2JlZmY5YTIzM2MxMjU0MzM5MmYzMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDVmODJmNDA3NGFlOWRlYmFlZjkwMWIzZWVmNTg1MGI1MzJhMTg4MDY5ZjdjZjczMTk0ZThlZmMyZDUwNDkxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTk2NThkM2VkNDc4YTEzNWExODNlOGUxZWY5YjIxOTEyY2VmODU0YjIxOTUzOGY2ZmZkZjk5YTBkYzEyYWIwOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDEwYjg4Njg5MTc0NmZiYWRlMTI2MDg5NjVlZTJmMTJhZjNkN2JkZTc0NjI5NDdjNTI4NmVjZDIyMjgyY2QzMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_622cbde4166345bfaad822413a8b086a",
+      "statement": "The model's indicative SCB equals the starting CET1 ratio minus the minimum stressed ratio plus four quarters of planned dividends over starting RWA, floored at 2.5%; the 2.24% decline plus 0.94% dividends gives 3.18%, consistent with the 3.2% supervisory SCB, and an indicative requirement of 10.18%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L40-L41",
+          "version": "repo-lines-v1:sha256:7de22f68053004c7a8805e1d5a55c3b3184ec9823951f3d70337f97c7fd67db3:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODY0MGY1ZjQ5ODUwZjAxNDk5N2JiMjUyYjcyZWI0ZDRkOWRjYTM1M2QxZDM1ZGExMWFhNzFlNDdiMTgwYzRmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFiN2FmN2JmMzNiYzliNjBjN2JkOTA0YTlkN2Y3MjA2Nzg1MWM2ZDViM2FlN2I0NzNlNzdjODZkNTkyM2MyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODhkY2E3ZDZiYjg2OTZjNDVmY2VjMDBmODE2ODE2YmZjN2U2Mzk1OGE3ODg4MjU2M2YxZDQ5MjQ0MDA5YmIwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L82-L104",
+          "version": "repo-lines-v1:sha256:468bb2b691e6bb15cb05f49159154ccc5c711cfef660f86809db73d3b799a078:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRhNmU4ODdiMzE4ODZiZDk2YmZiNmY0ZGJjNmIxNTc4ODcwYzZjN2MyMzk0MDI1MTE1MThhMWZiOTM2ZWRhNDEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEzZWI3YmZjNGNjZmZkNDUyYjRjNWQ2MzE4YWRlMWYzODQ5Y2FjN2VkMTFkZDQyZTc2OTE4NjdkOGI4MzAxMTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAyM2JiNGJiNmFiMjlhNzJhMjQ4ZGYxYWIwOTdmYTFlOGQ3MzM1OTI5YjY4Njc5ZmNmNDhmMWJiMzRlNWEyZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU2MWY5NjkwMTliYTRiOTllZTMyZGEzZDlhODY0MzhmODdmZmY1OGZlZDAxYzZjNzRkN2FkYjdiNzk0NzI2YzAifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L282-L282",
+          "version": "repo-lines-v1:sha256:42a829ca0e2f27d91d2413791e062cd021960370cccc692fc3a3762d75e8b428:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhODI5Y2EwZTJmMjdkOTFkMjQxMzc5MWUwNjJjZDAyMTk2MDM3MGNjY2M2OTJmYzNhMzc2MmQ3NWU4YjQyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhODI5Y2EwZTJmMjdkOTFkMjQxMzc5MWUwNjJjZDAyMTk2MDM3MGNjY2M2OTJmYzNhMzc2MmQ3NWU4YjQyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E4MjUyZTNmMWE2NzRlYjRkZGQwMzFlYmU3NDdiZTUxZTIwZWI0MWY3NGI4NTA3YWIyZDhiNTA0MGU5NjEzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjgzYzI0ODIzODQ2OTliYTQ2YTIzZjZmYTg3OTE4OTQ2NmU2MzkzNjU4ZTU4NWRjNjczNDllNzY5ZTJlNTMyZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a79fd02c48fc45ccbcc8c7fade31e98a",
+      "statement": "In the 2025 CCAR cycle the Federal Reserve's projected minimum CET1 ratio under the supervisory severely adverse scenario was 12.1%, yielding the 3.2% SCB, while MHFC's own MDL-CAP-003 projection showed 12.6%; the internal scenario set SA-2025-INT is delivered by API-14 and reverse stress tests supplement it.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L449-L466",
+          "version": "repo-lines-v1:sha256:7148fbec456e1512320f0c3f9141e0cfe441712fb6af30a6d2fbd595de75500d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0Yzg1ODRhNTZmNmZhOTFkZTBmMzA4ZWRkN2U2ODUxZjk2N2QwMGZhMGRkOTBmNDg2MjU4MmQyYWI0MGM4NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3YWJlOWQ5YmI1MGU4OGU2NjhkNDVlNDA5Y2Q1MGVkZDI4YzEyOTQ2NzMzMjU4NDlmNzgxOTRhYjVlN2JlODkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU2YWVjYzIwNzFhYTdlOWRiYTk0YWFiMTMyYTdkY2U4OGZlMjljMGY5MDljNTZjODA0MzY4YjYzODQ3OWU4OWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM2MzEwYjIyZjg0YjIwN2Y3Yzk0Y2Y3M2RiYTdhZjRhZjhiYmM3MmU5NjY5Y2FlNDMzMDQ3ZTQyYjQyMDE3OGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_57477982a17a464f81d9eb40166227ba",
+      "statement": "MDL-CAP-003 is simplified: it excludes AOCI volatility and DTA threshold deductions, uses a flat other-CET1-movements plug, and takes stress losses as top-down inputs from the enterprise stress testing program; it is Tier 1, owned by Corporate Treasury - Capital Management and validated by MRGR, and re-run quarterly.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L14-L22",
+          "version": "repo-lines-v1:sha256:6aaf9731fd5d8b1e4e1a871c878e47b1a182667e9ec35942985b077a8752af23:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZiNjUyMmE4YWYyNDRmNzNjNjg1MmE5NDAzOWZkMzJjMjZiYmQ2MWM2MDU2MGRkZTgxOTE4YjJiNDY3MDRkOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU5Y2EzNjNjNzM4MmQ4YWYwYzRjYzU5NjIxNjhmNjliMzUwOTQ1MmIyMzgxYTdkOTI1NzM0YmVkMWQ2YjM1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmQ2YjQ4ZjQxY2M4Zjk3M2NkMTU4NDYyOTcwMjRjOGE0N2QwYWMzOWZhNGI4MjgwZDJjZmZkNjRkNjMzNzkwMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2U3Y2RlMDM3OWY5NDZhNTAxNTA1MTM2N2JiMGVmMWI0NmE3YTQyYzQyNTJiYzAzNGMyYTNjNjE4M2EyNmQ4MyJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L56-L60",
+          "version": "repo-lines-v1:sha256:bb4d9655d2159223d4fbbc6a66c40eeac81b0271c1ca714e0275c9fb29745300:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVhN2UxMzBkZTAzNGQ2ZTRiYzZkNjJkMTdkMWFkYThhNWU5MTliZWViYTUyMmQxYWNlOWNmNmI2MmMwN2IyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzJlZTJkYjY1NzI3NWYxMWExMWNhYTg0NDg2NDg1YmRkOTY5NDE0YmViNWJlZmU2MWQ0NDlhMjEzOWY5YTkyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L307-L307",
+          "version": "repo-lines-v1:sha256:1abc0f20400086c6700d8ea190bdb7410a5fc7d61dfa526d3c4df52b59aab4ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2FhNDY2NDU2ODljNGJkNmRlZmMxODM0OTQ0NDA0ZWM5NDcwMjYxNDQ4MGRjMTIxMzIyYzYzMjkzMzM0NmY0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBjMWM0NTdhYTkyMDBjMjYyNGUwNjhkNTc3YThhNmNhOTMwOTBjM2NjNGRlZDUxMjdjMGVkZmRlNjQ1Mzg4NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a9444b2c8e834f398349e970c7b3095e",
+      "statement": "Projection outputs are not reproduced in the annual report or Pillar 3 report because they refresh quarterly; the latest projections are published in the quarterly earnings materials, and a breaking change to an upstream API such as API-16 opens a model change review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L307-L307",
+          "version": "repo-lines-v1:sha256:1abc0f20400086c6700d8ea190bdb7410a5fc7d61dfa526d3c4df52b59aab4ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2FhNDY2NDU2ODljNGJkNmRlZmMxODM0OTQ0NDA0ZWM5NDcwMjYxNDQ4MGRjMTIxMzIyYzYzMjkzMzM0NmY0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBjMWM0NTdhYTkyMDBjMjYyNGUwNjhkNTc3YThhNmNhOTMwOTBjM2NjNGRlZDUxMjdjMGVkZmRlNjQ1Mzg4NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L462-L462",
+          "version": "repo-lines-v1:sha256:df3115ba7bdac8342bfdf04acb85f1721760f459826025d992d392ee1a7773f0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGYzMTE1YmE3YmRhYzgzNDJiZmRmMDRhY2I4NWYxNzIxNzYwZjQ1OTgyNjAyNWQ5OTJkMzkyZWUxYTc3NzNmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGYzMTE1YmE3YmRhYzgzNDJiZmRmMDRhY2I4NWYxNzIxNzYwZjQ1OTgyNjAyNWQ5OTJkMzkyZWUxYTc3NzNmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGY4MWEzYzMxMWZmNTA4MTFjOTFlYzJjODI2MDdmZWJjMTZjYmZhZWM5ZDZhNTRmNmE1MDIxM2VkODkxY2QwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2VjNDZiNjkyNWE3YzViZTUxODczMTVkZTk2NDU4MTk0Y2QzNTY4ZTk4NDBmNWY4NjMxMTczMjFmYmZkM2U0MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L474-L474",
+          "version": "repo-lines-v1:sha256:709db2244c09bbb527daa179485959115867aa91d79b837cfaf76b3c04773ef5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA5ZGIyMjQ0YzA5YmJiNTI3ZGFhMTc5NDg1OTU5MTE1ODY3YWE5MWQ3OWI4MzdjZmFmNzZiM2MwNDc3M2VmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA5ZGIyMjQ0YzA5YmJiNTI3ZGFhMTc5NDg1OTU5MTE1ODY3YWE5MWQ3OWI4MzdjZmFmNzZiM2MwNDc3M2VmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTc1MDMwNTI1MWExM2YyYTA2OWViZTc0ZjAwNjNjNjI2YTA3MmE4YzZmZGU5NDMxYTAwNDVhNTAxNTA5ZTczOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWUyZGY2NmVhYzA2MjU0YjIxMzQ4OGY5NWYzNjU4YWM1YmY0ZDA2ODdmMDI3ZTNkNWU2YjVlNDAyODUxYjM1NiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:8746cf7f7532d6fa2de8683dd93a704b5aeffb0496da3c7f59717ee6f317ca66",
+  "claims": [
+    {
+      "id": "claim_e2c8328fa29947b9b8c1570816645682",
+      "statement": "Farah Ali is the accountable leader for the Information Security - Digital Channels partner function, which serves as a first/second-line partner to Payments & Treasury Technology (PTT) and whose engagement surface for PTT product/design reviews is SECREV.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L76",
+          "version": "repo-lines-v1:sha256:29a82c4ca27a76ecf2eb7738d8713a0123db25932946ca8cf354860648692b07:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1ZWU0NDJmZjljZWJhNTU3NWMwNzE0ZDY5OTM3Njg0MTQ5ZjJlODYyYzY0NDk1MjQyZTNmMDk1MmEzMWU1OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2c42494f506a4b8bb406e8aeb25cd9ce",
+      "statement": "SECREV (Information Security design review) is estimated at roughly 24-40 engineering hours of effort and is serviced under a 3-week SLA, and is listed among the PTT engagement routes/planning factors used for first-pass sizing of cross-team dependencies.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L138",
+          "version": "repo-lines-v1:sha256:1e2fed947d50a609157df7385e3543534ad4bc415464e1c1f9efb1d8a6b1723d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyZmU5YWZiZmNlYTE1YmRlNjQyMmVmZTNjOWZjOWM1NjkwN2Q0ODJiNzRkMGY4OWQzYjA0M2I4MWMwNTI4ODIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODk0OWVmMTRmMWM5MDcyMmI3N2UwNTIyNGNiZTA4OWEzZDIyNjY5Mzg5YTVhYjdkMGZjZjE5NmUzYjAyNjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6fbef2aad34149f2911e1b2d34b3cb9d",
+      "statement": "The PTT Organization, System Ownership & Engagement Directory (CNB-ORG-PTT-2026-06) that documents Farah Ali's role is owned by the PTT Business Management Office, approved by Gregory Hall (MD, CIO Payments & Treasury Technology), refreshed quarterly, and superseded between refreshes by organizational announcements.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L15-L26",
+          "version": "repo-lines-v1:sha256:a5c75f80e607ad9be5b9c72983789d014970e21446cad85cdbcc66a2ce2a7d13:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5M2ZmNGZmZDg5MTIzY2QyMjA4YTA3ZDhmYTc1NzRiNWRkYTZhNTVlMWM1NTc4ZDNiM2IyMmY2ODI5NTU3MTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE0YzZlNmRmNzE2YWEyNGRhNmI4YWRhY2Y3YWE1M2Y0YjAwZmJmYmU5NDZmNzc4NDA2OGEyYTAxNjgyNGE0NDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlN2UxZTljN2Q4YTI2ZmUwZDdkODY5ODdjOGJlN2Q1NzI1NDg4NjEyMTk2YTBmM2I5ZWU2ZDNiMjYzNjhiYmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVjYWNiOGZlMzRiNTdmYWZiNjU2NmQxZTFlYTFhNTNkOTllNmZhZjcxYzU0MjFiYTJmMzgyOGU0MDVhZGU0MWYifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

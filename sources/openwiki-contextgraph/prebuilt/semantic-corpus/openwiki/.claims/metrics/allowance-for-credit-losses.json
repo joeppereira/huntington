@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9f0ae8fe556c046aed9ef5e54a7914ffcc5350140798eb7698c4ab86aebfda11",
+  "claims": [
+    {
+      "id": "claim_827110785cd94b61aa96952cc5cf2249",
+      "statement": "The CECL model workbook's Allowance_Summary sheet feeds Annual Report Note 6 and the earnings supplement, and its Difference column (total allowance minus reported allowance) is zero for every segment and the total, so model and reported allowance agree at $15,920 million at Dec 31, 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L6-L22",
+          "version": "repo-lines-v1:sha256:baf12c8941b7ef02609c2ccb0fdd6cb483f65f0d8f7441f7c02f89f19a874915:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNlYTcwNjcyNDEwYjBiYThiMDg0M2U0NjIyOTZjMWNiYjg2ZGM0MzcyZTgzMTFlNWU4OTQzMjQ4MWQ4YmM4NjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNTU1ZGU5YjlkNzFlMTY0ZjRkMzdkZDNmYjgwYmQ4MWFlOTI2M2Y0YjkxOWYzOGNjMmZlMzMyYWExMmY1ZjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE3YWM2ZmY4MjZjMzk2ZDQwNzE4OTJmMjNjOGFjOTlmYWQ3MTczZjVhZmMxNDRmNzM5ZGQyYTMzNDI5NjA4MjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0ZTQyNjllZjJhOTU4YjNjN2YxYTg3Y2Q2YzNjYjNhMGYwNTAzNjUyOGNkNjJiYmM2MDZhZjg1ZjhlNjdjMjAifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L377-L387",
+          "version": "repo-lines-v1:sha256:74340d9ea6c33be34f9c169504b3d8b7c3cdd1f803e8ebd2fdf06c675c89b77c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZkNzBiOTJlN2E4ZGY5N2ZjYTRlYWRiNDI4NmY2ZTIxYzM2MGRjYWIzZTQ1MGEzMWQ2MzNkNDYzMzNkZWY2OTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyMDdlZTc3OTgyYTMwNjk1MDJhMGIyNzRkMTc4MGE5MDhmYWIwN2EzMGM3ZDdhOGM5NjliYTMyN2YyNzc3MWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3ZTU5YzUyNTdmYWRkMjFlOGRhYjU1OTk5MmUzMjAzZmNlMThkMjExNGNmYzg4MDY5YmQyZDUwN2QzODE5NmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQwZmNkNDFiODY1MjY2YTcxODRkZjZiMTkxOThiM2NlYzFkNjc0ZmM0M2M1ZmYwYTdiYmM2NDk2MzUwNjZmODAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b79c80022b4e41bb882953d40b5a0ca6",
+      "statement": "The Annual Report segment table (modeled 15,239 + overlay 681 = total 15,920; Card 8,640, Mortgage 820, Auto 690, CRE 2,470, C&I 2,760, Other 540), Note 6 ending balances and Pillar 3 table 6.4 all match the model's segment allowances; coverage is 2.14% of $742,300 million loans.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L12-L22",
+          "version": "repo-lines-v1:sha256:c04ea1ea35bb52cce8d702c315bbb970f3e944763e990f534c3f2b902488753c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlNzdhZWY4ZmQ3ZTQwODExNjc2ZGJiYTQzN2I3ZjM3Y2QwNDFkYTFjODA5NWJiYjIzZjM2NGFiNTQwMDM5ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNTU1ZGU5YjlkNzFlMTY0ZjRkMzdkZDNmYjgwYmQ4MWFlOTI2M2Y0YjkxOWYzOGNjMmZlMzMyYWExMmY1ZjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNkZWJjMjE1ZTliNGYzYzRjYTY5ZjI4NTcyZjU1YzkxNzEwYThlMDZmZDUzZDNiYTFkODkxOWRmODgzMGEwODQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0ZTQyNjllZjJhOTU4YjNjN2YxYTg3Y2Q2YzNjYjNhMGYwNTAzNjUyOGNkNjJiYmM2MDZhZjg1ZjhlNjdjMjAifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L345-L353",
+          "version": "repo-lines-v1:sha256:d98037539837086c2da1802222f37e1f1e7db44dba7d1f336027886171b3d6fd:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVkNGViNTcwYzI1OGZmM2E0NGM2Y2M1NDNjZjdhMzdkNzkwN2Q4YTNkZmM0MzhiN2NmNzFiZDk3YmE3NzgyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTA5MmJiMmIxNDEwODA2N2I5NmU4NjVkYTcwZDI0ODcyNTJkNmE1NDQzNGM2ZjQxNjA1YmNkNDEzZWQwM2YwZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFhZGNmMDM2Y2JhYTc0ZjAxZDFhYjk5ZTMxZTg3OTI5MjQ4N2Q1YjFmZDM1ZjlmNDQxYzk1ZGU0YTc4ZDE1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzgyOTE4N2RlNjlkYTVkYzlhNTFmZjIzZWQxODQyYTg2OWVkYzdmMTY5YzVjZThjZTUzN2M5Y2M4MmVmZWE0YiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L598-L606",
+          "version": "repo-lines-v1:sha256:d0f98cf9746e366bc23125a82fd52b272da73b57b08411954c3e3788c6cb605f:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E5MGYxMGEyOTM1Yzc5ZmU0MTMxMDEwZjlhMTllZmRmMTAzYmVhZTQ2YTk2Y2JkOGIxZGE4NGE4OGViYzFiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFjM2YyMWM2YWI4OTYzZmQ4NjQ2NWIyNjQ5NzQ3MjI4ZmU1ZmNmNTRiNzVmM2FlN2FhN2Y3YzAzZGE1N2Y4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzllNjNkYmNlZmJhYWRkNTY0MDNkMmY1ZTgzNTk3ZDkxYTc1ODEyMTNkN2M2OGRmZjA4NGY2MDBlYTQzZmFkMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjJiYmY2MDU4ZmM1NWNlMDlmMTE3NmU0MDAwMjEzMWJlZDNkNzc1OWZiMzM1YWZkYmNmZTZmN2E3YTExOWQ0MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L287-L297",
+          "version": "repo-lines-v1:sha256:0756226ee2b60f109a543e7fdd2806c94229b9ea40f70458a9e47f898c2d4946:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkZDE1NWMxNGIyODlmMjEzMWQyOTk4NmI1ZDJlYWJjM2E1MDQ3MjdlNDdiOTU1YzIxNDdjNWVmZjQ5ZDEyNDIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyMWQxMWExMmVhZDc0OTk1YmNkMjA5OTQxZjE0NGFmZWQyZTZkODk4Yzg0OTQzZmE3ZjI4MzI2OGU2ZGEwMmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRjZDdkNDZlZWVmZWFiYzQ4YTliZDBkYjdhZjhkN2VhNDA0ZjJjOWY1NjYyM2NiMTI4Y2JhNzFhYTE5OGVlZWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRlMjUxMTYzNzkwNDQ2MmQ4OTJjNDVlZjQ2ZmJkMTMzNGIxMjVmYjdhOGIzNWZiYTg0OGNkNWUxYTdiODY0MDcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c878d534d72a46dd8dece41665cadf42",
+      "statement": "Each segment's allowance is probability-weighted modeled ECL (scenario weights 20% Upside, 50% Baseline, 30% Downside; ECL = EAD x lifetime PD x LGD, with PD scaled by unemployment and LGD by HPI/CRE price changes) plus a qualitative overlay; total modeled ECL is 15,238.91 and overlay 681.09.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L119-L178",
+          "version": "repo-lines-v1:sha256:895b4dcd916c36920a5c1216fc5a5ac7b834920bc8fbe5f705308aaf2a278b35:eyJzZWxlY3RlZExpbmVDb3VudCI6NjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3YWY4MTgwMmVlN2EyMDNhMjY3ZTM5ZTIxNTc3ODZiNTYzZWFlMjc2NTIwYjJlMzk1NmUzMjlmNTg1ZmYwMTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY4OWYyMzExMzFiOWIwYjdmNTE5MTlkODVjNmQyMTc1MmNjNzBmY2RkYzI1ZGQ1ZmQ2MWMwYzA3MTRkMTNkMjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMDg3MTczYWQyODI0MTliM2ViNjI5MWE4NzRiNWY0OWQyYWNmYzQ3MDY0YjcxOWFlNzc4OTk2MzM3NThjNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2MGY1NDQwYzcwZGE1YTE0OTliMTNhZDBhN2ViYjkyYzA5N2QzYTcxNTllYjRiODFmNzk0NmRmOTdkYmZlOWMifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L180-L201",
+          "version": "repo-lines-v1:sha256:cacb7eb6b7191c2bfed306c6f8f7216da0ddfd633619f73a88380636f6161f45:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4NWE1MzYzNGMxMDE0M2ExODAyYzQwZWU5NmVkYjJhOTA2ZDdlMzdlMmE4NzliYmMzYTJiMjNiMGQyYzIzZmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2MDhkNjQ1MmMyMzlhYzYxMjhhNWJmYmUzN2FlZDFiMTI3ZDAyZjhhNWNhNWI3Y2RkOGNkOTY3NzhiMGYyNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwZjk0ZjlmNTc1NmY3MjIwOTJjMmJjNTc2OWJmMzBhNGM4OTJlZTRhMjg1YmJmMmY5NGIyNmVkNTBkY2Q1YjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2NmMwNWM1ZTcxMDM4YTNiMTY4YjhmN2E2ZjNmMDI3MjgzM2FkMzU0OGNiY2QwOTE2OWMzMTVmMTNiNmVkYTQifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L237-L271",
+          "version": "repo-lines-v1:sha256:598fc89526df92e87d3f7d330442865805981739a2d404f68ea22ef498623227:eyJzZWxlY3RlZExpbmVDb3VudCI6MzUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiNDUyODViZmY0YWUxY2U5MWNlZmI3NmRlY2ZjYmEzNmQyODcyN2QwMmYzZjE1NmY1ZmU2MzM4NjcxNDM3NTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkxODFmMjcxZDBjMTg0ZjE1YjkyNDE1MzQyYTE5M2VlOWU5ZGVmZDI4OTBiOWI4NDdiOTc1M2RiMDkzOGNkMzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRjNDBhZTkxOWIxMjcyYzc5YjM5NGMwNjFmYTI4MGM2N2E4NjA3NGI3NDE3ZGYxNmU4ZTQ5MzNmNjY1NjU4NGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjdjNzYwMzY4ZDdkNmY3OTI5MmE2YmUzNjBiM2U0ZTUyMTEyNmUwMWU0ZTEyMjRkZWYxYzdiNTBkZjkzMjlmNjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_5398263fcd0e42b78ce74cc721e091eb",
+      "statement": "The model's inputs come from API-10 (pool-level PD/LGD, refreshed quarterly), API-11 (balances and remaining life) and API-14 (scenario paths and weights approved by the Scenario Committee).",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L119-L158",
+          "version": "repo-lines-v1:sha256:7f4d1cf5e7cd248dabaff5d0a83098d756009f7af48d331a379c541a09c5fbef:eyJzZWxlY3RlZExpbmVDb3VudCI6NDAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3YWY4MTgwMmVlN2EyMDNhMjY3ZTM5ZTIxNTc3ODZiNTYzZWFlMjc2NTIwYjJlMzk1NmUzMjlmNTg1ZmYwMTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQyMzQyYTBhODg2N2M4ZTBlZGIxN2ZiZTRjY2ZmZWE2ODdiOWI4NGEwMjgzZDZiOTRlNTBhMmVlOTdmYWJjZjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMDg3MTczYWQyODI0MTliM2ViNjI5MWE4NzRiNWY0OWQyYWNmYzQ3MDY0YjcxOWFlNzc4OTk2MzM3NThjNDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3ZmZhOTVkYmMxY2M0MTQ2NDg5MGJhZWZlOWYxNWEzYzE0NTc5MTNkMWI2MDI5MGZjMTdiNjA0NGE1NTc2NzUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L365-L367",
+          "version": "repo-lines-v1:sha256:e2b86905b198ad7614d2714a8d3e03f5942aa89f1b24a5dd55e41a73c49efae2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDg5ZTc1OGVjMjAwZTdhNTU1NTM2YjJkMWNkMmNiYThkMTNhZWFhOWEyYWFhNjA5MGRmM2I0NTIyNjViZWM1NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDZiOWI5MjVhM2RkMTg4NmFmM2M0M2I1Y2Y2ZTNlZTM0MWE3YWViNTgxZDIyNTY4ZTQxY2FlM2U5OGI1ZmQyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmE1NGZiMDVlYWU4NWI1YjljNTJlM2ZkMjYzZGRjZjNjZTBlMzAxNWJlMzA5MTRiOTkyYWYyZmIwMzY3ODg5NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcyOGExODJkM2ZhMzJhMTUxNWVjZWM5NTY0MmZhMTg1YzZlMDhhMDQxNmYzMzE5MjY3YjdhMzc2YWVmNzJiMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_25ee44e3cf904eb0b0eabd7122d808fd",
+      "statement": "Qualitative overlays must stay within +/-15% of modeled allowance per segment, enforced by an OK/REVIEW check cell that was OK at year-end; the Auto overlay is negative (-33.56) and overlay cells are entered values with Allowance Committee approval notes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L105-L114",
+          "version": "repo-lines-v1:sha256:dddd6069753d5757e933b3fa25f4888f3fc46b7978d55bafd51f8bc7436f4e0f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1MDgwZDk4OTM1ZGYwN2U2ZDc5OTIzZTU3NzkzYThmYzhiMGMwOTFkOGM2OWJmNGM1YTA2NjRmMzEzM2E2OGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzOTNkODlkYWZmYjY1MmQyMTQyNGFiZDkyM2U2YWY2NGFjNzg4YmY1YmUzMzIzYjVmOTA2YmRlNzNlNTUwYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFmNGI1MGFlMGE1MWI0ZTcxYTVkZmRmODkzZDdkNTczYzdmNGY2MGE5OGQzZjgxODVjOGM4YTE2NzYyMDQ3MDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY2MTFlYjE4NjkyODgxODA1MDM4YThhYjZhNjYzZjEzYzMxMzRjM2M4YmZiODZlNjg0YTA1Y2Y2OTA3ZmI0YTgifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L12-L22",
+          "version": "repo-lines-v1:sha256:c04ea1ea35bb52cce8d702c315bbb970f3e944763e990f534c3f2b902488753c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlNzdhZWY4ZmQ3ZTQwODExNjc2ZGJiYTQzN2I3ZjM3Y2QwNDFkYTFjODA5NWJiYjIzZjM2NGFiNTQwMDM5ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNTU1ZGU5YjlkNzFlMTY0ZjRkMzdkZDNmYjgwYmQ4MWFlOTI2M2Y0YjkxOWYzOGNjMmZlMzMyYWExMmY1ZjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNkZWJjMjE1ZTliNGYzYzRjYTY5ZjI4NTcyZjU1YzkxNzEwYThlMDZmZDUzZDNiYTFkODkxOWRmODgzMGEwODQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0ZTQyNjllZjJhOTU4YjNjN2YxYTg3Y2Q2YzNjYjNhMGYwNTAzNjUyOGNkNjJiYmM2MDZhZjg1ZjhlNjdjMjAifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L166-L171",
+          "version": "repo-lines-v1:sha256:fb01423de24d1e066230096daa04d1fe6352ff621c6d8973acec37f41bd9056a:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTY3ZmM4NGFiMDY3YTg0YjFjYzg4NTU2ZmExNjJlYzhmZTU3YjNhNjNhZTJhYWZhZjUyYmZiNmZmOWRhOTgxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjc4YjY1OWI1ZjNiYTIwMzFmNjQxYTFlNzBlMjY2MTk1NDhjMzI4NDA1NDg4YjIwMjIwMTJmMTJhYjY5OGM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_137b10f4061d4968830ab8cf563ee094",
+      "statement": "MDL-CR-007 is a Tier 1 model validated by MRGR on 2025-11-04 with next validation due 2026-11-30; the Allowance Committee approves scenario weights, outputs and overlays quarterly; the workbook excludes unfunded commitments.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L125-L135",
+          "version": "repo-lines-v1:sha256:dbc33064613c19419898a7d333f61b601741f5073337026096b9bcdda0bfb26a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ODE5YmEwYTgzYmUzMTFiNjJkN2NjOTZiZjI5MGRiZGEwMjdiMzY4YTdhOTJlNWFlYTE0ZGQwMzljYmZiZTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxNDc5N2IwZmJiODBkNDNlMGVhM2M3ODc4YjgzMDhjYTA2OTQyNDcyOWIwMWE1MDI3MGFkYjFjOTExNzc3ZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNlMTIxMTA5MTdkYTVlNWNiZjc4NTQ4MmZiMmRiNjA2MTlhMWE3ZGI4ODcyMjY3YmUzNjEyMGU2Yjg1NTU2YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEzMDI3Mzc0Y2QxZTE0YjYyMDNkZGEzZDc0MTNjOGIyZmUzYzc4Y2JhZTFmZDgwMTJiYmZlNzNjMTczZjZmZDYifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L166-L171",
+          "version": "repo-lines-v1:sha256:fb01423de24d1e066230096daa04d1fe6352ff621c6d8973acec37f41bd9056a:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTY3ZmM4NGFiMDY3YTg0YjFjYzg4NTU2ZmExNjJlYzhmZTU3YjNhNjNhZTJhYWZhZjUyYmZiNmZmOWRhOTgxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjc4YjY1OWI1ZjNiYTIwMzFmNjQxYTFlNzBlMjY2MTk1NDhjMzI4NDA1NDg4YjIwMjIwMTJmMTJhYjY5OGM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L87-L87",
+          "version": "repo-lines-v1:sha256:0baee64b120112c3e4d1824b09515c6d2d1e135a89dc53fc0088a813aef078a9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJhZWU2NGIxMjAxMTJjM2U0ZDE4MjRiMDk1MTVjNmQyZDFlMTM1YTg5ZGM1M2ZjMDA4OGE4MTNhZWYwNzhhOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJhZWU2NGIxMjAxMTJjM2U0ZDE4MjRiMDk1MTVjNmQyZDFlMTM1YTg5ZGM1M2ZjMDA4OGE4MTNhZWYwNzhhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGM0OWExZWZmNGE1MzIyY2RjMjA3NDAyZTIwYzM5MjBmMjk3ZTE1YTY1YjcwOTlmMDAyOWVmM2M3M2YyMmYyOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2IxY2YzNGJiZjcyMTZmNzM1YTdkMzlkYzExM2NmZmVjYmNiOWY0NzMyNDkzZDNkYWM2MWRmZTljNGQ5YWVlMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e58a174799f24a9088bdb7df743c1238",
+      "statement": "The 2025 allowance roll-forward went from 15,180 beginning, less 6,100 net charge-offs, plus 6,840 provision, to 15,920 ending (a $740 million build driven by Card growth and higher Downside weight, partly offset by multifamily CRE valuations).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L146-L146",
+          "version": "repo-lines-v1:sha256:90e678d46130dfce641186f97b921c10a3c51684d5847f505333943b0d79f186:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTBlNjc4ZDQ2MTMwZGZjZTY0MTE4NmY5N2I5MjFjMTBhM2M1MTY4NGQ1ODQ3ZjUwNTMzMzk0M2IwZDc5ZjE4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTBlNjc4ZDQ2MTMwZGZjZTY0MTE4NmY5N2I5MjFjMTBhM2M1MTY4NGQ1ODQ3ZjUwNTMzMzk0M2IwZDc5ZjE4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWY4YjAyZmQwN2U4ZGFhOGJhNGY3ZTQ4ZDRhNmZiZDdmMmE4ZjUyOTc1ZTJlMGE0Mzc1NGZhMjQxNmNmMzM0YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTEwNTdjOWViYWMyNzI2MGNjY2Y5NWYxNmU5ZjI5MGY1Zjc2MjlmMGFjZWNkM2ExNWM0Yjc3ZGFjYWM2ODMwYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L598-L608",
+          "version": "repo-lines-v1:sha256:bf549268d31e2954f5b4994b1d3deb955c36adfcfbfd4b4a7e0bcebcdf2a6b06:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhOTBmMTBhMjkzNWM3OWZlNDEzMTAxMGY5YTE5ZWZkZjEwM2JlYWU0NmE5NmNiZDhiMWRhODRhODhlYmMxYjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjNDg5ZjA5MTk5N2Q1ODllYTI0YmIwODgzMjgzNzU1OTRmN2JmY2QyOWM4MTRhNjU0M2EzMDU1YmIxMmFkMGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM5ZTYzZGJjZWZiYWFkZDU2NDAzZDJmNWU4MzU5N2Q5MWE3NTgxMjEzZDdjNjhkZmYwODRmNjAwZWE0M2ZhZDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI3YzM4NmY1NTQ0MzhhYTZjYjc4OTY5YmY4MzEwOWRmYzYwNWMwZWIxNGZlNDU3ZGMzZjE5MGQ3ZWM3YWFiMjQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b65eaf1dda8845c4ae38bd70dbf61b73",
+      "statement": "In 2026 the allowance rose to 16,110 at 1Q26 and 16,380 at 2Q26 (2.14% and 2.15% of loans), with 2Q26 provision of 1,920 against 1,650 net charge-offs, unchanged 20/50/30 scenario weights and baseline unemployment peak raised to 4.5%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L263-L270",
+          "version": "repo-lines-v1:sha256:7addcc21c681271b1a8b5d5cb9c6d1f353172009ad5fda9e681f7535f680ce83:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmE1MTRhNzY1NmNiYTM3Yzk4ODVlNmE4NDI3YmVmY2EwYjQ1ZGZlN2Q1MjY4NzdmZWU1MzRmYWQxMDFjZjlhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ1ZjZhYTE2ZjIxNGRmOTU2MDg2ZTBkYjE3ZTMzMzdhZGRhYTEyOTFlOTA5ZjlkY2ZjZmRjMTlhOThkN2QyZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmY3YWQ2MWEwZjlkYmMyOTAyMzk2NTczZDE5YzAzZTY3ZjhmM2I5MzRkYzNjMDU5ODQxZjkzNDM4MjgyNDVjMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGRjOGJkYjEyYjk1NjI0NzEyM2M0ZmM3OWMwMTU1NGYyYzcwZGQ1MTNhYzNmYmE5NWQ3M2E1Y2ZhYzBhY2E1MiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L503-L503",
+          "version": "repo-lines-v1:sha256:242ae3bca988760cf5ff71fdaeea66466177097f06a09308f7621cdece73b100:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQyYWUzYmNhOTg4NzYwY2Y1ZmY3MWZkYWVlYTY2NDY2MTc3MDk3ZjA2YTA5MzA4Zjc2MjFjZGVjZTczYjEwMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQyYWUzYmNhOTg4NzYwY2Y1ZmY3MWZkYWVlYTY2NDY2MTc3MDk3ZjA2YTA5MzA4Zjc2MjFjZGVjZTczYjEwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTIwOWE4YTc2NDI0MmM0MTE4MmU1ZmRmZjA4YzI0OGUwM2ViYTUyMGM2YjdiYWQwNDE0M2VmMjgyNTFjYmQwZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ2YTZkZDExMjlhZDEyNTkzN2RhY2ZmMmY0OTFjODQ0ZDgwYjBjOThjOTM4ODE5ZmE5MmJmZjg0ZTA2Yzk5NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ed185e5db8454a4ca1cbb17a97bb6387",
+      "statement": "Sensitivity: a 100% Downside weighting would raise the allowance to about $20.2 billion (+$4.2 billion), 100% Baseline would lower it by about $1.4 billion and 100% Upside by about $2.8 billion, holding the overlay constant; the Annual Report and the workbook Sensitivity sheet agree.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L407-L440",
+          "version": "repo-lines-v1:sha256:e7a6bbcf5434a4381ac10d517e7df7fb35d210dd9f438ab0c8cecfd292e3e6b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdhYTYwZTUwNjU0MTZiODRhMjFkNzlhYTBhYTA4YmNmMTNmYmQ2M2U5Y2FkYTNmMmU0MzM5MzhhZDg2MjBiNjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImExYjMwMmUxMmFiZTUwZGQ1NDYzZjc0MmVkYTgzOGQwYjliM2QyNmQxYmNkNmFiMDVkMzkzOTNhYjdkNGMzMDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU4YWUyNzdjMjc3MjFjZGExMDY4NGZhYjBlZTUwNzVmOTkxY2I2ZTQ4YmNjNjRjZDI5MjBjNGQ1MDUzNGJhNjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L389-L389",
+          "version": "repo-lines-v1:sha256:b6f6c6d0c1af66bcab66958fb923fa6e7e90f26932a4abea411d9c2921a8e41b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjZmNmM2ZDBjMWFmNjZiY2FiNjY5NThmYjkyM2ZhNmU3ZTkwZjI2OTMyYTRhYmVhNDExZDljMjkyMWE4ZTQxYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjZmNmM2ZDBjMWFmNjZiY2FiNjY5NThmYjkyM2ZhNmU3ZTkwZjI2OTMyYTRhYmVhNDExZDljMjkyMWE4ZTQxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2ZjY2M0ZDkyYjNhN2YyNjYxNjU2Mjk4MWRhNjMzYzY4MDI5ODBlYzBhNTJhZmJjY2I0NmJkNWYzOGUzMWIzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmU0ODNjMWIwOTZlYzA2OTM4NDhmMmUwM2JjYjRiYWI0M2M5MDVhZjRhYzkyZTM0OWRjYzk1ZWY0MTM3MmY5NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7d96e54a5e0f46de8105c271523cddc2",
+      "statement": "Up to 1.25% of credit RWA of the allowance, $6,380 million, qualifies as Tier 2 capital under the Standardized approach, and Pillar 3 cites $681 million of overlays.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L113-L113",
+          "version": "repo-lines-v1:sha256:4e4d1ac236cecbf80dab271b6d614b72549b8757eb5d3555152693cfa5b35b91:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGU0ZDFhYzIzNmNlY2JmODBkYWIyNzFiNmQ2MTRiNzI1NDliODc1N2ViNWQzNTU1MTUyNjkzY2ZhNWIzNWI5MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGU0ZDFhYzIzNmNlY2JmODBkYWIyNzFiNmQ2MTRiNzI1NDliODc1N2ViNWQzNTU1MTUyNjkzY2ZhNWIzNWI5MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWQxNWE2MjMwMzA1ZGIzNjFhZGNiNjIyM2ZiYjk2NjJiZWZkNTA4OWQxMTVhYTE2YjVhYzAzMWUwZjk1MWUxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTc1M2QxMTdjOGUyOWYyZDI0ZjQzMmUxOTM4MDA4MjI0ODk1MWI0NmViYmQ4OTQxM2RlNTBkYjM0YzQwNmYzNyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L297-L297",
+          "version": "repo-lines-v1:sha256:c21d11a12ead74995bcd209941f144afed2e6d898c84943fa7f283268e6da02c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIxZDExYTEyZWFkNzQ5OTViY2QyMDk5NDFmMTQ0YWZlZDJlNmQ4OThjODQ5NDNmYTdmMjgzMjY4ZTZkYTAyYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzIxZDExYTEyZWFkNzQ5OTViY2QyMDk5NDFmMTQ0YWZlZDJlNmQ4OThjODQ5NDNmYTdmMjgzMjY4ZTZkYTAyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjFmMWM5ZDg1OTIwYmY4YTMyZGY5OTc3NGY1ZGRkMDAzZGNiN2E5MTZkZmU1NDQ3ZDQ3YzkyYjUwOTkxNjY1YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGUyNTExNjM3OTA0NDYyZDg5MmM0NWVmNDZmYmQxMzM0YjEyNWZiN2E4YjM1ZmJhODQ4Y2Q1ZTFhN2I4NjQwNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_33719522e62c4dcab97f97875a022ca1",
+      "statement": "Allowance coverage of FY2025 net charge-offs is 2.61 years overall (Card 1.87, Mortgage 20.5, Auto 1.68, CRE 6.5, C&I 4.93, Other 6.0), computed as total allowance divided by segment NCOs from Segment_Inputs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L12-L22",
+          "version": "repo-lines-v1:sha256:c04ea1ea35bb52cce8d702c315bbb970f3e944763e990f534c3f2b902488753c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlNzdhZWY4ZmQ3ZTQwODExNjc2ZGJiYTQzN2I3ZjM3Y2QwNDFkYTFjODA5NWJiYjIzZjM2NGFiNTQwMDM5ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNTU1ZGU5YjlkNzFlMTY0ZjRkMzdkZDNmYjgwYmQ4MWFlOTI2M2Y0YjkxOWYzOGNjMmZlMzMyYWExMmY1ZjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNkZWJjMjE1ZTliNGYzYzRjYTY5ZjI4NTcyZjU1YzkxNzEwYThlMDZmZDUzZDNiYTFkODkxOWRmODgzMGEwODQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0ZTQyNjllZjJhOTU4YjNjN2YxYTg3Y2Q2YzNjYjNhMGYwNTAzNjUyOGNkNjJiYmM2MDZhZjg1ZjhlNjdjMjAifQ"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L209-L218",
+          "version": "repo-lines-v1:sha256:69f6306f9450467775c03f227f01dfc96e020269f9c4cb2158721db82b026b5f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhYzI3MjE2MjRiOTg1Zjk0ZDcxYmQwNWJlNTBjZDUwYzdkYzk5YmE0NjRkM2ZhZTM5ZDQ4ZjA3ZTMxNDA4ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxOGFkY2Q3YWE3OThkZGI5MDNhNTY0YjI4NmM1ZGYzNmVkMWI5YTA4YWY4OGE2ZWRhYmM2ZTBlY2Y2NjdjOTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM3YTIwZTIwMTFhMDc4NzNhM2E3MjQ2YTE1NGEwNWI2NGIzYjZhMjJiNzk5OGM0ZTE4YTJkZTA3MzBkOTJmYzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJhZTA2M2Y2ZTgzZThhOWYwNzliNTFhMGZhODNmYzVkNDQyYWRiMTA3ZDQ3MzY3MmIxMzg5ZjM2NTNlZTJhOTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b3119c6c477841f2ab05b5de12f54e4f",
+      "statement": "The 1Q26 allowance roll-forward went from 15,920 beginning, less 1,590 net charge-offs, plus 1,780 provision, to 16,110 ending; the 2Q26 net reserve build of $270 million was primarily Card loan growth, and API-10 PD/LGD estimates refreshed in June are reflected in the quarter-end allowance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L263-L268",
+          "version": "repo-lines-v1:sha256:8a975667697f4f090d94ba7640d0af60ff334bef8d99102547a4158178ab9787:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmE1MTRhNzY1NmNiYTM3Yzk4ODVlNmE4NDI3YmVmY2EwYjQ1ZGZlN2Q1MjY4NzdmZWU1MzRmYWQxMDFjZjlhMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDdiMmFiMTU3NjBiODViNWFlNDk1NjQ5NzNiYTAxNjRkM2FkNjA3MWJmNTk4MWFlOTJiNTU3MjI4NmZjMTQzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmY3YWQ2MWEwZjlkYmMyOTAyMzk2NTczZDE5YzAzZTY3ZjhmM2I5MzRkYzNjMDU5ODQxZjkzNDM4MjgyNDVjMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODhhMjhhZGJiNjgyOWQ4ZjEyMGZkMjYzMWU3MzE4NjQwZDJhY2RmYzUxNGVlNTU4YTY1YjU1ODU5MWI4ZWY0MCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L351-L351",
+          "version": "repo-lines-v1:sha256:4f74db993c45caff3989c3ab016cbf726a881cb67433aae493d77d235033bac2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3NGRiOTkzYzQ1Y2FmZjM5ODljM2FiMDE2Y2JmNzI2YTg4MWNiNjc0MzNhYWU0OTNkNzdkMjM1MDMzYmFjMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3NGRiOTkzYzQ1Y2FmZjM5ODljM2FiMDE2Y2JmNzI2YTg4MWNiNjc0MzNhYWU0OTNkNzdkMjM1MDMzYmFjMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjc3MGU4M2NlNzFmYjdkNGU5MjE4ZDA4N2YxMDMzZTFjNzE0MmEzYjIzZWEyYTkyYWJkYmRiNzQ3OGZjYzc4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTEwNjlkMzk2NGI5MTZkMWJiYmQ0ZWQwOGFkNGY5M2EyZTdhOTZhMDA0YmZkODJkMmI4OTNhMzY1ODYyYjZkOCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L47-L47",
+          "version": "repo-lines-v1:sha256:9a974c85d172485a3d62b1909dc21c3b47cd957f9a4f8826007c09b03b77e537:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWE5NzRjODVkMTcyNDg1YTNkNjJiMTkwOWRjMjFjM2I0N2NkOTU3ZjlhNGY4ODI2MDA3YzA5YjAzYjc3ZTUzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWE5NzRjODVkMTcyNDg1YTNkNjJiMTkwOWRjMjFjM2I0N2NkOTU3ZjlhNGY4ODI2MDA3YzA5YjAzYjc3ZTUzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTU5ODdlNzRmMzZiOTQyOGM3NTRkYjNlNWM5YWI3ZWI0ZWIwZjMzNTg3MDYyOTUyZGM4NjRiYjQ1NmFlYjZiNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjQ5MDdlNzI2YzM3MGQ1ZDc1YTI5NmI0ZWI4ZjNkNTA3MDJkODM4YTI3ZDMyNTlhOGNhZTA0ZjViMTUzMTE5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_637fac8d1bec4279852fc2e957ff2f58",
+      "statement": "The Annual Report accounting policy describes collective (pool) measurement plus individual measurement for collateral-dependent and restructured wholesale loans, and a two-year reasonable-and-supportable forecast followed by 12-month reversion to historical averages; the workbook is a simplified pool-level demonstration with a single 2025-12-31 balance snapshot, so these policy mechanisms are not replicated in it and the 1Q26/2Q26 balances cannot be tied to a workbook sheet.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L166-L171",
+          "version": "repo-lines-v1:sha256:fb01423de24d1e066230096daa04d1fe6352ff621c6d8973acec37f41bd9056a:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTY3ZmM4NGFiMDY3YTg0YjFjYzg4NTU2ZmExNjJlYzhmZTU3YjNhNjNhZTJhYWZhZjUyYmZiNmZmOWRhOTgxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjc4YjY1OWI1ZjNiYTIwMzFmNjQxYTFlNzBlMjY2MTk1NDhjMzI4NDA1NDg4YjIwMjIwMTJmMTJhYjY5OGM0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L203-L207",
+          "version": "repo-lines-v1:sha256:ac389fd8ed99d8547dbc4c5a4d6b83d4590a1cbd1c52dbe790c5c64013729196:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2MxMDM0ZWI5MDc3ZDlhY2JlNzQ2MGMxY2RiZTMwMDM5MTJlNGEyNGExYjFlZGJiYTYwZTY2MWVkNDk0NDk5YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QzNzRhOTAxMGUwNDNhZTZiOGVhMDY1YTc5MmE1YWJjNWRhNzY3YTNjMTc3YmJlNWRhOWZjN2IxNzNmNGVhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI3NWJkODg2ZGRkMzExNDgyMmY2Y2NkODU4ZjQxYzRiNjQ4MjAxOGRmNTA4ZWFiNjFmODBiZjU0OGIxY2FkZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzQ4ZGQ5OTJmNjVhNTA3ZjRiOWE5YWVlYmI5N2I0MTM1MzY5YjEwYTE1MGMzMjVhNDU0ZDYxM2VlMDQxNWRhYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L576-L576",
+          "version": "repo-lines-v1:sha256:a8bb384f3bcf496eb1e499f0664a9627f00dce0b425bb06e2205f8a4f234b45b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYThiYjM4NGYzYmNmNDk2ZWIxZTQ5OWYwNjY0YTk2MjdmMDBkY2UwYjQyNWJiMDZlMjIwNWY4YTRmMjM0YjQ1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYThiYjM4NGYzYmNmNDk2ZWIxZTQ5OWYwNjY0YTk2MjdmMDBkY2UwYjQyNWJiMDZlMjIwNWY4YTRmMjM0YjQ1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGZkMjQ1ODE2Y2M5MjgzODk4Yjk0M2Y3MGFhYWZiODJjZGFlOTBmNmYwNjQ5NWYyMzRmYTI1MTQyN2EzNGNjNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTk0Yjk3MjVjMDk4OTllNjk4ZjcxOTk1YTBjNTI2ZDQ3M2MzODhiODJmOWQxNDNiNTE2MzZlODUzMDkyOWE4MSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L270-L270",
+          "version": "repo-lines-v1:sha256:c45f6aa16f214df956086e0db17e3337addaa1291e909f9dcfcfdc19a98d7d2e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ1ZjZhYTE2ZjIxNGRmOTU2MDg2ZTBkYjE3ZTMzMzdhZGRhYTEyOTFlOTA5ZjlkY2ZjZmRjMTlhOThkN2QyZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzQ1ZjZhYTE2ZjIxNGRmOTU2MDg2ZTBkYjE3ZTMzMzdhZGRhYTEyOTFlOTA5ZjlkY2ZjZmRjMTlhOThkN2QyZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIwNGQ2MjFhOWMxZDhkODI3NzA4YjIyNDIxNmViNzdjMTg1OThhNWMxMjg4NDZiMGZkMGI5ZjdjMDUyZjNkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGRjOGJkYjEyYjk1NjI0NzEyM2M0ZmM3OWMwMTU1NGYyYzcwZGQ1MTNhYzNmYmE5NWQ3M2E1Y2ZhYzBhY2E1MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8e4f30cc401b4a3590a9fb5de8e907b0",
+      "statement": "The 2025 segment roll-forward in Note 6 shows Card provision 5,220 against NCOs of 4,620 (8,040 to 8,640), Mortgage provision 0 (860 to 820), Auto 430, CRE 340 and C&I 710, Other 140, with totals 15,180 beginning, 6,100 NCOs, 6,840 provision, 15,920 ending.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L598-L606",
+          "version": "repo-lines-v1:sha256:d0f98cf9746e366bc23125a82fd52b272da73b57b08411954c3e3788c6cb605f:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2E5MGYxMGEyOTM1Yzc5ZmU0MTMxMDEwZjlhMTllZmRmMTAzYmVhZTQ2YTk2Y2JkOGIxZGE4NGE4OGViYzFiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFjM2YyMWM2YWI4OTYzZmQ4NjQ2NWIyNjQ5NzQ3MjI4ZmU1ZmNmNTRiNzVmM2FlN2FhN2Y3YzAzZGE1N2Y4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzllNjNkYmNlZmJhYWRkNTY0MDNkMmY1ZTgzNTk3ZDkxYTc1ODEyMTNkN2M2OGRmZjA4NGY2MDBlYTQzZmFkMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjJiYmY2MDU4ZmM1NWNlMDlmMTE3NmU0MDAwMjEzMWJlZDNkNzc1OWZiMzM1YWZkYmNmZTZmN2E3YTExOWQ0MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2abaf05e362040419b03253eeab1474f",
+      "statement": "The supplement's five-quarter trend reports the allowance at 15,640, 15,780, 15,920, 16,110 and 16,380 ($ millions) ending 2Q26, and cites office CRE allowance coverage of 9.8% and Card allowance of roughly 6% of loans covering almost two years of charge-offs.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L200-L200",
+          "version": "repo-lines-v1:sha256:b07f6da9bc8fba33aed57271659e772c13726e6758ba5f3a2d10d038c20799bb:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjA3ZjZkYTliYzhmYmEzM2FlZDU3MjcxNjU5ZTc3MmMxMzcyNmU2NzU4YmE1ZjNhMmQxMGQwMzhjMjA3OTliYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjA3ZjZkYTliYzhmYmEzM2FlZDU3MjcxNjU5ZTc3MmMxMzcyNmU2NzU4YmE1ZjNhMmQxMGQwMzhjMjA3OTliYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQwYWMzOGY5MzVhMTMyZTBiZTcwYTU2MTI1NWU2ZDI5NDQ4Y2JhNTU1Njc2M2U1M2Q3MTk3YjBiYjUzYjgyMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTI2ZGQ5NDVlY2YwMGI3MWNiZmRkZjliNWJhZTU4NmNiNDlhMTJlMDQ1MjA5NGQzMzZlOGUxZGE3MzMxMjAyNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L450-L450",
+          "version": "repo-lines-v1:sha256:0395f54a2f8eac5127647bdd928a710389859e2a56a8774c718beff8014e0c09:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM5NWY1NGEyZjhlYWM1MTI3NjQ3YmRkOTI4YTcxMDM4OTg1OWUyYTU2YTg3NzRjNzE4YmVmZjgwMTRlMGMwOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDM5NWY1NGEyZjhlYWM1MTI3NjQ3YmRkOTI4YTcxMDM4OTg1OWUyYTU2YTg3NzRjNzE4YmVmZjgwMTRlMGMwOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTg5YzZkMDQ2ZTZmN2Y3NDM2YzMzZjg4YzU0NzIxZDgzMTljYTQwOWFjMDljNTUzYjc4OTE5Mjc2MDliNDNhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2EyYmRiNWE5Y2JkN2U5ZTljNGI3YzI0NTJkNWM2NTllOTAxNWRlOWFiNWQ4OThiNDAxNDQyOTE4YzQ0MDJjNyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L503-L503",
+          "version": "repo-lines-v1:sha256:242ae3bca988760cf5ff71fdaeea66466177097f06a09308f7621cdece73b100:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQyYWUzYmNhOTg4NzYwY2Y1ZmY3MWZkYWVlYTY2NDY2MTc3MDk3ZjA2YTA5MzA4Zjc2MjFjZGVjZTczYjEwMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQyYWUzYmNhOTg4NzYwY2Y1ZmY3MWZkYWVlYTY2NDY2MTc3MDk3ZjA2YTA5MzA4Zjc2MjFjZGVjZTczYjEwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTIwOWE4YTc2NDI0MmM0MTE4MmU1ZmRmZjA4YzI0OGUwM2ViYTUyMGM2YjdiYWQwNDE0M2VmMjgyNTFjYmQwZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWQ2YTZkZDExMjlhZDEyNTkzN2RhY2ZmMmY0OTFjODQ0ZDgwYjBjOThjOTM4ODE5ZmE5MmJmZjg0ZTA2Yzk5NyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T02:29:31.666Z"
+  }
+}

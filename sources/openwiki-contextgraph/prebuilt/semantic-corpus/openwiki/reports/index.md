@@ -1,0 +1,5 @@
+# Files
+
+- [2025 Annual Report](annual-report-2025.md) - Structure and contents of the Meridian Harbor Financial Corp. 2025 Annual Report (10-K style, fiscal year ended Dec 31, 2025) - its sections, the headline metrics it discloses, and the three Tier 1 models and Developer Platform APIs it references.
+- [2025 Pillar 3 Regulatory Capital Disclosures](pillar3-disclosures-2025.md) - Structure, key templates and page markers of the Meridian Harbor Financial Corp. Basel III Pillar 3 report for the year ended December 31, 2025, with its headline capital, RWA, leverage and liquidity figures and the metrics, concepts, models and APIs it ties to.
+- [Q2 2026 Earnings Release and Financial Supplement](q2-2026-earnings-supplement.md) - Summary of Meridian Harbor Financial Corp.'s second-quarter 2026 results (net income $6.54 billion, EPS $4.48), covering the drivers of net interest income, credit costs and the allowance, capital and liquidity, the 2026 outlook, and inconsistencies in the source document.

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:3d1889e58959391b6ccd9c29db0ab81ef9ff440a4c7eff4fef12ac13a1e90b45",
+  "claims": [
+    {
+      "id": "claim_393fbca2c2274936a887198fc899d062",
+      "statement": "MHFC computes RWA under both the Standardized and Advanced approaches and uses the lower of each ratio (the Collins Floor), currently the Standardized approach, so Standardized RWA is the binding denominator; at 31 Dec 2025 Standardized RWA was 652,800 versus Advanced 618,300.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L135-L149",
+          "version": "repo-lines-v1:sha256:3ccf6d25972b1b8eac63783fe0da443217e57c59898020c1c24fef69aefff0fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MTg4NjBjZTQ2YmQ4MzFjNDBlZDAxNjM5NWIzZjRiZGRkM2ZlMGQ2ZTY0NjIzNjdkN2FiNjRiMmU5YzFjM2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0NjNjMjQwY2YxMmIyODE4Njc4MjBlYjkyMjY5OTcxODNlZjVjY2VkZGY5ZTA0ZGZkNDIyMGJmZDIxODM4YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk2MjFlZWJkYjMwMGRjZDhjMDc1OGI1OGE1YzQ1ZWQ1YTE5OGU2ZDk5ZGQ3NmYyNWFlOGI2MTkwZTA5YjkzOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlZGIwNDE5ZmE1NjU2ZGVmMjU5ZjMwZWNiMjAwYTU2Y2E5MWNmMzdkOWZlZjE4YTg4ZjY0ZWQ5N2EzMTgwMTUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L188-L192",
+          "version": "repo-lines-v1:sha256:bc21c2bb6c379c9e608324ad11ffcf11da6cf0f1bb05cda2f963cd5ad153b880:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWJiZDg0MzIxMWQ2YzkzYWUxZmMxMzk0ZTc2N2QwODE2NjBiZTJlOGIxMGE0NDA4ZGE4NmQ2ODBkODE1YWI2OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGE0NjA5NTdmNzBmYzFjN2VhYzkxN2Q2MjA2ODNmN2YzZTZjNWNmYWYzODUxMGVhMDk2MzkzNmViZGJhOGVkOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGU4YTRlMjJhZTdmNDA3NGZkYTgwNTY0MTNkNjZlNDYzODRlYWNlMmJiZTE3ZjE3NWVmYTljNDY1Y2NhN2JmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjgyMWZlYjhmMWViY2JhMjY2M2M2MWFkNmM4NzEzM2MxYzNkMTUyMjdlMmQ2ZmVhMmVlNzlhYWMyNWFiMzBjNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L37-L37",
+          "version": "repo-lines-v1:sha256:dc8ba894c981db489caeacb2ee25f71d7d38219f7bd3e0b73ec986b529d6eaab:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM4YmE4OTRjOTgxZGI0ODljYWVhY2IyZWUyNWY3MWQ3ZDM4MjE5ZjdiZDNlMGI3M2VjOTg2YjUyOWQ2ZWFhYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGM4YmE4OTRjOTgxZGI0ODljYWVhY2IyZWUyNWY3MWQ3ZDM4MjE5ZjdiZDNlMGI3M2VjOTg2YjUyOWQ2ZWFhYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDUxOWIwZWZhNWM2NGM1Y2ViYTliNDUzMzZiY2YwYTQ4ZjYxMjg1NWY0ZWFiMmI2YzAyNzgzMTNhNmJkMDJmMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmZhN2NhNmFhZDczMjg2ZDkyYWQ0NWU3N2UxM2RkY2NjMTdiMjg4MmJlMmVmYzc4YWU2MGJiYjgxM2YxNGQ0ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fb637567cb0e4aa89a98530b9f810ac6",
+      "statement": "Standardized RWA at 31 Dec 2025 of 652,800 breaks down into wholesale credit 312,400, retail credit 196,800, counterparty credit risk 41,600, securitization 9,300, equity 6,900, other assets 31,600 and market risk 54,200; Advanced RWA of 618,300 is credit 451,500, market 54,200 and operational 112,600, with operational-risk RWA appearing only under the Advanced approach.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L135-L149",
+          "version": "repo-lines-v1:sha256:3ccf6d25972b1b8eac63783fe0da443217e57c59898020c1c24fef69aefff0fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1MTg4NjBjZTQ2YmQ4MzFjNDBlZDAxNjM5NWIzZjRiZGRkM2ZlMGQ2ZTY0NjIzNjdkN2FiNjRiMmU5YzFjM2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0NjNjMjQwY2YxMmIyODE4Njc4MjBlYjkyMjY5OTcxODNlZjVjY2VkZGY5ZTA0ZGZkNDIyMGJmZDIxODM4YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk2MjFlZWJkYjMwMGRjZDhjMDc1OGI1OGE1YzQ1ZWQ1YTE5OGU2ZDk5ZGQ3NmYyNWFlOGI2MTkwZTA5YjkzOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlZGIwNDE5ZmE1NjU2ZGVmMjU5ZjMwZWNiMjAwYTU2Y2E5MWNmMzdkOWZlZjE4YTg4ZjY0ZWQ5N2EzMTgwMTUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L369-L369",
+          "version": "repo-lines-v1:sha256:3a2702d7af025813599697023d932170a356cb0f36efe5e281388991ce3493ab:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2EyNzAyZDdhZjAyNTgxMzU5OTY5NzAyM2Q5MzIxNzBhMzU2Y2IwZjM2ZWZlNWUyODEzODg5OTFjZTM0OTNhYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2EyNzAyZDdhZjAyNTgxMzU5OTY5NzAyM2Q5MzIxNzBhMzU2Y2IwZjM2ZWZlNWUyODEzODg5OTFjZTM0OTNhYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAwYTZmN2ZlMTljNjdjMzQ1YTJmMGQwYWZkZjMwMzgzYjBkNWI0MzJhOWVhMGNhNTVhNDA0OWM1MTFiZGFiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY2NDllMTI0MWMyMTk3MjExMTg1ZmM4NGJjZmUyNGQ0M2JjM2Y2ZWI0MjRlZWMyOWE1ZmQ4MmRlYzA0YjEyZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_88f2f54fa6aa4044b45747e267b608cf",
+      "statement": "The 2025 Standardized RWA flow statement moves credit RWA from 581,300 to 598,600 and market risk RWA from 52,600 to 54,200, for a total increase of 18,900 driven mainly by loan and commitment growth (+14,200) and counterparty exposure (+3,100), with Card the largest credit contributor.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L151-L151",
+          "version": "repo-lines-v1:sha256:d8ba02dd063c1b1be59224af8463b0115685234e5ba97ab28d1d3bcd528f443b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDhiYTAyZGQwNjNjMWIxYmU1OTIyNGFmODQ2M2IwMTE1Njg1MjM0ZTViYTk3YWIyOGQxZDNiY2Q1MjhmNDQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDhiYTAyZGQwNjNjMWIxYmU1OTIyNGFmODQ2M2IwMTE1Njg1MjM0ZTViYTk3YWIyOGQxZDNiY2Q1MjhmNDQzYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTRmNjg4MzhhY2FjYmIzZGE1Nzk3YjA0MjRhMzRlNDkwZjg1OWY3ZGY2M2JjMGQ2MjEyNTNiM2JmZmE5MWEyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTQ5OWMwMDg4ZTNmYzEzOTFiNTA5NThjMmEyNjhmMThhMDU2NTU4ZjdjMDVmZjg5M2MwZTJjYjVhMWYzZDEyOCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L155-L168",
+          "version": "repo-lines-v1:sha256:a7aae6395cda87026aa43bbfe1cc606400037f112eac3c2532ba2259019df0ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkMDhkYjBjYTdmM2YzZDYyNGEzYzIwZTRlMWI3YTk1N2ExNGJhYjhiMzdkOTkwNTU5YWE3MzFmODI5ZjFjNWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ZGI2N2E4ZTc3M2YwYWRhZTNhYTM0ZjYxNTIxODJlNzAyNWZhM2EyNWY3Y2JkODFjZjkxMTk5ZDk4MzMzYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE0OTljMDA4OGUzZmMxMzkxYjUwOTU4YzJhMjY4ZjE4YTA1NjU1OGY3YzA1ZmY4OTNjMGUyY2I1YTFmM2QxMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiY2U2YTMxNmVkZDA0ZjRjMDNiZGUyMDlhOTc2MzZmMmQyNjdjYTdmNTIyMWI2NWQ5MGUyZDE0NDZhMGU1ZDEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a88f92acc64f428fb29e13b7b345dcb1",
+      "statement": "Reported Standardized RWA was 633,900 at end 2024, 652,800 at end 2025, 661,000 at 1Q26 and 668,400 at 2Q26 (+1.1% quarter over quarter); the 2Q26 flat CET1 ratio is attributed to earnings offset by distributions and RWA growth.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L285-L297",
+          "version": "repo-lines-v1:sha256:708be7d6edac02b0affbf9e106f847b6f037081ebaa6129a2034652c0cd4b23b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkZmM0YTc5NWE5MjhkNTgwZjc0MTVkOTJjM2UwY2Q1ODRkOTI5NmU5M2YxMzhlNWEyNjQxYmY3NjFhZDgwMDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlZjY0Y2ZhN2IyZmZjMDU3MjRhYWVmNmQyYzRjMTZiZTYxODZlOTQ5YjFjY2I2YmIyNTVjNmQ1YzI2NzA4ZjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlYmYzZmQwNjUyOGJmNGI4YTViYjJhMmJiYTViYjQxN2I5OWNhMzdjODAwMDVlNDNkYjdkYTg5YTg0MjFhNDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZhY2Q2YjE2NmZhOGJkYTA2OWE2NWJkZWQ1NGNmZDY4NDZhNDg3NzkyMzlhMDFkZDYyN2E1YWI4YmM4MTUwNGEifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L101-L109",
+          "version": "repo-lines-v1:sha256:422f3077c5d301874acb9dd88d59843038c9e5218976e290143a4ea7579b56ac:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWEyNDc0Yjg5NmQ3MTYzMzUyNjAyNzZjNTBkYjgzYWFiMTg5ZmYzZjk3YWE0MzExOTRlZmRiYjJmYzhhZmVkYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODc2NWZjZDA0NDJhMTZjNmQ0YzhhYmRmZWRhZmZiMTk3NzUxNzdlZDU4Y2UwZGZiMzk0MTExZDdiZTM2NDgzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmEwYjRjNjI3MGI4YmIzODM4NDRjNDdlNmI1NWFhNTYwNmU2ZWQzYjM2ZWZhYjYwYmNiZmZlZTJlNTEzNTAxYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTFmYzYxNmMwZDlkYzRiNmM0ZDFjYWRhMjVhMzUyMTNmNTVlMjc1NDgxYjNlYTcwZjU3YTE2MjdjNWJkMjAyYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L79-L79",
+          "version": "repo-lines-v1:sha256:1b0f915d39c6f10a644ae6b22e25a25e9499d1df83a8475d9f8f386531e34234:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWIwZjkxNWQzOWM2ZjEwYTY0NGFlNmIyMmUyNWEyNWU5NDk5ZDFkZjgzYTg0NzVkOWY4ZjM4NjUzMWUzNDIzNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWIwZjkxNWQzOWM2ZjEwYTY0NGFlNmIyMmUyNWEyNWU5NDk5ZDFkZjgzYTg0NzVkOWY4ZjM4NjUzMWUzNDIzNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2ViOTVmMTgwZjg4ZTkxZjViMmUwYjI2MWNiY2Q5MTNkMGUyNTEyMDVhMzg4ZDY4MWM5ODVkZDBmNDllYzVlMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjRlYzg3YTkxMTQwMzkzOTIyOTIwODYzNWFlZDk4MDAzYjJhYWRkZmIzNDBhOTA3YzZjODhjYWRmNTFlMzE3ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0b64450e66f245218678ca38776b3b10",
+      "statement": "The Regulatory Reporting API (API-16) is the governed, general-ledger-reconciled source of RWA and capital (endpoints /rwa/{asOf} and /capital/{asOf}), restricted to internal consumers with regulatory:read scope, with quarter-end data locked by day 25; it feeds the MDL-CAP-003 starting CET1 and RWA, FR Y-9C/FFIEC 101 filings and Pillar 3.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L4-L54",
+          "version": "repo-lines-v1:sha256:d43e2950063ff3fbc638c01aacb5b517136fde3706f4b8e1766e28c786d4c16c:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlYTI1YTY3NmViNWIxNWYyNzc1OWM1YTI0Mzk5NWQ0Yjk2MDcxYTEwNjJiMjBiYTkwNzM4Y2EzY2I2MTAxYzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdiNjZjY2RhNDQwZDIwZjNhZmM0MGRhMTU0OGY3NGFkMzBlNDU0YzJjMTA3MDFhNjdmMDIzY2VkNzdmYzM5OWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhNzY0Yjc3OTJlMTM5ZjBhNDI5OTEyZDJkY2E2NWY2ZDE3M2Y2ZGIxZTVkN2EyNzE3NjBiMWZiZmNhODhmOWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhMmYyNTkxYWNlYWUzNjY2YzI1NzIwOTYyN2VjMzkwN2I0NjU5N2QxMTg2YzUzMmUxMmU5ODkwYzNiMWRmNzcifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L45-L45",
+          "version": "repo-lines-v1:sha256:381f56f0caadbe31051c20b40ba87de0f616527e93b57786c7cf3fdcc7ec031e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgxZjU2ZjBjYWFkYmUzMTA1MWMyMGI0MGJhODdkZTBmNjE2NTI3ZTkzYjU3Nzg2YzdjZjNmZGNjN2VjMDMxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgxZjU2ZjBjYWFkYmUzMTA1MWMyMGI0MGJhODdkZTBmNjE2NTI3ZTkzYjU3Nzg2YzdjZjNmZGNjN2VjMDMxZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2YwYjdmNjNmYzI2ODcxZWVhYzYxY2MwZTFlMTQ2MTllOGY0OTg2MDYxN2UwMzVkMGY0ZmM5ZWUwYTdhNzljZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTNmOGQ2NmNhNTA2OTNjZWM1ZDVjMzk1ZjZkYzliY2EyZjRkYzZlNTY1OGQ4ZDdmNzg5ZDM5YjBmNjVlNjEzMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9e3832fda4ff427683987a5035a74685",
+      "statement": "Credit risk parameters (PD, LGD, EAD) for Advanced approaches RWA are served through the Credit Risk Scoring API (API-10) as through-the-cycle estimates with regulatory floors, while market risk RWA inputs come from the Market Data API and FX Rates API.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L151-L151",
+          "version": "repo-lines-v1:sha256:d8ba02dd063c1b1be59224af8463b0115685234e5ba97ab28d1d3bcd528f443b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDhiYTAyZGQwNjNjMWIxYmU1OTIyNGFmODQ2M2IwMTE1Njg1MjM0ZTViYTk3YWIyOGQxZDNiY2Q1MjhmNDQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDhiYTAyZGQwNjNjMWIxYmU1OTIyNGFmODQ2M2IwMTE1Njg1MjM0ZTViYTk3YWIyOGQxZDNiY2Q1MjhmNDQzYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTRmNjg4MzhhY2FjYmIzZGE1Nzk3YjA0MjRhMzRlNDkwZjg1OWY3ZGY2M2JjMGQ2MjEyNTNiM2JmZmE5MWEyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTQ5OWMwMDg4ZTNmYzEzOTFiNTA5NThjMmEyNjhmMThhMDU2NTU4ZjdjMDVmZjg5M2MwZTJjYjVhMWYzZDEyOCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L283-L283",
+          "version": "repo-lines-v1:sha256:da64c3acc934b052164becea3069b8cc50f50485da5c727dba28f2cbe6a45b9a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2NGMzYWNjOTM0YjA1MjE2NGJlY2VhMzA2OWI4Y2M1MGY1MDQ4NWRhNWM3MjdkYmEyOGYyY2JlNmE0NWI5YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2NGMzYWNjOTM0YjA1MjE2NGJlY2VhMzA2OWI4Y2M1MGY1MDQ4NWRhNWM3MjdkYmEyOGYyY2JlNmE0NWI5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDhiZjY4MjMzYjhjN2Q1YjI0MTRlMmMwNGRkYjU0NDg3NmZkNjZkZDFjZmFlOWRkMjAxODgyZjQ3YmFlNTEwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGNkN2Q0NmVlZWZlYWJjNDhhOWJkMGRiN2FmOGQ3ZWE0MDRmMmM5ZjU2NjIzY2IxMjhjYmE3MWFhMTk4ZWVlZSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L346",
+          "version": "repo-lines-v1:sha256:ece883d5df930fff747b6dd1b69f170c6f9f45a16d06a5fab0ffd6112629d85b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI0YjYyZWFjNWIwMmI2NjY1YmUxYzBhMWQ1NmFlNzE5ZGYxN2JlNTNiZTlhMTExYjkyZjYyOGVhYzYwZGI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkMGFkNWYwYmZmZjVlZTZlMjcxNmI3ZmNjNTY1NDY0MzMxMzZmMmY3NWMwZjQ2ZTFlYzc0ODE5ZDgwZGY5ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8979fcf171b14c37a704e5e2d0334a87",
+      "statement": "MDL-CAP-003 projects only total Standardized RWA over nine quarters via RWA(t)=RWA(t-1)x(1+quarterly growth) from the 668,400 starting value (API-16), using a flat 1.0% quarterly growth in the baseline and a scenario growth path of +2.2%, +1.5%, +0.8%, +0.4%, 0%, -0.2%, -0.4%, -0.4%, -0.4% under severely adverse, yielding 731,019 (baseline) and 691,920 (stress) at Q3 2028; the stress path peaks at 701,694.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L128-L128",
+          "version": "repo-lines-v1:sha256:6e3cb0ce66fb45e2c5c5882d6080d562f4fbeb13ba4629819a26c74cc30026f7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmUzY2IwY2U2NmZiNDVlMmM1YzU4ODJkNjA4MGQ1NjJmNGZiZWIxM2JhNDYyOTgxOWEyNmM3NGNjMzAwMjZmNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmUzY2IwY2U2NmZiNDVlMmM1YzU4ODJkNjA4MGQ1NjJmNGZiZWIxM2JhNDYyOTgxOWEyNmM3NGNjMzAwMjZmNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODU0NjgwOGMzMmQwMWNlNzQ4ZGU2NjlmZGEwYTJiMzA0MjMxYmFiMzkxNWExYTBjMGRhODcyZDdlMzJmOTRhNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzQ2YjEwYzg5NjUyZDIzMjc1ZWQ4MzQ4MWZlNWZjOWU3ZTE5MjI4M2VjY2MwMmI0NjRmM2VmYTU3MjE2Y2ViNiJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L159-L160",
+          "version": "repo-lines-v1:sha256:5dec8456f4fefe667d89f239670d08b009facb62478cd2bf142d6086aac8050b:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTE2OGI4YmI2M2VjMTA0YTk4NjI3NGM0YTAwMDkyMGZkMjc4MDNhOTg3ZThmMzViYjM3Y2M5ODUwNzMwNzhjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTljOWE3OGY1MmIwZDRkZGIyMDczMmU4YWJmZDQwZjU5MWU1NzFhMDNhMTcxNTNmYzllZTU0ODlmOWVlNTM3YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIxMjQ1Yjc0NjA0MjhhYzliN2I1YWZhYTNkMzkyZjhkYzBkY2U2MWZhZWMyZjUxMTU2NDQ5NDk0MGU2M2QwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTFmOGQ5YjY5NWQ0YTA1MGVlYjNlMTlmYTY4MGQwMjllYTM3YTkwMDg0ZGMwODNhNGE0YmFjYmM4NzZkNWZjNCJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L313-L314",
+          "version": "repo-lines-v1:sha256:4bf10c7d5ce3a3784deb46764e9fc583905fe87337d0be8ee56f657610e8d30e:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2JjZWViMDVjZWE2NDBhMzI5NjIwNWUwNDkwOGY5YzA4NzJlZWIyYWYwNDkxZWU0MzkzMGY0ZDgwNGFiMjA4NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGNmNTQzMzA2NDBhMmVkYzRjMzdhNWQ4YzBjNzdlMDAyY2IxOTViZGE4MjYxYzNlZjliZjY4MTY3OWRmZDdiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2U4OWY1ZjExMDc4ZDcxY2U2YjI2MDE3ZmY4ZTQ2NmQyZmU3NDJjODAxMWYzMTJmODE1MzYxYzgyYTVlMjgwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjI4NDI4MmI5MTYyYzZhYmJkNGI2N2U0MGNiYjZjMTk5YmMyZjJhMjU4ZTQxOGExYzExN2NmNGRiYjhhMDExYSJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L39-L39",
+          "version": "repo-lines-v1:sha256:2c5425c98677d0fba39072fc8226839c4697dbb7662e7c6d0b561b57c6221c6b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmM1NDI1Yzk4Njc3ZDBmYmEzOTA3MmZjODIyNjgzOWM0Njk3ZGJiNzY2MmU3YzZkMGI1NjFiNTdjNjIyMWM2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmM1NDI1Yzk4Njc3ZDBmYmEzOTA3MmZjODIyNjgzOWM0Njk3ZGJiNzY2MmU3YzZkMGI1NjFiNTdjNjIyMWM2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmZmMzRlOTIxMjcyMTUzOTQzMDRlN2QwMTQ0NjNjMzRiOWU3YjJlYWVmOGEyZTFjODdmZTI0ZGE5ODFmOWYxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjg0NjA3YTExYzU1ZDVmZTgwZDg5M2U4OGY5ZDIxNDNhMTg5OTFlZGNhNmEyYWZhNTg3NGEyZWU3MTNjOGY5YiJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L397-L406",
+          "version": "repo-lines-v1:sha256:e3a27d261336281b068110618113b48317d86e349be466c677250ad864abb53c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxMmQzOTQ0ZTk4MWQxOTRmNTk3NWU1NmVlYjVhY2M5MDIxNGM0MjA4YmVhNjE0ODg2NDk3M2RhNGMyZmRkODUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYyMmFhMGZiNzM4NTE3YzU4ZDg0MzU2YTllMDg1Y2UyNzI1NWU5ZGRjNmMwNTY4YjkwMzlkOWU3ZGQxMTU4ZDgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1OGJkZTE1ZGQ4N2E2MGQ0ZDVkZTBkOGEzZDhmODMwY2RiODQyOWU0ODM5ZDBkMmNmNThjMDExNzk1YzAyOWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM4OWI0NTRkMjNlMGUxYjE3YTdhMjM2N2Q0NGJlZjYwNjBjZDQ4YzBhZjNmZTlmZGQ5NDAzYjNmZGU4Y2VhMzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_18ccd8f88de84a658d92715b068605aa",
+      "statement": "In the capital planning model, projected RWA is the denominator of the CET1 ratio (guarded to return 0 when RWA is 0), drives dollar headroom against the 13.0% management target and 10.2% requirement, and the indicative SCB uses four quarters of dividends divided by starting RWA (0.94%) plus the 2.24% peak-to-trough decline, floored at 2.5%, giving 3.18%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L253-L262",
+          "version": "repo-lines-v1:sha256:0eda5b433009dd5df9424e7e8c2ffae1c63fdee37ec39b4564cbad6f9a362191:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzZWUwZWMxMTRiMjE1NmNjMzUxZGE4OTdlMTk1YjM2ZWFiZDQ2OWVjMjkyYWRmNzY0OGQwMTc4N2QxNGY2MjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlmN2U2MzU4OTg1MzQ5ZDhmMGYyZjE4ZjQ3MTE5Y2Q2MTllN2UyZWJmMTdjNWYzM2RkNTU0NGRiZjA3MjIzZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQyNmJmMTY5NTQ0OWQwYjVhMTkwOGI1MDU3MjJiZmJlMWU5MjI2NDIwMzliNDg3ZWI1YWI1OGMyYTYwN2Q4NzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwYTk2OGNmODA5YWU1MGZjZDBiYjg4YzcyZGI5MDM2YjY1ZTg4MzYxZTI4N2YyZjk4YTVkNzUyZjM0ZDIzNGMifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L427-L444",
+          "version": "repo-lines-v1:sha256:ef2378e0bfb052f81684d6723ecebb46cb7bf897b4faa13dbab34bebe1428ec9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3NmZkNzBmZTVmMDA1MWE3NTNjOWM4Njk5N2VlOGZiNjg4NzVhMjA5ZjFmOTcyYTUxNTlmZTI4OGRiZDA3NzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRkMDMxOTM5YjJiZWUzODE3YzdlNTgwNThjNDlhMWM1OWI3NGI5YzA4NDRkYzVlNjE4MDIxNThiMDA0ZDZhYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhiNTUzMGI2MTRhM2QyZTk5ZTdlM2MyYmUzMDk4NTY0YzM4MDIyZDUwMmI1ODViODZhYWY5NjkxOTBiMzQ1ODYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU0YTRhODliNWZlODYzOGY2YTlkOWRiZDYwYjc0YzI0ZDkyMDVmYTEyMGNjMmRiNjk3MzA2NDg3OGQ0NmU3MDgifQ"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L69-L108",
+          "version": "repo-lines-v1:sha256:d67de033af9b6f508fa93023fa700748eb2d4fe7694846818f8b37d94f2bf0b7:eyJzZWxlY3RlZExpbmVDb3VudCI6NDAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgzOTc3MWEyOGNiOTkzZmZjMWU5N2VhYTU0OGVhN2E1YTBhMmVjOTNlMjk2ZWNlOWRkZmRjNDkwZTkxZTUxNDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZmUxMjFiMDljNmNhNzgyZTg4MmYzZWFhOTA4ODM4ODZjZjQ4NTZkOGFlZTE1N2ZmZDE1NjJkMGE0ODVhY2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwZjk0ZjlmNTc1NmY3MjIwOTJjMmJjNTc2OWJmMzBhNGM4OTJlZTRhMjg1YmJmMmY5NGIyNmVkNTBkY2Q1YjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBiNWJlZGQ2MGJjYTY5MTFkZDQxOTBjY2RhMmJlNjc3NTRiM2M2MzZkZjU4ZWFjNzFkOTRlOTQ4MWRjYjdiYTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_33b89503e1364e9baa2f36f500665bd5",
+      "statement": "Under the severely adverse scenario the minimum CET1 ratio is 12.90% in Q3 2027, headroom to the 13.0% target is negative from Q2 2027 through Q4 2027 while headroom to the 10.2% requirement stays positive, and the stress RWA path reflects increased commitment draws and higher counterparty exposure early in the scenario.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L312-L318",
+          "version": "repo-lines-v1:sha256:53ef21be21e43cd26f68f602266520c4778f6053b203cd8946350c00be63dd72:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWMxZGY1YzUxYWU2NTM5NDEzYmM1MThiNjUyMjNkYThlMTExMzdkYzVkNDFjNjdhNTcyMjU2NTA5OWRkNTRlYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDVmODJmNDA3NGFlOWRlYmFlZjkwMWIzZWVmNTg1MGI1MzJhMTg4MDY5ZjdjZjczMTk0ZThlZmMyZDUwNDkxOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVhZjc0YjI5Mzc0MjU4YmVhNGY3NGIzMTBlZTA1MzM1NWJkYWNjMDAyN2M3OGQ5ZTBhMDE1MzEyNjMyZWM4NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDEwYjg4Njg5MTc0NmZiYWRlMTI2MDg5NjVlZTJmMTJhZjNkN2JkZTc0NjI5NDdjNTI4NmVjZDIyMjgyY2QzMiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L447-L447",
+          "version": "repo-lines-v1:sha256:7f1ceee8f88bfe0b3a2e9f36cd7d34f65a34e6e878fdbf944d54ddc73eed5d66:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxY2VlZThmODhiZmUwYjNhMmU5ZjM2Y2Q3ZDM0ZjY1YTM0ZTZlODc4ZmRiZjk0NGQ1NGRkYzczZWVkNWQ2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxY2VlZThmODhiZmUwYjNhMmU5ZjM2Y2Q3ZDM0ZjY1YTM0ZTZlODc4ZmRiZjk0NGQ1NGRkYzczZWVkNWQ2NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2VmZWMzZGIwN2JmOTVhYThiY2JiNDgzN2JiNWU2YmUwMDllNGFlMTI2YzQ5ZmY1MWI4NzAwNGM5MGNkZGYyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmQyNjQ5OTM1ZDdjNzVhYmQ0ZDYxYTQ5NmE5ZTk3NjhjYmU1MjFmNDlmNTc4ZGFiNWY0MjFjYTJhODFhZTlkZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e52dc261b058444cbe0cc5366a625a63",
+      "statement": "Stress losses in MDL-CAP-003 are top-down inputs from the enterprise stress testing program and the RWA path is a separate scenario input; the model is simplified (no AOCI volatility or DTA threshold deductions), is Tier 1 validated by MRGR (last 2026-02-27, next 2027-02-28), is re-run each quarter, and a breaking change to an upstream API opens a model change review.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L15-L22",
+          "version": "repo-lines-v1:sha256:f2ef75a156a91c2179b95a270b736197d7210fa6a60a2b4276e83c0edf6d40a3:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGNmZDQwOTg0ZWM5NzE4ZGVkMDAzZGUyYzk0NjJiZGNhYmE1MjJjNGU1NWMyODgyMzhmNmUwNGRkOWU3ZWIyMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU5Y2EzNjNjNzM4MmQ4YWYwYzRjYzU5NjIxNjhmNjliMzUwOTQ1MmIyMzgxYTdkOTI1NzM0YmVkMWQ2YjM1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2UxMjExMDkxN2RhNWU1Y2JmNzg1NDgyZmIyZGI2MDYxOWExYTdkYjg4NzIyNjdiZTM2MTIwZTZiODU1NTZiYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2U3Y2RlMDM3OWY5NDZhNTAxNTA1MTM2N2JiMGVmMWI0NmE3YTQyYzQyNTJiYzAzNGMyYTNjNjE4M2EyNmQ4MyJ9"
+        },
+        {
+          "resource": "repo://sources/models/capital-planning-model.md#L56-L60",
+          "version": "repo-lines-v1:sha256:bb4d9655d2159223d4fbbc6a66c40eeac81b0271c1ca714e0275c9fb29745300:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y3YmI1NDdiZThiNGRiZjE2NjUyMDM3MDMyYWFjNTU5NmI2ODIxOWIxNTMzMjUyZTA5ZjJiZDA0NGVmNDljNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDVhN2UxMzBkZTAzNGQ2ZTRiYzZkNjJkMTdkMWFkYThhNWU5MTliZWViYTUyMmQxYWNlOWNmNmI2MmMwN2IyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzJlZTJkYjY1NzI3NWYxMWExMWNhYTg0NDg2NDg1YmRkOTY5NDE0YmViNWJlZmU2MWQ0NDlhMjEzOWY5YTkyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTA3NmI2MTc3NzAxOTc4NzVmZTVjMzM2YWE5MzdiNmJmMTUxMTkxMDdjYjhhOGM3YWQ4YWI2ZmM0YTNmYjBkNSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L307-L307",
+          "version": "repo-lines-v1:sha256:1abc0f20400086c6700d8ea190bdb7410a5fc7d61dfa526d3c4df52b59aab4ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFiYzBmMjA0MDAwODZjNjcwMGQ4ZWExOTBiZGI3NDEwYTVmYzdkNjFkZmE1MjZkM2M0ZGY1MmI1OWFhYjRiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2FhNDY2NDU2ODljNGJkNmRlZmMxODM0OTQ0NDA0ZWM5NDcwMjYxNDQ4MGRjMTIxMzIyYzYzMjkzMzM0NmY0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODBjMWM0NTdhYTkyMDBjMjYyNGUwNjhkNTc3YThhNmNhOTMwOTBjM2NjNGRlZDUxMjdjMGVkZmRlNjQ1Mzg4NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L474-L474",
+          "version": "repo-lines-v1:sha256:709db2244c09bbb527daa179485959115867aa91d79b837cfaf76b3c04773ef5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA5ZGIyMjQ0YzA5YmJiNTI3ZGFhMTc5NDg1OTU5MTE1ODY3YWE5MWQ3OWI4MzdjZmFmNzZiM2MwNDc3M2VmNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA5ZGIyMjQ0YzA5YmJiNTI3ZGFhMTc5NDg1OTU5MTE1ODY3YWE5MWQ3OWI4MzdjZmFmNzZiM2MwNDc3M2VmNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTc1MDMwNTI1MWExM2YyYTA2OWViZTc0ZjAwNjNjNjI2YTA3MmE4YzZmZGU5NDMxYTAwNDVhNTAxNTA5ZTczOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWUyZGY2NmVhYzA2MjU0YjIxMzQ4OGY5NWYzNjU4YWM1YmY0ZDA2ODdmMDI3ZTNkNWU2YjVlNDAyODUxYjM1NiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

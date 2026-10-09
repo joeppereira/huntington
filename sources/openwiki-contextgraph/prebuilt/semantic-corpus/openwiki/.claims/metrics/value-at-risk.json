@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f71c5f8d403cb310642814191e6affb21595b849bfaf8374b1b4423aae8884c3",
+  "claims": [
+    {
+      "id": "claim_fde9470b1b144287b46b87414cfab109",
+      "statement": "MHFC reports management VaR at 95% confidence over one day: 2025 average total VaR was 50 million (2024: 51), with a 2025 range of 37 to 71, broken down by fixed income, FX, equities, commodities and credit portfolio with a (31) diversification benefit.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L393-L409",
+          "version": "repo-lines-v1:sha256:cc86d56b6dfc23b49effd2caa57a42059a3bedccc82042831c15f90d8290e20f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgyYjYyMzgwMTQwM2JiZGZlOTFkYjlhYmFjYjhkYWE0NzY5NzQ3NjhkMmRlYjQ4ZWQ5NGU4ZjcxNDhkNDM3MzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY5MzJlOTg0ZTlhNjVhNzk4Mzc2OTVjMjg1OWIwMTdjODA2YjczYzZkNjQzYTJhYjUxNDhiMDFjMjNjNjRmMjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJlNDgzYzFiMDk2ZWMwNjkzODQ4ZjJlMDNiY2I0YmFiNDNjOTA1YWY0YWM5MmUzNDlkY2M5NWVmNDEzNzJmOTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE2MmU1NmFmOTNjOTc4N2MwZWY1YzMxMmRkZjA2MjgwMzYxZTg1ZWIyZTkwMmQxM2RlYzFjNDk5ZmUyMGYxZDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_77bcf3028d9f46c8af5f587101f2e0a8",
+      "statement": "The management VaR is calculated using historical simulation over a one-year look-back.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L409-L409",
+          "version": "repo-lines-v1:sha256:6932e984e9a65a79837695c2859b017c806b73c6d643a2ab5148b01c23c64f29:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjkzMmU5ODRlOWE2NWE3OTgzNzY5NWMyODU5YjAxN2M4MDZiNzNjNmQ2NDNhMmFiNTE0OGIwMWMyM2M2NGYyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjkzMmU5ODRlOWE2NWE3OTgzNzY5NWMyODU5YjAxN2M4MDZiNzNjNmQ2NDNhMmFiNTE0OGIwMWMyM2M2NGYyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWFkODYwMWY2YjYyNzhiMTRiOTZhMTU2YzAxOWI4OWY2ZThjY2E0NDg2NjRiMzg0MzM3YTBjZDBiNDBiOWJkOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYyZTU2YWY5M2M5Nzg3YzBlZjVjMzEyZGRmMDYyODAzNjFlODVlYjJlOTAyZDEzZGVjMWM0OTlmZTIwZjFkOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b06abd74f0b846eab264ba9b65ec1ebb",
+      "statement": "Regulatory VaR is measured at 99% over 10 days: 2025 average total 160 million, min 118, max 231, period end 149, by interest rate, credit spread, equity, FX and commodity factors with a (132) average diversification benefit; interest rate is the largest factor.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L344-L363",
+          "version": "repo-lines-v1:sha256:fb66702cc59e1b69d695b7bed5e49e3e9fe3c2a245765540be26990b4bc2d378:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkY2YyN2E4MWQ4YmZmMDA5MGE5ZjEwNzcwZDViZmJmZjhmOTA3MDRlMTQ0NWRiYjA1NjcwMWI4NmI3OTM0NzUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhOThjYmUxNjQwNzZhNWU0ZmZkYmFlODBkNTQzZjkzZWM5OGVmNDMwMjBkNjY5YWVjZTRjMmEzY2NiYWRiNjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjgwYzFjNDU3YWE5MjAwYzI2MjRlMDY4ZDU3N2E4YTZjYTkzMDkwYzNjYzRkZWQ1MTI3YzBlZGZkZTY0NTM4ODciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1MDBlZjc3YzFhNGE1MDhhOTI0NDQ2YWI2MWNiNjc5ZjA5NmY1NTc5NWM3NWYwOThlYjE3NjI0YzA3ZmMxM2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9d957b32f622425bab65f1452e98d725",
+      "statement": "Regulatory VaR (11,400) and stressed VaR (21,900), each multiplied by a regulatory multiplier, are components of 54,200 million market-risk RWA at 31 Dec 2025 alongside IRC, CRM and standardized specific risk; the 2025 rise is attributed to higher stressed VaR in rates trading in Q2.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L168-L168",
+          "version": "repo-lines-v1:sha256:a7db67a8e773f0adae3aa34f6152182e7025fa3a25f7cbd81cf91199d98333b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdkYjY3YThlNzczZjBhZGFlM2FhMzRmNjE1MjE4MmU3MDI1ZmEzYTI1ZjdjYmQ4MWNmOTExOTlkOTgzMzNiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTdkYjY3YThlNzczZjBhZGFlM2FhMzRmNjE1MjE4MmU3MDI1ZmEzYTI1ZjdjYmQ4MWNmOTExOTlkOTgzMzNiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmI2ZDQxNzNmNDZlY2VmZjE0MzU5MDg4MGUxNGE1MTViZjVhOWMzZDZlNWFkNzc5ZWE1ZDkxYTg2YTUyMzMwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJjZTZhMzE2ZWRkMDRmNGMwM2JkZTIwOWE5NzYzNmYyZDI2N2NhN2Y1MjIxYjY1ZDkwZTJkMTQ0NmEwZTVkMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L355",
+          "version": "repo-lines-v1:sha256:e65d0e809e6ca711fcfc0c42420164b959e389d8003f15ca48b4fd7284581e02:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjZTg4M2Q1ZGY5MzBmZmY3NDdiNmRkMWI2OWYxNzBjNmY5ZjQ1YTE2ZDA2YTVmYWIwZmZkNjExMjYyOWQ4NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4OGMxYTllNGY2OWMzMzEyMDVmMWE3OWZlNTRlYTE4NDQ5NjgwMWE1ZGIwMWU5ZjlhNmIzZjIzNjM1NjI4ZTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUyNGI2MmVhYzViMDJiNjY2NWJlMWMwYTFkNTZhZTcxOWRmMTdiZTUzYmU5YTExMWI5MmY2MjhlYWM2MGRiNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRmMjA1N2RiM2EwNWI2NGI2OTQ2MjhmY2Y4OWZiZDIxMjE4ODJhZmU1ZGNmNWE2Nzg5Y2Q5OWEyYjYxMDQ0OGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_db9968eceddf4f138b719f25da5fd9e7",
+      "statement": "Backtesting compares daily trading results with the prior day's 1-day 99% VaR; Pillar 3 reports 2 firmwide exceptions in 2025, below the threshold of five that would raise the regulatory multiplier above 3.0, while the Annual Report cites 3 exceptions in 2025 as within the expected range.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L409-L409",
+          "version": "repo-lines-v1:sha256:6932e984e9a65a79837695c2859b017c806b73c6d643a2ab5148b01c23c64f29:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjkzMmU5ODRlOWE2NWE3OTgzNzY5NWMyODU5YjAxN2M4MDZiNzNjNmQ2NDNhMmFiNTE0OGIwMWMyM2M2NGYyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjkzMmU5ODRlOWE2NWE3OTgzNzY5NWMyODU5YjAxN2M4MDZiNzNjNmQ2NDNhMmFiNTE0OGIwMWMyM2M2NGYyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWFkODYwMWY2YjYyNzhiMTRiOTZhMTU2YzAxOWI4OWY2ZThjY2E0NDg2NjRiMzg0MzM3YTBjZDBiNDBiOWJkOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTYyZTU2YWY5M2M5Nzg3YzBlZjVjMzEyZGRmMDYyODAzNjFlODVlYjJlOTAyZDEzZGVjMWM0OTlmZTIwZjFkOCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L365-L365",
+          "version": "repo-lines-v1:sha256:96066ef87ace3a7739c68aaf0dfe378632546d7d7d58f74c8514294c855d700a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTYwNjZlZjg3YWNlM2E3NzM5YzY4YWFmMGRmZTM3ODYzMjU0NmQ3ZDdkNThmNzRjODUxNDI5NGM4NTVkNzAwYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTYwNjZlZjg3YWNlM2E3NzM5YzY4YWFmMGRmZTM3ODYzMjU0NmQ3ZDdkNThmNzRjODUxNDI5NGM4NTVkNzAwYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGJhYmU2MjliYzUzODg5MWU3Yjg3NmM3ZTljZTcwZjFmYzMwZTNkMmRmOWVkZTI0ZTYzMjczMzMzNjAxYWYyMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjAwYTZmN2ZlMTljNjdjMzQ1YTJmMGQwYWZkZjMwMzgzYjBkNWI0MzJhOWVhMGNhNTVhNDA0OWM1MTFiZGFiZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d45f52a678f44f63aec435148bcd9b5e",
+      "statement": "VaR inputs (prices, curves, volatility surfaces, correlations, FX rates) come from Market Data API (API-12) and FX Rates API (API-13), which are BCBS 239 critical data elements validated independently by the Valuation Control Group; API-12 is the golden source for VaR.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-12-market-data-api.md",
+          "version": "repo-file-v1:sha256:b567daffbc7c17c73c2277bbd0c0798e8e8a9c1b5378c3626ef137e02a519410"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L397-L397",
+          "version": "repo-lines-v1:sha256:a2ea860e7a7147deacaf5fbc0261442539f6fe1a201ae10406cbae84044522ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2I5ODFjZWQxNTBiM2VlZDhjNmFlOGM1ZmJjYTBlZDBhNGJhNTg2ODY0NmUwN2Q5YWVlODNiNTlkMGI5MWY4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlOWQ4YWI3NDlkMDAzZTU1OTM2NDMxZGNmOWZjZWQyZGQ0M2VjNWIzZGY3ODg4NGVhODA3YzJjN2QxOThkNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L346",
+          "version": "repo-lines-v1:sha256:ece883d5df930fff747b6dd1b69f170c6f9f45a16d06a5fab0ffd6112629d85b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI0YjYyZWFjNWIwMmI2NjY1YmUxYzBhMWQ1NmFlNzE5ZGYxN2JlNTNiZTlhMTExYjkyZjYyOGVhYzYwZGI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkMGFkNWYwYmZmZjVlZTZlMjcxNmI3ZmNjNTY1NDY0MzMxMzZmMmY3NWMwZjQ2ZTFlYzc0ODE5ZDgwZGY5ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ffc9bad6792443b0ade5a7d878331d7d",
+      "statement": "Market Risk Management, part of the independent risk function, sets limits, monitors exposures and reports to the Board Risk Committee; VaR covers trading positions, while structural interest-rate risk is measured separately by the NII Sensitivity Model (MDL-ALM-014).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L395-L395",
+          "version": "repo-lines-v1:sha256:5ed8b00141578d6e442776192c64baa7ae0862fec616c424f1930ec4a1fdbc0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVkOGIwMDE0MTU3OGQ2ZTQ0Mjc3NjE5MmM2NGJhYTdhZTA4NjJmZWM2MTZjNDI0ZjE5MzBlYzRhMWZkYmMwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVkOGIwMDE0MTU3OGQ2ZTQ0Mjc3NjE5MmM2NGJhYTdhZTA4NjJmZWM2MTZjNDI0ZjE5MzBlYzRhMWZkYmMwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDBmMmJmZTA3YjIyYjVmMWNjMTQwN2Y5MGQ5YzkyNDA2NDlhZjQ3ZDgxMTIxOTY4ZGE0ZjY4ZjQxZWFhOWY4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmM1ZTU5OWUwNjc0MmY2YTQzYzNmYWRkYzI3MWFlYWQ5NTMzN2MwNzljYzFlYmM3ZmZmZDM1OWQwOTI4ZDljNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L411-L415",
+          "version": "repo-lines-v1:sha256:3023f01e47aaca450b194cefd0174d0a867e0bf3935c4c134ac75a10c1b729fa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzQyZDRlNDA2MzNiY2NhYzkyYWM0NmE3M2ZkMjM4NDRjNDk3MGNiOTMzNTRmN2FjMWQ1MzllNzkwYjgxYTcwNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGY5N2Q1MzljYTAzZGJmYmVlZGNjYzE4ZWQ0ZGUzMDgxMGExM2M5OTk2NDYxYmFhYWM4M2I3MDgxZDAxNGJjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDYyM2U0NjAxZjczOTdkYTI5OTFmNmRlYjAyMTM1YzI0YjIxMjMxMzU3MjgwMmIxNGE4NDVmMmJkOTBjY2YxOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDE3ZmIzNWIzOTBiYTQ5MjBiOTZiNWM3NTAxYWUyMDc2ODI2ZmMxZDg4ZjQwYTBiNGZkNzAxZmY4OGRiMzAyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f6519f95a1c64ac0aa1742dafac1019d",
+      "statement": "None of the three Tier 1 models that the Annual Report says directly drive disclosed amounts (MDL-ALM-014, MDL-CR-007, MDL-CAP-003) produces VaR; the sources assign no model ID or owner to the VaR calculation and only name a \"VaR engine\" as a downstream consumer of API-12 and API-13 data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-12-market-data-api.md#L50-L50",
+          "version": "repo-lines-v1:sha256:4d944e2bfed74e7e1c6ab2587411d9f265ef9da875f3ed709e6649008c01983e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ5NDRlMmJmZWQ3NGU3ZTFjNmFiMjU4NzQxMWQ5ZjI2NWVmOWRhODc1ZjNlZDcwOWU2NjQ5MDA4YzAxOTgzZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ5NDRlMmJmZWQ3NGU3ZTFjNmFiMjU4NzQxMWQ5ZjI2NWVmOWRhODc1ZjNlZDcwOWU2NjQ5MDA4YzAxOTgzZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L51-L51",
+          "version": "repo-lines-v1:sha256:d46508eddc641f7664ba90b5aa46506fd51bb81200f366493ba6b773ffb02481:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQ2NTA4ZWRkYzY0MWY3NjY0YmE5MGI1YWE0NjUwNmZkNTFiYjgxMjAwZjM2NjQ5M2JhNmI3NzNmZmIwMjQ4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQ2NTA4ZWRkYzY0MWY3NjY0YmE5MGI1YWE0NjUwNmZkNTFiYjgxMjAwZjM2NjQ5M2JhNmI3NzNmZmIwMjQ4MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L439-L451",
+          "version": "repo-lines-v1:sha256:a69b14895eb7aa991fbccb65cd703dfa470f562368949ae859015e98ccb4edaf:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyNTVkODQ5OTQ5ZTk0MzFmNGI1NjQ1NmJjNDcyM2FmYjNhODVhZTc5NmUwZGEwZjZhMWJlOTU4YjRiYTkwNjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwZTNjMDY2MzNkNmYxYjZlZDFhZGE1ZTJlODljOTY0ZTk4MmI4ZjZmZjZjNDBjM2ViNzdhZDY3M2NmODJmNzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzYTJmM2MyNDZkNTY4NzdiMjc4YmZmZmNhY2E4Y2Y0YWM2NWYxYTk4MDY5NjVkYmVjMjZkMGQ5YzhjNTM2MTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkzNGY3M2MxMGI4ZjhkZmQ1NGE5ZjI5YTc5YzQ3OTUyZmUyMTEyM2YwZTNjMDdiZmE3ODA0MjJmYzlhYzg2NjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1a0688a8e908418eb7d2d76813ebafb1",
+      "statement": "The sources publish VaR only as a firmwide measure; no reportable segment owns it, Market Risk Management in the independent risk function owns limits and monitoring, and no CIB-only or desk-level VaR figure is published.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L395-L409",
+          "version": "repo-lines-v1:sha256:3860fe351e2bbeaa86cae87040342c899e0bb3e693cddb53ec30ffc83813cd31:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVlZDhiMDAxNDE1NzhkNmU0NDI3NzYxOTJjNjRiYWE3YWUwODYyZmVjNjE2YzQyNGYxOTMwZWM0YTFmZGJjMGIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY5MzJlOTg0ZTlhNjVhNzk4Mzc2OTVjMjg1OWIwMTdjODA2YjczYzZkNjQzYTJhYjUxNDhiMDFjMjNjNjRmMjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwZjJiZmUwN2IyMmI1ZjFjYzE0MDdmOTBkOWM5MjQwNjQ5YWY0N2Q4MTEyMTk2OGRhNGY2OGY0MWVhYTlmODgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE2MmU1NmFmOTNjOTc4N2MwZWY1YzMxMmRkZjA2MjgwMzYxZTg1ZWIyZTkwMmQxM2RlYzFjNDk5ZmUyMGYxZDgifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L363",
+          "version": "repo-lines-v1:sha256:eb6e4f5592292b0937f479958dd71ab5c54acb12cc2c78f0bee1cad2fe46949a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVjZTg4M2Q1ZGY5MzBmZmY3NDdiNmRkMWI2OWYxNzBjNmY5ZjQ1YTE2ZDA2YTVmYWIwZmZkNjExMjYyOWQ4NWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhOThjYmUxNjQwNzZhNWU0ZmZkYmFlODBkNTQzZjkzZWM5OGVmNDMwMjBkNjY5YWVjZTRjMmEzY2NiYWRiNjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUyNGI2MmVhYzViMDJiNjY2NWJlMWMwYTFkNTZhZTcxOWRmMTdiZTUzYmU5YTExMWI5MmY2MjhlYWM2MGRiNTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1MDBlZjc3YzFhNGE1MDhhOTI0NDQ2YWI2MWNiNjc5ZjA5NmY1NTc5NWM3NWYwOThlYjE3NjI0YzA3ZmMxM2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_962b10280e8c4fcd90411efe4d7b2799",
+      "statement": "Market risk RWA of 54,200 is 8.3% of total Standardized RWA (652,800) and 8.8% of Advanced RWA (618,300), and the Standardized RWA flow attributes +1,600 to changes in market risk positions and model updates.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L139-L149",
+          "version": "repo-lines-v1:sha256:882315d54855ea584569055a05822a9ba9da6448b23420604db85f5dbdfa4de9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0NWEyNjIzOGY5YzliZjJkNTNjODI0ZjdmYzdiMzcxNGViY2I1YWU2YzAwOWE1NzU1MmI1NjkxYjc2NDRiYTciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0NjNjMjQwY2YxMmIyODE4Njc4MjBlYjkyMjY5OTcxODNlZjVjY2VkZGY5ZTA0ZGZkNDIyMGJmZDIxODM4YzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUwMDQ3YWM4NGNiYjliNDY4MDg4MjliMjM3NjA1MWYxZDVlNGY1NjE0Mzg5MmIwMmFmNDcwMjJlMjkyOWI0ODAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlZGIwNDE5ZmE1NjU2ZGVmMjU5ZjMwZWNiMjAwYTU2Y2E5MWNmMzdkOWZlZjE4YTg4ZjY0ZWQ5N2EzMTgwMTUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L157-L168",
+          "version": "repo-lines-v1:sha256:a0b4fcfc2fff7703dba2bed85c7896b62bf9e5481646cdcf45404779cee50758:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNkNWYyMjE4ZjVmNzcwMmFkZTAwYzMyOWEwZTEwOGMzZTA5ZDA4YTljYzgwODA4M2VkYTQzNTFhNWNkN2U0NmQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3ZGI2N2E4ZTc3M2YwYWRhZTNhYTM0ZjYxNTIxODJlNzAyNWZhM2EyNWY3Y2JkODFjZjkxMTk5ZDk4MzMzYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNkOGM2OTZhMmI1MThjMjA4NDczY2ZjYjEwOGIwODRlMjkyMzgwOTBlYzI2ZjMzMDJmYTc1NTBjYjZkYzAwYTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiY2U2YTMxNmVkZDA0ZjRjMDNiZGUyMDlhOTc2MzZmMmQyNjdjYTdmNTIyMWI2NWQ5MGUyZDE0NDZhMGU1ZDEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a3fe6f3eef554b60bb8759be6828598f",
+      "statement": "The Q2 2026 earnings supplement lists API-12 (310 million monthly calls, 99.99% availability) with Trading among its key consumers but publishes no VaR figures, so the 2025 figures are the latest VaR values in the sources.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L411-L424",
+          "version": "repo-lines-v1:sha256:ce59946e1b740970fb27e8a3d58586facd6ac7c067617f49567a213177310431:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVhYzc4ZmVkODI1MzBhZWU0NjcwY2VmZDg3NTZiNmQ1Zjc0ZTI1NDNmYmQ1Zjc2YmMyMjA5ZTdhMzdkNGM4NDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNmI5ZjkxYWE0N2NlNDJjZjljNDE4OTQwYzZkNzczYzBhMzQ0NGZjN2MzMTk1MDYwOWViNWIwZjMxODQwMmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ2NGU1ODBhNmZkN2FiZjdiNzFkMTMwODcxOTQ5MGVhNmE3M2JmNDQ0MDA1Y2E1MjYxMWZkZDI1MzI2NTZmOWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU4ZDE2NjRiMzc3ZGU3Y2NjN2NmMGVkNjRkMDExNWYyNTc2YzQ4NTcyNzg0NTA2NDdmMDcxZmEyZjAyZDM5YzgifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T02:29:31.666Z"
+  }
+}

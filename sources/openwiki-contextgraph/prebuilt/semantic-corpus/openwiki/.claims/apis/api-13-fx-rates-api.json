@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:fc2a28130c47f5c1d0962919d0c23007b2990a264485303c11b0ec5177273e44",
+  "claims": [
+    {
+      "id": "claim_841f8c2a70b84dd99adf49bee1b9dbd4",
+      "statement": "API-13 FX Rates API (v2.4, base path /fx/v2, owned by Market Data Services, Markets & Treasury domain) provides FX rates for 150+ currency pairs and executable quotes for client payments, with scopes fx:read and fx.quotes:write.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L2-L17",
+          "version": "repo-lines-v1:sha256:48b8ea8e70fc2bc740f4e9af1006bfc254b492e45525129ac2689288528fb8b8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiOWViNTAzNjYyY2MzOWFkOGMwYWI3YzJmZmFlNTMwY2QzNjk4ZGYzZTczNzFmMjAwMWQzNGZlZGQ5MGFkZTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkMjMyZmI5M2I2ZjZjZmRmMTI5NGUwMWVkZGMzNTZhMzRhZjYwNzU2MmI3NzZkMzAwOGU1MDMzZjBjZGJkZmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoxLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_28dbce37dba24363ada7faadff2d475b",
+      "statement": "The API exposes three endpoints: GET /rates/spot (spot mid rates), GET /rates/eod/{date} (end-of-day reference rates for financial reporting), and POST /quotes (executable client conversion quote); no forward-rate endpoint is listed despite forwards being mentioned in the overview.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L4-L25",
+          "version": "repo-lines-v1:sha256:a982c6b474a1fc54d84ac65043883316b22c2b2f279254f35069a1601da448e7:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1ODc0NzE2MDkxYzNlNzFmYzY3MTYzNGFmMjRiODA5Y2E5YWJjODQwMDk2M2U0Yzc2NmFmOTFiOWQwZGRmYTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjMmYzYTQxODMwNzc4Yzk3MmY1NTU3NGVjZWI4NTc0YTQ5MWE0ZWVjMDI4YzE0YmI4ODNmY2Y3MWZiZDhjNjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhkOTMzMjRlY2Q5YzE3MzA4Y2YyNjNjMmUxMjMyNjMyMmQwNjZkODU4MTcwYmFjMTc3ZjUxYzQ1YzY0NTQ0OWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7e47fead5754402ca8075f5658488f44",
+      "statement": "Spot requests take a comma-separated pairs query parameter and return an asOf timestamp and a rates map keyed by pair code.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L27-L45",
+          "version": "repo-lines-v1:sha256:c550f390969e602c061791532c6610f0a4e1045ea86f7b6315c6007d41d3a86c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ0NmY2MTdjY2I2MGQzYzIzODNkNjg4YjMxNGYyNTI3OTUzMDJhZjdlZGZkOGMzNjhhNzMzZDllY2I4NzRiMWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2ca7ef90ec634dc8b86cf6ac3a7d67ff",
+      "statement": "Operational targets: 3,000 requests/minute rate limit, 99.99% availability SLO, and executable quote validity of 60 seconds; data is classified Internal - Licensed Data.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L14-L17",
+          "version": "repo-lines-v1:sha256:395ccafa00f70e3b326b05bbc0c17cb3c4a917fe4efc6dab4ff71ef0d9622460:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjNmYjU2OTRjM2I2ZWQ0NjEwODNkOGVmOTc1MDMxZDViZjM5NjZmNmI4NTBiNzRiZTU4YmI1YjAyYmJiYjNmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWQyMzJmYjkzYjZmNmNmZGYxMjk0ZTAxZWRkYzM1NmEzNGFmNjA3NTYyYjc3NmQzMDA4ZTUwMzNmMGNkYmRmZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjU2NWE2MDZmYjRjNDczNTg0M2YzMjE4MmU3NjMxMTZlOGNhZmE2ZGYxNDM0MTZjMzQyYmE1MjQ0NTJmY2YwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFhMWVlNWQ3NjY0YTk2M2U1NmMyNDNhYjA5YWEwNDYzZWUzMzg5NmM0MjMwOTdlNGZiYjY4MTdhZDQ3OTk1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_18b4aa1651e54fa39d3ea28be7e197a3",
+      "statement": "Lineage: inputs come from the FX trading desk pricing engine and licensed vendors; outputs feed the Wire Transfer API (API-05), the VaR engine, and currency conversion in the Regulatory Reporting API (API-16).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L4-L25",
+          "version": "repo-lines-v1:sha256:dfa1e1b0ec354c6a0ae2b857898aeb76cf774c2670cd233c9bac9e16d9895ea0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRjY2I1MzBiMWUzNzQ1MjIzZjkzZjU0NWM2MGEzMzNlNzk0M2I3Mjk4MmY2NDc5M2U3ZmVhYTFhNWQwNzA3YzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwY2QzNDNjODQ1YmY2ODk1MDllNmE5MjBkYzE3ODQzNTU1ZmRlMGI2ZjAwY2JmNzVmZDNhZTU4MDQ0ZmFkZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMzNjQ4YWM4NTY0MGRiYzVmNmM3ODc0YWEzZGM2YjZhOTcwYTkyOTFiMGQwY2JhOThhYzUxYmExMzA5MTFkYzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L47-L51",
+          "version": "repo-lines-v1:sha256:ad91026ffd8cd0d4368eb2c08062a537cfa385f659155d6fced2d1f72d1b4560:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDQ2NTA4ZWRkYzY0MWY3NjY0YmE5MGI1YWE0NjUwNmZkNTFiYjgxMjAwZjM2NjQ5M2JhNmI3NzNmZmIwMjQ4MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-16-regulatory-reporting-api.md#L54-L54",
+          "version": "repo-lines-v1:sha256:7b66ccda440d20f3afc40da1548f74ad30e454c2c10701a67f023ced77fc399d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I2NmNjZGE0NDBkMjBmM2FmYzQwZGExNTQ4Zjc0YWQzMGU0NTRjMmMxMDcwMWE2N2YwMjNjZWQ3N2ZjMzk5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I2NmNjZGE0NDBkMjBmM2FmYzQwZGExNTQ4Zjc0YWQzMGU0NTRjMmMxMDcwMWE2N2YwMjNjZWQ3N2ZjMzk5ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTY1ZTkyZjRlZGJiMjJhODAzYWVjYmEzMWFjZDNiMjczZDI0MjI0NzVjZWY5NjA4ZjY0NjE0ODM5OWQ2OGEzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f474145960df4568816f99612e7615f8",
+      "statement": "API-13 and API-12 are designated critical data elements under the BCBS 239 program, and FX rates are used for daily valuation of trading positions; Pillar 3 states their inputs are independently validated by Valuation Control.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L397-L397",
+          "version": "repo-lines-v1:sha256:a2ea860e7a7147deacaf5fbc0261442539f6fe1a201ae10406cbae84044522ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJlYTg2MGU3YTcxNDdkZWFjYWY1ZmJjMDI2MTQ0MjUzOWY2ZmUxYTIwMWFlMTA0MDZjYmFlODQwNDQ1MjJjZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2I5ODFjZWQxNTBiM2VlZDhjNmFlOGM1ZmJjYTBlZDBhNGJhNTg2ODY0NmUwN2Q5YWVlODNiNTlkMGI5MWY4ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJlOWQ4YWI3NDlkMDAzZTU1OTM2NDMxZGNmOWZjZWQyZGQ0M2VjNWIzZGY3ODg4NGVhODA3YzJjN2QxOThkNiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L346-L346",
+          "version": "repo-lines-v1:sha256:ece883d5df930fff747b6dd1b69f170c6f9f45a16d06a5fab0ffd6112629d85b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWNlODgzZDVkZjkzMGZmZjc0N2I2ZGQxYjY5ZjE3MGM2ZjlmNDVhMTZkMDZhNWZhYjBmZmQ2MTEyNjI5ZDg1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTI0YjYyZWFjNWIwMmI2NjY1YmUxYzBhMWQ1NmFlNzE5ZGYxN2JlNTNiZTlhMTExYjkyZjYyOGVhYzYwZGI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkMGFkNWYwYmZmZjVlZTZlMjcxNmI3ZmNjNTY1NDY0MzMxMzZmMmY3NWMwZjQ2ZTFlYzc0ODE5ZDgwZGY5ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_94be843c6c3e409f921d099daa4ab32a",
+      "statement": "The EOD reference endpoint was added in v2.4 (2025-11) for finance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-13-fx-rates-api.md#L53-L55",
+          "version": "repo-lines-v1:sha256:625e57cd63849c0466df006a2b3076ddc9192fae1fa178609acd10719a72c905:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODU0YjMyZDNmY2RjOTI3NWY1ODg4NWQ4MTJkZjU5MWM1YjkyYTlhOGE0ODEwNTc4NmU1YmY2MmM2NzA3YzkyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDBkMzRmN2ZiZWFlNjdjZWUwZGJlZDk4N2UwMWYxMTZjMjUyYzNjOTAxYWQ2NjhkNDA4NDc2YTUyYTY3Y2Y2ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9c1c94e1f233e89d9d19e50f04943a2ab0951e85195f870811944237058b4b32",
+  "claims": [
+    {
+      "id": "claim_43e156519c774305b2e55c41d4eff222",
+      "statement": "PPH assigns the UETR as a UUID v4 at the RELEASE lifecycle stage for every outbound wire (per ADR-PAY-023) and stamps it onto the outbound pacs.008 message for both the Swift CBPR+ rail and the Fedwire Funds rail.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L69-L72",
+          "version": "repo-lines-v1:sha256:4a429bec9b028f27d68b3b9c5de052dcc8b05d1f8fa8800c3eeac376084a62a2:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJkNmY3MTQ3Y2QzOGI3ZjUxNjJjZWIzNDJkYjMwZWI2Y2RlYTRjNzI4ODJhNTg0NDU3OWZkNWFkOGZiNGU2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTNhMGY4ZmFkN2UwZDIyMjI3ZDhkNjhiYzUyNTZjYmU0YmMyZWZlYmY5N2JlMGVjMDcwMDBmMjY5OWJiMDdiMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L105-L105",
+          "version": "repo-lines-v1:sha256:10a415de03ce772dd793953f867be4d5f933688c007bd59fa51bed27cb293d54:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTBhNDE1ZGUwM2NlNzcyZGQ3OTM5NTNmODY3YmU0ZDVmOTMzNjg4YzAwN2JkNTlmYTUxYmVkMjdjYjI5M2Q1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTBhNDE1ZGUwM2NlNzcyZGQ3OTM5NTNmODY3YmU0ZDVmOTMzNjg4YzAwN2JkNTlmYTUxYmVkMjdjYjI5M2Q1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGZmZDYxMjBlZmIzYzdlM2E2ZTEzOWRkNWJiMWZjNjc3ZTIxZmJkNDU4ZjQwMDFkMjZjYWE5ZGI4ZDU1MTE3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzQ4MGE0MzFhMGMzOGE1NDU2ZGQ0MmZjNjA2ZjUwN2NlZmJkMzc3MWUxMGQ0MWQwMTFlNmQzNmVkMzA5MjYxZSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L48-L48",
+          "version": "repo-lines-v1:sha256:222494fbd35922729097c38223d2b4b2b29f2c24cc9dd6e9009ea2838bd9ba0a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIyNDk0ZmJkMzU5MjI3MjkwOTdjMzgyMjNkMmI0YjJiMjlmMmMyNGNjOWRkNmU5MDA5ZWEyODM4YmQ5YmEwYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIyNDk0ZmJkMzU5MjI3MjkwOTdjMzgyMjNkMmI0YjJiMjlmMmMyNGNjOWRkNmU5MDA5ZWEyODM4YmQ5YmEwYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDJlMGMxNjZmMzg2MzNhNjgxY2MyNjMwNmM3Y2ExOTEwOGQzNjgwMjNlNmYwZDc1OWZkOWMxMmJiNzNmODQ2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGUzYjYzMmRlYWZiODA2NDFhMjc3ZmJjZGEwYzZiZWZiM2VjODFhY2E4N2Q0YTBiZmZiZjJhNDlmZGNiYzVjNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_561c2f9f6c4a4b959a4b7d341fbf49aa",
+      "statement": "UETR is exposed only through the PPH v2 API (identifiers.uetr) and v2 lifecycle events; it has no representation anywhere in the legacy v1 API, unlike IMAD which is exposed in v1 as fedRef.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L97-L106",
+          "version": "repo-lines-v1:sha256:ea23ef2c4f42c936de062beca162eac894af0795b48f20c49f8f94b6a6e64f84:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkYmEzYzM0MGMyZjg1YWVjOWIyMjYxMzE2N2YwOTc1MzQxZDRkOTU5YzliYTk2M2U1ZTM2ZjhhNjgzNGIyNTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgwNGNiZDA0OThiZmFmYzI0ZmM2MzQ0ZDliYTQ1YmQ1M2I5NjFkMzMwMWQ2OTM2YjU3ZDIxZTI5NmQxMjI1ZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIxZjk3NDIzOGZmN2Y1ZTYyMmM2MzQ2YmM5MzFmMzg4NDM2MDZlYWNlNmM3OTVhNzZlNWY0MjQ4ZGVlMDBjOTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY1NmM1ZjEwNGU1OTdhOTZiMzA1MjYyYjgwNmZhNGVhMGJkYjU0ZjM0M2FhMmI3M2M0MzU4MWZlMmJlOTlmYTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2d097e6b90d04fae992fe17dbe8317ca",
+      "statement": "The GPI_TRACKER_SNAPSHOT Oracle table populated by GPI-C is keyed by UETR, which serves as the join key back to PPH's v2 identifiers.uetr, linking Swift gpi Tracker status data to PPH payments.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L77-L86",
+          "version": "repo-lines-v1:sha256:9cfb616d14582f9007479ed4d139e132d08e4371714fc353fdec139c49a1f0e8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3NjAwNWI0MjE2YTE1YWJjYjMzNTc4ZGE3YTM3MDhjZDk1NzBkMzhhYjYwZTVlYTlmMzFmYjM1ZGYzODc3MWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE1MDNmM2NjYzMyNGYyZTE2ZWUyY2RkMTdmOGUzNDU1MjFmNzAxNDhmMmJiYjg5NTcxYzhmYmJiOGY4NTlmOTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY5OTRiN2RiZjdjZDg1NTdlOTgyNjQzZDM4MzdjNDg4MzNiMzY3MjI2MGZkMGIyYzgzY2ZlMmZmNTNhZmQ3NWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZlNWMxNzVmZjBkMDFiZWYyZmJiMjQ3ZmZjYTM5ZWI2NWMyMmMyYjEyMjlkY2U1NTRkNWFkZmYxZGQyYjlkNzkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e277d5a2e6784e698a7d39ef80fa7ecb",
+      "statement": "gpi Tracker integration is batch, not real-time: GPI-C pulls changed transactions for outbound UETRs from the last 30 days every 4 hours (00/04/08/12/16/20 ET) and upserts results by UETR into GPI_TRACKER_SNAPSHOT; there is no internal real-time API for gpi status keyed by UETR.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L77-L77",
+          "version": "repo-lines-v1:sha256:c76005b4216a15abcb33578da7a3708cd9570d38ab60e5ea9f31fb35df38771c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzc2MDA1YjQyMTZhMTVhYmNiMzM1NzhkYTdhMzcwOGNkOTU3MGQzOGFiNjBlNWVhOWYzMWZiMzVkZjM4NzcxYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzc2MDA1YjQyMTZhMTVhYmNiMzM1NzhkYTdhMzcwOGNkOTU3MGQzOGFiNjBlNWVhOWYzMWZiMzVkZjM4NzcxYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjk5NGI3ZGJmN2NkODU1N2U5ODI2NDNkMzgzN2M0ODgzM2IzNjcyMjYwZmQwYjJjODNjZmUyZmY1M2FmZDc1YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIzNmNlYTRkMjdmNGNhNjk4ZGJjMDU0NjMzNDM2MTFkOGNmNjRmNDUwMjVlOGRjMjk4YzZkZmU3NWNhZWFjNiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L88-L88",
+          "version": "repo-lines-v1:sha256:0abb99c35affe5eb2a59bd41a6b40c3d9de1af4b6379550c2530ee56576004ff:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFiYjk5YzM1YWZmZTVlYjJhNTliZDQxYTZiNDBjM2Q5ZGUxYWY0YjYzNzk1NTBjMjUzMGVlNTY1NzYwMDRmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFiYjk5YzM1YWZmZTVlYjJhNTliZDQxYTZiNDBjM2Q5ZGUxYWY0YjYzNzk1NTBjMjUzMGVlNTY1NzYwMDRmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2YjBlNDU1ZDgzNzRiNmViMjAxMGQ3ZDExYzEwODYwZjg1MGY3Y2Q0MDVhYTFlZmZkNmI0NTU0YWY3OGNjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzFjZmE3NzlhZTVjZDI3NmExYzcxNjhjMzhhOTJlYWEwNTcyNGVlYzNkMDRlZTZjOWIwMjg1OWI3NWNkZWE1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f58ef32f4a2a4b09890087dae2b383ad",
+      "statement": "The only consumers of UETR-keyed gpi Tracker data (GPI_TRACKER_SNAPSHOT) are Payment Operations' Investigations Workbench and the TDIP nightly load (gpi_tracker_events); the snapshot table must not be exposed directly to client channels.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L88-L88",
+          "version": "repo-lines-v1:sha256:0abb99c35affe5eb2a59bd41a6b40c3d9de1af4b6379550c2530ee56576004ff:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFiYjk5YzM1YWZmZTVlYjJhNTliZDQxYTZiNDBjM2Q5ZGUxYWY0YjYzNzk1NTBjMjUzMGVlNTY1NzYwMDRmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFiYjk5YzM1YWZmZTVlYjJhNTliZDQxYTZiNDBjM2Q5ZGUxYWY0YjYzNzk1NTBjMjUzMGVlNTY1NzYwMDRmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2YjBlNDU1ZDgzNzRiNmViMjAxMGQ3ZDExYzEwODYwZjg1MGY3Y2Q0MDVhYTFlZmZkNmI0NTU0YWY3OGNjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzFjZmE3NzlhZTVjZDI3NmExYzcxNjhjMzhhOTJlYWEwNTcyNGVlYzNkMDRlZTZjOWIwMjg1OWI3NWNkZWE1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b662eba7bebb4edabc1daa9b9915d16f",
+      "statement": "The Swift Tracker API quota (250,000 calls/month, ~61% used by batch plus ad-hoc lookups) constrains any future use of UETR for finer-grained or real-time lookup; estimated per-payment lookup volume (~1.9M calls/month) would exceed the quota by ~7x, and a 2026-03-03 request to double batch frequency (PNG-1544) was declined for this reason.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L133-L135",
+          "version": "repo-lines-v1:sha256:00263be13e89ea76af66a97bbaf429d9283eee22e0099e95e24302741d3f2ecf:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzlmMWY2OGI5NzcwOWI2ZWM4M2JhMjIyMjM1MWYxMzA3Mzg1NWZkMjA1OGMzNzllMjBmOWY5ODExODQzMjQzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2ZjIzOWNjN2YzYjcyMmQ3ZWM1NjRhN2VkYjgzNmMyZWE3NzNhYmQ1NGI5M2Q0NWYxZjQ0OGI1M2QyYjZlNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmVmNWNhY2YwYWFiMGJiNDdjYzUyNWY0ZWM4NGE4YmM4YzRmZjI2Nzk0ZTBiYjI2ODZjZDEwYjFiMzFiZmUyZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDI0MmY1MGNlNzY0OThlNDJlYmZlMTk4ZjE3OTJjY2E1YmM4OTc1Y2U4OTdkZDMyODQyMDJmODcwYWZjY2YyNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L90-L92",
+          "version": "repo-lines-v1:sha256:418fb701c113b34af833ad1f207a2f37a37d75a14e8f2160bc6ddae8643bdf49:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZhMjlkNTYyZmVkZmQ5ZGQwNDFhOTYyNDJhZTRmYWEyZjE1NjJkZTY4ZjBiM2FhNzU4YzE1ZTkzMmVhMTlmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzY5NjcwY2JjNjJkODg4OTQxN2JjNDQ1MjgxODgyMTNjNDg1YmE0M2Y4MWYzODFmZGU5ZWRlOTMyNjYzYzYyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1YzE3NWZmMGQwMWJlZjJmYmIyNDdmZmNhMzllYjY1YzIyYzJiMTIyOWRjZTU1NGQ1YWRmZjFkZDJiOWQ3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0NmMyZTYwNDQwZjI3MDQ5ZjgwYmYzNjhiNjg2ZWNkZTI2OGIzOGMzNmM4MzcxYWUxNTJhYjA2MDgzZjUzZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a7617a511bc74c8687dbfea4563ad788",
+      "statement": "gpi status/reason codes tracked per UETR (ACSP/G000-G004, ACCC, RJCT+reason) determine whether further Tracker updates are expected; ACSP/G001 ends tracking for that UETR without representing a genuine final payment outcome.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L94-L104",
+          "version": "repo-lines-v1:sha256:e96c3c99bd69e26d86d55b8b7a30da1ddfe6e4b76aedf83f09c72f7b788c55fe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4NWZlNzViMzQ1ZTU1Y2M5NThmYmRhNTYzYTM5YjM0ZjE0NzY2ZTE0MzVkNzNjYmJmYTQ4ZWM5Y2Y5OWY4NjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0YzMxOTIzYzljNGNmZGI3MTJhNTQwNzU2YzE5NjhjZWFjMzkwMTE3Yzk4NWU4YmNmZmNjYzIxN2IzM2MyMDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYwMDQwMjhkNDQyZWIwYmY2YjM0OTI4YjBiNDBiNzliYTQ2NjMxNTZjN2I0MWNiNTAwNTg4YjZlMWZlZGY5ZWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjViNjRmNzcyMWFmNzIwNGVlMmMyY2Q5OGMzZWJlYjI4NTVlNzIzM2Y2NmM4YTU0OWJmMDU4YjUxY2ZjZjA2NmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_095599e6d8a74b3ba5de4ce16dd0bc24",
+      "statement": "Observed Q3-2025 outcome distribution for outbound UETRs: 88% reached final ACCC status, 8% ended tracking at ACSP/G001, 2.5% were pending more than 24 hours, 1.5% were rejected (RJCT), and the median release-to-ACCC time across all corridors was 2h 41min.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L106-L115",
+          "version": "repo-lines-v1:sha256:a17706feb6a898fa58d6a1255262a5133920d6e5f68794699e4224393f302763:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4OWNhNzYzOGQwN2EwYjYxODVhOGUyNjlhOGIwMzk2MDBjOGZkYzkxNTUzMDkyYjY4MTRiNWM4NTIxODI0N2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5NzQwMGJiMjEzYjQzNzE4NmU4MWVlZjkwMWIzZmRkM2JhYWYwYTE1MThjNjAyNGRjYzNhNGExYmFmZjBmZTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMwZmJiNjM4YTAzOWMyODMzZTU2MGUzYTQxZGY0N2U3MGI5Mzc1ODRiYmZmMzY3NWRhZWZhOWY0YzY5NWE2YTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkYTgzNWQ5NmJhYTE0NWRlZmU1MTI1ZGU5ZWYxNDY1M2Y4MTI4ZGQwNDJjOGI2NmU2OWZhZTcxYzJhZTA4MGMifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

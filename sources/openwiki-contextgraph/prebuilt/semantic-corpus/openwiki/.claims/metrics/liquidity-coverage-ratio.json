@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:8f4ea52e28205f9bc88b9f89587c5eb9fc3ac4180e2f2001f2d0665106c0eb44",
+  "claims": [
+    {
+      "id": "claim_51e79404f3d2471ba9450d3a6554b34b",
+      "statement": "The LCR is defined as HQLA divided by net cash outflows over a 30-day stress period, and Meridian Harbor reports an average LCR: 113% in Q4 2024, 116% in Q4 2025, 117% in 1Q26 and 115% in 2Q26, with average HQLA of $274.5bn (2024), $286.0bn (Q4 2025) and $292.3bn (2Q26).",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L323-L327",
+          "version": "repo-lines-v1:sha256:55774032993ab7ac2d57b4471b5e71bc9ddfa1243138c3b1ccdc7e794bc527ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzgxMjFhZDEyNDZiYTI3YTM5MTBkMjM2MTZjYWQyM2E1MDAwZDExNjdiMGRiYTQyN2I3M2JkOWY4NWEyOGM2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY2ODUyYzdlYmI4MWM3OTNlYTE1YjdiMGJmNWY2NGU5YzNhZWQwN2ZhZWZjNDZhNDllNTllYWJhYmUyZDdiMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2IzMjQxYTYyOWYxMzc0ZjIxY2Y2MWJmYzgzMjgzOWIyNzE1ZjM1MTI3YmM2N2ZjNTcxYWJkMjVjNDViZmFlZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2FlNDhlNWQwMzNlNDhiYTIwYTMxYzRjY2M2MjUzYmQwNWFjZjVhYzExODc3YTY3NjI5MTA4YWRiMWYxOWM5NCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L655-L657",
+          "version": "repo-lines-v1:sha256:726435516a57a7bf850ed4bd49e8ff0d22035b87e8bfe7a76e01b0defb9ff07c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU4YTkxNzNkZGY3MDFhNGM2MWExOGI3ZThmNDk5OWViOTUzZmEyZWRkMzk5ZGNjZDkxMDViYTNmNjIyOTc3ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM2Yzk1NjYwY2NlZTgwYzAyZDU2M2M1YzI0MjA2ODZjMmRmMmY2MjQ3MGEyZDU0MjA1YzU3ZWY0ZmI4NGMwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWUyMjFmMjRmZTgyODM2YzQ0Y2IyZmUyNDBjYjBjMmIxMjI1N2MzODI3NWZlNjNmOTkxYTA1NTgwN2FhNmVlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTVhZDBjY2YxMTM4ZDRmMmYyZTU4MzNmYzNkYjUzZjNiMzkwNDU2ZmFjY2M5YTI3NWYzZWY2YjRkMDZmMjQ2OSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L110-L110",
+          "version": "repo-lines-v1:sha256:ee136642d0cd069f20b46077ecff9948dc284d54dd4ed75a7442a56e3201fab8:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWUxMzY2NDJkMGNkMDY5ZjIwYjQ2MDc3ZWNmZjk5NDhkYzI4NGQ1NGRkNGVkNzVhNzQ0MmE1NmUzMjAxZmFiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWUxMzY2NDJkMGNkMDY5ZjIwYjQ2MDc3ZWNmZjk5NDhkYzI4NGQ1NGRkNGVkNzVhNzQ0MmE1NmUzMjAxZmFiOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWZjZWQ4N2VhM2Q1YzFlMWVlOTllNWM4ZjMzZWFkNzY3MzI5NDJmYTQwYjc2ZGY2M2QwZjAwMTE2YmM4YTk1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzU1Nzk1ZGY1MGY1NTM2ZWYxYjNlMjRjNGFhYmQzNjUxNjkyMGMxN2UyMDM4OTQ5NDJjY2E2ZjFmNjgyNmQ3ZiJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L374-L386",
+          "version": "repo-lines-v1:sha256:6f8aa1a8239b26a9c51e111e67d69788ed340877ce5cd25ab32c0d64cf57d8d2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlZTFmMjE1NDU5YTdkMzkzZmVmOWIxMTZmZTg4NWYyZjBkOWU2ZTNlYTQ5Y2U4YmJjMzdjYzVkZjgyMDljZWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjZjA2NDNlNTY2YzIyODA0MDVhMGMyYjFkNTA1YTQxMWQwOTAzNTk0YWY4MDFjNWY0MDNkZDRiOGZiNWUzYzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYxMDlmNmEzNTQ1NjFlZTU4YTg3ZThiNGNiODM3NmNhNjBhYWM3Y2JiMmI1NWJiZjkyMGY2ODk5NDcyMzc5MWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjExMDYwNGE3OWY4ZjUxNzNhMTQzYTRlYTc4MmI2ZGIwYjY2NGNjYTY4ZmU1NjUxMGRiODBlM2FhNjI2ZGE4YjkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3fb3112e33a24f8db380d41bef708bc3",
+      "statement": "The Q4 2025 LCR build-up is HQLA of $286,000m against total weighted outflows of $382,400m less inflows of $135,850m, giving net outflows of $246,550m and an LCR of 116%; for 2Q26 HQLA of $292,300m (Level 1 $221,900m plus Level 2A/2B $70,400m) over net outflows of $254,200m gives 115%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L410-L423",
+          "version": "repo-lines-v1:sha256:e491fce3b4726105e8be74db11599c961df3c12b05c1b3e6c5ff24e17b2d3e5d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1MzM3ZWVkZGFmOWY2ZGY2MzZmOTc1NmM5YTNiZDFjMDI1YmFlMmY3MmI0NmQ0ZjFmNmZkZjhmZDFjODdiMTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJhNWIwODk0OWIwYzM3NTE3OWUwODZiM2MwMTIzZDI5ZGU4Y2IzZTQwYjg0MGIyZDFiOGZiNDQzNDMwZmU3ZjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkyOWZhY2EzM2ViYTljNDRkN2RiODdkOTViM2VmYTAwOTRjNjkzN2ViNWQ5ZjIxYzc2M2IzMDU5NjE1YzliNjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBjYjQwNzdjZjYwMjYxNDljNTMzNTcwZWI2ZjFlOGQzOTI0YTM5NDIwYjhkYmVjZmEzZWY2OGEzMjJjODUwYWUifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L374-L386",
+          "version": "repo-lines-v1:sha256:6f8aa1a8239b26a9c51e111e67d69788ed340877ce5cd25ab32c0d64cf57d8d2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlZTFmMjE1NDU5YTdkMzkzZmVmOWIxMTZmZTg4NWYyZjBkOWU2ZTNlYTQ5Y2U4YmJjMzdjYzVkZjgyMDljZWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjZjA2NDNlNTY2YzIyODA0MDVhMGMyYjFkNTA1YTQxMWQwOTAzNTk0YWY4MDFjNWY0MDNkZDRiOGZiNWUzYzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYxMDlmNmEzNTQ1NjFlZTU4YTg3ZThiNGNiODM3NmNhNjBhYWM3Y2JiMmI1NWJiZjkyMGY2ODk5NDcyMzc5MWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjExMDYwNGE3OWY4ZjUxNzNhMTQzYTRlYTc4MmI2ZGIwYjY2NGNjYTY4ZmU1NjUxMGRiODBlM2FhNjI2ZGE4YjkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_eda22254b99a428e9c0c36c9cf3a0164",
+      "statement": "The Board-approved risk appetite sets an LCR (average) floor of at least 110%, with the 116% at December 31, 2025 reported as within the limit; the Firm separately requires liquidity sources to exceed stressed outflows over a 90-day internal stress horizon, which was met in every material legal entity at year end 2025.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L333-L333",
+          "version": "repo-lines-v1:sha256:0d9107b766575f4be3e7c3993796d22c29145e97cfe3ca070b73a310fedc3104:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ5MTA3Yjc2NjU3NWY0YmUzZTdjMzk5Mzc5NmQyMmMyOTE0NWU5N2NmZTNjYTA3MGI3M2EzMTBmZWRjMzEwNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ5MTA3Yjc2NjU3NWY0YmUzZTdjMzk5Mzc5NmQyMmMyOTE0NWU5N2NmZTNjYTA3MGI3M2EzMTBmZWRjMzEwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWYwYzI0Yzg1Yzc4NjFmYWY4ZjQxM2E5NTRhOTc3ZjY4N2JlZTJmM2I1MjgzMDYzNWNhNWE4ZDhkZDYyNzhlMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDllYjI2OWFiNzU5YjE2NjUwYTJhMzllOTRiMDYyYmI0ZDdmZWVlMWY2ZWFhZGVlNTcyMWJkYzkwMWYzNmZmYSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L66-L73",
+          "version": "repo-lines-v1:sha256:242b346fc58e1ca47b604c04845d07420a26edb47f49929f7796b97c34150a2a:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmE2NTNmYWU3N2Y3YTg5MTEyODBiODU0ZTgyMWZkMDM0ZGRjMzQyYzMyYzI2NDQzM2Y2NzQ5NGQ3YTdlMzg2NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTUyMzZjYzI0NDcyZWI5YjkzN2FiNTk3NDA5YTg2NDdlOThlMmZiMmJkMDViMDg4ZjI2NDdhM2ZmMDZhMzljYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWJmYzE1ZTViMTgxYmYwMTBmOThkNzhkOThlOWYxNTBjZDc4MWRlNDkyZmMwNzUxMDczMWU5Y2YzYmZkOWVlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDZlMmVjM2FjYzBkMWE4ZDY1NDM2MWY3NDczNTZmYjdlZGM5ZTE1OTNiZjgyOGU3ZjYwZmZhODNmMmY1M2IxMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_707de9aa3dd647628dc25dd77cfd5958",
+      "statement": "API-15 (Treasury Liquidity Positions API) aggregates HQLA, encumbrance, collateral and cash-flow positions daily by legal entity and feeds the LCR and NSFR calculators, the liquidity stress testing engine and ALM models; it is classified as a critical data service with enhanced change management and data-quality controls.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L321-L321",
+          "version": "repo-lines-v1:sha256:c35299b3fe84c6bbd0b557e73d771933c1d223b6faa7350c145f49464780e60b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzM1Mjk5YjNmZTg0YzZiYmQwYjU1N2U3M2Q3NzE5MzNjMWQyMjNiNmZhYTczNTBjMTQ1ZjQ5NDY0NzgwZTYwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzM1Mjk5YjNmZTg0YzZiYmQwYjU1N2U3M2Q3NzE5MzNjMWQyMjNiNmZhYTczNTBjMTQ1ZjQ5NDY0NzgwZTYwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGJkNTg2NGVjMzc3ZTRlMjUwYWRmYTZiN2E5MzA5MDc0MWJkMzU1MWYwZGE1OGZmOGY0ODE0OGE5ZmM5NGU1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODVlMTgxZTlhZmU1NDM2MTVkN2M3NmY4ZjMyOGQwMjkxNjU5YzMzNmZlZGFmN2FkOGYxMTA4OGIwOTFkZDAyMSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L457-L457",
+          "version": "repo-lines-v1:sha256:ef196b7af5e265e500911c223531b5b795358ae6d9e126fe1d281851649171ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWYxOTZiN2FmNWUyNjVlNTAwOTExYzIyMzUzMWI1Yjc5NTM1OGFlNmQ5ZTEyNmZlMWQyODE4NTE2NDkxNzFlYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTkzYjJjNDEyY2U3NWM2ZDBmNjlmMTU2NjlhMzBjYzM1NzdjMTcxMDBmOGNiZGQ0MjA3M2YwYTRjYmY0Y2MxMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGY4N2UxMzhkYzFlMjJkMTBkNmI5OGU5YjkzODZmNWM4NTI5YWJhZjk0Yzc3YTM4MmUxMTA4YTZlY2Y4ZTljZCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-2025-pillar3-disclosures.md#L439-L439",
+          "version": "repo-lines-v1:sha256:668cec3ab099c36f5327715c00f92895d059ef318a7dee158fb4ec347ee7035f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY4Y2VjM2FiMDk5YzM2ZjUzMjc3MTVjMDBmOTI4OTVkMDU5ZWYzMThhN2RlZTE1OGZiNGVjMzQ3ZWU3MDM1ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY4Y2VjM2FiMDk5YzM2ZjUzMjc3MTVjMDBmOTI4OTVkMDU5ZWYzMThhN2RlZTE1OGZiNGVjMzQ3ZWU3MDM1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjcyYWM0NjQ3MzEwMjg4MGZjM2ViZmIwZjViNDVjODlkNGUxNTM1MGU4OGZiNWEwY2RhMjYzYWMwZDk0MmRiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmU0ODNjMWIwOTZlYzA2OTM4NDhmMmUwM2JjYjRiYWI0M2M5MDVhZjRhYzkyZTM0OWRjYzk1ZWY0MTM3MmY5NSJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L388-L388",
+          "version": "repo-lines-v1:sha256:54723cb02f8dc0f9576e3f082002d5b160b75bf887152b4f5fd85c8d3ad6c222:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ3MjNjYjAyZjhkYzBmOTU3NmUzZjA4MjAwMmQ1YjE2MGI3NWJmODg3MTUyYjRmNWZkODVjOGQzYWQ2YzIyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ3MjNjYjAyZjhkYzBmOTU3NmUzZjA4MjAwMmQ1YjE2MGI3NWJmODg3MTUyYjRmNWZkODVjOGQzYWQ2YzIyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFjYmU1NTQ5ZGUyYmFkODE2OWUwNTY3ODY5MTllOTgzZTVkNjg4ODVhMGRkZWJiZDUwNzAxNTc0MWE0NmZlZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTBlNGQ3YmJlNDFhM2EzYWI2ZTFmYmFlNjI1ZjliMzdmNGQxMDM3M2E4OTU2M2UyNTM0YWNhNGJhYjVlYzM5OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dff4c9906b2449caa597d35d88b2d2e2",
+      "statement": "Treasury/CIO owns liquidity risk management with independent oversight by the Chief Risk Office's Liquidity Risk Oversight function, and total liquidity resources are broader than HQLA: unencumbered marketable securities were $318bn at year-end 2025 and about $560bn of total liquidity resources (including FHLB and Fed discount window capacity) were cited at 2Q26.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-2025-annual-report.md#L319-L328",
+          "version": "repo-lines-v1:sha256:9c90bc681a2b2c62bba530f602e2d744f1e6d4ca7e90ac838946359fc5f15fa6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiNmJlNjc4NmZhNzZmZmQ5MzU3ZGI3MGYyYmNiMWJlNTA1Mjg3ZmI0YzA2YTU4N2JhODY0MTI2ZTUxMjRlMGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY4ODVmNDYzYzA4M2YxYjEwNjA3MGRmNDM2YTRkNjRlYTc4YzU0MjI1NDRlNTQ5YmFmMTg4MGZjY2M4MzcxNmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlkNGMyOWZiOWYzMjYwOThkMTViZWQ4ODhjMDMwM2VjZTQ1MTJlZTE5OGRjMmU0OWYxZDIwZGE4MDdlZTViOTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYwYzk0NjdiYTEyYTNmM2IwZWM5ZmYwZDY5YTRmZWRlMTgwNWFkNDFhMTA4ZjM1N2FjYmM0NjlhODYyZmQ4ZGQifQ"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L388-L388",
+          "version": "repo-lines-v1:sha256:54723cb02f8dc0f9576e3f082002d5b160b75bf887152b4f5fd85c8d3ad6c222:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ3MjNjYjAyZjhkYzBmOTU3NmUzZjA4MjAwMmQ1YjE2MGI3NWJmODg3MTUyYjRmNWZkODVjOGQzYWQ2YzIyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ3MjNjYjAyZjhkYzBmOTU3NmUzZjA4MjAwMmQ1YjE2MGI3NWJmODg3MTUyYjRmNWZkODVjOGQzYWQ2YzIyMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFjYmU1NTQ5ZGUyYmFkODE2OWUwNTY3ODY5MTllOTgzZTVkNjg4ODVhMGRkZWJiZDUwNzAxNTc0MWE0NmZlZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTBlNGQ3YmJlNDFhM2EzYWI2ZTFmYmFlNjI1ZjliMzdmNGQxMDM3M2E4OTU2M2UyNTM0YWNhNGJhYjVlYzM5OCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

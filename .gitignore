@@ -1,0 +1,11 @@
+.DS_Store
+sources/openwiki-contextgraph/.env
+sources/openwiki-contextgraph/logs/
+sources/openwiki-contextgraph/.openwiki-state/
+sources/openwiki-contextgraph/service-account.json
+sources/openwiki-contextgraph/.venv/
+sources/openwiki-contextgraph/frontend/node_modules/
+# Runtime working copies (OpenWiki needs them as their own git repos; the shareable
+# snapshots live under sources/openwiki-contextgraph/prebuilt/)
+sources/openwiki-contextgraph/semantic-corpus-cnb/
+sources/openwiki-contextgraph/context-corpus/

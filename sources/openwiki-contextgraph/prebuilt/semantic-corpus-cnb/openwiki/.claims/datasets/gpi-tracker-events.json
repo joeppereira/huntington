@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1cf9a160f77e7dc67b4e8e3573a22824614cad5cadab8abfa2d4734ca86ee080",
+  "claims": [
+    {
+      "id": "claim_d087a312ae064719b9f8c2b459195309",
+      "statement": "gpi_tracker_events is a TDIP payments-domain dataset (Snowflake) that copies the Oracle table GPI_TRACKER_SNAPSHOT; it is classified Confidential - Client, retains history since 2025-03-01, is loaded nightly at 05:00 ET, and is moving to hourly refresh per in-progress Jira story TDA-2188 (target 2026-11), with data ownership Laura Kim / Carlos Mendes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L66-L66",
+          "version": "repo-lines-v1:sha256:43e0d23480a7a037c6446d486b93422b4d0021b7ac9a3f8e50035cca4b1991a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDNlMGQyMzQ4MGE3YTAzN2M2NDQ2ZDQ4NmI5MzQyMmI0ZDAwMjFiN2FjOWEzZjhlNTAwMzVjY2E0YjE5OTFhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDNlMGQyMzQ4MGE3YTAzN2M2NDQ2ZDQ4NmI5MzQyMmI0ZDAwMjFiN2FjOWEzZjhlNTAwMzVjY2E0YjE5OTFhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRkZDVlODdiOTk5YjRiNDMzMmE1NDU4MDk3MTZiMmJmYjYzZTUwYjJmNDEwYmIxMzY0NjljM2RiMzRmYmFiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGNiODI0NGJiM2ZhNDVjNzAzZWIyMzIzNmY2NDNkMGIzYWRlM2NkMDg3YTcwNGI5OGYzOTEzYWU1YmFmZGJlOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L30-L39",
+          "version": "repo-lines-v1:sha256:9fa8e56173574ef5ebe55b9d5c797dbe2c3aab6b849403026b399090c76bcc51:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRkMzc5ZDAwYWNhNDYyZGFkY2E2NjhjYmZlODhlMTk3YTg5NTM3M2Y5MDk3ZGRlNTA4MDBmZDNiY2IxOGIxMzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhNTA4ZjRlMWEyYTFiNGU1ZTY3YWQyNDI3YzJjNGUyYzU4OGM2NDJhMmZkNTI3MTkzNjIxZTI2MzdlZDJjYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM2MmE2NTUzZGYwMWVjYTAwMzRiNmEzNzcwZWU5MDg2ODJlN2MzYjI5NmEyODlmNWY1ZmE3MDQ0N2ZlZDA4MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmNjc0MWU1MmVlZTlhZTRhZWVjOWYyMWFlN2JiODQzOWQ1ZmUxM2YwY2EwNjE4ZTU5ZmNlYzNhNjI1ODhhZjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_f1e788babc3d4111bc6e901fd6a25717",
+      "statement": "GPI_TRACKER_SNAPSHOT is populated by the Swift Alliance & gpi Connector (GPI-C), which polls the Swift Tracker API via the Swift Microgateway every 4 hours for changed outbound-UETR transactions from the last 30 days and upserts results into the Oracle table; TDIP's gpi_tracker_events dataset is a downstream nightly (soon hourly) copy of that table, so its freshness is bounded by GPI-C's 4-hour capture cadence plus the TDIP load interval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L75-L88",
+          "version": "repo-lines-v1:sha256:1f0395eab4407be1919e76a4e6adf03a2e25c07170a4c4f314773c29a1e5de6b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMDZhZmE0OTU1ZTc4ZDdjMDE3NWRjYjJkMjg0ZjAxM2JiNGU3ZmM3NTI2NmQ2ZmJiYmE3MTUxNDRjNzM4M2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhYmI5OWMzNWFmZmU1ZWIyYTU5YmQ0MWE2YjQwYzNkOWRlMWFmNGI2Mzc5NTUwYzI1MzBlZTU2NTc2MDA0ZmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhOWY0MWJhNTgyZDA1NzJjYzQ4MmIxYTlkYjkwOWUwN2E4MDQwNDY3YzU2Yjg5ZjA0MmI3ZDgzMmYyNWYyMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMxY2ZhNzc5YWU1Y2QyNzZhMWM3MTY4YzM4YTkyZWFhMDU3MjRlZWMzZDA0ZWU2YzliMDI4NTliNzVjZGVhNWMifQ"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L33-L33",
+          "version": "repo-lines-v1:sha256:ff78e7f0c7915ace0115ed558044347ba0b1b0c8c1fa5ab611eec36360e98449:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmY3OGU3ZjBjNzkxNWFjZTAxMTVlZDU1ODA0NDM0N2JhMGIxYjBjOGMxZmE1YWI2MTFlZWMzNjM2MGU5ODQ0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmY3OGU3ZjBjNzkxNWFjZTAxMTVlZDU1ODA0NDM0N2JhMGIxYjBjOGMxZmE1YWI2MTFlZWMzNjM2MGU5ODQ0OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjhhZGU4NzdkOTE0MjYyZGY3MjgyODEyYjk5ZWY0NmE4OWYyNzA4NWUwMWY4YWIwNzU4NzBkZDVhNjhjMmIwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEzMGZlOTU5ZjZlOTczNThjOGYyMjE4MmFjZDYxY2IyY2I3ZmE3ODg0NTYwMTIxYjk1MTllNmUzMTY3M2YyNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b15727aed351472e96eca0fdbbf33abb",
+      "statement": "gpi_tracker_events mirrors the GPI_TRACKER_SNAPSHOT schema: UETR (join key to PPH v2 identifiers.uetr), LAST_STATUS/LAST_REASON (ACSP/ACCC/RJCT plus G000-G004 gpi reason codes or an ISO reject reason), ROUTE_JSON (ordered agent chain), DEDUCTED_CHARGES_JSON (per-agent deducted charges), CONFIRMED_AMOUNT/CREDIT_TS (reported with ACCC), and SNAPSHOT_TS (GPI-C capture time).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L79-L104",
+          "version": "repo-lines-v1:sha256:debc4c9dc31556ad09184c02f19bfc8b8d623e2c67de7eb06b93459f73dde539:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4OGExMjhhMjlmNDE2NjVkNmQ2ZGZmM2EwMzNiZjIxZDAwY2MzZGVhYjJlNTAyNDRjMDMyYmJlYjhjMjY0MTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0YzMxOTIzYzljNGNmZGI3MTJhNTQwNzU2YzE5NjhjZWFjMzkwMTE3Yzk4NWU4YmNmZmNjYzIxN2IzM2MyMDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMzNiYTBlMTY0NjlmN2FlNWU2NzA0MjMyNzc0OWU2N2VkNjVjODYyZjFiNDdiNWE2YjAzNjYxNzZhOWVmZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjViNjRmNzcyMWFmNzIwNGVlMmMyY2Q5OGMzZWJlYjI4NTVlNzIzM2Y2NmM4YTU0OWJmMDU4YjUxY2ZjZjA2NmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_07cc6ec6d38949b9964350f0046eca67",
+      "statement": "gpi_tracker_events feeds two Payments-domain feature tables: wire_corridor_stats_daily (Internal, EUA-TRS-0007, descriptive Ops dashboard metrics, no suppression flag) and client_wire_history_features (Confidential - Client, a non-productionized, MRM-unregistered prototype), and there is no production client-facing wire/gpi insights endpoint in the TDIP Insights API (only EP-TDIP-01 cash-forecast is GA).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L60-L66",
+          "version": "repo-lines-v1:sha256:6fbbfb3cfdc09f08cc7e81f61719b2a1c94c6b47eb1488555c6817d62039ead9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGQ1ZmZkMjc0NWJmNzQ4ODM2MGFiN2FiMDAwN2NhNGYyYWZlNjc5MGE1NjMyNzI2NWM0MjA3M2E2NTMwNWJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNThkYzNlNWQyNGVhNjRiOGMwMDliYjdkNzlhNTkzNzRiYjM5ODc2MDliZmExYTkwZDY0MTE3OGZkMzAyN2IxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTQwMWFmNmEwYjkzNmQ1MzQ4ZmVhNTU5ODkxMDJhM2JiMzcxODU4NjdmZGUzMzMyNzRhN2IwZjRlMDJlMjZmMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L41-L47",
+          "version": "repo-lines-v1:sha256:2082afba3708689b0dd9e8cc06eec2f17b36425ffb27d4c65d970fba22e7b421:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmJjNmY5MDM2OGFjNDIwMGQ2NWU2ZTk1M2FmMjFjZjkxYTI0OWI3MmI4NjBhYWI1MGUyZGY4ZWY3MmE1ZGU0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L75-L78",
+          "version": "repo-lines-v1:sha256:6a6b1196659c581618e2f4785c778ab87483b3e978dbabe9afb2ebf3b9d88b0a:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjUzYTBkMThjYTUwOWRiMWQzNDI1ZDUwODY0OGUwZTM0M2UzZjYyN2FmYTRjMWMwMTZmYTc4MGEwMDg4NzdlOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDEyNDcwNjUzODY5ZDM2ODFkNGY3MDZiZDU3YjFhZTk2ZDliNmJhMTY4ZWY3YzkzOWY3YTNmOGM5OGEzZjFjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2M1MjYyZDA1N2I5MGQ0M2JiYzczODhhNzViNDc1NjQyMjc1ODUzM2E5NDFjOTA3Yzg0ZDk2ZThhYjk1NzI5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fd2e84c20cce47df9a12718aabd113c8",
+      "statement": "fed_ack_events (Fedwire acceptance/OMAD data from net.fedwire.ack.v1) is not ingested into TDIP (backlog story TDA-2210, blocked on a Kafka ACL), which prevents settlement-time analytics that would pair Fedwire acceptance data with gpi_tracker_events for cross-rail wire analysis.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L177-L181",
+          "version": "repo-lines-v1:sha256:750847b5a86a94169f0e794681866ae9a594a7a8e5aa84e6c6a921ff31a24693:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzExNjZiOTVlM2E2NTE0M2E5NWMxMTkyMTg4ZmQwNWQyMjAzODBlMGJmMDhjYzdiZmFiYThlOTc2MWY1NzcxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjdlZmNiZWY0OGNjZDRkZDQzNTA4NjYxMmM1MmU1ZTA3MDE4NGVmMGQxODlhNWQ0ZDlhYTBmNmEyYjM1ZGY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWZmYzMyZTc5MWRmM2Q4ZWYwZWU4ODA3OGNhNjY4ZDQ4NTY4MmY1NjExYjczZTI0ZTBjMmUzNTFhZjZiZDVhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjliM2JlNWNlZDQzNzllYzg2MTJiNDczMzk2MGYyYTkzYWJhNzI4M2NmOWE3MWNhZTE2MmNiZmYzNGY0MzEwYiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L67-L67",
+          "version": "repo-lines-v1:sha256:b21220c272e172a3ffa54adc481d6ac5bcb89b70eb058627bf65f0a011dc58e2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L34-L34",
+          "version": "repo-lines-v1:sha256:9f0fb2dd442a67cec0fccc356d45bca2f6794d1a3a5800d364c4be7de422a06e:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWYwZmIyZGQ0NDJhNjdjZWMwZmNjYzM1NmQ0NWJjYTJmNjc5NGQxYTNhNTgwMGQzNjRjNGJlN2RlNDIyYTA2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWYwZmIyZGQ0NDJhNjdjZWMwZmNjYzM1NmQ0NWJjYTJmNjc5NGQxYTNhNTgwMGQzNjRjNGJlN2RlNDIyYTA2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2NiNTYyODE0NGVkNzhiZDI0ZmE1ODRiMmE0MTc5YTE3MzkwZjM4MGFhN2U0ZTY0NDFjNjUzNjBlMGZkZWNhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWEzMTA1ZjUwOTk1ZDE0ODc4OWE3ZGQzNDU1OGMzYTMyYTI5MTY4NmU3MzI1MjdiZDVkZjllYzhiNjIxZTZjMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L82-L88",
+          "version": "repo-lines-v1:sha256:60996095138c66b375cef4489154f82351719b5d9bd7857ad94f0299baa7512d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRjYmE0YTQ2ZGI1NDYxNWVkMTQwMjU5NDc0ZTJkNTMwYmRkZjdjM2Y4OGNmNGY1YjI5NDhiYjEzNjRlMTJkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmY2Y4Y2E2MmE1Yjg5MWE2OTEyMzBmOTM1MzZkZWRjM2E1MTgyNDE0MWZhYzYyMmZlOWU5YzgxNzI5ZWM0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQ1NmUwNWRkNTFjYWQxZDYzMjk3ZDIzOGJiMWY2NjJiMGU3YTUyNGMyZWM5MmMxOWQ0NmJiMGU0YzU2NDVlYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_21f0d5ca6d4e4e6aaed0ed7cf45a5a20",
+      "statement": "Because gpi_tracker_events is Confidential - Client under DUS-07, derived feature tables inherit the most-restrictive permitted purpose of their inputs, cross-client cohort statistics shown to clients must meet DUS-07 thresholds (>=500 transactions, >=20 distinct clients, no client >15% of volume, monthly refresh, DRC-approved wording) or be suppressed, and client's-own-data insights need at least 5 comparable transactions with stated basis; any forward-looking customer-facing estimate built on it is Tier 2 (or higher) under MRM-POL-02 requiring independent validation before client display.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L29-L60",
+          "version": "repo-lines-v1:sha256:c4623818dc5934cde5f2d450ab82bf3c7712df009091e527bffdc73b3ee9196b:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkyOTM3MWExYTEzYjMyNmVjYTZkNjljNTRkMWM2YjQxMWJhODI5MmNlNTMxM2Q2Yzk1Yzc3YzE0OWZmYmM2N2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZTc3MTExZDQ0ZTA4YWU5MWJhZTcxMTQyZTE0MmI0MzM0MjBmZmNlYjczMjJmODkzZGMwZjU2ZGI0NGE4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFkNGY2NDFhNzA2YzJjZDFlYzJlODZjMGIxMjI2OWNkMmM1MWQ5ODdiNDcyY2I0MzVmOTczNzIyNjFhZTYyZGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ODQ1ZWJlZTQ2MWY4ZDgwOWM4MzNiNDBjZjE0MDhhODFkYTVmMTVkNThmNGRlNDlkZGJlNGNiNGNkNWU3MGQifQ"
+        },
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L62-L72",
+          "version": "repo-lines-v1:sha256:3f6f35e288f0265e4076102e458c82e4c3c78c0b01048f4ebe9bf2fbd55c1519:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmNDhmMWU4OTljZWM2M2Y5NGViNTMzMGQ1ZDBkZjI4Y2MxNTRmNTFiNTI2Nzc4MzM5MGFiYjE3YzJhNjJiZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU2YzVkYmQzN2EyZWIwMGIzOTlkMDQwZWQ4ZWYyNDRhMDcwMmI1MTc4MTJkYjgyYWNhNTkwMzRiOTM5YjQ4NzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY3Yjk3YWYyZGM4MjQyM2U2NTEzN2NjMzRjY2Q5MWVhOTNkMzI5N2M1NWNmM2MwYjc0NTM3M2E4ZGJmZjljNTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNiZTQ0MWYxMWMyZGY1OTExZTQxZjg2NGQ4MDYxZmM5NTE2OTdkNjhiY2QxMDcwNDI1OTAyMjAzMTNlNzcxNWMifQ"
+        },
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L30-L42",
+          "version": "repo-lines-v1:sha256:50e088b9aab483dfb10c66e39c34f7e3fbc5e329a02b7913aa275b521f6ce504:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMmExM2Y4OGI1NzU3ZDMxYjFjOWNmMTMxM2Q3MGYyZmNhZTkyOWNlNzE1YjcyY2FjODE4MTYyNGZkNjgwNmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhMGM1MjZkMGNhZmQ3YmUwNGRjZTBlNzA4M2YwN2FhNTYxNmU1ZjY3YTE1MDNjODQzZDQ5Zjk4YmI3YjA1NDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjViM2U3MjViNDcyNTU0NGY4M2IyMjhiZmUzZWJlYzYyNGZlYjFlNGE0YTFiODcxYzNiNTQ4Y2YzZGRlYjhjZjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7c39aa0b8a4a4a77b355ae08103e7fe3",
+      "statement": "An earlier request (PNG-1544) to raise GPI-C's own Swift Tracker API polling frequency from 4 hours to 2 hours was declined due to Swift Tracker API quota limits (250,000 calls/month); this is distinct from and unaffected by TDA-2188, which only changes TDIP's downstream load cadence from nightly to hourly without changing GPI-C's upstream polling cadence.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L57-L57",
+          "version": "repo-lines-v1:sha256:39ee2895f62dc1b6c75c2666bb6842517332526ea30a2eeca9947fdd6026efc6:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzllZTI4OTVmNjJkYzFiNmM3NWMyNjY2YmI2ODQyNTE3MzMyNTI2ZWEzMGEyZWVjYTk5NDdmZGQ2MDI2ZWZjNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzllZTI4OTVmNjJkYzFiNmM3NWMyNjY2YmI2ODQyNTE3MzMyNTI2ZWEzMGEyZWVjYTk5NDdmZGQ2MDI2ZWZjNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzdmN2U4ZjZkYmIyOWNmNGUzN2M1YTgwNTRjMWVlMzJhNTNkZWZiYTBjMWVlZjRkMTQyZTZhYjNlOGUwZWRhMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTUzZGU1OThhM2QwMTgwYmM2MGFiZjJkYjhkMzI0ZTczM2I3NzgyNTBlYzMyMmFmZWQ4OGVmM2UxYjI5OGI3OSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L133-L135",
+          "version": "repo-lines-v1:sha256:00263be13e89ea76af66a97bbaf429d9283eee22e0099e95e24302741d3f2ecf:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzlmMWY2OGI5NzcwOWI2ZWM4M2JhMjIyMjM1MWYxMzA3Mzg1NWZkMjA1OGMzNzllMjBmOWY5ODExODQzMjQzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2ZjIzOWNjN2YzYjcyMmQ3ZWM1NjRhN2VkYjgzNmMyZWE3NzNhYmQ1NGI5M2Q0NWYxZjQ0OGI1M2QyYjZlNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmVmNWNhY2YwYWFiMGJiNDdjYzUyNWY0ZWM4NGE4YmM4YzRmZjI2Nzk0ZTBiYjI2ODZjZDEwYjFiMzFiZmUyZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDI0MmY1MGNlNzY0OThlNDJlYmZlMTk4ZjE3OTJjY2E1YmM4OTc1Y2U4OTdkZDMyODQyMDJmODcwYWZjY2YyNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L90-L92",
+          "version": "repo-lines-v1:sha256:418fb701c113b34af833ad1f207a2f37a37d75a14e8f2160bc6ddae8643bdf49:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZhMjlkNTYyZmVkZmQ5ZGQwNDFhOTYyNDJhZTRmYWEyZjE1NjJkZTY4ZjBiM2FhNzU4YzE1ZTkzMmVhMTlmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzY5NjcwY2JjNjJkODg4OTQxN2JjNDQ1MjgxODgyMTNjNDg1YmE0M2Y4MWYzODFmZGU5ZWRlOTMyNjYzYzYyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1YzE3NWZmMGQwMWJlZjJmYmIyNDdmZmNhMzllYjY1YzIyYzJiMTIyOWRjZTU1NGQ1YWRmZjFkZDJiOWQ3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0NmMyZTYwNDQwZjI3MDQ5ZjgwYmYzNjhiNjg2ZWNkZTI2OGIzOGMzNmM4MzcxYWUxNTJhYjA2MDgzZjUzZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8323092649e04146be5eb63bc7da4d7a",
+      "statement": "Effective 2026-10-01, ownership of the upstream Swift Alliance Gateway, gpi Connector (SYS-PNG-GPI) and gpi Tracker integration moved from Payment Networks Engineering to Global Transaction Services Integration (GTSI), with PNE knowledge transfer targeted to complete 2026-12-15; this changes who owns the upstream source system and its Swift Tracker API contract but does not change TDIP's gpi_tracker_events dataset ownership (Laura Kim / Carlos Mendes).",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L48",
+          "version": "repo-lines-v1:sha256:86d2b10240054826a8d3ae5cdc94ee770b7fea7dcc2d3bb61c6e614b224ed5ee:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MDU5MjE1ZjBlOWZiYWMwODBlMTEzZjg2MDEwNjE1MGQ5YmRiOTQ0ZTE1ZDU3MWE0MGM1ZGI3ODRkYWM0MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1MzUyZmE5ZTY3Yjg4NzhmOTI3NjMzMzk2MTg3NzBlMTlhMjY5NGJiMmVjYzhmY2MzMDIzNWNkNDdlOTRiZWIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkMDFhODViOGNjMmUzYjJlZWJjNTllZmY5M2QzMjU1MjU1ZjNlMGM2NzBmMGZkMjE3ZjYwMTRhZDVjYzkxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU0ZTJkNjM2NDk5NzhhY2Q4ODYxNmVkZDc4ZGE4OWZmZGQ0ZTQ5MmQ4ZWY5ODdjYTkwMjAzODE3MGRhNzFhOTUifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L59-L60",
+          "version": "repo-lines-v1:sha256:40d90763bd71b816835b2d9dceb1c25e35ece3221dd3d800cbea56d936ca5499:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODkzYzQ4NTczMjExOGY1ZTc3ZjlhYTBjZmJhNmQ5YmZmNzIxNmViMWI0Y2UyNGQzMzQxNDA0YTZhODdkY2JhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGE5MWM0Y2ZiODU5N2VhNGEzN2RlYzMwZWRiYTA5YzZkN2RlODUyOGM0OWUzOTQ2ZGMwZmRmOWEwYjBjMzVkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGZiYjA2MjQ5ODg5Y2FhZjQ0MWIxOWRjMWJmZjBmYWVhZWE3N2RlNDFiMzRhYWQ4MTYyZDAxMGRiOTcyYWViNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTdmOWYzZGI0OWNiYTIyMWExMzgxNDZiNjFkNWZjYmQzZTZkZGRmMzhmN2Y4YzBkMmEyOTk3NDIyNmEwMzgxZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_40bc364d07c746bb9df7c086e4689809",
+      "statement": "The Payments Architecture Review Board has not approved exposing GPI_TRACKER_SNAPSHOT directly to client-facing channels; any future read-only, quota-isolated service for that purpose would itself require ARB review, and currently no internal API for gpi status exists at all beyond TDIP's batch load and Payment Operations' Investigations Workbench.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L66-L68",
+          "version": "repo-lines-v1:sha256:e0b03b72eaf587c6edb83ac1faa661c35c9dd5d50d813e5b752ae056ecc526f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWNiMDY4MmJjNWVlYzZhZjdkMTMzMGM4ZDJiOWZkM2E0YTUwYTU4OTFiYzVhY2RjMzFmOGRhMDZlMjMwOGRlYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgyNWYwZmNmN2ViZjljNWM4YWRjZTcxYzk4N2Y5NWRkZDJhNzQ5MzliNTJjZGE0ZTFkZWU2ZDM0YTJmZDE1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWUzZGIzODE3ODQ3ZDhkZDllZTg5NDkyZWVlNzExYTJiN2ZhZDA3M2FjMjgyMWJhOWY4MTdjN2RiZWY1MTUwMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E4OTBhODI2ZTA1OTQ2NWU5ZTZjOTk0ZjMwMWQwODkyNGQxYzQzZGQ1MGU5ZjQxODgyZWIwNzIwZTJhMmM1NiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L88-L88",
+          "version": "repo-lines-v1:sha256:0abb99c35affe5eb2a59bd41a6b40c3d9de1af4b6379550c2530ee56576004ff:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFiYjk5YzM1YWZmZTVlYjJhNTliZDQxYTZiNDBjM2Q5ZGUxYWY0YjYzNzk1NTBjMjUzMGVlNTY1NzYwMDRmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFiYjk5YzM1YWZmZTVlYjJhNTliZDQxYTZiNDBjM2Q5ZGUxYWY0YjYzNzk1NTBjMjUzMGVlNTY1NzYwMDRmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2U2YjBlNDU1ZDgzNzRiNmViMjAxMGQ3ZDExYzEwODYwZjg1MGY3Y2Q0MDVhYTFlZmZkNmI0NTU0YWY3OGNjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzFjZmE3NzlhZTVjZDI3NmExYzcxNjhjMzhhOTJlYWEwNTcyNGVlYzNkMDRlZTZjOWIwMjg1OWI3NWNkZWE1YyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

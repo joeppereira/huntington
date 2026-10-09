@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:646063f1db1ca6dea0fb6711716b5ccf83625f4eb77bee0f1b4a0e89692f4131",
+  "claims": [
+    {
+      "id": "claim_eec757c2696d4faa879f76d47857651f",
+      "statement": "EP-PPH-04..07 comprise the PPH v2 payments API: GET /pph/v2/payments/{paymentId} (150 TPS) for detail, GET /pph/v2/payments with clientId/rail/state/from/to/cursor filters (no account or beneficiary-name filter) for search, GET /pph/v2/payments/{paymentId}/history for state history (PPH processing-time timestamps), and POST /pph/v2/payments requiring an Idempotency-Key header for submission.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L77-L82",
+          "version": "repo-lines-v1:sha256:1d9e4bf20c003bcfe8e328ecfc7916d9e7ca1dfce65cec8b7d6663b3992e6459:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzdkYmM3ZmYxYjg4MTE3ZGNmZDdlYmY2MWM2ZTZkZTVkM2QwMDIwNGQzYTIwMjYxZjIzNDA1YzY0MmJkMTlkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDY3YWQ4YmEwOGJjYmE2ZmZlMzRiMmMzZWE5MjQ4OTllYjMyNWEyZWY0ZDg1ZWM4N2VhZjczZTVmMGI1MDNmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTM4NDJhMmQ1NmQwNGU1MTRjYjE0YTZjYjBjN2U5YzI4NGQ2ODllYWIyYzQ1ZWRhMzdmNDY2NWM4Nzc3MDMzNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_27ad00192f80451685ff893005a9e984",
+      "statement": "The EP-PPH-04 payment-detail response exposes a single lifecycleState field, identifiers (cboRef, imad, omad, uetr, endToEndId), network (sentTs, gateway), hold (isHeld, holdId only — no reason), charges (chargeBearer, orderingBankFee), and return (isoReason, returnedTs); intermediary/beneficiary bank charges are not known to PPH.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L84-L104",
+          "version": "repo-lines-v1:sha256:0f65c05159e2cdda488c8255f5dab284b239c1726faf2ad135b721c591ef5d62:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc0NzdhMzQ2OWYxMzdiY2U1MGEwYzM1OWQwNTA1MjY3NzZkYjlkODRkNmUyNDk5NTI5NzBmZDZlNjJmMDBhMDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2NDkwNTEwNDk5NTZhZmYyYWY0MjI5ZGYzOGNmYWJmNjRmZTg5ZTNjMDcyNDc2N2NiN2M4MWRmODZmMDMzNWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRhOGIwMzI0YjQ4ZjI4YjVmNWE0NzA4ZTA4ODAxNjFiZjA1MGUxZGQxOGQ1NjFhMmRmM2Y3NGUxMGY1M2JkNmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ2MDQ2Y2RhZGRjZDUyYmQwMDc0YmM3M2Q3ZTViYzgxZTdlNWQ0OWY0NTk3MzA1NGQwOTg5MmVlMWQzZTk2MWMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3a9aaa04720247da8e9082d6848e6758",
+      "statement": "v2's lifecycleState is finer-grained than v1's status enum: v1's PROCESSED value collapses the distinct v2 states RELEASED, SENT_TO_NETWORK, NETWORK_ACCEPTED, and COMPLETED into one value.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L41-L63",
+          "version": "repo-lines-v1:sha256:adff3d3b657126f20358faabcf7e9759c2402a4a8e1b3085f35b4cf3341cd10b:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4NzcxMDM1ZTgwMzUwZTU3NDQ3NTBmYjBlZmNlYTU5NDA3ZWI4ZTBjYzljYjIyYWVmYzg2YTAyYzk5Zjc2NDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0OTUwNDg2ZGM1ZTIyMzk4MWIyNGExNWVlMDlkYzcyODkyOGI5Y2U2ODc0YzM1YTQwYjlmZTBkNThjZWQwOTkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwNDdiNzIxODgxZTZiMGUzMGJhNWMyOTQ4YjdhYTlmYjI0MWVhZDJmODA0MzkyNTRkYjcwMDQxMjEwZjhhMGEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE1MmY0ZTJjYzU1OWRkNTI5N2FmNWJjYjRmNjMxOGZmNjg0MGJjODVlYjIwZGNkZTQ2ZTg2NGNlMWEyYjg3ZTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_72fe22f552cd4b00807bb8a29846c809",
+      "statement": "v1's fedRef field carries only the Fedwire IMAD (null for Swift wires); OMAD and UETR are not available in v1 at all and are exposed only via v2's identifiers.imad/omad/uetr fields.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L59-L65",
+          "version": "repo-lines-v1:sha256:262545969f1479c6013a8c5ceec0bd82f26e0d6cb5a396c0e90fad402754c1dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFhYjhkYzA4ZTVhZDNjYjlmNDdjNmEzZmYyNmVkYTE2ZDFmYTFjNTE1NmM5YjJkZjI0NGIyN2ZjMjRhZGY3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ3M2YzODhkNTViMzk2MTE4ZGMxZjUxNmJiMzQ4NWYwNjVkZTQzMmI3ZTNmNDg5YTljNjk2NDU3N2Q5ZDNkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_66fe771e821349549ee5e7a4894aa556",
+      "statement": "v1's holdReasonDesc field synced free-text hold descriptions from HMS as a legacy, uncurated field not present in v2, per ADR-PAY-021; v2's hold object carries presence (isHeld) and holdId only.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L100-L100",
+          "version": "repo-lines-v1:sha256:a0f77d91f31ba4f27c8f1740b4fc03e1f75b01380114a4dad005603387e2086b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTBmNzdkOTFmMzFiYTRmMjdjOGYxNzQwYjRmYzAzZTFmNzViMDEzODAxMTRhNGRhZDAwNTYwMzM4N2UyMDg2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTBmNzdkOTFmMzFiYTRmMjdjOGYxNzQwYjRmYzAzZTFmNzViMDEzODAxMTRhNGRhZDAwNTYwMzM4N2UyMDg2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmU5NWNhNDc3YjlmZmNlYjY1NTMxZmFkOTA5NmY5MjU1YTM1MzNmY2U4MGQyNDAxNzQ2ZDgyMDE1YWM5Y2ZhMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWI5ODczYWE2NzVhNzE0MTg5NzRhNDY3ODU5ZjBmZTc3NDBmM2Y3ZTA0YWNiODRlZmEwNmU0ZTA3YjVjNjcxMiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L59-L65",
+          "version": "repo-lines-v1:sha256:262545969f1479c6013a8c5ceec0bd82f26e0d6cb5a396c0e90fad402754c1dc:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGFhYjhkYzA4ZTVhZDNjYjlmNDdjNmEzZmYyNmVkYTE2ZDFmYTFjNTE1NmM5YjJkZjI0NGIyN2ZjMjRhZGY3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDE2NTM3MWIzZGU5NzUxNTcyMDk1NjBkYzVkMGEwMzk4NzI1MDE1NWEyODRmZDc4OTQxMGUzMDlhNTRlN2RkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ3M2YzODhkNTViMzk2MTE4ZGMxZjUxNmJiMzQ4NWYwNjVkZTQzMmI3ZTNmNDg5YTljNjk2NDU3N2Q5ZDNkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWE2MDEzNmM5MDgzNjA3ODJmYWRmZWMwNjM0MmI3MzQ3N2VmNzRlZDM1ZWUwMjRkYTU1YWIwM2M4YzA0MWQ4YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ca425dc5c924a9394a42ae3da72a95d",
+      "statement": "v2 does not include a settlement object; PPH-2207 proposes adding fedSettlementTs (from pacs.002/OMAD) and a per-rail settlementStatus, is scoped at 8 points, and is in backlog status with no assigned product sponsor as of PPH-API-CAT-2026.3.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L104-L104",
+          "version": "repo-lines-v1:sha256:6649051049956aff2af4229df38cfabf64fe89e3c0724767cb7c81df86f0335d:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY0OTA1MTA0OTk1NmFmZjJhZjQyMjlkZjM4Y2ZhYmY2NGZlODllM2MwNzI0NzY3Y2I3YzgxZGY4NmYwMzM1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjY0OTA1MTA0OTk1NmFmZjJhZjQyMjlkZjM4Y2ZhYmY2NGZlODllM2MwNzI0NzY3Y2I3YzgxZGY4NmYwMzM1ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWI5ODczYWE2NzVhNzE0MTg5NzRhNDY3ODU5ZjBmZTc3NDBmM2Y3ZTA0YWNiODRlZmEwNmU0ZTA3YjVjNjcxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDYwNDZjZGFkZGNkNTJiZDAwNzRiYzczZDdlNWJjODFlN2U1ZDQ5ZjQ1OTczMDU0ZDA5ODkyZWUxZDNlOTYxYyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L125-L131",
+          "version": "repo-lines-v1:sha256:1f58cdd4769edb8f2350ba1a4beffd7e8cae8506bea0656f3294c1a7a95b051c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTA1MWRmMDE4ODExMmNmZmQ2ODFlZWRlMWE4NDQ3MzkwYWU2OWRlYjVhYmJlMWY0NTE3OGMzZjI2MmNhNmRkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4ZTcwYTNiNTQ3NDYzZmJhZjEyNGI4MTI0OTA0MjZiMWM0NTU1YWMwM2Q0MzBjYzQxZDQzMjdkM2IzNGZiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAwODkwZTIyNzIyZGE1NmIwYTUwMTYzNDhjNDYxZmU1ZGM2ZTIwMWRlOTgyMWRjMjVkZDA0NmViMWFhZGY0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODQ3YjEyZTEyOWNhYTA2NzY1MWIzNjJhMTIyYWE0ZGQ3ODA5MjdiM2E2M2E2MjkwMDM4MDQ0MDc4MGYxMDU5YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5b6d8ad8c7ba4711b9d7007bee34084e",
+      "statement": "EP-PPH-05 search filters by clientId, rail, state, and a from/to date range but has no beneficiary-name filter or index; PPH-2251 tracks adding beneficiary-name search and is in backlog status with no committed delivery date.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L125-L131",
+          "version": "repo-lines-v1:sha256:1f58cdd4769edb8f2350ba1a4beffd7e8cae8506bea0656f3294c1a7a95b051c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTA1MWRmMDE4ODExMmNmZmQ2ODFlZWRlMWE4NDQ3MzkwYWU2OWRlYjVhYmJlMWY0NTE3OGMzZjI2MmNhNmRkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4ZTcwYTNiNTQ3NDYzZmJhZjEyNGI4MTI0OTA0MjZiMWM0NTU1YWMwM2Q0MzBjYzQxZDQzMjdkM2IzNGZiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDAwODkwZTIyNzIyZGE1NmIwYTUwMTYzNDhjNDYxZmU1ZGM2ZTIwMWRlOTgyMWRjMjVkZDA0NmViMWFhZGY0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODQ3YjEyZTEyOWNhYTA2NzY1MWIzNjJhMTIyYWE0ZGQ3ODA5MjdiM2E2M2E2MjkwMDM4MDQ0MDc4MGYxMDU5YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L80-L80",
+          "version": "repo-lines-v1:sha256:ac70932f5f3c162ebc45a1c22c5ef0d963d09a809d5394cd5cdd87937c683299:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWM3MDkzMmY1ZjNjMTYyZWJjNDVhMWMyMmM1ZWYwZDk2M2QwOWE4MDlkNTM5NGNkNWNkZDg3OTM3YzY4MzI5OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWM3MDkzMmY1ZjNjMTYyZWJjNDVhMWMyMmM1ZWYwZDk2M2QwOWE4MDlkNTM5NGNkNWNkZDg3OTM3YzY4MzI5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDEzYmU5ZjIzNzkwODBjNGE1MTdiMDFhMzdlYTU1OGVlMzM5NDk4YjFkMGZmMTBhOGM2YjE4M2VlYjYwY2QyMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGE4YjAzMjRiNDhmMjhiNWY1YTQ3MDhlMDg4MDE2MWJmMDUwZTFkZDE4ZDU2MWEyZGYzZjc0ZTEwZjUzYmQ2ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2893f2fcee8b46e3a9aa6f459fd8fae2",
+      "statement": "PPH-2190 tracks v1-sunset consumer migration status: IVR wire status migrated 2026-05; Service Center CRM in progress targeting 2026-12; cbo-wire-bff (Wire Center) not started, tracked as CBO-4471 (unscheduled); Wire Room console migrated to IWB in 2025. v1 sunsets 2027-03-31 with no extensions per the 2026-09-08 ARB decision.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L129-L131",
+          "version": "repo-lines-v1:sha256:91ac37066860a4d81528c4746e0d62cbb62c1b83d02dd3e87af9dd50928e84b1:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTdjZThjNjY2N2UzNmNiNDBlMDVlMjZkNzQ1YjRkYTkyOTI1NmMyZDdmNzA4NzE5OWVkMzFiMDQ3MThiMDM1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc4ZTcwYTNiNTQ3NDYzZmJhZjEyNGI4MTI0OTA0MjZiMWM0NTU1YWMwM2Q0MzBjYzQxZDQzMjdkM2IzNGZiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODVmYTUwY2MyNmI1ZjYwMWRiYWQ3MTNlOGVhMDQ5MjhkZDk5Yzg0NGNlNjdiNjgzNzM0MzU3NTkxMjFkNTZiZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODQ3YjEyZTEyOWNhYTA2NzY1MWIzNjJhMTIyYWE0ZGQ3ODA5MjdiM2E2M2E2MjkwMDM4MDQ0MDc4MGYxMDU5YyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L24-L36",
+          "version": "repo-lines-v1:sha256:79d9091776464d194ca82be7526cfdbed9dc23402d9056dd0fa497c18d5e6505:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0ZmY0YjU0NmJjZWI4NmQwMjNiMWYwZjNhMDBkNTAxZjA0OWNhY2YxYWEyNTAzZTcxMjNhMTRiMTE3N2FkNWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNiY2RmYTFhYTAzODYzNWMzNTYwN2M0ZGQ5ZWQ2ZWFiMWY0NTZjNzYxOTEzNmJmMWI4MjUwNjllOTNmMzA5YjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRiZDVlZGVkOTYxMDJmZmMxZWZjODEyMmM1MTU3NTFlMDUyNWUyNThkOGRmNDFjNDllNjQ0ZTQ0Y2Y5ZGVmMDAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_df5c1dd8403844f7aae8872e80572ff5",
+      "statement": "v2 REST offers 99.95% availability and 180ms p95 latency with T1 support, compared to v1 REST's 99.9% availability, 350ms p95 latency, and best-effort support until sunset; the pay.wire.lifecycle.v2 topic offers 99.95% availability with event lag under 2 seconds and T1 support.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L117-L123",
+          "version": "repo-lines-v1:sha256:b1db6dd3b655b4f961fd3865480dea607e58a56213ecb7920687aaeb7db772c6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGUwOTY4ZTg2ODFlYmNjNmI0MWU0YTgzZWM1NGMzYWE3MzkyYTZmYzBmMWE0NmE0Yjk3MDk2MzhmMThhZjliZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTA0OWZlMmJhYTMyODgyMDgyYzhiMjQzNDQ2NmQyODUyNjBmNDJjYTZiZTNlNjNmYTJhMjIyNzI0OTIxNjQzMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmZhNDNkMTBmNjA1YTViMDMyZmJhYmYyYTc0NWJjNjg0NTY1NjZiNTk2MjMyYjVmZDY0NWU1OWZhMDNlMDgwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTdlMDg4ODM2MDExYTAxM2ZkMDFjNWQxMjMyYzlhMDNiMjRiOTg5MTk1YWUwMmYyYTRjM2U4YWM5MDcxNDhhMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6e1ce89ebcbe43d38038bb5c81f3ef89",
+      "statement": "ISO pacs.004 return-reason codes (e.g. AC04, AC01, RR05) have been published on the pay.wire.lifecycle.v2 Kafka topic since 2026-08 (PPH-2266), while hold reasons are never published on any PPH topic.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md#L106-L115",
+          "version": "repo-lines-v1:sha256:af80132e90803c86c77f75d5b8602dc1909e9c680bc61de738886db890e17c08:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNTkyNzYwZjA4MWUxYzUyNGQ5ZDg0NDE2ZTExY2U5OTRjNzMwZTU4ZDNlZDI2MzI3NzViMmQ1ZTUwNmYxZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBmNDZhM2I2NjE1MDEyMTQ3NWZhNWYzOGFjODlhODgyOGZjMGI5MDM5NGZhZGZiNDE5N2Q3YjY0MjE5OGNkZjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVlZjI3YTg5NjAyNDk3MDgwYThmNWYxMzk1Y2YxNDk5YTBiYThjMzU0ZTI1NjFkYmJlMGM0ZWYwMDVmZDJmYjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxYjBkMTI4Y2NkNzY1NmE5NmQ2OGU0MDc3YWQ4NmU1MzE2N2NhNTE1MDUwYjUwOTk1NDI3ZWJiYzg3YjBiN2IifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

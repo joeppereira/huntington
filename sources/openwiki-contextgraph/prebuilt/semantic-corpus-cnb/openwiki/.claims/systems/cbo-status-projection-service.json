@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:46898282262cc8d49f6c5dc3c56261a27ce054b0bac666d15b75f14c4e00f6b0",
+  "claims": [
+    {
+      "id": "claim_54e1bff5aa954736bb4b509e16e916b1",
+      "statement": "The CBO Status Projection Service (SPS, system ID SYS-CBO-SPS) is a Kafka-consumer-to-Postgres-read-model system exposing /cbo/sps/v1, built under story CBO-3815 as the platform half of the ACH Payment Tracker epic (CBO-3790), and is named as the reference implementation of ADR-PAY-019's event-driven, non-polling channel status requirement.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L34-L36",
+          "version": "repo-lines-v1:sha256:1f35aa53be2f9b72dd8b1c998aa1932b987c28459a606949eef4cce03bb1b7c2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzkyM2QyOWVjNTg2ZTI3ZjZjYmI2Zjg4NzcyNjMxYWNlOTJhNjc0MTNhZWU4OGVlODcxYmM4N2FjMmMyYThiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM1YThmYzFiZGI1OTJlN2Y3OGE3MjIwZTY0ZmE3ZGVhMWFhNDA5MGJlODE0MzYyNmUwZDk5MWYxOTVjOTBlZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVmMTY5ZWZkZDQ1MTFlNmU2YjFmYWQyMjE3YmI3OGJjYWQzOTJjZjJmMTg4MzlhMzc3ZDhiOTI1NTBlMTVmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWUyYjk1ZmY4N2Q5ZjczN2NlZWNlNjI0Zjk1MzViYjE5MmQ3NDNjY2IyODg3NDliMGRlMTNkN2UxZDk1YWUxNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L123-L129",
+          "version": "repo-lines-v1:sha256:b98a4269ebd7df79bd67e4f14df8ca99146ecfcf518700069a8a6c3d8d399810:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYxMDgxYmI3MzlmOTM1NjY0OWE5NzY2YWRlM2QyNDg1YmYwNmIwZGZkNTNmM2I3MjdkYzVlOTdhYjAwNzBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1M2NlNDkyZTNhOTA2ODZhZDkwOTNiZGRlNTMwNjk3OGFlODUyN2QyYmZlZTY3N2RlOGYyYjA2OTFjNTdiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmMzk5NjE2OTQwMzVhZDk4Y2ZhMzEwN2IxNzBiMmI1ZWU5MzE2MzA1MDVlM2M0YzU0NzIwNzU2NGFjZjkyNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L29-L31",
+          "version": "repo-lines-v1:sha256:f528b5e6d12cb3b570e1dc7dcba7c8773c9f8101f023f36cd6dfd15bc662e0e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGI1NzJhYjg3MTVjMjBjZDNhZTJlZjliNGIxODcyNmUzMDU5ZWRjM2NlYzdjMjQ0ZTc2ZDFmMTRmNDAwNmQ1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM5ZjFiNGIyNzYzNGE4MzEyZThjMGExMDI5ZmVkZmZhNmUwMGE0YWMzOGM5OGFmMjhlYjJhOTdmNTdkZjc1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAzZWNkZDg4NGVkMzkzZDcwODYzMjA2ZDAyZjZkZjA2OTU0NzA1OGUxZjIzZjIxMGY3NWI2NDAzMzVmMTk2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIxY2MyZjJmOGNjOWYxMTJhZjE2YWU0ZDgxMWNhYThmNDE2MDFmMDc1MmZjYTk4ODk1MmJjODMwMzc4ZjAyNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ceeb0fd80e304b708b9e08302a03dbee",
+      "statement": "As of the CBO-ARCH-WC-4.1 architecture review (last reviewed 2026-08-20), SPS is configured for ACH only; it has no subscription to pay.wire.lifecycle.v2 and Wire Center does not call /cbo/sps/v1, instead still deriving status from synchronous, throttled PPH v1 calls.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L143-L143",
+          "version": "repo-lines-v1:sha256:649c24876fe623537eb31867fda9265fdfda45ea349de6ec96c4e6df67513f40:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg3MjQwNmEzMDgzOTZmODNlMWZiZGI1NzU3NjE3NzdhM2I4MTk2MDA1ZWUyZmIyYzBmZjAyMzk2MjNkOTZiYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L53-L56",
+          "version": "repo-lines-v1:sha256:c6f08921b32fb9c914b873940a5da97b2ee3ce25808a7979c780e594492a3149:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVhOTMyOTdjZjdiYjliZmE5NmE1M2FlZGRjMmY0OTU1YzY4OGFiODQzYzU5ZDBlZmJjYTIyYzVjNzNjNmI4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjQ3ZThhYjc0OThmZDQ3YTgzYzI4MjFhZGYyN2YzN2FhNjU5OTM3NmRjZTk1YzZmMzcyZmY1MDM2MDFlZmUyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_53f61a1045dc4c818ef443ec9c56f808",
+      "statement": "The Payments Architecture Review Board reaffirmed on 2026-09-08 that SPS is the reference pattern for client-facing status of any payment type, generalizing the pattern beyond its original ACH-only build.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L65-L68",
+          "version": "repo-lines-v1:sha256:4520b92d88beeee9669255447905cd78d0eeb44509dd41a24c00e01cb7bd3bc3:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJiZmQ0YTk0YWM1NGUzZmFlYmE0M2ZlNTdiN2UzYmNjYWY2NDk0YzE4YzBkYjQ5Njk3ZWM1OThjNWI5N2EyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjgyNWYwZmNmN2ViZjljNWM4YWRjZTcxYzk4N2Y5NWRkZDJhNzQ5MzliNTJjZGE0ZTFkZWU2ZDM0YTJmZDE1YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E4OTBhODI2ZTA1OTQ2NWU5ZTZjOTk0ZjMwMWQwODkyNGQxYzQzZGQ1MGU5ZjQxODgyZWIwNzIwZTJhMmM1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_81e20375012e4fbeb18e4ef4794eba7e",
+      "statement": "Adding wire support to SPS requires two concrete, independent pieces of work: a Kafka consumer ACL grant on pay.wire.lifecycle.v2, and a new mapping module translating PPH v2 lifecycleState values into client-facing milestones; the implementing engineer characterizes this as additive work, not a redesign of SPS's consumer or storage layers.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L143-L143",
+          "version": "repo-lines-v1:sha256:649c24876fe623537eb31867fda9265fdfda45ea349de6ec96c4e6df67513f40:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQ5YzI0ODc2ZmU2MjM1MzdlYjMxODY3ZmRhOTI2NWZkZmRhNDVlYTM0OWRlNmVjOTZjNGU2ZGY2NzUxM2Y0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWE5YjE4NDY3MWE5YWMzNWEzNGY4ZWZlMTA0OWZjZjg5MjJkZDQ5OTk5YjY0ZGY2MGM3NGU3NDVlMjFjZDk4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDg3MjQwNmEzMDgzOTZmODNlMWZiZGI1NzU3NjE3NzdhM2I4MTk2MDA1ZWUyZmIyYzBmZjAyMzk2MjNkOTZiYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L145-L152",
+          "version": "repo-lines-v1:sha256:09e5c913acc978839826065abe651a00656e203e6965a2ba43b71f667c9fa557:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZlNzVkNWJlMDkwMjY3ZTRhMjhhZWIwODNiMTgxYTE2MDkzOGI4OTI1MjgxMmJmOGIyZTE5ZjFlNGIxMzE1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWI0MjhkZDBmOGM1ZjM2YTM3MjViYTViNmRkMmZlNTY2NzdjZDEyZTdiMDExNjk4MzgwY2IzMmUwNmJiODBhMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2JjNzI3OWY3M2I4YWJjYzE4OGE5MDNiZmVmNTJiZGNlMzAwOTVlNDY5NTNkYjNiM2I2MTk5MmI4ZDhjM2QwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUwMmQ3NDc0MzQ4MmE5ZGRlY2RhOWRkZDkwMDQ2ODJjNGY1MWE1YzBmZDhiOTU2YzI4ZGFkYTBmODhhNTNjMiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L123-L129",
+          "version": "repo-lines-v1:sha256:b98a4269ebd7df79bd67e4f14df8ca99146ecfcf518700069a8a6c3d8d399810:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYxMDgxYmI3MzlmOTM1NjY0OWE5NzY2YWRlM2QyNDg1YmYwNmIwZGZkNTNmM2I3MjdkYzVlOTdhYjAwNzBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1M2NlNDkyZTNhOTA2ODZhZDkwOTNiZGRlNTMwNjk3OGFlODUyN2QyYmZlZTY3N2RlOGYyYjA2OTFjNTdiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmMzk5NjE2OTQwMzVhZDk4Y2ZhMzEwN2IxNzBiMmI1ZWU5MzE2MzA1MDVlM2M0YzU0NzIwNzU2NGFjZjkyNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d69b34035ed24d398f270245989e0f14",
+      "statement": "SPS was built alongside the reusable, rail-agnostic <cbo-journey-timeline> Aurora Design System component (CBO-3802) under the same CBO-3790 epic, and both are catalogued in CBO-ARCH-WC-4.1 as reusable assets for extending client-facing status to any payment type, including wires, via configuration plus a per-rail mapping module.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L145-L152",
+          "version": "repo-lines-v1:sha256:09e5c913acc978839826065abe651a00656e203e6965a2ba43b71f667c9fa557:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDZlNzVkNWJlMDkwMjY3ZTRhMjhhZWIwODNiMTgxYTE2MDkzOGI4OTI1MjgxMmJmOGIyZTE5ZjFlNGIxMzE1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWI0MjhkZDBmOGM1ZjM2YTM3MjViYTViNmRkMmZlNTY2NzdjZDEyZTdiMDExNjk4MzgwY2IzMmUwNmJiODBhMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2JjNzI3OWY3M2I4YWJjYzE4OGE5MDNiZmVmNTJiZGNlMzAwOTVlNDY5NTNkYjNiM2I2MTk5MmI4ZDhjM2QwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUwMmQ3NDc0MzQ4MmE5ZGRlY2RhOWRkZDkwMDQ2ODJjNGY1MWE1YzBmZDhiOTU2YzI4ZGFkYTBmODhhNTNjMiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L29-L31",
+          "version": "repo-lines-v1:sha256:f528b5e6d12cb3b570e1dc7dcba7c8773c9f8101f023f36cd6dfd15bc662e0e1:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGI1NzJhYjg3MTVjMjBjZDNhZTJlZjliNGIxODcyNmUzMDU5ZWRjM2NlYzdjMjQ0ZTc2ZDFmMTRmNDAwNmQ1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM5ZjFiNGIyNzYzNGE4MzEyZThjMGExMDI5ZmVkZmZhNmUwMGE0YWMzOGM5OGFmMjhlYjJhOTdmNTdkZjc1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjAzZWNkZDg4NGVkMzkzZDcwODYzMjA2ZDAyZjZkZjA2OTU0NzA1OGUxZjIzZjIxMGY3NWI2NDAzMzVmMTk2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIxY2MyZjJmOGNjOWYxMTJhZjE2YWU0ZDgxMWNhYThmNDE2MDFmMDc1MmZjYTk4ODk1MmJjODMwMzc4ZjAyNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e767f04509d84e9694203102fd5772f5",
+      "statement": "ADR-PAY-019, which SPS implements, was adopted after the Wire Status Lite pilot (CBO-3120) caused INC-2024-1182 by polling PPH's synchronous status API at ~85 TPS and exhausting its thread pool, delaying wire release for 47 minutes; this incident is the direct origin of SPS's event-driven, no-polling design.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L34-L36",
+          "version": "repo-lines-v1:sha256:1f35aa53be2f9b72dd8b1c998aa1932b987c28459a606949eef4cce03bb1b7c2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzkyM2QyOWVjNTg2ZTI3ZjZjYmI2Zjg4NzcyNjMxYWNlOTJhNjc0MTNhZWU4OGVlODcxYmM4N2FjMmMyYThiNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM1YThmYzFiZGI1OTJlN2Y3OGE3MjIwZTY0ZmE3ZGVhMWFhNDA5MGJlODE0MzYyNmUwZDk5MWYxOTVjOTBlZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjVmMTY5ZWZkZDQ1MTFlNmU2YjFmYWQyMjE3YmI3OGJjYWQzOTJjZjJmMTg4MzlhMzc3ZDhiOTI1NTBlMTVmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWUyYjk1ZmY4N2Q5ZjczN2NlZWNlNjI0Zjk1MzViYjE5MmQ3NDNjY2IyODg3NDliMGRlMTNkN2UxZDk1YWUxNSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L28-L28",
+          "version": "repo-lines-v1:sha256:3038fc9c1647d6ba6f0daf761aa168ceff1c5e8b34bdbecfdaccdb0a74d759f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzOGZjOWMxNjQ3ZDZiYTZmMGRhZjc2MWFhMTY4Y2VmZjFjNWU4YjM0YmRiZWNmZGFjY2RiMGE3NGQ3NTlmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjZlY2RlYTA0MmQxMzAzZGU1N2IxZmExMmE4MGNhMTU2N2Y1YjA0MjM5NmFkYWJjNmJlYzU4ZGNlYzAxZDU2NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUyOGI1ZTZkMTJjYjNiNTcwZTFkYzdkY2JhN2M4NzczYzlmODEwMWYwMjNmMzZjZDZkZmQxNWJjNjYyZTBlMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7c10abce81924bc7bdce21786aa83a07",
+      "statement": "SPS's wire-support gap is characterized in both the architecture documentation and the Jira backlog as an unscheduled configuration gap rather than an architectural limitation: CBO-ARCH-WC-4.1 lists it as a reusable asset with a known extension path, and no Jira story in the current backlog snapshot is actively requesting the pay.wire.lifecycle.v2 ACL or building the wire mapping module.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L143-L152",
+          "version": "repo-lines-v1:sha256:dcd8ab9c9d5856063206433331aeb4e3066e2462c1ddabed0139ea76f8c59f73:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0OWMyNDg3NmZlNjIzNTM3ZWIzMTg2N2ZkYTkyNjVmZGZkYTQ1ZWEzNDlkZTZlYzk2YzRlNmRmNjc1MTNmNDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiNDI4ZGQwZjhjNWYzNmEzNzI1YmE1YjZkZDJmZTU2Njc3Y2QxMmU3YjAxMTY5ODM4MGNiMzJlMDZiYjgwYTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVhOWIxODQ2NzFhOWFjMzVhMzRmOGVmZTEwNDlmY2Y4OTIyZGQ0OTk5OWI2NGRmNjBjNzRlNzQ1ZTIxY2Q5ODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY1MDJkNzQ3NDM0ODJhOWRkZWNkYTlkZGQ5MDA0NjgyYzRmNTFhNWMwZmQ4Yjk1NmMyOGRhZGEwZjg4YTUzYzIifQ"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L123-L129",
+          "version": "repo-lines-v1:sha256:b98a4269ebd7df79bd67e4f14df8ca99146ecfcf518700069a8a6c3d8d399810:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYxMDgxYmI3MzlmOTM1NjY0OWE5NzY2YWRlM2QyNDg1YmYwNmIwZGZkNTNmM2I3MjdkYzVlOTdhYjAwNzBlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc4NWIwNGE3N2NiNmVlNTIwZDk2MWE0YjczZmQwZjQ2M2JiMWJkZGNjZDAyYjFhOWY2MjZhYzE0ZTAxNTNkNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1M2NlNDkyZTNhOTA2ODZhZDkwOTNiZGRlNTMwNjk3OGFlODUyN2QyYmZlZTY3N2RlOGYyYjA2OTFjNTdiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJmMzk5NjE2OTQwMzVhZDk4Y2ZhMzEwN2IxNzBiMmI1ZWU5MzE2MzA1MDVlM2M0YzU0NzIwNzU2NGFjZjkyNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2cf87f99e1914d6293f305d8cb079ce8",
+      "statement": "Even if a wire mapping module were built, SPS's wire projection would inherit two content limits from the underlying pay.wire.lifecycle.v2 topic: hold reason codes/descriptions can never be surfaced (per ADR-PAY-021, hold detail stays within Financial Crimes Trust systems; only hold presence and holdId are available), and ISO pacs.004 return reasons have only been published on the topic since PPH-2266 shipped in 2026-08.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/arb-pay-reg-2026q3-payments-arb-adr-register-and-minutes.md#L38-L40",
+          "version": "repo-lines-v1:sha256:c8d677a33290573aa826e7fd4b7df5371c019bfddffe7c6cd8118863c079d690:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWIxNjA0ZDQ5ODAyODkzZGRlNDlkMWYwZjYwOGE1M2VmM2JlMzcwNGIzOTA2NmE0ZjgxYjRlNjQwNTY3YmM4YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTBmNDllZTBkZjRmZGZmOGRhNmQ1OTgwODQ5ZmVlNTgwNDBmNjY3MzkxMGJjNWU4NjBjNzI2YWU5ZjlhOTQzNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjdiNjU5ZjE5ZDg5NTQzZDY5MTYyYjY3ZmI1MGUxNGI4MTVlOWRhMjY1ODU0NTJiYzY0MGU1YjlhYmNmMjQzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGYyNDQ1NzIxNzFhZTcxNTdjZDUzY2UyM2E0ZmNiY2FiNDFkMGZjMTcwY2UxYmU3ZDIxZWU3YjFjNTlhNzI4NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L56-L56",
+          "version": "repo-lines-v1:sha256:b8ee3c7f2ce8740e0486351cf3c092ce82d961d0fb396da1a225657c6e80b8d1:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjhlZTNjN2YyY2U4NzQwZTA0ODYzNTFjZjNjMDkyY2U4MmQ5NjFkMGZiMzk2ZGExYTIyNTY1N2M2ZTgwYjhkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjhlZTNjN2YyY2U4NzQwZTA0ODYzNTFjZjNjMDkyY2U4MmQ5NjFkMGZiMzk2ZGExYTIyNTY1N2M2ZTgwYjhkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWM2YTFmZTFiNDIzN2VlZWNkNTY4Y2YxMmU3Yzk1NWU1ODhmMzk1MDVkYjU2N2MyNWI1NmZhYmEzNTZjNDQ2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODMwODc4Y2M5MGUwYTI3ZTY2YThiOWU5M2U3NjVlZjdhZDY0NDZlZjg3NDEyMjYxYzRiNmZhN2EyNDMzOWM1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_39fcd2fe96864e63b1f9b71dd015ded5",
+      "statement": "SPS is owned by the CBO Platform & Entitlements team (distinct from the CBO Wire Center squad) and runs at T2 (business-hours plus on-call) support, meaning any future wire-tracking integration with SPS would be a cross-team build rather than a Wire-Center-only change.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L18-L19",
+          "version": "repo-lines-v1:sha256:149c89ea2e6c3f677acbfe7b3d162d32df9441532672b29a352a146afda4e587:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU5YzU1ZWUwYmFkNTlhMWE4NGI3Yzc4MzBmM2JhNmM2YTg2ZjYzMDc0MTJiYTY1YzI3OWU5NTk2YjIzNjVlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDc5NDdhM2EyZjg0MDg0NTQxNDU4YWM2MzkxNjFkY2VjOTNjNjc0MzcxZTNmMWJlODViOGFlZGNkYzgyMmFmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmY4MjZmODkzMjgxNzMxOTA3NDcwYWRmOGQzMTVmNmIwNDdjYmY0MTU0MWIxYzI1YzJlNWU3NDUyOWQ5NTljYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2JjM2Q1MDk1MDQ5YzY1MTJjYmMzMzk5Y2VjZTQzMTBmMDQxNzdmYWQ0Nzc2YTk1YjQ3YzRiNjM3ZjUzMzRmMyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L31-L31",
+          "version": "repo-lines-v1:sha256:139f1b4b27634a8312e8c0a1029fedffa6e00a4ac38c98af28eb2a97f57df75b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM5ZjFiNGIyNzYzNGE4MzEyZThjMGExMDI5ZmVkZmZhNmUwMGE0YWMzOGM5OGFmMjhlYjJhOTdmNTdkZjc1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM5ZjFiNGIyNzYzNGE4MzEyZThjMGExMDI5ZmVkZmZhNmUwMGE0YWMzOGM5OGFmMjhlYjJhOTdmNTdkZjc1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzQxM2MxZDNlM2U5NmFlNmE1MTIzMjM1NDI4YmFiNjY2NmUxNzMzOTMxZGQ3NDZkOTJkYjUyNmEwYTY4YjdiNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIxY2MyZjJmOGNjOWYxMTJhZjE2YWU0ZDgxMWNhYThmNDE2MDFmMDc1MmZjYTk4ODk1MmJjODMwMzc4ZjAyNiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

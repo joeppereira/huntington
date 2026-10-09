@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f600e95fdbf1f4302d32f9c74a362165b8b7a487429feea854a42c1d50085e27",
+  "claims": [
+    {
+      "id": "claim_da71e06b362a4eac84dc28afaa7bc08f",
+      "statement": "Mark Sullivan is the accountable leader of the 'Deposits Data Ownership' partner function in CNB's Payments & Treasury Technology (PTT) organization directory, named accountable for 'Core Deposit Platform datasets (Restricted)' alongside other first/second-line partner functions (FCC, MRM, Legal, InfoSec, Privacy Office) that are not part of PTT's engineering reporting line but hold mandatory review/sign-off authority over specific classes of PTT change.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L76",
+          "version": "repo-lines-v1:sha256:29a82c4ca27a76ecf2eb7738d8713a0123db25932946ca8cf354860648692b07:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1ZWU0NDJmZjljZWJhNTU3NWMwNzE0ZDY5OTM3Njg0MTQ5ZjJlODYyYzY0NDk1MjQyZTNmMDk1MmEzMWU1OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a91e73de1b35476d8fc65c91153cd577",
+      "statement": "Mark Sullivan is recorded as the business owner of the Core Deposit Platform (SYS-CDP) in the PTT system ownership register, which lists 'Deposits Technology' as the owning team, no individually named technical owner (only '(Deposits Tech)'), and a Tier 1 (24x7 critical) support classification, even though Deposits Technology and Mark Sullivan's function sit outside the PTT engineering organization.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L78-L96",
+          "version": "repo-lines-v1:sha256:94a541e3f9bfd7a49d68075cae13cdd9db2c100412eca16a10fba77b8013840c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkMmI5MDJiNTRjZDUwZWZkMWYwODNhMDI4NWJkM2M3OTI4ZjFkOGI1ZWQxMWI1ZmMzN2Y3OTE2ZTgyZDgzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFjNjdmM2ZiOWNlMWFhYjVhNjNhNDg3YjhhNDM1NTdhYjM0Mjc0M2YwN2U0ZTNiZGJmMGJjNmYxYThhNzZlNDMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2e70762b51c844eead5d0677ed0e89e9",
+      "statement": "Mark Sullivan, jointly with Deposits Data Engineering, is the data owner/steward of the dda_txn_history dataset in the TDIP payments-domain data catalog: sourced daily from the Core Deposit Platform, retaining 7 years of history, and classified Restricted - Client Confidential, the only dataset in that catalog at the Restricted tier.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L38",
+          "version": "repo-lines-v1:sha256:9db3a86d366138313249f5efd2e75c005b4fc60ba7037a8e3eeab1fbc0e03778:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzNzkzNzhmMWQwZjYyMjdhNDM5ZTI4MjNjYzBmZWJhZDlkNjczOTk3ZDFjMjU0Y2I5OGFhZmI2MmVlZTI1NDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ad3b033d5b1646bea6089afa5de2fce4",
+      "statement": "dda_txn_history's ownership pattern (Mark Sullivan / Deposits Data Engineering end-to-end) differs from other TDIP payments-domain datasets, which pair a PTT business data owner (Laura Kim or Marcus Chen) with TDIP data-engineering lead Carlos Mendes, reflecting that dda_txn_history is sourced from the Core Deposit Platform outside the Payments Platform and PTT organization chart.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L82-L96",
+          "version": "repo-lines-v1:sha256:d03514dbf4821c5cd5650e3e318255cc3a941b18af48a11ee712ce5d5c5b842f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2MDYxY2ZkN2JhNjgxYWQ5MmFmODYwOGEyNmNjN2Y2MTgyOTU0MmJmMWRkN2ZlODRiYzIxN2FkMDBmNTg2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxMTYxMGQ0YzdkZmFiNzI0MDlhOTZiNmFhNjk3YmJmMWFkNWE3NGYyZTkxOTA5YjExMzBlMThmMmRjYmM4OWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdlNjcxMDkwNzMyNjU1MzYyYTYzNTEwZTBmNTkzZTQyNTg3NTdiNTI5YzEwMmViZjEzN2VmNDNkOWFlYjlmYjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1ODAyYjA5ZGM4OTkwNGE2MzcxMDA3Y2JiNTU3ZWZkOGFmNGJiOTk3ZGI0NWRjZWVlYTZiNDQyZWE0NjYzNTUifQ"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L38",
+          "version": "repo-lines-v1:sha256:9db3a86d366138313249f5efd2e75c005b4fc60ba7037a8e3eeab1fbc0e03778:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYzNzkzNzhmMWQwZjYyMjdhNDM5ZTI4MjNjYzBmZWJhZDlkNjczOTk3ZDFjMjU0Y2I5OGFhZmI2MmVlZTI1NDMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7258eb59d47b4fcab00848403eef4d04",
+      "statement": "The only documented downstream consumer of dda_txn_history is the beneficiary_behavior_profile feature table, which joins it with pay_wire_txn_hist at a grain of on-us beneficiary account x day to feed the Tier 1 financial-crimes model M-FCT-0034 under MRM-POL-02, inheriting dda_txn_history's Restricted classification and sole permitted purpose; no other feature table or Insights API endpoint reads from dda_txn_history.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L41-L47",
+          "version": "repo-lines-v1:sha256:2082afba3708689b0dd9e8cc06eec2f17b36425ffb27d4c65d970fba22e7b421:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmJjNmY5MDM2OGFjNDIwMGQ2NWU2ZTk1M2FmMjFjZjkxYTI0OWI3MmI4NjBhYWI1MGUyZGY4ZWY3MmE1ZGU0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzBlOGMzNmM5MDczYjk0ZjY1YmI5ZjhhY2MzZGFmMjg2OWIwMTM5ZWYyOTA2Mjg4OGFjMDUxZGViZjg0MDJlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWIzYWNiNGNiNzg1MTg4MjcxNzZlYjljYjRmMzFkYzk5MmY1ODI5M2MyYjcxZmU4YWE2NDRjZDcxNDUzNmJiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDM1YWI1ZDIwOTcxMTlhYWQ3ZjBmOGYyYmZmYWE5NDg4NmM2M2RlNTc1MjFkOGFlY2I0NGNjNzRmMzcxNjIyMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L71-L80",
+          "version": "repo-lines-v1:sha256:6d260b4a8d617439aeb1597ef91e3aea78b1797c1e561fa162e0c025d38b1855:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkNjQ4NzFkMWM2ZDBlZjUzOTQzNGNlN2JiODhmY2M5YmJlNDVhM2VlNDA3NWQ3ZTFkY2Y3MjkzMjhlNDA5ZmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE4ZTZhZGFkOTg4ZGM1NzFhZDkwM2JlMjFhOGUwMDgwMTVmYWE4ZGViYTBlNzIxNGI4MTU0MDY1NTg5ZDY1MTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3N2I5ZDg2MjdlYTE2MzRlOTY0MzNiMDA1YTgxOTFiNGFlZGZiNzllMzU0ZWRkNjQwYzBiNWVlNTNlZDhlNDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJlMjUwMjIyNjcyNDAwMWQzZjNjYzIyYzQ5NjQ4Y2JlZWM4N2E4ZTBhOWM1NmJhZThkYzliZjY0NGUxYWViM2MifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a571390371eb4306a5f89624d09d1fa5",
+      "statement": "Because dda_txn_history is classified Restricted - Client Confidential, access requires a Collibra Data Access Request with Privacy Office approval carrying a published SLA of 15 business days, longer than standard access governance for Confidential or Internal TDIP datasets.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L120-L134",
+          "version": "repo-lines-v1:sha256:0da4017ecae8050a98c68949c9163bcd7b0043c84406eadbbc0b6bd2fd45794f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3MDFmMTYxY2FmZTU0YWQ5NzAzYWJmZmM5MDA0ZGY0YTE4YzMwZTE4NDNmZDBkMzhhOWU3ODU3MjFkNTgyNTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiM2ExMGI5MjRiOTI2MzZmMzJmMDllNDQyMDRmYjIzMzc5NjY4NTE1ZmU5YmE2NmFhMzQ2OWMyY2RjNWNjYjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzYmFhMTZhYjA5NmZmNDdkOTAzZjY5MzA5YmE1NzVlN2NmZGY5YjIxOWZkMTY5NDg3NWMzZmIyZjVhN2NkODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI5MzI5NmFiYjcwM2M3YmMzNTc4Yjc5MWYzNjFiZmZhZDUwN2ViMjA3OGU0ZmVmMzNiOTAzOWMzYjVkNjZhNWEifQ"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L24-L27",
+          "version": "repo-lines-v1:sha256:a5eaec6bacc989530a5a071d42dece511385bb6ff1a4ccdab1e3bfd14c391c6a:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI1MjAwZjAyM2RkOGY0NjZjYWZlYWFkODQ1MDIxOTAxZmNhMDg5N2U2NjQxYjNhOTdjYTExYzM1ZGQxM2VjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjdmNTNkYmVlMWI2OTM4Yzg3YWI4NzEyNmZkYjBkYzhiZmZjNjkyOWNmYTg1MGYyNzZlODU0MGJjYzA2MTg4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjE0YWViMDU2ZWY2YWM3YWJlNDRjNTUxOTAzMTJiMjMwYjk1YjM4OTk3NjJjMTJjZDA5Y2UxYTNkYmVmY2QzMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

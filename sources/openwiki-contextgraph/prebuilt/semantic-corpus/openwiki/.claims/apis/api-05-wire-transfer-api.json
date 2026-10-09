@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d5b80ba6e8173d7f0ae46a02ab6505c737ad7eaee94e717525a786ccdac5e42f",
+  "claims": [
+    {
+      "id": "claim_97a28f15282a4f2b8d4df58bfad0b275",
+      "statement": "API-05 Wire Transfer API (v2.0, base path /wires/v2) initiates domestic Fedwire and cross-border SWIFT (MT/ISO 20022 MX) wires with FX conversion using rates from the FX Rates API, and supports payment tracking via UETR; it is owned by Global Payments Technology in the Payments domain.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L2-L17",
+          "version": "repo-lines-v1:sha256:7fa9f9253b96b6d9fcb652fa32edf8909db3206f4dff1b5077fb49f2b7e01aaa:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0ZWI3ZDQzMjVjNzEyY2JlZTcyM2MxZjdkOTNhMDhmNmU4M2I5NzcwZjIzMzZkY2NkMzJlZDkzYWE3MjczMGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBkM2RhMGI4Zjg5Nzg4Y2U5OGU1NDJmNTJlZWE3ZGQxMDRkOWMzOGEzMWVhNDYyOGMwMTJhNjk1ODllMjM5YzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoxLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE4ZmQ3MTBiODI2YjU0YjdmOWE2MDc5ODkwMDVhNzUwMDNhZGVjMzNkMWQyMzc1YjQ0NDM1MGJkZmFiNDZmNTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c287e34a779d4889b3b4def75f1a8e97",
+      "statement": "The API exposes three endpoints: POST /wires to create a wire, GET /wires/{wireId} for status and UETR tracking events, and POST /wires/quotes for an FX quote valid for 60 seconds for cross-currency wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L19-L25",
+          "version": "repo-lines-v1:sha256:85e80610f224389330f5c3f13a75b3a95754776dc8fab444079b63bf2474ae67:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FkMTA3MzllOTJhNDgxY2Y1MGNhYjUyNmMzNjFlZWI3MjBhOWY2NzRhNjkzNmMwNTUyYjg2ZGViNjc2NDgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzBjZDM0M2M4NDViZjY4OTUwOWU2YTkyMGRjMTc4NDM1NTVmZGUwYjZmMDBjYmY3NWZkM2FlNTgwNDRmYWRlMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjQ5ODc1YTViMmRiZDljOTg3NjdjOTc2Nzc2ODc2ODczMjg1NTNkODlkOWYxYTNjODk0NGI2NDkxOTFjNzk5NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA4NjM5YTIwODY4NzFhNzZiZTRlZDUyMTE2ZjhjYmJlYjhlYjcyMjZmOWM3MjI3Yjg2NDBjMTgxNTk2OWYzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a686e21044254ac595b06a349f3a9abc",
+      "statement": "Access uses OAuth scopes wires:write and wires:read, is rate limited to 120 requests/minute per client, has a 99.99% availability SLO during operating hours, and handles data classified Restricted - Financial Transaction.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:0713b0351c51b0330e05d51e843e1cc29b1769d8183eef5dfb9c59a798104540:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBkM2RhMGI4Zjg5Nzg4Y2U5OGU1NDJmNTJlZWE3ZGQxMDRkOWMzOGEzMWVhNDYyOGMwMTJhNjk1ODllMjM5YzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA2ZjcyMWI5ZWYwYmRhYWI1ZjE1OWE5ZTU0YWYyOWI0MmVhZDM4MGI0NzU0YWFlZjc0YzdlOWExNDgyNjg1MDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_04431f72289449c9b7940a9e62ebfa3b",
+      "statement": "A wire creation request carries debtorAccount, beneficiary (name, IBAN), amount, currency and a quoteId, with an Idempotency-Key header; the example response returns wireId, uetr, an initial status of screening, and the applied rate.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L27-L65",
+          "version": "repo-lines-v1:sha256:eb535b34b0847ab4cb94321094964071acbb9bd15d7bc8783e1e94925367bc72:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YmE2YjM0ZGMzMDM0YWM2NmIxOTYxMmFjZDYyM2E3OTExZmRjNTM0ZTY5ZGYxOGYzMDA4ZjUxZjVjZDM2ODYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU2YTQ3NmNjZjM4ZmE2MGM1MDQzNzliZTRlZDE2YWJmMzVhODU3ZDJlNjhhMmQ4YjVmYmQzMTkyMTAxYTdhOTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_134332a5a2cf416a9f67fb733a28532a",
+      "statement": "Data lineage: upstream sources are the FX Rates API (API-13), sanctions screening and the Fraud Risk Signals API (API-08); downstream consumers are Fedwire, SWIFT, the general ledger and the Treasury Liquidity Positions API (API-15).",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L67-L71",
+          "version": "repo-lines-v1:sha256:c9a9e20fafcf6a969806a76c46f297e0d28e2f44d06472f2d8e8afb47b4117b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFkNWU1YjAwNTQ0YjFkOTFmZTIyNGUzNTRmMmMxZjdmMWIxYzU5MDFiNTNlNWFhYmExNGQzNTA0OWY0NDBkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c6c215cf1dc94a1fba4224f708cdf01e",
+      "statement": "v2.0 (2025-11) completed the ISO 20022 MX migration.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-05-wire-transfer-api.md#L73-L75",
+          "version": "repo-lines-v1:sha256:034f85cac220d2cb0eba0b25ad341f8a1094ea6166b17b4b7ea85480c6280462:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzljY2IwZmI0ZWM4MDhkYjhlMGY2N2E5NDU3MGQ0YzMwNzVkYTY3ZWJkYWQyYzViZTMzMzJlOWYwN2QwOTg1YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDI1OWFlZTc0ZjQ0MDAzMGY0Y2RiM2U4MTYxYzAzY2IyOTg4MWJiZDg4ZTcwNzg0M2FjOWNkM2FjZjEyMzNiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

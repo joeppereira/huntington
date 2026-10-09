@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d7d8c466ad16f60563c444886c0b9ff52d4729477c6651904b776bf9bc04dc03",
+  "claims": [
+    {
+      "id": "claim_c7270ff306f04a328dd83caaf3bcfab5",
+      "statement": "Melissa Grant is the Engineering Manager for the Enterprise Notification Service (ENS) within the Enterprise Notification Platform team, which is led by Director Sanjay Iyer and also includes Paul Henderson as event-onboarding owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L62-L62",
+          "version": "repo-lines-v1:sha256:3725d100c266f4f4474c071af7a411f25ecaaaf7ae0682bce10ada3a1443ba3c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzcyNWQxMDBjMjY2ZjRmNDQ3NGMwNzFhZjdhNDExZjI1ZWNhYWFmN2FlMDY4MmJjZTEwYWRhM2ExNDQzYmEzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzcyNWQxMDBjMjY2ZjRmNDQ3NGMwNzFhZjdhNDExZjI1ZWNhYWFmN2FlMDY4MmJjZTEwYWRhM2ExNDQzYmEzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUxMjg3YzY0OTc5MmM5MzI1YjlhMWQ4NDc3MWFjYTk0ZDFlMTQ5ZDBhMmI5ZGU2M2EyNDIyNDgwYTk5OTllMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBmMmM1NWRlN2VjNDRjYmIxZWU5OTVkNTRlNDc4MzE2YTM0OGY4MjI1MTg5NWUxNTI1ZjU5OGE2ZTBjMGM5MyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L18-L18",
+          "version": "repo-lines-v1:sha256:1a987b12bfaa6f8490cb5cf1e9bc4395ace4ffd5bca3d6591f585557797303aa:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE5ODdiMTJiZmFhNmY4NDkwY2I1Y2YxZTliYzQzOTVhY2U0ZmZkNWJjYTNkNjU5MWY1ODU1NTc3OTczMDNhYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE5ODdiMTJiZmFhNmY4NDkwY2I1Y2YxZTliYzQzOTVhY2U0ZmZkNWJjYTNkNjU5MWY1ODU1NTc3OTczMDNhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTNjMWIxOTFhZWViMDhiMDEyNmJkN2U0ZGE3NTY4ODIxYTdiNzE2ODA1MWYyY2EwMmNmOGYwZjQ1ODVhYTEyOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjg0NWI3ZTc0NWE4MTgzYjMyMGU1OWNmYTQwOThhZTYwNTVmYzFlOTU5YTk4NzU1MmY4NjQ0MDRlNzc4OTdjNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ddf6aa733d284f179c4841b61b7cba4b",
+      "statement": "Melissa Grant is recorded as the technical owner of system SYS-ENS (Enterprise Notification Service, Tier 2), with Sanjay Iyer as the accountable business owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L93-L93",
+          "version": "repo-lines-v1:sha256:f837230f587b0a2c87635e8a382be490b8835c2842c599135d270d06e86dc8cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgzNzIzMGY1ODdiMGEyYzg3NjM1ZThhMzgyYmU0OTBiODgzNWMyODQyYzU5OTEzNWQyNzBkMDZlODZkYzhjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjgzNzIzMGY1ODdiMGEyYzg3NjM1ZThhMzgyYmU0OTBiODgzNWMyODQyYzU5OTEzNWQyNzBkMDZlODZkYzhjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2VjODUzNTYxYTEzZjkyYTI1ODc2YzJmYzY3MmZlODYzY2VhNTc1OWQ2ZDk1ZjNhN2I4YzZhNThiYmMxNjYwNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzQ3NGIxNGZjZWE1MDVjODM1ZjIxZGQ4ZmQ0ZTZlMmIzNWVlOTFlNDhjZjg2MTg2N2RjOTZmZGZiZGE0ZTI0NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9706cd9125384a57aeccce2c42e5ecf1",
+      "statement": "Melissa Grant is the document owner of ENS-INT-3.2, the published Enterprise Notification Service Integration Guide & Treasury Event Catalog (v3.2), approved by Sanjay Iyer, Director of Enterprise Notification Platform.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L15-L22",
+          "version": "repo-lines-v1:sha256:ae72122bd10ef4ec657e757974454242ed09a22834f9180a7f50bcb72dc26ac5:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWI3MzhlYmQ4MDg1ODU3ZTRmYzRmZDdmNTcxMzNmODU0NzA5YWM4NmY4ZTRkM2YxZDFlYzVmYTQ0M2NjNmVmZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNkMTgzYWMyNjQwZGIwYmNmYjZmMDA2ZmRmMjg1YWE4NmZlODkwZWQxYzNlZjY1MDM4NzhiYmZmMDI0ZThhZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODMyYTBhYTg2OWVlOGQwN2RkOGYzNzU4NDZhOWFhN2FlMzEyYzczMjY2YThiNGFhN2FiNTFiYWVmOTJiYmU3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTk4ZGY4MzQ3NDlkMjU4YWQwNDkyOTI3ODY5MzQ1YjhjZDU5YzAyYjkwNDFiNTNlNjAxNDVhNWIyNzFiNjU4MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4175cf3706ba42e881f0b783b9c30733",
+      "statement": "Melissa Grant is the named owner of ENS-1120, a Planned initiative targeted for 2027-H1 to add entity-level subscriptions (e.g. subscribing to a specific paymentId or caseId) to ENS.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L64-L64",
+          "version": "repo-lines-v1:sha256:14b559e05d7d58640a033ebbc11bfdd14789883f6f7ed8a57e0874f23b5790a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTRiNTU5ZTA1ZDdkNTg2NDBhMDMzZWJiYzExYmZkZDE0Nzg5ODgzZjZmN2VkOGE1N2UwODc0ZjIzYjU3OTBhNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTRiNTU5ZTA1ZDdkNTg2NDBhMDMzZWJiYzExYmZkZDE0Nzg5ODgzZjZmN2VkOGE1N2UwODc0ZjIzYjU3OTBhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTdmOWYzZGI0OWNiYTIyMWExMzgxNDZiNjFkNWZjYmQzZTZkZGRmMzhmN2Y4YzBkMmEyOTk3NDIyNmEwMzgxZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWU0YTdmMzFiMWJjZTNmMjZiNzY2YWM4YjU4NDRhNTlkMjc4OGY5NjkyZjA4NGQ5NGRmZDZmOTk2ZDU1OTI3MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_77a15288a13d403bad52b3042a75ccac",
+      "statement": "ENS-INT-3.2, which Melissa Grant owns, documents that ENS's current subscription model is scoped per user to an event type with optional accountId and amount-threshold filters, does not support subscribing to an individual entity, and names ENS-1120 (2027-H1) as the planned fix, with 'producer-resolved recipients' as the interim workaround where a producer maintains its own recipient list.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L49-L51",
+          "version": "repo-lines-v1:sha256:7b6750fc41945eae6836d5115964229ec2e5835b12941bb5e45adddb0e807434:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWVmYmNjYzc3OTQyOTJlYzU2YTA5ODc2YTZjNTBmODFmODQxYjYzZDJjOTQ5YmNmMzYyNzE0NGU4NjA4ZjBkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmNlNWE5M2U5NDUzN2FjZjYzMGEwZmZhZTkwYWM4ODM5NmUxNzBkNGViYTgxMDVmYTcxODgxODBkMDEyOTliNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzI5ZmI2YmY4MWNkOWNlYjQxY2UwMjI5NDM0NGU5NGI1NGIzODc3Zjk5NTczMzRhOGQ0MGIwYjcxZDY4OGNmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJhMTY5OTRmOWQzZTI1NTY0YjEyNDA2ZjVhYjAxYjQ4OTgzMDM2NTQwMzk3ZDk1NTc4Y2ZiZjhkMWE5MDA3MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d2c8dab432dd4fefa72c5b4c247ce284",
+      "statement": "ENS-INT-3.2 specifies a five-step, 6-week-SLA event-onboarding process (ServiceNow catalog submission, payload/recipient-filter definition, Disclosure Review Committee template approval, ENS configuration/testing at ~12 engineering hours, and producer UAT/production enablement), with requests submitted after 2026-11-20 deferred past the year-end change freeze.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L35-L47",
+          "version": "repo-lines-v1:sha256:ba50d9789bac47aeb78c8b0be58c5016a66c7b51eeb9632461c33cf56926fe22:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZDU1ZjUzNTA2NDk2YThmNmNlZjMwOGVhZTJmMTA3ZmI0ODJlZDg0ZTdmYjU3OTFjNDhhN2RiZDZkMjBlNWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiZDlkYzQyMjI3MWQ0YjI3M2MxNGU0NGUwZTk1Y2ExYWI2MzBjZDc4NzFlMTc3NDliMWQ4NzNlODg3N2UxNjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZjA4ODc3NmRjZGZkYmU4YTFjYjZiNjI0MDE3ZWNlNDE2MjE4OTI4OWE1OTJhMTU5MDRlMTRjN2FkYTc1ZmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlMTlkMTE5YjVkMDQwZmVlZTk1YTRlMzVhYWI0ZmM1MmJmZWY2MzBkODQ5MWFkMDNhMWQyODBhOTRhOWIyY2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4c9983a28efc4fcd89eb3410d830eedb",
+      "statement": "ENS-INT-3.2's Treasury (TRS) event catalog documents the live TRS.WIRE.* and TRS.ACH.* event types and explicitly notes no event types are registered for wire network acceptance, gpi beneficiary credit (ACCC), wire returns, gpi milestones, or client-action-required states on held wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L53-L75",
+          "version": "repo-lines-v1:sha256:b8fbc8d2de9c295824e814b04f99f12a475ebd5f85774517fae258d3bf20c8b2:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NDFhYzA0MTM0ODM5NWFiOTgxZTkwMGU2NWRmYjc5NzQyODNkYTMwNTU5NmFjNWE2ZjU0MGNiN2ZlNjViZDUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3MTFhMjAyZTNjMDJiOTk5Y2M0NzcwNmU2NTY4ZTZlMzM5ZWRjMTI0MTFhNTcyYzljMGY2YmRiM2VjZTVlM2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImI3OWZjNjM3NmI5ZjI5OTBkOWY3Mjg2MTU2MmI0MGQyZjRkMTc1OTYzYzgyYjAyNzkwMWVkMDkwZTdjYmEyYzAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcwYzg3NDMyNDdlNjUwNzk2NjYwZWQyOGRlMzcyMzVhNGM5ZWFkZmI1N2I4OTU3NDJlYWY3OTg2ODBjY2QxNmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_14658f723a1a400db10c159446009301",
+      "statement": "ENS-INT-3.2 requires templates for financial-crimes-related states to use FCC-approved copy per POL-FCC-014 Appendix B, requires status wording to follow the producer's approved terminology, and prohibits links exposing transaction data outside authenticated sessions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md#L85-L91",
+          "version": "repo-lines-v1:sha256:8a12edee5b51cde3ded50a2374c3e3708134d2a0463291731f658b85f806c4e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzAxM2E4NmY2ZWNlYmNkZDJiZTdiY2ZmNmNkZWI5YTgyNzU2ZDU3ZTA3MGNkOTFlMmJmOWRmMmI5YWYwMzQxNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk1Y2QyMWI4NTM4ZGQzMjdhYWY2YzJlMjNkMzQ1NDhjMmZjNTU1ZGUwMjkxOTk4YmRjNjUyODBiODk1NjQ2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGVjYWQ5ZWEyZjgzNTFjM2NjMzhjNGU2YjFhOWJkYzE4NmQ0MzNhMzRiMTU0NDFjM2ZhYWNiZTQyN2Y2NDllMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQ5ZTFkMWJmNGM3MDJiOWI3NzhjMDdkMTA4YzU5YmMyYTc5NjMxNWZkY2UzM2I2NzIzNjc3MzkxMWJlYzA2MiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e0b4047849a93fee7b13027b9afe60ab3a0f7a98d817f0b488181912a0fc8d13",
+  "claims": [
+    {
+      "id": "claim_2ec632173ee64a7e9ce6240ceb5764ba",
+      "statement": "Risk Analytics Engineering owns API-10 Credit Risk Scoring API (v3.0, /credit-risk/v3) and API-14 Macroeconomic Scenario API (v1.6, /scenarios/v1), both internal-only with restricted data classifications.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L4-L17",
+          "version": "repo-lines-v1:sha256:c34eca9f33c2bd3957a1e6332772dba45933c508f353aaffe86ebd6502cb5c40:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwODNkODE5ZDk3NzMxMzM1M2NlZjdhY2UxNDYyNDExODZlMzJkOTEyZTc3ODc1Y2U3MzUyZWI5ZDA1MGYzNGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjNzRjZDZhNDAxMGZjNGU1OWY4ZWVmZTk5ODQ5OTYyNTI2OTE2NTNiNjQyMjBhM2IyNTQ5MTU5MTY0Nzk3NTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxNWFmNjg2ZGZlZjQ5ZTcwMTVkN2ZmODAwNmY5NGNhNmJkMTAzNmFlZTAxMjA2YzViNjkwMWRkYTgyMzkxNzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L17",
+          "version": "repo-lines-v1:sha256:c2052b12082d36a9c344182fea608fe92b85a525ca5ca22774fb20ec45a3b146:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzZGUwODAzNGJlZTdkNWMyYWMwNTBmNWE2MDJkNzIyYTQ0N2M3M2ViNTUwZTMwMWRkYzhiOTRmZjJmNWI3MGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxYzVkNDNlMzJmYjBjZDI5OWVmZjkwYzJjNzkyNmViMTc5OTZkZjIwMWEzNmY2YmU1MmYwYzBmYWE2NjIxYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZjBkZjQxZjlkZTVlN2M1M2M4NzllNjFkOTFhMGQyOWI2OTBlNWUwYzdmZTgyNWZmN2U0MWI0ZGQ5OGI1NDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e3aef6f1fb324778acf3db3a18369813",
+      "statement": "API-10 serves pool-level and obligor-level PD, LGD and EAD parameters, with point-in-time scenario-conditional parameters (basis=pit, for CECL) and through-the-cycle parameters with regulatory floors (basis=ttc, for Advanced approaches capital) exposed as separate endpoints; v3.0 introduced the PIT/TTC split and the macro elasticities used by MDL-CR-007.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L4-L26",
+          "version": "repo-lines-v1:sha256:c67e60209fdd34c2bcdf96ffe9731b98732dda0d3b21474fb059ca583da8dc70:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUwODNkODE5ZDk3NzMxMzM1M2NlZjdhY2UxNDYyNDExODZlMzJkOTEyZTc3ODc1Y2U3MzUyZWI5ZDA1MGYzNGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0MGQ2MDgyY2Y5MDhkNDAwZWFlM2Y4NGY3N2I1MDZhNjYwMTM5NDhjYTAzMDhkODQ1NDRiZDdhZjFmZWEyY2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxNWFmNjg2ZGZlZjQ5ZTcwMTVkN2ZmODAwNmY5NGNhNmJkMTAzNmFlZTAxMjA2YzViNjkwMWRkYTgyMzkxNzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L60-L62",
+          "version": "repo-lines-v1:sha256:73bec9db1890dca221c9d961c6bb13d02718f5b9b001f28a7ddd1afafb0dad1b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGJjMWUxNDE5YzYwMzNjYWI3ODdhY2RlM2M5NmI5OTZkMDMwMjc5OGM2NWEwYTZhMTIwZmM3N2E0MGQ0ZmQxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTU1ODM2ZDcxNDM2M2FkMzM3ZmExYzZkZThkMmYyMTYxNjZjZDhiY2ZjNmZjMjM0MmI1NGMzYjNjNjg3NmQ2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6fbdeb226d6f4eb684513c90c5d8c2af",
+      "statement": "API-10 is limited to 60 requests/minute with bulk extraction through the asynchronous POST /extracts job (returns jobId); its SLO is 99.95% availability with quarterly refresh within T+3 business days.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L15-L26",
+          "version": "repo-lines-v1:sha256:787a4762b97bf128c4a641d72408fee66c6f35e4225522b8e28e272c80eb85db:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5NzVjOTEzN2Q4OTI5MjgwOTA4MDhhNzdhNmJhMTk4ZTI5MDQ4MTAwZjkxNGI5OGNhNDI0ODVkM2ViYjAzYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0MGQ2MDgyY2Y5MDhkNDAwZWFlM2Y4NGY3N2I1MDZhNjYwMTM5NDhjYTAzMDhkODQ1NDRiZDdhZjFmZWEyY2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxOGRiMjE1OTIzNmI2OWI5NmVhYTBmZDUwMTdkNTViZGU0YTQxMDdkYTc3NzAzODNkNGQ4MDhhMjUwNDhkNGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImYwODYzOWEyMDg2ODcxYTc2YmU0ZWQ1MjExNmY4Y2JiZWI4ZWI3MjI2ZjljNzIyN2I4NjQwYzE4MTU5NjlmMzgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c7571a31040c4b699ea97af55e0a5a56",
+      "statement": "API-14 distributes versioned scenario sets (paths and probability weights) that are locked after Scenario Committee approval; it has separate scopes scenarios:read and scenarios:approve, a 30 requests/minute limit, and an SLO of 99.9% availability with new sets published within 1 business day of approval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L24",
+          "version": "repo-lines-v1:sha256:56fa1900ded1fe88f192f8a09e2881e299dfb5fc334c78fa396852f6a809021f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzZGUwODAzNGJlZTdkNWMyYWMwNTBmNWE2MDJkNzIyYTQ0N2M3M2ViNTUwZTMwMWRkYzhiOTRmZjJmNWI3MGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4NThkMmI2ZjdiZTI5MzQ4NzBkODRjNDI4MjIwZjI4M2QwMGM0MGExZjEzNzA5MGQ4ZGI4ZjlmZjFhYzU2MTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZjBkZjQxZjlkZTVlN2M1M2M4NzllNjFkOTFhMGQyOWI2OTBlNWUwYzdmZTgyNWZmN2U0MWI0ZGQ5OGI1NDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFiMjY2NjlhOGE0OGY3ZDcxMTMxMDkwMjExNGMxNWU5YTk5ODdjZDQ0YTYxNGIwNjhhNDJhYjhiZjY2YTExOGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_23bf71d4fc7c4ecd8016a906fbef109d",
+      "statement": "API-14 v1.6 (2026-05) migrated to the strategic data platform, cutting scenario load time from six hours to under forty minutes; v1.5 (2025-10) added an internal severely adverse set.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:63de08034bee7d5c2ac050f5a602d722a447c73eb550e301ddc8b94ff2f5b70f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkZTA4MDM0YmVlN2Q1YzJhYzA1MGY1YTYwMmQ3MjJhNDQ3YzczZWI1NTBlMzAxZGRjOGI5NGZmMmY1YjcwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNkZTA4MDM0YmVlN2Q1YzJhYzA1MGY1YTYwMmQ3MjJhNDQ3YzczZWI1NTBlMzAxZGRjOGI5NGZmMmY1YjcwZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDlmMGRmNDFmOWRlNWU3YzUzYzg3OWU2MWQ5MWEwZDI5YjY5MGU1ZTBjN2ZlODI1ZmY3ZTQxYjRkZDk4YjU0MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L99-L102",
+          "version": "repo-lines-v1:sha256:99d4baf8dae998db1936b366a4fcd6c614bbbcf07f63a18070441b4a98252dae:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhMmE2MjE3YmMxNjE0MDBmZGMyYjg1ZDJmZTRlNTk5MzM2YTJmY2NmNzJlNmE3MGEwZTc1NDBjZjUyMjEyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWM4OTdkZTZlNGY3MjI2Y2VjMzc5OGJlMTUwMTRkMGY3ODViOTg3M2E4ZjM5N2Q4NjU5YTFmNTgzNDNhODQ1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0ff13b0b7d8a47e4b6016a0c041d20c7",
+      "statement": "API-14 is both an upstream source of API-10 and a direct feed to MDL-CR-007 (CECL) and MDL-CAP-003 (capital planning); API-10 feeds the CECL model, Advanced approaches credit RWA, API-09 Credit Decisioning and Pillar 3 Section 6.3, and lists API-11 as an upstream source.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L54-L58",
+          "version": "repo-lines-v1:sha256:8e4160efe485ea7ff2fa9a94e79f3125ad8b7a31e03a9d86dd5a504c64c236d2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRkOTJhMTM0YjM3YTk5Njk3OTk2YmNhMDlkZmQxN2RkNWRjOTk1N2ZiMDBjZTdmZWZmNDU5YjE1YWEzYjk4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/apis/api-14-macroeconomic-scenario-api.md#L93-L97",
+          "version": "repo-lines-v1:sha256:05abf793dc8718429bc629ce8a226564cdf697d5e5de8f8238d4594f1e0de58f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDY3YmE5NTFiMTFlNWM2NGE5MjdjNzQzYzZiZDkwNDgwZGM1ODhiYzUyYjkxMzhjZDk2NDQxNTI0YTA0ODRkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f9311594014c44f7934200e6f9750213",
+      "statement": "In the CECL model, PD/LGD parameters and macro elasticities come from API-10, scenario paths and weights from API-14, and balances/remaining life from API-11; scenario PD applies the API-10 elasticity to scenario peak unemployment versus baseline, and scenario weights must sum to 100%.",
+      "evidence": [
+        {
+          "resource": "repo://sources/models/cecl-allowance-model.md#L146-L171",
+          "version": "repo-lines-v1:sha256:fb9b4d300f6c7565d3fbe3657a2268ceaef6b7c2787c50cf0b80296a8d3a0c8e:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhYzZmZTVlZWQ2ZGI1NzhiMDczZDBiMDkzMWYwZTIzMTlkYTQxMjI0ZmEyNTk4YjBlMTVkNjIwMDJiZjJlN2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2N2ZjODRhYjA2N2E4NGIxY2M4ODU1NmZhMTYyZWM4ZmU1N2IzYTYzYWUyYWFmYWY1MmJmYjZmZjlkYTk4MWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNmMWRmN2M2NGM3ZDhlMzZmOGY0YmZlOGI4NTFiODNjYzE5MjRiNjAyZTcxYjBhNTNkZjZmMzNiYTgxODhjMjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUwNzZiNjE3NzcwMTk3ODc1ZmU1YzMzNmFhOTM3YjZiZjE1MTE5MTA3Y2I4YThjN2FkOGFiNmZjNGEzZmIwZDUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_38dc94e13b2843bb93da3ab16678c7ab",
+      "statement": "The API-to-model lineage matrix registers API-10 as an upstream feed only of MDL-CR-007, and API-14 as an upstream feed of MDL-CR-007 and MDL-CAP-003.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1361-L1378",
+          "version": "repo-lines-v1:sha256:57bf2d3cd806137c06fc3be0147ec47167ecb8d40293628aa5819855b6b88030:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmZTZkZjBkODk4Y2JhMmJjYjgyMTU3YjgyZDQ1MDZjN2UxNWQ0OWNiMmU1ODE0ZTcwODkxNjI3Njg5Njg0NDMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmNGRjYTcyYTZhOGIzMmE3N2M2MGQ5NzJiYTkwNzM4NGEyNjg5MGExMGMyZmUyNzg4MDM3ZWZlYjlkNTllMjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk3NWM4Y2Q0Njk0MzRlNmYzNjBmZjY1NzZmODJkZmFjODBhYjkxZTI5ODAzNjM5ODczNzliMmIyZGYzM2M4ZDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNhNzUxNzI1NjBiYmI2YmZiYmZjMzY0NDNlMWI1N2E0NWQ0NjliM2UxZDJmZThiNjc3NTVlODdlYmIwYjdmZDUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_aff2b644152b4772bcdda3df6e0a12da",
+      "statement": "APIs feeding Tier 1 models or regulatory disclosures are BCBS 239 critical data services with named data owners, data-quality rules and enhanced change management, and any breaking change triggers a model change review by MRGR; API-10 and API-14 are in the critical list with Data and Technology Risk Committee escalation 24x7 during quarter close.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-10-credit-risk-scoring-api.md#L4-L4",
+          "version": "repo-lines-v1:sha256:5083d819d977313353cef7ace146241186e32d912e77875ce7352eb9d050f34c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA4M2Q4MTlkOTc3MzEzMzUzY2VmN2FjZTE0NjI0MTE4NmUzMmQ5MTJlNzc4NzVjZTczNTJlYjlkMDUwZjM0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTA4M2Q4MTlkOTc3MzEzMzUzY2VmN2FjZTE0NjI0MTE4NmUzMmQ5MTJlNzc4NzVjZTczNTJlYjlkMDUwZjM0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTE1YWY2ODZkZmVmNDllNzAxNWQ3ZmY4MDA2Zjk0Y2E2YmQxMDM2YWVlMDEyMDZjNWI2OTAxZGRhODIzOTE3NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJmYzY1OGQzZDA3MmNmZmYzMDJlZjRlNWQxZmNlYTZmODY3YjFiYjE0ZWFiNGIxYjUyODEyOTEzN2ZkNjY4ZSJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L1423-L1423",
+          "version": "repo-lines-v1:sha256:7a5e3c6873ee9aac5238cce281c91b1b6b56911b1b42c86d34f80f3340b682d7:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2E1ZTNjNjg3M2VlOWFhYzUyMzhjY2UyODFjOTFiMWI2YjU2OTExYjFiNDJjODZkMzRmODBmMzM0MGI2ODJkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmNhNDcwNTY0YTFmZWVmMTdjNjc1NDJhN2M5YTgxYmNjOGYwMTYxMzdhZWRkNDMyNTA2NjFjNTNkNmQyMzY1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2QwZGRmYjE1OWE5MDhjNzc4OTBkOWYxMmZmYmQ3M2UxYjJjZDBlNGM1YWE0ODM4NjcxZTQ1ODk2YjE3MmFkMCJ9"
+        },
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L18-L18",
+          "version": "repo-lines-v1:sha256:1911fe2b741a3143411f7afb253d43080ad46591d44c2882658a55dbd0bc0329:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTkxMWZlMmI3NDFhMzE0MzQxMWY3YWZiMjUzZDQzMDgwYWQ0NjU5MWQ0NGMyODgyNjU4YTU1ZGJkMGJjMDMyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTNjZDcyNGIxNmM2YTI5NmI1N2UxMzJiNmIzNmZmOWE2NjUxMjJlODMxYzQzYjIxNDQ4NzAxMDUzY2ZiNDNiOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDYwMzRkMGQxZDVlY2U2YTEzZmJiYTNhYTNlZGY4Yzg1MDEyYmQ0MTZjODczYzVhNDUzYjA5NDAwYzI4NmNmMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a58591ccafb4ceeb857bd5b225cb6f1",
+      "statement": "API-10 and API-14 are restricted APIs reachable only on the private-network Internal (risk & finance) environment, authenticated with OAuth 2.0 client credentials using mutual TLS and 15-minute JWT tokens with least-privilege scopes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/mhfc-developer-platform-api-reference.md#L27-L31",
+          "version": "repo-lines-v1:sha256:685b65295ea7a7458e0a1b83218a19ba2e7011a6edae5aec0d38f7cb4924bfb7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY2NDUzZjdkNzFjMDU5ZDdmMzI5MGUwYzM1NjEyOTlhNmQ2NTg4NThiNDBjN2JiZmY0MDg4NGJmMGExYmEzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjAxODdmMDNmNjkxMmU1ZGJmYzEzYWIwNTk4NzlhZjVhMzA2OTEwYzk3OTQxZWFmYzU1OGM5MzU0NGJhMTM4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjg4NDBkYjQ1ZjA0ZWNjYmQ5MjljOWFlYTgxZmM3YTY3NzUwZTg0ZmM3OGQ2ZjY2MGEwNzQ3YzM5MjBhMGU0ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTNiMTAyZTQyNDFjMTljNDBjYWRiYThhYWVmYTY1Y2U4ZmZhMDIxOTZkYWU1MDg4OGQ0Mzc0MGQ2NTg5OWJlNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_14d62b0276774e7e8a205113434cc6ab",
+      "statement": "API-10 handles about 12 million calls per month (+6% YoY) at 99.95% availability in 2Q26, with CECL, capital and monitoring as key consumers; its pool-level PD/LGD were refreshed in June 2026 and reflected in the quarter-end allowance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L351-L351",
+          "version": "repo-lines-v1:sha256:4f74db993c45caff3989c3ab016cbf726a881cb67433aae493d77d235033bac2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3NGRiOTkzYzQ1Y2FmZjM5ODljM2FiMDE2Y2JmNzI2YTg4MWNiNjc0MzNhYWU0OTNkNzdkMjM1MDMzYmFjMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGY3NGRiOTkzYzQ1Y2FmZjM5ODljM2FiMDE2Y2JmNzI2YTg4MWNiNjc0MzNhYWU0OTNkNzdkMjM1MDMzYmFjMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjc3MGU4M2NlNzFmYjdkNGU5MjE4ZDA4N2YxMDMzZTFjNzE0MmEzYjIzZWEyYTkyYWJkYmRiNzQ3OGZjYzc4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTEwNjlkMzk2NGI5MTZkMWJiYmQ0ZWQwOGFkNGY5M2EyZTdhOTZhMDA0YmZkODJkMmI4OTNhMzY1ODYyYjZkOCJ9"
+        },
+        {
+          "resource": "repo://sources/reports/mhfc-q2-2026-earnings-supplement.md#L422-L422",
+          "version": "repo-lines-v1:sha256:52de8571c888de16b988b3456a0ad5ff2928a32d1e45580dd9093d26f9677be5:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTJkZTg1NzFjODg4ZGUxNmI5ODhiMzQ1NmEwYWQ1ZmYyOTI4YTMyZDFlNDU1ODBkZDkwOTNkMjZmOTY3N2JlNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTJkZTg1NzFjODg4ZGUxNmI5ODhiMzQ1NmEwYWQ1ZmYyOTI4YTMyZDFlNDU1ODBkZDkwOTNkMjZmOTY3N2JlNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTRlYWZkNGFhYjExODViMjIzNTNmNDgxMTQ4Mjc1ZjhkZGEwNGEwYzkwMjZkNzRhMDZkYjJjZDI1MzBiZjhiYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjVkZGEwZDExNzQzNDgwMjZkOGNhY2UwYjI0OGVmNDljODIyY2Q3YzQzMzk4OTE3YzNlNGUzZGM5MGY4YzRiNiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

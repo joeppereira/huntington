@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:498358a9f49aba5d402c40bb328ad118c24e8bf557902918345a91c0f73d0b84",
+  "claims": [
+    {
+      "id": "claim_821c2e2b8044406fbd003789af60f101",
+      "statement": "PIR-2024-07's quantified impact for INC-2024-1182 was: 1,240 wires delayed, 312 wires released after the 6:00 p.m. ET Fedwire customer cutoff (value next day), and 14 clients compensated $41,800 in interest claims; no regulatory notification was required because no data exposure occurred.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L28-L35",
+          "version": "repo-lines-v1:sha256:fe074407839fd331189b7b2809338c4ee513b6e599547aa968351919c79a00a8:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQyZjAyMzY5YzFhMDBkYTNkZmUzODNiNzIzYzcwNzRlZjU3MjkxNjE2NjY2YTY0MTlmOWI1ODM3YzdkODI1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNmYzQwOTRjMGY4NzIyNmEzOGE2MmM3NjM0MDIyMTI0MTliNzE5Yjk1Mzg4M2ViOTBiNzk4YzIyMjVkNDgwNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDliZmFjMzBiNmY5NTVlNTA0N2Y4YTQ2MTNiMWE5OTdjMzQ1ZDBkN2QzNGFmOTg3MjFlMzA1NDJiZTdkNjcwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY4ZjU2Yzg3ZDAxMzQ2NTQ5OGYxNDg2YjVhOGNmM2Q4ZjA3ZDkxMTllNzUwMTk4ZWI5ZTg4Zjc2YTExMGI2MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ac89b7add23c48328cb2574b411c1d05",
+      "statement": "The PIR found that 37% of surveyed Wire Status Lite pilot users believed the 'Processed' wire status meant the beneficiary had received the funds, and that Treasury Support could not explain wire holds to clients without FCC guidance.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L37-L43",
+          "version": "repo-lines-v1:sha256:c13cc30ea9aeac03b0e805756b86daeffe12820d3bfe0b608f80179424daaa42:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzU0MGRiZjZmMzhlMTc5NTMyMmM0NjA3ZDk3MDMyZDRkMDVjZWE2YjAxZTQwMzc5MWJmN2UzNWViN2IyNzZiNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWMwYTRiNjU5MzQ2ODQ0ZmMzMTk2ZGIwNGEyMDJlODc3MGMzM2Q5YzJhZWFhMTdiMTU0YjllNGZmY2RlNWYzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDFmMGQ4MTgwYzk5OTQ1NzA3YzE3Yjk4ZGZjYzExMGM1YmUxMTk2NDE0MGJkMGI1YzBkNGE2NzlmMGJiYjk4MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDNkNjk4OTVkMzlhMWRjYTliNmU5ZWZjZjJkOTA0YTllODBlMTRjYjAzM2VkMWVlMTIwYmQ3ZmY4M2ZmMmJmNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_98c3ca073b6d4437a31e8807b1f44551",
+      "statement": "The PIR identified three root causes for INC-2024-1182: a polling architecture against a shared synchronous API with no client-side backoff, no capacity test at month-end volumes, and status semantics not validated with Compliance or Legal before client exposure.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L45-L51",
+          "version": "repo-lines-v1:sha256:9e71d2f93a360cfa2460e517259613f7b7db12d400b3196ac826dd19f447e343:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjFjZjVmMGIwNmRjMjM0MGRlMTYyN2U1ZWVkNmQwM2UwZjM3NzQ5MGYwZmQyNTE3ZGRhMWJiZDRkZDI1ZDQ1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjBhYmQ4ZWIyNThlMTIxY2U4OTFkOGJmMzEwOWMzZjNiOGI0YzI5OWRjMTk0NDUyMjY3NGNkZTY5MjMxNjkxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGVmN2IwNGZmYjBiOWE5YzYyZjljNzFlY2EyYzZhMTgzNjViNGFmYjI4OTNlYWI2YzY0ZDkyN2E2YmMyYjRiMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjUxYWE1YTRjMzkzM2VmOTgzOWEwYjViNGYzNzgxNjM2YmI2Y2UyNDZhZTc2ZGZiY2NkOGM3ZTg1MDA4Nzk5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dd9a831e5f9441b29ab6f11b75f2a506",
+      "statement": "Of the PIR's four remediation actions, three were completed by mid-2024 (PPH v1 rate-limited to 20 TPS; event-driven status pattern adopted as ADR-PAY-019; a reusable status projection service delivered for ACH as CBO-3815 in 2025), while the action to validate client-facing status terminology with FCC and Legal before any future tracking feature remains open, owned by CBO Product, and is carried forward.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md#L53-L61",
+          "version": "repo-lines-v1:sha256:ee09748668d25f982fd9876dcfc4755ad1c03167ff2953919e97603918981389:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDJiY2U5NThlYjI2ODEyMWYwYWZhNTI0NjkxOTE2YjZjNTEwODY3MjRiODc5M2RhYjM4NDIxMjNhODY5NDE2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTk3MGZkNzA0MmU2M2M5ZjAwMmExM2VjZWQzZTZhZWE4YmFiZDZjNWIyNWIzYzU5MTUwOGRkMDk2MzkwN2JhMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2E5ODNjYWMwMjlhMTUxYzQ0YmI3M2M2MzUzOWFkNjhiMGU3NWFhYzUyOWY0YTRmNzVmOTRmM2JhZTEzN2FhMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c7cd9da4a190a1e268856293c6178c060235211fadd12196e5c8053b2b622b42",
+  "claims": [
+    {
+      "id": "claim_2d13a9ef55c949ba81a3a680f9838b8f",
+      "statement": "Brian Walsh is Engineering Manager, Fedwire, within Payment Networks Engineering (PNE) at Crestline National Bank, and is a named technical owner (alongside Chen Wei, Tech Lead) of the Fedwire Funds Connector (SYS-PNG-FFC), a Tier 1 (24x7 critical) system with Laura Kim as business owner.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L48-L48",
+          "version": "repo-lines-v1:sha256:6d13a87bde0a0f7867c012cdc0c539ba99422b1bfba5db53b897abd86d7165be:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQzNWQ4OGY1NWNmOWUwMTZkNWRmZmMxNzBmNGVkNjdkNzU5NjI5ODcyODg1NTExYTgzY2M3MTQ3YjNhYTRlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmUwNDllYzU5YjUxYjk1YzAzYzA5ZDlhYWExNWNiZDljYjJmODI2ZjM0MjFlYzBiM2Q5NTJmMmNlNWY0MWRmYSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L88-L88",
+          "version": "repo-lines-v1:sha256:c165f086d6e623ad073ab7c89f33eafd88551395df2d4ca5eafff90ff3b5f2ac:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE2NWYwODZkNmU2MjNhZDA3M2FiN2M4OWYzM2VhZmQ4ODU1MTM5NWRmMmQ0Y2E1ZWFmZmY5MGZmM2I1ZjJhYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE2NWYwODZkNmU2MjNhZDA3M2FiN2M4OWYzM2VhZmQ4ODU1MTM5NWRmMmQ0Y2E1ZWFmZmY5MGZmM2I1ZjJhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmY0YzIyMzEwZjZlZDNiMmM0Y2I0ZjQyYzg4NTUwODdlMTUzNGE0YTIyYWI4NTM3ODM2ODU4ZDBjMGVjOGE2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDllNjU5MDZiYWFjMzE3NmI4NWEwMjAwYzJhOGM1NWY1NmZjZjM0N2YwZDA0NjJkNmFkMWJjOTUyZDc1ZGM5YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8c0c03f59de34f43b2f0fdc91be43302",
+      "statement": "Brian Walsh reports into Payment Networks Engineering under Director Raj Malhotra, which in turn sits under Gregory Hall, MD and CIO of Payments & Treasury Technology.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L32-L32",
+          "version": "repo-lines-v1:sha256:6e98e7756351e84f5b586c482c8ebca4ce5b7dd7f8136d796c0bf577cb084146:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU5OGU3NzU2MzUxZTg0ZjViNTg2YzQ4MmM4ZWJjYTRjZTViN2RkN2Y4MTM2ZDc5NmMwYmY1NzdjYjA4NDE0NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU5OGU3NzU2MzUxZTg0ZjViNTg2YzQ4MmM4ZWJjYTRjZTViN2RkN2Y4MTM2ZDc5NmMwYmY1NzdjYjA4NDE0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWFmZjRhODM0ZmMyZTJjNTg3YWEyZDUwYjIyMTIyMjgyOTQ4ZWU4OWFiMjkxNzc5ODBkZDJlNGJmZjBmYzc4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFiNjJkZjY0NDkzMTIxNWUwMDQ2OTYwNDAyMmY2ZmI3MzkwZDYzOTIyYjMzMzM2MWRhNzE4ZTNhOTgzZmE1NyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L48-L48",
+          "version": "repo-lines-v1:sha256:6d13a87bde0a0f7867c012cdc0c539ba99422b1bfba5db53b897abd86d7165be:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQzNWQ4OGY1NWNmOWUwMTZkNWRmZmMxNzBmNGVkNjdkNzU5NjI5ODcyODg1NTExYTgzY2M3MTQ3YjNhYTRlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmUwNDllYzU5YjUxYjk1YzAzYzA5ZDlhYWExNWNiZDljYjJmODI2ZjM0MjFlYzBiM2Q5NTJmMmNlNWY0MWRmYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8dc80474c24f43f29f266a96b74073fe",
+      "statement": "Following the October 2026 cross-border network realignment memo, the Fedwire Funds Connector (SYS-PNG-FFC) and its net.fedwire.ack.v1/net.fedwire.inbound.v1 topics explicitly remained with Payment Networks Engineering under Raj Malhotra and Brian Walsh (EM), while the Swift Alliance & gpi Connector (SYS-PNG-GPI) and related capabilities moved to Global Transaction Services Integration under Elena Vasquez effective 2026-10-01.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L30-L42",
+          "version": "repo-lines-v1:sha256:0051402dfa9e8f7c75b4cb61f8def80e696d409794ece50369a77638996d78be:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1MzE4NGIzNmVmODA4YTllY2RmNjliN2Q3ZTI3M2ZmYzJiYWVkOGUwODdjMTdmNzMxZTlhNDUwOTlmZjUyN2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwYmUyNzdiY2JjMjAyOWZhZDA4YjhmODBmNzAxNTZhMDE0MWMwOWZjMGY2NTAyOTJkOTEzYzgwNzlhNzQxMjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNhM2MzMWM0MjU3ZGZlODc0MjM2MWI5MTEyYmM4M2YzNjgwZjdkODEwMWExOTkzYmU2Nzc4ZGZlZWM5MmEzOWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFkZjkyZWNjOTVmZDVlMzFmN2Y3NGFlNTIyNTZjNWZlOTg2NGIxMDQzYmRlMmQ3YjBiNDBmMWMzMTRjYjk5MTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_be8496f8060d499496f2298d012b4be6",
+      "statement": "The Fedwire Funds Connector (SYS-PNG-FFC), which Brian Walsh co-owns, connects to the Fedwire Funds Service over FedLine Direct (dual MQ channels, Columbus primary/Charlotte contingency) using ISO 20022 messages since the Federal Reserve's 2025-07-14 single-day cutover, and publishes Fed pacs.002 acknowledgments to net.fedwire.ack.v1 and inbound messages to net.fedwire.inbound.v1, both ACL-owned by PNE.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L30-L55",
+          "version": "repo-lines-v1:sha256:5bce95a458f51afc8ee87865aca0eb84ee79fba4cf0269df6681de9aeeefd224:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0MWY3OTM1Nzc4YjZiNzJjZTExMmY1MzdiZDBhZDc1ZTdiNDFhMzg5NjQyN2JkM2VhZGVjNDlmZDIwOWJhZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRhZTdlYWNiYzhiNDUxOTMwNWRlNDFjOWVmMTliZTcwYzYzMTQ4ZTBlOGIyMDk2YjU4ZTBlY2E5MDI5NzQ3YjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJmNWFlZDljNDZiZmYwZWZkNjE2ZGQ1ZjAyYjRiODUxODg5MTE3YTBmMmI0ZGI1NjAwZjYyNTNhNDIxMmQ1ZTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM3ZGIxYjY1NzA4Nzg3NGZkYjk3NWFlYmQzZWViZmI1MmUyYzUzY2UxZWYzZjJiOWVkNzcxNGUxOWQ2NmNhYmIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_e9a21db2f05b4aa1afca04298f279695",
+      "statement": "Payment Networks Engineering's demand intake runs through Jira project PNG and Slack channel #payment-networks, with standing change windows Saturdays 22:00-02:00 ET, a planning factor of roughly 1 story point per 8 engineering hours, and reported capacity of approximately 80% committed as of the PI 27.1 planning cycle.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L129-L129",
+          "version": "repo-lines-v1:sha256:c81661967298c01852a6e4c1c129dd182fd1fbaad9666b67e64bb9758d037593:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgxNjYxOTY3Mjk4YzAxODUyYTZlNGMxYzEyOWRkMTgyZmQxZmJhYWQ5NjY2YjY3ZTY0YmI5NzU4ZDAzNzU5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgxNjYxOTY3Mjk4YzAxODUyYTZlNGMxYzEyOWRkMTgyZmQxZmJhYWQ5NjY2YjY3ZTY0YmI5NzU4ZDAzNzU5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQ5NTFmOTE5M2Q1YWE3ODE1NjA1ZjVmMDM2M2I3YzUzMDYzOWM2ZTE3M2ZjYTljOTljZDVkOTFjZjlkODE1OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmQ0MjE2Y2NjNDE3NDZlOTE2YTM3MzU2MDc3ZmIxNjkzNzYxMDU2NjhjNTg4MzM1MTI4Y2Y1NzVmMTAxNGIxMSJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L48-L48",
+          "version": "repo-lines-v1:sha256:6d13a87bde0a0f7867c012cdc0c539ba99422b1bfba5db53b897abd86d7165be:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmQxM2E4N2JkZTBhMGY3ODY3YzAxMmNkYzBjNTM5YmE5OTQyMmIxYmZiYTVkYjUzYjg5N2FiZDg2ZDcxNjViZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQzNWQ4OGY1NWNmOWUwMTZkNWRmZmMxNzBmNGVkNjdkNzU5NjI5ODcyODg1NTExYTgzY2M3MTQ3YjNhYTRlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmUwNDllYzU5YjUxYjk1YzAzYzA5ZDlhYWExNWNiZDljYjJmODI2ZjM0MjFlYzBiM2Q5NTJmMmNlNWY0MWRmYSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

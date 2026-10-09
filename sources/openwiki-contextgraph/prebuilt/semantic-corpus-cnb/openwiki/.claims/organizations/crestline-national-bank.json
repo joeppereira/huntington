@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:0217db7c670c1f6184b7d19a956e7fef030741a929d0a1be72423ef5f7e8de9b",
+  "claims": [
+    {
+      "id": "claim_5034c33321bb4d4fbcaf198602d08bd0",
+      "statement": "Crestline Business Online (CBO) is CNB's commercial digital banking portal (web and mobile) for Treasury Management clients; its Wire Center module provides domestic (Fedwire) and international (Swift) wire initiation, templates, dual approval, step-up authenticated release, activity list and confirmation downloads, but lacks milestone tracking, gpi status, hold explanations or client actions on held wires, and originates ~67% of CNB's outgoing wires.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md#L24-L37",
+          "version": "repo-lines-v1:sha256:ebb99a0b3e82e1b09988793fb2756348cc2128d35cc46d47cdaf0c188f851e1f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExMzUwNjRkODk1OWQ2YTBlM2E4ODFlZTNhMmRkOTcyY2U4NmE1ODZhMGRjMTYzNGNiNjVkN2U4ZWY0MTdmYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmZGM1OGJhNjYwMzQyZGNlYjQzOWQ1MzZjZGQxNzcxOWNmMDZjN2I5NzBjODBkYWQzMWIzNDUyNDZmNmMxZGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY2NDJkOTY2NmQ4NjViNGVmZmNkZmViYzEwMDY5ZTUwZDUzNjc3ZDQ4ZTQ5ZWFlMTYwZjgyZDA3ODJjMmJkNDgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyZTU3Y2E0NTUzZjgzYmFhNTY1ZjBlMjZlNTg3NjMwMTI1ZWQxZGMwMmYwMmYzNWNlZjJkNGFkY2Y0NjhlNzUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c84cb222a4847d78d5601c0724e96e0",
+      "statement": "PRISM Payments Hub (PPH), built on the vendor Volaris Payment Platform, is CNB's wire orchestration platform for all channels and rails; it validates/enriches instructions, calls the Payment Risk & Screening Platform (PRSP) synchronously for screening, performs funds control against the Core Deposit Platform (CDP), and routes releases to the Payment Network Gateway for Fedwire or Swift/gpi delivery.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md#L24-L50",
+          "version": "repo-lines-v1:sha256:d3428bf8d470b96dfea43ec522dfc12229596d77a41c40d84388520184b75452:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExMzUwNjRkODk1OWQ2YTBlM2E4ODFlZTNhMmRkOTcyY2U4NmE1ODZhMGRjMTYzNGNiNjVkN2U4ZWY0MTdmYjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg4ODNmZDg4YTRjZDI2MTk4Njg4NzVkNDk4M2JhNDc4MDU3MTljMDY1YTZjZmQ3ZmEzNDQwY2JhNjQ0Yjg1OTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJkNTU2OTAzZTE5MmY3NDAzNWMyOTAwNTViYWU5YTRjNTg4YzI5MTA0YTcyNDJiMjQ2ZjFjOTYxZDA3ZTFmZDciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI2MjhjYWMyOGIwNGY1OGY1YzdiM2ExNWMzYzUyMDA1N2JlMjhmNzYzMDY1ODc5NDBjMWZhMGQ0ZDA3MDE0NDIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_17dc6f691dec44189fe79207082c7879",
+      "statement": "PTT is led by the MD, CIO Payments & Treasury Technology (Gregory Hall), with named leaders for Treasury Management Products, Digital Treasury Product, Payments Platform Product, Chief Architect/ARB chair, BSA/AML, Model Risk Management and Privacy, each with defined scope over the payments estate.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L28-L39",
+          "version": "repo-lines-v1:sha256:71c43d98ee5dd71eb4b39b1f5c6fe8c3baedc691bf83e2bf9d0a3761144e8c6e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMThlNDE5MjYwM2E5N2JlYWVjMDA5M2U3MzdmYzk1YTNlMmMwNjU1NmNiYzI4ZmYzZjFiODMyMjQxODMyOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxYjMzNWUxZGI3M2Q4NTFlZjc5ZDQ0OTRkMzU2ODJhZjMzN2I2MTczMTY3Y2EzMzdkNThjMDcyMGY2MmNlYzEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAwZWI4ODU4NmY2YmU3NGY0NmRmYjM1NDhhOGI5ZWEwYzc5ZmE4NGM5YTkyYTg1MzhiNGY3Y2RmNWI2NjliNGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlkODAzODk3ODZmMDJkZWZhODczMzNhNzJjZWNiOWVhYzQzZGY5MjE4ZmJhOTM1ZjM4ZTU2YzU1ZWViOTU1MjkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_65e8dd7a724045f29b031cdfbbb73c69",
+      "statement": "PTT engineering is organized into the CBO Wire Center squad, CBO Platform & Entitlements, Payments Hub Engineering, Payment Networks Engineering (PNE), Global Transaction Services Integration (GTSI), Financial Crimes Technology (FCT, owning PRSP/HMS), Enterprise Notification Platform, and Treasury Data & Analytics (TDIP), each with named leads and Jira/Slack engagement routes.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L41-L63",
+          "version": "repo-lines-v1:sha256:a5f823a46b37cb21b660a14413eea191f26a4185d74f377429f4252db38fccef:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NjAzMjVlZTYxNDVlYjgxM2I3YzEzZjQ0ZmFlN2Q1ZWFlMzMzNmQ4ODFiMGQwYmJmMDlhOTRmMmI5ZjcwYjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk5N2RjOTMzN2Q4YTA1OWI3OTU4YzgzYWZhMjI3MjZmMDY3NmE3ZTZmYzUwYjk3OTgyYzhkNzVlYjBjY2EyNDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkZGU1ZmYwMTIzYzQzMjdlYjIxM2RhYzQ0ZDEyZTM5OTE4M2UxNjU3MGNlNTdhMDBiZGY4YTQ1NmEyNjk3N2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc0MWJmZDVjMTBiZmJiZDQzZDRlZmM4OTM3MGViMDIzYWI2YmUwY2ZmMjc0ZjJhNDRmMmRlY2Q0MDVmYjk1MjgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_975be5789b0d47d4881fdeb38b6b2a87",
+      "statement": "First- and second-line partner functions (Financial Crimes Compliance, Model Risk Management, Payment Operations, Commercial Service Center, Legal Treasury & Payments, InfoSec Digital Channels, Privacy Office & Data Governance, Deposits Data Ownership) have accountable owners who must review or approve payments-related changes rather than engineering deciding unilaterally.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L65-L76",
+          "version": "repo-lines-v1:sha256:29a82c4ca27a76ecf2eb7738d8713a0123db25932946ca8cf354860648692b07:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFlMDRjYmFjNDFhOTIzMTE5NWU4M2M5NjA0YjE0YWQ2Zjc4NjE3M2YyNWFiYzdkMjNlM2QzMjU0NWQ0MWM4MDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU1ZWU0NDJmZjljZWJhNTU3NWMwNzE0ZDY5OTM3Njg0MTQ5ZjJlODYyYzY0NDk1MjQyZTNmMDk1MmEzMWU1OGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzlmNjcxYjQ1YjBjMjI3N2ZkZTE0ODdiYzRhMjk3ODZjYmYwNGRjODY5YTllMzBhOWMyNjViOTNlY2YwZmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEwZTU2NTQ4YjFkNDM5M2I1ZDEzYjhjNmQ4MzA0YmQ0YzBjYzIxOTM5ZGYwMWQ5OWY3M2FhMmM4NWJmYWVlYWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_363eb3370c2748a7bee1298dc69cc67d",
+      "statement": "Governance forums gate payments changes: the monthly Payments Architecture Review Board (ARB) is required for new client-facing integrations to payment systems, FCT Change Advisory with FCC sign-off is required for hold/screening changes, and the bi-weekly Disclosure Review Committee approves client-facing copy and notification templates; dependency conflicts escalate from engineering managers to Directors to the PTT Leadership Team, and compliance/policy interpretation questions route to FCC Policy & Advisory or the Privacy Office rather than being decided by engineering.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L148-L150",
+          "version": "repo-lines-v1:sha256:3b962288278dec51dbc683b2adc9e0bdfd1eabe5b3bf6758466072fb104bc8f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGVjZDBiYWY2ZGY3MDYzNzdhNTcxMDdlMzA4YWNiZjI2MmI5Y2EwMjcyNDRlOGIyNjUwYzI4MGUzZTE2ZmU0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmIyMTNkNzY3NmY4MGQzZjIxYmFmNTEzNThmNmU4YzcwOWZiN2IxN2JhYzUxNDM5MTc1NDRjYmQ2Y2MzYzBkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjVjOGUyMzZhOTU0YWVkMTVkZGJhNzI0Yjk1NjBiMTg5ZDc0Y2I5YWU0MDA3ZGQyYWVmMzRiOTgxOTc2MzdmNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGEzMjZkNGU0ZDM4NjY5NDBiZmQ5NzIyZTM0MTU5MGJlZTdiMzFlMzRiM2M4MGJjNGQ5NWIyZjQyYzcwZiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/cnb-org-ptt-2026-06-ptt-organization-system-ownership-engagement-directory.md#L98-L117",
+          "version": "repo-lines-v1:sha256:9744c3b7b2308ffb33a6ff349a076c4ebd2dc1703746736844d937a9342c9d3c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljYzc0NmU5NjRiNzZiN2U2ZjA0NTU1YzdjOWZkZDU4YWY0ZDk1MjRlNjMxYjBkODU0NzMxMmJhN2I5ZDQ2ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxZmY3MWU0M2M2YjUzYzU3YTU1MmU0MTJkMWM3MmZjMzAzN2QyM2Q3NTYxYWExMjkzOTlkYTdjODllOTY0NzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjcwYzgxOTcwMTI4YjJiYzliMWJmYjk4ZTYxYjFmYzFhMjI1MjhkZWQxNzE4ZWY0OWFjMTg1ZGNiZTNkNWU4OTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM3ODg5YWQ1MzhmYzYyNDVjMWE0ZmM4YmYyNGQxZDFmMGI3NDQ4Nzc2OThlMjYyMDUyZGNjMmQwODZiMWUzZTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_905c7baa583947c485afabf694ab798a",
+      "statement": "POL-FCC-014 (Customer Communication of Payment Status, Holds and Exceptions Standard), owned by the Chief BSA/AML Officer with the OFAC/Sanctions Officer as co-owner, applies to all client-facing channels and artifacts (CBO, APIs/host-to-host files, notifications, Commercial Service Center scripts, RM communications, reports, third-party sharing) and is grounded in SAR confidentiality law, OFAC blocking rules, UCC Article 4A/Regulation J finality, FFIEC risk-based authentication guidance, and FTC Act UDAP prohibitions.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L25-L42",
+          "version": "repo-lines-v1:sha256:159b606a3782e70ab317eaaa5b5d400f7335e6e84e4e993e55ad5ee974a6c90e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExODQ3OTJiZjlmYzFkNTE4YTIyZTU1MWQ0OWU1NjQ3ZDdiYTI2OTU1MzExMjJmYWFiOGNiNWRjMjFlOTJlZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNjI1OTI5OTRiM2RlMDVkZTQyMTI2NjVmOWViODUxMmNkZmU0MjJkM2Q1ZGQ2MDAyMDk3N2IwMzA0OTdiNTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYzODY0ZWIyYmVkMjZjYWMwODk1M2RiZGMxZDczYTliNTIxMTczODYzZjQyMThhNTAxMTQzM2Y5NGEzYmU3ZjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk3NTgyZTNiYmU5NGRjNTVlYmZhMTA5YTU3ZjljYzM5NDA4NTVjMWNmNzVlYzRkMTkyMDIyZGE4NGQ3ZmIxNjgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_927fb52f428d4672b8218c233baff1be",
+      "statement": "POL-FCC-014 defines four client disclosure tiers (Public, Client-actionable, Generic review, Restricted) and requires that Restricted holds (fraud, account takeover, sanctions, AML, legal) be presented identically to Generic holds with no hold code, reason, score, queue name, or timing/likelihood-of-release information ever exposed to the client.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L44-L69",
+          "version": "repo-lines-v1:sha256:9b683e55b787dc838156a74cdc2568798a8a7bb9f8ad71c4c9d983196da37c77:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM5ZmQwNzQ2NjU0YmI5NTQ1YWI3Yzc4ZDkyMzI5MjE4MGYyODgyMDk3YmRlMDU5N2ZlMDVmYzlhMzNiMmQ3M2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMzQ4YzBmMzM4ZjRhOGI0ZjI1MjAzNjBlNTg3NTM4YjI0MWNkMzM5ZjA3ZTJmY2FmYWU4YjE1ZmUzM2YzNDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFkNDliZDgwMTY3MjY4ZmUxYzgwMmFmYTUxZTJhMjZkOTgwZjM5YzgxMGI1ODRhYWM5OTA1N2VhZDdiMDZiYjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRmNzBhNTBkZjk1NGY2NGI5MjM3ZWNlZWFhOTk1N2JjMjZmYmViZWNmNGE2ZWI3ZWIzMmRkOTdjOGUxYThmNTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6754eb5f6bf2413eb25c4ea0bf564c21",
+      "statement": "POL-FCC-014 fixes permitted payment-status terminology to specific network events (e.g., 'Delivered to beneficiary's bank' only after Fedwire acceptance; 'Completed/Settled' only after Fedwire acceptance or gpi ACCC), restricts third-party status sharing to amount/currency/value date/status milestones/reference excluding account numbers and hold information, and requires any predictive/typical-completion-time statement to use only the client's own data or a DUS-07-compliant cohort, be MRM-registered where applicable, and carry a DRC-approved disclaimer, never for tier G/R holds.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L77-L98",
+          "version": "repo-lines-v1:sha256:49951c20fc614b45c9fc4fa5fbad167db38a5a9baa9c50e713855db6af51ea55:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkMDliOWMyNTM3ODE5YmIzZjA4ZDUwYTY5NGQ0MjU5NWU5NmZlYTQ5MGU0OTIzMDE1NGZhMGNkNzU0MTFmNjIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyYjhlZDA4MTI2Mjk2NTU5NWQyMDgwM2JiYzJiZWFiYTdkZGYwYzU4ZGU1ZDg2NDM3ZTQwMjFkOTljNTdlYTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFiODFjN2I5ZWI0M2Y3OGM5ZWUwMmJlNGVjYjEzNmRlY2ZhZTAwZjU4NzIwZjAyODcyM2RmYTdjMDFhMDJjYjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4MjgwZWVlMDkxOGZkZDQ5MmQwNzAyZTQ4N2I5MWQ5M2FiYmEwMTgxZTFmZDY1MTFkNzNkMjQyZjVjODE2MDAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1d98f6c979b24a7aad94ce2a222adfa2",
+      "statement": "New or changed client-facing payment status, hold or exception experiences require FCC Policy & Advisory review before build commitment and Disclosure Review Committee approval of final copy; exceptions require Chief BSA/AML Officer approval.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md#L100-L102",
+          "version": "repo-lines-v1:sha256:df3fcb6237816c88e8de3094ed2fef1d4e917b1307ab6ec0e9a7e54c2a3ddaba:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzEwNGJlM2FmZDJmNzUwNjU4Y2U1YjMyNzk1NjYyMjA3M2Y5MDRlNzVhZWIyYWU5ZmRlOTkyMzQ4Y2FmODcxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGJlYTA4YzliMjViMjYwNmYzNThjMzhjNzMxY2Q1N2I3NGViYTRmZTYyOTQyMjg0NTQ4NDk4NzgwZTZiMWE3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjY1MDJjMjM0ZTMwN2JhNmE4N2FkNjZiNmJmYTA3M2E1YzU0NzU0ZDM3MTgzZTE5NTZlN2I4ZDQ0MDhjZmNjOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTgxOGY1NTlmZWEyZGEyM2Q0MzQzYmY0NjQ4NDk3OGM4NjA4YWZmYTI3NDEyYzM1ZGMxZjFjMDg1ZDZlM2Q2NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_beb411f80b5844fe8eaf60538a54f990",
+      "statement": "The Data Use & Client Confidentiality Standard (DUS-07), owned by the Chief Privacy Officer, enforces purpose limitation on client data reuse and requires aggregated cohort statistics shown to clients to meet minimum thresholds (>=500 transactions, >=20 distinct clients, no client >15% of volume, monthly refresh, DRC-approved wording), suppressing cohorts that fail any condition.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md#L38-L60",
+          "version": "repo-lines-v1:sha256:550f69407f0fb2dec5505d98785a9af47d6ab39405c355036482c216ac00a6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMxNzA4ODY5YzM2ZTdmMjg1NWViOGM5NzQ4Mjc5MjA1YzE2NzgzNmJiMjhkYWY4NWIyMGE1ZTY2NTlmYzcwN2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhkZTc3MTExZDQ0ZTA4YWU5MWJhZTcxMTQyZTE0MmI0MzM0MjBmZmNlYjczMjJmODkzZGMwZjU2ZGI0NGE4YjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQzMjNiNWQ0ZWQ2MzVjY2Y4OWNkZGI2YTg1ODZhOGVmMTQ1NzI0YzU4ODEzOTg5N2MzYzcwMGE1ZmE2YzkzMmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU3ODQ1ZWJlZTQ2MWY4ZDgwOWM4MzNiNDBjZjE0MDhhODFkYTVmMTVkNThmNGRlNDlkZGJlNGNiNGNkNWU3MGQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_862408c9fad34f5db1b15d0a15f0bbe6",
+      "statement": "The Model Risk Management Policy (MRM-POL-02), owned by the Head of Model Risk Management and aligned to 2026 interagency guidance, defines 'model' to require meaningful complexity, creates an End-User Analytic category for simple descriptive calculations, and tiers customer-facing estimates (Tier 2) for mandatory independent validation (10-14 weeks, 160-240 validator hours) before use.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md#L25-L40",
+          "version": "repo-lines-v1:sha256:3c03244b41cc7417262a33f57b9ac5a2c7d94bca8604932934bf9c5e9a89c5ef:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllOWE4MDcyN2NlMWYyYjQ1MDQ5OGEwM2Q2ZGQ0MmVkNzIyNDEzMDUzMDc5M2U3MmU3Yzc0MjAzNGQzZWYwOWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMzNThlNzdlZGQxNWJlNjNhNzY5OWEwZjljYTBkNmYwMzkwNzg2ZWFmZmY2Y2UwNWQ4NTk0YTE5OWUyZjJiYmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZjYjFjNjdhOTYxNTExM2Y2YTliYWIxNGY0YTdhMzA5MGM0ZjIyYjcwMWI3MGU4OTQ2NjkwMzhjZjY3MWUyOTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZiNTk3ODUwNDhmMGJlMjFkYzU1MTZmMzJjOTQxYjFmODE4NDEzNTVjMWFlNjY5MGI4YWQ0ZTY0YjY1NzBlZWIifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

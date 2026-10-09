@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:51f8fdedbe89220489aa851e44d38e79b708b8c11c373c47afca972b95d5e72a",
+  "claims": [
+    {
+      "id": "claim_87c822bf961242929b50046e28cdb4ff",
+      "statement": "The Swift Alliance & gpi Connector (GPI-C, system id SYS-PNG-GPI) is the Swift/international-rail module of the Payment Network Gateway, responsible for sending/acknowledging CBPR+ pacs.008 messages and retrieving Swift gpi Tracker status, while the sibling Fedwire Funds Connector (SYS-PNG-FFC) handles the domestic Fedwire rail.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L24-L26",
+          "version": "repo-lines-v1:sha256:9db4339b0ffd6f5f1b5d71162adaa9e0bf0e95e89610ece8f1ed7ec7168489fd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQyMjE4MWIxZTA5ZjVlMjg5Njg5MTFkZGU2MTBjNWQ1NWY0YmJiZDkwODFhYzg3YmQ5NDlhNjZlNzBjMWY0YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTAyOTQxY2NiNTM1MTZmNGI3YWI3YWQzMGZhOGY4NTAzMDlhMmQwMmM3MmRkNWU0MDhmMmQzNzZhNDJkMDMwMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTU1OTE0ZGQxMDY2OTlmMDkwZmVkOTI0ZDY2MzAzMTk1NGJjZTU1ZmM5MGI1YTg4YjE0M2IyNmQyODUxZTMxNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmY1YWVkOWM0NmJmZjBlZmQ2MTZkZDVmMDJiNGI4NTE4ODkxMTdhMGYyYjRkYjU2MDBmNjI1M2E0MjEyZDVlOCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L57-L61",
+          "version": "repo-lines-v1:sha256:7c5373a2f1c0ec46d754ee193f20f55b911cc0d595c36fc7bd7b7467a6975b86:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzFjOGY1OWM1ZjYxYzc2M2RhZjUxN2E4OTdjOTdiYjFjZDc5NWI5MDMyODc5N2ZhN2U5ZDZiOTkwZTFlZGNkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzg3ZjRlMWFjZGEzYjY5MDk4YjBjYzVjMzA2NzVhMjhiNGEyMjQ1NDE0YzU3ZTUxYzI1Yzg1NGQ1Y2RmMWJlZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGE2ZTgyYjRiMjQxNGFjZWNmZWQzMjYxNzdhNmJhMTA2MjM1MzRjMzNmOGY4YjJjMmIwNWI1MWNmNzFlZjc2OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDcyMzZiNTI4ODNlNTdmOGM1NTkzMThkNDIwZTI0MDdiMjlmODIxMmM5OGViZjk3Zjk2YzFiNDhmYTI0ZmM5NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_efccc1249fc94120905091a5efb8257c",
+      "statement": "GPI-C sends CBPR+ ISO 20022 pacs.008 customer credit transfers, mandatory since Swift's 2025-11-22 end of MT/MX coexistence; CNB does not use the MT103 contingency conversion path, and PPH assigns the UETR (UUID v4) at release which GPI-C carries and maps Swift ACK/NAK back to PPH.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L69-L73",
+          "version": "repo-lines-v1:sha256:f5614458a680a94df23d8978c5b73b8e74e994f9ac45438db12366d04c403a46:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJkNmY3MTQ3Y2QzOGI3ZjUxNjJjZWIzNDJkYjMwZWI2Y2RlYTRjNzI4ODJhNTg0NDU3OWZkNWFkOGZiNGU2ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3YmE2YjBkOWYyMzhhMGJjOWQ1NzgxYzc0MmQ4NGEyMDE5OTg4YjM4OTJmYmRhMWY1MDZjZTQ2ZTFmY2I5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGI3ZGJmN2NkODU1N2U5ODI2NDNkMzgzN2M0ODgzM2IzNjcyMjYwZmQwYjJjODNjZmUyZmY1M2FmZDc1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cdb6be4ecc414ab79a41a4a605ab4679",
+      "statement": "Swift's exceptions and investigations flow is migrating from legacy mechanisms to camt.110/camt.111 on a published Swift timeline of November 2026, and GPI-C had not yet implemented this as of the PNG-TDD-6.0 design.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L73-L73",
+          "version": "repo-lines-v1:sha256:6b7ba6b0d9f238a0bc9d5781c742d84a2019988b3892fbda1f506ce46e1fcb95:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3YmE2YjBkOWYyMzhhMGJjOWQ1NzgxYzc0MmQ4NGEyMDE5OTg4YjM4OTJmYmRhMWY1MDZjZTQ2ZTFmY2I5NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3YmE2YjBkOWYyMzhhMGJjOWQ1NzgxYzc0MmQ4NGEyMDE5OTg4YjM4OTJmYmRhMWY1MDZjZTQ2ZTFmY2I5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTczYTdmNjkzMzY2Y2E2MDQyMGM4OWQyMjM2MmZjMGVkOWJmOGRlZjk5ZmM0YjUyMmUzMWJiNTI1MGZiMzdiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjk5NGI3ZGJmN2NkODU1N2U5ODI2NDNkMzgzN2M0ODgzM2IzNjcyMjYwZmQwYjJjODNjZmUyZmY1M2FmZDc1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_38341cc080944453828ff51360b710ac",
+      "statement": "GPI-C reaches the Swift Tracker API through the Swift Microgateway, authenticating with SwiftNet PKI credentials bound to the GPI-C service account, with Swift Alliance Lite2 standby providing business continuity.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L125-L131",
+          "version": "repo-lines-v1:sha256:4ca5e3691f5ae934dfc9f944b3179b4bcebdd0b520521b7b65db58568829fb17:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVjZDQ3MTMwYTliNWI4YTIwYzM1MTlkMDY5ZDY3MWVkNjcxNzQxYmE5M2UwZTFkMjk4OGI2NjViN2Y4OWU1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJlYTlmZGVkNDlhYTExYTRhNTA1ZTY4Zjg0YjFmMGU2NzQ1MjExYzkxNDI2ZDk1ZDI5NDQzNjI5ZmRhODUyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzhhMDgyMTEzNzkzYzc0OGRmZGY3NjFjNjUwZTNjZmVjZGE5OTJlZTkxZGY4OWRkNDhiMGQyNzFjMTgzNTRlNCJ9"
+        },
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L77-L77",
+          "version": "repo-lines-v1:sha256:c76005b4216a15abcb33578da7a3708cd9570d38ab60e5ea9f31fb35df38771c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzc2MDA1YjQyMTZhMTVhYmNiMzM1NzhkYTdhMzcwOGNkOTU3MGQzOGFiNjBlNWVhOWYzMWZiMzVkZjM4NzcxYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzc2MDA1YjQyMTZhMTVhYmNiMzM1NzhkYTdhMzcwOGNkOTU3MGQzOGFiNjBlNWVhOWYzMWZiMzVkZjM4NzcxYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjk5NGI3ZGJmN2NkODU1N2U5ODI2NDNkMzgzN2M0ODgzM2IzNjcyMjYwZmQwYjJjODNjZmUyZmY1M2FmZDc1YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIzNmNlYTRkMjdmNGNhNjk4ZGJjMDU0NjMzNDM2MTFkOGNmNjRmNDUwMjVlOGRjMjk4YzZkZmU3NWNhZWFjNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0105f8c43e9044b6b09c86dad4bc16ce",
+      "statement": "GPI-C performs the gpi Tracker integration as a fixed-schedule batch pull every 4 hours (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 ET), requesting changed transactions for outbound UETRs from the last 30 days and upserting results keyed by UETR into the Oracle table GPI_TRACKER_SNAPSHOT, which feeds Payment Operations' Investigations Workbench and the TDIP nightly load; there is no internal API for gpi status and the snapshot must not be exposed directly to client channels.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L75-L89",
+          "version": "repo-lines-v1:sha256:a92aeabe5cb4f06f589fd8100fa90e08231f361e001bc9c68a6bdef1db1bc968:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMDZhZmE0OTU1ZTc4ZDdjMDE3NWRjYjJkMjg0ZjAxM2JiNGU3ZmM3NTI2NmQ2ZmJiYmE3MTUxNDRjNzM4M2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhOWY0MWJhNTgyZDA1NzJjYzQ4MmIxYTlkYjkwOWUwN2E4MDQwNDY3YzU2Yjg5ZjA0MmI3ZDgzMmYyNWYyMjgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQxOGZiNzAxYzExM2IzNGFmODMzYWQxZjIwN2EyZjM3YTM3ZDc1YTE0ZThmMjE2MGJjNmRkYWU4NjQzYmRmNDkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a948ef6f67e64d3e96e04876b26cd249",
+      "statement": "The Swift Tracker API contract permits 250,000 calls per month (renewal 2027-01-31); batch pulls plus Ops ad-hoc lookups already used ~61% of quota, while client-channel per-payment lookups were estimated at ~1.9 million calls/month (~7x the quota), so any real-time gpi design must use a change-feed with internal fan-out rather than per-payment Swift calls.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L90-L92",
+          "version": "repo-lines-v1:sha256:418fb701c113b34af833ad1f207a2f37a37d75a14e8f2160bc6ddae8643bdf49:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZhMjlkNTYyZmVkZmQ5ZGQwNDFhOTYyNDJhZTRmYWEyZjE1NjJkZTY4ZjBiM2FhNzU4YzE1ZTkzMmVhMTlmYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzY5NjcwY2JjNjJkODg4OTQxN2JjNDQ1MjgxODgyMTNjNDg1YmE0M2Y4MWYzODFmZGU5ZWRlOTMyNjYzYzYyMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmU1YzE3NWZmMGQwMWJlZjJmYmIyNDdmZmNhMzllYjY1YzIyYzJiMTIyOWRjZTU1NGQ1YWRmZjFkZDJiOWQ3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTM0NmMyZTYwNDQwZjI3MDQ5ZjgwYmYzNjhiNjg2ZWNkZTI2OGIzOGMzNmM4MzcxYWUxNTJhYjA2MDgzZjUzZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6464391c2ebe4133885acd18bf7d4996",
+      "statement": "PNG-1544 (Addendum A to PNG-TDD-6.0, 2026-03-03) declined a request to double GPI-C's batch pull frequency from 4 hours to 2 hours because projected Tracker API usage would exceed the contracted quota, and instead recommended a change-feed-based internal service as a future initiative, leaving the 4-hour cadence unchanged.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L133-L135",
+          "version": "repo-lines-v1:sha256:00263be13e89ea76af66a97bbaf429d9283eee22e0099e95e24302741d3f2ecf:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzlmMWY2OGI5NzcwOWI2ZWM4M2JhMjIyMjM1MWYxMzA3Mzg1NWZkMjA1OGMzNzllMjBmOWY5ODExODQzMjQzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk2ZjIzOWNjN2YzYjcyMmQ3ZWM1NjRhN2VkYjgzNmMyZWE3NzNhYmQ1NGI5M2Q0NWYxZjQ0OGI1M2QyYjZlNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmVmNWNhY2YwYWFiMGJiNDdjYzUyNWY0ZWM4NGE4YmM4YzRmZjI2Nzk0ZTBiYjI2ODZjZDEwYjFiMzFiZmUyZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDI0MmY1MGNlNzY0OThlNDJlYmZlMTk4ZjE3OTJjY2E1YmM4OTc1Y2U4OTdkZDMyODQyMDJmODcwYWZjY2YyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_013e3577d8604b14847cf5476c68c502",
+      "statement": "Ownership of the Swift Alliance Gateway/gpi Connector (SYS-PNG-GPI) and gpi Tracker integration, plus the Swift API gateway (Microgateway)/SwiftNet PKI service accounts, and the international wire tracking roadmap moved from Payment Networks Engineering (Raj Malhotra) to Global Transaction Services Integration (Elena Vasquez, Omar Siddiqui EM, Hannah Lindqvist Tech Lead) effective 2026-10-01 per CNB-MEMO-2026-09, while the Fedwire Funds Connector (SYS-PNG-FFC) remained with PNE under Raj Malhotra (Brian Walsh, EM), who separately gains the FedNow and RTP connectors from 2026-11-01.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L28-L42",
+          "version": "repo-lines-v1:sha256:406e7d21cd3cf4c002098b353c16d1226deed5affc7638754b2be98026f52e59:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc1MDU5MjE1ZjBlOWZiYWMwODBlMTEzZjg2MDEwNjE1MGQ5YmRiOTQ0ZTE1ZDU3MWE0MGM1ZGI3ODRkYWM0MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUwYmUyNzdiY2JjMjAyOWZhZDA4YjhmODBmNzAxNTZhMDE0MWMwOWZjMGY2NTAyOTJkOTEzYzgwNzlhNzQxMjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkMDFhODViOGNjMmUzYjJlZWJjNTllZmY5M2QzMjU1MjU1ZjNlMGM2NzBmMGZkMjE3ZjYwMTRhZDVjYzkxNjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFkZjkyZWNjOTVmZDVlMzFmN2Y3NGFlNTIyNTZjNWZlOTg2NGIxMDQzYmRlMmQ3YjBiNDBmMWMzMTRjYjk5MTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_308f1bbbd57e4e27a2d3144284a51f59",
+      "statement": "Per CNB-MEMO-2026-09, Tomasz Nowak (Senior Engineer, gpi Connector) transferred from PNE to GTSI reporting to Omar Siddiqui, and PNE on-call remains secondary support for SYS-PNG-GPI until 2026-12-15, when the GTSI-0112 knowledge transfer completes; from 2026-10-01 new gpi/Swift Tracker requests must be raised in Jira project GTSI rather than PNG.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L44-L52",
+          "version": "repo-lines-v1:sha256:22818c55fd09ddaed38a12723e2a2d21c62918d084fc04436f7f695b4425ca69:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWM4NGVjNjM2ZjJiZjZlNWEzYmZhMjM4YzU0ZWM4ZGQzYzZmMGY4MzU4NTBhMmFkNDdlNTkwNDdiYWI5YjU2YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDY1ZDEyOGY1ZWJhMDY0Y2ZhZTg3MDMwNGZlYzg4YjZhM2I0ZWU5MzZiZjY2YjdmOTY2YTkzNmZiNzg1Y2M5YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWRlOWNiODg5NDc5Njc2NTU0MGY0YTUwOWZiZmVkM2JjNmU0OWEyZmQwODlkMTFlZDk1Yjc5ZjVmYjA0ZTg1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGExZTgxMDRkNTkwNTcyYmIxZTgwMjZmZDc1NTE4NzFhNmNlM2E3ZmU1OTUzYTk4OTRmNzYxOTFlMGJjZjI4ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f00ae1e7e2cd49bbb54b0380086cf39c",
+      "statement": "GTSI also inherits the gpi Tracker Real-Time Service initiative (GTSI-0107), which is not funded for 2026 with discovery planned for 2027-Q2 subject to the 2027 portfolio review, and the Swift Tracker API contract renewal (GTSI-0115) due 2027-01-31.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/cnb-memo-2026-09-realignment-of-cross-border-network-integration.md#L54-L56",
+          "version": "repo-lines-v1:sha256:11e00a12917a45d0c2a3e0c9838d29fd8117f72c4d0c28698e247ce0cfe13d0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2QyYTg3ODQ3M2UxM2Q4MDE2MTQyYzM3ZjVhZDVkNGM0OGE2NmYyNzYyYTNjNzBkNGI2M2M0ODY4ZThkNjRmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3NWZlOTRlYmQzZjE1ZTQ1YjNlNTBhZmI2NDAwNDBlYzYwMTg1N2FjN2E5NjI1MjAzMDNiN2JlOWFhYTRjYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjljMTAwNjVhNGY2YTI4MDJiOWMzNzM0MmM2YTEwY2JkMmM3MjZiMjUxNWZiMmQ3ZjE1OWQ1NDBmODI2ZjBjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWQ3YjczNjBjOTljODk5NjMyZmRhODE2MjNiODQ0Yjg0ZWZhZjc2OTY2OTkwYzkyZmFkY2E1OTYyYTYxNDI5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f6c50b6f5e6846baba6e798d8b894fd0",
+      "statement": "GPI-C's operations use Splunk dashboards PNG-GPI-* (alongside PNG-FFC-* for the sibling module) and a shared Saturday 22:00-02:00 ET change window across the Payment Network Gateway.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md#L125-L131",
+          "version": "repo-lines-v1:sha256:4ca5e3691f5ae934dfc9f944b3179b4bcebdd0b520521b7b65db58568829fb17:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzVjZDQ3MTMwYTliNWI4YTIwYzM1MTlkMDY5ZDY3MWVkNjcxNzQxYmE5M2UwZTFkMjk4OGI2NjViN2Y4OWU1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJlYTlmZGVkNDlhYTExYTRhNTA1ZTY4Zjg0YjFmMGU2NzQ1MjExYzkxNDI2ZDk1ZDI5NDQzNjI5ZmRhODUyMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU4OGMzYzRiMGIyNmU2MTQ2ZDhjZDNiNWRlNjQ3MjdmNzgwNzk5NmZkNjA0YzUxYmE2MTUyYWYwNDk2ZTVmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzhhMDgyMTEzNzkzYzc0OGRmZGY3NjFjNjUwZTNjZmVjZGE5OTJlZTkxZGY4OWRkNDhiMGQyNzFjMTgzNTRlNCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}

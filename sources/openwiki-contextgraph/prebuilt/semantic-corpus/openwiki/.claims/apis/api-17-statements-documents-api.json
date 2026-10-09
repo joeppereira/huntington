@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:55df57ad99de0308986a5080ce53d6813df6bb02aee669f97f9ffef13d078607",
+  "claims": [
+    {
+      "id": "claim_9091f1e2b0a94fb3be496729c8136a83",
+      "statement": "API-17 Statements & Documents API (v1.4, base path /documents/v1) is owned by Digital Platforms Engineering in the Client Servicing domain, serves the mobile app, online banking and corporate clients, classifies data as Confidential - Client Data, and has a 300 requests/minute rate limit and 99.9% availability SLO.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L6-L17",
+          "version": "repo-lines-v1:sha256:a4c9819afb5b1cad08b4f0de6d8567255a4116dbe1a6b952a24886fd0a46fdce:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4Y2IzNTAyNGFiNWQ4ZjAxODEwMWYwNjVjM2EwYTJjZmI1MDVlZjIyY2E4ZGFkYzVjNzE4YzBjM2I2ZGNjNTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3YWU0Nzk2NWFiZjEzZTU0YmRiOWZiZTZhNzA0ODlmMTRkMjVmYWM2MzI3ODU3NTIxODdmMzJhYjZiZWI0N2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjlmMmNjNmIxMmJjMzBiOTM4NDYwZmJkZGE3NDQ4NWMxMjE5ODVmZWRjNTMyZDVmMzViZTllNDc0ZDMyYjQ2NDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTFlZTVkNzY2NGE5NjNlNTZjMjQzYWIwOWFhMDQ2M2VlMzM4OTZjNDIzMDk3ZTRmYmI2ODE3YWQ0Nzk5NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_dc4bd346663d4a199ec3863a34092c1f",
+      "statement": "The API exposes three endpoints: GET /accounts/{accountId}/statements lists statements by period, GET /documents/{documentId} downloads a document as application/pdf, and PUT /preferences sets paperless preferences; listing returns document metadata (documentId, period, type) that is used to fetch the PDF by documentId.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L19-L49",
+          "version": "repo-lines-v1:sha256:1060b9728a6844af18ba4127f63e16264a06b31d99f400366bf8168f72765a71:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhZDEwNzM5ZTkyYTQ4MWNmNTBjYWI1MjZjMzYxZWViNzIwYTlmNjc0YTY5MzZjMDU1MmI4NmRlYjY3NjQ4MjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyMmZhYTUzNWJkMmVhM2Q1MmU3NDFlZDQ1NDQzNWI3ZmU0OWU4MzU4NmU5NDNkOThkODJiYmZiMjRkMWY1YzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijk2MGI5M2MyZWMyYmFlN2I4MGZmMDJiZDYyMDg1ZGM4MzZiZGM5NjZlOGJkZjU2MDkxZWU2NmI2YzQ3ODJjNTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI5ZDEzNzRmM2VmNmIwMDg5NGEyZjAyZWI3ZTA5YzYxY2JlYTM4N2ZiNmIyN2Y3ZjhjOTJhZDgzYjU1M2RmYjYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9bc341871afa4692bb596755d4498ad1",
+      "statement": "Access is governed by two OAuth scopes, documents:read and documents.preferences:write; the source does not give a per-endpoint scope mapping.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L15-L15",
+          "version": "repo-lines-v1:sha256:bf828c95876d3bdb75b1704d5180b6c4025c1e055abbe9f3bcc719113cf9aa0b:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY4MjhjOTU4NzZkM2JkYjc1YjE3MDRkNTE4MGI2YzQwMjVjMWUwNTVhYmJlOWYzYmNjNzE5MTEzY2Y5YWEwYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY4MjhjOTU4NzZkM2JkYjc1YjE3MDRkNTE4MGI2YzQwMjVjMWUwNTVhYmJlOWYzYmNjNzE5MTEzY2Y5YWEwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTE4NzQzYWJkNGY2ODM3NTlhMzFiYzQ2YWZmNWE5NGM2ZWYwMjM3YzY0YmQwZDQyZTBjM2I3YzA4YTAxNDYyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTYwYjkzYzJlYzJiYWU3YjgwZmYwMmJkNjIwODVkYzgzNmJkYzk2NmU4YmRmNTYwOTFlZTY2YjZjNDc4MmM1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7d8fd2f22f234f9f9cc313e116e6aa7c",
+      "statement": "API-17's upstream sources are the Accounts API (API-01) and a document archive, and its downstream consumers are the mobile app and online banking.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L51-L55",
+          "version": "repo-lines-v1:sha256:f0dd19f3a7e9157ff3a55be60bd1b976d92d8950819262c4ad4b22e13fcbbd7c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE3MjdlOTE5Nzc2NzgwNzliMWYzMTc0NWQ5ZGYwMTc2OGU5ZmUyZGQ4ZTI3ZWY3N2Y0MzUzYWRjNDAwMzFkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWJhNTJhY2NjOWJmOTkwYzVjN2Q4MzcyNWU2ZmNjYjlkNWRmMjJlYmRkMDFmNTQ2MTY3ZjNlMjYxMTljZmY2NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjkxYWMzN2I2NmIxMmI5NzM4NmIzYWJjNTRjYmJlYmM1YzY2NWViNWNmNzhkMTY2MjRjYWFiZWJkZTA2YzE3ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmEyZjI1OTFhY2VhZTM2NjZjMjU3MjA5NjI3ZWMzOTA3YjQ2NTk3ZDExODZjNTMyZTEyZTk4OTBjM2IxZGY3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ddc788d86144cb8aefc9137c30967ef",
+      "statement": "Version v1.4 (2025-12) added tax forms to the API.",
+      "evidence": [
+        {
+          "resource": "repo://sources/api_docs/apis/api-17-statements-documents-api.md#L57-L59",
+          "version": "repo-lines-v1:sha256:484e78eb07937bebbbbb882d394565a2918a80b5ec18eca1f0ae3f4150904b69:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM2Y2UwYmYzMWMwODBlZGE2OTAyMGUxMjFhNGUwNTVhNDA0M2QxZWFmZjY1ZGY4NDgzMGJlOGEwYmYyYzY1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjU3Y2U4YzFmMjViNDFmZGExNzkyZWY0YTAxYzhkMjI1OWJiY2FmNmMwZTFjM2VlN2Y1M2U3OGM1MTA2OTVkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjU1MjRiZTBmZTBkYThhNGE5OTRmZGM0Nzc3ZGM3ODY3NzRiOWQ1MmFjMjdhNTI2MjllNWM5ZDdjZDIxYTBmNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-05T01:46:21.335Z"
+  }
+}

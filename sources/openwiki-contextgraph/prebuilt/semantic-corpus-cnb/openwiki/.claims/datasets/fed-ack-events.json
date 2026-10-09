@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6d24c1254e524b78de7327a5748b29e226eec4ac71c7086ab3bdad7bbf76de65",
+  "claims": [
+    {
+      "id": "claim_8c6c9d20cc4847fd9c4a446b98c4c5b1",
+      "statement": "The dataset fed_ack_events is listed in the TDIP payments-domain data catalog (TDIP-CAT-2026.2) as sourced from net.fedwire.ack.v1 but is NOT INGESTED, with no refresh cadence, history, classification, or data owner assigned yet; its ingestion is tracked as backlog item TDA-2210.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L28-L39",
+          "version": "repo-lines-v1:sha256:a66d31dc7d096ccfcde1dbdd7c2d32374c92748aa489e3d1fcf689238f27ff09:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjhjZjA4MzdiZDk3OWM3YjE5NWU2YWZhMDA0MTk2ODE0NmRjMGEyMzJjZTk1NmY5ZDIwYmE4YjdhZDIwMmQzZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhNTA4ZjRlMWEyYTFiNGU1ZTY3YWQyNDI3YzJjNGUyYzU4OGM2NDJhMmZkNTI3MTkzNjIxZTI2MzdlZDJjYmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhhZWM0YjQ1OWQ2ZTJkOTU2YmFkOGI0YWZiNTEyZmVjOGY2OWY0OGZlOTU2YjM3YWExNzA3ODkwYjQxOTE2MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmNjc0MWU1MmVlZTlhZTRhZWVjOWYyMWFlN2JiODQzOWQ1ZmUxM2YwY2EwNjE4ZTU5ZmNlYzNhNjI1ODhhZjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4253d6a245d64867b60e5756476efbb2",
+      "statement": "TDA-2210 ('Ingest net.fedwire.ack.v1 (Fed acceptance / OMAD) into TDIP') is a Backlog, unscheduled, 8-point Story owned by Carlos Mendes, blocked on a Kafka ACL from PNE and lacking a business sponsor.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L177-L181",
+          "version": "repo-lines-v1:sha256:750847b5a86a94169f0e794681866ae9a594a7a8e5aa84e6c6a921ff31a24693:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzExNjZiOTVlM2E2NTE0M2E5NWMxMTkyMTg4ZmQwNWQyMjAzODBlMGJmMDhjYzdiZmFiYThlOTc2MWY1NzcxZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjdlZmNiZWY0OGNjZDRkZDQzNTA4NjYxMmM1MmU1ZTA3MDE4NGVmMGQxODlhNWQ0ZDlhYTBmNmEyYjM1ZGY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWZmYzMyZTc5MWRmM2Q4ZWYwZWU4ODA3OGNhNjY4ZDQ4NTY4MmY1NjExYjczZTI0ZTBjMmUzNTFhZjZiZDVhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjliM2JlNWNlZDQzNzllYzg2MTJiNDczMzk2MGYyYTkzYWJhNzI4M2NmOWE3MWNhZTE2MmNiZmYzNGY0MzEwYiJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L67-L67",
+          "version": "repo-lines-v1:sha256:b21220c272e172a3ffa54adc481d6ac5bcb89b70eb058627bf65f0a011dc58e2:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIxMjIwYzI3MmUxNzJhM2ZmYTU0YWRjNDgxZDZhYzViY2I4OWI3MGViMDU4NjI3YmY2NWYwYTAxMWRjNThlMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2UxNDI2NmZhMTcwZDYzMDU5ODU2ZWIwNzAyYTk0OGE5NGM4YzIzYmE3OTU1NmE4OTFjMTQ4ODNmNGVkMGVmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdiMWNjMzFhZDBjYjBkYjFiZGNlZDk3MmJhOGYyYTJmNTllZTg1NDQ2MjJlYzBmYmY0YWE2YzAxMDIzOTk1MyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_09c608af8c0c46799b8ed8a1526fe741",
+      "statement": "The TDIP catalog states that settlement-time analytics for domestic (Fedwire) wires require fed_ack_events and lists 'Fed acceptance timestamps not ingested (TDA-2210)' as a named platform gap, because pay_wire_txn_hist only reflects PPH processing timestamps rather than Fed receipt time.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L39-L39",
+          "version": "repo-lines-v1:sha256:1a508f4e1a2a1b4e5e67ad2427c2c4e2c588c642a2fd527193621e2637ed2cba:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE1MDhmNGUxYTJhMWI0ZTVlNjdhZDI0MjdjMmM0ZTJjNTg4YzY0MmEyZmQ1MjcxOTM2MjFlMjYzN2VkMmNiYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE1MDhmNGUxYTJhMWI0ZTVlNjdhZDI0MjdjMmM0ZTJjNTg4YzY0MmEyZmQ1MjcxOTM2MjFlMjYzN2VkMmNiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWI3ZDcxMTBlOWJkN2NhMjBmOGU1ZjA5MjMzZmYxNjA4YzM5MzViZGJkMDA1MGY3OGZjN2ZlZWZlOGUzMGI5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmY2NzQxZTUyZWVlOWFlNGFlZWM5ZjIxYWU3YmI4NDM5ZDVmZTEzZjBjYTA2MThlNTlmY2VjM2E2MjU4OGFmNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L82-L88",
+          "version": "repo-lines-v1:sha256:60996095138c66b375cef4489154f82351719b5d9bd7857ad94f0299baa7512d:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTRjYmE0YTQ2ZGI1NDYxNWVkMTQwMjU5NDc0ZTJkNTMwYmRkZjdjM2Y4OGNmNGY1YjI5NDhiYjEzNjRlMTJkMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjlmY2Y4Y2E2MmE1Yjg5MWE2OTEyMzBmOTM1MzZkZWRjM2E1MTgyNDE0MWZhYzYyMmZlOWU5YzgxNzI5ZWM0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTI2NjA5MDc3YjEzYTg2MmFiMDVkYmM4MDkxZWRmOWZjOGZmOGZlYmJmZTczZGFjYTJiNjhiYjE5ZTg0MDNkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQ1NmUwNWRkNTFjYWQxZDYzMjk3ZDIzOGJiMWY2NjJiMGU3YTUyNGMyZWM5MmMxOWQ0NmJiMGU0YzU2NDVlYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b1d9bbe6223143aaaa591b16624464f2",
+      "statement": "PPH-2207, the API-side counterpart proposing a v2 settlement object (fedSettlementTs from pacs.002/OMAD, settlementStatus) consuming net.fedwire.ack.v1, is Backlog with no sponsor and no consuming product identified, mirroring TDA-2210's sponsorship gap.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L131-L136",
+          "version": "repo-lines-v1:sha256:426ca1f40fe3d9892efdd0fe6907782ee897413c6b51f2e39135022fceb69397:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZjZTBjYjk2OTQ0YTc3MDQyMWY2NTZkNGI1NTlmMmIyOWY5MjA2NDVhN2NhMDJkZThiMjhmNTA1MmM1Yjg0MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTA1Nzc1NWJkNTZiZDc4YWZkYjBlN2Y4YjY4ZDk0ZmM2NDk4YzNkZTE4ZmM4ZTc4NjU5MzA3NDI4NDczMzliYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGIzYTMyYWNjNThmMDM5YTFjZDg1YTcyZTA3MmQyZjFlNWFjNDYwMWZlZDI5MzI2YjJlOTM0ZTJjZjJiMjlmNyJ9"
+        },
+        {
+          "resource": "repo://sources/estate/jira-export-wt-discovery-2026-10-05.md#L54-L54",
+          "version": "repo-lines-v1:sha256:9488a40e8bb278d8f6bec282c6b5972abb38d9deb95051b0fbc2bbe9ac59fc3a:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTQ4OGE0MGU4YmIyNzhkOGY2YmVjMjgyYzZiNTk3MmFiYjM4ZDlkZWI5NTA1MWIwZmJjMmJiZTlhYzU5ZmMzYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTQ4OGE0MGU4YmIyNzhkOGY2YmVjMjgyYzZiNTk3MmFiYjM4ZDlkZWI5NTA1MWIwZmJjMmJiZTlhYzU5ZmMzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjYwOTBkMDI4MzIzOWE3YzQ5NDZhMjI5OGIyY2IzYThkODI4NWU1YTZkYjJhYzk0YzNmNTZkMTc1YzBkYzFlMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDQ5ZjEyNmYzNmNjMDA1YzZlOTBiYTBkYmVkMzJjZjhkZGM4MWQ1NDJjODdmZmY0NGE5ZjUxZDBmNGY5YmJkNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5d7c16270ce14168b28aabfb9619d915",
+      "statement": "Unlike the unbuilt fed_ack_events, the gpi_tracker_events dataset (sourced from GPI_TRACKER_SNAPSHOT) already feeds TDIP's wire_corridor_stats_daily feature table (same_day_accc_rate, median_hours_to_accc) for outbound Swift wires, meaning TDIP currently has cross-border but not domestic settlement-time visibility.",
+      "evidence": [
+        {
+          "resource": "repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md#L30-L46",
+          "version": "repo-lines-v1:sha256:2386aa72d359e89fe2331c513370344730f4aacbb962a3f2f1c0f8a3292dcd9b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRkMzc5ZDAwYWNhNDYyZGFkY2E2NjhjYmZlODhlMTk3YTg5NTM3M2Y5MDk3ZGRlNTA4MDBmZDNiY2IxOGIxMzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmM2RhZjlkN2NhYmY3NTYwMjM4MjcyNDJkYTM3ZWQ2ZjQxN2VmMDljNTg4Y2MxNTE0YTMyNWRlMjRiNmMzMTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM2MmE2NTUzZGYwMWVjYTAwMzRiNmEzNzcwZWU5MDg2ODJlN2MzYjI5NmEyODlmNWY1ZmE3MDQ0N2ZlZDA4MzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVjMTc0NzRiYzdjNjAzNGYyYzM5NjdmNmFkOTE0NjE2MjU1MTkwNjVjYTRkYWRjYjM0MGFjNGZkOWU0NWVmNDQifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-09T18:41:05.232Z"
+  }
+}
