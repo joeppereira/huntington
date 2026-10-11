@@ -17,12 +17,25 @@ rejects refs that don't exist and type-pairs outside this table.
 | `governed_by` | Concept, Interface, Dataset, Project | Policy | curated map (predictions/stats→MRM-POL-02+DUS-07; client disclosure→POL-FCC-014) |
 | `relates_to` | Incident, Project, Document | any | GT jira.links phrases ("is caused by", "documented in") |
 | `described_by` | System, Interface, Policy | Document | page `sources:` resources ↔ documents/ pages |
+| `depends_on` | System, Interface | System, Interface | derived from source "Integration inventory" tables (consumer component → system; each consumed interface id → its owning system via `part_of`) + corroborated prose dependency statements for the payment-network systems |
 | `aliases` | any | strings | GT names + curated vocab-gap table (see below) |
 
 Alias table targets the measured vocab-gap failures: UETR ← "tracking number",
 "parcel tracking"; gpi tracker pages ← "banks passed through", "route", "intermediary
 banks", "freshness", "how fresh"; status APIs ← "where is my money", "payment location";
 refresh/batch pages ← "up to date", "latest data".
+
+`depends_on` derivation (tools/augment_frontmatter.py, deterministic + idempotent): the
+source "Integration inventory"-style tables name a consumer component and the interface id
+(EP-/EV-/BT- in parentheses) it consumes. The consumer component resolves to its system page
+(via the interface page whose slug is that component, taking its `part_of`); each consumed
+interface id resolves to its owning system via ground-truth `interfaces[].system`. A
+`depends_on` ref to the owning system is written on the consumer's system page (deduped,
+self-edges skipped). Additionally, plainly stated "<System> routes to / feeds / consumes /
+funds-control against <System>" sentences for the payment-network systems are encoded from a
+curated map, each corroborated against the depending page's own prose before it is written.
+This closes the gap where the typed graph had no system→system edge (owned_by/part_of only),
+so "which systems does X depend on" could not be assembled from the graph. Q1/Q5 regressions.
 
 Retrieval consumes these as: typed graph edges (WikiGraph), alias-aware exact tier and
 indexing, status facets for typed queries, Document-demotion via `described_by`, and the

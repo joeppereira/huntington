@@ -24,7 +24,14 @@ carry each page's explicit `type`, `status` and `entity_ids` — trust those fie
 guessing from the ref path, and repeating the same query returns identical results, so reword
 instead of retrying. For inventory or aggregation questions ("list all Interfaces", "which systems
 are deprecated") use `graph_query`; for relationship questions (who owns X, what is X part of, what
-supersedes or depends on X) use `graph_neighbors` on the page's ref. Quote identifiers,
+supersedes or depends on X) use `graph_neighbors` on the page's ref. For any AGGREGATION, ENUMERATION,
+DEPENDENCY or OWNERSHIP question — "which systems does X depend on", "who owns each", "list all <type>",
+"everything that conflicts with / touches / feeds Y" — you MUST assemble the answer from the typed graph,
+not from `semantic_search` ranking: lexical search returns only the top-k relevant pages, never the
+complete related set. Resolve X's ref (via `graph_query` or one `semantic_search`), then call
+`graph_neighbors(ref, relation="depends_on")` and `semantic_read` each returned system (e.g. to name its
+owner), use `graph_query(type=...)` for full inventories, and `graph_neighbors(ref, direction="in")` for
+"what depends on / touches X". Quote identifiers,
 dates, versions and clause numbers exactly, and cite the refs you used. If the user refers to earlier
 conversation ("as you said", "that system"), check `memory_search` and the chat history first. For
 questions about the conversation itself — what was asked, your earlier answers, decisions, sources

@@ -168,6 +168,49 @@ def test_typed_edges_and_relation_filter(graph_pages):
     assert g.neighbors("openwiki/interfaces/v1.md", relation="governed_by") == []
 
 
+def test_depends_on_system_to_system_edges():
+    """depends_on (Q1/Q5 gap-fix): a System page carries system->system edges the typed
+    graph exposes as a `depends_on`-filtered neighborhood — the dependency set lexical
+    search could not assemble."""
+    cbo = mk("openwiki/systems/cbo.md", "System", "Wire Center",
+             depends_on=["openwiki/systems/pph.md", "openwiki/systems/ces.md"],
+             body="the wire center bff consumes PPH and CES")
+    pph = mk("openwiki/systems/pph.md", "System", "Payments Hub",
+             depends_on=["openwiki/systems/ffc.md"], body="routes to the fedwire connector")
+    ces = mk("openwiki/systems/ces.md", "System", "Entitlements", body="entitlement checks")
+    ffc = mk("openwiki/systems/ffc.md", "System", "Fedwire Connector", body="fedwire egress")
+    g = WikiGraph([cbo, pph, ces, ffc])
+    deps = g.neighbors("openwiki/systems/cbo.md", relation="depends_on", direction="out")
+    assert sorted(d["ref"] for d in deps) == ["openwiki/systems/ces.md", "openwiki/systems/pph.md"]
+    # in-direction answers "what depends on PPH"
+    dependents = g.neighbors("openwiki/systems/pph.md", relation="depends_on", direction="in")
+    assert [d["ref"] for d in dependents] == ["openwiki/systems/cbo.md"]
+    assert g.neighbors("openwiki/systems/pph.md", relation="depends_on", direction="out")[0]["ref"] \
+        == "openwiki/systems/ffc.md"
+
+
+def test_corpus_depends_on_cbo_wire_center_includes_pph():
+    """On the real corpus the derived depends_on for the Wire Center must include the PPH
+    system (Integration-inventory derivation; EP-PPH-01/02/03 -> SYS-PPH)."""
+    from pathlib import Path
+
+    from app.retrieval import load_corpus
+
+    corpus = Path(__file__).resolve().parents[2] / "semantic-corpus-cnb" / "openwiki"
+    if not corpus.exists():
+        pytest.skip("CNB corpus not present")
+    g = WikiGraph(load_corpus(corpus))
+    deps = {d["ref"] for d in g.neighbors(
+        "openwiki/systems/cbo-wire-center.md", relation="depends_on", direction="out")}
+    assert "openwiki/systems/prism-payments-hub.md" in deps
+    assert "openwiki/systems/commercial-entitlements-service.md" in deps
+    assert "openwiki/systems/enterprise-notification-service.md" in deps
+    # and PPH's own derived dependencies include the payment-network connectors
+    pph_deps = {d["ref"] for d in g.neighbors(
+        "openwiki/systems/prism-payments-hub.md", relation="depends_on", direction="out")}
+    assert "openwiki/systems/fedwire-funds-connector.md" in pph_deps
+
+
 def test_graph_find_status_filter(graph_pages):
     g = WikiGraph(graph_pages)
     proposed = g.find(type="Interface", status="proposed")

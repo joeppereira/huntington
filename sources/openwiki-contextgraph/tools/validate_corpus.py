@@ -81,6 +81,7 @@ RELATION_RULES: dict[str, tuple[set | None, set | None]] = {
     "governed_by": ({"Concept", "Interface", "Dataset", "Project"}, {"Policy"}),
     "relates_to": ({"Incident", "Project", "Document", "Person"}, None),
     "described_by": ({"System", "Interface", "Policy"}, {"Document"}),
+    "depends_on": ({"System", "Interface"}, {"System", "Interface"}),
 }
 STATUS_ENUM = {"live", "deprecated", "proposed", "closed", "absent"}
 REF_PREFIX = "openwiki/"

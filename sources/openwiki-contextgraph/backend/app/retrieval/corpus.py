@@ -26,6 +26,7 @@ NAV_STEMS = {"index", "overview", "quickstart", "timeline", "INSTRUCTIONS"}
 RELATION_FIELDS = (
     "owned_by", "owner", "part_of", "governed_by",
     "relates_to", "described_by", "supersedes", "superseded_by",
+    "depends_on",
 )
 STATUS_ENUM = {"live", "deprecated", "proposed", "closed", "absent"}
 _FRONT = re.compile(r"\A---\n(.*?)\n---\n?", re.S)
@@ -63,6 +64,7 @@ class Page:
     described_by: list[str] = field(default_factory=list)
     supersedes: list[str] = field(default_factory=list)
     superseded_by: list[str] = field(default_factory=list)
+    depends_on: list[str] = field(default_factory=list)
 
 
 def _as_list(v) -> list[str]:

@@ -56,8 +56,14 @@ def toolkit(tmp_path_factory) -> SemanticToolkit:
     ))
     _write(wiki / "systems" / "hub.md", (
         "---\ntype: System\nentity_id: SYS-HUB\ntitle: Payments Hub\n"
-        "description: The payments hub system of record.\nstatus: live\n---\n\n"
-        "## Overview\n\nThe hub processes wires and exposes the status APIs.\n"
+        "description: The payments hub system of record.\nstatus: live\n"
+        "depends_on: [openwiki/systems/connector.md]\n---\n\n"
+        "## Overview\n\nThe hub processes wires, exposes the status APIs, and routes to the connector.\n"
+    ))
+    _write(wiki / "systems" / "connector.md", (
+        "---\ntype: System\nentity_id: SYS-CONN\ntitle: Network Connector\n"
+        "description: The network egress connector.\nstatus: live\n---\n\n"
+        "## Overview\n\nSends wires to the network and publishes acknowledgments.\n"
     ))
     _write(wiki / "teams" / "core.md", (
         "---\ntype: Team\nentity_id: TEAM-CORE\ntitle: Core Payments Engineering\n"
@@ -154,6 +160,24 @@ async def test_graph_neighbors_relation_type_direction(toolkit: SemanticToolkit)
         "openwiki/interfaces/old-api.md", "openwiki/interfaces/new-api.md"}
 
     assert (await toolkit.graph_neighbors("openwiki/nope.md")).startswith("Error: unknown page ref")
+
+
+async def test_graph_neighbors_depends_on_returns_typed_hits(toolkit: SemanticToolkit):
+    """depends_on dependency routing (Q1/Q5): graph_neighbors(relation="depends_on")
+    returns the dependency set as typed System hits, both directions."""
+    out = json.loads(await toolkit.graph_neighbors(
+        "openwiki/systems/hub.md", relation="depends_on", direction="out"))
+    assert [h["ref"] for h in out["hits"]] == ["openwiki/systems/connector.md"]
+    h = out["hits"][0]
+    assert h["type"] == "System" and h["entity_ids"] == ["SYS-CONN"]
+    assert set(h) == {"ref", "type", "title", "entity_ids", "status", "tags"}
+    # in-direction answers "what depends on the connector"
+    rev = json.loads(await toolkit.graph_neighbors(
+        "openwiki/systems/connector.md", relation="depends_on", direction="in"))
+    assert [h["ref"] for h in rev["hits"]] == ["openwiki/systems/hub.md"]
+    # depends_on is advertised on the graph_neighbors tool's relation list
+    tools = {t.name: t for t in toolkit.as_langchain_tools()}
+    assert "depends_on" in tools["graph_neighbors"].description
 
 
 # -- LangChain tool surface and agent wiring ------------------------------------

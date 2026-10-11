@@ -33,10 +33,10 @@ DEFAULT_GT = REPO.parent / "demo-docs/Wire_Tracking_Demo_Kit/estate_ground_truth
 MANAGED_KEYS = [
     "owned_by", "owner", "part_of", "status", "status_note",
     "supersedes", "superseded_by", "governed_by", "relates_to",
-    "described_by", "aliases",
+    "described_by", "depends_on", "aliases",
 ]
 LIST_KEYS = {"supersedes", "superseded_by", "governed_by", "relates_to",
-             "described_by", "aliases", "owned_by"}
+             "described_by", "depends_on", "aliases", "owned_by"}
 
 HONORIFICS = {"dr", "mr", "mrs", "ms", "prof"}
 ID_TOKEN_RE = re.compile(
@@ -84,6 +84,34 @@ GOVERNED_BY = {
     "openwiki/interfaces/hms-hold-api.md":
         ["openwiki/policies/pol-fcc-014.md"],
 }
+
+# Curated system->system dependency statements the source docs state plainly for the
+# payment-network systems (schema-relations.md `depends_on`). Each edge is written only
+# when the depending page's own prose corroborates it (the target system's core name
+# tokens, slug, acronym or entity id appear on the page) — same discipline as SUPERSEDES.
+#   PPH overview (PPH-SYS-OVW-9.2 s1): "coordinates screening and holds with ... Hold
+#     Management Service (HMS), performs funds control against the Core Deposit Platform
+#     (CDP), and routes accepted payments to ... Fedwire Funds Connector or Swift
+#     Alliance/gpi Connector".
+#   TDIP catalog (TDIP-CAT-2026.2): pay_wire_txn_hist source = PPH (CDC); gpi_tracker_events
+#     source = GPI_TRACKER_SNAPSHOT (GPI-C). (fed_ack_events is NOT INGESTED -> no FFC edge.)
+DEPENDS_ON_PROSE = {
+    "openwiki/systems/prism-payments-hub.md": [
+        "openwiki/systems/core-deposit-platform.md",
+        "openwiki/systems/fedwire-funds-connector.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/systems/hold-management-service.md",
+    ],
+    "openwiki/systems/treasury-data-insights-platform.md": [
+        "openwiki/systems/prism-payments-hub.md",
+        "openwiki/systems/swift-gpi-connector.md",
+    ],
+}
+
+# Interface id grammar as it appears inside "Integration inventory" table cells, e.g.
+# "GET /pph/v1/wires/{ref}/status (EP-PPH-01)". Consumed endpoints/events/batch feeds.
+INVENTORY_ID_RE = re.compile(r"\b((?:EP|EV|BT)-[A-Z0-9]+-[A-Z0-9]+)\b")
+GENERIC_NAME_TOKENS = {"the", "a", "of", "and", "service", "platform", "system", "api"}
 
 # Curated vocab-gap alias table (schema-relations.md).
 GPI_ALIASES = ["banks passed through", "route", "intermediary banks",
@@ -338,6 +366,12 @@ def main() -> int:
         p = by_ref[ref]
         systems = {i["system"] for i in itfs}
         if len(systems) != 1:
+            # A cross-system page whose interfaces all "do not exist" is a proposed-
+            # interfaces registry, not a real interface of one system: skip part_of/
+            # owned_by (its own front matter already carries status: absent).
+            if all("does not exist" in i["status"].lower() for i in itfs):
+                skips.append(f"{p.rel}: cross-system proposed-interfaces registry; part_of skipped")
+                continue
             errors.append(f"{p.rel}: entity_ids span multiple GT systems: {sorted(systems)}")
             continue
         sysid = systems.pop()
@@ -446,6 +480,102 @@ def main() -> int:
                 skips.append(f"{p.rel}: source {fname} matches {len(hits)} document pages; skipped")
             else:
                 errors.append(f"{p.rel}: source {fname} matches no documents/ page")
+
+    # --- depends_on: system->system edges (docs/schema-relations.md) ---
+    # (a) interface id -> owning system ref (ground truth interfaces[].system).
+    iface_sys_ref: dict[str, str] = {}
+    for itf in gt.get("interfaces", []):
+        sp = resolve_id(itf["system"])
+        if sp is not None:
+            iface_sys_ref[itf["id"]] = sp.ref
+
+    # (b) a consumer-component string -> its system page ref. A component (e.g.
+    # "cbo-wire-bff") resolves via the interface page whose slug is that component,
+    # taking its part_of; falling back to a system page that name-matches. Only an
+    # unambiguous single system counts.
+    iface_pages_all = [p for p in pages if p.type == "Interface"]
+    system_pages = [p for p in pages if p.type == "System"]
+
+    def part_of_ref(p: Page) -> str | None:
+        v = p.additions.get("part_of") or p.fm.get("part_of")
+        return v if isinstance(v, str) else None
+
+    def resolve_consumer(component: str) -> str | None:
+        slug = "-".join(_tokens(component))
+        if not slug:
+            return None
+        sysrefs = set()
+        for ip in iface_pages_all:
+            stem = ip.path.stem
+            if stem == slug or stem == f"{slug}-api" or stem.startswith(f"{slug}-"):
+                r = part_of_ref(ip)
+                if r:
+                    sysrefs.add(r)
+        if not sysrefs:
+            for sp in system_pages:
+                if name_matches(sp.path.stem, component) or any(
+                    name_matches(e, component) for e in sp.entity_ids
+                ):
+                    sysrefs.add(sp.ref)
+        return next(iter(sysrefs)) if len(sysrefs) == 1 else None
+
+    derived: dict[str, set] = {}  # consumer system ref -> set of depended system refs
+
+    def add_dep(consumer_ref: str, target_ref: str) -> None:
+        if consumer_ref and target_ref and consumer_ref != target_ref \
+                and consumer_ref in by_ref and target_ref in by_ref:
+            derived.setdefault(consumer_ref, set()).add(target_ref)
+
+    # (c) parse source "Integration inventory"-style tables: a consumer component in
+    # column 0 and the interface id(s) it consumes (EP-/EV-/BT- in parentheses).
+    sources_dir = wiki.parent / "sources"
+    for src in sorted(sources_dir.rglob("*.md")) if sources_dir.is_dir() else []:
+        for line in src.read_text(encoding="utf-8", errors="ignore").splitlines():
+            if not line.lstrip().startswith("|") or set(line.strip()) <= set("|-: "):
+                continue
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if not cells:
+                continue
+            consumer = re.sub(r"[*`<][^>]*>?|[*`]", "", cells[0]).strip()
+            ids = INVENTORY_ID_RE.findall(line)
+            if not consumer or not ids:
+                continue
+            consumer_ref = resolve_consumer(consumer)
+            if consumer_ref is None:
+                continue
+            for iid in ids:
+                tgt = iface_sys_ref.get(iid)
+                if tgt:
+                    add_dep(consumer_ref, tgt)
+
+    # (d) curated, prose-corroborated payment-network dependency statements.
+    for consumer_ref, targets in DEPENDS_ON_PROSE.items():
+        cp = by_ref.get(consumer_ref)
+        if cp is None:
+            errors.append(f"depends_on source page missing: {consumer_ref}")
+            continue
+        hay = set(_tokens(cp.body + cp.fm_text))
+        for tgt in targets:
+            tp = by_ref.get(tgt)
+            if tp is None:
+                errors.append(f"depends_on target missing: {tgt}")
+                continue
+            core = re.sub(r"\([^)]*\)", "", tp.title)
+            name_toks = set(_tokens(core)) - GENERIC_NAME_TOKENS
+            corroborated = (
+                (name_toks and name_toks <= hay)
+                or tp.path.stem in cp.body
+                or any(e.lower() in cp.body.lower() for e in tp.entity_ids)
+            )
+            if corroborated:
+                add_dep(consumer_ref, tgt)
+            else:
+                skips.append(f"{cp.rel}: depends_on {tp.rel} skipped (no corroborating prose)")
+
+    for consumer_ref, targets in sorted(derived.items()):
+        by_ref[consumer_ref].add("depends_on", sorted(targets))
+        names = ", ".join(Path(t).stem for t in sorted(targets))
+        print(f"  depends_on {Path(consumer_ref).stem}: {names}", file=sys.stderr)
 
     # --- aliases: GT team/people names that differ from page titles ---
     for t in gt.get("teams", []):

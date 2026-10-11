@@ -13,6 +13,7 @@ sources:
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
 owned_by: [openwiki/teams/treasury-data-analytics.md]
 described_by: [openwiki/documents/tdip-cat-2026.2.md]
+depends_on: [openwiki/systems/prism-payments-hub.md, openwiki/systems/swift-gpi-connector.md]
 ---
 
 ## Overview

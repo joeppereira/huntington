@@ -15,6 +15,7 @@ sources:
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
 owned_by: [openwiki/teams/payments-hub-engineering.md]
 described_by: [openwiki/documents/pph-api-cat-2026.3.md, openwiki/documents/pph-sys-ovw-9.2.md]
+depends_on: [openwiki/systems/core-deposit-platform.md, openwiki/systems/fedwire-funds-connector.md, openwiki/systems/hold-management-service.md, openwiki/systems/swift-gpi-connector.md]
 ---
 
 ## Overview
