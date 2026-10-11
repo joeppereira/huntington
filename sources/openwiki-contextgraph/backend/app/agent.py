@@ -80,8 +80,16 @@ class AgentAnswer(BaseModel):
 
 
 class SubmitAnswerArgs(AgentAnswer):
-    """Lenient input for submit_answer: extra follow-ups are trimmed instead of failing the submission."""
+    """Lenient boundary schema for submit_answer and for structured extraction.
 
+    Only `answer` is truly required. The model (esp. the Vertex structured-output path, which
+    can't use Anthropic json_schema mode) intermittently omits sources/reasoning_summary on long
+    answers; defaulting those here means a correct answer is kept and its citations backfilled from
+    the pages actually read, instead of the whole answer being thrown away on a validation error."""
+
+    sources: list[SourceCitation] = Field(default_factory=list)
+    reasoning_summary: str = ""
+    confidence: Literal["high", "medium", "low"] = "medium"
     follow_up_questions: list[str] = Field(default_factory=list, description="0-3 useful follow-up questions")
 
 
@@ -131,7 +139,8 @@ def submit_answer_tool() -> BaseTool:
 
     async def submit_answer(**fields: Any) -> str:
         follow_ups = list(fields.get("follow_up_questions") or [])[:MAX_FOLLOW_UPS]
-        return AgentAnswer(**{**fields, "follow_up_questions": follow_ups}).model_dump_json()
+        args = SubmitAnswerArgs(**{**fields, "follow_up_questions": follow_ups})
+        return AgentAnswer(**args.model_dump()).model_dump_json()
 
     return StructuredTool.from_function(
         coroutine=submit_answer,
@@ -140,6 +149,20 @@ def submit_answer_tool() -> BaseTool:
         args_schema=SubmitAnswerArgs,
         return_direct=True,
     )
+
+
+def _backfill_sources(answer: AgentAnswer, refs: Sequence[str]) -> AgentAnswer:
+    """When the model omitted citations but did read pages, cite those pages rather than ship an
+    answer with an empty evidence list (the grounding contract wants evidence)."""
+    if answer.sources or not refs:
+        return answer
+    seen: list[str] = []
+    for r in refs:
+        base = r.split("#")[0]
+        if base not in seen:
+            seen.append(base)
+    cites = [SourceCitation(ref=r, why="read while answering (citation backfilled)") for r in seen]
+    return answer.model_copy(update={"sources": cites})
 
 
 def answer_from_messages(messages: Sequence[BaseMessage]) -> AgentAnswer | None:
@@ -174,24 +197,30 @@ class QAAgent:
         if model is None and not api_key:
             raise ValueError("ANTHROPIC_API_KEY is not configured")
         self.model_id = model_id
+        # Extract into the lenient boundary schema (only `answer` required); _extract normalizes
+        # to AgentAnswer and backfills citations. A dropped `sources` field no longer discards a
+        # correct answer — the failure mode seen on the Vertex path for long multi-fact answers.
         if model is None:
             model = ChatAnthropic(model=model_id, api_key=api_key, max_tokens=4096, timeout=120, max_retries=2)
             # Fallback when the model answers in plain text: native JSON-schema output (no forced tool_choice).
-            self._extractor = model.with_structured_output(AgentAnswer, method="json_schema")
+            self._extractor = model.with_structured_output(SubmitAnswerArgs, method="json_schema")
         else:
             # Injected model (e.g. ChatAnthropicVertex): json_schema mode is Anthropic-API-only,
             # so use the default tool-calling structured output.
-            self._extractor = model.with_structured_output(AgentAnswer)
+            self._extractor = model.with_structured_output(SubmitAnswerArgs)
         self._graph = create_agent(model, [*tools, submit_answer_tool()], system_prompt=SYSTEM_PROMPT)
 
     async def _extract(self, question: str, text: str, refs: Sequence[str], recorder: TraceRecorder) -> AgentAnswer:
         if not text:
             raise RuntimeError("agent finished without an answer")
         prompt = EXTRACTION_PROMPT.format(question=question, answer=text, refs=", ".join(refs) or "(none)")
-        answer = await self._extractor.ainvoke(prompt, config={"callbacks": [recorder]})
-        if not isinstance(answer, AgentAnswer):
+        extracted = await self._extractor.ainvoke(prompt, config={"callbacks": [recorder]})
+        # SubmitAnswerArgs (the lenient extraction schema) is an AgentAnswer subclass, so this
+        # accepts both it and a plain AgentAnswer; model_dump round-trips either into the strict type.
+        if not isinstance(extracted, AgentAnswer):
             raise RuntimeError("could not structure the agent's answer")
-        return answer
+        answer = AgentAnswer(**extracted.model_dump())
+        return _backfill_sources(answer, refs)
 
     async def ask(self, question: str, history: tuple[Turn, ...]) -> AgentResult:
         recorder = TraceRecorder()
@@ -202,11 +231,13 @@ class QAAgent:
             state = await self._graph.ainvoke({"messages": messages}, config=config)
         except GraphRecursionError as err:
             raise RuntimeError(f"agent did not finish within {RECURSION_LIMIT} steps") from err
+        refs = [*recorder.semantic_pages_read(), *recorder.context_pages_read()]
         answer = answer_from_messages(state["messages"])
         if answer is None:
-            refs = [*recorder.semantic_pages_read(), *recorder.context_pages_read()]
             text = final_text(state["messages"]) or attempted_answer_text(state["messages"])
             answer = await self._extract(question, text, refs, recorder)
+        else:
+            answer = _backfill_sources(answer, refs)
         input_tokens, output_tokens = recorder.token_usage()
         return AgentResult(
             answer=answer,
