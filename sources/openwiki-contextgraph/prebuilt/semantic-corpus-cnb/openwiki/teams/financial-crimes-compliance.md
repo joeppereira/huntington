@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: financial-crimes-compliance
+entity_id: [TEAM-FCC, financial-crimes-compliance]
 title: Financial Crimes Compliance (FCC)
 description: Second-line partner function (accountable leader Catherine Doyle, EVP Chief BSA/AML Officer) that owns POL-FCC-014, the enterprise standard controlling client-facing payment status/hold/exception communication, and whose Policy & Advisory review (Jordan Ellis) is a mandatory pre-build gate for any Payments & Treasury Technology engineering change in that space.
 tags: [financial-crimes-compliance, fcc, second-line, partner-function, catherine-doyle, jordan-ellis, pol-fcc-014, disclosure-tiers, ptt, governance, hold-management-service, fct]

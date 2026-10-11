@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: laura-kim
+entity_id: [P-LKIM, laura-kim]
 title: Laura Kim
 description: Director, Payments Platform Product at Crestline National Bank; Product Owner of PRISM Payments Hub, Business Data Owner for payment datasets, and business sponsor of the Swift gpi tracking roadmap.
 tags: [people, payments, product-owner, data-owner, prism-payments-hub, ptt, gpi]

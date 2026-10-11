@@ -1,6 +1,6 @@
 ---
 type: Policy
-entity_id: POL-FCC-014
+entity_id: [POL-FCC-014, CTRL-PAY-040, CTRL-PAY-012, CTRL-PAY-018, CTRL-PAY-031, COPY-HOLD-CB-01, COPY-HOLD-DUP-01, COPY-HOLD-FUND-01, COPY-HOLD-GEN-01, COPY-HOLD-LIM-01, COPY-HOLD-RPR-01, COPY-STAT-WH-01]
 title: "POL-FCC-014: Customer Communication of Payment Status, Holds & Exceptions Standard"
 description: Controlling enterprise policy for everything Crestline National Bank may ever show a client about wire payment status, holds and exceptions — disclosure tiers, status terminology gates, third-party sharing limits, predictive-statement conditions, and the prohibited-terms list.
 tags: [pol-fcc-014, policy, financial-crimes-compliance, disclosure-tiers, hold-communication, sanctions, aml, sar-confidentiality, status-terminology, customer-communication]
@@ -11,6 +11,7 @@ sources:
   - id: openwiki-source-1601c697250670250350a70c
     resource: repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+described_by: [openwiki/documents/pol-fcc-014.md]
 ---
 
 ## Why this policy exists

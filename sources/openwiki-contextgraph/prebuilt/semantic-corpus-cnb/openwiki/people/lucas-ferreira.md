@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: lucas-ferreira
+entity_id: [P-LFERR, lucas-ferreira]
 title: Lucas Ferreira
 description: Tech Lead for the CBO Wire Center squad at Crestline National Bank; document owner of the Wire Center current-state architecture (CBO-ARCH-WC-4.1) and assignee of the international wire status visibility (gpi) discovery spike CBO-4480.
 tags: [people, tech-lead, cbo, wire-center, digital-treasury-channels, architecture-document, gpi, payments-treasury-technology]

@@ -1,8 +1,12 @@
-"""OpenWiki retrieval for the agent: one stdio MCP session plus four root-bound LangChain tools.
+"""OpenWiki MCP client: one stdio session plus root-bound LangChain tools.
 
-The model only ever sees `semantic_*` / `memory_*` tools; each wraps OpenWiki's `openwiki_search` or
-`openwiki_read` with the absolute wiki root filled in (BUILD_SPEC 8.4), so it is still "only OpenWiki
-search/read" and the model never handles Windows paths.
+Each tool wraps OpenWiki's `openwiki_search` or `openwiki_read` with the absolute wiki root filled
+in (BUILD_SPEC 8.4), so the model never handles Windows paths.
+
+Ratchet R7 (serve-path switchover): the agent's SEMANTIC query path no longer goes through MCP —
+`semantic_search`/`semantic_read` here are deprecated and kept for build-time/debugging only; the
+in-process replacements live in app/semantic_tools.py. The MCP session remains in use for the
+MEMORY (context) wiki tools and build-time operations.
 """
 
 import asyncio
@@ -134,9 +138,12 @@ class OpenWikiTools:
             return f"Error: {err}"
 
     async def semantic_search(self, query: str, limit: int = 8) -> str:
+        """Deprecated (ratchet R7): the agent's semantic query path is served in-process by
+        app.semantic_tools.SemanticToolkit. Kept for build-time/debugging only."""
         return await self._call("openwiki_search", {"root": str(self._semantic_root), "query": query, "limit": limit})
 
     async def semantic_read(self, page: str, sections: list[str]) -> str:
+        """Deprecated (ratchet R7): see semantic_search above."""
         return await self._call("openwiki_read", {"root": str(self._semantic_root), "page": page, "sections": sections})
 
     async def memory_search(self, query: str, limit: int = 5) -> str:
@@ -149,7 +156,13 @@ class OpenWikiTools:
             return json.dumps(MEMORY_NOT_BUILT)
         return await self._call("openwiki_read", {"root": str(self._context_root), "page": page, "sections": sections})
 
+    def as_memory_langchain_tools(self) -> list[BaseTool]:
+        """The memory-wiki tools only: what the agent still gets from MCP after ratchet R7."""
+        return [t for t in self.as_langchain_tools() if t.name.startswith("memory_")]
+
     def as_langchain_tools(self) -> list[BaseTool]:
+        """All four tools. The semantic pair is deprecated for the agent's query path (R7):
+        wire as_memory_langchain_tools() plus app.semantic_tools into the agent instead."""
         return [
             StructuredTool.from_function(
                 coroutine=self.semantic_search,

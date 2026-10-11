@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: grace-mensah
+entity_id: [P-GMENS, grace-mensah]
 title: Grace Mensah
 description: Engineering Manager on the Financial Crimes Technology (FCT) PRSP team at Crestline National Bank; technical owner of the Hold Management Service and related PRSP fraud/sanctions systems, and lead of the FCT-1951 duplicate-suspect attestation pilot.
 tags: [people, engineering-manager, financial-crimes-technology, fct-prsp, hold-management-service, system-ownership]

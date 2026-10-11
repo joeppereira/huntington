@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: patricia-moore
+entity_id: [P-PMOORE, patricia-moore]
 title: Patricia Moore
 description: Chair of the Disclosure Review Committee (DRC), approving client-facing copy, disclaimers, and notification templates on a bi-weekly cadence for Payments & Treasury Technology (PTT) initiatives.
 tags: [governance, legal, disclosure-review-committee, client-communications, payments-treasury-technology, compliance]

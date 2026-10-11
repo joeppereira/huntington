@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: nikhil-bose
+entity_id: [P-NBOSE, nikhil-bose]
 title: Nikhil Bose
 description: Chief Architect, Payments & Treasury at Crestline National Bank; chairs the Payments Architecture Review Board (ARB) and approves cross-cutting payments and payment-network architecture documents.
 tags: [people, payments, enterprise-architecture, chief-architect, payments-arb, governance, crestline-national-bank, ptt]

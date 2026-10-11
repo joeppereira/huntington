@@ -11,6 +11,9 @@ sources:
   - id: openwiki-source-550c0e3f038aab7950cab477
     resource: repo://sources/estate/cbo-arch-wc-4.1-wire-center-current-state-architecture.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/cbo-wire-center-squad.md]
+described_by: [openwiki/documents/cbo-arch-wc-4.1.md]
+aliases: [crestline business online]
 ---
 
 ## Overview

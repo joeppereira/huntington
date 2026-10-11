@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: mark-sullivan
+entity_id: [P-MSULL, mark-sullivan]
 title: Mark Sullivan
 description: Accountable leader of the Deposits Data Ownership partner function at Crestline National Bank; business owner of the Core Deposit Platform (SYS-CDP) and data owner of the dda_txn_history dataset, the sole Restricted - Client Confidential dataset in the TDIP payments-domain catalog.
 tags: [person, data-owner, deposits-data-ownership, core-deposit-platform, dda-txn-history, restricted-data, partner-function, dus-07]

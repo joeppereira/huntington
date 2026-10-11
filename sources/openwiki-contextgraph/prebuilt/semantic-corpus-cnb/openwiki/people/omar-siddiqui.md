@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: omar-siddiqui
+entity_id: [P-OSIDD, omar-siddiqui]
 title: Omar Siddiqui
 description: Engineering Manager on Global Transaction Services Integration (GTSI), accountable since 2026-10-01 for the Swift Alliance/gpi Connector, gpi Tracker integration, and all new intake for gpi data, Swift Tracker usage, and international wire status requests.
 tags: [person, engineering-manager, gtsi, gpi, swift, cross-border-payments, knowledge-transfer]

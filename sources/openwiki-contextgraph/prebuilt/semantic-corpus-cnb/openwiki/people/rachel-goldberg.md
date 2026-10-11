@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: rachel-goldberg
+entity_id: [P-RGOLD, rachel-goldberg]
 title: Rachel Goldberg
 description: Chief Privacy Officer at Crestline National Bank and document owner of the DUS-07 Data Use & Client Confidentiality Standard, accountable for purpose limitation and cross-client confidentiality governance over client data.
 tags: [people, privacy-office, data-governance, chief-privacy-officer, dus-07, compliance]

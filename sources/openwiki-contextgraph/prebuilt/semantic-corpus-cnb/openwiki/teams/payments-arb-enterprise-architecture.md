@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: payments-arb-enterprise-architecture
+entity_id: [TEAM-EA, payments-arb-enterprise-architecture]
 title: Payments Architecture Review Board (ARB) / Enterprise Architecture
 description: Crestline National Bank's cross-cutting architecture governance forum for channel, payments, and data teams — chaired by Nikhil Bose with secretariat Jenna Ross — that approves binding Payments ADRs and is required for any new client-facing integration to payment systems.
 tags: [payments-arb, enterprise-architecture, governance, adr, payments, crestline-national-bank, chief-architect, arb-secretariat]

@@ -1,0 +1,116 @@
+{
+  "default_arm": "fused",
+  "floors": {
+    "ref_hit@1": 0.7424,
+    "ref_hit@5": 0.9545,
+    "ref_hit@10": 0.9848,
+    "id_coverage@10": 0.6874
+  },
+  "history": [
+    {
+      "date": "2026-10-10",
+      "arm": "enriched",
+      "raised": {
+        "ref_hit@1": 0.5,
+        "ref_hit@5": 0.8214,
+        "ref_hit@10": 0.9286,
+        "id_coverage@10": 0.4633
+      },
+      "note": "initial floors, enriched arm"
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "fused",
+      "raised": {
+        "ref_hit@1": 0.5357,
+        "ref_hit@5": 0.8571,
+        "ref_hit@10": 0.9107,
+        "id_coverage@10": 0.4369
+      },
+      "note": "DELIBERATE RE-BASELINE: default arm switched enriched->fused (equal-weight RRF of whole-page + enriched). Fused wins @5 (.857 vs .821) and @1 (.536 vs .500) at the cost of @10 (.911 vs .929) and id_cov (.437 vs .463). Weight sweep showed no dominating config; deltas are 1-2 items on n=56 (noise) so equal weights kept, no tuning. User-reviewed decision, not a silent regression."
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "enriched",
+      "raised": {
+        "id_coverage@10": 0.5052
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "fused",
+      "raised": {
+        "ref_hit@1": 0.6071,
+        "ref_hit@5": 0.8571,
+        "ref_hit@10": 0.9107,
+        "id_coverage@10": 0.4848
+      },
+      "note": "Gap-fix round: typed-relation frontmatter + aliases + new pages (corpus) and alias exact tier, title promotion, doc demotion, gated second pass (retrieval). @1 .5357->.6071, id_cov .4369->.4848; @5/@10 held. Corrects an accidental cross-arm floor update from enriched.json (id_cov .5052 is an enriched-arm observation, not a fused floor). Routed arm measured NEGATIVE both as pre-emptor (@5 .768) and as RRF voice (@1 .554) -> router ships as agent tool (R7), not pre-retrieval; rules not tuned further to avoid fitting n=56."
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "fused",
+      "raised": {
+        "ref_hit@1": 0.625,
+        "ref_hit@5": 0.8929,
+        "ref_hit@10": 0.9286
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "fused",
+      "raised": {
+        "id_coverage@10": 0.6656
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "fused",
+      "raised": {
+        "ref_hit@1": 0.6429,
+        "id_coverage@10": 0.6747
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "fused",
+      "raised": {
+        "id_coverage@10": 0.6793
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "fused",
+      "raised": {
+        "ref_hit@1": 0.6964,
+        "ref_hit@5": 0.9464,
+        "ref_hit@10": 0.9643
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "arm": "fused",
+      "raised": {
+        "ref_hit@10": 0.9821
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "arm": "fused",
+      "raised": {
+        "ref_hit@1": 0.7273,
+        "ref_hit@5": 0.9545,
+        "ref_hit@10": 0.9848,
+        "id_coverage@10": 0.6874
+      },
+      "note": "DELIBERATE RE-BASELINE: golden set grew 56->66 positives (typo_id class added); floors re-baselined; prior floors @1 .6964 @5 .9464 @10 .9821 id_cov .6793 on n=56. All 10 typo_id items hit top-10 (9 of 10 at rank 1; G-069 at rank 2 by design, no-pin ambiguity case). Known defect logged, not tuned here: whole-token fuzzy tie detection is unreachable (band caps at best_d-1), so G-069 pinned GTSI-0107 instead of declining; retriever untouched per no-tuning rule."
+    },
+    {
+      "date": "2026-10-11",
+      "arm": "fused",
+      "raised": {
+        "ref_hit@1": 0.7424
+      }
+    }
+  ]
+}

@@ -11,6 +11,8 @@ sources:
   - id: openwiki-source-d637e82ba742e8a4b8f0c799
     resource: repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/enterprise-notification-platform.md]
+described_by: [openwiki/documents/ens-int-3.2.md]
 ---
 
 ## Overview

@@ -15,6 +15,8 @@ sources:
   - id: openwiki-source-4452149a3b4502b4c763a559
     resource: repo://sources/estate/jira-export-wt-discovery-2026-10-05.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/cbo-platform-entitlements.md]
+described_by: [openwiki/documents/arb-pay-reg-2026q3.md, openwiki/documents/cbo-arch-wc-4.1.md, openwiki/documents/jira-export-wt-discovery-2026-10-05.md]
 ---
 
 ## Overview

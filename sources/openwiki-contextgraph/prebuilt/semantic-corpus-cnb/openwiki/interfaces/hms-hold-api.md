@@ -1,6 +1,6 @@
 ---
 type: Interface
-entity_id: EP-HMS-01
+entity_id: [EP-HMS-01, EP-HMS-02, EV-HMS-01]
 title: "HMS Hold API & Hold Events"
 description: Internal-only API surface of the Hold Management Service (EP-HMS-01/02 and event topic EV-HMS-01 risk.hold.events.v1) — callable only by the Investigations Workbench and PPH's legacy description sync, with no client-facing hold interface in production and the client-safe facade proposal FCT-1893 deprioritized.
 tags: [hms, hold-management-service, prsp, hold-api, risk-hold-events, iwb, pph, fct-1893, financial-crimes, access-control, api-lifecycle]
@@ -13,6 +13,12 @@ sources:
   - id: openwiki-source-08ac07f04b390aa09d5edc51
     resource: repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/financial-crimes-technology.md]
+part_of: openwiki/systems/hold-management-service.md
+status: live
+status_note: 'internal, Restricted; internal; Restricted'
+governed_by: [openwiki/policies/pol-fcc-014.md]
+described_by: [openwiki/documents/jira-export-wt-discovery-2026-10-05.md, openwiki/documents/prsp-hms-3.4.md]
 ---
 
 ## Overview

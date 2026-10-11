@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: elena-vasquez
+entity_id: [P-EVASQ, elena-vasquez]
 title: Elena Vasquez
 description: Director, Global Transaction Services Integration (GTSI) at Crestline National Bank; accountable leader for the Swift Alliance/gpi Connector, gpi Tracker integration, and the international wire tracking roadmap including the gpi Tracker Real-Time Service initiative (GTSI-0107).
 tags: [people, gtsi, global-transaction-services-integration, director, swift, gpi, cross-border, payments-treasury-technology, engineering-leadership]

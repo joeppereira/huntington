@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: arjun-mehta
+entity_id: [P-AMEHT, arjun-mehta]
 title: Arjun Mehta
 description: Tech Lead for the SPS and CES systems on the CBO Platform & Entitlements team; built the ACH Status Projection Service consumer (CBO-3815) and is the recognized source for extending status projection to wires.
 tags: [people, tech-lead, cbo-platform, sps, ces, status-projection, entitlements, payments]

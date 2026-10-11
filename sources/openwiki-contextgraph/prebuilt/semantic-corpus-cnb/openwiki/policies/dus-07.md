@@ -11,6 +11,7 @@ sources:
   - id: openwiki-source-6fa6253c97994be177c92ec3
     resource: repo://sources/estate/dus-07-v2.1-data-use-and-client-confidentiality-standard.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+described_by: [openwiki/documents/dus-07.md]
 ---
 
 ## Overview

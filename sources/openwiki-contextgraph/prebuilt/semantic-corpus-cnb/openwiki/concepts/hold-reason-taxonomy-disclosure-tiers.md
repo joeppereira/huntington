@@ -1,6 +1,6 @@
 ---
 type: Concept
-entity_id: hold-reason-taxonomy-disclosure-tiers
+entity_id: [hold-reason-taxonomy-disclosure-tiers, HRC-01, HRC-02, HRC-03, HRC-04, HRC-05, HRC-06, HRC-07, HRC-08, HRC-09, HRC-10, HRC-11, HRC-12]
 title: "Hold Reason Taxonomy (HRC) and Disclosure Tiers"
 description: "The 12 HRC hold-reason codes used by the Hold Management Service, their P/C/G/R client-disclosure tiers, and the POL-FCC-014 rules an agent must check any held-wire customer-communication design against before it ships."
 tags: [hold-management-service, hold-reason-codes, disclosure-tiers, pol-fcc-014, prsp-hms, customer-communication, financial-crimes, restricted]
@@ -13,6 +13,7 @@ sources:
   - id: openwiki-source-08ac07f04b390aa09d5edc51
     resource: repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+governed_by: [openwiki/policies/pol-fcc-014.md]
 ---
 
 ## Overview

@@ -23,6 +23,8 @@ sources:
   - id: openwiki-source-a4ee8b1dfcb7e3cec0a315e4
     resource: repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owner: openwiki/people/marcus-chen.md
+status: closed
 ---
 
 ## Overview

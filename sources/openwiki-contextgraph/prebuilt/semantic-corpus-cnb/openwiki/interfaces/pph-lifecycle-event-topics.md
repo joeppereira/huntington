@@ -1,6 +1,6 @@
 ---
 type: Interface
-entity_id: EP-PPH-06
+entity_id: [EV-PPH-01, EV-PPH-02]
 title: PPH Kafka Lifecycle Event Topics
 description: "EV-PPH-01 pay.wire.lifecycle.v2 and EV-PPH-02 pay.ach.lifecycle.v1: PRISM Payments Hub's Kafka payment-lifecycle topics, their Avro payload, 7-day retention, Jira-based consumer ACL onboarding, and what is (ISO return reasons since 2026-08) and is not (hold reasons) published."
 tags: [pph, kafka, confluent, pay.wire.lifecycle.v2, pay.ach.lifecycle.v1, event-driven, payments, adr-pay-017, adr-pay-019, adr-pay-021, status-projection]
@@ -15,6 +15,10 @@ sources:
   - id: openwiki-source-19beabaf3acaad354d39ee1e
     resource: repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/payments-hub-engineering.md]
+part_of: openwiki/systems/prism-payments-hub.md
+status: live
+described_by: [openwiki/documents/arb-pay-reg-2026q3.md, openwiki/documents/pph-api-cat-2026.3.md, openwiki/documents/pph-sys-ovw-9.2.md]
 ---
 
 ## Overview

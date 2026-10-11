@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: sunita-rao
+entity_id: [P-SRAO, sunita-rao]
 title: Sunita Rao
 description: Principal Engineer on Payments Hub Engineering at Crestline National Bank; co-technical owner of PRISM Payments Hub (SYS-PPH), designer of the PPH v1 and v2 payments APIs, and document owner of PPH-API-CAT-2026.3.
 tags: [people, principal-engineer, payments-hub-engineering, pph, prism-payments-hub, pph-api-cat-2026.3, api-design, system-ownership]

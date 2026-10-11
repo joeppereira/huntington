@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: ethan-brooks
+entity_id: [P-EBROOK, ethan-brooks]
 title: Ethan Brooks
 description: Data Governance Lead for the Commercial Bank within Crestline National Bank's Privacy Office; approver of the TDIP payments-domain data catalog (TDIP-CAT-2026.2), named standard contact for the DUS-07 Data Use & Client Confidentiality Standard, and the escalation point for data-governance and client-data policy-interpretation questions raised by Payments & Treasury Technology engineering teams.
 tags: [person, data-governance, privacy-office, commercial-bank, tdip, dus-07, approver, escalation-contact]

@@ -1,6 +1,6 @@
 ---
 type: System
-entity_id: SYS-TDIP
+entity_id: [SYS-TDIP, TRS-0142, EUA-TRS-0007]
 title: Treasury Data & Insights Platform (TDIP)
 description: Crestline National Bank's Snowflake/dbt/Feast/SageMaker analytics platform for the Payments domain, which curates wire and deposit datasets, builds feature tables, and serves client-facing analytics exclusively through the Insights API; its wire-data freshness and ingestion gaps currently block any real-time or settlement-time wire-prediction feature.
 tags: [tdip, treasury-data-insights-platform, snowflake, dbt, feast, sagemaker, insights-api, payments-domain, data-catalog, data-governance, system]
@@ -11,6 +11,8 @@ sources:
   - id: openwiki-source-a8ab82acd285acae1ac9546d
     resource: repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/treasury-data-analytics.md]
+described_by: [openwiki/documents/tdip-cat-2026.2.md]
 ---
 
 ## Overview

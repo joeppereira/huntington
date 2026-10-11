@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: brian-walsh
+entity_id: [P-BWALSH, brian-walsh]
 title: Brian Walsh
 description: Engineering Manager, Fedwire within Payment Networks Engineering (PNE) at Crestline National Bank; technical co-owner of the Fedwire Funds Connector (SYS-PNG-FFC).
 tags: [people, payment-networks-engineering, fedwire, fedwire-funds-connector, engineering-manager, payments-treasury-technology]

@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: raymond-ortiz
+entity_id: [P-RORTIZ, raymond-ortiz]
 title: Raymond Ortiz
 description: Director of Payments Hub Engineering at Crestline National Bank; accountable technical leader for the PRISM Payments Hub (PPH) system and approver of its system overview and API/event catalog documentation.
 tags: [people, payments-hub-engineering, pph, payments-treasury-technology, director, system-owner, approver]

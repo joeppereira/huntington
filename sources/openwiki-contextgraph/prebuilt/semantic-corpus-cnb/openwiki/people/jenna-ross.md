@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: jenna-ross
+entity_id: [P-JROSS, jenna-ross]
 title: Jenna Ross
 description: ARB Secretariat for Crestline National Bank's Payments Architecture Review Board; document owner of record for the ARB-PAY-REG-2026Q3 ADR register and decision minutes.
 tags: [people, arb, arb-secretariat, payments-arb, enterprise-architecture, governance-document, crestline-national-bank]

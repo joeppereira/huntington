@@ -29,11 +29,15 @@ def test_reset_wipes_memory_and_starts_a_new_session(settings: Settings):
 
         assert re.fullmatch(r"\d{8}-\d{6}-[0-9a-f]{4}", body["session_id"]) and body["session_id"] != old
         assert body["memory"]["state"] == "idle" and body["memory"]["pending_turns"] == 0
-        assert not body["memory"]["initialized"]
+        # A reset restored from prebuilt/context-corpus-template keeps the init marker
+        # (next sync is an incremental --update); a bare recreate starts uninitialized.
+        template = settings.project_root / "prebuilt" / "context-corpus-template"
+        assert body["memory"]["initialized"] == template.is_dir()
         assert not (corpus / "sessions" / old).exists()
         assert (corpus / "openwiki" / "INSTRUCTIONS.md").exists()
         log = subprocess.run(["git", "log", "--format=%s"], cwd=corpus, capture_output=True, text=True, check=True)
-        assert log.stdout.splitlines() == ["context corpus"]
+        expected = ["context corpus from template"] if template.is_dir() else ["context corpus"]
+        assert log.stdout.splitlines() == expected
 
         url = client.get("/api/config").json()["context_vis_url"]
         assert body["context_vis_url"] == url

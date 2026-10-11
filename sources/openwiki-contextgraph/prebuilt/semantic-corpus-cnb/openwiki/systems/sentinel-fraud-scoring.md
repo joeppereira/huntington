@@ -1,6 +1,6 @@
 ---
 type: System
-entity_id: SYS-PRSP-SEN
+entity_id: [SYS-PRSP-SEN, FCT-0021, FCT-0034]
 title: "Sentinel Fraud Scoring (vendor) (SYS-PRSP-SEN)"
 description: Third-party vendor fraud-scoring model (MRM ID M-FCT-0021) inside the Payment Risk & Screening Platform whose above-threshold scores drive HMS's HRC-07 FRAUD_MODEL_HIGH payment hold, and whose outputs are permanently barred from product, marketing, or client-facing use under MRM-POL-02's Tier 1 financial-crimes restriction.
 tags: [sentinel, prsp, fraud-scoring, vendor-model, m-fct-0021, mrm-pol-02, tier-1, hold-management-service, hrc-07, financial-crimes, restricted]
@@ -13,6 +13,9 @@ sources:
   - id: openwiki-source-08ac07f04b390aa09d5edc51
     resource: repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/financial-crimes-technology.md]
+described_by: [openwiki/documents/mrm-pol-02.md, openwiki/documents/prsp-hms-3.4.md]
+aliases: [payment risk & screening platform]
 ---
 
 ## Overview

@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: denise-carter
+entity_id: [P-DCART, denise-carter]
 title: Denise Carter
 description: Accountable leader for Payment Operations at Crestline National Bank; named approver of the Wire Status Lite post-implementation review (PIR-2024-07) and business owner of the registered EUA-TRS-0007 corridor completion dashboard.
 tags: [people, payment-operations, payments-treasury-technology, accountable-leader, pir-2024-07, end-user-analytic, model-risk-management]

@@ -43,7 +43,8 @@ class Settings(BaseSettings):
     frontend_origin: str = "http://127.0.0.1:5173"
 
     # Behaviour
-    reset_context_on_start: bool = True
+    # Deprecated: startup never wipes memory; wipes happen only via POST /api/demo/reset.
+    reset_context_on_start: bool = False
     memory_sync_mode: Literal["per_turn", "manual"] = "per_turn"
     memory_sync_timeout_sec: int = 1200
 

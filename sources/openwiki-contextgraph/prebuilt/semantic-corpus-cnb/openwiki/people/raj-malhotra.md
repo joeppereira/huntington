@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: raj-malhotra
+entity_id: [P-RMALH, raj-malhotra]
 title: Raj Malhotra
 description: Director, Payment Networks Engineering (PNE) at Crestline National Bank; retained ownership of the Fedwire Funds Connector through the 2026-10-01 cross-border realignment and assumed ownership of the FedNow and RTP connectors from 2026-11-01.
 tags: [people, payment-networks-engineering, director, fedwire, fedwire-funds-connector, fednow, rtp, swift-gpi, payments-treasury-technology, engineering-leadership, ownership-transfer]

@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: farah-ali
+entity_id: [P-FALI, farah-ali]
 title: Farah Ali
 description: Accountable leader for Information Security - Digital Channels at Crestline National Bank and the named contact for SECREV design-review engagement within Payments & Treasury Technology.
 tags: [person, information-security, digital-channels, secrev, design-review, governance, ptt]

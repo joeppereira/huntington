@@ -1,6 +1,6 @@
 ---
 type: Interface
-entity_id: EP-PPH-01
+entity_id: [EP-PPH-01, EP-PPH-02, EP-PPH-03]
 title: "PPH v1 Wire Status API (deprecated)"
 description: The legacy synchronous REST surface of PRISM Payments Hub (EP-PPH-01/02/03) that CBO Wire Center still depends on for wire submission, listing, and status — including the PROCESSED status collapse and the holdReasonDesc HMS free-text leak (FCT-2004) — rate-limited to 20 TPS shared and scheduled for sunset 2027-03-31 with no extensions.
 tags: [pph, pph-v1, wire-status, wire-center, cbo, rest-api, deprecated, sunset, holdreasondesc, fct-2004, adr-pay-019, migration]
@@ -19,6 +19,13 @@ sources:
   - id: openwiki-source-19beabaf3acaad354d39ee1e
     resource: repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/payments-hub-engineering.md]
+part_of: openwiki/systems/prism-payments-hub.md
+status: deprecated
+status_note: sunset 2027-03-31
+superseded_by: [openwiki/interfaces/pph-v2-payments-api.md, openwiki/interfaces/sps-read-model-api.md]
+described_by: [openwiki/documents/cbo-arch-wc-4.1.md, openwiki/documents/jira-export-wt-discovery-2026-10-05.md, openwiki/documents/pir-2024-07.md, openwiki/documents/pph-api-cat-2026.3.md, openwiki/documents/pph-sys-ovw-9.2.md]
+aliases: [where is my money, payment location]
 ---
 
 ## Overview

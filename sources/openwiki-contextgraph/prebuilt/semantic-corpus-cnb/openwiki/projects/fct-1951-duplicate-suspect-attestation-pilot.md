@@ -1,6 +1,6 @@
 ---
 type: Project
-entity_id: fct-1951-duplicate-suspect-attestation-pilot
+entity_id: FCT-1951
 title: "FCT-1951: Duplicate-Suspect Client Attestation Pilot"
 description: Done 2026-04 Financial Crimes Technology epic that piloted client attestation (via Service Center phone) to resolve HRC-01 duplicate-suspect payment holds faster, updated control CTRL-PAY-031 to permit digital-channel attestation for HRC-01 subject to step-up auth and a $5,000,000 Wire Room threshold, but left no digital-channel implementation in place.
 tags: [fct-1951, hold-management-service, hrc-01, dup-suspect, client-attestation, ctrl-pay-031, financial-crimes-technology, pilot, step-up-authentication, prsp-hms]
@@ -13,6 +13,8 @@ sources:
   - id: openwiki-source-08ac07f04b390aa09d5edc51
     resource: repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owner: openwiki/people/grace-mensah.md
+status: closed
 ---
 
 ## What this epic was

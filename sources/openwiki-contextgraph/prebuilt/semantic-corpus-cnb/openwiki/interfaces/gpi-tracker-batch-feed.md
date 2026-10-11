@@ -1,6 +1,6 @@
 ---
 type: Interface
-entity_id: gpi-tracker-batch-feed
+entity_id: BT-PNG-01
 title: "Interface: gpi Tracker Batch Snapshot Feed"
 description: The 4-hourly batch integration by which the Swift Alliance & gpi Connector (GPI-C) pulls Swift Tracker API updates into GPI_TRACKER_SNAPSHOT, the Swift Tracker API's 250,000-call monthly quota, why per-payment client lookups would blow that contract ~7x, and the declined 2-hour frequency change (PNG-1544).
 tags: [gpi, gpi-tracker, swift, swift-tracker-api, payment-network-gateway, gpi-c, batch, quota, interface]
@@ -13,6 +13,11 @@ sources:
   - id: openwiki-source-0163a9a7923ee437e942692a
     resource: repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/gtsi.md]
+part_of: openwiki/systems/swift-gpi-connector.md
+status: live
+described_by: [openwiki/documents/arb-pay-reg-2026q3.md, openwiki/documents/png-tdd-6.0.md]
+aliases: [banks passed through, route, intermediary banks, freshness, how fresh, up to date, latest data]
 ---
 
 ## Overview

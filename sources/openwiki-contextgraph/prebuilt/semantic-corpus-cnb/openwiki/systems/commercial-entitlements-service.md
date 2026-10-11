@@ -17,6 +17,8 @@ sources:
   - id: openwiki-source-a8ab82acd285acae1ac9546d
     resource: repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/cbo-platform-entitlements.md]
+described_by: [openwiki/documents/cbo-arch-wc-4.1.md, openwiki/documents/cnb-org-ptt-2026-06.md, openwiki/documents/jira-export-wt-discovery-2026-10-05.md, openwiki/documents/tdip-cat-2026.2.md]
 ---
 
 ## Overview

@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: commercial-service-center
+entity_id: [TEAM-TSC, commercial-service-center]
 title: Commercial Service Center
 description: First-line Treasury Support function (accountable leader Kim Nguyen) that owns client-facing scripts and training for phone agents, feeds frontline complaints and call-deflection requests into Wire Center engineering, and is gated on a three-week-pre-go-live readiness checklist for new client-facing workflows.
 tags: [commercial-service-center, treasury-support, kim-nguyen, first-line-partner, ptt, readiness-checklist, wire-center, client-facing-status, disclosure-review-committee]
@@ -15,6 +15,7 @@ sources:
   - id: openwiki-source-3cc45df143c5eec31fe1f9f6
     resource: repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+aliases: [treasury support]
 ---
 
 ## Overview

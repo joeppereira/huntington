@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: tanya-brooks
+entity_id: [P-TBROOK, tanya-brooks]
 title: Tanya Brooks
 description: Wire Room contact within Payment Operations, the first-line function that manually releases held or repair-queued wires and partners with Payments & Treasury Technology engineering teams.
 tags: [people, payment-operations, wire-room, payments, contact-directory]

@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: legal-treasury-payments
+entity_id: [TEAM-LEGAL, legal-treasury-payments]
 title: Legal - Treasury & Payments
 description: First/second-line Legal partner function (accountable leader Andrew Feldman) whose Disclosure Review Committee, chaired by Patricia Moore, is the mandatory bi-weekly approval gate for all client-facing copy, disclaimers, and notification templates across Payments & Treasury Technology (PTT).
 tags: [legal, legal-treasury-payments, partner-function, andrew-feldman, patricia-moore, disclosure-review-committee, drc, ptt, governance, client-communications]
@@ -17,6 +17,7 @@ sources:
   - id: openwiki-source-1601c697250670250350a70c
     resource: repo://sources/estate/pol-fcc-014-v3.2-customer-communication-of-payment-status-holds-and-exceptions-standard.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+aliases: [disclosure review committee]
 ---
 
 ## Overview

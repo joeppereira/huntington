@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: anjali-deshpande
+entity_id: [P-ADESH, anjali-deshpande]
 title: Anjali Deshpande
 description: Director, Digital Treasury Channels Engineering at Crestline National Bank; accountable engineering leader for the CBO Wire Center squad and CBO Platform & Entitlements, and architecture/incident-review approver for Wire Center systems.
 tags: [people, digital-treasury-channels, cbo, wire-center, director, payments-treasury-technology, architecture-approver, engineering-leadership]

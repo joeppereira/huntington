@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: aisha-rahman
+entity_id: [P-ARAHM, aisha-rahman]
 title: "Dr. Aisha Rahman"
 description: Lead Data Scientist for Treasury Data & Analytics (TDIP) at Crestline National Bank; co-owner of the TDIP-CAT-2026.2 data catalog and data-science owner of the wire_corridor_stats_daily feature table.
 tags: [person, tdip, treasury-data-analytics, data-science, feature-store, payments-domain, tdip-cat-2026.2, wire-corridor-stats-daily]

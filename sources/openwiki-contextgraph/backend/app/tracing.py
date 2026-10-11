@@ -12,9 +12,21 @@ from uuid import UUID
 from langchain_core.callbacks import BaseCallbackHandler
 from langchain_core.outputs import LLMResult
 
-WIKI_TOOLS = {"semantic_search", "semantic_read", "memory_search", "memory_read"}
+WIKI_TOOLS = {"semantic_search", "semantic_read", "graph_query", "graph_neighbors",
+              "memory_search", "memory_read"}
 READ_TOOLS = {"semantic_read": "semantic", "memory_read": "context"}
+# Refs from both wikis look alike ("openwiki/..."), so trace steps tag each ref with the
+# wiki it came from. Untagged refs (older stored traces) are still accepted downstream.
+# graph_query/graph_neighbors are in-process views over the semantic wiki (ratchet R7).
+TOOL_WIKI = {"semantic_search": "semantic", "semantic_read": "semantic",
+             "graph_query": "semantic", "graph_neighbors": "semantic",
+             "memory_search": "memory", "memory_read": "memory"}
 MAX_REFS_IN_SUMMARY = 3
+
+
+def tag_ref(wiki: str, ref: str) -> str:
+    """Namespace a wiki ref at capture time: ("semantic", "openwiki/x.md") -> "semantic:openwiki/x.md"."""
+    return f"{wiki}:{ref}"
 
 
 @dataclass(frozen=True)
@@ -34,10 +46,33 @@ class _Pending:
     started: float
 
 
+def _read_targets(inputs: dict[str, Any]) -> tuple[str, list[str]]:
+    """(page, sections) for both read shapes: MCP page+sections and in-process ref+heading."""
+    page = inputs.get("page") or inputs.get("ref", "")
+    sections = inputs.get("sections")
+    if sections is None:
+        heading = inputs.get("heading")
+        sections = [heading] if heading else []
+    return page, list(sections)
+
+
 def _format_input(tool: str, inputs: dict[str, Any]) -> str:
     if tool.endswith("_search"):
         return json.dumps(inputs.get("query", ""))
-    return f"{inputs.get('page', '')} [{', '.join(inputs.get('sections', []))}]"
+    if tool.startswith("graph_"):
+        return json.dumps({k: v for k, v in inputs.items() if v is not None}, default=str)
+    page, sections = _read_targets(inputs)
+    return f"{page} [{', '.join(sections)}]"
+
+
+def _hit_refs(data: Any) -> list[str]:
+    """Ranked refs from either search shape: in-process {"hits":[{"ref": "..."}]} (ref is a
+    string) or OpenWiki MCP {"results":[{"ref": [...]}]} (ref is a list)."""
+    if not isinstance(data, dict):
+        return []
+    refs = [h["ref"] for h in data.get("hits", []) if isinstance(h.get("ref"), str)]
+    refs += [ref for result in data.get("results", []) for ref in result.get("ref", [])]
+    return refs
 
 
 def _summarise(tool: str, output: str) -> str:
@@ -47,13 +82,12 @@ def _summarise(tool: str, output: str) -> str:
         data = json.loads(output)
     except json.JSONDecodeError:
         return f"{len(output)} chars"
-    if tool.endswith("_search"):
-        results = data.get("results", [])
-        refs = [ref for result in results for ref in result.get("ref", [])][:MAX_REFS_IN_SUMMARY]
-        hits = f"{len(results)} hit{'s' if len(results) != 1 else ''}"
-        if data.get("note"):
+    if tool not in READ_TOOLS:
+        refs = _hit_refs(data)
+        hits = f"{len(refs)} hit{'s' if len(refs) != 1 else ''}"
+        if isinstance(data, dict) and data.get("note"):
             return f"{hits} ({data['note']})"
-        return f"{hits}: {', '.join(refs)}" if refs else hits
+        return f"{hits}: {', '.join(refs[:MAX_REFS_IN_SUMMARY])}" if refs else hits
     sections = data.get("sections", [])
     chars = sum(len(s.get("content", "")) for s in sections)
     return f"{len(sections)} section{'s' if len(sections) != 1 else ''}, {chars} chars"
@@ -61,10 +95,9 @@ def _summarise(tool: str, output: str) -> str:
 
 def _search_refs(output: str) -> list[str]:
     try:
-        results = json.loads(output).get("results", [])
-    except (json.JSONDecodeError, AttributeError):
+        return _hit_refs(json.loads(output))
+    except json.JSONDecodeError:
         return []
-    return [ref for result in results for ref in result.get("ref", [])]
 
 
 def _text(output: Any) -> str:
@@ -113,18 +146,19 @@ class TraceRecorder(BaseCallbackHandler):
         if failed:
             step_refs: list[str] = []
         elif pending.tool in READ_TOOLS:
-            page = pending.inputs.get("page", "")
-            step_refs = [f"{page}#{s}" for s in pending.inputs.get("sections", [])]
+            page, sections = _read_targets(pending.inputs)
+            step_refs = [f"{page}#{s}" for s in sections] or ([page] if page else [])
         else:
             step_refs = _search_refs(text)
-        self._finish(pending, _summarise(pending.tool, text), tuple(step_refs))
+        wiki = TOOL_WIKI[pending.tool]
+        self._finish(pending, _summarise(pending.tool, text), tuple(tag_ref(wiki, r) for r in step_refs))
         if failed:
             return
         if pending.tool in READ_TOOLS:
             refs = step_refs
             self._reads.extend((READ_TOOLS[pending.tool], ref) for ref in refs)
             (self._semantic_seen if pending.tool == "semantic_read" else self._context_seen).extend(refs)
-        elif pending.tool == "semantic_search":
+        elif wiki == "semantic":  # semantic_search, graph_query, graph_neighbors
             self._semantic_seen.extend(step_refs)
         elif pending.tool == "memory_search":
             self._context_seen.extend(step_refs)

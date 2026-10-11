@@ -1,6 +1,6 @@
 ---
 type: Project
-entity_id: CBO-4480
+entity_id: GTSI-0112
 title: "GTSI-0112: gpi Connector & Swift API Gateway Knowledge Transfer"
 description: In-progress epic (Jira GTSI-0112, target 2026-12-15) transferring operational ownership of the Swift Alliance & gpi Connector (SYS-PNG-GPI) and the Swift API gateway/SwiftNet PKI service accounts from Payment Networks Engineering to Global Transaction Services Integration, per CNB-MEMO-2026-09.
 tags: [gtsi-0112, knowledge-transfer, gpi-connector, swift-api-gateway, swiftnet-pki, payment-networks-engineering, gtsi, reorg, cnb-memo-2026-09]
@@ -17,6 +17,9 @@ sources:
   - id: openwiki-source-0163a9a7923ee437e942692a
     resource: repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owner: openwiki/people/omar-siddiqui.md
+status: live
+relates_to: [openwiki/documents/cnb-memo-2026-09.md]
 ---
 
 ## Summary

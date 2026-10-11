@@ -23,6 +23,8 @@ sources:
   - id: openwiki-source-a8ab82acd285acae1ac9546d
     resource: repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/deposits-data-ownership.md]
+described_by: [openwiki/documents/cnb-org-ptt-2026-06.md, openwiki/documents/dus-07.md, openwiki/documents/ens-int-3.2.md, openwiki/documents/pol-fcc-014.md, openwiki/documents/pph-sys-ovw-9.2.md, openwiki/documents/prsp-hms-3.4.md, openwiki/documents/tdip-cat-2026.2.md]
 ---
 
 ## Overview

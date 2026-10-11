@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: chen-wei
+entity_id: [P-CWEI, chen-wei]
 title: Chen Wei
 description: "Tech Lead for the Fedwire Funds Connector within Payment Networks Engineering, and co-owner (document owner) of PNG-TDD-6.0, the technical design governing the Payment Network Gateway's Fedwire and Swift gpi modules."
 tags: [person, tech-lead, fedwire, payment-networks-engineering, png-tdd-6.0, payment-network-gateway]

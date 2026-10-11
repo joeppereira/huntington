@@ -1,6 +1,6 @@
 ---
 type: Document
-entity_id: MRM-POL-02
+entity_id: DOC-MRM-POL-02
 title: "MRM-POL-02: Model Risk Management Policy (Extract, v7.0)"
 description: Metadata record for Crestline National Bank's Model Risk Management Policy extract, re-baselined to the April 2026 interagency guidance, covering model definition, tiering, validation and use limitations.
 tags: [mrm-pol-02, model-risk-management, model-tiering, model-validation, end-user-analytic, interagency-guidance, governance, document]

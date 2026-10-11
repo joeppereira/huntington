@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: michael-tran
+entity_id: [P-MTRAN, michael-tran]
 title: Michael Tran
 description: SVP, OFAC/Sanctions Officer at Crestline National Bank; co-owner of POL-FCC-014 (the Customer Communication of Payment Status, Holds & Exceptions Standard) and business owner of SanctionScreen, the PRSP sanctions-screening system behind tier-R SANCTIONS_REVIEW holds.
 tags: [people, financial-crimes-compliance, ofac-sanctions, second-line, policy-owner, pol-fcc-014, sanctionscreen, business-owner, ptt, partner-function]

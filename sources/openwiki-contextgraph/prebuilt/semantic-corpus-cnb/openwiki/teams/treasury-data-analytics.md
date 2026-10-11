@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: treasury-data-analytics
+entity_id: [TEAM-TDIP, treasury-data-analytics]
 title: "Treasury Data & Analytics (TDIP team)"
 description: Engineering team within Payments & Treasury Technology (PTT) that owns the Treasury Data & Insights Platform (TDIP); covers its leadership, intake route and planning capacity, and the extended lead time for Restricted-classified dataset access.
 tags: [team, tdip, treasury-data-analytics, ptt, data-engineering, data-governance, collibra, dar, intake, planning-factor]

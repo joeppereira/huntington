@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: nadia-haddad
+entity_id: [P-NHADD, nadia-haddad]
 title: Nadia Haddad
 description: Engineering Manager for CBO Platform & Entitlements at Crestline National Bank; named technical owner of record for the Commercial Entitlements Service (CES), the Tier 1 authorization system behind Crestline Business Online.
 tags: [people, engineering-manager, cbo-platform, ces, entitlements, payments, ptt, technical-owner]

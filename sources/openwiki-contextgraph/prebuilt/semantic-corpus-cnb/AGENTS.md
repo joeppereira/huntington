@@ -14,3 +14,13 @@ This repository has a generated `openwiki/` evidence index. It is optional just-
 The scheduled OpenWiki GitHub Actions workflow refreshes the repository wiki. Do not hand-edit generated OpenWiki pages unless explicitly asked; prefer updating source code/docs and letting OpenWiki regenerate.
 
 <!-- OPENWIKI:END -->
+
+## ID indexing requirement (added 2026-10-10)
+
+When writing or updating wiki pages: every identifier code the source documents define
+or assign (SYS-*, EP-*/EV-*/BT-*/TPL-*, TEAM-*, P-*, HRC-*, CTRL-*/COPY-*, FCT-/TRS-
+model-register ids, Jira keys, doc ids) must be claimed in exactly one page's
+`entity_id` frontmatter (or `aliases` for informal short codes like GPI-C). Do not
+leave codes as body prose only. Id families without a natural page get a registry page.
+This is enforced by `tools/validate_corpus.py` (id-closure check) — the build fails
+otherwise. See docs/schema-relations.md.

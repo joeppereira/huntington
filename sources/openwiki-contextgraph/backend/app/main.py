@@ -16,8 +16,9 @@ from .config import Settings
 from .context_store import ContextStore, TurnRecord, reset_context_corpus
 from .mcp_tools import OpenWikiMCP, OpenWikiTools
 from .memory_sync import MemoryStatus, MemorySync, Runner
-from .retrieval_path import RetrievalPath, SemanticGraphCache, build_retrieval_path
+from .retrieval_path import RetrievalPath, SemanticGraphCache, build_retrieval_path, tag_cited_refs
 from .openwiki_cli import build_openwiki_env, openwiki_version, resolve_cli_js
+from .semantic_tools import SemanticToolkit
 from .schemas import (
     ChatRequest,
     ChatResponse,
@@ -87,8 +88,14 @@ def _start_visualizers(settings: Settings) -> tuple[str, Visualizer | None, Visu
     env = build_openwiki_env(settings)
     logs = settings.logs_path
 
-    if settings.reset_context_on_start or not settings.context_corpus_path.exists():
+    # Startup only bootstraps a missing corpus; it never wipes existing agent memory.
+    # The only wipe path is the explicit POST /api/demo/reset endpoint below.
+    if not settings.context_corpus_path.exists():
         reset_context_corpus(settings)
+    elif settings.reset_context_on_start:
+        logger.warning(
+            "RESET_CONTEXT_ON_START is set but ignored: startup never wipes memory; "
+            "use POST /api/demo/reset for an explicit wipe")
 
     semantic_vis = None
     if settings.semantic_ready:
@@ -118,8 +125,14 @@ async def _start_runtime(settings: Settings, agent_factory: AgentFactory, sync_r
     mcp = OpenWikiMCP(settings)
     try:
         await mcp.start()
-        tools = OpenWikiTools(mcp, settings.semantic_corpus_path, settings.context_corpus_path)
-        agent = agent_factory(settings, tools.as_langchain_tools())
+        # Ratchet R7: the semantic query path is in-process (built once here, stateless per
+        # call, shared across requests); MCP serves only the memory wiki at query time.
+        semantic_tools: list[BaseTool] = []
+        if settings.semantic_ready:
+            toolkit = await asyncio.to_thread(SemanticToolkit, settings.semantic_corpus_path / "openwiki")
+            semantic_tools = toolkit.as_langchain_tools()
+        memory_tools = OpenWikiTools(mcp, settings.semantic_corpus_path, settings.context_corpus_path)
+        agent = agent_factory(settings, [*semantic_tools, *memory_tools.as_memory_langchain_tools()])
     except BaseException:
         await mcp.stop()
         for vis in (semantic_vis, context_vis):
@@ -267,7 +280,9 @@ def create_app(
         if trace_file is not None:
             rt.memory_sync.notify_turn()
         graph = await asyncio.to_thread(rt.semantic_graph.get)
-        retrieval = build_retrieval_path(result.steps, [s.ref for s in result.answer.sources], graph)
+        cited = tag_cited_refs(
+            [s.ref for s in result.answer.sources], result.semantic_refs_seen, result.context_refs_seen)
+        retrieval = build_retrieval_path(result.steps, cited, graph)
         return _chat_response(body.session_id, turn, rt.agent.model_id, result, trace_file, retrieval)
 
     @app.get("/api/memory/status", response_model=MemoryStatus)

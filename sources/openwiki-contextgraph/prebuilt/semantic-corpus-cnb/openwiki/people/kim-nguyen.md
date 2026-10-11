@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: kim-nguyen
+entity_id: [P-KNGUY, kim-nguyen]
 title: Kim Nguyen
 description: Accountable leader for the Commercial Service Center, the first-line Treasury support function that owns client-facing scripts and training and provides frontline feedback on Wire Center client experience.
 tags: [person, commercial-service-center, treasury-support, ptt, first-line-partner, wire-center]

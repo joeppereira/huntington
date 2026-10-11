@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: catherine-doyle
+entity_id: [P-CDOYLE, catherine-doyle]
 title: Catherine Doyle
 description: EVP, Chief BSA/AML Officer at Crestline National Bank; second-line accountable owner of the Financial Crimes Compliance (FCC) partner function and document owner of POL-FCC-014, the enterprise standard governing client-facing communication of payment status, holds and exceptions.
 tags: [people, financial-crimes-compliance, bsa-aml, second-line, policy-owner, pol-fcc-014, ptt, partner-function, governance]

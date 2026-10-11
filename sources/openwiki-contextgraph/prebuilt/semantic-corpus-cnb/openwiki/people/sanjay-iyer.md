@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: sanjay-iyer
+entity_id: [P-SIYER, sanjay-iyer]
 title: Sanjay Iyer
 description: Director of the Enterprise Notification Platform team within Payments & Treasury Technology; accountable business owner of the Enterprise Notification Service (SYS-ENS) and approver of the ENS-INT-3.2 integration guide.
 tags: [sanjay-iyer, enterprise-notification-platform, enterprise-notification-service, ens, director, system-ownership, ens-int-3.2, payments-treasury-technology]

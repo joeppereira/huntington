@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: gregory-hall
+entity_id: [P-GHALL, gregory-hall]
 title: Gregory Hall
 description: MD, CIO Payments & Treasury Technology at Crestline National Bank; top engineering leader of PTT and sole issuer/approver of CNB-MEMO-2026-09, which realigned cross-border Swift network ownership from Payment Networks Engineering to GTSI.
 tags: [people, payments-treasury-technology, ptt, cio, engineering-leadership, cnb, organizational-announcement, governance]

@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: gtsi
+entity_id: [TEAM-GTSI, gtsi]
 title: Global Transaction Services Integration (GTSI)
 description: Engineering team within Payments & Treasury Technology that owns Crestline National Bank's cross-border payment network integrations, including the Swift Alliance/gpi Connector, the Swift API gateway (Microgateway), SwiftNet PKI service accounts, and the international wire tracking roadmap, effective 2026-10-01.
 tags: [gtsi, team, global-transaction-services-integration, payments-treasury-technology, swift, gpi, cross-border, microgateway, swiftnet-pki, wire-tracking, reorg]

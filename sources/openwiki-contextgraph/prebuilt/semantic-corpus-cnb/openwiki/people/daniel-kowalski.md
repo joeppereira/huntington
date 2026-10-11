@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: daniel-kowalski
+entity_id: [P-DKOWA, daniel-kowalski]
 title: Daniel Kowalski
 description: Tech Lead for the PRSP Hold Management Service (HMS) at Crestline National Bank; owns design document PRSP-HMS-3.4 and raised the open data-leakage risk FCT-2004 concerning PPH v1 holdReasonDesc.
 tags: [person, tech-lead, hold-management-service, prsp, financial-crimes-technology, fct-2004, prsp-hms-3.4]

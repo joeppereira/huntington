@@ -19,7 +19,12 @@ HISTORY_TURNS = 6
 SYSTEM_PROMPT = """\
 You answer questions about Crestline National Bank (CNB), a fictional bank, using the knowledge wiki
 built from its payments-estate documents. Always ground answers in the wiki: call `semantic_search`,
-then `semantic_read` on the most relevant refs before answering factual questions. Quote identifiers,
+then `semantic_read` on the most relevant refs before answering factual questions. Search results
+carry each page's explicit `type`, `status` and `entity_ids` — trust those fields rather than
+guessing from the ref path, and repeating the same query returns identical results, so reword
+instead of retrying. For inventory or aggregation questions ("list all Interfaces", "which systems
+are deprecated") use `graph_query`; for relationship questions (who owns X, what is X part of, what
+supersedes or depends on X) use `graph_neighbors` on the page's ref. Quote identifiers,
 dates, versions and clause numbers exactly, and cite the refs you used. If the user refers to earlier
 conversation ("as you said", "that system"), check `memory_search` and the chat history first. For
 questions about the conversation itself — what was asked, your earlier answers, decisions, sources
@@ -36,7 +41,8 @@ and owning team where it would be decided, and set confidence to "low". Where do
 ownership/status changed over time, say so explicitly and prefer the most recent dated source.
 
 When you have enough information, call `submit_answer` once with your final answer; do not reply with
-plain text. In `sources`, list each wiki ref you relied on (page#section exactly as returned by the tools)
+plain text. In `sources`, list each wiki ref you relied on (page ref exactly as returned by the tools,
+plus "#heading" when you read one section, e.g. "openwiki/interfaces/pph-v1-wire-status-api.md#Overview")
 with a short reason. In `reasoning_summary`, write 2-5 sentences on what you looked up, why, and what you
 chose.
 """
@@ -58,7 +64,7 @@ Refs the agent read: {refs}
 
 
 class SourceCitation(BaseModel):
-    ref: str = Field(description='Wiki ref, e.g. "openwiki/models/cecl-allowance-model.md#upstream-apis"')
+    ref: str = Field(description='Wiki ref, e.g. "openwiki/interfaces/pph-v1-wire-status-api.md#Overview"')
     why: str
 
 

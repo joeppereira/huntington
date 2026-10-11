@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: financial-crimes-technology
+entity_id: [TEAM-FCT, financial-crimes-technology]
 title: Financial Crimes Technology (FCT)
 description: Engineering team within Payments & Treasury Technology (PTT) that builds and operates the Payment Risk & Screening Platform (PRSP) — Hold Management Service, Sentinel Fraud Scoring, and SanctionScreen — under FCT Change Advisory governance with mandatory FCC sign-off and an annual year-end change freeze.
 tags: [financial-crimes-technology, fct, prsp, hold-management-service, sentinel, sanctionscreen, payments-treasury-technology, change-advisory, fcc, financial-crimes-compliance, year-end-freeze]

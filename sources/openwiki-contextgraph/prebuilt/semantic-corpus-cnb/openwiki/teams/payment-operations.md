@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: payment-operations
+entity_id: [TEAM-OPS, payment-operations]
 title: Payment Operations
 description: First-line partner function (accountable leader Denise Carter) that runs the Wire Room, Fraud Ops and Sanctions L1/L2 review queues through the Investigations Workbench, and gates new client-facing payments workflows via a four-week-pre-go-live Ops Readiness Review.
 tags: [payment-operations, denise-carter, luis-ramirez, tanya-brooks, wire-room, fraud-ops, sanctions-review, investigations-workbench, hold-management-service, ops-readiness-review, first-line-partner, payments-treasury-technology]

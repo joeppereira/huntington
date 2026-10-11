@@ -1,6 +1,6 @@
 ---
 type: Interface
-entity_id: fedwire-network-ack-topics
+entity_id: [EV-PNG-01, EV-PNG-02]
 title: Fedwire Network Acknowledgment Topics
 description: "net.fedwire.ack.v1 and net.fedwire.inbound.v1: Kafka topics published by the Fedwire Funds Connector carrying OMAD and the Federal Reserve's settlement timestamp plus inbound value messages, consumed today only by PPH, with a TDIP ingestion (TDA-2210) and a PPH v2 settlement object (PPH-2207) both parked in backlog."
 tags: [fedwire, kafka, net.fedwire.ack.v1, net.fedwire.inbound.v1, omad, settlement, payment-network-gateway, pph, backlog]
@@ -13,6 +13,10 @@ sources:
   - id: openwiki-source-19beabaf3acaad354d39ee1e
     resource: repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/payment-networks-engineering.md]
+part_of: openwiki/systems/fedwire-funds-connector.md
+status: live
+described_by: [openwiki/documents/png-tdd-6.0.md, openwiki/documents/pph-sys-ovw-9.2.md]
 ---
 
 ## Overview

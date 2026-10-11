@@ -19,6 +19,7 @@ sources:
   - id: openwiki-source-a8ab82acd285acae1ac9546d
     resource: repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+governed_by: [openwiki/policies/mrm-pol-02.md, openwiki/policies/dus-07.md]
 ---
 
 ## Overview

@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: information-security-digital-channels
+entity_id: [TEAM-INFOSEC, information-security-digital-channels]
 title: Information Security - Digital Channels (SECREV)
 description: First/second-line security partner function led by Farah Ali that performs mandatory SECREV design reviews under SEC-STD-22 for digital-channel features involving external sharing of client data or step-up authentication changes.
 tags: [information-security, digital-channels, secrev, sec-std-22, design-review, governance, step-up-authentication, external-sharing, ptt, farah-ali]

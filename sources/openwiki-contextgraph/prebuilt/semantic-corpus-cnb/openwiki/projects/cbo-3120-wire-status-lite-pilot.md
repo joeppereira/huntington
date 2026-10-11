@@ -13,6 +13,10 @@ sources:
   - id: openwiki-source-3cc45df143c5eec31fe1f9f6
     resource: repo://sources/estate/pir-2024-07-wire-status-lite-pilot-inc-2024-1182-post-implementation-review.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owner: openwiki/people/tom-becker.md
+status: closed
+status_note: Won't Do
+relates_to: [openwiki/incidents/inc-2024-1182.md, openwiki/incidents/pir-2024-07.md]
 ---
 
 ## Summary

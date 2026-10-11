@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: kevin-obrien
+entity_id: [P-KOBRI, kevin-obrien]
 title: Kevin O'Brien
 description: Engineering Manager for Payments Hub Engineering and technical owner of SYS-PPH (PRISM Payments Hub); owns the PPH v1 API sunset consumer-migration tracking epic PPH-2190.
 tags: [people, engineering-manager, payments-hub-engineering, pph, prism-payments-hub, pph-2190, system-ownership]

@@ -1,6 +1,6 @@
 ---
 type: Document
-entity_id: DUS-07
+entity_id: DOC-DUS-07
 title: "DUS-07: Data Use and Client Confidentiality Standard (v2.1)"
 description: Metadata record for Crestline National Bank's Privacy Office standard governing purpose limitation, cross-client confidentiality, and aggregation thresholds for client-facing analytics.
 tags: [dus-07, data-use, client-confidentiality, privacy-office, aggregation-thresholds, purpose-limitation, governance, document]

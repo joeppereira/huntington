@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: cbo-wire-center-squad
+entity_id: [TEAM-CBO-WC, cbo-wire-center-squad]
 title: CBO Wire Center Squad
 description: Engineering team within Digital Treasury Channels at Crestline National Bank that owns SYS-CBO (the Wire Center module of Crestline Business Online); its leadership, Jira/Slack engagement routes, PI 27.1 planning factors, and current capacity commitment.
 tags: [cbo, wire-center, sys-cbo, digital-treasury-channels, team, engineering-team, jira, slack, ptt, program-increment, planning-factors]

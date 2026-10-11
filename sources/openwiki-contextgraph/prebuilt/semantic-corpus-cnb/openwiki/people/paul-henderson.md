@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: paul-henderson
+entity_id: [P-PHEND, paul-henderson]
 title: Paul Henderson
 description: Owner of the 'ENS Event Onboarding' ServiceNow catalog item, the required intake point for producers registering a new event type with the Enterprise Notification Service.
 tags: [paul-henderson, ens, enterprise-notification-service, onboarding, servicenow, catalog-item, treasury]

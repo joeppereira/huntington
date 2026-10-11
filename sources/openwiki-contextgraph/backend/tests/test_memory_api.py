@@ -35,7 +35,10 @@ def test_each_saved_turn_triggers_a_sync(settings: Settings):
         client.post("/api/chat", json={"session_id": sid, "message": "hi"})
         status = _wait_idle(client)
         assert status["state"] == "idle" and status["last_success_at"] is not None
-        assert runner.calls[0]["args"][1:] == ["--init", "--print"]
+        # A corpus restored from prebuilt/context-corpus-template ships the init marker,
+        # so the first sync is an incremental --update; a bare corpus needs --init.
+        first = "--update" if (settings.context_corpus_path / ".poc-initialized").exists() else "--init"
+        assert runner.calls[0]["args"][1:] == [first, "--print"]
         assert runner.calls[0]["cwd"] == settings.context_corpus_path
 
 

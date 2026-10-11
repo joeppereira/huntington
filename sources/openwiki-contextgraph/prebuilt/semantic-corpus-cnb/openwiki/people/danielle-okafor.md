@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: danielle-okafor
+entity_id: [P-DOKAFOR, danielle-okafor]
 title: Danielle Okafor
 description: EVP, Head of Treasury Management Products at Crestline National Bank; accountable business owner of the Treasury Management (TM) product portfolio, including Crestline Business Online (CBO).
 tags: [people, treasury-management-products, cbo, crestline-business-online, business-owner, leadership, ptt, product-ownership]

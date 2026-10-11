@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: sophie-laurent
+entity_id: [P-SLAUR, sophie-laurent]
 title: Sophie Laurent
 description: Validation Lead for Treasury & Operations models within Model Risk Management (MRM) at Crestline National Bank; named contact for Tier 2 model validation submissions and the Tier 2 validation queue.
 tags: [people, model-risk-management, mrm, validation, tier-2, treasury, payment-operations, second-line, mrm-pol-02, partner-function]

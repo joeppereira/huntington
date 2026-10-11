@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: marcus-chen
+entity_id: [P-MCHEN, marcus-chen]
 title: Marcus Chen
 description: Director, Digital Treasury Product at Crestline National Bank; Product Owner of the CBO Wire Center and the broader Payments & Transfers product line, business/data owner of record for CBO's wire and entitlements systems, and exporter of the WT-discovery Jira backlog snapshot.
 tags: [people, digital-treasury-product, cbo, wire-center, product-owner, data-owner, ptt, treasury-management-products]

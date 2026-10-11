@@ -1,6 +1,6 @@
 ---
 type: Interface
-entity_id: EP-ENS-01..03
+entity_id: [EP-ENS-01, EP-ENS-02, EP-ENS-03, TPL-WIRE-REJ-01, TPL-WIRE-REL-02, TPL-WIRE-APR-01, TPL-WIRE-IN-03, TPL-ACH-STS-01, TPL-ACH-RET-01]
 title: "ENS Notification API & TRS Event Catalog"
 description: "Describes the Enterprise Notification Service (ENS) v3 notification/subscription APIs (EP-ENS-01..03) and the current Treasury (TRS) wire/ACH event catalog, including the explicit list of wire-lifecycle notifications (network acceptance, gpi ACCC, returns, held-wire client action) that do not yet exist."
 tags: [ens, notifications, trs, wire, ach, event-catalog, api, treasury, gpi]
@@ -13,6 +13,10 @@ sources:
   - id: openwiki-source-d637e82ba742e8a4b8f0c799
     resource: repo://sources/estate/ens-int-3.2-enterprise-notification-service-integration-guide.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/enterprise-notification-platform.md]
+part_of: openwiki/systems/enterprise-notification-service.md
+status: live
+described_by: [openwiki/documents/cbo-arch-wc-4.1.md, openwiki/documents/ens-int-3.2.md]
 ---
 
 ## Overview

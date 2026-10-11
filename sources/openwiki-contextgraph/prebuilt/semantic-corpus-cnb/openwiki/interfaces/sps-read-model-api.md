@@ -1,6 +1,6 @@
 ---
 type: Interface
-entity_id: EP-PPH-01
+entity_id: EP-SPS-01
 title: CBO Status Projection Service (SPS) Read Model API
 description: "/cbo/sps/v1, the Kafka-consumer-to-Postgres read-model API behind CNB's reference event-driven channel status pattern (ADR-PAY-019); today configured for ACH only (pay.ach.lifecycle.v1), with wire support requiring a new mapping module and a consumer ACL on pay.wire.lifecycle.v2."
 tags: [sps, cbo, status-projection-service, read-model, kafka, postgres, pay.ach.lifecycle.v1, pay.wire.lifecycle.v2, adr-pay-019, event-driven, ach, wire-center]
@@ -17,6 +17,13 @@ sources:
   - id: openwiki-source-4452149a3b4502b4c763a559
     resource: repo://sources/estate/jira-export-wt-discovery-2026-10-05.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/cbo-platform-entitlements.md]
+part_of: openwiki/systems/cbo-status-projection-service.md
+status: live
+status_note: ACH only
+supersedes: [openwiki/interfaces/pph-v1-wire-status-api.md]
+described_by: [openwiki/documents/cbo-arch-wc-4.1.md, openwiki/documents/cnb-org-ptt-2026-06.md, openwiki/documents/ens-int-3.2.md, openwiki/documents/jira-export-wt-discovery-2026-10-05.md]
+aliases: [where is my money, payment location]
 ---
 
 ## Overview

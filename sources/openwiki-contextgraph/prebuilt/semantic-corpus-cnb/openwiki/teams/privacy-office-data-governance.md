@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: privacy-office-data-governance
+entity_id: [TEAM-PRIV, privacy-office-data-governance]
 title: Privacy Office & Data Governance
 description: Second-line function led by Chief Privacy Officer Rachel Goldberg that owns the DUS-07 Data Use & Client Confidentiality Standard, runs Privacy Impact Assessments for new client-data uses, and approves Collibra Data Access Requests for Restricted datasets.
 tags: [privacy-office, data-governance, dus-07, privacy-impact-assessment, collibra, rachel-goldberg, ethan-brooks, data-classification, second-line]

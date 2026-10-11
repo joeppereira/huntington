@@ -1,6 +1,6 @@
 ---
 type: Document
-entity_id: jira-export-wt-discovery-2026-10-05
+entity_id: JIRA-EXP-2026-10-05
 title: "JIRA-EXP-2026-10-05: Wire Center & Dependency Team Backlog Export (WT-discovery)"
 description: Metadata record for a Jira Cloud export snapshot of the saved filter "WT-discovery," capturing wire-related backlog items updated since 2024-01-01 across the CBO, PPH, PNG, GTSI, FCT, ENS, and TDA Jira projects.
 tags: [cbo, pph, png, gtsi, fct, ens, tda, wire-center, jira-export, backlog, document, api-lifecycle]

@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: hannah-lindqvist
+entity_id: [P-HLIND, hannah-lindqvist]
 title: Hannah Lindqvist
 description: Tech Lead on Global Transaction Services Integration (GTSI), accountable for the Swift API gateway (Microgateway) and SwiftNet PKI service accounts, and Tech Lead for the Swift Alliance Gateway / gpi Connector capability transferred from Payment Networks Engineering.
 tags: [person, tech-lead, gtsi, swift, pki, cross-border-payments, ownership]

@@ -1,4 +1,4 @@
-from app.retrieval_path import GraphIndex, build_retrieval_path, node_id_from_ref
+from app.retrieval_path import GraphIndex, build_retrieval_path, node_id_from_ref, split_ref, tag_cited_refs
 from app.tracing import TraceStep
 
 GRAPH = GraphIndex(
@@ -35,6 +35,45 @@ def test_node_id_from_ref():
     assert node_id_from_ref("openwiki/metrics/cet1-ratio.md#stack") == ("metrics/cet1-ratio", "stack")
     assert node_id_from_ref("openwiki/overview.md") == ("overview", None)
     assert node_id_from_ref("not-a-wiki-ref") is None
+    # Wiki-tagged refs: semantic parses, memory never yields a semantic-graph node.
+    assert node_id_from_ref("semantic:openwiki/overview.md#x") == ("overview", "x")
+    assert node_id_from_ref("memory:openwiki/overview.md#x") is None
+
+
+def test_split_ref():
+    assert split_ref("semantic:openwiki/a.md") == ("semantic", "openwiki/a.md")
+    assert split_ref("memory:openwiki/a.md") == ("memory", "openwiki/a.md")
+    assert split_ref("openwiki/a.md") == (None, "openwiki/a.md")
+
+
+def test_tag_cited_refs_attributes_by_seen_sets():
+    cited = ["openwiki/metrics/cet1-ratio.md#stack", "openwiki/turns/t1.md#a",
+             "openwiki/unseen.md#x", "semantic:openwiki/pre.md#y"]
+    tagged = tag_cited_refs(cited, ["openwiki/metrics/cet1-ratio.md#other"], ["openwiki/turns/t1.md#a"])
+    assert tagged == [
+        "semantic:openwiki/metrics/cet1-ratio.md#stack",  # page seen only via semantic tools
+        "memory:openwiki/turns/t1.md#a",                  # page seen only via memory tools
+        "openwiki/unseen.md#x",                           # never seen: left untagged (legacy gating)
+        "semantic:openwiki/pre.md#y",                     # already tagged: kept as-is
+    ]
+
+
+def test_memory_tagged_citation_never_counts_even_if_a_graph_node_collides():
+    # "overview" exists in the semantic graph, but the citation came from the memory wiki.
+    path = build_retrieval_path(STEPS, ["memory:openwiki/overview.md#intro"], GRAPH)
+    assert "overview" not in [n.id for n in path.nodes]
+
+
+def test_semantic_tagged_citation_counts_without_graph_membership():
+    path = build_retrieval_path(STEPS[:2], ["semantic:openwiki/not-in-graph.md#s"], GRAPH)
+    cited = [n for n in path.nodes if n.cited]
+    assert [n.id for n in cited] == ["not-in-graph"]
+
+
+def test_tagged_step_refs_parse_like_untagged_ones():
+    steps = (TraceStep(1, "semantic_search", '"q"', "1 hit", 5, ("semantic:openwiki/metrics/cet1-ratio.md#stack",)),)
+    path = build_retrieval_path(steps, [], GRAPH)
+    assert [n.id for n in path.nodes] == ["metrics/cet1-ratio"]
 
 
 def test_nodes_in_order_of_first_discovery_with_roles():
@@ -71,6 +110,20 @@ def test_links_are_graph_edges_between_visited_nodes_only():
         ("metrics/cet1-ratio", "concepts/stress-capital-buffer"),
         ("reports/annual-report-2025", "metrics/cet1-ratio"),
     ]
+
+
+def test_graph_tool_steps_count_as_semantic_with_ranks():
+    steps = (
+        TraceStep(1, "graph_query", '{"type": "FinancialMetric"}', "1 hit", 2,
+                  ("semantic:openwiki/metrics/cet1-ratio.md",)),
+        TraceStep(2, "graph_neighbors", '{"ref": "openwiki/metrics/cet1-ratio.md"}', "1 hit", 2,
+                  ("semantic:openwiki/concepts/stress-capital-buffer.md",)),
+    )
+    path = build_retrieval_path(steps, [], GRAPH)
+    assert [s.step for s in path.steps] == [1, 2]
+    cet1, scb = path.nodes
+    assert (cet1.id, cet1.best_rank, cet1.opened, cet1.found_in_step) == ("metrics/cet1-ratio", 1, False, 1)
+    assert (scb.id, scb.best_rank, scb.opened) == ("concepts/stress-capital-buffer", 1, False)
 
 
 def test_citation_of_a_node_no_tool_returned_is_kept_and_marked():

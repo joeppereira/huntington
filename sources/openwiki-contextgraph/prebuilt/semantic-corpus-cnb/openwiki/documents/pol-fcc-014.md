@@ -1,6 +1,6 @@
 ---
 type: Document
-entity_id: POL-FCC-014
+entity_id: DOC-POL-FCC-014
 title: "POL-FCC-014 v3.2 — Customer Communication of Payment Status, Holds & Exceptions Standard"
 description: Metadata record and content summary for Crestline National Bank's enterprise standard governing what payment status, hold and exception information may be disclosed to clients across all client-facing channels.
 tags: [policy-document, financial-crimes-compliance, payments, disclosure, sanctions, aml, customer-communication, pol-fcc-014]

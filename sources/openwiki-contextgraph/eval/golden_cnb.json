@@ -1,0 +1,1282 @@
+{
+  "name": "CNB payments-estate semantic wiki \u2014 golden evaluation set",
+  "version": "1.1",
+  "as_of": "2026-10-11",
+  "corpus": "sources/openwiki-contextgraph/semantic-corpus-cnb/openwiki",
+  "ground_truth": "sources/demo-docs/Wire_Tracking_Demo_Kit/estate_ground_truth.json",
+  "notes": "expected_entity_ids are taken from estate_ground_truth.json, NOT from wiki page frontmatter. Several wiki pages had corrupted entity_id frontmatter at authoring time (sps-read-model-api.md showed EP-PPH-01, cmp-2026-1189.md showed PIR-2024-07, gtsi-0107-gpi-real-time-service.md showed CBO-3790, gtsi-0112-gpi-knowledge-transfer.md showed CBO-4480); a concurrent repair pass is fixing these. Items hazard-tagged accordingly.",
+  "items": [
+    {
+      "id": "G-001",
+      "question": "What is the PRISM Payments Hub and what vendor platform is it built on?",
+      "class": "entity_lookup",
+      "expected_answer": "PRISM Payments Hub (PPH, SYS-PPH) is CNB's wire orchestration system, built on the vendor Volaris Payment Platform 9.4. It intakes, screens, funds-controls, releases, and settles Fedwire, Swift CBPR+, and book-transfer payments. Owned by Payments Hub Engineering (Director Raymond Ortiz).",
+      "expected_refs": [
+        "openwiki/systems/prism-payments-hub.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PPH",
+        "TEAM-PPH"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-002",
+      "question": "What is the CBO Status Projection Service and what payment types does it support today?",
+      "class": "entity_lookup",
+      "expected_answer": "SPS (SYS-CBO-SPS) is an event-driven status read model built for the ACH Payment Tracker (2025, story CBO-3815): a Kafka-consumer-to-Postgres pipeline exposing /cbo/sps/v1 (EP-SPS-01). It is configured for ACH only (consumes pay.ach.lifecycle.v1); wire is not configured and would need a new mapping module plus a consumer ACL on pay.wire.lifecycle.v2. Owned by CBO Platform & Entitlements.",
+      "expected_refs": [
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/interfaces/sps-read-model-api.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-CBO-SPS",
+        "EP-SPS-01",
+        "TEAM-CBO-PLT"
+      ],
+      "hazard": "corrupted_frontmatter: interfaces/sps-read-model-api.md carried entity_id EP-PPH-01 instead of EP-SPS-01 (under repair); scoring must use ground-truth id EP-SPS-01",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-003",
+      "question": "How fresh is the gpi tracking data available inside the bank, and where is it stored?",
+      "class": "entity_lookup",
+      "expected_answer": "gpi status is pulled from the Swift gpi Tracker by a scheduled batch job (BT-PNG-01) every 4 hours (00/04/08/12/16/20 ET) into the Oracle table GPI_TRACKER_SNAPSHOT, covering outbound UETRs from the last 30 days. Consumers are the Investigations Workbench and the TDIP nightly load. There is no API.",
+      "expected_refs": [
+        "openwiki/interfaces/gpi-tracker-batch-feed.md",
+        "openwiki/datasets/gpi-tracker-snapshot.md"
+      ],
+      "expected_entity_ids": [
+        "BT-PNG-01",
+        "SYS-PNG-GPI"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-004",
+      "question": "What rate limit applies to the PPH v1 wire status endpoint, and why was it imposed?",
+      "class": "entity_lookup",
+      "expected_answer": "EP-PPH-01 (GET /pph/v1/wires/{wireRef}/status) is limited to 20 TPS shared across all v1 consumers. The limit was imposed in June 2024 after INC-2024-1182, when Wire Status Lite pilot polling drove ~85 TPS and exhausted PPH's thread pool.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/incidents/inc-2024-1182.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "INC-2024-1182"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-005",
+      "question": "What are the seven status values of the PPH v1 wire status API?",
+      "class": "entity_lookup",
+      "expected_answer": "RECEIVED, PENDING, HELD, PROCESSED, REJECTED, CANCELLED, RETURNED. PROCESSED is a collapse of four distinct v2 lifecycle states.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-006",
+      "question": "Which hold reason code covers a possible duplicate wire, what disclosure tier is it, and can the client do anything about it digitally?",
+      "class": "entity_lookup",
+      "expected_answer": "HRC-01 (DUP_SUSPECT), tier C (client-actionable), copy key COPY-HOLD-DUP-01. Digital attestation (confirm/cancel) with step-up authentication is permitted under CTRL-PAY-031 (as updated by FCT-1951), up to the $5,000,000 Wire Room threshold. It is ~22% of holds.",
+      "expected_refs": [
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/projects/fct-1951-duplicate-suspect-attestation-pilot.md",
+        "openwiki/systems/hold-management-service.md"
+      ],
+      "expected_entity_ids": [
+        "HRC-01",
+        "FCT-1951",
+        "SYS-PRSP-HMS"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-007",
+      "question": "What MRM model ID is the Sentinel fraud scoring model registered under, and what restricts its use?",
+      "class": "entity_lookup",
+      "expected_answer": "M-FCT-0021, a third-party vendor Tier 1 financial-crimes model. Its above-threshold scores drive the HRC-07 FRAUD_MODEL_HIGH hold; under MRM-POL-02, financial-crimes model outputs may never be used for product, marketing, or client-facing purposes.",
+      "expected_refs": [
+        "openwiki/systems/sentinel-fraud-scoring.md",
+        "openwiki/policies/mrm-pol-02.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PRSP-SEN",
+        "HRC-07",
+        "MRM-POL-02"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-008",
+      "question": "Who owns CBO-3790?",
+      "class": "ownership",
+      "expected_answer": "Marcus Chen (P-MCHEN), Director, Digital Treasury Product and Product Owner of CBO Wire Center, owns the CBO-3790 ACH Payment Tracker epic (Done, R25.4, 2025-11, 89 points).",
+      "expected_refs": [
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/people/marcus-chen.md"
+      ],
+      "expected_entity_ids": [
+        "CBO-3790",
+        "P-MCHEN"
+      ],
+      "hazard": "diagnosed regression: earlier runs failed to resolve the epic owner",
+      "source": "diagnosed_failure"
+    },
+    {
+      "id": "G-009",
+      "question": "Who owns the Swift gpi connector today, and when did ownership change?",
+      "class": "ownership",
+      "expected_answer": "Global Transaction Services Integration (GTSI: Director Elena Vasquez, EM Omar Siddiqui, Tech Lead Hannah Lindqvist) owns the Swift Alliance & gpi Connector (SYS-PNG-GPI). Ownership transferred from Payment Networks Engineering (Raj Malhotra) effective 2026-10-01, per CNB-MEMO-2026-09; knowledge transfer runs until 2026-12-15 under GTSI-0112. Tomasz Nowak transferred from PNE to GTSI with the system.",
+      "expected_refs": [
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/projects/gtsi-0112-gpi-knowledge-transfer.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PNG-GPI",
+        "TEAM-GTSI",
+        "TEAM-PNE",
+        "CNB-MEMO-2026-09",
+        "GTSI-0112",
+        "P-OSIDD",
+        "P-TNOWAK"
+      ],
+      "hazard": "diagnosed regression: temporal ownership (valid_from) \u2014 latest ownership record must win over the older PNG-TDD-6.0 attribution to Raj Malhotra; gtsi-0112 page frontmatter entity_id was corrupted to CBO-4480 (under repair)",
+      "source": "diagnosed_failure"
+    },
+    {
+      "id": "G-010",
+      "question": "Who owns the Hold Management Service?",
+      "class": "ownership",
+      "expected_answer": "Financial Crimes Technology (Payment Risk & Screening Platform): Director Victor Petrov, EM Grace Mensah, Tech Lead Daniel Kowalski.",
+      "expected_refs": [
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/teams/financial-crimes-technology.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PRSP-HMS",
+        "TEAM-FCT",
+        "P-DKOWA"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-011",
+      "question": "Which function owns policy POL-FCC-014 and who handles channel reviews against it?",
+      "class": "ownership",
+      "expected_answer": "Financial Crimes Compliance (second line, under EVP Catherine Doyle) is the policy owner of POL-FCC-014. Channel/design reviews go through Jordan Ellis (VP, FCC Policy & Advisory); advisory review takes ~10 business days per submission.",
+      "expected_refs": [
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/teams/financial-crimes-compliance.md",
+        "openwiki/people/jordan-ellis.md"
+      ],
+      "expected_entity_ids": [
+        "POL-FCC-014",
+        "TEAM-FCC",
+        "P-JELLIS",
+        "P-CDOYLE"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-012",
+      "question": "After the 2026 cross-border re-org, which team owns the Fedwire Funds Connector?",
+      "class": "ownership",
+      "expected_answer": "Payment Networks Engineering (Raj Malhotra; EM Brian Walsh, Tech Lead Chen Wei) still owns the Fedwire Funds Connector (SYS-PNG-FFC). Only the Swift gpi Connector moved to GTSI; FFC is the PNG module that did not move.",
+      "expected_refs": [
+        "openwiki/systems/fedwire-funds-connector.md",
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/teams/payment-networks-engineering.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PNG-FFC",
+        "TEAM-PNE"
+      ],
+      "hazard": "distractor: the memo moved the sibling module; a shallow reader may conclude all of PNG moved to GTSI",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-013",
+      "question": "Who owns Jira stories CBO-4388 (hold-reason tooltip) and CBO-4402 ('Completed' label mapping)?",
+      "class": "ownership",
+      "expected_answer": "Jason Park (P-JPARK), Software Engineer II on the CBO Wire Center squad, owns both: CBO-4388 (In Progress, Sprint 26.20, populate tooltip from PPH v1 holdReasonDesc) and CBO-4402 (Done, R26.1, mapped PPH v1 PROCESSED to the client label 'Completed').",
+      "expected_refs": [
+        "openwiki/people/jason-park.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md"
+      ],
+      "expected_entity_ids": [
+        "P-JPARK",
+        "CBO-4388",
+        "CBO-4402"
+      ],
+      "hazard": "jira_only_entity: Jason Park has no people/ page in the wiki; both tickets are discussed on several wiki pages but the owner attribution exists only in the Jira export source document | 2026-10-10: person page created 2026-10-10 from Jira export; now the authoritative owner answer.",
+      "source": "authored"
+    },
+    {
+      "id": "G-014",
+      "question": "Who is the QA lead on the CBO Wire Center squad, and what accessibility work do they own?",
+      "class": "ownership",
+      "expected_answer": "Mei Tanaka (P-MTANA), QA Lead, CBO Wire Center. She owns CBO-4522, the Wire Center WCAG 2.1 AA remediation story (In Progress, Sprint 26.20, 8 points).",
+      "expected_refs": [
+        "openwiki/people/mei-tanaka.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md"
+      ],
+      "expected_entity_ids": [
+        "P-MTANA",
+        "CBO-4522"
+      ],
+      "hazard": "jira_only_entity: Mei Tanaka has no people/ page in the wiki; she exists only in the Jira export and org directory sources | 2026-10-10: people pages created from Jira export (gap-fix round); Mei Tanaka page is now the authoritative answer.",
+      "source": "authored"
+    },
+    {
+      "id": "G-015",
+      "question": "Is EP-PPH-01 deprecated, and what replaces it?",
+      "class": "deprecation_supersession",
+      "expected_answer": "Yes. EP-PPH-01 (GET /pph/v1/wires/{wireRef}/status) is the deprecated PPH v1 wire-status endpoint, sunset 2027-03-31 with no extensions. For channel-facing status it is replaced by the event-driven SPS read-model/timeline API (EP-SPS-01, /cbo/sps/v1) per ADR-PAY-019; for synchronous detail lookups, by the PPH v2 payments API (EP-PPH-04).",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/interfaces/pph-v2-payments-api.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "EP-SPS-01",
+        "ADR-PAY-019",
+        "EP-PPH-04"
+      ],
+      "hazard": "diagnosed regression: deprecated/replacement pair. The replacement page (sps-read-model-api.md) had corrupted frontmatter entity_id EP-PPH-01 \u2014 identical to the deprecated endpoint \u2014 which made retrieval conflate the two; score against ground-truth id EP-SPS-01",
+      "source": "diagnosed_failure"
+    },
+    {
+      "id": "G-016",
+      "question": "When does the PPH v1 API sunset, and can the date be extended?",
+      "class": "deprecation_supersession",
+      "expected_answer": "2027-03-31, no extensions \u2014 confirmed by the Payments ARB on 2026-09-08. The v1 adapter is not supported on the Volaris 9.6 upgrade scheduled for April 2027, which makes the date a hard technical deadline.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/documents/arb-pay-reg-2026q3.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "EP-PPH-02",
+        "EP-PPH-03",
+        "PPH-2190"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-017",
+      "question": "The team once proposed pulling gpi Tracker data every 2 hours instead of 4. What happened to that proposal and what superseded it?",
+      "class": "deprecation_supersession",
+      "expected_answer": "PNG-1544 was closed Won't Do (2026-03-03) because projected usage would exceed the contracted 250k Tracker API calls/month. It was superseded by GTSI-0107, the gpi Tracker Real-Time Service (GTRS) \u2014 a change-feed based internal API, unfunded for 2026, discovery 2027-Q2, build 2027-Q3/Q4.",
+      "expected_refs": [
+        "openwiki/decisions/png-1544.md",
+        "openwiki/projects/gtsi-0107-gpi-real-time-service.md"
+      ],
+      "expected_entity_ids": [
+        "PNG-1544",
+        "GTSI-0107"
+      ],
+      "hazard": "gtsi-0107 page frontmatter entity_id was corrupted to CBO-3790 (under repair); score against ground-truth id GTSI-0107",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-018",
+      "question": "Which PPH v2 endpoint replaces the v1 wire list endpoint, and what extra work does CBO need to use it?",
+      "class": "deprecation_supersession",
+      "expected_answer": "EP-PPH-05 (GET /pph/v2/payments?clientId&rail&state&from&to&cursor; GA 2025-10, 150 TPS) replaces EP-PPH-02 (max 500 rows, no cursor). v2 search filters only by clientId, so CBO must post-filter to the user's entitled accounts \u2014 the CES account-filter mapping story CBO-4473, which blocks migration epic CBO-4471.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/interfaces/ces-entitlements-api.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-05",
+        "EP-PPH-02",
+        "CBO-4473",
+        "CBO-4471",
+        "EP-CES-01"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-019",
+      "question": "Does CNB still send MT103 messages for cross-border wires?",
+      "class": "deprecation_supersession",
+      "expected_answer": "No. GPI-C sends CBPR+ ISO 20022 pacs.008 customer credit transfers, mandatory since Swift ended MT/MX coexistence on 2025-11-22; CNB does not use the MT103 contingency conversion path.",
+      "expected_refs": [
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/concepts/swift-gpi-cbpr.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PNG-GPI"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-020",
+      "question": "I've uploaded my market research and concept. Before I write the BRD: which existing systems does the Wire Tracking Center depend on, and who owns each today?",
+      "class": "dependency_impact",
+      "expected_answer": "Six systems outside the portal: PPH (Payments Hub Engineering), Fedwire Funds Connector (PNE), Swift gpi Connector (GTSI \u2014 not PNE, moved 2026-10-01), HMS (FCT), ENS (Enterprise Notification Platform), TDIP (Treasury Data & Analytics). Plus three CBO platform services: SPS and CES (CBO Platform & Entitlements) and step-up auth. Plus ~8 partner functions with gates: FCC, MRM, Privacy, DRC, ARB, InfoSec, Payment Ops, Treasury Support. Key correction: gpi is owned by GTSI (Omar Siddiqui), not Raj Malhotra.",
+      "expected_refs": [
+        "openwiki/systems/prism-payments-hub.md",
+        "openwiki/systems/fedwire-funds-connector.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/systems/enterprise-notification-service.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/systems/commercial-entitlements-service.md",
+        "openwiki/documents/cnb-memo-2026-09.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PPH",
+        "SYS-PNG-FFC",
+        "SYS-PNG-GPI",
+        "SYS-PRSP-HMS",
+        "SYS-ENS",
+        "SYS-TDIP",
+        "SYS-CBO-SPS",
+        "SYS-CES",
+        "TEAM-GTSI"
+      ],
+      "hazard": "scripted demo Q1; requires multi-page traversal plus the temporal ownership correction for gpi",
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-021",
+      "question": "For international wires I want the live SWIFT gpi route, refreshed every minute, with 'Expected delivery: Today'. Feasible for Q1 2027?",
+      "class": "dependency_impact",
+      "expected_answer": "Not as specified. gpi data is a 4-hourly batch (BT-PNG-01) with no API; per-wire Tracker calls are blocked by the 250k/month vendor quota (PNG-1544); the ARB forbids direct exposure of the snapshot; the real-time service (GTRS, GTSI-0107) is unfunded for 2026 with discovery in 2027-Q2. A 4-hour-fresh 'as of' view via a GTSI read-only service is feasible for 2027-Q2 (~21 points, ARB review), with G001 handling; the UETR join needs PPH v2. Also note ownership moved to GTSI on 2026-10-01.",
+      "expected_refs": [
+        "openwiki/interfaces/gpi-tracker-batch-feed.md",
+        "openwiki/decisions/png-1544.md",
+        "openwiki/projects/gtsi-0107-gpi-real-time-service.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/documents/cnb-memo-2026-09.md"
+      ],
+      "expected_entity_ids": [
+        "BT-PNG-01",
+        "PNG-1544",
+        "GTSI-0107",
+        "SYS-PNG-GPI",
+        "EP-PNG-X1"
+      ],
+      "hazard": "scripted demo Q3; includes a DOES-NOT-EXIST interface (EP-PNG-X1) that has no dedicated wiki page",
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-022",
+      "question": "Before I go further - is anything already in the Wire Center backlog or in production that conflicts with policy or with this feature?",
+      "class": "dependency_impact",
+      "expected_answer": "Yes, five items. Critical: CBO-4388 (hold-reason tooltip from PPH v1 holdReasonDesc) would ship Restricted HMS free text to clients on 2026-10-22 \u2014 stop it and notify FCC (Jordan Ellis) and FCT. High: CBO-4402 'Completed' label plus ENS template TPL-WIRE-REL-02 'Wire completed' shown at release (linked to complaint CMP-2026-1189) \u2014 relabel to 'Sent' via DRC. High: CBO-4471 v1-to-v2 migration unscheduled against the hard 2027-03-31 sunset. Medium: CBO-4480 gpi spike points at the stale owner (PNE/Raj Malhotra) \u2014 re-route to GTSI. Low: TDA-2188 hourly load cannot beat the 4-hour source freshness.",
+      "expected_refs": [
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/policies/pol-fcc-014.md"
+      ],
+      "expected_entity_ids": [
+        "CBO-4388",
+        "CBO-4402",
+        "CBO-4471",
+        "CBO-4480",
+        "TDA-2188",
+        "CMP-2026-1189",
+        "POL-FCC-014"
+      ],
+      "hazard": "scripted demo Q5 \u2014 the 'stop the release' moment; multi-hop (policy page never mentions CBO-4388)",
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-023",
+      "question": "What blocks the Wire Center migration from PPH v1 to v2, and how urgent is it?",
+      "class": "dependency_impact",
+      "expected_answer": "Epic CBO-4471 (34 points) is in backlog, unscheduled, and depends on CBO-4473 (CES account-filter mapping, 8 points, owner Arjun Mehta) because v2 search filters only by clientId. It must complete before the hard 2027-03-31 v1 sunset (no extensions); cbo-wire-bff is the only major v1 consumer that has not started (PPH-2190).",
+      "expected_refs": [
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/interfaces/ces-entitlements-api.md"
+      ],
+      "expected_entity_ids": [
+        "CBO-4471",
+        "CBO-4473",
+        "PPH-2190",
+        "P-AMEHT"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-024",
+      "question": "If a feature needs the exact Fed settlement timestamp for a domestic wire in the PPH v2 API, what has to happen first?",
+      "class": "dependency_impact",
+      "expected_answer": "PPH-2207 must be built: a backlog story (8 points, owner Sunita Rao, no product sponsor) to add a rail-specific settlement object (settlementStatus, fedSettlementTs, omad) sourced from pacs.002 acks on net.fedwire.ack.v1. Today the v2 stateHistory NETWORK_ACCEPTED timestamp is PPH processing time, not Fed receipt time.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/interfaces/fedwire-network-ack-topics.md",
+        "openwiki/concepts/imad-omad.md"
+      ],
+      "expected_entity_ids": [
+        "PPH-2207",
+        "EV-PNG-01",
+        "EP-PPH-06",
+        "P-SRAO"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-025",
+      "question": "TDIP is moving the gpi_tracker_events load from nightly to hourly (TDA-2188). Will that give clients fresher international wire status?",
+      "class": "dependency_impact",
+      "expected_answer": "No meaningful improvement beyond ~4 hours: the upstream source, the gpi Tracker batch pull (BT-PNG-01), only runs every 4 hours, so an hourly downstream load cannot beat the source's freshness. TDA-2188 reduces TDIP's added latency only.",
+      "expected_refs": [
+        "openwiki/datasets/gpi-tracker-events.md",
+        "openwiki/interfaces/gpi-tracker-batch-feed.md"
+      ],
+      "expected_entity_ids": [
+        "TDA-2188",
+        "BT-PNG-01"
+      ],
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-026",
+      "question": "Can a client subscribe to a single wire - 'notify me when it settles'?",
+      "class": "dependency_impact",
+      "expected_answer": "Not natively. ENS subscriptions are by eventType plus accountId filter (EP-ENS-02); per-entity (paymentId) subscriptions arrive only with ENS-1120 in 2027-H1. A workaround is an SPS watch list with producer-resolved recipients. New TRS.WIRE event types would be needed, each with the 6-week ENS onboarding SLA and DRC template review; and a 'notify when released' option is allowed only if offered identically for all hold tiers.",
+      "expected_refs": [
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/projects/ens-1120-entity-level-subscriptions.md",
+        "openwiki/systems/enterprise-notification-service.md",
+        "openwiki/policies/pol-fcc-014.md"
+      ],
+      "expected_entity_ids": [
+        "EP-ENS-02",
+        "ENS-1120",
+        "SYS-ENS"
+      ],
+      "hazard": "scripted demo Q8",
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-027",
+      "question": "List the three endpoints of the PPH v1 API with their IDs and purposes.",
+      "class": "inventory_coverage",
+      "expected_answer": "EP-PPH-01 GET /pph/v1/wires/{wireRef}/status (coarse status, 7 values); EP-PPH-02 GET /pph/v1/wires?clientId&fromDate&toDate (list, max 500 rows, no cursor); EP-PPH-03 POST /pph/v1/wires (submit approved wire). All deprecated, sunset 2027-03-31.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "EP-PPH-02",
+        "EP-PPH-03"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-028",
+      "question": "Enumerate every interface in the payments estate \u2014 REST endpoints, Kafka topics, and batch feeds \u2014 with their IDs.",
+      "class": "inventory_coverage",
+      "expected_answer": "31 ground-truth interface entries: EP-PPH-01..07, EV-PPH-01/02, EV-PNG-01/02, BT-PNG-01, EP-PNG-X1, EP-HMS-01/02, EP-HMS-X1/X2, EV-HMS-01, EP-ENS-01/02/03, EP-TDIP-01, EP-TDIP-X1/X2, EP-CES-01/02, EP-SPS-01, EP-CBO-01/02/03, EP-AUTH-01. Five of these (EP-PNG-X1, EP-HMS-X1, EP-HMS-X2, EP-TDIP-X1, EP-TDIP-X2) are proposed and DO NOT EXIST.",
+      "expected_refs": [
+        "openwiki/interfaces/index.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/interfaces/pph-lifecycle-event-topics.md",
+        "openwiki/interfaces/fedwire-network-ack-topics.md",
+        "openwiki/interfaces/gpi-tracker-batch-feed.md",
+        "openwiki/interfaces/hms-hold-api.md",
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/interfaces/tdip-insights-api.md",
+        "openwiki/interfaces/ces-entitlements-api.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/interfaces/cbo-auth-step-up-api.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "EP-PPH-02",
+        "EP-PPH-03",
+        "EP-PPH-04",
+        "EP-PPH-05",
+        "EP-PPH-06",
+        "EP-PPH-07",
+        "EV-PPH-01",
+        "EV-PPH-02",
+        "EV-PNG-01",
+        "EV-PNG-02",
+        "BT-PNG-01",
+        "EP-PNG-X1",
+        "EP-HMS-01",
+        "EP-HMS-02",
+        "EP-HMS-X1",
+        "EP-HMS-X2",
+        "EV-HMS-01",
+        "EP-ENS-01",
+        "EP-ENS-02",
+        "EP-ENS-03",
+        "EP-TDIP-01",
+        "EP-TDIP-X1",
+        "EP-TDIP-X2",
+        "EP-CES-01",
+        "EP-CES-02",
+        "EP-SPS-01",
+        "EP-CBO-01",
+        "EP-CBO-02",
+        "EP-CBO-03",
+        "EP-AUTH-01"
+      ],
+      "hazard": "coverage_gap: the wiki collapses 31 ground-truth interface entries into 11 interface pages (multi-endpoint pages like EP-PPH-04..07 and EP-ENS-01..03; no dedicated pages for EP-CBO-01..03 or the five DOES-NOT-EXIST proposals). Exhaustive recall currently fails; this item exists to measure it.",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-029",
+      "question": "Which proposed payment-estate interfaces do NOT exist yet, and what ticket or need covers each?",
+      "class": "inventory_coverage",
+      "expected_answer": "Five: EP-PNG-X1 internal gpi status API (proposed under GTSI-0107, discovery 2027-Q2); EP-HMS-X1 client-safe hold view GET /holds/{holdId}/client-view (FCT-1893, 21 pts, deprioritized); EP-HMS-X2 client attestation POST /holds/{holdId}/client-attestation (required by CTRL-PAY-031 digital path, no ticket); EP-TDIP-X1 client wire-history stats endpoint (needed for Wire Insights); EP-TDIP-X2 corridor-stats endpoint with DUS-07 suppression (feature table exists per TDA-2140 but no threshold flag).",
+      "expected_refs": [
+        "openwiki/interfaces/proposed-interfaces-registry.md",
+        "openwiki/projects/gtsi-0107-gpi-real-time-service.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/interfaces/tdip-insights-api.md",
+        "openwiki/datasets/wire-corridor-stats-daily.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PNG-X1",
+        "EP-HMS-X1",
+        "EP-HMS-X2",
+        "EP-TDIP-X1",
+        "EP-TDIP-X2",
+        "FCT-1893",
+        "GTSI-0107",
+        "TDA-2140"
+      ],
+      "hazard": "coverage_gap: DOES-NOT-EXIST interfaces have no dedicated wiki pages; they are mentioned only inside other pages, so inventory recall is fragile | 2026-10-10: registry page created 2026-10-10 enumerating DOES-NOT-EXIST interfaces; directly answers this.",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-030",
+      "question": "List every live TRS-domain event type registered in the ENS catalog today.",
+      "class": "inventory_coverage",
+      "expected_answer": "Six live event types: TRS.WIRE.APPROVAL_REQUIRED (TPL-WIRE-APR-01), TRS.WIRE.RELEASED (TPL-WIRE-REL-02 'Wire completed'), TRS.WIRE.REJECTED (TPL-WIRE-REJ-01), TRS.WIRE.INCOMING_POSTED (TPL-WIRE-IN-03, produced by CDP), TRS.ACH.STATUS_CHANGED (TPL-ACH-STS-01), TRS.ACH.RETURN_RECEIVED (TPL-ACH-RET-01). No event exists for network acceptance, gpi ACCC, returns, or held-wire client action.",
+      "expected_refs": [
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/systems/enterprise-notification-service.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-ENS",
+        "EP-ENS-03"
+      ],
+      "hazard": "coverage_gap: the ENS interface page merges three endpoints (EP-ENS-01..03) and the whole TRS catalog into one page; retrieval that keys on per-endpoint pages has historically missed the event-type enumeration",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-031",
+      "question": "What endpoints does the CBO wire BFF expose, and which upstream PPH endpoints do they call?",
+      "class": "inventory_coverage",
+      "expected_answer": "Three: EP-CBO-01 GET /cbo/wire-bff/v1/wires (activity list, calls EP-PPH-02); EP-CBO-02 GET /cbo/wire-bff/v1/wires/{cboRef} (detail, calls EP-PPH-01); EP-CBO-03 POST /cbo/wire-bff/v1/wires/{cboRef}/refresh-status (user-initiated refresh, throttled to 1 per 60s per wire under ADR-PAY-019).",
+      "expected_refs": [
+        "openwiki/interfaces/cbo-wire-bff-api.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/decisions/adr-pay-019.md"
+      ],
+      "expected_entity_ids": [
+        "EP-CBO-01",
+        "EP-CBO-02",
+        "EP-CBO-03",
+        "SYS-CBO",
+        "ADR-PAY-019"
+      ],
+      "hazard": "coverage_gap: no dedicated interface page exists for the wire-bff endpoints; the facts live inside the system page, so interface-inventory queries miss them | 2026-10-10: cbo-wire-bff-api.md created (gap-fix round); now the authoritative answer.",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-032",
+      "question": "What is the status of PIR-2024-07?",
+      "class": "incident_history",
+      "expected_answer": "PIR-2024-07 is the closed/completed 2024 post-implementation review of the Wire Status Lite pilot (CBO-3120) and incident INC-2024-1182. The review itself concluded in 2024 (the pilot was terminated and the epic closed Won't Do), but one of its remediation actions remains open: validating client-facing status terminology with FCC and Legal. It is NOT the 2026 regulatory complaint \u2014 that is CMP-2026-1189, a different record.",
+      "expected_refs": [
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/documents/pir-2024-07.md",
+        "openwiki/projects/cbo-3120-wire-status-lite-pilot.md"
+      ],
+      "expected_entity_ids": [
+        "PIR-2024-07",
+        "INC-2024-1182",
+        "CBO-3120"
+      ],
+      "hazard": "diagnosed regression: the cmp-2026-1189.md incident page carried corrupted frontmatter entity_id PIR-2024-07 (under repair), causing answers to conflate the closed 2024 PIR with the open 2026 complaint CMP-2026-1189",
+      "source": "diagnosed_failure"
+    },
+    {
+      "id": "G-033",
+      "question": "What happened in INC-2024-1182 and what was the business impact?",
+      "class": "incident_history",
+      "expected_answer": "On 2024-05-31 (month-end), the Wire Status Lite pilot's 30-second browser polling of the PPH v1 status API drove ~85 TPS, exhausting PPH's shared thread pool and delaying wire release for 47 minutes. Impact: 1,240 wires delayed, 312 released after the 6:00 p.m. ET Fedwire customer cutoff (value next day), 14 clients compensated $41,800 in interest claims. The pilot was terminated.",
+      "expected_refs": [
+        "openwiki/incidents/inc-2024-1182.md",
+        "openwiki/incidents/pir-2024-07.md"
+      ],
+      "expected_entity_ids": [
+        "INC-2024-1182",
+        "CBO-3120",
+        "PIR-2024-07"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-034",
+      "question": "What is CMP-2026-1189?",
+      "class": "incident_history",
+      "expected_answer": "An open regulatory complaint from Halvorsen Industrial Supply: an EUR 412,600 international wire was shown 'Completed' in CBO at release on 2026-09-16, the client shipped goods in reliance on it, and the beneficiary bank rejected the payment the next day (RJCT, ISO reason AC04, account closed). It is tracked against open bug CBO-4419 (root cause TBD).",
+      "expected_refs": [
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md"
+      ],
+      "expected_entity_ids": [
+        "CMP-2026-1189",
+        "CBO-4419"
+      ],
+      "hazard": "corrupted_frontmatter: the page's entity_id was PIR-2024-07 (under repair); score against CMP-2026-1189",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-035",
+      "question": "Has anyone attempted wire tracking before? What should we avoid, and what can we reuse?",
+      "class": "incident_history",
+      "expected_answer": "Yes \u2014 Wire Status Lite (CBO-3120, 2024) auto-refreshed wire status by polling PPH v1 and caused INC-2024-1182; it was closed Won't Do and produced ADR-PAY-019 (event-driven status only, no PPH polling). A PIR action to validate status terminology with FCC was never closed, and 'Completed' was later reintroduced (CBO-4402). Reusable: the Aurora <cbo-journey-timeline> component (CBO-3802) and SPS (CBO-3815) \u2014 roughly 30 points saved; FCT-1951's attestation evidence; and the cash-forecast Insights API pattern (EP-TDIP-01, noting the model's re-tiering).",
+      "expected_refs": [
+        "openwiki/projects/cbo-3120-wire-status-lite-pilot.md",
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/projects/fct-1951-duplicate-suspect-attestation-pilot.md",
+        "openwiki/interfaces/tdip-insights-api.md"
+      ],
+      "expected_entity_ids": [
+        "CBO-3120",
+        "INC-2024-1182",
+        "ADR-PAY-019",
+        "CBO-3802",
+        "CBO-3815",
+        "FCT-1951",
+        "EP-TDIP-01"
+      ],
+      "hazard": "scripted demo Q9",
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-036",
+      "question": "Which Jira item tracks the 'Completed then rejected' client complaint, and who owns it?",
+      "class": "incident_history",
+      "expected_answer": "CBO-4419 (Bug, Open, backlog, root cause TBD), owned by Tom Becker (EM, CBO Wire Center squad). It relates to complaint CMP-2026-1189.",
+      "expected_refs": [
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/people/tom-becker.md"
+      ],
+      "expected_entity_ids": [
+        "CBO-4419",
+        "CMP-2026-1189",
+        "P-TBECK"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-037",
+      "question": "My timeline ends in 'Settled'. Wire Center already shows 'Completed' - can we just use that?",
+      "class": "policy_constraint",
+      "expected_answer": "No \u2014 and today's 'Completed' label is itself a problem: it maps PPH v1 PROCESSED, which is set at release before Fed acceptance (the issue behind CMP-2026-1189), and the ENS 'Wire completed' template (TPL-WIRE-REL-02) has the same defect. A real settlement milestone needs the v2 migration (CBO-4471, before the 2027-03-31 sunset), event-driven status via SPS per ADR-PAY-019, rail-aware state mapping, and PPH-2207 for the Fed timestamp. Domestic milestones may only go as far as 'Delivered to beneficiary's bank' (Fed acceptance, show OMAD) \u2014 never 'credited' for domestic wires. Action: sponsor PPH-2207 at the 2026-10-21 Demand Board.",
+      "expected_refs": [
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/decisions/adr-pay-019.md"
+      ],
+      "expected_entity_ids": [
+        "CBO-4402",
+        "CBO-4471",
+        "PPH-2207",
+        "ADR-PAY-019",
+        "CMP-2026-1189",
+        "POL-FCC-014"
+      ],
+      "hazard": "scripted demo Q2",
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-038",
+      "question": "May a CBO screen display the hold reason text that comes back in the PPH v1 holdReasonDesc field?",
+      "class": "policy_constraint",
+      "expected_answer": "No. holdReasonDesc is populated from HMS's internal hold description, which may include the HRC code and analyst notes \u2014 Restricted data. ADR-PAY-021 confines hold reasons/scores/notes to the financial-crimes trust boundary (v2 exposes only isHeld + holdId); POL-FCC-014's disclosure tiers govern what clients may see; FCT-2004 is the open risk item requiring consumers not to display the field. CBO-4388 (the tooltip story) would violate all of this.",
+      "expected_refs": [
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md"
+      ],
+      "expected_entity_ids": [
+        "ADR-PAY-021",
+        "POL-FCC-014",
+        "FCT-2004",
+        "CBO-4388",
+        "EP-PPH-01",
+        "SYS-PRSP-HMS"
+      ],
+      "hazard": "multi-hop by design: the policy never mentions CBO-4388; the connection must be inferred across Jira, API catalog, HMS and policy pages",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-039",
+      "question": "What does DUS-07 require before a corridor statistic like '92% of EUR wires complete same day' can be shown to a client?",
+      "class": "policy_constraint",
+      "expected_answer": "Cohort aggregation/suppression thresholds must be met (minimum distinct originating clients per cell) with purpose-limitation compliance; thin corridors such as NGN/NG (and MXN/MX) fail the thresholds and must be suppressed. The wire_corridor_stats_daily feature table (TDA-2140) exists but has no threshold flag, and the client-facing serving endpoint (EP-TDIP-X2) does not exist. The statistic also counts as an End-User Analytic with DRC-approved wording.",
+      "expected_refs": [
+        "openwiki/policies/dus-07.md",
+        "openwiki/datasets/wire-corridor-stats-daily.md",
+        "openwiki/interfaces/tdip-insights-api.md"
+      ],
+      "expected_entity_ids": [
+        "DUS-07",
+        "TDA-2140",
+        "EP-TDIP-X2"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-040",
+      "question": "Can we show a client 'this beneficiary typically moves funds within 4 hours of receipt'?",
+      "class": "policy_constraint",
+      "expected_answer": "Not permitted. That figure can only come from another client's deposit account activity via the Restricted beneficiary_behavior_profile table, which exists solely to feed the Tier 1 fraud model M-FCT-0034 and is barred from product or client-facing use. Showing it breaches DUS-07 \u00a73 and \u00a74 (purpose limitation, cross-client confidentiality) and MRM-POL-02 \u00a74. A compliant alternative: 'your last N wires to this beneficiary were credited in a median X hours' from the client's own data, with N >= 5.",
+      "expected_refs": [
+        "openwiki/datasets/beneficiary-behavior-profile.md",
+        "openwiki/policies/dus-07.md",
+        "openwiki/policies/mrm-pol-02.md"
+      ],
+      "expected_entity_ids": [
+        "DUS-07",
+        "MRM-POL-02"
+      ],
+      "hazard": "demo Q6 core catch (seeded finding F10); requires field-level lineage reasoning",
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-041",
+      "question": "If we build a 'predicted delivery time' feature for wires, what risk tier applies and how long does approval take?",
+      "class": "policy_constraint",
+      "expected_answer": "Customer-facing estimates are Tier 2 minimum under MRM-POL-02: independent validation of 10-14 weeks (160-240 validator hours) plus the current ~6-week MRM intake queue \u2014 roughly 16-20 weeks end to end. This pushes any predicted-delivery feature to a later phase.",
+      "expected_refs": [
+        "openwiki/policies/mrm-pol-02.md"
+      ],
+      "expected_entity_ids": [
+        "MRM-POL-02"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-042",
+      "question": "Review my held-wire design: clients see the exact hold reason and get Confirm/Reject buttons on every held wire. Any issues?",
+      "class": "policy_constraint",
+      "expected_answer": "Four policy issues and two missing endpoints. Policy: (1) exact hold reasons expose Restricted (R-tier) categories \u2014 R and G tiers must show identical generic copy; (2) R-tier holds must be indistinguishable from generic review (no tipping off / SAR confidentiality); (3) Confirm/Reject is allowed only for HRC-01 with step-up auth (CTRL-PAY-031, up to $5M) \u2014 HRC-02 gets 'request callback' only (CTRL-PAY-018); (4) no ETA may be shown on held wires. Missing endpoints: EP-HMS-X1 client-safe hold view (FCT-1893, 21 pts) and EP-HMS-X2 client attestation. FCC review is required and the FCT Dec-15 to Jan-05 change freeze applies.",
+      "expected_refs": [
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/projects/fct-1951-duplicate-suspect-attestation-pilot.md"
+      ],
+      "expected_entity_ids": [
+        "POL-FCC-014",
+        "HRC-01",
+        "HRC-02",
+        "EP-HMS-X1",
+        "EP-HMS-X2",
+        "FCT-1893",
+        "FCT-1951",
+        "SYS-PRSP-HMS"
+      ],
+      "hazard": "scripted demo Q4 \u2014 the critical compliance catch; spans restricted taxonomy, policy tiers, controls and nonexistent endpoints",
+      "source": "demo_pack"
+    },
+    {
+      "id": "G-043",
+      "question": "What restrictions apply if we let a client share a wire-tracking link with the payment recipient?",
+      "class": "policy_constraint",
+      "expected_answer": "Per POL-FCC-014 \u00a75.4: the shared view must contain no account numbers or fee information, links must expire within 7 days, the capability must be enabled by a client administrator, and the design requires InfoSec approval under SEC-STD-22 plus a Privacy Impact Assessment.",
+      "expected_refs": [
+        "openwiki/policies/sec-std-22.md",
+        "openwiki/policies/pol-fcc-014.md"
+      ],
+      "expected_entity_ids": [
+        "POL-FCC-014"
+      ],
+      "source": "ground_truth",
+      "hazard": " | 2026-10-10: SEC-STD-22 page created 2026-10-10 from CBO-ARCH-WC-4.1; the external-sharing standard governing this feature."
+    },
+    {
+      "id": "G-044",
+      "question": "Which API tells a client where their money is right now for a wire they sent?",
+      "class": "hard_vocab_gap",
+      "expected_answer": "Today Wire Center answers that from the deprecated PPH v1 status endpoint EP-PPH-01 (via the BFF's EP-CBO-02); PPH v2 offers EP-PPH-04 GET /pph/v2/payments/{paymentId} with the full lifecycleState. The compliant target pattern is the SPS read-model timeline (EP-SPS-01) fed by pay.wire.lifecycle.v2 per ADR-PAY-019.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/interfaces/sps-read-model-api.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "EP-PPH-04",
+        "EP-SPS-01"
+      ],
+      "hazard": "vocab_gap: 'where their money is right now' shares no words with 'wire status API' page titles; tests semantic rather than lexical retrieval",
+      "source": "authored"
+    },
+    {
+      "id": "G-045",
+      "question": "A customer sent money overseas and wants to see which banks it has passed through so far. Where does that information live inside the bank, and who can see it?",
+      "class": "hard_vocab_gap",
+      "expected_answer": "In the Swift gpi Tracker data pulled every 4 hours by GPI-C into the Oracle table GPI_TRACKER_SNAPSHOT (BT-PNG-01). Today only Payment Operations can see it, via the Investigations Workbench; there is no client-facing or internal API.",
+      "expected_refs": [
+        "openwiki/interfaces/gpi-tracker-batch-feed.md",
+        "openwiki/datasets/gpi-tracker-snapshot.md",
+        "openwiki/systems/investigations-workbench.md"
+      ],
+      "expected_entity_ids": [
+        "BT-PNG-01",
+        "SYS-IWB",
+        "SYS-PNG-GPI"
+      ],
+      "hazard": "vocab_gap: 'which banks it has passed through' never appears on any page; must map to gpi Tracker route/snapshot",
+      "source": "authored"
+    },
+    {
+      "id": "G-046",
+      "question": "Why might the bank deliberately refuse to tell a customer the real reason their payment is stuck?",
+      "class": "hard_vocab_gap",
+      "expected_answer": "Because the hold is in a Restricted (R) disclosure tier \u2014 fraud (HRC-07), account takeover (HRC-08), sanctions (HRC-09), AML/FIU (HRC-10) or legal hold (HRC-11). POL-FCC-014 requires identical generic copy (COPY-HOLD-GEN-01) for these so clients cannot distinguish them: revealing the reason could tip off bad actors or breach SAR confidentiality.",
+      "expected_refs": [
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/policies/pol-fcc-014.md"
+      ],
+      "expected_entity_ids": [
+        "POL-FCC-014",
+        "HRC-07",
+        "HRC-08",
+        "HRC-09",
+        "HRC-10",
+        "HRC-11"
+      ],
+      "hazard": "vocab_gap: 'payment is stuck' / 'refuse to tell' paraphrase; answer requires tier semantics, not keyword match",
+      "source": "authored"
+    },
+    {
+      "id": "G-047",
+      "question": "What's the equivalent of a parcel tracking number for an international payment, and does our legacy status API return it?",
+      "class": "hard_vocab_gap",
+      "expected_answer": "The UETR (unique end-to-end transaction reference), a UUID v4 assigned by PPH at release. No \u2014 the legacy PPH v1 API does not return it; only PPH v2's identifiers block carries uetr (plus imad/omad/endToEndId).",
+      "expected_refs": [
+        "openwiki/concepts/uetr.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/interfaces/pph-v2-payments-api.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "EP-PPH-04"
+      ],
+      "hazard": "vocab_gap: 'parcel tracking number' paraphrase for UETR",
+      "source": "authored"
+    },
+    {
+      "id": "G-048",
+      "question": "When the Federal Reserve accepts one of our outgoing wires, which message proves it, what reference does it carry, and how does that proof reach our systems?",
+      "class": "hard_vocab_gap",
+      "expected_answer": "A pacs.002 positive acknowledgment carrying the OMAD (output message accountability data, the Fed acceptance reference) and the Fed creation timestamp. The Fedwire Funds Connector publishes it on the Kafka topic net.fedwire.ack.v1 (EV-PNG-01); today PPH is the only consumer, and TDIP ingestion is an unscheduled backlog item (TDA-2210).",
+      "expected_refs": [
+        "openwiki/interfaces/fedwire-network-ack-topics.md",
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/systems/fedwire-funds-connector.md"
+      ],
+      "expected_entity_ids": [
+        "EV-PNG-01",
+        "SYS-PNG-FFC",
+        "TDA-2210"
+      ],
+      "hazard": "vocab_gap: question avoids the terms 'pacs.002', 'OMAD' and the topic name",
+      "source": "authored"
+    },
+    {
+      "id": "G-049",
+      "question": "Is 'CBO Wire Center' a system or a team at CNB?",
+      "class": "collision_disambiguation",
+      "expected_answer": "Both names exist and must not be conflated: the CBO Wire Center (SYS-CBO) is the wire module of the Crestline Business Online portal (a system), while the CBO Wire Center Squad (TEAM-CBO-WC) is the Digital Treasury Channels engineering team that owns it (leader Anjali Deshpande; EM Tom Becker; Jira project CBO; #cbo-wire-center).",
+      "expected_refs": [
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/teams/cbo-wire-center-squad.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-CBO",
+        "TEAM-CBO-WC"
+      ],
+      "hazard": "collision: near-identical titles across the systems/ and teams/ folders",
+      "source": "authored"
+    },
+    {
+      "id": "G-050",
+      "question": "What is the difference between the Enterprise Notification Service and the Enterprise Notification Platform?",
+      "class": "collision_disambiguation",
+      "expected_answer": "The Enterprise Notification Service (ENS, SYS-ENS) is the system \u2014 the shared email/SMS/push/in-app notification platform. The Enterprise Notification Platform (TEAM-ENS) is the team that owns it: Director Sanjay Iyer, EM Melissa Grant, onboarding coordinator Paul Henderson, with the 6-week event-onboarding SLA.",
+      "expected_refs": [
+        "openwiki/systems/enterprise-notification-service.md",
+        "openwiki/teams/enterprise-notification-platform.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-ENS",
+        "TEAM-ENS",
+        "P-SIYER",
+        "P-MGRANT"
+      ],
+      "hazard": "collision: 'Service' vs 'Platform' \u2014 one word distinguishes system from team",
+      "source": "authored"
+    },
+    {
+      "id": "G-051",
+      "question": "There are two wiki pages titled POL-FCC-014. Which one holds the normative policy rules, and what is the other for?",
+      "class": "collision_disambiguation",
+      "expected_answer": "policies/pol-fcc-014.md holds the normative content: disclosure tiers, status terminology gates, third-party sharing limits, predictive-statement conditions, prohibited terms. documents/pol-fcc-014.md is the document metadata record for POL-FCC-014 v3.2 (identity, version, owner, approvals). Policy questions should ground on the policies/ page.",
+      "expected_refs": [
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/documents/pol-fcc-014.md"
+      ],
+      "expected_entity_ids": [
+        "POL-FCC-014"
+      ],
+      "hazard": "collision: identical entity_id and near-identical title on two pages of different types; same pattern exists for DUS-07, MRM-POL-02 and PIR-2024-07",
+      "source": "authored"
+    },
+    {
+      "id": "G-052",
+      "question": "PIR-2024-07 appears under both incidents/ and documents/ in the wiki. What does each page contain?",
+      "class": "collision_disambiguation",
+      "expected_answer": "incidents/pir-2024-07.md carries the full narrative of the post-implementation review: impact figures, root causes, client misunderstanding of 'Processed', and the still-open FCC terminology action. documents/pir-2024-07.md records only document identity and governance metadata (ID, version, owner, approvers, classification).",
+      "expected_refs": [
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/documents/pir-2024-07.md"
+      ],
+      "expected_entity_ids": [
+        "PIR-2024-07"
+      ],
+      "hazard": "collision: same entity_id on two pages by design (incident narrative vs document record); additionally the cmp-2026-1189 page's corrupted frontmatter made a THIRD page claim this id before repair",
+      "source": "authored"
+    },
+    {
+      "id": "G-053",
+      "question": "Who is Sarah Whitfield and what is she responsible for?",
+      "class": "negative_unanswerable",
+      "expected_answer": "The wiki does not contain this information. No person named Sarah Whitfield appears in the corpus (her Wire Tracking concept document is deliberately not ingested). The correct behavior is to say the knowledge base has no record of her, not to guess a role.",
+      "expected_refs": [],
+      "expected_entity_ids": [],
+      "hazard": "unanswerable by design: Sarah Whitfield exists only in the demo narrative and the never-ingested market-research/concept document; any confident answer is a hallucination",
+      "source": "authored"
+    },
+    {
+      "id": "G-054",
+      "question": "What does hold reason code HRC-13 mean?",
+      "class": "negative_unanswerable",
+      "expected_answer": "There is no HRC-13. The HMS hold-reason taxonomy has exactly 12 codes, HRC-01 through HRC-12. The correct behavior is to state the code does not exist in the taxonomy.",
+      "expected_refs": [
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md"
+      ],
+      "expected_entity_ids": [],
+      "hazard": "near-miss identifier: plausible-looking code one past the real range; tests refusal to fabricate",
+      "source": "authored"
+    },
+    {
+      "id": "G-055",
+      "question": "What was decided at the Payments ARB meeting of 2026-11-10?",
+      "class": "negative_unanswerable",
+      "expected_answer": "The wiki does not contain this. 2026-11-10 is the ARB's next scheduled meeting date (second Tuesday); no minutes or decisions from it exist in the corpus, whose ADR register covers through 2026-Q3.",
+      "expected_refs": [],
+      "expected_entity_ids": [],
+      "hazard": "future-dated event: the date appears in the corpus as a scheduled meeting, tempting fabrication of outcomes",
+      "source": "authored"
+    },
+    {
+      "id": "G-056",
+      "question": "What is CNB's total annual wire volume in dollars?",
+      "class": "negative_unanswerable",
+      "expected_answer": "The wiki does not contain a total dollar wire volume for the bank. Corpus figures cover corridor-level counts/statistics and incident impact counts, not an enterprise dollar total. The correct behavior is to say the figure is not in the knowledge base.",
+      "expected_refs": [],
+      "expected_entity_ids": [],
+      "hazard": "aggregate not present: adjacent statistics exist (corridor stats, incident wire counts), inviting an invented or improperly derived total",
+      "source": "authored"
+    },
+    {
+      "id": "G-057",
+      "question": "How much does CNB pay Volaris for the Payment Platform license?",
+      "class": "negative_unanswerable",
+      "expected_answer": "Not in the corpus. The wiki records that PPH runs on vendor Volaris Payment Platform 9.4 with a 9.6 upgrade in April 2027, but no licensing or cost figures are documented anywhere.",
+      "expected_refs": [],
+      "expected_entity_ids": [],
+      "hazard": "entity exists (Volaris) but the asked attribute does not; tests attribute-level honesty vs entity-level retrieval confidence",
+      "source": "authored"
+    },
+    {
+      "id": "G-058",
+      "question": "Through which layer must every client-facing prediction or statistic be served, and what is the only such endpoint live today?",
+      "class": "policy_constraint",
+      "expected_answer": "Through the TDIP Insights API, per ADR-PAY-026 \u2014 the versioned, entitlement-aware REST serving layer. The only GA endpoint today is the cash forecast, EP-TDIP-01 (GET /tdip/insights/v1/cash-forecast/{clientId}, model M-TRS-0142, GA 2025-09). The wire-history (EP-TDIP-X1) and corridor-stats (EP-TDIP-X2) endpoints do not exist.",
+      "expected_refs": [
+        "openwiki/interfaces/tdip-insights-api.md",
+        "openwiki/decisions/adr-pay-026.md",
+        "openwiki/systems/treasury-data-insights-platform.md"
+      ],
+      "expected_entity_ids": [
+        "EP-TDIP-01",
+        "ADR-PAY-026",
+        "EP-TDIP-X1",
+        "EP-TDIP-X2",
+        "SYS-TDIP"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-059",
+      "question": "What are the planning capacity and intake constraints that would hit a Q4-2026/PI-27.1 wire-tracking build?",
+      "class": "dependency_impact",
+      "expected_answer": "CBO Wire Center squad Q4-2026 is 85% committed (velocity ~42 pts/sprint); CBO Platform PI 27.1 ~70%; PPH PI 27.1 ~90% committed (structured-address enforcement, FedNow expansion) with a monthly Demand Board (next 2026-10-21) and 6-8 weeks to schedule; FCT ~80% committed with a Dec-15 to Jan-05 change freeze and FCC sign-off; GTSI is mid knowledge transfer until 2026-12-15; ENS onboarding SLA is 6 weeks per event type; MRM Tier 2 queue ~6 weeks; ARB meets monthly (2026-11-10, 2026-12-08) with 10-business-day submission lead.",
+      "expected_refs": [
+        "openwiki/teams/cbo-wire-center-squad.md",
+        "openwiki/teams/payments-hub-engineering.md",
+        "openwiki/teams/financial-crimes-technology.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/teams/enterprise-notification-platform.md",
+        "openwiki/teams/model-risk-management.md",
+        "openwiki/documents/cnb-org-ptt-2026-06.md"
+      ],
+      "expected_entity_ids": [
+        "TEAM-CBO-WC",
+        "TEAM-CBO-PLT",
+        "TEAM-PPH",
+        "TEAM-FCT",
+        "TEAM-GTSI",
+        "TEAM-ENS",
+        "TEAM-MRM",
+        "TEAM-EA"
+      ],
+      "hazard": "wide fan-out across team pages; partial recall is the common failure",
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-060",
+      "question": "Which Kafka topic carries wire state transitions, what schema and retention does it have, and how long does consumer onboarding take?",
+      "class": "entity_lookup",
+      "expected_answer": "pay.wire.lifecycle.v2 (EV-PPH-01): Avro WireLifecycleEvent v2.3, 7-day retention, consumer ACLs granted via PPH taking ~3 weeks. Since 2026-08 (PPH-2266) it also publishes ISO return reasons from pacs.004.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-lifecycle-event-topics.md"
+      ],
+      "expected_entity_ids": [
+        "EV-PPH-01",
+        "PPH-2266"
+      ],
+      "source": "ground_truth"
+    },
+    {
+      "id": "G-061",
+      "question": "Is EP-PPH-1 deprecated, and what replaces it?",
+      "class": "typo_id",
+      "expected_answer": "Yes. EP-PPH-01 (GET /pph/v1/wires/{wireRef}/status) is the deprecated PPH v1 wire-status endpoint, sunset 2027-03-31 with no extensions. For channel-facing status it is replaced by the event-driven SPS read-model/timeline API (EP-SPS-01, /cbo/sps/v1) per ADR-PAY-019; for synchronous detail lookups, by the PPH v2 payments API (EP-PPH-04).",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/interfaces/pph-v2-payments-api.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "EP-SPS-01",
+        "ADR-PAY-019",
+        "EP-PPH-04"
+      ],
+      "hazard": "typo_id (zero-padding drop): EP-PPH-1 for EP-PPH-01. Resolved by numeric-segment zero-padding normalization (_norm_id), not edit distance; rank-1 pin of the v1 API page expected. Clean twin: G-015.",
+      "source": "authored"
+    },
+    {
+      "id": "G-062",
+      "question": "Who owns CBO-3970?",
+      "class": "typo_id",
+      "expected_answer": "Marcus Chen (P-MCHEN), Director, Digital Treasury Product and Product Owner of CBO Wire Center, owns the CBO-3790 ACH Payment Tracker epic (Done, R25.4, 2025-11, 89 points).",
+      "expected_refs": [
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/people/marcus-chen.md"
+      ],
+      "expected_entity_ids": [
+        "CBO-3790",
+        "P-MCHEN"
+      ],
+      "hazard": "typo_id (adjacent transposition): CBO-3970 for CBO-3790 (79->97, Damerau transposition = 1 error, within the 7-char budget of 1). Unique minimum-distance candidate; rank-1 pin of the epic page expected. Clean twin: G-008.",
+      "source": "authored"
+    },
+    {
+      "id": "G-063",
+      "question": "What is the status of PIR-2924-07?",
+      "class": "typo_id",
+      "expected_answer": "PIR-2024-07 is the closed/completed 2024 post-implementation review of the Wire Status Lite pilot (CBO-3120) and incident INC-2024-1182. The review itself concluded in 2024 (the pilot was terminated and the epic closed Won't Do), but one of its remediation actions remains open: validating client-facing status terminology with FCC and Legal. It is NOT the 2026 regulatory complaint — that is CMP-2026-1189, a different record.",
+      "expected_refs": [
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/documents/pir-2024-07.md",
+        "openwiki/projects/cbo-3120-wire-status-lite-pilot.md"
+      ],
+      "expected_entity_ids": [
+        "PIR-2024-07",
+        "INC-2024-1182",
+        "CBO-3120"
+      ],
+      "hazard": "typo_id (substitution): PIR-2924-07 for PIR-2024-07 (single 0->9 substitution in the year segment; 9 normalized chars, budget 2). Unique minimum distance 1; rank-1 pin expected. Clean twin: G-032.",
+      "source": "authored"
+    },
+    {
+      "id": "G-064",
+      "question": "What rate limit applies to EP PPH 01, and why was it imposed?",
+      "class": "typo_id",
+      "expected_answer": "EP-PPH-01 (GET /pph/v1/wires/{wireRef}/status) is limited to 20 TPS shared across all v1 consumers. The limit was imposed in June 2024 after INC-2024-1182, when Wire Status Lite pilot polling drove ~85 TPS and exhausted PPH's thread pool.",
+      "expected_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/incidents/inc-2024-1182.md"
+      ],
+      "expected_entity_ids": [
+        "EP-PPH-01",
+        "INC-2024-1182"
+      ],
+      "hazard": "typo_id (separator-broken id): 'EP PPH 01' yields NO compound ID token at tokenization, so the moving-pattern scan over the separator-normalized query stream must resolve it (exact window, distance 0); rank-1 pin expected. Clean twin: G-004.",
+      "source": "authored"
+    },
+    {
+      "id": "G-065",
+      "question": "What is EPSPS01 and what payment types does the service behind it support today?",
+      "class": "typo_id",
+      "expected_answer": "SPS (SYS-CBO-SPS) is an event-driven status read model built for the ACH Payment Tracker (2025, story CBO-3815): a Kafka-consumer-to-Postgres pipeline exposing /cbo/sps/v1 (EP-SPS-01). It is configured for ACH only (consumes pay.ach.lifecycle.v1); wire is not configured and would need a new mapping module plus a consumer ACL on pay.wire.lifecycle.v2. Owned by CBO Platform & Entitlements.",
+      "expected_refs": [
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/interfaces/sps-read-model-api.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-CBO-SPS",
+        "EP-SPS-01",
+        "TEAM-CBO-PLT"
+      ],
+      "hazard": "typo_id (missing hyphens): EPSPS01 for EP-SPS-01 is a single word token, not an ID token, so the moving-pattern tier must match the normalized id at distance 0 inside the stream; rank-1 pin of the SPS API page expected. Clean twin: G-002.",
+      "source": "authored"
+    },
+    {
+      "id": "G-066",
+      "question": "Per CNB-MEM0-2026-9, who owns the Swift gpi connector today, and when did ownership change?",
+      "class": "typo_id",
+      "expected_answer": "Global Transaction Services Integration (GTSI: Director Elena Vasquez, EM Omar Siddiqui, Tech Lead Hannah Lindqvist) owns the Swift Alliance & gpi Connector (SYS-PNG-GPI). Ownership transferred from Payment Networks Engineering (Raj Malhotra) effective 2026-10-01, per CNB-MEMO-2026-09; knowledge transfer runs until 2026-12-15 under GTSI-0112. Tomasz Nowak transferred from PNE to GTSI with the system.",
+      "expected_refs": [
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/projects/gtsi-0112-gpi-knowledge-transfer.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PNG-GPI",
+        "TEAM-GTSI",
+        "TEAM-PNE",
+        "CNB-MEMO-2026-09",
+        "GTSI-0112",
+        "P-OSIDD",
+        "P-TNOWAK"
+      ],
+      "hazard": "typo_id (long id, two errors): CNB-MEM0-2026-9 for CNB-MEMO-2026-09 (O->0 substitution + dropped zero = Damerau distance 2, within the 12-normalized-char budget of 2). Unique minimum; rank-1 pin of the memo page expected. Clean twin: G-009.",
+      "source": "authored"
+    },
+    {
+      "id": "G-067",
+      "question": "What is MCP-2026-1189?",
+      "class": "typo_id",
+      "expected_answer": "An open regulatory complaint from Halvorsen Industrial Supply: an EUR 412,600 international wire was shown 'Completed' in CBO at release on 2026-09-16, the client shipped goods in reliance on it, and the beneficiary bank rejected the payment the next day (RJCT, ISO reason AC04, account closed). It is tracked against open bug CBO-4419 (root cause TBD).",
+      "expected_refs": [
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md"
+      ],
+      "expected_entity_ids": [
+        "CMP-2026-1189",
+        "CBO-4419"
+      ],
+      "hazard": "typo_id (head transposition): MCP-2026-1189 for CMP-2026-1189 (CM->MC adjacent transposition at the head of the id = 1 error; no positional anchor in the fuzzy tier). Unique minimum distance 1; rank-1 pin of the complaint page expected. Clean twin: G-034.",
+      "source": "authored"
+    },
+    {
+      "id": "G-068",
+      "question": "The team once proposed pulling gpi Tracker data every 2 hours instead of 4. What happened to that proposal, and what is GTSI-107 that superseded it?",
+      "class": "typo_id",
+      "expected_answer": "PNG-1544 was closed Won't Do (2026-03-03) because projected usage would exceed the contracted 250k Tracker API calls/month. It was superseded by GTSI-0107, the gpi Tracker Real-Time Service (GTRS) — a change-feed based internal API, unfunded for 2026, discovery 2027-Q2, build 2027-Q3/Q4.",
+      "expected_refs": [
+        "openwiki/decisions/png-1544.md",
+        "openwiki/projects/gtsi-0107-gpi-real-time-service.md"
+      ],
+      "expected_entity_ids": [
+        "PNG-1544",
+        "GTSI-0107"
+      ],
+      "hazard": "typo_id (zero-padding drop in a 4-digit segment): GTSI-107 for GTSI-0107, resolved by zero-padding normalization (not edit distance — and NOT ambiguous with GTSI-0112/0115, whose normalized forms differ). Rank-1 pin of the GTSI-0107 project page expected. Clean twin: G-017.",
+      "source": "authored"
+    },
+    {
+      "id": "G-069",
+      "question": "What is GTSI-0117, the gpi knowledge-transfer project, and when does the transfer run until?",
+      "class": "typo_id",
+      "expected_answer": "GTSI-0112 is the gpi knowledge-transfer project: following the 2026-10-01 ownership transfer of the Swift gpi Connector from PNE to GTSI (CNB-MEMO-2026-09), structured knowledge transfer runs until 2026-12-15, with Tomasz Nowak moving from PNE to GTSI with the system.",
+      "expected_refs": [
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/projects/gtsi-0112-gpi-knowledge-transfer.md"
+      ],
+      "expected_entity_ids": [
+        "SYS-PNG-GPI",
+        "TEAM-GTSI",
+        "TEAM-PNE",
+        "CNB-MEMO-2026-09",
+        "GTSI-0112",
+        "P-OSIDD",
+        "P-TNOWAK"
+      ],
+      "hazard": "typo_id (DELIBERATE ambiguity — NO PIN EXPECTED): GTSI-0117 is Damerau distance 1 from GTSI-0112 (knowledge transfer), GTSI-0107 (real-time service) and GTSI-0115 (registry), on three DIFFERENT pages. The unique-minimum-distance rule must decline to pin on the tie. Rank-1 pinning is NOT expected for this item; the true page (gtsi-0112-gpi-knowledge-transfer.md) should still reach top-10 via BM25 on 'gpi knowledge-transfer project'. Clean twin: G-009.",
+      "source": "authored"
+    },
+    {
+      "id": "G-070",
+      "question": "Who owns CBO-4412, the bug tracking the 'Completed then rejected' client complaint?",
+      "class": "typo_id",
+      "expected_answer": "CBO-4419 (Bug, Open, backlog, root cause TBD), owned by Tom Becker (EM, CBO Wire Center squad). It relates to complaint CMP-2026-1189.",
+      "expected_refs": [
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/people/tom-becker.md"
+      ],
+      "expected_entity_ids": [
+        "CBO-4419",
+        "CMP-2026-1189",
+        "P-TBECK"
+      ],
+      "hazard": "typo_id (registry guard — NO PIN EXPECTED): CBO-4412 is distance 1 from both CBO-4402 and CBO-4419, but both live only on the 20-id jira-backlog-registry.md page, and registry pages (>6 ids) are never pinned by secondary ids. Rank-1 pinning is NOT expected; the true pages should surface top-10 via BM25 on the complaint phrasing. Clean twin: G-036.",
+      "source": "authored"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: tom-becker
+entity_id: [P-TBECK, tom-becker]
 title: Tom Becker
 description: Engineering Manager for the CBO Wire Center squad at Crestline National Bank; co-technical owner of SYS-CBO, author of the PIR-2024-07 post-implementation review, owner of the open CBO-4419 "Completed" status complaint bug, and owner of the unscheduled PPH v1-to-v2 migration epic CBO-4471.
 tags: [people, engineering-manager, cbo, wire-center, digital-treasury-channels, pir-2024-07, cbo-4471, pph-v2-migration, wire-status-lite, ptt]

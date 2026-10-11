@@ -1,0 +1,1488 @@
+{
+  "metrics": {
+    "ref_hit@1": 0.5,
+    "ref_hit@5": 0.8214,
+    "ref_hit@10": 0.875,
+    "id_coverage@10": 0.4633
+  },
+  "n_positive": 56,
+  "per_class": {
+    "collision_disambiguation": {
+      "n": 4,
+      "hit@10": 1.0
+    },
+    "dependency_impact": {
+      "n": 8,
+      "hit@10": 0.875
+    },
+    "deprecation_supersession": {
+      "n": 5,
+      "hit@10": 1.0
+    },
+    "entity_lookup": {
+      "n": 8,
+      "hit@10": 0.875
+    },
+    "hard_vocab_gap": {
+      "n": 5,
+      "hit@10": 0.8
+    },
+    "incident_history": {
+      "n": 5,
+      "hit@10": 1.0
+    },
+    "inventory_coverage": {
+      "n": 5,
+      "hit@10": 0.8
+    },
+    "negative_unanswerable": {
+      "n": 1,
+      "hit@10": 1.0
+    },
+    "ownership": {
+      "n": 7,
+      "hit@10": 0.8571
+    },
+    "policy_constraint": {
+      "n": 8,
+      "hit@10": 0.75
+    }
+  },
+  "negatives": [
+    {
+      "id": "G-053",
+      "class": "negative_unanswerable",
+      "confidence": {
+        "bm25_top1": 14.7751,
+        "bm25_margin": 2.4925,
+        "term_coverage": 0.7778,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/people/patricia-moore.md",
+        "openwiki/people/danielle-okafor.md",
+        "openwiki/people/grace-mensah.md",
+        "openwiki/people/melissa-grant.md",
+        "openwiki/people/anjali-deshpande.md",
+        "openwiki/organizations/digital-treasury-channels.md",
+        "openwiki/organizations/payments-treasury-technology.md",
+        "openwiki/people/marcus-chen.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/documents/cbo-arch-wc-4.1.md"
+      ]
+    },
+    {
+      "id": "G-055",
+      "class": "negative_unanswerable",
+      "confidence": {
+        "bm25_top1": 24.1669,
+        "bm25_margin": 0.2772,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/documents/arb-pay-reg-2026q3.md",
+        "openwiki/teams/payments-arb-enterprise-architecture.md",
+        "openwiki/people/jenna-ross.md",
+        "openwiki/people/nikhil-bose.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/decisions/adr-pay-017.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/decisions/adr-pay-026.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md"
+      ]
+    },
+    {
+      "id": "G-056",
+      "class": "negative_unanswerable",
+      "confidence": {
+        "bm25_top1": 18.9783,
+        "bm25_margin": 7.7464,
+        "term_coverage": 0.9,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/documents/cbo-arch-wc-4.1.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/organizations/crestline-national-bank.md",
+        "openwiki/systems/sentinel-fraud-scoring.md",
+        "openwiki/systems/enterprise-notification-service.md",
+        "openwiki/documents/ens-int-3.2.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/concepts/fedwire-funds-service.md",
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/concepts/imad-omad.md"
+      ]
+    },
+    {
+      "id": "G-057",
+      "class": "negative_unanswerable",
+      "confidence": {
+        "bm25_top1": 14.5653,
+        "bm25_margin": 1.2908,
+        "term_coverage": 0.9091,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/concepts/iso20022-payment-messages.md",
+        "openwiki/decisions/adr-pay-017.md",
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/documents/arb-pay-reg-2026q3.md",
+        "openwiki/interfaces/pph-lifecycle-event-topics.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/people/nikhil-bose.md",
+        "openwiki/systems/cbo-status-projection-service.md"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "G-001",
+      "class": "entity_lookup",
+      "confidence": {
+        "bm25_top1": 24.7892,
+        "bm25_margin": 2.2343,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/documents/pph-sys-ovw-9.2.md",
+        "openwiki/systems/prism-payments-hub.md",
+        "openwiki/people/laura-kim.md",
+        "openwiki/teams/payments-hub-engineering.md",
+        "openwiki/people/raymond-ortiz.md",
+        "openwiki/people/sunita-rao.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/documents/cnb-org-ptt-2026-06.md"
+      ],
+      "hit_rank": 2,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-002",
+      "class": "entity_lookup",
+      "confidence": {
+        "bm25_top1": 23.0528,
+        "bm25_margin": 1.7853,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/people/arjun-mehta.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/teams/cbo-platform-entitlements.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md"
+      ],
+      "hit_rank": 2,
+      "id_coverage": 0.6666666666666666
+    },
+    {
+      "id": "G-003",
+      "class": "entity_lookup",
+      "confidence": {
+        "bm25_top1": 22.1797,
+        "bm25_margin": 4.0575,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/uetr.md",
+        "openwiki/datasets/gpi-tracker-events.md",
+        "openwiki/policies/dus-07.md",
+        "openwiki/people/laura-kim.md",
+        "openwiki/documents/dus-07.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/datasets/beneficiary-behavior-profile.md"
+      ],
+      "hit_rank": null,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-004",
+      "class": "entity_lookup",
+      "confidence": {
+        "bm25_top1": 24.862,
+        "bm25_margin": 2.8511,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/incidents/inc-2024-1182.md",
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/projects/cbo-3120-wire-status-lite-pilot.md",
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/systems/cbo-wire-center.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-005",
+      "class": "entity_lookup",
+      "confidence": {
+        "bm25_top1": 22.3983,
+        "bm25_margin": 0.0946,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/systems/prism-payments-hub.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-006",
+      "class": "entity_lookup",
+      "confidence": {
+        "bm25_top1": 31.6722,
+        "bm25_margin": 0.9449,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/projects/fct-1951-duplicate-suspect-attestation-pilot.md",
+        "openwiki/documents/prsp-hms-3.4.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/systems/sentinel-fraud-scoring.md",
+        "openwiki/documents/pol-fcc-014.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md",
+        "openwiki/incidents/cmp-2026-1189.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.6666666666666666
+    },
+    {
+      "id": "G-007",
+      "class": "entity_lookup",
+      "confidence": {
+        "bm25_top1": 32.1362,
+        "bm25_margin": 2.963,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/systems/sentinel-fraud-scoring.md",
+        "openwiki/documents/mrm-pol-02.md",
+        "openwiki/policies/mrm-pol-02.md",
+        "openwiki/people/victor-petrov.md",
+        "openwiki/teams/model-risk-management.md",
+        "openwiki/documents/prsp-hms-3.4.md",
+        "openwiki/people/jonathan-price.md",
+        "openwiki/datasets/beneficiary-behavior-profile.md",
+        "openwiki/organizations/payments-treasury-technology.md",
+        "openwiki/people/sophie-laurent.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.6666666666666666
+    },
+    {
+      "id": "G-008",
+      "class": "ownership",
+      "confidence": {
+        "bm25_top1": 18.783,
+        "bm25_margin": 5.1743,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/projects/gtsi-0107-gpi-real-time-service.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/incidents/inc-2024-1182.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-009",
+      "class": "ownership",
+      "confidence": {
+        "bm25_top1": 20.639,
+        "bm25_margin": 3.0845,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/teams/gtsi.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/documents/png-tdd-6.0.md",
+        "openwiki/teams/payment-networks-engineering.md",
+        "openwiki/people/omar-siddiqui.md",
+        "openwiki/projects/gtsi-0112-gpi-knowledge-transfer.md",
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/systems/fedwire-funds-connector.md",
+        "openwiki/people/hannah-lindqvist.md",
+        "openwiki/people/raj-malhotra.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.2857142857142857
+    },
+    {
+      "id": "G-010",
+      "class": "ownership",
+      "confidence": {
+        "bm25_top1": 11.5433,
+        "bm25_margin": 0.0447,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/people/daniel-kowalski.md",
+        "openwiki/interfaces/hms-hold-api.md",
+        "openwiki/teams/financial-crimes-compliance.md",
+        "openwiki/people/victor-petrov.md",
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/systems/sentinel-fraud-scoring.md",
+        "openwiki/people/jordan-ellis.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/documents/prsp-hms-3.4.md"
+      ],
+      "hit_rank": 6,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-011",
+      "class": "ownership",
+      "confidence": {
+        "bm25_top1": 22.0166,
+        "bm25_margin": 0.0627,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/people/jordan-ellis.md",
+        "openwiki/documents/pol-fcc-014.md",
+        "openwiki/teams/financial-crimes-compliance.md",
+        "openwiki/people/michael-tran.md",
+        "openwiki/people/catherine-doyle.md",
+        "openwiki/systems/sanctionscreen.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/people/rebecca-stone.md",
+        "openwiki/people/victor-petrov.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.25
+    },
+    {
+      "id": "G-012",
+      "class": "ownership",
+      "confidence": {
+        "bm25_top1": 44.5646,
+        "bm25_margin": 6.4029,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/teams/payment-networks-engineering.md",
+        "openwiki/systems/fedwire-funds-connector.md",
+        "openwiki/people/raj-malhotra.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/documents/cnb-org-ptt-2026-06.md",
+        "openwiki/documents/png-tdd-6.0.md",
+        "openwiki/people/tomasz-nowak.md",
+        "openwiki/projects/gtsi-0112-gpi-knowledge-transfer.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-013",
+      "class": "ownership",
+      "confidence": {
+        "bm25_top1": 32.7881,
+        "bm25_margin": 3.1919,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/documents/prsp-hms-3.4.md",
+        "openwiki/projects/fct-1951-duplicate-suspect-attestation-pilot.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-014",
+      "class": "ownership",
+      "confidence": {
+        "bm25_top1": 22.0112,
+        "bm25_margin": 0.2933,
+        "term_coverage": 0.9412,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/organizations/digital-treasury-channels.md",
+        "openwiki/teams/cbo-wire-center-squad.md",
+        "openwiki/people/marcus-chen.md",
+        "openwiki/people/anjali-deshpande.md",
+        "openwiki/systems/commercial-entitlements-service.md",
+        "openwiki/datasets/client-hierarchy.md",
+        "openwiki/organizations/treasury-management-products.md",
+        "openwiki/people/danielle-okafor.md",
+        "openwiki/people/lucas-ferreira.md",
+        "openwiki/people/nadia-haddad.md"
+      ],
+      "hit_rank": null,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-015",
+      "class": "deprecation_supersession",
+      "confidence": {
+        "bm25_top1": 24.6658,
+        "bm25_margin": 3.3145,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/interfaces/pph-lifecycle-event-topics.md",
+        "openwiki/interfaces/ces-entitlements-api.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/systems/prism-payments-hub.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.75
+    },
+    {
+      "id": "G-016",
+      "class": "deprecation_supersession",
+      "confidence": {
+        "bm25_top1": 17.4405,
+        "bm25_margin": 0.2867,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/interfaces/ces-entitlements-api.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/documents/pph-api-cat-2026.3.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md"
+      ],
+      "hit_rank": 3,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-017",
+      "class": "deprecation_supersession",
+      "confidence": {
+        "bm25_top1": 26.948,
+        "bm25_margin": 5.608,
+        "term_coverage": 0.9545,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/datasets/gpi-tracker-events.md",
+        "openwiki/datasets/gpi-tracker-snapshot.md",
+        "openwiki/documents/png-tdd-6.0.md",
+        "openwiki/interfaces/gpi-tracker-batch-feed.md",
+        "openwiki/documents/tdip-cat-2026.2.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/decisions/png-1544.md"
+      ],
+      "hit_rank": 10,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-018",
+      "class": "deprecation_supersession",
+      "confidence": {
+        "bm25_top1": 26.9233,
+        "bm25_margin": 2.6931,
+        "term_coverage": 0.9474,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/documents/cbo-arch-wc-4.1.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/interfaces/ces-entitlements-api.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.6
+    },
+    {
+      "id": "G-019",
+      "class": "deprecation_supersession",
+      "confidence": {
+        "bm25_top1": 20.3628,
+        "bm25_margin": 0.6227,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/iso20022-payment-messages.md",
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/people/omar-siddiqui.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/people/raj-malhotra.md",
+        "openwiki/people/tomasz-nowak.md",
+        "openwiki/projects/gtsi-0112-gpi-knowledge-transfer.md"
+      ],
+      "hit_rank": 3,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-020",
+      "class": "dependency_impact",
+      "confidence": {
+        "bm25_top1": 24.7984,
+        "bm25_margin": 3.1827,
+        "term_coverage": 0.88,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/datasets/cbo-wire-events.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/interfaces/ces-entitlements-api.md",
+        "openwiki/people/marcus-chen.md",
+        "openwiki/teams/cbo-wire-center-squad.md",
+        "openwiki/datasets/client-hierarchy.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md"
+      ],
+      "hit_rank": null,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-021",
+      "class": "dependency_impact",
+      "confidence": {
+        "bm25_top1": 21.6156,
+        "bm25_margin": 0.4896,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/people/omar-siddiqui.md",
+        "openwiki/datasets/gpi-tracker-snapshot.md",
+        "openwiki/systems/investigations-workbench.md",
+        "openwiki/documents/cnb-memo-2026-09.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/concepts/uetr.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md"
+      ],
+      "hit_rank": 4,
+      "id_coverage": 0.2
+    },
+    {
+      "id": "G-022",
+      "class": "dependency_impact",
+      "confidence": {
+        "bm25_top1": 23.0786,
+        "bm25_margin": 1.5844,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/people/marcus-chen.md",
+        "openwiki/interfaces/ces-entitlements-api.md",
+        "openwiki/people/kim-nguyen.md",
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/datasets/client-hierarchy.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/people/anjali-deshpande.md",
+        "openwiki/people/tom-becker.md"
+      ],
+      "hit_rank": 5,
+      "id_coverage": 0.14285714285714285
+    },
+    {
+      "id": "G-023",
+      "class": "dependency_impact",
+      "confidence": {
+        "bm25_top1": 23.4391,
+        "bm25_margin": 1.2068,
+        "term_coverage": 0.9375,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/systems/commercial-entitlements-service.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/interfaces/ces-entitlements-api.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/decisions/adr-pay-023.md"
+      ],
+      "hit_rank": 2,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-024",
+      "class": "dependency_impact",
+      "confidence": {
+        "bm25_top1": 28.7968,
+        "bm25_margin": 1.3014,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/datasets/pay-wire-txn-hist.md",
+        "openwiki/interfaces/fedwire-network-ack-topics.md",
+        "openwiki/datasets/fed-ack-events.md",
+        "openwiki/systems/prism-payments-hub.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md",
+        "openwiki/interfaces/pph-lifecycle-event-topics.md"
+      ],
+      "hit_rank": 2,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-025",
+      "class": "dependency_impact",
+      "confidence": {
+        "bm25_top1": 52.7863,
+        "bm25_margin": 3.1253,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/people/carlos-mendes.md",
+        "openwiki/datasets/gpi-tracker-events.md",
+        "openwiki/datasets/wire-corridor-stats-daily.md",
+        "openwiki/systems/investigations-workbench.md",
+        "openwiki/datasets/client-wire-history-features.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/datasets/beneficiary-behavior-profile.md",
+        "openwiki/datasets/pay-wire-txn-hist.md",
+        "openwiki/interfaces/tdip-insights-api.md",
+        "openwiki/policies/dus-07.md"
+      ],
+      "hit_rank": 2,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-026",
+      "class": "dependency_impact",
+      "confidence": {
+        "bm25_top1": 22.03,
+        "bm25_margin": 8.0665,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/datasets/client-wire-history-features.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/teams/commercial-service-center.md",
+        "openwiki/datasets/pay-wire-txn-hist.md",
+        "openwiki/projects/ens-1120-entity-level-subscriptions.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/datasets/beneficiary-behavior-profile.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/teams/financial-crimes-compliance.md",
+        "openwiki/concepts/swift-gpi-cbpr.md"
+      ],
+      "hit_rank": 5,
+      "id_coverage": 0.3333333333333333
+    },
+    {
+      "id": "G-027",
+      "class": "inventory_coverage",
+      "confidence": {
+        "bm25_top1": 22.7358,
+        "bm25_margin": 1.0161,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/people/sunita-rao.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/systems/prism-payments-hub.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/documents/pph-api-cat-2026.3.md"
+      ],
+      "hit_rank": 4,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-028",
+      "class": "inventory_coverage",
+      "confidence": {
+        "bm25_top1": 20.0311,
+        "bm25_margin": 2.6578,
+        "term_coverage": 0.9412,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/interfaces/pph-lifecycle-event-topics.md",
+        "openwiki/interfaces/gpi-tracker-batch-feed.md",
+        "openwiki/decisions/adr-pay-017.md",
+        "openwiki/interfaces/fedwire-network-ack-topics.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/decisions/adr-pay-023.md",
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/systems/prism-payments-hub.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.45161290322580644
+    },
+    {
+      "id": "G-029",
+      "class": "inventory_coverage",
+      "confidence": {
+        "bm25_top1": 18.6693,
+        "bm25_margin": 2.1528,
+        "term_coverage": 0.9412,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/documents/pir-2024-07.md",
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/people/arjun-mehta.md",
+        "openwiki/datasets/fed-ack-events.md",
+        "openwiki/projects/fct-1951-duplicate-suspect-attestation-pilot.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/datasets/pay-wire-txn-hist.md",
+        "openwiki/incidents/pir-2024-07.md"
+      ],
+      "hit_rank": null,
+      "id_coverage": 0.125
+    },
+    {
+      "id": "G-030",
+      "class": "inventory_coverage",
+      "confidence": {
+        "bm25_top1": 36.8137,
+        "bm25_margin": 6.2636,
+        "term_coverage": 0.9286,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/systems/enterprise-notification-service.md",
+        "openwiki/documents/ens-int-3.2.md",
+        "openwiki/people/paul-henderson.md",
+        "openwiki/teams/enterprise-notification-platform.md",
+        "openwiki/people/sanjay-iyer.md",
+        "openwiki/people/melissa-grant.md",
+        "openwiki/projects/ens-1120-entity-level-subscriptions.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/documents/cbo-arch-wc-4.1.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-031",
+      "class": "inventory_coverage",
+      "confidence": {
+        "bm25_top1": 24.7904,
+        "bm25_margin": 4.9374,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/systems/commercial-entitlements-service.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/teams/cbo-platform-entitlements.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/incidents/cmp-2026-1189.md"
+      ],
+      "hit_rank": 3,
+      "id_coverage": 0.2
+    },
+    {
+      "id": "G-032",
+      "class": "incident_history",
+      "confidence": {
+        "bm25_top1": 25.7522,
+        "bm25_margin": 0.9031,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/people/denise-carter.md",
+        "openwiki/documents/pir-2024-07.md",
+        "openwiki/people/tom-becker.md",
+        "openwiki/incidents/inc-2024-1182.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/people/anjali-deshpande.md",
+        "openwiki/projects/cbo-3120-wire-status-lite-pilot.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-033",
+      "class": "incident_history",
+      "confidence": {
+        "bm25_top1": 29.5598,
+        "bm25_margin": 0.4592,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/incidents/inc-2024-1182.md",
+        "openwiki/documents/pir-2024-07.md",
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/projects/cbo-3120-wire-status-lite-pilot.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/people/anjali-deshpande.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/people/denise-carter.md",
+        "openwiki/people/tom-becker.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-034",
+      "class": "incident_history",
+      "confidence": {
+        "bm25_top1": 24.1542,
+        "bm25_margin": 0.3116,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/concepts/fedwire-funds-service.md",
+        "openwiki/incidents/pir-2024-07.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-035",
+      "class": "incident_history",
+      "confidence": {
+        "bm25_top1": 19.3999,
+        "bm25_margin": 1.5806,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/documents/pir-2024-07.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/documents/pol-fcc-014.md",
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/concepts/fedwire-funds-service.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md"
+      ],
+      "hit_rank": 6,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-036",
+      "class": "incident_history",
+      "confidence": {
+        "bm25_top1": 24.1849,
+        "bm25_margin": 0.6337,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/people/tom-becker.md",
+        "openwiki/teams/commercial-service-center.md",
+        "openwiki/people/marcus-chen.md",
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/teams/cbo-wire-center-squad.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/policies/pol-fcc-014.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.3333333333333333
+    },
+    {
+      "id": "G-037",
+      "class": "policy_constraint",
+      "confidence": {
+        "bm25_top1": 18.3804,
+        "bm25_margin": 2.8908,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/people/kim-nguyen.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/organizations/digital-treasury-channels.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/interfaces/sps-read-model-api.md"
+      ],
+      "hit_rank": 3,
+      "id_coverage": 0.3333333333333333
+    },
+    {
+      "id": "G-038",
+      "class": "policy_constraint",
+      "confidence": {
+        "bm25_top1": 34.1482,
+        "bm25_margin": 4.097,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/projects/cbo-4471-pph-v1-to-v2-migration.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/systems/prism-payments-hub.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/decisions/adr-pay-021.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.3333333333333333
+    },
+    {
+      "id": "G-039",
+      "class": "policy_constraint",
+      "confidence": {
+        "bm25_top1": 38.6611,
+        "bm25_margin": 3.1447,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/policies/dus-07.md",
+        "openwiki/datasets/wire-corridor-stats-daily.md",
+        "openwiki/interfaces/tdip-insights-api.md",
+        "openwiki/datasets/client-wire-history-features.md",
+        "openwiki/teams/privacy-office-data-governance.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/datasets/beneficiary-behavior-profile.md",
+        "openwiki/people/aisha-rahman.md",
+        "openwiki/people/rachel-goldberg.md",
+        "openwiki/policies/mrm-pol-02.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.3333333333333333
+    },
+    {
+      "id": "G-040",
+      "class": "policy_constraint",
+      "confidence": {
+        "bm25_top1": 21.2283,
+        "bm25_margin": 3.5823,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/datasets/beneficiary-behavior-profile.md",
+        "openwiki/datasets/gpi-tracker-events.md",
+        "openwiki/policies/dus-07.md",
+        "openwiki/documents/pol-fcc-014.md",
+        "openwiki/datasets/wire-corridor-stats-daily.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/datasets/client-wire-history-features.md",
+        "openwiki/datasets/dda-txn-history.md",
+        "openwiki/interfaces/tdip-insights-api.md",
+        "openwiki/policies/pol-fcc-014.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-041",
+      "class": "policy_constraint",
+      "confidence": {
+        "bm25_top1": 20.3879,
+        "bm25_margin": 1.1783,
+        "term_coverage": 0.95,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/datasets/client-wire-history-features.md",
+        "openwiki/people/sophie-laurent.md",
+        "openwiki/teams/treasury-data-analytics.md",
+        "openwiki/teams/financial-crimes-compliance.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/teams/model-risk-management.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/concepts/uetr.md"
+      ],
+      "hit_rank": null,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-042",
+      "class": "policy_constraint",
+      "confidence": {
+        "bm25_top1": 31.8148,
+        "bm25_margin": 2.5002,
+        "term_coverage": 0.9524,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/projects/ens-1120-entity-level-subscriptions.md",
+        "openwiki/documents/prsp-hms-3.4.md",
+        "openwiki/systems/investigations-workbench.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/systems/sentinel-fraud-scoring.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md",
+        "openwiki/interfaces/hms-hold-api.md",
+        "openwiki/people/victor-petrov.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.125
+    },
+    {
+      "id": "G-043",
+      "class": "policy_constraint",
+      "confidence": {
+        "bm25_top1": 17.9244,
+        "bm25_margin": 0.5912,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/teams/payment-operations.md",
+        "openwiki/datasets/client-wire-history-features.md",
+        "openwiki/documents/pir-2024-07.md",
+        "openwiki/systems/investigations-workbench.md",
+        "openwiki/people/denise-carter.md",
+        "openwiki/people/luis-ramirez.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/datasets/beneficiary-behavior-profile.md",
+        "openwiki/datasets/cbo-wire-events.md"
+      ],
+      "hit_rank": null,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-044",
+      "class": "hard_vocab_gap",
+      "confidence": {
+        "bm25_top1": 17.041,
+        "bm25_margin": 0.422,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/interfaces/cbo-auth-step-up-api.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/documents/jira-export-wt-discovery-2026-10-05.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/policies/pol-fcc-014.md"
+      ],
+      "hit_rank": 2,
+      "id_coverage": 0.6666666666666666
+    },
+    {
+      "id": "G-045",
+      "class": "hard_vocab_gap",
+      "confidence": {
+        "bm25_top1": 36.4399,
+        "bm25_margin": 8.5553,
+        "term_coverage": 0.963,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/interfaces/fedwire-network-ack-topics.md",
+        "openwiki/datasets/client-hierarchy.md",
+        "openwiki/systems/swift-gpi-connector.md",
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/concepts/iso20022-payment-messages.md",
+        "openwiki/concepts/swift-gpi-cbpr.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md",
+        "openwiki/systems/fedwire-funds-connector.md"
+      ],
+      "hit_rank": null,
+      "id_coverage": 0.6666666666666666
+    },
+    {
+      "id": "G-046",
+      "class": "hard_vocab_gap",
+      "confidence": {
+        "bm25_top1": 15.3096,
+        "bm25_margin": 0.6114,
+        "term_coverage": 0.875,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/documents/pol-fcc-014.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/organizations/crestline-national-bank.md",
+        "openwiki/documents/prsp-hms-3.4.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md",
+        "openwiki/interfaces/hms-hold-api.md",
+        "openwiki/projects/fct-1951-duplicate-suspect-attestation-pilot.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.16666666666666666
+    },
+    {
+      "id": "G-047",
+      "class": "hard_vocab_gap",
+      "confidence": {
+        "bm25_top1": 19.497,
+        "bm25_margin": 1.3729,
+        "term_coverage": 0.9524,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/projects/cbo-3790-ach-payment-tracker.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/projects/pph-2190-v1-sunset-migration.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/interfaces/pph-v2-payments-api.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md"
+      ],
+      "hit_rank": 3,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-048",
+      "class": "hard_vocab_gap",
+      "confidence": {
+        "bm25_top1": 30.0746,
+        "bm25_margin": 1.7538,
+        "term_coverage": 0.9583,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/concepts/imad-omad.md",
+        "openwiki/documents/png-tdd-6.0.md",
+        "openwiki/interfaces/fedwire-network-ack-topics.md",
+        "openwiki/concepts/fedwire-funds-service.md",
+        "openwiki/interfaces/pph-v1-wire-status-api.md",
+        "openwiki/systems/fedwire-funds-connector.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md",
+        "openwiki/people/brian-walsh.md",
+        "openwiki/datasets/fed-ack-events.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.3333333333333333
+    },
+    {
+      "id": "G-049",
+      "class": "collision_disambiguation",
+      "confidence": {
+        "bm25_top1": 17.1909,
+        "bm25_margin": 1.301,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/teams/cbo-platform-entitlements.md",
+        "openwiki/teams/cbo-wire-center-squad.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/teams/enterprise-notification-platform.md",
+        "openwiki/documents/cnb-org-ptt-2026-06.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/organizations/digital-treasury-channels.md",
+        "openwiki/organizations/payments-treasury-technology.md",
+        "openwiki/people/arjun-mehta.md"
+      ],
+      "hit_rank": 2,
+      "id_coverage": 0.5
+    },
+    {
+      "id": "G-050",
+      "class": "collision_disambiguation",
+      "confidence": {
+        "bm25_top1": 26.0055,
+        "bm25_margin": 0.3992,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/teams/enterprise-notification-platform.md",
+        "openwiki/documents/ens-int-3.2.md",
+        "openwiki/systems/enterprise-notification-service.md",
+        "openwiki/people/sanjay-iyer.md",
+        "openwiki/people/melissa-grant.md",
+        "openwiki/organizations/payments-treasury-technology.md",
+        "openwiki/projects/ens-1120-entity-level-subscriptions.md",
+        "openwiki/interfaces/ens-notification-api-trs-catalog.md",
+        "openwiki/people/paul-henderson.md",
+        "openwiki/documents/cbo-arch-wc-4.1.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.25
+    },
+    {
+      "id": "G-051",
+      "class": "collision_disambiguation",
+      "confidence": {
+        "bm25_top1": 27.9243,
+        "bm25_margin": 0.1735,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/people/jordan-ellis.md",
+        "openwiki/people/michael-tran.md",
+        "openwiki/people/catherine-doyle.md",
+        "openwiki/systems/sanctionscreen.md",
+        "openwiki/teams/financial-crimes-compliance.md",
+        "openwiki/people/rebecca-stone.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-052",
+      "class": "collision_disambiguation",
+      "confidence": {
+        "bm25_top1": 31.3555,
+        "bm25_margin": 0.1919,
+        "term_coverage": 1.0,
+        "exact_hit": true
+      },
+      "top_refs": [
+        "openwiki/incidents/pir-2024-07.md",
+        "openwiki/documents/pir-2024-07.md",
+        "openwiki/people/tom-becker.md",
+        "openwiki/people/denise-carter.md",
+        "openwiki/projects/cbo-3120-wire-status-lite-pilot.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/incidents/inc-2024-1182.md",
+        "openwiki/people/anjali-deshpande.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 1.0
+    },
+    {
+      "id": "G-054",
+      "class": "negative_unanswerable",
+      "confidence": {
+        "bm25_top1": 17.321,
+        "bm25_margin": 0.1255,
+        "term_coverage": 0.8889,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/documents/prsp-hms-3.4.md",
+        "openwiki/systems/sentinel-fraud-scoring.md",
+        "openwiki/concepts/hold-reason-taxonomy-disclosure-tiers.md",
+        "openwiki/systems/hold-management-service.md",
+        "openwiki/systems/sanctionscreen.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/people/victor-petrov.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/teams/financial-crimes-compliance.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md"
+      ],
+      "hit_rank": 3,
+      "id_coverage": null
+    },
+    {
+      "id": "G-058",
+      "class": "policy_constraint",
+      "confidence": {
+        "bm25_top1": 34.2195,
+        "bm25_margin": 7.225,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/policies/dus-07.md",
+        "openwiki/decisions/adr-pay-026.md",
+        "openwiki/teams/commercial-service-center.md",
+        "openwiki/interfaces/tdip-insights-api.md",
+        "openwiki/policies/pol-fcc-014.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/systems/treasury-data-insights-platform.md",
+        "openwiki/concepts/settlement-release-completed-semantics.md",
+        "openwiki/datasets/client-wire-history-features.md",
+        "openwiki/datasets/wire-corridor-stats-daily.md"
+      ],
+      "hit_rank": 2,
+      "id_coverage": 0.6
+    },
+    {
+      "id": "G-059",
+      "class": "dependency_impact",
+      "confidence": {
+        "bm25_top1": 36.7721,
+        "bm25_margin": 2.5195,
+        "term_coverage": 0.9565,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/teams/cbo-wire-center-squad.md",
+        "openwiki/teams/treasury-data-analytics.md",
+        "openwiki/documents/cnb-org-ptt-2026-06.md",
+        "openwiki/teams/cbo-platform-entitlements.md",
+        "openwiki/teams/gtsi.md",
+        "openwiki/organizations/digital-treasury-channels.md",
+        "openwiki/people/marcus-chen.md",
+        "openwiki/people/nadia-haddad.md",
+        "openwiki/people/raj-malhotra.md",
+        "openwiki/people/tomasz-nowak.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.0
+    },
+    {
+      "id": "G-060",
+      "class": "entity_lookup",
+      "confidence": {
+        "bm25_top1": 24.6427,
+        "bm25_margin": 0.8672,
+        "term_coverage": 1.0,
+        "exact_hit": false
+      },
+      "top_refs": [
+        "openwiki/interfaces/pph-lifecycle-event-topics.md",
+        "openwiki/documents/pph-api-cat-2026.3.md",
+        "openwiki/systems/cbo-status-projection-service.md",
+        "openwiki/concepts/wire-lifecycle-state-model.md",
+        "openwiki/interfaces/sps-read-model-api.md",
+        "openwiki/decisions/adr-pay-019.md",
+        "openwiki/decisions/adr-pay-021.md",
+        "openwiki/incidents/cmp-2026-1189.md",
+        "openwiki/systems/cbo-wire-center.md",
+        "openwiki/documents/pph-sys-ovw-9.2.md"
+      ],
+      "hit_rank": 1,
+      "id_coverage": 0.5
+    }
+  ],
+  "arm": "enriched+expand"
+}

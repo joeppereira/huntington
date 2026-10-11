@@ -1,6 +1,6 @@
 ---
 type: Project
-entity_id: CBO-3790
+entity_id: GTSI-0107
 title: "GTSI-0107: gpi Tracker Real-Time Service (GTRS)"
 description: "Planned change-feed-based internal REST + event API over the Swift gpi Tracker, intended to let channels and other consumers obtain gpi status without quota-metered Swift Tracker API calls; not funded for 2026, with discovery targeted 2027-Q2 and build 2027-Q3/Q4, and currently blocked on sponsorship and an unapproved interim data-exposure path."
 tags: [gtsi, gpi, gpi-tracker, swift, swift-gpi-connector, change-feed, cbo, wire-center, roadmap, initiative, arb, quota]
@@ -15,6 +15,9 @@ sources:
   - id: openwiki-source-4452149a3b4502b4c763a559
     resource: repo://sources/estate/jira-export-wt-discovery-2026-10-05.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owner: openwiki/people/elena-vasquez.md
+status: proposed
+supersedes: [openwiki/decisions/png-1544.md]
 ---
 
 ## Overview

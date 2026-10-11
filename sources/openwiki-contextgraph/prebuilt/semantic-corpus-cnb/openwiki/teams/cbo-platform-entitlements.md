@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: cbo-platform-entitlements
+entity_id: [TEAM-CBO-PLT, cbo-platform-entitlements]
 title: CBO Platform & Entitlements
 description: Engineering team within Digital Treasury Channels Engineering that owns the CBO Status Projection Service (SPS) and the Commercial Entitlements Service (CES); engaged via Jira CBO (Platform) / #cbo-platform with a two-week triage cadence and ~70% committed capacity as of PI 27.1.
 tags: [team, cbo-platform, ces, sps, entitlements, status-projection, payments, ptt, engagement, capacity-planning]

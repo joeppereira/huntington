@@ -11,6 +11,10 @@ sources:
   - id: openwiki-source-4452149a3b4502b4c763a559
     resource: repo://sources/estate/jira-export-wt-discovery-2026-10-05.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owner: openwiki/people/tom-becker.md
+status: proposed
+status_note: unscheduled
+relates_to: [openwiki/projects/pph-2190-v1-sunset-migration.md]
 ---
 
 ## Overview

@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: jordan-ellis
+entity_id: [P-JELLIS, jordan-ellis]
 title: Jordan Ellis
 description: VP, FCC Policy & Advisory at Crestline National Bank; day-to-day policy contact for POL-FCC-014, reviewer of the PRSP-HMS-3.4 Hold Management Service design document, and the named first escalation point for financial-crimes compliance and policy-interpretation questions.
 tags: [person, financial-crimes-compliance, fcc-policy-and-advisory, pol-fcc-014, prsp-hms-3.4, escalation-contact, governance, disclosure-tiers]

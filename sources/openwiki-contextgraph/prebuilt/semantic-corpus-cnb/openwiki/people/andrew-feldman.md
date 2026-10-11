@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: andrew-feldman
+entity_id: [P-AFELD, andrew-feldman]
 title: Andrew Feldman
 description: Accountable leader for the Legal - Treasury & Payments partner function within Payments & Treasury Technology (PTT), a first/second-line legal partner engaged on disclosure, contractual and regulatory matters for treasury and payments products.
 tags: [people, legal, treasury-payments, ptt, partner-function, governance, disclosure-review-committee]

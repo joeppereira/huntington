@@ -2,6 +2,7 @@
 type: Policy
 entity_id: MRM-POL-02
 title: "MRM-POL-02: Model Risk Management Policy"
+aliases: [risk tier, model risk tier, model approval]
 description: "Model Risk Management policy (v7.0, effective 2026-07-01) defining the Model/End-User Analytic (EUA) boundary, the Tier 1/2/3/EUA risk tiering and validation lead times, and the rule that customer-facing estimates are Tier 2 minimum while financial-crimes model outputs may never be used for product or marketing purposes."
 tags: [policy, mrm-pol-02, model-risk-management, mrm, tiering, eua, validation, customer-facing-estimate, financial-crimes, governance]
 verified:
@@ -11,6 +12,7 @@ sources:
   - id: openwiki-source-661f09048ce207829077c40d
     resource: repo://sources/estate/mrm-pol-02-v7.0-model-risk-management-policy-extract.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+described_by: [openwiki/documents/mrm-pol-02.md]
 ---
 
 ## Overview

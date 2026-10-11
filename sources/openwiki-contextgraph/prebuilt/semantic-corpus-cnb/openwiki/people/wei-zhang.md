@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: wei-zhang
+entity_id: [P-WZHANG, wei-zhang]
 title: Wei Zhang
 description: Director, Treasury Data & Analytics at Crestline National Bank, leading the Treasury Data & Insights Platform (TDIP) team and approving the TDIP-CAT-2026.2 data catalog that governs TDIP's payments-domain datasets, feature tables, and Insights API.
 tags: [person, director, tdip, treasury-data-analytics, ptt, data-governance, tdip-cat-2026.2, data-catalog]

@@ -27,6 +27,8 @@ sources:
   - id: openwiki-source-08ac07f04b390aa09d5edc51
     resource: repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/payment-operations.md]
+described_by: [openwiki/documents/cbo-arch-wc-4.1.md, openwiki/documents/cnb-memo-2026-09.md, openwiki/documents/cnb-org-ptt-2026-06.md, openwiki/documents/jira-export-wt-discovery-2026-10-05.md, openwiki/documents/pir-2024-07.md, openwiki/documents/png-tdd-6.0.md, openwiki/documents/pol-fcc-014.md, openwiki/documents/pph-api-cat-2026.3.md, openwiki/documents/prsp-hms-3.4.md]
 ---
 
 ## Overview

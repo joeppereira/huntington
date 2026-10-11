@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: victor-petrov
+entity_id: [P-VPETR, victor-petrov]
 title: Victor Petrov
 description: Director, Financial Crimes Technology (FCT) at Crestline National Bank; leads the PRSP engineering team, approves the Hold Management Service design (PRSP-HMS-3.4), and is the accountable model owner of the Tier 1 Sentinel fraud score and beneficiary mule-risk models under MRM-POL-02.
 tags: [person, director, financial-crimes-technology, fct, prsp, hold-management-service, prsp-hms-3.4, mrm-pol-02, model-owner, sentinel, engineering-leadership]

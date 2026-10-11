@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: tomasz-nowak
+entity_id: [P-TNOWAK, tomasz-nowak]
 title: Tomasz Nowak
 description: Senior Engineer on the Swift gpi Connector who transferred from Payment Networks Engineering (PNE) to Global Transaction Services Integration (GTSI) effective 2026-10-01, now reporting to Omar Siddiqui.
 tags: [person, gtsi, pne, gpi-connector, swift, org-change]

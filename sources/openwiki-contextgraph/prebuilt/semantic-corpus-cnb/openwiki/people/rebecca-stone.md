@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: rebecca-stone
+entity_id: [P-RSTONE, rebecca-stone]
 title: Rebecca Stone
 description: Financial Intelligence Unit (FIU) contact within Financial Crimes Compliance at Crestline National Bank; named business owner of the Hold Management Service (SYS-PRSP-HMS), the PRSP system of record for payment holds.
 tags: [people, financial-crimes-compliance, fiu, second-line, business-owner, hold-management-service, sys-prsp-hms, ptt, partner-function]

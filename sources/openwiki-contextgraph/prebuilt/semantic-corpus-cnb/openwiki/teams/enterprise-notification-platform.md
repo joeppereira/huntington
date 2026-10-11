@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: enterprise-notification-platform
+entity_id: [TEAM-ENS, enterprise-notification-platform]
 title: Enterprise Notification Platform
 description: Engineering team within Payments & Treasury Technology (PTT) that owns the Enterprise Notification Service (SYS-ENS); led by Director Sanjay Iyer with Melissa Grant (EM) and Paul Henderson (onboarding); runs the 6-week, ~12-engineering-hour ENS event-onboarding SLA for all PTT producer teams.
 tags: [team, enterprise-notification-platform, ens, enterprise-notification-service, payments-treasury-technology, system-ownership, event-onboarding, capacity-planning, notifications]

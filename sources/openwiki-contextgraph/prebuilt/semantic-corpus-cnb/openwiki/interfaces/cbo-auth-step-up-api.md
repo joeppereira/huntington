@@ -17,6 +17,10 @@ sources:
   - id: openwiki-source-08ac07f04b390aa09d5edc51
     resource: repo://sources/estate/prsp-hms-3.4-hold-management-service-design-and-reason-taxonomy-restricted.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/cbo-wire-center-squad.md]
+part_of: openwiki/systems/cbo-wire-center.md
+status: live
+described_by: [openwiki/documents/cbo-arch-wc-4.1.md, openwiki/documents/jira-export-wt-discovery-2026-10-05.md, openwiki/documents/pol-fcc-014.md, openwiki/documents/prsp-hms-3.4.md]
 ---
 
 ## Overview

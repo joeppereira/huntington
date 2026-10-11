@@ -13,6 +13,9 @@ sources:
   - id: openwiki-source-0163a9a7923ee437e942692a
     resource: repo://sources/estate/png-tdd-6.0-payment-network-gateway-fedwire-and-gpi-technical-design.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/gtsi.md]
+described_by: [openwiki/documents/cnb-memo-2026-09.md, openwiki/documents/png-tdd-6.0.md]
+aliases: [payment network gateway, GPI-C]
 ---
 
 ## Overview

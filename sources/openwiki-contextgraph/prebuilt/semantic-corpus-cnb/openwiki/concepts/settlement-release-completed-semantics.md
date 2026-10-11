@@ -17,6 +17,7 @@ sources:
   - id: openwiki-source-19beabaf3acaad354d39ee1e
     resource: repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+governed_by: [openwiki/policies/pol-fcc-014.md]
 ---
 
 ## Why this concept exists

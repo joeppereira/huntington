@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: model-risk-management
+entity_id: [TEAM-MRM, model-risk-management]
 title: Model Risk Management (MRM)
 description: Second-line partner function (accountable leader Jonathan Price) that owns MRM-POL-02 and the enterprise model inventory, gating every quantitative, forward-looking or client-facing calculation in Payments & Treasury Technology behind registration, risk-based tiering and independent validation.
 tags: [model-risk-management, mrm, second-line, partner-function, jonathan-price, sophie-laurent, mrm-pol-02, model-inventory, tiering, validation, ptt, governance]

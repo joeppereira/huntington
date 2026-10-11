@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: jonathan-price
+entity_id: [P-JPRICE, jonathan-price]
 title: Jonathan Price
 description: Head of Model Risk Management at Crestline National Bank; second-line accountable owner of MRM-POL-02 and the enterprise model inventory governing model definition, tiering, validation and use limitations for Payments & Treasury Technology.
 tags: [people, model-risk-management, mrm, second-line, policy-owner, mrm-pol-02, model-inventory, ptt, partner-function, governance]

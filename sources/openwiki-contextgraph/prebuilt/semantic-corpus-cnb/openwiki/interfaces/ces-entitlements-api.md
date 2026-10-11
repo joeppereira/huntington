@@ -11,6 +11,10 @@ sources:
   - id: openwiki-source-a8ab82acd285acae1ac9546d
     resource: repo://sources/estate/tdip-cat-2026.2-treasury-data-and-insights-platform-data-catalog-extract.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/cbo-platform-entitlements.md]
+part_of: openwiki/systems/commercial-entitlements-service.md
+status: live
+described_by: [openwiki/documents/tdip-cat-2026.2.md]
 ---
 
 ## Overview

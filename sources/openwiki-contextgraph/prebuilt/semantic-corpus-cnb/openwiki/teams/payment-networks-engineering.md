@@ -1,6 +1,6 @@
 ---
 type: Team
-entity_id: payment-networks-engineering
+entity_id: [TEAM-PNE, payment-networks-engineering]
 title: Payment Networks Engineering (PNE)
 description: Engineering team within Payments & Treasury Technology at Crestline National Bank that owns the Fedwire Funds Connector (and, formerly, the Swift Alliance/gpi Connector); led by Director Raj Malhotra, with scope realigned by the 2026-10-01 cross-border network re-org.
 tags: [pne, team, payment-networks-engineering, payments-treasury-technology, fedwire, fedwire-funds-connector, swift-gpi, reorg, change-windows]

@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: luis-ramirez
+entity_id: [P-LRAMI, luis-ramirez]
 title: Luis Ramirez
 description: Wire Investigations contact for Payment Operations at Crestline National Bank and the registered business owner of the Investigations Workbench (SYS-IWB), the Tier-2 casework tool analysts use to work holds, gpi exceptions and sanctions/fraud queues.
 tags: [person, payment-operations, wire-investigations, investigations-workbench, sys-iwb, business-owner, ptt]

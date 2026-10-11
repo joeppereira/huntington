@@ -13,6 +13,8 @@ sources:
   - id: openwiki-source-19beabaf3acaad354d39ee1e
     resource: repo://sources/estate/pph-sys-ovw-9.2-prism-payments-hub-system-overview-and-lifecycle-state-model.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/payments-hub-engineering.md]
+described_by: [openwiki/documents/pph-api-cat-2026.3.md, openwiki/documents/pph-sys-ovw-9.2.md]
 ---
 
 ## Overview

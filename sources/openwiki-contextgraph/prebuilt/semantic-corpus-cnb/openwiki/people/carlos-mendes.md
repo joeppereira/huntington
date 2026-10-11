@@ -1,6 +1,6 @@
 ---
 type: Person
-entity_id: carlos-mendes
+entity_id: [P-CMEND, carlos-mendes]
 title: Carlos Mendes
 description: Engineering Manager for Data Engineering on the Treasury Data & Insights Platform (TDIP); document owner of the TDIP data catalog and technical owner of several payments-domain datasets, including the in-progress gpi_tracker_events hourly-load migration (TDA-2188) and the blocked fed_ack_events ingestion (TDA-2210).
 tags: [person, engineering-manager, tdip, data-engineering, gpi-tracker-events, fed-ack-events, jira, data-catalog]

@@ -1,6 +1,6 @@
 ---
 type: Interface
-entity_id: EP-PPH-04..07
+entity_id: [EP-PPH-04, EP-PPH-05, EP-PPH-06, EP-PPH-07]
 title: "PPH v2 Payments API"
 description: Current (GA 2025-10) REST surface of PRISM Payments Hub for payment detail, search, state history, and submission — exposing lifecycleState, rail-aware identifiers (including UETR and OMAD), and hold presence only — plus the two open backlog gaps (settlement object, beneficiary-name search) tracked against it.
 tags: [pph, payments-hub, payments-api, v2, lifecycle-state, uetr, omad, imad, hold-presence, payments-arb, backlog]
@@ -11,6 +11,13 @@ sources:
   - id: openwiki-source-a4ee8b1dfcb7e3cec0a315e4
     resource: repo://sources/estate/pph-api-cat-2026.3-prism-payments-hub-api-and-event-catalog.md
 generated: { by: "openwiki/0.7.0", at: "2026-10-09T18:41:05.232Z" }
+owned_by: [openwiki/teams/payments-hub-engineering.md]
+part_of: openwiki/systems/prism-payments-hub.md
+status: live
+status_note: 2025-10
+supersedes: [openwiki/interfaces/pph-v1-wire-status-api.md]
+described_by: [openwiki/documents/pph-api-cat-2026.3.md]
+aliases: [where is my money, payment location]
 ---
 
 ## Overview
