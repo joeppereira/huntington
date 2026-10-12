@@ -27,9 +27,38 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "backend"))
+sys.path.insert(0, str(ROOT / "eval"))
 
 from app.agent import split_leaked_markup  # noqa: E402
 from app.answer_cache import CacheEntry, load_cache, render_cache_markdown  # noqa: E402
+from app.answer_verify import fill_gaps, verify_run  # noqa: E402
+from app.config import Settings  # noqa: E402
+from app.retrieval import WikiGraph, load_corpus  # noqa: E402
+
+import answer_keys  # noqa: E402  (eval/answer_keys.py)
+
+
+def verify_and_fill(entry_id: str, response: dict, graph: WikiGraph) -> tuple[str, str]:
+    """Run the deterministic verifier over a recorded answer and gap-fill from the graph, so the
+    CACHED answer is provably correct (e.g. the gpi owner is GTSI, not the concept's stale PNE).
+    Returns (answer_to_cache, one-line verification summary)."""
+    qkey = f"Q{int(entry_id.rsplit('Q', 1)[-1])}"  # "WTC-Q01" -> "Q1"
+    facts = answer_keys.all_answer_keys().get(qkey)
+    answer = split_leaked_markup(response["answer"])[0]
+    if not facts:
+        return answer, "no fact key"
+    steps = response["trace"]["steps"]
+    tools_used = [s["tool"] for s in steps]
+    pages_read = [r for s in steps if s["tool"] == "semantic_read" for r in s.get("refs", [])]
+    citations = [s["ref"] for s in response["sources"]]
+    pre = verify_run(facts, answer, pages_read, citations, tools_used, graph)
+    corrected, corrections = fill_gaps(facts, pre, answer, graph)
+    good = sum(c.verified_good for c in pre)
+    contra = sum(c.contradicts_graph for c in pre)
+    summary = (f"{good}/{len(facts)} facts good"
+               + (f", {contra} CONTRADICTED graph" if contra else "")
+               + (f", {len(corrections)} gap-filled" if corrections else " (clean)"))
+    return corrected, summary
 
 DEFAULT_CONCEPT = (ROOT.parent / "demo-docs" / "Wire_Tracking_Demo_Kit" / "Demo_Script"
                    / "01_Wire_Tracking_Center_Concept.pdf")
@@ -157,10 +186,9 @@ def post(base: str, path: str, body: dict, timeout: float = 600) -> dict:
         raise RequestFailed(f"POST {path} failed: HTTP {err.code} {err.read().decode()[:300]}") from err
 
 
-def entry_from_response(spec: tuple, response: dict, model: str, asked: str) -> CacheEntry:
+def entry_from_response(spec: tuple, response: dict, model: str, asked: str, answer: str) -> CacheEntry:
     entry_id, title, question, intent, examples = spec
     trace = response["trace"]
-    answer, _ = split_leaked_markup(response["answer"])
     return CacheEntry(
         id=entry_id, title=title, intent=intent, example_questions=[question, *examples],
         recorded_question=asked if asked != question else "",
@@ -187,6 +215,7 @@ def main() -> None:
     if unknown:
         raise SystemExit(f"Unknown id(s): {', '.join(unknown)}. Known: {', '.join(ids)}")
 
+    graph = WikiGraph(load_corpus(Settings().semantic_corpus_path))
     base = args.base_url.rstrip("/")
     session = post(base, "/api/sessions", {})["session_id"]
     pdf = args.concept.read_bytes()
@@ -206,9 +235,10 @@ def main() -> None:
             print(f"{spec[0]}: FAILED after {time.time() - started:.1f}s - {err} (kept the previous entry)", flush=True)
             continue
         model = response["trace"]["model"]
-        recorded[spec[0]] = entry_from_response(spec, response, model, asked)
+        answer, verdict = verify_and_fill(spec[0], response, graph)
+        recorded[spec[0]] = entry_from_response(spec, response, model, asked, answer)
         print(f"{spec[0]}: {time.time() - started:5.1f}s, {len(response['trace']['steps'])} tool calls, "
-              f"{len(response['answer'])} chars, confidence {response['confidence']}", flush=True)
+              f"{len(answer)} chars, confidence {response['confidence']} | verify: {verdict}", flush=True)
 
     existing = {e.id: e for e in load_cache(args.out)}
     merged = [recorded.get(i) or existing.get(i) for i in ids]
