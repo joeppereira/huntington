@@ -123,3 +123,19 @@ async def test_ask_recovers_the_answer_text_from_a_failed_submission():
     result = await _agent(_StubGraph(msgs), extractor).ask("q", ())
     assert result.answer.answer == "CET1 was 15.1%."  # from the stub extractor
     assert "Recovered answer text." in extractor.prompts[0]
+
+
+def test_leaked_tool_call_markup_is_cut_from_the_answer():
+    from app.agent import split_leaked_markup, strip_leaked_markup
+
+    text = 'No - see CBO-4402.</answer>\n<parameter name="confidence">high\n<parameter name="reasoning_summary">Read two pages.'
+    clean, fields = split_leaked_markup(text)
+    assert clean == "No - see CBO-4402."
+    assert fields == {"confidence": "high", "reasoning_summary": "Read two pages."}
+
+    answer = AgentAnswer(answer=text, sources=[], reasoning_summary="", confidence="medium", follow_up_questions=[])
+    fixed = strip_leaked_markup(answer)
+    assert fixed.answer == "No - see CBO-4402." and fixed.confidence == "high"
+    assert fixed.reasoning_summary == "Read two pages."
+    untouched = answer.model_copy(update={"answer": "plain **markdown** answer"})
+    assert strip_leaked_markup(untouched) is untouched

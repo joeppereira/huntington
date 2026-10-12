@@ -16,8 +16,9 @@ class FakeAgent:
         self.calls: list[tuple[str, tuple[Turn, ...]]] = []
         self._fail = fail
 
-    async def ask(self, question: str, history: tuple[Turn, ...]) -> AgentResult:
+    async def ask(self, question: str, history: tuple[Turn, ...], documents=()) -> AgentResult:
         self.calls.append((question, history))
+        self.documents = documents
         if self._fail:
             raise self._fail
         return AgentResult(
@@ -175,7 +176,7 @@ def test_trace_write_failure_still_returns_the_answer(client: TestClient):
 class GraphAgent(FakeAgent):
     """Steps that reference real semantic-wiki pages, so the retrieval path resolves titles and links."""
 
-    async def ask(self, question, history):
+    async def ask(self, question, history, documents=()):
         result = await super().ask(question, history)
         steps = (
             TraceStep(1, "semantic_search", '"CET1"', "2 hits", 30, (

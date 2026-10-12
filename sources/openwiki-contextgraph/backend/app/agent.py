@@ -1,5 +1,6 @@
 """The CNB Q&A agent: LangChain create_agent + ChatAnthropic over the OpenWiki tools (BUILD_SPEC 8.4)."""
 
+import re
 import time
 from collections.abc import Sequence
 from dataclasses import dataclass
@@ -12,6 +13,7 @@ from langchain_core.tools import BaseTool, StructuredTool
 from langgraph.errors import GraphRecursionError
 from pydantic import BaseModel, Field
 
+from .documents import SessionDocument, document_messages
 from .tracing import TraceRecorder, TraceStep
 
 HISTORY_TURNS = 6
@@ -38,7 +40,11 @@ used, where you were unsure, or any request to verify, re-check, score or compar
 against text the user provides — do NOT search the wiki first: answer from the chat history and
 `memory_search` (memory lags behind the chat, so prefer the chat history for recent turns), and only
 consult the wiki afterwards if the comparison itself needs a fact checked. If the wiki does not contain
-the answer, say so; do not use outside knowledge about real banks. Keep answers concise.
+the answer, say so; do not use outside knowledge about real banks. Keep answers tight but complete —
+they must still show the depth of the dependencies you found. Open with a one-line verdict, then put the
+detail in a compact Markdown table or short bullets (system or team, owner, interface or ticket, date or
+deadline). Aim for roughly 300-500 words: keep every identifier, owner, date and clause that matters, and
+cut narrative, hedging and repetition.
 
 Never invent estate facts: endpoints, fields, owners, dates, SLAs, hour estimates or capacity numbers
 that the wiki does not state. If asked for something the estate does not define (e.g. an unbuilt
@@ -119,10 +125,42 @@ class AgentResult:
     context_refs_seen: tuple[str, ...] = ()
 
 
+_LEAK_START = re.compile(r'\s*(?:</answer>|<parameter name=")')
+_LEAKED_FIELD = re.compile(r'<parameter name="(\w+)">(.*?)(?=<parameter name="|\Z)', re.S)
+
+
+def split_leaked_markup(text: str) -> tuple[str, dict[str, str]]:
+    """The model sometimes writes the rest of its submit_answer call into the answer text
+    (`...</answer>\n<parameter name="confidence">medium`). Cut that tail off the answer and
+    return the fields it carried, so they are not shown to the user as part of the answer."""
+    match = _LEAK_START.search(text)
+    if match is None:
+        return text, {}
+    fields = {
+        name: value.strip().removesuffix("</parameter>").strip()
+        for name, value in _LEAKED_FIELD.findall(text[match.start():])
+    }
+    return text[: match.start()].rstrip(), fields
+
+
+def strip_leaked_markup(answer: AgentAnswer) -> AgentAnswer:
+    text, fields = split_leaked_markup(answer.answer)
+    if text == answer.answer:
+        return answer
+    update: dict[str, Any] = {"answer": text}
+    if fields.get("confidence") in ("high", "medium", "low"):
+        update["confidence"] = fields["confidence"]
+    if not answer.reasoning_summary.strip() and fields.get("reasoning_summary"):
+        update["reasoning_summary"] = fields["reasoning_summary"]
+    return answer.model_copy(update=update)
+
+
 class Answerer(Protocol):
     model_id: str
 
-    async def ask(self, question: str, history: tuple[Turn, ...]) -> AgentResult: ...
+    async def ask(
+        self, question: str, history: tuple[Turn, ...], documents: tuple[SessionDocument, ...] = ()
+    ) -> AgentResult: ...
 
 
 def history_messages(turns: Sequence[Turn], limit: int = HISTORY_TURNS) -> list[dict[str, str]]:
@@ -228,9 +266,22 @@ class QAAgent:
         answer = AgentAnswer(**extracted.model_dump())
         return _backfill_sources(answer, refs)
 
-    async def ask(self, question: str, history: tuple[Turn, ...], *, attempts: int = 2) -> AgentResult:
+    async def ask(
+        self,
+        question: str,
+        history: tuple[Turn, ...],
+        documents: tuple[SessionDocument, ...] = (),
+        *,
+        attempts: int = 2,
+    ) -> AgentResult:
         started = time.perf_counter()
-        messages = [*history_messages(history), {"role": "user", "content": question}]
+        # Attached documents (e.g. the PM's uploaded concept) come first and are never trimmed
+        # by the history window, so "this feature" always resolves to the upload.
+        messages = [
+            *document_messages(documents),
+            *history_messages(history),
+            {"role": "user", "content": question},
+        ]
         # The Vertex path intermittently ends a heavy multi-tool turn with an empty completion
         # (no submit_answer, no text) — a transient, not a wrong answer. Retry once with a fresh
         # run before giving up; the collapsed graph_dependencies tool already made this rare.
@@ -250,6 +301,7 @@ class QAAgent:
                 answer = await self._extract(question, text, refs, recorder)
             else:
                 answer = _backfill_sources(answer, refs)
+            answer = strip_leaked_markup(answer)
             break
         input_tokens, output_tokens = recorder.token_usage()
         return AgentResult(

@@ -2,10 +2,11 @@
 
 import secrets
 import threading
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import datetime, timezone
 
 from .agent import Turn
+from .documents import MAX_SESSION_DOCUMENTS, SessionDocument
 
 
 def new_session_id(now: datetime | None = None) -> str:
@@ -17,6 +18,7 @@ def new_session_id(now: datetime | None = None) -> str:
 class SessionInfo:
     started_at: datetime
     turns: tuple[Turn, ...] = ()
+    documents: tuple[SessionDocument, ...] = ()
 
 
 class SessionStore:
@@ -48,6 +50,21 @@ class SessionStore:
         """Record a completed turn; returns its 1-based turn number."""
         with self._lock:
             info = self._sessions[session_id]
-            updated = SessionInfo(started_at=info.started_at, turns=(*info.turns, turn))
+            updated = replace(info, turns=(*info.turns, turn))
             self._sessions[session_id] = updated
             return len(updated.turns)
+
+    def documents(self, session_id: str) -> tuple[SessionDocument, ...]:
+        info = self.get(session_id)
+        return info.documents if info else ()
+
+    def add_document(self, session_id: str, document: SessionDocument) -> tuple[SessionDocument, ...]:
+        """Attach a document to the session (a re-upload of the same file name replaces it)."""
+        with self._lock:
+            info = self._sessions[session_id]
+            kept = tuple(d for d in info.documents if d.filename != document.filename)
+            if len(kept) >= MAX_SESSION_DOCUMENTS:
+                raise ValueError(f"A session can hold at most {MAX_SESSION_DOCUMENTS} documents.")
+            updated = replace(info, documents=(*kept, document))
+            self._sessions[session_id] = updated
+            return updated.documents

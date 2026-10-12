@@ -35,6 +35,7 @@ class SessionResponse(BaseModel):
 class ChatRequest(BaseModel):
     session_id: str = Field(min_length=1, max_length=64)
     message: str = Field(min_length=1, max_length=4000)
+    use_cache: bool = True  # False forces the live graph agent (tools/record_demo_cache.py)
 
     @field_validator("message")
     @classmethod
@@ -66,6 +67,16 @@ class TraceOut(BaseModel):
     model: str
 
 
+class CacheHitOut(BaseModel):
+    """Set when the answer came from the demo answer cache instead of a live graph run."""
+
+    entry_id: str
+    recorded_at: str
+    recorded_model: str
+    recorded_latency_ms: int  # how long the original live graph run took
+    match_ms: int  # how long matching this question to the entry took
+
+
 class ChatResponse(BaseModel):
     session_id: str
     turn: int
@@ -77,6 +88,7 @@ class ChatResponse(BaseModel):
     trace: TraceOut
     trace_file: str | None  # corpus-relative turn file; None if writing the trace failed
     retrieval: RetrievalPath  # semantic-graph nodes found, opened and cited
+    cache: CacheHitOut | None = None
 
 
 class DemoResetResponse(BaseModel):
@@ -100,3 +112,20 @@ class SessionTurnOut(BaseModel):
 class SessionDetailResponse(BaseModel):
     session_id: str
     turns: list[SessionTurnOut]
+
+
+class DocumentUploadRequest(BaseModel):
+    filename: str = Field(min_length=1, max_length=200)
+    content_base64: str = Field(min_length=1, max_length=14_500_000)  # ~10 MB of PDF
+
+
+class DocumentOut(BaseModel):
+    filename: str
+    pages: int
+    chars: int
+    truncated: bool
+
+
+class DocumentsResponse(BaseModel):
+    session_id: str
+    documents: list[DocumentOut]

@@ -1,31 +1,40 @@
 """FastAPI app: the single process the user starts. It supervises the OpenWiki child processes."""
 
 import asyncio
+import base64
+import binascii
 import logging
 from collections.abc import AsyncIterator, Callable, Sequence
 from contextlib import asynccontextmanager
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
+from typing import Any
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from langchain_core.tools import BaseTool
 
 from .agent import AgentResult, Answerer, QAAgent, Turn
+from .answer_cache import AnswerCache, CacheHit, load_cache
 from .config import Settings
 from .context_store import ContextStore, TurnRecord, reset_context_corpus
+from .documents import extract_pdf
 from .mcp_tools import OpenWikiMCP, OpenWikiTools
 from .memory_sync import MemoryStatus, MemorySync, Runner
 from .retrieval_path import RetrievalPath, SemanticGraphCache, build_retrieval_path, tag_cited_refs
 from .openwiki_cli import build_openwiki_env, openwiki_version, resolve_cli_js
 from .semantic_tools import SemanticToolkit
 from .schemas import (
+    CacheHitOut,
     ChatRequest,
     ChatResponse,
     ChildrenStatus,
     ChildStatus,
     ConfigResponse,
     DemoResetResponse,
+    DocumentOut,
+    DocumentsResponse,
+    DocumentUploadRequest,
     HealthResponse,
     SessionDetailResponse,
     SessionResponse,
@@ -48,25 +57,50 @@ def _configure_logging() -> None:
         logger.setLevel(logging.INFO)
 
 AgentFactory = Callable[[Settings, Sequence[BaseTool]], Answerer]
+# Builds the small model the answer cache uses to match a question to a cached entry.
+CacheModelFactory = Callable[[Settings], Any]
+
+
+def _vertex_claude(settings: Settings, max_tokens: int):
+    """Claude on Vertex AI Model Garden via the service-account key."""
+    import os
+
+    from langchain_google_vertexai.model_garden import ChatAnthropicVertex
+
+    os.environ.setdefault("GOOGLE_APPLICATION_CREDENTIALS", settings.google_application_credentials)
+    return ChatAnthropicVertex(
+        model_name=settings.agent_model_id,
+        project=settings.google_cloud_project,
+        location=settings.google_cloud_location,
+        max_tokens=max_tokens,
+    )
 
 
 def default_agent_factory(settings: Settings, tools: Sequence[BaseTool]) -> Answerer:
     if settings.google_application_credentials:
-        # Claude on Vertex AI Model Garden via the service-account key (the Anthropic
-        # API key path stays as fallback when no Google credentials are configured).
-        import os
-
-        from langchain_google_vertexai.model_garden import ChatAnthropicVertex
-
-        os.environ.setdefault("GOOGLE_APPLICATION_CREDENTIALS", settings.google_application_credentials)
-        model = ChatAnthropicVertex(
-            model_name=settings.agent_model_id,
-            project=settings.google_cloud_project,
-            location=settings.google_cloud_location,
-            max_tokens=4096,
-        )
-        return QAAgent(settings.agent_model_id, "vertex", tools, model=model)
+        # The Anthropic API key path stays as fallback when no Google credentials are configured.
+        # Headroom for long multi-team answers such as effort plans (one ended with no answer at 4096).
+        return QAAgent(settings.agent_model_id, "vertex", tools, model=_vertex_claude(settings, 8192))
     return QAAgent(settings.agent_model_id, settings.anthropic_api_key, tools)
+
+
+def default_cache_model_factory(settings: Settings) -> Any:
+    if settings.google_application_credentials:
+        return _vertex_claude(settings, 32)
+    from langchain_anthropic import ChatAnthropic
+
+    return ChatAnthropic(model=settings.agent_model_id, api_key=settings.anthropic_api_key, max_tokens=32, timeout=30)
+
+
+def _load_answer_cache(settings: Settings, model_factory: CacheModelFactory) -> AnswerCache | None:
+    if not settings.demo_cache_enabled:
+        return None
+    entries = load_cache(settings.demo_cache_path)
+    if not entries:
+        logger.warning("DEMO_CACHE_ENABLED is set but %s has no entries", settings.demo_cache_path)
+        return None
+    logger.info("answer cache: %d entries from %s", len(entries), settings.demo_cache_path)
+    return AnswerCache(entries, model_factory(settings))
 
 
 @dataclass(frozen=True)
@@ -81,6 +115,7 @@ class Runtime:
     context_store: ContextStore
     memory_sync: MemorySync
     semantic_graph: SemanticGraphCache
+    answer_cache: AnswerCache | None = None
 
 
 def _start_visualizers(settings: Settings) -> tuple[str, Visualizer | None, Visualizer]:
@@ -120,7 +155,12 @@ def _start_visualizers(settings: Settings) -> tuple[str, Visualizer | None, Visu
     return openwiki_version(cli_js), semantic_vis, context_vis
 
 
-async def _start_runtime(settings: Settings, agent_factory: AgentFactory, sync_runner: Runner | None) -> Runtime:
+async def _start_runtime(
+    settings: Settings,
+    agent_factory: AgentFactory,
+    sync_runner: Runner | None,
+    cache_model_factory: CacheModelFactory = default_cache_model_factory,
+) -> Runtime:
     version, semantic_vis, context_vis = _start_visualizers(settings)
     mcp = OpenWikiMCP(settings)
     try:
@@ -150,7 +190,7 @@ async def _start_runtime(settings: Settings, agent_factory: AgentFactory, sync_r
     semantic_graph = SemanticGraphCache(lambda: semantic_vis.url if semantic_vis else None)
     return Runtime(
         settings, version, semantic_vis, context_vis, mcp, agent, SessionStore(), context_store, memory_sync,
-        semantic_graph,
+        semantic_graph, _load_answer_cache(settings, cache_model_factory),
     )
 
 
@@ -175,8 +215,16 @@ def _chat_response(
     result: AgentResult,
     trace_file: str | None,
     retrieval: RetrievalPath,
+    hit: CacheHit | None = None,
 ) -> ChatResponse:
     answer = result.answer
+    cache = None
+    if hit is not None:
+        e = hit.entry
+        cache = CacheHitOut(
+            entry_id=e.id, recorded_at=e.recorded_at, recorded_model=e.recorded_model,
+            recorded_latency_ms=e.recorded_latency_ms, match_ms=hit.match_ms,
+        )
     return ChatResponse(
         session_id=session_id,
         turn=turn,
@@ -194,14 +242,17 @@ def _chat_response(
         ),
         trace_file=trace_file,
         retrieval=retrieval,
+        cache=cache,
     )
 
 
-async def _save_trace(rt: Runtime, session_id: str, turn: int, question: str, result: AgentResult) -> str | None:
+async def _save_trace(
+    rt: Runtime, session_id: str, turn: int, question: str, result: AgentResult, model: str
+) -> str | None:
     """Write and commit the turn trace. A failure is logged but never loses the answer."""
     info = rt.sessions.get(session_id)
     started_at = info.started_at if info else datetime.now(timezone.utc)
-    record = TurnRecord(session_id, turn, question, datetime.now(timezone.utc), rt.agent.model_id, result)
+    record = TurnRecord(session_id, turn, question, datetime.now(timezone.utc), model, result)
     try:
         path = await asyncio.to_thread(rt.context_store.write_turn, record, started_at)
     except Exception:
@@ -214,6 +265,7 @@ def create_app(
     settings: Settings | None = None,
     agent_factory: AgentFactory | None = None,
     sync_runner: Runner | None = None,
+    cache_model_factory: CacheModelFactory | None = None,
 ) -> FastAPI:
     settings = settings or Settings()
     factory = agent_factory or default_agent_factory
@@ -223,7 +275,8 @@ def create_app(
     @asynccontextmanager
     async def lifespan(app: FastAPI) -> AsyncIterator[None]:
         settings.logs_path.mkdir(parents=True, exist_ok=True)
-        app.state.runtime = await _start_runtime(settings, factory, sync_runner)
+        app.state.runtime = await _start_runtime(
+            settings, factory, sync_runner, cache_model_factory or default_cache_model_factory)
         try:
             yield
         finally:
@@ -270,20 +323,50 @@ def create_app(
         history = rt.sessions.history(body.session_id)
         if history is None:
             raise HTTPException(404, f"Unknown session {body.session_id}; start one with POST /api/sessions.")
-        try:
-            result = await rt.agent.ask(body.message, history)
-        except Exception as err:
-            logger.exception("agent failed for session %s", body.session_id)
-            raise HTTPException(502, f"The agent failed: {err}") from err
+        hit = None
+        if body.use_cache and rt.answer_cache is not None:
+            hit = await rt.answer_cache.lookup(body.message, history)
+        if hit is not None:
+            result = hit.result
+            model = f"answer cache {hit.entry.id} (recorded with {hit.entry.recorded_model})"
+        else:
+            model = rt.agent.model_id
+            try:
+                result = await rt.agent.ask(body.message, history, rt.sessions.documents(body.session_id))
+            except Exception as err:
+                logger.exception("agent failed for session %s", body.session_id)
+                raise HTTPException(502, f"The agent failed: {err}") from err
         turn = rt.sessions.append(body.session_id, Turn(question=body.message, answer=result.answer.answer))
-        trace_file = await _save_trace(rt, body.session_id, turn, body.message, result)
+        trace_file = await _save_trace(rt, body.session_id, turn, body.message, result, model)
         if trace_file is not None:
             rt.memory_sync.notify_turn()
         graph = await asyncio.to_thread(rt.semantic_graph.get)
         cited = tag_cited_refs(
             [s.ref for s in result.answer.sources], result.semantic_refs_seen, result.context_refs_seen)
         retrieval = build_retrieval_path(result.steps, cited, graph)
-        return _chat_response(body.session_id, turn, rt.agent.model_id, result, trace_file, retrieval)
+        return _chat_response(body.session_id, turn, model, result, trace_file, retrieval, hit)
+
+    @app.post("/api/sessions/{session_id}/documents", response_model=DocumentsResponse)
+    async def upload_document(session_id: str, body: DocumentUploadRequest, request: Request) -> DocumentsResponse:
+        """Attach a PDF to the session; its text is pinned to every later agent call in that session."""
+        rt: Runtime = request.app.state.runtime
+        if rt.sessions.get(session_id) is None:
+            raise HTTPException(404, f"Unknown session {session_id}; start one with POST /api/sessions.")
+        try:
+            data = base64.b64decode(body.content_base64, validate=True)
+        except (binascii.Error, ValueError) as err:
+            raise HTTPException(422, "content_base64 is not valid base64") from err
+        try:
+            document = await asyncio.to_thread(extract_pdf, body.filename, data)
+            documents = rt.sessions.add_document(session_id, document)
+        except ValueError as err:
+            raise HTTPException(422, str(err)) from err
+        logger.info("session %s: attached %s (%d pages, %d chars)",
+                    session_id, document.filename, document.pages, len(document.text))
+        return DocumentsResponse(session_id=session_id, documents=[
+            DocumentOut(filename=d.filename, pages=d.pages, chars=len(d.text), truncated=d.truncated)
+            for d in documents
+        ])
 
     @app.get("/api/memory/status", response_model=MemoryStatus)
     def memory_status(request: Request) -> MemoryStatus:

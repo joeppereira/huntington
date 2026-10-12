@@ -199,7 +199,7 @@ def test_app_wires_in_process_semantic_tools_and_mcp_memory_tools(settings: Sett
     class _NullAgent:
         model_id = "null"
 
-        async def ask(self, question, history):  # pragma: no cover - never called
+        async def ask(self, question, history, documents=()):  # pragma: no cover - never called
             raise AssertionError
 
     def spy_factory(_settings, tools):

@@ -47,6 +47,10 @@ class Settings(BaseSettings):
     reset_context_on_start: bool = False
     memory_sync_mode: Literal["per_turn", "manual"] = "per_turn"
     memory_sync_timeout_sec: int = 1200
+    # Demo answer cache: recorded graph answers served for the scripted demo questions (and
+    # rewordings of them). Off unless .env turns it on; the file is never part of either wiki.
+    demo_cache_enabled: bool = False
+    demo_cache_file: Path = Path("demo-cache/answer-cache.md")
 
     def _resolve(self, path: Path) -> Path:
         return path if path.is_absolute() else (self.project_root / path).resolve()
@@ -66,6 +70,10 @@ class Settings(BaseSettings):
     @property
     def logs_path(self) -> Path:
         return self._resolve(self.logs_dir)
+
+    @property
+    def demo_cache_path(self) -> Path:
+        return self._resolve(self.demo_cache_file)
 
     @property
     def templates_path(self) -> Path:
