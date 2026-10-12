@@ -118,6 +118,11 @@ class GraphNeighborsArgs(BaseModel):
     )
 
 
+class DependenciesArgs(BaseModel):
+    ref: str = Field(min_length=1, max_length=1000, description='System page ref, e.g. "openwiki/systems/cbo-wire-center.md".')
+    depth: int = Field(default=2, ge=1, le=3, description="How many dependency hops to follow (default 2: direct + their dependencies).")
+
+
 class SemanticToolkit:
     """Model-free retrieval over the semantic wiki, shared across requests.
 
@@ -187,6 +192,13 @@ class SemanticToolkit:
         nodes = self.graph.neighbors(ref, type=type, direction=direction, relation=relation)
         return _dumps({"ref": ref, "count": len(nodes), "hits": [_node(n) for n in nodes[:GRAPH_HITS_LIMIT]]})
 
+    async def graph_dependencies(self, ref: str, depth: int = 2) -> str:
+        ref = ref.strip()
+        if ref not in self.graph.g:
+            return f"Error: unknown page ref {ref!r}; use a ref returned by semantic_search or graph_query"
+        closure = self.graph.dependency_closure(ref, depth=depth)
+        return _dumps({"ref": ref, "count": len(closure), "dependencies": closure})
+
     def as_langchain_tools(self) -> list[BaseTool]:
         return [
             StructuredTool.from_function(
@@ -221,5 +233,14 @@ class SemanticToolkit:
                 f"({', '.join(RELATIONS)}), neighbor type and direction. Use for relationship questions: "
                 "who owns X, what is X part of, what supersedes X, what depends on X.",
                 args_schema=GraphNeighborsArgs,
+            ),
+            StructuredTool.from_function(
+                coroutine=self.graph_dependencies,
+                name="graph_dependencies",
+                description="The complete set of systems a given system depends on (transitively), each already "
+                "joined with its owner and status, in ONE call. Use this for 'which systems does X depend on, "
+                "who owns each' instead of calling graph_neighbors then reading every node — it returns the full "
+                "dependency closure so you can answer directly.",
+                args_schema=DependenciesArgs,
             ),
         ]

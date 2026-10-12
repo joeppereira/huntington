@@ -182,9 +182,9 @@ async def test_graph_neighbors_depends_on_returns_typed_hits(toolkit: SemanticTo
 
 # -- LangChain tool surface and agent wiring ------------------------------------
 
-async def test_langchain_tools_expose_the_four_semantic_tools(toolkit: SemanticToolkit):
+async def test_langchain_tools_expose_the_semantic_tools(toolkit: SemanticToolkit):
     tools = {t.name: t for t in toolkit.as_langchain_tools()}
-    assert set(tools) == {"semantic_search", "semantic_read", "graph_query", "graph_neighbors"}
+    assert set(tools) == {"semantic_search", "semantic_read", "graph_query", "graph_neighbors", "graph_dependencies"}
     out = json.loads(await tools["semantic_search"].ainvoke({"query": "EP-OLD-01"}))
     assert out["hits"][0]["ref"] == "openwiki/interfaces/old-api.md"
     out = json.loads(await tools["graph_neighbors"].ainvoke(
@@ -210,11 +210,11 @@ def test_app_wires_in_process_semantic_tools_and_mcp_memory_tools(settings: Sett
         pass
     by_name = {t.name: t for t in captured["tools"]}
     assert set(by_name) == {
-        "semantic_search", "semantic_read", "graph_query", "graph_neighbors",
+        "semantic_search", "semantic_read", "graph_query", "graph_neighbors", "graph_dependencies",
         "memory_search", "memory_read",
     }
     # The semantic pair must be the in-process toolkit, not the MCP wrappers.
-    for name in ("semantic_search", "semantic_read", "graph_query", "graph_neighbors"):
+    for name in ("semantic_search", "semantic_read", "graph_query", "graph_neighbors", "graph_dependencies"):
         assert isinstance(by_name[name].coroutine.__self__, SemanticToolkit)
     from app.mcp_tools import OpenWikiTools
 
@@ -250,3 +250,17 @@ async def test_golden_smoke_expected_page_in_top5(cnb_toolkit, golden_items, gol
     top5 = [h["ref"] for h in out["hits"]]
     assert set(top5) & set(item["expected_refs"]), (
         f"{golden_id}: none of {item['expected_refs']} in top-5 {top5}")
+
+
+CNB_CORPUS = Path(__file__).resolve().parents[2] / "semantic-corpus-cnb" / "openwiki"
+
+
+@pytest.mark.skipif(not CNB_CORPUS.exists(), reason="CNB corpus absent")
+async def test_graph_dependencies_one_call_closure():
+    tk = SemanticToolkit(CNB_CORPUS)
+    out = json.loads(await tk.graph_dependencies("openwiki/systems/cbo-wire-center.md", depth=2))
+    refs = {d["ref"].split("/")[-1] for d in out["dependencies"]}
+    # 2-hop closure reaches the systems lexical retrieval could not: PPH's own deps.
+    assert {"prism-payments-hub.md", "hold-management-service.md", "swift-gpi-connector.md"} <= refs
+    gpi = next(d for d in out["dependencies"] if d["ref"].endswith("swift-gpi-connector.md"))
+    assert any("GTSI" in o for o in gpi["owner"])  # ownership correction, pre-joined in one call

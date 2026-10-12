@@ -1,0 +1,21 @@
+UPLOADED DOCUMENT — PM-WTC-MR-0.3 "Wire Tracking Center — Market Research Summary & Feature Concept" (v0.3 Draft, owner Sarah Whitfield, Snr PM Wire Tracking; approver Marcus Chen pending; 2026-10-06). This is my feature concept; use it as the definition of "the Wire Tracking Center" / "this feature" for all my questions.
+
+1. Problem: corporate clients can't see where their wires are after release (61k wire inquiries/yr, 38% WISMO ~23,200 calls, 11.5min AHT; ~9,800 held/pending calls; top NPS detractor "no visibility after I send a wire").
+
+4. Feature concept (v0.3):
+- FC-01 FedEx-style domestic timeline: Wire Submitted -> Approved -> Bank Received -> Confirmation Number Generated -> Settled. "Settled" shown when the CBO status shows "Completed" (assumed already available today).
+- FC-02 International live route (Swift gpi): live map of intermediaries refreshed every minute; "Expected delivery: Today" on every gpi wire; intermediary & beneficiary fees; "Delivered" when funds reach the beneficiary bank.
+- FC-03 Held wire review & self-service: show the exact review reason from the risk system (e.g. "Potential duplicate", "Unusual activity detected", "Sanctions screening in progress"); Confirm/Reject buttons on all held wires; "this wire will be released about 30 minutes after you confirm."
+- FC-04 Wire Insights: "Beneficiary typically moves funds within 4 hours." "92% of similar [currency] wires complete same day." "Predicted delivery time" from the client's similar past wires.
+- FC-05 Notifications: "Notify me when this wire settles" per wire; category alerts.
+- FC-06 Share status with recipient: one-click live tracking link for the beneficiary including full wire details, fees, funding account.
+- FC-07 Returned wires: return reason, root-cause insight, one-click resend.
+
+5. Assumptions & dependencies (PM view):
+- Status data comes from the Payments Hub status API that Wire Center already uses.
+- gpi data: Payment Networks Engineering (Raj Malhotra) — see spike CBO-4480.
+- Insights can be calculated in the CBO wire BFF from wire history.
+- Notifications use existing ENS wire events.
+- Mostly front-end work for the CBO Wire Center squad; estimate 1.5 PIs.
+
+7. Target timeline: pilot 30 clients Feb 2027; GA Q1 2027 with all capabilities FC-01..FC-07.

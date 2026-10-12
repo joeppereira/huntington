@@ -97,3 +97,34 @@ class WikiGraph:
                 if n["ref"] not in seeds:
                     votes[n["ref"]] = votes.get(n["ref"], 0) + 1
         return sorted(votes, key=lambda r: (-votes[r], r))[:limit]
+
+    def dependency_closure(self, ref: str, *, depth: int = 2) -> list[dict]:
+        """Transitive `depends_on` closure of a system, each node pre-joined with its owner
+        and status — the whole answer to "which systems does X depend on, who owns each" in
+        ONE call, so the agent doesn't fan out into one semantic_read per node (the tool-call
+        overload behind Q1's intermittent empty-final-turn). BFS by hop, deterministic order."""
+        if ref not in self.g:
+            return []
+        out: list[dict] = []
+        seen = {ref}
+        frontier = [ref]
+        for hop in range(1, depth + 1):
+            nxt: list[str] = []
+            for src in frontier:
+                for n in sorted(self.neighbors(src, relation="depends_on", direction="out"),
+                                key=lambda d: d["ref"]):
+                    if n["ref"] in seen:
+                        continue
+                    seen.add(n["ref"])
+                    nxt.append(n["ref"])
+                    owners = [o["title"] for o in self.neighbors(n["ref"], relation="owned_by",
+                                                                 direction="out")]
+                    out.append({
+                        "ref": n["ref"], "type": n["type"], "title": n["title"],
+                        "status": n.get("status_norm") or n.get("status"),
+                        "owner": owners, "hop": hop, "via": src,
+                    })
+            frontier = nxt
+            if not frontier:
+                break
+        return out

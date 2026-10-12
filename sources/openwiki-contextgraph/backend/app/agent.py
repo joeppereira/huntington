@@ -22,16 +22,15 @@ built from its payments-estate documents. Always ground answers in the wiki: cal
 then `semantic_read` on the most relevant refs before answering factual questions. Search results
 carry each page's explicit `type`, `status` and `entity_ids` — trust those fields rather than
 guessing from the ref path, and repeating the same query returns identical results, so reword
-instead of retrying. For inventory or aggregation questions ("list all Interfaces", "which systems
-are deprecated") use `graph_query`; for relationship questions (who owns X, what is X part of, what
-supersedes or depends on X) use `graph_neighbors` on the page's ref. For any AGGREGATION, ENUMERATION,
-DEPENDENCY or OWNERSHIP question — "which systems does X depend on", "who owns each", "list all <type>",
-"everything that conflicts with / touches / feeds Y" — you MUST assemble the answer from the typed graph,
-not from `semantic_search` ranking: lexical search returns only the top-k relevant pages, never the
-complete related set. Resolve X's ref (via `graph_query` or one `semantic_search`), then call
-`graph_neighbors(ref, relation="depends_on")` and `semantic_read` each returned system (e.g. to name its
-owner), use `graph_query(type=...)` for full inventories, and `graph_neighbors(ref, direction="in")` for
-"what depends on / touches X". Quote identifiers,
+instead of retrying. For AGGREGATION, ENUMERATION, DEPENDENCY or OWNERSHIP questions — "which systems
+does X depend on", "who owns each", "list all <type>", "what conflicts with / touches / feeds Y" —
+lexical `semantic_search` returns only the top-k relevant pages, never the complete set, so use the
+typed graph instead. For "which systems does X depend on, who owns each", call `graph_dependencies(ref)`
+ONCE — it returns the whole dependency closure already joined with each system's owner and status, so you
+can answer directly without reading every node. For inventories use `graph_query(type=..., status=...)`;
+for other single relationships use `graph_neighbors(ref, relation=...)` (add `direction="in"` for "what
+depends on X"). Keep tool calls few: once you have the set, write the answer and call `submit_answer`;
+do not fan out into a read per node. Quote identifiers,
 dates, versions and clause numbers exactly, and cite the refs you used. If the user refers to earlier
 conversation ("as you said", "that system"), check `memory_search` and the chat history first. For
 questions about the conversation itself — what was asked, your earlier answers, decisions, sources
@@ -56,7 +55,7 @@ chose.
 
 SUBMIT_TOOL_NAME = "submit_answer"
 # Caps a runaway tool loop (each tool round is two graph steps).
-RECURSION_LIMIT = 40
+RECURSION_LIMIT = 50
 
 EXTRACTION_PROMPT = """\
 Turn this answer from the CNB Q&A agent into the structured format. Keep the answer text as written.
@@ -229,22 +228,29 @@ class QAAgent:
         answer = AgentAnswer(**extracted.model_dump())
         return _backfill_sources(answer, refs)
 
-    async def ask(self, question: str, history: tuple[Turn, ...]) -> AgentResult:
-        recorder = TraceRecorder()
+    async def ask(self, question: str, history: tuple[Turn, ...], *, attempts: int = 2) -> AgentResult:
         started = time.perf_counter()
         messages = [*history_messages(history), {"role": "user", "content": question}]
-        config = {"callbacks": [recorder], "recursion_limit": RECURSION_LIMIT}
-        try:
-            state = await self._graph.ainvoke({"messages": messages}, config=config)
-        except GraphRecursionError as err:
-            raise RuntimeError(f"agent did not finish within {RECURSION_LIMIT} steps") from err
-        refs = [*recorder.semantic_pages_read(), *recorder.context_pages_read()]
-        answer = answer_from_messages(state["messages"])
-        if answer is None:
-            text = final_text(state["messages"]) or attempted_answer_text(state["messages"])
-            answer = await self._extract(question, text, refs, recorder)
-        else:
-            answer = _backfill_sources(answer, refs)
+        # The Vertex path intermittently ends a heavy multi-tool turn with an empty completion
+        # (no submit_answer, no text) — a transient, not a wrong answer. Retry once with a fresh
+        # run before giving up; the collapsed graph_dependencies tool already made this rare.
+        for attempt in range(attempts):
+            recorder = TraceRecorder()
+            config = {"callbacks": [recorder], "recursion_limit": RECURSION_LIMIT}
+            try:
+                state = await self._graph.ainvoke({"messages": messages}, config=config)
+            except GraphRecursionError as err:
+                raise RuntimeError(f"agent did not finish within {RECURSION_LIMIT} steps") from err
+            refs = [*recorder.semantic_pages_read(), *recorder.context_pages_read()]
+            answer = answer_from_messages(state["messages"])
+            if answer is None:
+                text = final_text(state["messages"]) or attempted_answer_text(state["messages"])
+                if not text and attempt < attempts - 1:
+                    continue  # empty completion — transient; retry
+                answer = await self._extract(question, text, refs, recorder)
+            else:
+                answer = _backfill_sources(answer, refs)
+            break
         input_tokens, output_tokens = recorder.token_usage()
         return AgentResult(
             answer=answer,

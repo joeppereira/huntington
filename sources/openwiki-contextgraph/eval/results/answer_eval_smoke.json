@@ -1,0 +1,275 @@
+{
+  "model": "claude-sonnet-5",
+  "runs_per_question": 1,
+  "corpus": "/Users/josepereira/code/huntington/sources/openwiki-contextgraph/semantic-corpus-cnb/openwiki",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "golden_id": "G-020",
+      "question": "I've uploaded my market research and concept. Before I write the BRD: which existing systems does the Wire Tracking Center depend on, and who owns each today?",
+      "runs": 1,
+      "run_success_pct": 1.0,
+      "n_facts": 8,
+      "coverage_pre_mean": 1.0,
+      "coverage_post_mean": 1.0,
+      "data_used_mean": 0.625,
+      "contradictions_total": 0,
+      "fact_pass_matrix": [
+        {
+          "fact_id": "Q1-SYS-PPH",
+          "desc": "dependency: PRISM Payments Hub (PPH)",
+          "n_ok_runs": 1,
+          "present_pre": 1,
+          "contradicts_graph": 0,
+          "verified_good_pre": 1,
+          "verified_good_post": 1
+        },
+        {
+          "fact_id": "Q1-SYS-FFC",
+          "desc": "dependency: Fedwire Funds Connector (FFC)",
+          "n_ok_runs": 1,
+          "present_pre": 1,
+          "contradicts_graph": 0,
+          "verified_good_pre": 0,
+          "verified_good_post": 0
+        },
+        {
+          "fact_id": "Q1-SYS-GPI",
+          "desc": "dependency: Swift gpi Connector",
+          "n_ok_runs": 1,
+          "present_pre": 1,
+          "contradicts_graph": 0,
+          "verified_good_pre": 1,
+          "verified_good_post": 1
+        },
+        {
+          "fact_id": "Q1-SYS-HMS",
+          "desc": "dependency: Hold Management Service (HMS)",
+          "n_ok_runs": 1,
+          "present_pre": 1,
+          "contradicts_graph": 0,
+          "verified_good_pre": 1,
+          "verified_good_post": 1
+        },
+        {
+          "fact_id": "Q1-SYS-ENS",
+          "desc": "dependency: Enterprise Notification Service (ENS)",
+          "n_ok_runs": 1,
+          "present_pre": 1,
+          "contradicts_graph": 0,
+          "verified_good_pre": 1,
+          "verified_good_post": 1
+        },
+        {
+          "fact_id": "Q1-SYS-CES",
+          "desc": "dependency: Commercial Entitlements Service (CES)",
+          "n_ok_runs": 1,
+          "present_pre": 1,
+          "contradicts_graph": 0,
+          "verified_good_pre": 0,
+          "verified_good_post": 0
+        },
+        {
+          "fact_id": "Q1-SYS-CDP",
+          "desc": "dependency: Core Deposit Platform (CDP)",
+          "n_ok_runs": 1,
+          "present_pre": 1,
+          "contradicts_graph": 0,
+          "verified_good_pre": 0,
+          "verified_good_post": 0
+        },
+        {
+          "fact_id": "Q1-GPI-OWNER",
+          "desc": "gpi connector current owner is GTSI (not PNE/Raj Malhotra)",
+          "n_ok_runs": 1,
+          "present_pre": 1,
+          "contradicts_graph": 0,
+          "verified_good_pre": 1,
+          "verified_good_post": 1
+        }
+      ],
+      "runs_detail": [
+        {
+          "run": 1,
+          "ok": true,
+          "confidence": "medium",
+          "tools_used": [
+            "semantic_search",
+            "semantic_read"
+          ],
+          "pages_read": [
+            "openwiki/systems/cbo-wire-center.md",
+            "openwiki/interfaces/cbo-auth-step-up-api.md"
+          ],
+          "citation_refs": [
+            "openwiki/systems/cbo-wire-center.md",
+            "openwiki/systems/prism-payments-hub.md",
+            "openwiki/interfaces/cbo-auth-step-up-api.md",
+            "openwiki/systems/hold-management-service.md",
+            "openwiki/systems/swift-gpi-connector.md",
+            "openwiki/decisions/adr-pay-026.md",
+            "openwiki/interfaces/tdip-insights-api.md",
+            "openwiki/systems/cbo-status-projection-service.md",
+            "openwiki/systems/enterprise-notification-service.md"
+          ],
+          "latency_ms": 59014,
+          "answer": "Scope: \"the Wire Tracking Center\" = the CBO Wire Center module (SYS-CBO), per current-state architecture doc CBO-ARCH-WC-4.1 (v4.1, approved, last reviewed 2026-08-20, owner Lucas Ferreira). System owners: business owner Marcus Chen; technical co-owners Tom Becker & Lucas Ferreira (CBO Wire Center squad), under Anjali Deshpande (Dir., Digital Treasury Channels Engineering).\n\nDEPENDENCIES IT ACTUALLY HAS TODAY (what cbo-wire-bff calls live):\n1. PRISM Payments Hub (PPH) \u2014 v1 Wire Status API (EP-PPH-01/02/03) \u2014 owner: Payments Hub Engineering. Submission, activity list, status lookup. Note: PPH v1 is deprecated, sunset 2027-03-31 (no extensions); the v2 migration (CBO-4471) is unscheduled.\n2. Commercial Entitlements Service (CES, EP-CES-01) \u2014 owner: CBO Platform & Entitlements (EM Nadia Haddad, Tech Lead Arjun Mehta). Authorization/account filtering.\n3. CBO Auth Step-Up API (EP-AUTH-01) \u2014 owning platform is named only as \"CBO Auth\" in the wiki; no specific team/person is documented beyond that. Gates wire release.\n4. Enterprise Notification Service (ENS, EP-ENS-01) \u2014 owner: Enterprise Notification Platform (Director Sanjay Iyer). Produces TRS.WIRE.* notifications.\n\nTRANSITIVE (systems PPH itself depends on, not called by Wire Center directly): Core Deposit Platform (owner: Deposits Data Ownership), Fedwire Funds Connector (owner: Payment Networks Engineering), Hold Management Service/HMS (owner: Financial Crimes Technology), Swift gpi Connector (owner: Global Transaction Services Integration/GTSI).\n\nGAPS \u2014 systems your FC-02/03/04 assumptions rely on that Wire Center does NOT integrate with today (flag these for the BRD):\n- gpi/live route (FC-02): Swift gpi status is currently visible only to Payment Operations via the Investigations Workbench (per spike CBO-4480); there is no path to Wire Center clients today. The gpi feed itself is owned by GTSI (Swift gpi Connector), separate from Payment Networks Engineering, which ran the spike.\n- Held-wire exact reason (FC-03): PPH v1's holdReasonDesc exists but is not surfaced to CBO; the true source of review reasons is the Hold Management Service (owner: Financial Crimes Technology), and ADR-PAY-021 (\"Hold Reason Confidentiality\") constrains what can be shown to clients.\n- Insights (FC-04): your assumption that insights can be computed in the CBO wire BFF conflicts with ADR-PAY-026, which requires client-facing analytics to be served via the TDIP Insights API (owner: Treasury Data & Insights Platform), not computed locally in a channel BFF. TDIP's only GA endpoint today is cash-forecast; no wire-history/corridor-insights endpoint exists yet.\n- CBO Status Projection Service (SPS, owner: CBO Platform & Entitlements) is ACH-only today; not wired for wires despite being the natural basis for a FC-01-style timeline.\n\nNet: Wire Center's actual current dependency set is PPH v1, CES, CBO Auth, and ENS, each with a different owning team than the systems FC-02/03/04 assume access to (gpi/GTSI, HMS/FCT, TDIP). These are the teams to engage before finalizing BRD scope and estimates.</answer>\n<parameter name=\"confidence\">high",
+          "corrected_answer": "Scope: \"the Wire Tracking Center\" = the CBO Wire Center module (SYS-CBO), per current-state architecture doc CBO-ARCH-WC-4.1 (v4.1, approved, last reviewed 2026-08-20, owner Lucas Ferreira). System owners: business owner Marcus Chen; technical co-owners Tom Becker & Lucas Ferreira (CBO Wire Center squad), under Anjali Deshpande (Dir., Digital Treasury Channels Engineering).\n\nDEPENDENCIES IT ACTUALLY HAS TODAY (what cbo-wire-bff calls live):\n1. PRISM Payments Hub (PPH) \u2014 v1 Wire Status API (EP-PPH-01/02/03) \u2014 owner: Payments Hub Engineering. Submission, activity list, status lookup. Note: PPH v1 is deprecated, sunset 2027-03-31 (no extensions); the v2 migration (CBO-4471) is unscheduled.\n2. Commercial Entitlements Service (CES, EP-CES-01) \u2014 owner: CBO Platform & Entitlements (EM Nadia Haddad, Tech Lead Arjun Mehta). Authorization/account filtering.\n3. CBO Auth Step-Up API (EP-AUTH-01) \u2014 owning platform is named only as \"CBO Auth\" in the wiki; no specific team/person is documented beyond that. Gates wire release.\n4. Enterprise Notification Service (ENS, EP-ENS-01) \u2014 owner: Enterprise Notification Platform (Director Sanjay Iyer). Produces TRS.WIRE.* notifications.\n\nTRANSITIVE (systems PPH itself depends on, not called by Wire Center directly): Core Deposit Platform (owner: Deposits Data Ownership), Fedwire Funds Connector (owner: Payment Networks Engineering), Hold Management Service/HMS (owner: Financial Crimes Technology), Swift gpi Connector (owner: Global Transaction Services Integration/GTSI).\n\nGAPS \u2014 systems your FC-02/03/04 assumptions rely on that Wire Center does NOT integrate with today (flag these for the BRD):\n- gpi/live route (FC-02): Swift gpi status is currently visible only to Payment Operations via the Investigations Workbench (per spike CBO-4480); there is no path to Wire Center clients today. The gpi feed itself is owned by GTSI (Swift gpi Connector), separate from Payment Networks Engineering, which ran the spike.\n- Held-wire exact reason (FC-03): PPH v1's holdReasonDesc exists but is not surfaced to CBO; the true source of review reasons is the Hold Management Service (owner: Financial Crimes Technology), and ADR-PAY-021 (\"Hold Reason Confidentiality\") constrains what can be shown to clients.\n- Insights (FC-04): your assumption that insights can be computed in the CBO wire BFF conflicts with ADR-PAY-026, which requires client-facing analytics to be served via the TDIP Insights API (owner: Treasury Data & Insights Platform), not computed locally in a channel BFF. TDIP's only GA endpoint today is cash-forecast; no wire-history/corridor-insights endpoint exists yet.\n- CBO Status Projection Service (SPS, owner: CBO Platform & Entitlements) is ACH-only today; not wired for wires despite being the natural basis for a FC-01-style timeline.\n\nNet: Wire Center's actual current dependency set is PPH v1, CES, CBO Auth, and ENS, each with a different owning team than the systems FC-02/03/04 assume access to (gpi/GTSI, HMS/FCT, TDIP). These are the teams to engage before finalizing BRD scope and estimates.</answer>\n<parameter name=\"confidence\">high",
+          "facts_pre": [
+            {
+              "fact_id": "Q1-SYS-PPH",
+              "desc": "dependency: PRISM Payments Hub (PPH)",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-FFC",
+              "desc": "dependency: Fedwire Funds Connector (FFC)",
+              "present": true,
+              "data_used": false,
+              "contradicts_graph": false,
+              "verified_good": false,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-GPI",
+              "desc": "dependency: Swift gpi Connector",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-HMS",
+              "desc": "dependency: Hold Management Service (HMS)",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-ENS",
+              "desc": "dependency: Enterprise Notification Service (ENS)",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-CES",
+              "desc": "dependency: Commercial Entitlements Service (CES)",
+              "present": true,
+              "data_used": false,
+              "contradicts_graph": false,
+              "verified_good": false,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-CDP",
+              "desc": "dependency: Core Deposit Platform (CDP)",
+              "present": true,
+              "data_used": false,
+              "contradicts_graph": false,
+              "verified_good": false,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-GPI-OWNER",
+              "desc": "gpi connector current owner is GTSI (not PNE/Raj Malhotra)",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            }
+          ],
+          "facts_post": [
+            {
+              "fact_id": "Q1-SYS-PPH",
+              "desc": "dependency: PRISM Payments Hub (PPH)",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-FFC",
+              "desc": "dependency: Fedwire Funds Connector (FFC)",
+              "present": true,
+              "data_used": false,
+              "contradicts_graph": false,
+              "verified_good": false,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-GPI",
+              "desc": "dependency: Swift gpi Connector",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-HMS",
+              "desc": "dependency: Hold Management Service (HMS)",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-ENS",
+              "desc": "dependency: Enterprise Notification Service (ENS)",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-CES",
+              "desc": "dependency: Commercial Entitlements Service (CES)",
+              "present": true,
+              "data_used": false,
+              "contradicts_graph": false,
+              "verified_good": false,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-SYS-CDP",
+              "desc": "dependency: Core Deposit Platform (CDP)",
+              "present": true,
+              "data_used": false,
+              "contradicts_graph": false,
+              "verified_good": false,
+              "filled": false
+            },
+            {
+              "fact_id": "Q1-GPI-OWNER",
+              "desc": "gpi connector current owner is GTSI (not PNE/Raj Malhotra)",
+              "present": true,
+              "data_used": true,
+              "contradicts_graph": false,
+              "verified_good": true,
+              "filled": false
+            }
+          ],
+          "corrections": [],
+          "coverage_pre": 1.0,
+          "coverage_post": 1.0,
+          "data_used_pct": 0.625,
+          "contradictions": 0
+        }
+      ]
+    }
+  ]
+}
